@@ -348,6 +348,7 @@ GameObject:
   - component: {fileID: 1308985889}
   - component: {fileID: 1308985888}
   - component: {fileID: 1308985890}
+  - component: {fileID: 1308985891}
   m_Layer: 5
   m_Name: GameUI
   m_TagString: Untagged
@@ -405,8 +406,8 @@ MonoBehaviour:
     Min: 10
     Max: 99
   _operator: 43
-  timePerQuestion: 30
-  maxQuestions: 10
+  timePerQuestion: 1
+  maxQuestions: 3
 --- !u!114 &1308985889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -435,6 +436,19 @@ MonoBehaviour:
   buttonWidth: 100
   buttonHeight: 100
   buttonSpacing: 15
+--- !u!114 &1308985891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308985885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a40d19177c7f2f46b1647ed4939e5db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _defaultUSS: {fileID: 7433441132597879392, guid: ae7773db0acb0794a9215abf44805f6b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

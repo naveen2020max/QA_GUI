@@ -9,6 +9,7 @@ public class ProblemMaster : MonoBehaviour
     public event Action<MathResult> OnResultRecorded;
     public event Action<float> OnTimerUpdate;
     public event Action<int> OnQuestionChange;
+    public event Action OnLevelComplete;
 
     private MathProblemProcessor _mathProblemProcessor;
     private RandomMathProblemGenerator _randomMathProblemGenerator;
@@ -23,6 +24,7 @@ public class ProblemMaster : MonoBehaviour
 
     private int currentQuestionNumber = 0;
     private float timer;
+    private bool isLevelComplete = false;
 
     // Expose current solution (if available) for validation elsewhere
     public MathSolution CurrentSolution => _solutionStack.Count > 0 ? _solutionStack.Peek() : default;
@@ -76,17 +78,28 @@ public class ProblemMaster : MonoBehaviour
 
     private void Update()
     {
+        if (isLevelComplete) return;
         // Only update the timer if we haven't reached the max number of questions
         if (currentQuestionNumber < maxQuestions)
         {
             timer -= Time.deltaTime;
-            OnTimerUpdate(timer);
+            OnTimerUpdate?.Invoke(timer);
             if (timer <= 0f)
             {
                 Debug.Log("Time's up for the current question.");
                 // Optionally record a default result for unanswered question here
                 RecordResult(0f);
                 CreateNewProblem();
+            }
+        }
+        else
+        {
+            if (!isLevelComplete)
+            {
+                Debug.Log("Max questions reached.");
+                // Optionally, trigger a game-over or session-complete event here.
+                OnLevelComplete?.Invoke();
+                isLevelComplete = true;
             }
         }
     }
@@ -115,6 +128,12 @@ public class ProblemMaster : MonoBehaviour
     
     public MathResult RecordResult(float ans)
     {
+        if (_solutionStack.Count == 0)
+        {
+            Debug.LogError("No solution available. Cannot record result.");
+            return default; // Return a default/empty result
+        }
+
         // Create a new result using the latest solution and the user's answer
         MathResult res = new MathResult(_solutionStack.Peek(), ans);
         _resultStack.Push(res);

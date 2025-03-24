@@ -1,0 +1,29 @@
+/* PopupStyles.uss */
+.popup-container {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    top: 35%;
+    left: 25%;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.popup-message {
+    color: white;
+    unity-text-align: middle-center;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.popup-close-button {
+    width: 200px;
+    height: 60px;
+    align-self: center;
+    /* Additional button styling here */
+}

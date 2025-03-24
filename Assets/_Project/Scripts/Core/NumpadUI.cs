@@ -36,8 +36,8 @@ public class NumpadUI : MonoBehaviour
                 justifyContent = Justify.Center,
                 alignItems = Align.Center,
                 alignSelf = Align.Center,
-                width = containerWidth,
-                height = containerHeight,
+                width = containerWidth, // 3 columns
+                height = containerHeight, // 4 rows
                 backgroundColor = new Color(0.9f, 0.9f, 0.9f, 1),
                 marginTop = buttonSpacing
             }
@@ -49,11 +49,42 @@ public class NumpadUI : MonoBehaviour
             AddNumpadButton(numpadContainer, i.ToString());
         }
 
+        // Fourth row (., 0, <)
+        var row4 = new VisualElement
+        {
+            style =
+            {
+                flexDirection = FlexDirection.Row,
+                justifyContent = Justify.Center,
+                width = Length.Percent(100)
+            }
+        };
+
+        // Add DECIMAL BUTTON (disabled)
+        Button decimalButton = new Button
+        {
+            text = ".",
+            style =
+            {
+                width = buttonWidth,
+                height = buttonHeight,
+                marginRight = buttonSpacing,
+                marginBottom = buttonSpacing,
+                backgroundColor = Color.white,
+                unityTextAlign = TextAnchor.MiddleCenter,
+                fontSize = 20
+            }
+        };
+        decimalButton.SetEnabled(false); // Disable the button
+        row4.Add(decimalButton);
+
         // Add the 0 button
-        AddNumpadButton(numpadContainer, "0");
+        AddNumpadButton(row4, "0");
 
         // Add the backspace button
-        AddBackspaceButton(numpadContainer);
+        AddBackspaceButton(row4);
+
+        numpadContainer.Add(row4);
 
         // Add the numpad to the root
         uiManager.AddNumpadUIToContainer(numpadContainer);
