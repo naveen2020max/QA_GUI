@@ -26,6 +26,9 @@ public class ProblemMaster : MonoBehaviour
     private float timer;
     private bool isLevelComplete = false;
 
+    public float TimePerQuestion { get => timePerQuestion;  }
+    public int MaxQuestions { get => maxQuestions; }
+
     // Expose current solution (if available) for validation elsewhere
     public MathSolution CurrentSolution => _solutionStack.Count > 0 ? _solutionStack.Peek() : default;
 
@@ -83,7 +86,7 @@ public class ProblemMaster : MonoBehaviour
         if (currentQuestionNumber < maxQuestions)
         {
             timer -= Time.deltaTime;
-            OnTimerUpdate?.Invoke(timer);
+            //OnTimerUpdate?.Invoke(timer);
             if (timer <= 0f)
             {
                 Debug.Log("Time's up for the current question.");
@@ -98,7 +101,7 @@ public class ProblemMaster : MonoBehaviour
             {
                 Debug.Log("Max questions reached.");
                 // Optionally, trigger a game-over or session-complete event here.
-                OnLevelComplete?.Invoke();
+                //OnLevelComplete?.Invoke();
                 isLevelComplete = true;
             }
         }
@@ -110,8 +113,8 @@ public class ProblemMaster : MonoBehaviour
         {
             currentQuestionNumber++;
             timer = timePerQuestion; // Reset the timer for the new question
-            OnQuestionChange(currentQuestionNumber);
-            OnTimerUpdate(timer);
+            //OnQuestionChange(currentQuestionNumber);
+            //OnTimerUpdate(timer);
             // Generate a new problem
             var problem = _randomMathProblemGenerator.CreateProblem();
 

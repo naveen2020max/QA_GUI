@@ -5,9 +5,14 @@ public class QAMainUI : MonoBehaviour
 {
     [SerializeField] private UIDocument uiDocument;
     [SerializeField] private StyleSheet uiStyleSheet;
+    [SerializeField] private ProblemMaster problemMaster;
 
+    private ProblemViewModel viewModel;
+
+    // UI Element references
     private VisualElement _container;
     private Label _heading;
+    private VisualElement _levelState;
     private Label _timerLabel;
     private Label _currQuestionLabel;
     private Label _questionText;
@@ -17,14 +22,17 @@ public class QAMainUI : MonoBehaviour
     private Label _feedbackText;
     private Button _nextQuestionButton;
 
-    private void Start()
+    private void OnEnable()
     {
+        if(problemMaster == null) problemMaster = GetComponent<ProblemMaster>();
+
         Generate();
+        CreateProblemViewModel();
     }
 
     private void OnValidate()
     {
-        if(Application.isPlaying)
+        if (Application.isPlaying)
         {
             return;
         }
@@ -35,121 +43,70 @@ public class QAMainUI : MonoBehaviour
     {
         if (uiDocument == null)
         {
-            Debug.LogError("UIDocument is missing. Please assign it in the Inspector.");
+            Debug.LogError("UIDocument is not assigned.");
             return;
         }
 
         VisualElement root = uiDocument.rootVisualElement;
-
-        // Apply stylesheet
-        if (uiStyleSheet != null)
+        root.Clear();
+        // Apply the external stylesheet
+        if (uiStyleSheet != null && !root.styleSheets.Contains(uiStyleSheet))
         {
             root.styleSheets.Add(uiStyleSheet);
         }
 
-        // Main container
-        _container = new VisualElement
-        {
-            name = "Container"
-        };
-        _container.style.flexGrow = 1;
-        _container.style.backgroundColor = new Color(1f, 1f, 1f);
-        _container.style.width = Length.Percent(75);
-        _container.style.height = Length.Percent(100);
-        _container.style.flexDirection = FlexDirection.Column;
-        _container.style.paddingTop = 20;
-        _container.style.paddingBottom = 20;
-        _container.style.paddingLeft = 20;
-        _container.style.paddingRight = 20;
+        // Build the UI structure
 
-        // Heading Label
-        _heading = new Label("Addition +")
-        {
-            name = "Heading"
-        };
+        // Create Container
+        _container = new VisualElement { name = "Container" };
+        _container.AddToClassList("container");
+
+        // Create Heading
+        _heading = new Label("Addition +") { name = "Heading" };
         _heading.AddToClassList("Question");
 
-        // LevelState container
-        VisualElement levelState = new VisualElement
-        {
-            name = "LevelState"
-        };
-        levelState.style.flexGrow = 0;
-        levelState.style.height = Length.Percent(5);
-        levelState.style.width = Length.Percent(100);
-        levelState.style.flexDirection = FlexDirection.Row;
-        levelState.style.justifyContent = Justify.SpaceBetween;
-        levelState.style.alignItems = Align.Center;
+        // Create LevelState container
+        _levelState = new VisualElement { name = "LevelState" };
+        _levelState.AddToClassList("level-state");
 
-        // Timer Label
-        _timerLabel = new Label("Time: 00:00")
-        {
-            name = "Timer"
-        };
+        // Create Timer Label inside LevelState
+        _timerLabel = new Label("Label") { name = "Timer" };
         _timerLabel.AddToClassList("Question");
 
-        // Current Question Label
-        _currQuestionLabel = new Label("Question: 1")
-        {
-            name = "CurrQuestion"
-        };
+        // Create Current Question Label inside LevelState
+        _currQuestionLabel = new Label("Label") { name = "CurrQuestion" };
         _currQuestionLabel.AddToClassList("Question");
 
-        // Add timer and question number to LevelState
-        levelState.Add(_timerLabel);
-        levelState.Add(_currQuestionLabel);
+        _levelState.Add(_timerLabel);
+        _levelState.Add(_currQuestionLabel);
 
-        // Question Text
-        _questionText = new Label("What is 5 + 3?")
-        {
-            name = "QuestionText"
-        };
+        // Create Question Text
+        _questionText = new Label("Label") { name = "QuestionText" };
         _questionText.AddToClassList("Question");
 
-        // Answer Text
-        _answerText = new Label("Your Answer:")
-        {
-            name = "AnswerText"
-        };
+        // Create Answer Text
+        _answerText = new Label("Label") { name = "AnswerText" };
         _answerText.AddToClassList("Question");
 
-        // Answer Field
-        _answerField = new FloatField
-        {
-            name = "AnswerField"
-        };
-        _answerField.style.width = 370;
-        _answerField.style.height = 140;
-        _answerField.style.alignSelf = Align.Center;
+        // Create Answer Field
+        _answerField = new FloatField { name = "AnswerField" };
+        _answerField.AddToClassList("answer-field");
 
-        // Submit Button
-        _submitButton = new Button
-        {
-            text = "Submit",
-            name = "Submit"
-        };
+        // Create Submit Button
+        _submitButton = new Button { text = "Submit", name = "Submit" };
         _submitButton.AddToClassList("CommonButton");
 
-        // Feedback Text
-        _feedbackText = new Label("")
-        {
-            name = "FeedbackText"
-        };
-        _feedbackText.style.alignSelf = Align.Center;
-        _feedbackText.style.visibility = Visibility.Hidden;
+        // Create Feedback Text
+        _feedbackText = new Label("Label") { name = "FeedbackText" };
+        _feedbackText.AddToClassList("Question");
 
-        // Next Question Button
-        _nextQuestionButton = new Button
-        {
-            text = "Next Question",
-            name = "NextQuestion"
-        };
+        // Create Next Question Button
+        _nextQuestionButton = new Button { text = "Next Question", name = "NextQuestion" };
         _nextQuestionButton.AddToClassList("CommonButton");
-        _nextQuestionButton.style.display = DisplayStyle.None;
 
-        // Add elements to container
+        // Add UI elements to container in order
         _container.Add(_heading);
-        _container.Add(levelState);
+        _container.Add(_levelState);
         _container.Add(_questionText);
         _container.Add(_answerText);
         _container.Add(_answerField);
@@ -157,25 +114,68 @@ public class QAMainUI : MonoBehaviour
         _container.Add(_feedbackText);
         _container.Add(_nextQuestionButton);
 
-        // Add container to the root UI
+        // Finally, add the container to the root element
         root.Add(_container);
 
-        // Event handlers
+        // (Optional) Add event handlers as needed:
         _submitButton.clicked += OnSubmitClicked;
-        _nextQuestionButton.clicked += OnNextQuestionClicked;
+        _nextQuestionButton.clicked += () => Debug.Log("Next Question button clicked");
+    }
+
+    private void CreateProblemViewModel()
+    {
+        if (problemMaster == null)
+        {
+            Debug.LogError("ProblemMaster is not assigned.");
+            return;
+        }
+        viewModel = new ProblemViewModel(problemMaster, problemMaster.MaxQuestions, problemMaster.TimePerQuestion);
+        viewModel.OnProblemUpdated += UpdateProblemUI;
+        viewModel.OnTimerUpdated += UpdateTimerUI;
+        viewModel.OnFeedbackUpdated += UpdateFeedbackUI;
+        viewModel.OnQuestionNumberUpdated += UpdateQuestionNumberUI;
+    }
+
+    private void OnDisable()
+    {
+        viewModel?.Dispose();
+    }
+
+    private void Update()
+    {
+        // Update the timer in the ViewModel
+        viewModel?.UpdateTimer(Time.deltaTime);
+    }
+
+    private void UpdateProblemUI()
+    {
+        // Update the question label based on the current problem
+        if (viewModel != null)
+        {
+            _questionText.text = $"{viewModel.CurrentProblem.Number1} {viewModel.CurrentProblem.Operator} {viewModel.CurrentProblem.Number2}";
+        }
+    }
+
+    private void UpdateTimerUI()
+    {
+        _timerLabel.text = $"Time: {Mathf.CeilToInt(viewModel.Timer)}";
+    }
+
+    private void UpdateFeedbackUI(string feedback)
+    {
+        _feedbackText.text = feedback;
+    }
+
+    private void UpdateQuestionNumberUI()
+    {
+        _currQuestionLabel.text = $"Question: {viewModel.CurrentQuestionNumber}";
     }
 
     private void OnSubmitClicked()
     {
-        Debug.Log($"Submitted Answer: {_answerField.value}");
-        _feedbackText.text = "Checking...";
-        _feedbackText.style.visibility = Visibility.Visible;
-    }
-
-    private void OnNextQuestionClicked()
-    {
-        Debug.Log("Next question triggered.");
-        _feedbackText.style.visibility = Visibility.Hidden;
-        _nextQuestionButton.style.display = DisplayStyle.None;
+        // Instead of accessing ProblemMaster directly, you would have the ViewModel handle the submission logic.
+        // For instance, you might pass the user's answer to the model through the ViewModel here.
+        Debug.Log("Submit button clicked - forwarding answer processing via ViewModel.");
+        // Example: viewModel.ProcessUserAnswer(answerValue);
     }
 }

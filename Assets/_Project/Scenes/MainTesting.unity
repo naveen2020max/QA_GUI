@@ -349,6 +349,7 @@ GameObject:
   - component: {fileID: 1308985888}
   - component: {fileID: 1308985890}
   - component: {fileID: 1308985891}
+  - component: {fileID: 1308985892}
   m_Layer: 5
   m_Name: GameUI
   m_TagString: Untagged
@@ -370,7 +371,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: dc0c306a9688d164b9eb5e1ec01a1915, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: 03ed4fd9496f7414fa4990496aed362d, type: 3}
+  sourceAsset: {fileID: 0}
   m_SortingOrder: 0
   m_WorldSpaceSizeMode: 1
   m_WorldSpaceWidth: 1920
@@ -406,7 +407,7 @@ MonoBehaviour:
     Min: 10
     Max: 99
   _operator: 43
-  timePerQuestion: 1
+  timePerQuestion: 30
   maxQuestions: 3
 --- !u!114 &1308985889
 MonoBehaviour:
@@ -449,6 +450,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _defaultUSS: {fileID: 7433441132597879392, guid: ae7773db0acb0794a9215abf44805f6b, type: 3}
+--- !u!114 &1308985892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308985885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43123a6c29b4b7448f32c8b7e3128e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDocument: {fileID: 1308985886}
+  uiStyleSheet: {fileID: 7433441132597879392, guid: b665c17b314cb2641a02613c21c94a69, type: 3}
+  problemMaster: {fileID: 1308985888}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

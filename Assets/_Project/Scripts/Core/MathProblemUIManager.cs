@@ -32,7 +32,7 @@ public class MathProblemUIManager : MonoBehaviour
         problemMaster = GetComponent<ProblemMaster>();
     }
     
-    private void OnEnable()
+    private void Start()
     {
         questionText = root.Q<Label>("QuestionText");
         answerText = root.Q<Label>("AnswerText");
