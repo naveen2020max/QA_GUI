@@ -46,7 +46,7 @@ public class ProblemMaster : MonoBehaviour
         _randomMathProblemGenerator = new RandomMathProblemGenerator(_range, _operator, problem =>
         {
             // Trigger the OnProblemGenerated event
-            OnProblemGenerated?.Invoke(problem);
+            //OnProblemGenerated?.Invoke(problem);
             // Process the problem
             _mathProblemProcessor.ProcessProblem(problem);
         });
@@ -81,6 +81,7 @@ public class ProblemMaster : MonoBehaviour
 
     private void Update()
     {
+        return;
         if (isLevelComplete) return;
         // Only update the timer if we haven't reached the max number of questions
         if (currentQuestionNumber < maxQuestions)
@@ -105,6 +106,23 @@ public class ProblemMaster : MonoBehaviour
                 isLevelComplete = true;
             }
         }
+    }
+
+    public void HandleTimeUp()
+    {
+        // Handle the time-up event here
+        Debug.Log("Time's up for the current question.");
+        // Optionally record a default result for unanswered question here
+        RecordResult(0f);
+        CreateNewProblem();
+    }
+
+    public void HandleLevelComplete()
+    {
+        // Handle the level completion event here
+        Debug.Log("Level complete.");
+        isLevelComplete = true;
+        OnLevelComplete?.Invoke();
     }
 
     public void CreateNewProblem()

@@ -407,7 +407,7 @@ MonoBehaviour:
     Min: 10
     Max: 99
   _operator: 43
-  timePerQuestion: 30
+  timePerQuestion: 9
   maxQuestions: 3
 --- !u!114 &1308985889
 MonoBehaviour:
@@ -465,6 +465,7 @@ MonoBehaviour:
   uiDocument: {fileID: 1308985886}
   uiStyleSheet: {fileID: 7433441132597879392, guid: b665c17b314cb2641a02613c21c94a69, type: 3}
   problemMaster: {fileID: 1308985888}
+  problemUIManager: {fileID: 1308985889}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

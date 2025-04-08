@@ -13,7 +13,7 @@ public class MathProblemUIManager : MonoBehaviour
 
     //UI Elements
     private VisualElement root;
-
+    private VisualElement container;
     private Label questionText, answerText;
     private Button newProblemButton, submitButton;
     private FloatField inputField;
@@ -22,6 +22,9 @@ public class MathProblemUIManager : MonoBehaviour
     private VisualElement levelState;
     private Label timer, currQuestion;
 
+    private ProblemViewModel viewModel;
+
+    public event Action<float> OnUpdateCalled;
     
     #endregion
 
@@ -32,55 +35,85 @@ public class MathProblemUIManager : MonoBehaviour
         problemMaster = GetComponent<ProblemMaster>();
     }
     
-    private void Start()
+    public void Initiation(QAMainUI mainui)
     {
-        questionText = root.Q<Label>("QuestionText");
-        answerText = root.Q<Label>("AnswerText");
-        inputField = root.Q<FloatField>("AnswerField");
-        feedBackText = root.Q<Label>("FeedbackText");
-        submitButton = root.Q<Button>("Submit");
-        timer = root.Q<Label>("Timer");
-        currQuestion = root.Q<Label>("CurrQuestion");
+        questionText = mainui.QuestionText;
+        answerText = mainui.AnswerText;
+        inputField = mainui.AnswerField;
+        feedBackText = mainui.FeedbackText;
+        submitButton = mainui.SubmitButton;
+        timer = mainui.TimerLabel;
+        currQuestion = mainui.CurrQuestionLabel;
 
-
+        container = mainui.Container;
         // Find and Add listener to the button
-        newProblemButton = root.Q<Button>("NextQuestion");
-        
+        newProblemButton = mainui.NextQuestionButton;
+
 
         newProblemButton.clicked += problemMaster.CreateNewProblem;
         newProblemButton.clicked += UISetUpForAnsweringQuestion;
 
         submitButton.clicked += SubmitButtonFunc;
         // Subscribe to the OnProblemGenerated event
-        problemMaster.OnProblemGenerated += UpdateProblemUI;
-        problemMaster.OnQuestionChange += UpdateQuestionID;
-        problemMaster.OnTimerUpdate += UpdateTimeText;
-        problemMaster.OnResultRecorded += UpdateUIElementsBasedOnResult;
+        //problemMaster.OnProblemGenerated += UpdateProblemUI;
+        //problemMaster.OnQuestionChange += UpdateQuestionID;
+        //problemMaster.OnTimerUpdate += UpdateTimeText;
+        //problemMaster.OnResultRecorded += UpdateUIElementsBasedOnResult;
         //UISetUpForAnsweringQuestion();
-
+        CreateProblemViewModel();
         SetDisplayAnswerTextOrField(UseTextForAnswer);
 
         answerText.text = "0";
 
     }
 
+    private void CreateProblemViewModel()
+    {
+        if (problemMaster == null)
+        {
+            Debug.LogError("ProblemMaster is not assigned.");
+            return;
+        }
+        viewModel = new ProblemViewModel(problemMaster);
+        viewModel.OnProblemUpdated += UpdateProblemUI;
+        viewModel.OnTimerUpdated += UpdateTimerUI;
+        viewModel.OnFeedbackUpdated += UpdateFeedbackUI;
+        viewModel.OnQuestionNumberUpdated += UpdateQuestionNumberUI;
+        viewModel.OnLevelComplete += OnLevelCompletedFunc;
+
+        OnUpdateCalled += viewModel.UpdateTimer;
+    }
+
     private void OnDisable()
     {
+        viewModel?.Dispose();
         // Unsubscribe from the event to avoid memory leaks
-        if (problemMaster != null)
-        {
-            problemMaster.OnProblemGenerated -= UpdateProblemUI;
-        }
+        
         newProblemButton.clicked -= problemMaster.CreateNewProblem;
         newProblemButton.clicked -= UISetUpForAnsweringQuestion;
 
         submitButton.clicked -= SubmitButtonFunc;
+        OnUpdateCalled -= viewModel.UpdateTimer;
 
-        problemMaster.OnProblemGenerated -= UpdateProblemUI;
-        problemMaster.OnQuestionChange -= UpdateQuestionID;
-        problemMaster.OnTimerUpdate -= UpdateTimeText;
-        problemMaster.OnResultRecorded -= UpdateUIElementsBasedOnResult;
+        //problemMaster.OnProblemGenerated -= UpdateProblemUI;
+        //problemMaster.OnQuestionChange -= UpdateQuestionID;
+        //problemMaster.OnTimerUpdate -= UpdateTimeText;
+        //problemMaster.OnResultRecorded -= UpdateUIElementsBasedOnResult;
 
+    }
+
+    private void Update()
+    {
+        // Update the timer in the ViewModel
+        OnUpdateCalled?.Invoke(Time.deltaTime);
+    }
+
+    private void OnLevelCompletedFunc()
+    {
+        // Handle level completion logic here
+        Debug.Log("Level Completed! from Math Problem UI Manager");
+        // You can also trigger any UI updates or transitions here.
+        OnUpdateCalled -= viewModel.UpdateTimer;
     }
 
     private void UpdateQuestionID(int id)
@@ -93,10 +126,28 @@ public class MathProblemUIManager : MonoBehaviour
         timer.text = ((int)t).ToString();
     }
 
-    private void UpdateProblemUI(MathProblem problem)
+    private void UpdateProblemUI()
     {
-        // Update the problem text on the UI
-        questionText.text = $"{problem.Number1} {problem.Operator} {problem.Number2}";
+        // Update the question label based on the current problem
+        if (viewModel != null)
+        {
+            questionText.text = $"{viewModel.CurrentProblem.Number1} {viewModel.CurrentProblem.Operator} {viewModel.CurrentProblem.Number2}";
+        }
+    }
+
+    private void UpdateTimerUI()
+    {
+        timer.text = $"Time: {Mathf.CeilToInt(viewModel.Timer)}";
+    }
+
+    private void UpdateFeedbackUI(string feedback)
+    {
+        feedBackText.text = feedback;
+    }
+
+    private void UpdateQuestionNumberUI()
+    {
+        currQuestion.text = $"Question: {viewModel.CurrentQuestionNumber}";
     }
 
     public void UpdateAnswer(string str){
@@ -176,7 +227,7 @@ public class MathProblemUIManager : MonoBehaviour
     // self-explanatory
     public void AddNumpadUIToContainer(VisualElement ve)
     {
-        VisualElement container = root.Q<VisualElement>("Container");
+        //VisualElement container = root.Q<VisualElement>("Container");
         container.Insert(container.IndexOf(submitButton), ve);
         numpad = ve;
         UISetUpForAnsweringQuestion();
@@ -240,8 +291,8 @@ public class MathProblemUIManager : MonoBehaviour
     // if it is wrong only change feedback and floatfield value to 0
     private void SubmitButtonFunc()
     {
-        problemMaster.RecordResult(GetAnswerValue());
-        //UpdateUIElementsBasedOnResult(result);
+        MathResult result = problemMaster.RecordResult(GetAnswerValue());
+        UpdateUIElementsBasedOnResult(result);
 
     }
 

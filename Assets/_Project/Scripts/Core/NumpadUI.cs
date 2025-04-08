@@ -16,7 +16,7 @@ public class NumpadUI : MonoBehaviour
         uiManager = GetComponent<MathProblemUIManager>();
     }
 
-    private void OnEnable()
+    private void Start()
     {
         // Get the root VisualElement
         root = GetComponent<UIDocument>().rootVisualElement;

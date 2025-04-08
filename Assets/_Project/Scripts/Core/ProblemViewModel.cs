@@ -9,7 +9,8 @@ public class ProblemViewModel : IDisposable
 {
     // Events to notify the View about property changes.
     public event Action OnProblemUpdated;
-    public event Action OnTimerUpdated;
+    public event Action OnTimerUpdated, OnTimeUp;
+    public event Action OnLevelComplete;
     public event Action OnQuestionNumberUpdated;
     public event Action<string> OnFeedbackUpdated;
 
@@ -17,6 +18,7 @@ public class ProblemViewModel : IDisposable
     private float _timer;
     private int _currentQuestionNumber;
     private int _maxQuestions;
+    private bool _isLevelComplete;
 
     // Exposed properties
     public MathProblem CurrentProblem { get; private set; }
@@ -48,22 +50,28 @@ public class ProblemViewModel : IDisposable
         private set => _maxQuestions = value;
     }
 
+    public bool IsLevelComplete => CurrentQuestionNumber >= MaxQuestions;
+
     /// <summary>
     /// Initializes the ViewModel with a reference to the ProblemMaster, max question count, and initial timer value.
     /// </summary>
     /// <param name="problemMaster">Reference to the model manager.</param>
     /// <param name="maxQuestions">Total number of questions for the session.</param>
     /// <param name="initialTimer">Initial time per question.</param>
-    public ProblemViewModel(ProblemMaster problemMaster, int maxQuestions, float initialTimer)
+    public ProblemViewModel(ProblemMaster problemMaster)
     {
         _problemMaster = problemMaster;
-        MaxQuestions = maxQuestions;
-        Timer = initialTimer;
+        MaxQuestions = problemMaster.MaxQuestions;
+        Timer = problemMaster.TimePerQuestion;
         CurrentQuestionNumber = 0;
 
         // Subscribe to model events.
         _problemMaster.OnProblemGenerated += HandleProblemGenerated;
         _problemMaster.OnResultRecorded += HandleResultRecorded;
+
+        // Subscribe to ViewModel events.
+        OnTimeUp += _problemMaster.HandleTimeUp;
+        OnLevelComplete += _problemMaster.HandleLevelComplete;
     }
 
     /// <summary>
@@ -72,6 +80,7 @@ public class ProblemViewModel : IDisposable
     /// <param name="problem">The newly generated MathProblem.</param>
     private void HandleProblemGenerated(MathProblem problem)
     {
+        Debug.Log($"New Problem Generated: {problem}");
         CurrentProblem = problem;
         CurrentQuestionNumber++;
         OnProblemUpdated?.Invoke();
@@ -96,7 +105,20 @@ public class ProblemViewModel : IDisposable
     /// <param name="deltaTime">Time elapsed since the last update.</param>
     public void UpdateTimer(float deltaTime)
     {
+        if(_isLevelComplete) return; // Skip if the level is already complete
         Timer = Mathf.Max(0, Timer - deltaTime);
+        if(Timer <= 0)
+        {
+            if(!IsLevelComplete)
+                OnTimeUp?.Invoke();
+            else
+            {
+                OnLevelComplete?.Invoke();
+                _isLevelComplete = true; // Mark the level as complete
+                Dispose();
+            }
+            ResetTimer(_problemMaster.TimePerQuestion); // Reset timer for the next question
+        }
     }
 
     /// <summary>
@@ -115,5 +137,30 @@ public class ProblemViewModel : IDisposable
     {
         _problemMaster.OnProblemGenerated -= HandleProblemGenerated;
         _problemMaster.OnResultRecorded -= HandleResultRecorded;
+
+        OnTimeUp -= _problemMaster.HandleTimeUp;
+        //OnLevelComplete -= _problemMaster.HandleLevelComplete;
+        CleanUpAllEvent();
+    }
+
+    private void CleanUpAllEvent()
+    {
+        CleanUpEvent(OnProblemUpdated);
+        CleanUpEvent(OnTimerUpdated);
+        CleanUpEvent(OnTimeUp);
+        CleanUpEvent(OnLevelComplete);
+        CleanUpEvent(OnQuestionNumberUpdated);
+        //CleanUpEvent(OnFeedbackUpdated);
+    }
+
+    private void CleanUpEvent(Action action)
+    {
+        if (action != null)
+        {
+            foreach (var d in action.GetInvocationList())
+            {
+                action -= (Action)d;
+            }
+        }
     }
 }
