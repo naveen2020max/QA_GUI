@@ -1,6 +1,15 @@
 using System;
 using UnityEngine;
 
+public enum ResultType
+{
+    None,
+    Correct,
+    Incorrect,
+    TimeUp,
+    LastQuestionCorrect
+}
+
 /// <summary>
 /// ViewModel for managing the current math problem session.
 /// It bridges the ProblemMaster (Model) with the UI (View).
@@ -10,12 +19,17 @@ public class ProblemViewModel : IDisposable
     // Events to notify the View about property changes.
     public event Action OnProblemUpdated;
     public event Action OnTimerUpdated, OnTimeUp;
+   
     public event Action OnLevelComplete;
     public event Action OnQuestionNumberUpdated;
-    public event Action<string> OnFeedbackUpdated;
+    public event Action<string,Color> OnFeedbackUpdated;
+    public event Action<ResultType> OnResultSubmited;
+
+    public Func<float> InputAnswerValue;
 
     private ProblemMaster _problemMaster;
     private float _timer;
+    private bool _isTimerFrozen = false; // Flag to check if the timer is frozen
     private int _currentQuestionNumber;
     private int _maxQuestions;
     private bool _isLevelComplete;
@@ -50,6 +64,8 @@ public class ProblemViewModel : IDisposable
         private set => _maxQuestions = value;
     }
 
+    //public bool IsNextQuestionAvailable => CurrentQuestionNumber < MaxQuestions;
+
     public bool IsLevelComplete => CurrentQuestionNumber >= MaxQuestions;
 
     /// <summary>
@@ -68,6 +84,11 @@ public class ProblemViewModel : IDisposable
         // Subscribe to model events.
         _problemMaster.OnProblemGenerated += HandleProblemGenerated;
         _problemMaster.OnResultRecorded += HandleResultRecorded;
+
+        // *** Subscribe to Pause/Resume Requests ***
+        _problemMaster.RequestPauseTimer += PauseTimer; // Directly call the ViewModel's method
+        _problemMaster.RequestResumeTimer += ResumeTimer; // Directly call the ViewModel's method
+        // *****************************************
 
         // Subscribe to ViewModel events.
         OnTimeUp += _problemMaster.HandleTimeUp;
@@ -95,7 +116,9 @@ public class ProblemViewModel : IDisposable
         // For simplicity, we assume MathResult has a UserAnswer and a ProblemSolution property.
         // Compare user answer with the correct answer.
         bool isCorrect = Mathf.Approximately(result.InputAnswer, result.Solution.CorrectAnswer);
-        OnFeedbackUpdated?.Invoke(isCorrect ? "Correct Answer!" : "Incorrect Answer");
+        string fbMessage = isCorrect ? "Correct!" : "Incorrect!";
+        Color fbColor = isCorrect ? Color.green : Color.red;
+        OnFeedbackUpdated?.Invoke(fbMessage, fbColor);
     }
 
     /// <summary>
@@ -106,6 +129,7 @@ public class ProblemViewModel : IDisposable
     public void UpdateTimer(float deltaTime)
     {
         if(_isLevelComplete) return; // Skip if the level is already complete
+        if (_isTimerFrozen) return; // Skip if the timer is frozen
         Timer = Mathf.Max(0, Timer - deltaTime);
         if(Timer <= 0)
         {
@@ -135,8 +159,18 @@ public class ProblemViewModel : IDisposable
     /// </summary>
     public void Dispose()
     {
-        _problemMaster.OnProblemGenerated -= HandleProblemGenerated;
-        _problemMaster.OnResultRecorded -= HandleResultRecorded;
+        
+
+        // *** Unsubscribe from Pause/Resume Requests ***
+        if (_problemMaster != null) // Good practice to check for null
+        {
+            _problemMaster.OnProblemGenerated -= HandleProblemGenerated;
+            _problemMaster.OnResultRecorded -= HandleResultRecorded;
+
+            _problemMaster.RequestPauseTimer -= PauseTimer;
+            _problemMaster.RequestResumeTimer -= ResumeTimer;
+        }
+        // *****************************************
 
         OnTimeUp -= _problemMaster.HandleTimeUp;
         //OnLevelComplete -= _problemMaster.HandleLevelComplete;
@@ -161,6 +195,65 @@ public class ProblemViewModel : IDisposable
             {
                 action -= (Action)d;
             }
+        }
+    }
+
+    public void CreateNewMathProblem()
+    {
+        bool isProblemCreated = _problemMaster.TryCreateNewProblem();
+        if(!isProblemCreated) return;
+        ResumeTimer();
+        ResetTimer(_problemMaster.TimePerQuestion); // Reset timer for the next question
+    }
+
+    public void SubmitAnswer()
+    {
+        if (InputAnswerValue == null) return; // Ensure the delegate is not null
+        float userAnswer = InputAnswerValue.Invoke();
+        if (userAnswer == 0) return; // Optional: handle invalid input
+        MathResult result = _problemMaster.RecordResult(userAnswer);
+        ResultType resultType = ResultType.None;
+        if (result.IsAnsweredCorrect)
+        {
+            resultType = ResultType.Correct;
+            PauseTimer();
+            if (IsLevelComplete)
+            {
+                resultType = ResultType.LastQuestionCorrect;
+                OnLevelComplete?.Invoke();
+                _isLevelComplete = true; // Mark the level as complete
+                OnResultSubmited?.Invoke(resultType);
+                Dispose();
+            }
+        }
+        else
+        {
+            resultType = ResultType.Incorrect;
+        }
+        if (!IsLevelComplete) OnResultSubmited?.Invoke(resultType);
+        //HandleResultRecorded(result); // Call the handler directly for immediate feedback
+    }
+
+    private void SetTimeFreeze(bool freeze)
+    {
+        _isTimerFrozen = freeze;
+    }
+
+    public void PauseTimer()
+    {
+        if (!_isTimerFrozen) // Optional: prevent redundant logs/actions
+        {
+            _isTimerFrozen = true;
+            Debug.Log("ViewModel: Timer Paused");
+        }
+    }
+
+    public void ResumeTimer()
+    {
+        if (_isTimerFrozen) // Optional: prevent redundant logs/actions
+        {
+            _isTimerFrozen = false;
+            Debug.Log("ViewModel: Timer Resumed");
         }
     }
 }

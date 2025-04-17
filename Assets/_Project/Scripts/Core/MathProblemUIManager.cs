@@ -49,18 +49,18 @@ public class MathProblemUIManager : MonoBehaviour
         // Find and Add listener to the button
         newProblemButton = mainui.NextQuestionButton;
 
+        CreateProblemViewModel();
 
-        newProblemButton.clicked += problemMaster.CreateNewProblem;
+        newProblemButton.clicked += viewModel.CreateNewMathProblem;
         newProblemButton.clicked += UISetUpForAnsweringQuestion;
 
-        submitButton.clicked += SubmitButtonFunc;
+        
         // Subscribe to the OnProblemGenerated event
         //problemMaster.OnProblemGenerated += UpdateProblemUI;
         //problemMaster.OnQuestionChange += UpdateQuestionID;
         //problemMaster.OnTimerUpdate += UpdateTimeText;
         //problemMaster.OnResultRecorded += UpdateUIElementsBasedOnResult;
         //UISetUpForAnsweringQuestion();
-        CreateProblemViewModel();
         SetDisplayAnswerTextOrField(UseTextForAnswer);
 
         answerText.text = "0";
@@ -80,8 +80,11 @@ public class MathProblemUIManager : MonoBehaviour
         viewModel.OnFeedbackUpdated += UpdateFeedbackUI;
         viewModel.OnQuestionNumberUpdated += UpdateQuestionNumberUI;
         viewModel.OnLevelComplete += OnLevelCompletedFunc;
+        viewModel.InputAnswerValue = GetAnswerValue;
+        viewModel.OnResultSubmited += UpdateUIElementsBasedOnResult;
 
         OnUpdateCalled += viewModel.UpdateTimer;
+        submitButton.clicked += viewModel.SubmitAnswer;
     }
 
     private void OnDisable()
@@ -89,10 +92,10 @@ public class MathProblemUIManager : MonoBehaviour
         viewModel?.Dispose();
         // Unsubscribe from the event to avoid memory leaks
         
-        newProblemButton.clicked -= problemMaster.CreateNewProblem;
+        newProblemButton.clicked -= viewModel.CreateNewMathProblem;
         newProblemButton.clicked -= UISetUpForAnsweringQuestion;
 
-        submitButton.clicked -= SubmitButtonFunc;
+        submitButton.clicked -= viewModel.SubmitAnswer;
         OnUpdateCalled -= viewModel.UpdateTimer;
 
         //problemMaster.OnProblemGenerated -= UpdateProblemUI;
@@ -142,7 +145,13 @@ public class MathProblemUIManager : MonoBehaviour
 
     private void UpdateFeedbackUI(string feedback)
     {
+        UpdateFeedbackUI(feedback,Color.black);
+    }
+
+    private void UpdateFeedbackUI(string feedback,Color color)
+    {
         feedBackText.text = feedback;
+        feedBackText.style.color = color;
     }
 
     private void UpdateQuestionNumberUI()
@@ -289,25 +298,21 @@ public class MathProblemUIManager : MonoBehaviour
     // DONE need to do: delete onresultrecorded and get the value here from recordresult
     // and change display status only if the answer is correct 
     // if it is wrong only change feedback and floatfield value to 0
-    private void SubmitButtonFunc()
-    {
-        MathResult result = problemMaster.RecordResult(GetAnswerValue());
-        UpdateUIElementsBasedOnResult(result);
+    
 
-    }
-
-    private void UpdateUIElementsBasedOnResult(MathResult result)
+    private void UpdateUIElementsBasedOnResult(ResultType result)
     {
-        bool resultbool = result.IsAnsweredCorrect;
         ResetAnswerValue();
         SetVisualElementDisplayStyleFLEX(new VisualElement[] { feedBackText });
 
-        if (resultbool)
+        if (result == ResultType.Correct || result == ResultType.LastQuestionCorrect)
         {
-            SetVisualElementDisplayStyleFLEX(new VisualElement[] { newProblemButton });
-            SetVisualElementDisplayStyleNONE(new VisualElement[] { submitButton, numpad });
+            SetVisualElementDisplayStyleNONE(new VisualElement[] { submitButton, numpad, answerText });
+            //viewModel.PauseTimer(); // timer pause
+
+            if (result != ResultType.LastQuestionCorrect) SetVisualElementDisplayStyleFLEX(new VisualElement[] { newProblemButton });
         }
-        DisplayFeedBack(result);
+        //DisplayFeedBack(result);
     }
 
     private void ResetAnswerValue()
@@ -319,7 +324,7 @@ public class MathProblemUIManager : MonoBehaviour
     private void UISetUpForAnsweringQuestion()
     {
         SetVisualElementDisplayStyleNONE(new VisualElement[] { newProblemButton, feedBackText });
-        SetVisualElementDisplayStyleFLEX(new VisualElement[] { submitButton, numpad });
+        SetVisualElementDisplayStyleFLEX(new VisualElement[] { submitButton, numpad, answerText });
         
     }
 
