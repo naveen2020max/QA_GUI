@@ -335,6 +335,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &734663449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 734663452}
+  - component: {fileID: 734663451}
+  - component: {fileID: 734663450}
+  m_Layer: 0
+  m_Name: QuestionLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &734663450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734663449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec51bc533f16e24daf59083383f3b93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offlineQuestionDatabase: {fileID: 11400000, guid: ebf60d5dc34934f49928bae800d2df2a, type: 2}
+--- !u!114 &734663451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734663449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba7afb941cd5e342ab6d6b42999f79f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &734663452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734663449}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.86095405, y: -0.4756487, z: 0.024903772}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1308985885
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,12 +461,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78cac324b6500fe49bfb18ce7190c0e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _questionLoader: {fileID: 734663451}
   _range:
     Min: 10
     Max: 99
   _operator: 43
   timePerQuestion: 10
-  maxQuestions: 2
+  maxQuestions: 5
 --- !u!114 &1308985889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -466,6 +525,75 @@ MonoBehaviour:
   uiStyleSheet: {fileID: 7433441132597879392, guid: b665c17b314cb2641a02613c21c94a69, type: 3}
   problemMaster: {fileID: 1308985888}
   problemUIManager: {fileID: 1308985889}
+--- !u!1 &2037372846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2037372849}
+  - component: {fileID: 2037372848}
+  - component: {fileID: 2037372847}
+  m_Layer: 0
+  m_Name: UI_LevelCompleteManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2037372847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037372846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: dc0c306a9688d164b9eb5e1ec01a1915, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 0}
+  m_SortingOrder: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
+--- !u!114 &2037372848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037372846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48fab7e2fae98b143b9f4a11f5aceba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passThresholdPercentage: 0.7
+  nextLevelSceneName: NextLevelScene
+  mainMenuSceneName: MainMenuScene
+  problemMaster: {fileID: 1308985888}
+  levelCompleteStyleSheet: {fileID: 7433441132597879392, guid: 799baccb458bb384796debe83d777ff6, type: 3}
+--- !u!4 &2037372849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037372846}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.86095405, y: -0.4756487, z: 0.024903772}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -473,3 +601,5 @@ SceneRoots:
   - {fileID: 536286644}
   - {fileID: 113325927}
   - {fileID: 1308985887}
+  - {fileID: 2037372849}
+  - {fileID: 734663452}

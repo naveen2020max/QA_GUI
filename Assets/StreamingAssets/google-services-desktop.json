@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "745875949885",
+    "project_id": "speedmathsapp",
+    "storage_bucket": "speedmathsapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745875949885:android:684ee3b656d6370a745d54",
+        "android_client_info": {
+          "package_name": "com.svt.speedmaths"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZE7kmGccDhOCzk1lCl2c3xzaWBX0BBeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

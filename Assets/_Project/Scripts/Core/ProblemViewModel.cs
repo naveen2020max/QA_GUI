@@ -101,7 +101,7 @@ public class ProblemViewModel : IDisposable
     /// <param name="problem">The newly generated MathProblem.</param>
     private void HandleProblemGenerated(MathProblem problem)
     {
-        Debug.Log($"New Problem Generated: {problem}");
+        //Debug.Log($"New Problem Generated: {problem}");
         CurrentProblem = problem;
         CurrentQuestionNumber++;
         OnProblemUpdated?.Invoke();
@@ -244,7 +244,7 @@ public class ProblemViewModel : IDisposable
         if (!_isTimerFrozen) // Optional: prevent redundant logs/actions
         {
             _isTimerFrozen = true;
-            Debug.Log("ViewModel: Timer Paused");
+            //Debug.Log("ViewModel: Timer Paused");
         }
     }
 
@@ -253,7 +253,7 @@ public class ProblemViewModel : IDisposable
         if (_isTimerFrozen) // Optional: prevent redundant logs/actions
         {
             _isTimerFrozen = false;
-            Debug.Log("ViewModel: Timer Resumed");
+            //Debug.Log("ViewModel: Timer Resumed");
         }
     }
 }

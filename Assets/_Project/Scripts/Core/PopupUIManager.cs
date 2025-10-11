@@ -18,12 +18,12 @@ public class PopupUIManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void OnEnable()
     {
-        _problemMaster.OnLevelComplete += ShowLevelCompletePopup;
+        //_problemMaster.OnLevelComplete += ShowLevelCompletePopup;
     }
 
     private void OnDisable()
     {
-        _problemMaster.OnLevelComplete -= ShowLevelCompletePopup;
+       // _problemMaster.OnLevelComplete -= ShowLevelCompletePopup;
     }
 
     private void ShowLevelCompletePopup()

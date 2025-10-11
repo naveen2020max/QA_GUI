@@ -1,0 +1,97 @@
+/* LevelCompleteStyles.uss */
+
+.level-complete-container {
+    position: absolute; /* Or use flex positioning within the root */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 30px;
+}
+
+/* Optional: Add a panel appearance */
+.level-complete-container > * { /* Style direct children */
+     background-color: rgb(220, 220, 220);
+     padding: 20px;
+     border-radius: 10px;
+     min-width: 300px; /* Ensure minimum width */
+     max-width: 80%; /* Prevent getting too wide */
+}
+
+
+.level-complete-title {
+    font-size: 28px;
+    -unity-font-style: bold;
+    color: rgb(40, 40, 40);
+    margin-bottom: 20px;
+    -unity-text-align: middle-center;
+}
+
+.level-complete-stat {
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+    margin-bottom: 8px;
+    -unity-text-align: middle-left; /* Align text left */
+}
+
+.level-complete-status {
+    font-size: 20px;
+    -unity-font-style: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+     -unity-text-align: middle-center;
+}
+
+.level-complete-status.passed {
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 139, 34); /* Forest Green */
+}
+
+.level-complete-status.failed {
+    color: rgb(255, 255, 255);
+    background-color: rgb(220, 20, 60); /* Crimson */
+}
+
+.level-complete-remarks {
+    font-size: 16px;
+    -unity-font-style: italic;
+    color: rgb(80, 80, 80);
+    margin-bottom: 25px;
+     -unity-text-align: middle-center;
+}
+
+.level-complete-button {
+    font-size: 18px;
+    height: 45px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    background-color: rgb(60, 120, 200);
+    color: white;
+    transition: background-color 0.1s ease; /* Smooth hover effect */
+}
+
+.level-complete-button:hover {
+    background-color: rgb(80, 140, 220);
+}
+
+.level-complete-button:active {
+     background-color: rgb(50, 100, 180);
+}
+
+/* Specific colors for retry? */
+#RetryButton {
+     background-color: rgb(255, 165, 0); /* Orange */
+}
+#RetryButton:hover {
+     background-color: rgb(255, 185, 40);
+}
+#RetryButton:active {
+      background-color: rgb(235, 145, 0);
+}

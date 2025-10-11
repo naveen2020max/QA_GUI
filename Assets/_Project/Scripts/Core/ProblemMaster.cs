@@ -1,6 +1,14 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using UnityEngine;
+public struct LevelResultInfo
+{
+    public int TotalQuestionsAttempted;
+    public int CorrectAnswers;
+    public int MaxQuestionsInLevel; // Added this for clarity
+}
 
 public class ProblemMaster : MonoBehaviour
 {
@@ -14,9 +22,12 @@ public class ProblemMaster : MonoBehaviour
     public event Action RequestResumeTimer;
 
     private MathProblemProcessor _mathProblemProcessor;
-    private RandomMathProblemGenerator _randomMathProblemGenerator;
+    //private RandomMathProblemGenerator _randomMathProblemGenerator;
     private Stack<MathResult> _resultStack; // storage for all the math results (solution + user input)
     private Stack<MathSolution> _solutionStack;
+
+    [Header("Dependencies")]
+    [SerializeField] private QuestionLoader _questionLoader;
 
     [SerializeField] private MathNumberRange _range;
     [SerializeField] private char _operator;
@@ -28,6 +39,7 @@ public class ProblemMaster : MonoBehaviour
     //private float timer;
     private bool isLevelComplete = false;
     //private bool _isTimerFrozen = false; // Flag to check if the timer is frozen
+    private List<MathProblem> _currentLevelQuestions;
 
     public float TimePerQuestion { get => timePerQuestion;  }
     public int MaxQuestions { get => maxQuestions; }
@@ -39,6 +51,23 @@ public class ProblemMaster : MonoBehaviour
 
     private void Start()
     {
+        StartLevel(_operator.ToString(), 1, 1);
+    }
+
+    public async Task StartLevel(string symbol, int difficulty, int level)
+    {
+
+        _currentLevelQuestions = await _questionLoader.LoadQuestionsForLevel(symbol, difficulty, level);
+
+        if(_currentLevelQuestions == null || _currentLevelQuestions.Count == 0)
+        {
+            Debug.LogError("No questions loaded for the level. Cannot start level.");
+            return;
+        }
+        maxQuestions = Math.Min(maxQuestions, _currentLevelQuestions.Count);
+        var random = new System.Random();
+        _currentLevelQuestions = _currentLevelQuestions.OrderBy(x => random.Next()).Take(maxQuestions).ToList();
+        currentQuestionNumber = -1;
         Initialize();
     }
 
@@ -48,13 +77,13 @@ public class ProblemMaster : MonoBehaviour
         _mathProblemProcessor = new MathProblemProcessor();
 
         // Initialize the RandomMathProblemGenerator
-        _randomMathProblemGenerator = new RandomMathProblemGenerator(_range, _operator, problem =>
-        {
-            // Trigger the OnProblemGenerated event
-            //OnProblemGenerated?.Invoke(problem);
-            // Process the problem
-            _mathProblemProcessor.ProcessProblem(problem);
-        });
+        //_randomMathProblemGenerator = new RandomMathProblemGenerator(_range, _operator, problem =>
+        //{
+        //    // Trigger the OnProblemGenerated event
+        //    //OnProblemGenerated?.Invoke(problem);
+        //    // Process the problem
+        //    _mathProblemProcessor.ProcessProblem(problem);
+        //});
 
         // Initialize the solution and result stacks
         _solutionStack = new Stack<MathSolution>();
@@ -124,7 +153,7 @@ public class ProblemMaster : MonoBehaviour
             //OnQuestionChange(currentQuestionNumber);
             //OnTimerUpdate(timer);
             // Generate a new problem
-            var problem = _randomMathProblemGenerator.CreateProblem();
+            var problem = _currentLevelQuestions[currentQuestionNumber];
 
             // Trigger the OnProblemGenerated event and process the problem
             OnProblemGenerated?.Invoke(problem);
@@ -135,6 +164,20 @@ public class ProblemMaster : MonoBehaviour
             Debug.Log("Max questions reached.");
             // Optionally, trigger a game-over or session-complete event here.
         }
+    }
+
+    public LevelResultInfo CalculateLevelResults()
+    {
+        // Ensure results reflect the intended number of questions
+        int totalAttempted = _resultStack.Count; // How many were actually answered/timed out
+        int correct = _resultStack.Count(result => result.IsAnsweredCorrect);
+
+        return new LevelResultInfo
+        {
+            TotalQuestionsAttempted = totalAttempted,
+            CorrectAnswers = correct,
+            MaxQuestionsInLevel = this.maxQuestions // Use the configured max questions
+        };
     }
 
     public bool TryCreateNewProblem()
