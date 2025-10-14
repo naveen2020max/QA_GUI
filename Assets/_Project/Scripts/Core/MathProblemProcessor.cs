@@ -29,6 +29,7 @@ public class MathProblemProcessor
 
         // Trigger solution created event
         OnSolutionCreated?.Invoke(solution);
+        Debug.Log($"Processed Problem: {problem}, Solution: {solution}");
     }
 
     // Validates the math problem (e.g., no division by zero)

@@ -9,11 +9,11 @@ public class PopupUIManager : MonoBehaviour
     private VisualElement _root;
     private PopupFile _levelOverFile;
 
-    private ProblemMaster _problemMaster;
+    private MathProblemMaster _problemMaster;
     private void Awake()
     {
         _root = GetComponent<UIDocument>().rootVisualElement;
-        _problemMaster = GetComponent<ProblemMaster>();
+        _problemMaster = GetComponent<MathProblemMaster>();
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void OnEnable()

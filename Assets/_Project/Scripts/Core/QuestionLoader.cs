@@ -17,7 +17,8 @@ public class QuestionLoader : MonoBehaviour
     {
         Debug.Log("---Starting Level Load");
 
-        List<MathProblem> questions = await _firebaseProvider.GetQuestionsForLevelAsync(symbol, difficulty, level);
+        //List<MathProblem> questions = await _firebaseProvider.GetQuestionsForLevelAsync(symbol, difficulty, level);
+        List<MathProblem> questions = null;
         if(questions == null)
         {
             questions = await _offlineProvider.GetQuestionsForLevelAsync(symbol, difficulty, level);

@@ -9,7 +9,7 @@ public class MathProblemUIManager : MonoBehaviour
     public bool UseTextForAnswer;
 
     #region PrivateField
-    private ProblemMaster problemMaster;
+    private MathProblemMaster problemMaster;
 
     //UI Elements
     private VisualElement root;
@@ -21,10 +21,13 @@ public class MathProblemUIManager : MonoBehaviour
     private VisualElement numpad;
     private VisualElement levelState;
     private Label timer, currQuestion;
+    private Button startLevelBtn;
 
-    private ProblemViewModel viewModel;
+    private ProblemViewModel<MathProblem, MathSolution, MathResult, MathProblemMaster> viewModel;
 
     public event Action<float> OnUpdateCalled;
+
+    private VisualElement[] questionScreen, startScreen;
     
     #endregion
 
@@ -32,7 +35,12 @@ public class MathProblemUIManager : MonoBehaviour
     private void Awake()
     {
         root = GetComponent<UIDocument>().rootVisualElement;
-        problemMaster = GetComponent<ProblemMaster>();
+        problemMaster = GetComponent<MathProblemMaster>();
+
+        questionScreen = new VisualElement[] { questionText, answerText, submitButton, inputField, numpad,
+            timer, currQuestion, levelState};
+
+        startScreen = new VisualElement[] { startLevelBtn };
     }
     
     public void Initiation(QAMainUI mainui)
@@ -48,10 +56,11 @@ public class MathProblemUIManager : MonoBehaviour
         container = mainui.Container;
         // Find and Add listener to the button
         newProblemButton = mainui.NextQuestionButton;
+        startLevelBtn = mainui.StartLevelBtn;
 
         CreateProblemViewModel();
 
-        newProblemButton.clicked += viewModel.CreateNewMathProblem;
+        newProblemButton.clicked += viewModel.CreateNewProblem;
         newProblemButton.clicked += UISetUpForAnsweringQuestion;
 
         
@@ -74,7 +83,7 @@ public class MathProblemUIManager : MonoBehaviour
             Debug.LogError("ProblemMaster is not assigned.");
             return;
         }
-        viewModel = new ProblemViewModel(problemMaster);
+        viewModel = new ProblemViewModel<MathProblem, MathSolution, MathResult, MathProblemMaster>(problemMaster);
         viewModel.OnProblemUpdated += UpdateProblemUI;
         viewModel.OnTimerUpdated += UpdateTimerUI;
         viewModel.OnFeedbackUpdated += UpdateFeedbackUI;
@@ -84,7 +93,7 @@ public class MathProblemUIManager : MonoBehaviour
         viewModel.OnResultSubmited += UpdateUIElementsBasedOnResult;
 
         OnUpdateCalled += viewModel.UpdateTimer;
-        submitButton.clicked += viewModel.SubmitAnswer;
+        //submitButton.clicked += viewModel.SubmitAnswer;
     }
 
     private void OnDisable()
@@ -92,10 +101,10 @@ public class MathProblemUIManager : MonoBehaviour
         viewModel?.Dispose();
         // Unsubscribe from the event to avoid memory leaks
         
-        newProblemButton.clicked -= viewModel.CreateNewMathProblem;
+        newProblemButton.clicked -= viewModel.CreateNewProblem;
         newProblemButton.clicked -= UISetUpForAnsweringQuestion;
 
-        submitButton.clicked -= viewModel.SubmitAnswer;
+        //submitButton.clicked -= viewModel.SubmitAnswer;
         OnUpdateCalled -= viewModel.UpdateTimer;
 
         //problemMaster.OnProblemGenerated -= UpdateProblemUI;
@@ -326,6 +335,18 @@ public class MathProblemUIManager : MonoBehaviour
         SetVisualElementDisplayStyleNONE(new VisualElement[] { newProblemButton, feedBackText });
         SetVisualElementDisplayStyleFLEX(new VisualElement[] { submitButton, numpad, answerText });
         
+    }
+
+    private void QuestionScreen()
+    {
+        SetVisualElementDisplayStyleFLEX(questionScreen);
+        SetVisualElementDisplayStyleNONE(startScreen);
+    }
+
+    private void LevelStartScreen()
+    {
+        SetVisualElementDisplayStyleNONE(questionScreen);
+        SetVisualElementDisplayStyleFLEX(startScreen);  
     }
 
     private void SetVisualElementDisplayStyleFLEX(VisualElement[] visual)

@@ -10,36 +10,36 @@ public struct LevelResultInfo
     public int MaxQuestionsInLevel; // Added this for clarity
 }
 
-public class ProblemMaster : MonoBehaviour
+public abstract class ProblemMaster<TProblem, TSolution, TResult> : MonoBehaviour
 {
     public event Action OnInitialized;
-    public event Action<MathProblem> OnProblemGenerated;
-    public event Action<MathResult> OnResultRecorded;
+    public event Action<TProblem> OnProblemGenerated;
+    public event Action<TResult> OnResultRecorded;
     public event Action<int> OnQuestionChange;
     public event Action OnLevelComplete;
     // Events to signal pause/resume requests
     public event Action RequestPauseTimer;
     public event Action RequestResumeTimer;
 
-    private MathProblemProcessor _mathProblemProcessor;
+    //->private MathProblemProcessor _mathProblemProcessor;
     //private RandomMathProblemGenerator _randomMathProblemGenerator;
-    private Stack<MathResult> _resultStack; // storage for all the math results (solution + user input)
-    private Stack<MathSolution> _solutionStack;
+    protected Stack<TResult> _resultStack; // storage for all the math results (solution + user input)
+    protected Stack<TSolution> _solutionStack;
 
     [Header("Dependencies")]
-    [SerializeField] private QuestionLoader _questionLoader;
+    //->[SerializeField] private QuestionLoader _questionLoader;
 
-    [SerializeField] private MathNumberRange _range;
-    [SerializeField] private char _operator;
+    //->[SerializeField] private MathNumberRange _range;
+    //->[SerializeField] private char _operator;
 
     [SerializeField] private float timePerQuestion = 30f;
     [SerializeField] private int maxQuestions = 10;
 
-    private int currentQuestionNumber = 0;
+    protected int currentQuestionNumber = 0;
     //private float timer;
     private bool isLevelComplete = false;
     //private bool _isTimerFrozen = false; // Flag to check if the timer is frozen
-    private List<MathProblem> _currentLevelQuestions;
+    protected List<TProblem> _currentLevelQuestions;
 
     public float TimePerQuestion { get => timePerQuestion;  }
     public int MaxQuestions { get => maxQuestions; }
@@ -47,17 +47,19 @@ public class ProblemMaster : MonoBehaviour
     
 
     // Expose current solution (if available) for validation elsewhere
-    public MathSolution CurrentSolution => _solutionStack.Count > 0 ? _solutionStack.Peek() : default;
+    public TSolution CurrentSolution => _solutionStack.Count > 0 ? _solutionStack.Peek() : default;
 
-    private void Start()
+    //abstracts for subclass specific logic
+    protected abstract Task<List<TProblem>> LoadQuestionsAsync(int difficulty, int level);
+    protected abstract void ProcessProblem(TProblem problem);
+    protected abstract TResult CreateResult(float userAnswer);
+
+    protected void TriggerOnResultRecorded(TResult result) => OnResultRecorded?.Invoke(result);
+
+    public async Task StartLevel(int difficulty, int level)
     {
-        StartLevel(_operator.ToString(), 1, 1);
-    }
 
-    public async Task StartLevel(string symbol, int difficulty, int level)
-    {
-
-        _currentLevelQuestions = await _questionLoader.LoadQuestionsForLevel(symbol, difficulty, level);
+        _currentLevelQuestions = await LoadQuestionsAsync(difficulty, level);
 
         if(_currentLevelQuestions == null || _currentLevelQuestions.Count == 0)
         {
@@ -68,13 +70,13 @@ public class ProblemMaster : MonoBehaviour
         var random = new System.Random();
         _currentLevelQuestions = _currentLevelQuestions.OrderBy(x => random.Next()).Take(maxQuestions).ToList();
         currentQuestionNumber = -1;
-        Initialize();
+        Initialize(null);
     }
 
-    private void Initialize()
+    protected virtual void Initialize(Action anyThing)
     {
         // Initialize the MathProblemProcessor
-        _mathProblemProcessor = new MathProblemProcessor();
+        //->_mathProblemProcessor = new MathProblemProcessor();
 
         // Initialize the RandomMathProblemGenerator
         //_randomMathProblemGenerator = new RandomMathProblemGenerator(_range, _operator, problem =>
@@ -86,20 +88,20 @@ public class ProblemMaster : MonoBehaviour
         //});
 
         // Initialize the solution and result stacks
-        _solutionStack = new Stack<MathSolution>();
-        _resultStack = new Stack<MathResult>();
+        _solutionStack = new Stack<TSolution>();
+        _resultStack = new Stack<TResult>();
 
         // Subscribe to MathProblemProcessor events
-        _mathProblemProcessor.OnSolutionCreated += solution =>
+        /*_mathProblemProcessor.OnSolutionCreated += solution =>
         {
             Debug.Log($"Solution Created: {solution.CorrectAnswer}");
             _solutionStack.Push(solution);
-        };
+        };*/
 
-        _mathProblemProcessor.OnValidation += (problem, isValid) =>
+        /*_mathProblemProcessor.OnValidation += (problem, isValid) =>
         {
             Debug.Log(isValid ? "Valid problem" : "Invalid problem");
-        };
+        };*/
 
         OnResultRecorded += res =>
         {
@@ -108,6 +110,8 @@ public class ProblemMaster : MonoBehaviour
 
         // Trigger the initialization event
         OnInitialized?.Invoke();
+
+        anyThing?.Invoke();
 
         // Start the first problem
         CreateNewProblem();
@@ -137,7 +141,7 @@ public class ProblemMaster : MonoBehaviour
         CreateNewProblem();
     }
 
-    public void HandleLevelComplete()
+    public virtual void HandleLevelComplete()
     {
         // Handle the level completion event here
         Debug.Log("Level complete.");
@@ -145,32 +149,26 @@ public class ProblemMaster : MonoBehaviour
         OnLevelComplete?.Invoke();
     }
 
-    private void CreateNewProblem()
+    protected virtual void CreateNewProblem()
     {
-        if (currentQuestionNumber < maxQuestions)
+        if (++currentQuestionNumber >= maxQuestions)
         {
-            currentQuestionNumber++;
-            //OnQuestionChange(currentQuestionNumber);
-            //OnTimerUpdate(timer);
-            // Generate a new problem
-            var problem = _currentLevelQuestions[currentQuestionNumber];
+            HandleLevelComplete();
+            return;
 
-            // Trigger the OnProblemGenerated event and process the problem
-            OnProblemGenerated?.Invoke(problem);
-            _mathProblemProcessor.ProcessProblem(problem);
         }
-        else
-        {
-            Debug.Log("Max questions reached.");
-            // Optionally, trigger a game-over or session-complete event here.
-        }
+        var problem = _currentLevelQuestions[currentQuestionNumber];
+
+        OnProblemGenerated?.Invoke(problem);
+        //->_mathProblemProcessor.ProcessProblem(problem);
+        ProcessProblem(problem);
     }
 
-    public LevelResultInfo CalculateLevelResults()
+    public virtual LevelResultInfo CalculateLevelResults(Func<TResult, bool> isCorrectPredicate)
     {
         // Ensure results reflect the intended number of questions
         int totalAttempted = _resultStack.Count; // How many were actually answered/timed out
-        int correct = _resultStack.Count(result => result.IsAnsweredCorrect);
+        int correct = _resultStack.Count(result => isCorrectPredicate(result));
 
         return new LevelResultInfo
         {
@@ -199,7 +197,7 @@ public class ProblemMaster : MonoBehaviour
         return currentQuestionNumber < maxQuestions;
     }
 
-    public MathResult RecordResult(float ans)
+    public TResult RecordResult(float ans)
     {
         if (_solutionStack.Count == 0)
         {
@@ -207,13 +205,17 @@ public class ProblemMaster : MonoBehaviour
             return default; // Return a default/empty result
         }
 
-        // Create a new result using the latest solution and the user's answer
-        MathResult res = new MathResult(_solutionStack.Peek(), ans);
-        _resultStack.Push(res);
+        //// Create a new result using the latest solution and the user's answer
+        //MathResult res = new MathResult(_solutionStack.Peek(), ans);
+        //_resultStack.Push(res);
 
-        // Trigger the result recorded event
-        OnResultRecorded?.Invoke(res);
+        //// Trigger the result recorded event
+        //OnResultRecorded?.Invoke(res);
 
-        return res;
+        var result = CreateResult(ans);
+        _resultStack.Push(result);
+        OnResultRecorded?.Invoke(result);
+
+        return result;
     }
 }

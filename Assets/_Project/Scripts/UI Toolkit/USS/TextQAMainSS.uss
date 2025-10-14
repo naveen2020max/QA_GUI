@@ -1,0 +1,17 @@
+.option-button {
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #3c3c3c;
+    color: white;
+}
+
+.option-button:hover {
+    background-color: #555;
+}
+
+.options-container {
+    flex-direction: column;
+    margin-top: 10px;
+}

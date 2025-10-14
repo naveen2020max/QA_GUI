@@ -403,11 +403,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1308985887}
   - component: {fileID: 1308985886}
-  - component: {fileID: 1308985889}
-  - component: {fileID: 1308985890}
   - component: {fileID: 1308985891}
-  - component: {fileID: 1308985892}
+  - component: {fileID: 1308985894}
   - component: {fileID: 1308985893}
+  - component: {fileID: 1308985892}
   m_Layer: 5
   m_Name: GameUI
   m_TagString: Untagged
@@ -429,7 +428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: dc0c306a9688d164b9eb5e1ec01a1915, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: 03ed4fd9496f7414fa4990496aed362d, type: 3}
+  sourceAsset: {fileID: 0}
   m_SortingOrder: 0
   m_WorldSpaceSizeMode: 1
   m_WorldSpaceWidth: 1920
@@ -449,34 +448,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1308985889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1308985885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96118a7abec2ab245885602de4a54901, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UseTextForAnswer: 1
---- !u!114 &1308985890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1308985885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55f51a0df546693459c1dbdaeae5a931, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonWidth: 100
-  buttonHeight: 100
-  buttonSpacing: 15
 --- !u!114 &1308985891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -499,13 +470,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1308985885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e43123a6c29b4b7448f32c8b7e3128e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ccaf7e16b102cf4fb1ebd7d05aaaaef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiDocument: {fileID: 1308985886}
-  uiStyleSheet: {fileID: 7433441132597879392, guid: b665c17b314cb2641a02613c21c94a69, type: 3}
-  problemMaster: {fileID: 1308985893}
-  problemUIManager: {fileID: 1308985889}
 --- !u!114 &1308985893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -515,16 +482,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 1308985885}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b52357b914a2374bbff254d776df62f, type: 3}
+  m_Script: {fileID: 11500000, guid: cd414d8404d98244cb84dcf1429e640d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiDocument: {fileID: 1308985886}
+  uiStyleSheet: {fileID: 7433441132597879392, guid: c157583a10264114ab04e711c9c192a7, type: 3}
+  problemMaster: {fileID: 1308985894}
+  problemUIManager: {fileID: 1308985892}
+--- !u!114 &1308985894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308985885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7741b8828129406458e5817957f9a991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timePerQuestion: 30
   maxQuestions: 10
-  _questionLoader: {fileID: 734663451}
-  _range:
-    Min: 0
-    Max: 0
-  _operator: 43
+  _textLoader: {fileID: 11400000, guid: 9bc685183459f40428193a24baa9d732, type: 2}
 --- !u!1 &2037372846
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,7 +521,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2037372847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -569,7 +548,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2037372846}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48fab7e2fae98b143b9f4a11f5aceba1, type: 3}
   m_Name: 
@@ -577,7 +556,7 @@ MonoBehaviour:
   passThresholdPercentage: 0.7
   nextLevelSceneName: NextLevelScene
   mainMenuSceneName: MainMenuScene
-  problemMaster: {fileID: 1308985893}
+  problemMaster: {fileID: 0}
   levelCompleteStyleSheet: {fileID: 7433441132597879392, guid: 799baccb458bb384796debe83d777ff6, type: 3}
 --- !u!4 &2037372849
 Transform:

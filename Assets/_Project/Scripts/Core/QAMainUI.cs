@@ -5,7 +5,7 @@ public class QAMainUI : MonoBehaviour
 {
     [SerializeField] private UIDocument uiDocument;
     [SerializeField] private StyleSheet uiStyleSheet;
-    [SerializeField] private ProblemMaster problemMaster;
+    [SerializeField] private MathProblemMaster problemMaster;
     [SerializeField] private MathProblemUIManager problemUIManager;
 
     //private ProblemViewModel viewModel;
@@ -22,6 +22,7 @@ public class QAMainUI : MonoBehaviour
     private Button _submitButton;
     private Label _feedbackText;
     private Button _nextQuestionButton;
+    private Button _startLevelBtn;
 
     // Public properties with getters
     public VisualElement Container => _container;
@@ -36,9 +37,11 @@ public class QAMainUI : MonoBehaviour
     public Label FeedbackText => _feedbackText;
     public Button NextQuestionButton => _nextQuestionButton;
 
+    public Button StartLevelBtn => _startLevelBtn;
+
     private void OnEnable()
     {
-        if(problemMaster == null) problemMaster = GetComponent<ProblemMaster>();
+        if(problemMaster == null) problemMaster = GetComponent<MathProblemMaster>();
         if(problemUIManager == null) problemUIManager = GetComponent<MathProblemUIManager>();
         Generate();
         //CreateProblemViewModel();
@@ -119,6 +122,10 @@ public class QAMainUI : MonoBehaviour
         _nextQuestionButton = new Button { text = "Next Question", name = "NextQuestion" };
         _nextQuestionButton.AddToClassList("CommonButton");
 
+        // Create Start Level Button
+        _startLevelBtn = new Button { text = "Start Level", name = "StartLevel" };
+        _startLevelBtn.AddToClassList("CommonButton");
+
         // Add UI elements to container in order
         _container.Add(_heading);
         _container.Add(_levelState);
@@ -128,6 +135,7 @@ public class QAMainUI : MonoBehaviour
         _container.Add(_submitButton);
         _container.Add(_feedbackText);
         _container.Add(_nextQuestionButton);
+        //_container.Add(_startLevelBtn);
 
         // Finally, add the container to the root element
         root.Add(_container);

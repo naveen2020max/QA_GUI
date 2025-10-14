@@ -12,7 +12,7 @@ public class LevelCompleteUI : MonoBehaviour
 
 
     [Header("References")]
-    [SerializeField] private ProblemMaster problemMaster;
+    [SerializeField] private MathProblemMaster problemMaster;
     [SerializeField] private StyleSheet levelCompleteStyleSheet; // Assign your USS file here
 
     private VisualElement rootElement;
@@ -39,7 +39,7 @@ public class LevelCompleteUI : MonoBehaviour
         {
             Debug.LogError("ProblemMaster not assigned to LevelCompleteUIManager!");
             // Try to find it if not assigned, or handle error appropriately
-            problemMaster = FindObjectOfType<ProblemMaster>();
+            problemMaster = FindFirstObjectByType<MathProblemMaster>();
             if (problemMaster == null)
             {
                 this.enabled = false; // Disable script if critical dependency missing
@@ -78,7 +78,7 @@ public class LevelCompleteUI : MonoBehaviour
     private void HandleLevelComplete()
     {
         // Get results from ProblemMaster
-        LevelResultInfo results = problemMaster.CalculateLevelResults();
+        LevelResultInfo results = problemMaster.CalculateLevelResults(r => r.IsAnsweredCorrect);
 
         // Build the UI if it hasn't been built yet
         if (container == null)
