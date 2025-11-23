@@ -1,9 +1,14 @@
 // Place this script in an "Editor" folder.
+using DocumentFormat.OpenXml.Office.SpreadSheetML.Y2023.MsForms;
+using DocumentFormat.OpenXml.Packaging;
+using Firebase;
+using Firebase.Extensions;
 using Firebase.Firestore;
 using Google.Apis.Auth.OAuth2;
 using Google.Apis.Services;
 using Google.Apis.Sheets.v4;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq; // For OrderBy
@@ -11,8 +16,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using UnityEditor;
 using UnityEngine;
-using Firebase;
-using Firebase.Extensions;
+
 
 public class QuestionSyncEditor : EditorWindow
 {
@@ -30,6 +34,9 @@ public class QuestionSyncEditor : EditorWindow
 
     // --- Editor Preferences Key for saving the path ---
     private const string SAVE_PATH_PREF_KEY = "QuestionSyncEditor_SavePath";
+
+    //Helper Class Object
+    private TextQuestionXLSXSync xLSXSync = new TextQuestionXLSXSync();
     #endregion
 
     #region Classes
@@ -208,7 +215,62 @@ public class QuestionSyncEditor : EditorWindow
         // Restore the original button color
         GUI.backgroundColor = originalColor;
 
+        // Text Question from XLSX Sync UI
+        EditorGUILayout.Space(20);
+        EditorGUILayout.LabelField("", GUI.skin.horizontalSlider); // Separator
+        EditorGUILayout.LabelField("XLXS Sync", EditorStyles.boldLabel);
+        EditorGUILayout.HelpBox("This will store all the questions from xlsx file to scriptableObjects", MessageType.Warning);
+
+        xLSXSync.GetXLSXPath();
+
+        if(xLSXSync.IsPathSet && GUILayout.Button("Store Excel Questions to TextQuestion SO", GUILayout.Height(40)))
+        {
+            if (string.IsNullOrEmpty(_savePath))
+            {
+                Debug.LogError("Please select a valid SO save folder first.");
+                return;
+            }
+            var questions = xLSXSync.GetTextQuestionFromXLSX();
+
+            UpdateScriptableObject(questions);
+        }
+
+        //Multiple XLSX files
+        EditorGUILayout.Space(20);
+        EditorGUILayout.LabelField("", GUI.skin.horizontalSlider); // Separator
+        EditorGUILayout.LabelField("Multiple XLSX files", EditorStyles.boldLabel);
+        EditorGUILayout.HelpBox("This will store all the questions from xlsx file to scriptableObjects", MessageType.Warning);
+
+        string pp = xLSXSync.GetXLSXParentFolderPath();
+
+        if(xLSXSync.IsParentPathSet && GUILayout.Button("Store Multiple Excel Questions to TextQuestion SO", GUILayout.Height(40)))
+        {
+            if (string.IsNullOrEmpty(_savePath))
+            {
+                Debug.LogError("Please select a valid SO save folder first.");
+                return;
+            }
+            var allQuestions = xLSXSync.LoadAllExcelQuestions(pp);
+            foreach (var questions in allQuestions)
+            {
+                UpdateScriptableObject(questions.Questions);
+            }
+
+            //EditorCoroutineUtility.StartCoroutineOwnerless(ProcessAllExcelFiles(folderPath));
+        }
+        
+
         EditorGUILayout.EndScrollView();
+    }
+
+    public IEnumerator ProcessAllExcelFiles(string path)
+    {
+        var allQuestions = xLSXSync.LoadAllExcelQuestions(path);
+
+        foreach (var questions in allQuestions)
+        {
+            yield return UpdateScriptableObjectCoroutine(questions.Questions, xLSXSync.xlsxParentFolderPath);
+        }
     }
     #endregion
 
@@ -566,6 +628,181 @@ public class QuestionSyncEditor : EditorWindow
         AssetDatabase.SaveAssets(); // Writes changes to disk
         AssetDatabase.Refresh();    // Reloads assets in Unity
     }
+    
+    private void UpdateScriptableObject(List<List<TextQuestion>> questionLists)
+    {
+        string filename = Path.GetFileNameWithoutExtension(xLSXSync.xlsxFilePath);
+        string _thisExcelSavePath = Path.Combine(_savePath, filename);
+        if (!Directory.Exists(_thisExcelSavePath))
+        {
+            Directory.CreateDirectory(_thisExcelSavePath); // Create the directory if it doesn't exist
+        }
+
+        var allTextQuestionSOs = new List<TextQuestionLoader>();
+        // Create a new TextQuestionLoader SO
+        foreach (var item in questionLists)
+        {
+            //string SubfloderName = $"LevelName_{item[0].LevelName}";
+            //string fullFolderPath = Path.Combine(_thisExcelSavePath, SubfloderName);
+
+            Directory.CreateDirectory(_thisExcelSavePath); // Ensure subfolder exists
+
+            string assetPath = Path.Combine(_thisExcelSavePath, $"{item[0].LevelName}.asset");
+            TextQuestionLoader loader = AssetDatabase.LoadAssetAtPath<TextQuestionLoader>(assetPath);
+            if(loader == null)
+            {
+                loader = ScriptableObject.CreateInstance<TextQuestionLoader>();
+                AssetDatabase.CreateAsset(loader, assetPath);
+            }
+            loader.defaultQuestions = new List<TextQuestion>();
+            // Convert QuizQuestion to TextQuestion and add to the SO
+            //foreach (var levelQuestions in item)
+            //{
+            //    loader.defaultQuestions.Add(levelQuestions);
+
+            //}
+            loader.defaultQuestions = item;
+            // Save the TextQuestionLoader SO asset
+            string soPath = Path.Combine(_savePath, "TextQuestionLoader.asset");
+            EditorUtility.SetDirty(loader); // Mark the asset as changed
+            allTextQuestionSOs.Add(loader);
+
+        }
+
+        // Now update the main database asset
+        string dbPath = Path.Combine(_thisExcelSavePath, DATABASE_ASSET_NAME);
+        TextQuestionDatabase mainDB = AssetDatabase.LoadAssetAtPath<TextQuestionDatabase>(dbPath);
+        if (mainDB == null)
+        {
+            mainDB = ScriptableObject.CreateInstance<TextQuestionDatabase>();
+            AssetDatabase.CreateAsset(mainDB, dbPath);
+        }
+        mainDB.textQuestionLoaders = allTextQuestionSOs; // Store sorted for consistency
+        EditorUtility.SetDirty(mainDB);
+
+        AssetDatabase.SaveAssets(); // Writes changes to disk
+        AssetDatabase.Refresh();    // Reloads assets in Unity
+        
+        //Debug.Log($"Successfully saved {loader.defaultQuestions.Count} questions to '{soPath}'.");
+
+    }
+
+    private IEnumerator UpdateScriptableObjectsCoroutine(List<QuestionRecord> records)
+    {
+        if (!Directory.Exists(_savePath))
+            Directory.CreateDirectory(_savePath);
+
+        var allQuestionSOs = new List<QuestionData>();
+
+        foreach (var record in records)
+        {
+            string SubfolderName = $"Difficulty_{record.difficulty}";
+            string fullFolderPath = Path.Combine(_savePath, SubfolderName);
+
+            Directory.CreateDirectory(fullFolderPath);
+
+            string assetPath = Path.Combine(fullFolderPath, $"{record.questionId}.asset");
+            QuestionData questionSO = AssetDatabase.LoadAssetAtPath<QuestionData>(assetPath);
+
+            if (questionSO == null)
+            {
+                questionSO = ScriptableObject.CreateInstance<QuestionData>();
+                AssetDatabase.CreateAsset(questionSO, assetPath);
+            }
+
+            questionSO.questionId = record.questionId;
+            questionSO.symbol = record.symbol;
+            questionSO.difficulty = record.difficulty;
+            questionSO.level = record.level;
+            questionSO.number1 = record.number1;
+            questionSO.number2 = record.number2;
+
+            EditorUtility.SetDirty(questionSO);
+            allQuestionSOs.Add(questionSO);
+
+            yield return null;  // Allow Unity to breathe
+        }
+
+        // Update main DB
+        string dbPath = Path.Combine(_savePath, DATABASE_ASSET_NAME);
+        QuestionDatabase mainDB = AssetDatabase.LoadAssetAtPath<QuestionDatabase>(dbPath);
+
+        if (mainDB == null)
+        {
+            mainDB = ScriptableObject.CreateInstance<QuestionDatabase>();
+            AssetDatabase.CreateAsset(mainDB, dbPath);
+        }
+
+        mainDB.questions = allQuestionSOs.OrderBy(q => q.questionId).ToList();
+        EditorUtility.SetDirty(mainDB);
+
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+
+        yield return null;
+    }
+
+    private IEnumerator UpdateScriptableObjectCoroutine(List<List<TextQuestion>> questionLists, string excelPath)
+    {
+        string filename = Path.GetFileNameWithoutExtension(excelPath);
+        string _thisExcelSavePath = Path.Combine(_savePath, filename);
+
+        if (!Directory.Exists(_thisExcelSavePath))
+            Directory.CreateDirectory(_thisExcelSavePath);
+
+        var allTextQuestionSOs = new List<TextQuestionLoader>();
+
+        int total = questionLists.Count;
+        int processed = 0;
+
+        foreach (var item in questionLists)
+        {
+            processed++;
+
+            float progress = (float)processed / total;
+            EditorUtility.DisplayProgressBar(
+                $"Importing Excel: {filename}",
+                $"Creating Level: {item[0].LevelName}",
+                progress
+            );
+
+            Directory.CreateDirectory(_thisExcelSavePath);
+
+            string assetPath = Path.Combine(_thisExcelSavePath, $"{item[0].LevelName}.asset");
+            TextQuestionLoader loader = AssetDatabase.LoadAssetAtPath<TextQuestionLoader>(assetPath);
+
+            if (loader == null)
+            {
+                loader = ScriptableObject.CreateInstance<TextQuestionLoader>();
+                AssetDatabase.CreateAsset(loader, assetPath);
+            }
+
+            loader.defaultQuestions = item;
+            EditorUtility.SetDirty(loader);
+
+            allTextQuestionSOs.Add(loader);
+
+            yield return null;
+        }
+
+        string dbPath = Path.Combine(_thisExcelSavePath, DATABASE_ASSET_NAME);
+        TextQuestionDatabase mainDB = AssetDatabase.LoadAssetAtPath<TextQuestionDatabase>(dbPath);
+
+        if (mainDB == null)
+        {
+            mainDB = ScriptableObject.CreateInstance<TextQuestionDatabase>();
+            AssetDatabase.CreateAsset(mainDB, dbPath);
+        }
+
+        mainDB.textQuestionLoaders = allTextQuestionSOs;
+        EditorUtility.SetDirty(mainDB);
+
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+
+        EditorUtility.ClearProgressBar();
+        yield return null;
+    }
 
     private void LogStatus(string message)
     {
@@ -628,5 +865,10 @@ public class QuestionSyncEditor : EditorWindow
         LogStatus("Successfully deleted all generated assets.");
         Repaint();
     }
+    #endregion
+
+    #region XLSX File Sync
+
+
     #endregion
 }

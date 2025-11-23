@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: profession & professionalism
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the fundamental characteristic that distinguishes a 'profession'
+      from a general 'occupation'?
+    Options:
+    - It offers a high salary.
+    - It is based on a systematic body of knowledge requiring specialized training.
+    - It involves manual labor.
+    - It requires no formal education.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'Professionalism refers to the:'
+    Options:
+    - Salary scale of a job.
+    - Official title of a person.
+    - Conduct, attitudes, and behaviors of a professional.
+    - Number of years spent in a job.
+    CorrectOptionIndex: 2
+    LevelName: profession & professionalism
+  - QuestionText: Which of the following is a key feature of a profession?
+    Options:
+    - Lack of any regulatory body.
+    - Service motive and social responsibility.
+    - Secrecy of knowledge from the public.
+    - Short, informal training period.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'A teacher who regularly attends workshops to learn new teaching
+      strategies is demonstrating:'
+    Options:
+    - A lack of initial training.
+    - The attribute of continuous improvement, a key aspect of professionalism.
+    - Disinterest in their current job.
+    - That they are overworked.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'The statutory body that regulates teacher education and maintains
+      standards in India is the:'
+    Options:
+    - NCERT
+    - UGC
+    - NCTE
+    - CBSE
+    CorrectOptionIndex: 2
+    LevelName: profession & professionalism
+  - QuestionText: Which of the following best describes 'autonomy' in a profession?
+    Options:
+    - Being controlled by the government.
+    - The freedom to make independent judgments within the sphere of one's expertise.
+    - Working without any rules.
+    - Avoiding collaboration with colleagues.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'A teacher who treats all students fairly, without bias, is demonstrating:'
+    Options:
+    - A lack of personal preference.
+    - Ethical conduct and professionalism.
+    - Fear of parents.
+    - Indifference.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'The primary reward in a profession is considered to be:'
+    Options:
+    - Financial profit.
+    - Power and authority.
+    - A mix of financial compensation and the satisfaction of serving society.
+    - Long vacations.
+    CorrectOptionIndex: 2
+    LevelName: profession & professionalism
+  - QuestionText: 'A ''code of ethics'' in a profession serves to:'
+    Options:
+    - Increase the cost of services.
+    - Restrict the number of people entering the field.
+    - Guide behavior and ensure the client's welfare is paramount.
+    - Replace the need for formal education.
+    CorrectOptionIndex: 2
+    LevelName: profession & professionalism
+  - QuestionText: Which of the following is an example of unprofessional conduct
+      for a teacher?
+    Options:
+    - Preparing lesson plans.
+    - Sharing a student's confidential information with unauthorized persons.
+    - Grading papers on time.
+    - Collaborating with colleagues.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'The concept of a profession implies a commitment to:'
+    Options:
+    - Maintaining the status quo.
+    - Lifelong learning and updating one's knowledge.
+    - Working only for personal gain.
+    - Following instructions without question.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'Professionalism in teaching requires:'
+    Options:
+    - Only subject matter expertise.
+    - Only pedagogical skills.
+    - A combination of knowledge, skills, values, and ethical conduct.
+    - Strict adherence to the textbook without any deviation.
+    CorrectOptionIndex: 2
+    LevelName: profession & professionalism
+  - QuestionText: Which attribute of professionalism is demonstrated when a teacher
+      works cooperatively with other teachers to plan a school event?
+    Options:
+    - Accountability
+    - Collegiality
+    - Autonomy
+    - Confidentiality
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'A key difference between a ''trade'' and a ''profession'' is that
+      a profession:'
+    Options:
+    - Requires an apprenticeship.
+    - Is based on theoretical knowledge acquired through higher education.
+    - Involves selling goods.
+    - Has no formal entry requirements.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'A teacher who reflects on their teaching practices to identify
+      areas for improvement is engaging in:'
+    Options:
+    - Unnecessary criticism.
+    - Reflective practice, a hallmark of professionalism.
+    - Wasting time.
+    - Breaching confidentiality.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'The service motive in a profession like teaching emphasizes:'
+    Options:
+    - Maximizing student enrollment for higher income.
+    - The primacy of student learning and development.
+    - Competing with other schools.
+    - Following administrative orders blindly.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: Which of the following is a professional organization for teachers?
+    Options:
+    - The local grocery store association.
+    - The National Council for Teacher Education (NCTE).
+    - A teachers' union or subject-teacher association.
+    - The school's parent-teacher association.
+    CorrectOptionIndex: 2
+    LevelName: profession & professionalism
+  - QuestionText: 'A professional is expected to be accountable to:'
+    Options:
+    - Themselves only.
+    - Their clients and society.
+    - Their family only.
+    - No one.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: The requirement for a B.Ed. degree to become a teacher underscores
+      which characteristic of a profession?
+    Options:
+    - Service Motive
+    - Formal Education and Training
+    - Autonomy
+    - Code of Ethics
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'A teacher who takes responsibility for a mistake made in class
+      and corrects it demonstrates:'
+    Options:
+    - Weakness.
+    - Professional accountability.
+    - Incompetence.
+    - A lack of preparation.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'The term ''professionalism'' is best defined as a set of:'
+    Options:
+    - Legal requirements.
+    - Personal hobbies.
+    - Government job rules.
+    - Expected standards of behavior and competence.
+    CorrectOptionIndex: 3
+    LevelName: profession & professionalism
+  - QuestionText: Which of the following is NOT typically a characteristic of a profession?
+    Options:
+    - Self-regulation
+    - Based on routine tasks requiring no special skills
+    - Systematic knowledge base
+    - Ethical code
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'A teacher maintaining a neat and appropriate appearance in school
+      is part of:'
+    Options:
+    - Personal vanity.
+    - Professional demeanor.
+    - School rules with no professional significance.
+    - A waste of time.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'The ability of a profession to control its own membership and
+      standards is known as:'
+    Options:
+    - Monopoly.
+    - Syndication.
+    - Bureaucracy.
+    - Autonomy.
+    CorrectOptionIndex: 3
+    LevelName: profession & professionalism
+  - QuestionText: 'A doctor''s Hippocratic Oath is analogous to a teacher''s:'
+    Options:
+    - Employment contract.
+    - Commitment to ethical conduct and student welfare.
+    - Lesson plan.
+    - Salary slip.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'Professionalism requires a teacher to prioritize:'
+    Options:
+    - Their own convenience.
+    - The learning and well-being of their students.
+    - The opinions of the school management.
+    - Completing the syllabus at any cost.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: Which of these is an example of a profession?
+    Options:
+    - Retail salesperson
+    - Electrician
+    - Engineer
+    - Delivery driver
+    CorrectOptionIndex: 2
+    LevelName: profession & professionalism
+  - QuestionText: 'A key aspect of professional collaboration is:'
+    Options:
+    - Working in isolation.
+    - Respecting and learning from colleagues.
+    - Competing with colleagues for recognition.
+    - Criticizing colleagues publicly.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'The concept of ''profession'' is evolving, and teaching is now
+      widely recognized as a profession because it:'
+    Options:
+    - Has fixed working hours.
+    - Requires a unique blend of theoretical knowledge, practical skill, and ethical
+      commitment.
+    - Is an easy job.
+    - Is governed by the government.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'Unprofessional behavior can lead to:'
+    Options:
+    - A promotion.
+    - Loss of credibility and trust.
+    - Increased student performance.
+    - More free time.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'The primary purpose of a professional code of ethics is to:'
+    Options:
+    - Protect the professional from clients.
+    - Make the profession more exclusive.
+    - Increase membership fees.
+    - Ensure high-quality service and protect client interests.
+    CorrectOptionIndex: 3
+    LevelName: profession & professionalism
+  - QuestionText: 'A teacher who is punctual, meets deadlines, and is well-prepared
+      for classes is demonstrating:'
+    Options:
+    - Basic job requirements with no professional significance.
+    - Professional responsibility and work ethic.
+    - A desire to impress the principal.
+    - Fear of being fired.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: Which of the following is a challenge to the professional status
+      of teaching?
+    Options:
+    - Its strong theoretical foundation.
+    - The view of teaching as a semi-profession or vocation in some contexts.
+    - The existence of regulatory bodies like NCTE.
+    - The requirement for formal qualifications.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'Engaging in action research is a way for teachers to enhance their:'
+    Options:
+    - Salary.
+    - Administrative workload.
+    - Popularity among students.
+    - Professional knowledge and practice.
+    CorrectOptionIndex: 3
+    LevelName: profession & professionalism
+  - QuestionText: 'The relationship between ''profession'' and ''professionalism''
+      is that:'
+    Options:
+    - They are the same thing.
+    - '''Profession'' is the field, and ''professionalism'' is the quality of practice
+      within it.'
+    - Professionalism is only required in non-professional jobs.
+    - A profession guarantees professionalism.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'Confidentiality, as an aspect of professionalism, requires a teacher
+      to:'
+    Options:
+    - Share student information with anyone who asks.
+    - Keep sensitive student information private.
+    - Discuss student issues in the staffroom openly.
+    - Ignore student privacy concerns.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: A mandatory internship during a B.Ed. program aligns with which
+      characteristic of a profession?
+    Options:
+    - Service Motive
+    - Monopoly
+    - Autonomy
+    - Formal Training Period
+    CorrectOptionIndex: 3
+    LevelName: profession & professionalism
+  - QuestionText: 'A teacher who blames students for poor performance instead of
+      reflecting on their own teaching methods lacks:'
+    Options:
+    - Subject knowledge.
+    - Professional accountability.
+    - A sense of humor.
+    - Classroom management skills.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'The existence of a specialized vocabulary or jargon in a field
+      is often a sign of it being a:'
+    Options:
+    - Secret society.
+    - Profession with a systematic body of knowledge.
+    - Difficult subject.
+    - Field that excludes outsiders.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'Professionalism demands that a teacher''s actions are guided by:'
+    Options:
+    - Personal whims.
+    - Popular opinion.
+    - The easiest path.
+    - Ethical principles and the best interests of students.
+    CorrectOptionIndex: 3
+    LevelName: profession & professionalism
+  - QuestionText: Which of the following is a threat to teacher professionalism?
+    Options:
+    - Reflective practice.
+    - Political interference in curriculum and appointments.
+    - Membership in professional associations.
+    - Adherence to a code of conduct.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'A teacher who continues to use outdated teaching methods despite
+      the availability of more effective strategies is failing in their duty of:'
+    Options:
+    - Maintaining discipline.
+    - Continuous professional development.
+    - Following the textbook.
+    - pleasing parents.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'The ultimate goal of promoting professionalism in teaching is
+      to:'
+    Options:
+    - Increase teachers' salaries.
+    - Enhance the status of the teaching community.
+    - Improve the quality of education and student learning outcomes.
+    - Reduce the number of working days.
+    CorrectOptionIndex: 2
+    LevelName: profession & professionalism
+  - QuestionText: 'A ''semi-profession'' is a term sometimes used for fields where:'
+    Options:
+    - Autonomy is limited and the knowledge base is considered less specialized.
+    - Everyone has a Ph.D.
+    - There is no code of ethics.
+    - The service motive is absent.
+    CorrectOptionIndex: 0
+    LevelName: profession & professionalism
+  - QuestionText: 'A professional teacher is expected to be a role model for students
+      in terms of:'
+    Options:
+    - Wealth and social status.
+    - Values, character, and love for learning.
+    - Fashion sense.
+    - Political affiliations.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'The concept of "professional learning community" (PLC) in a school
+      supports teacher professionalism by fostering:'
+    Options:
+    - Isolation and independent work.
+    - Collaborative culture and shared responsibility for student success.
+    - Competition among teachers.
+    - Dependence on the principal.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: Which of these is a personal quality that supports professionalism?
+    Options:
+    - Apathy
+    - Integrity
+    - Rigidity
+    - Bias
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism
+  - QuestionText: 'The argument for granting teachers greater autonomy is based on
+      the belief that:'
+    Options:
+    - Teachers cannot be trusted.
+    - It will reduce their workload.
+    - Principals should not be involved in academic matters.
+    - They are the experts in their classrooms and can make the best instructional
+      decisions.
+    CorrectOptionIndex: 3
+    LevelName: profession & professionalism
+  - QuestionText: 'A key indicator of a profession''s maturity is the extent to which
+      it:'
+    Options:
+    - Is controlled by the government.
+    - Engages in self-critical evaluation and research.
+    - Avoids public scrutiny.
+    - Focuses on increasing its membership fees.
+    CorrectOptionIndex: 1
+    LevelName: profession & professionalism

@@ -1,0 +1,439 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: graphical rep of data
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary purpose of graphical representation of data?
+    Options:
+    - To make reports look attractive
+    - To visualize data patterns, trends, and relationships quickly and effectively
+    - To replace statistical calculations
+    - To hide data limitations
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: Which graph is most suitable for displaying the frequency distribution
+      of a continuous variable?
+    Options:
+    - Bar Graph
+    - Scatter Plot
+    - Pie Chart
+    - Histogram
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: 'A bar graph is typically used for representing data that are:'
+    Options:
+    - Continuous
+    - Categorical (Nominal or Ordinal)
+    - Skewed
+    - Correlated
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: What is the key visual difference between a histogram and a bar
+      graph?
+    Options:
+    - Bar graphs are always vertical
+    - Bar graphs are for continuous data
+    - Histograms have gaps
+    - In a histogram, the bars touch; in a bar graph, they are separated
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: 'A pie chart is most appropriate for showing:'
+    Options:
+    - The mean and standard deviation
+    - The proportion of cases in each category of a categorical variable
+    - The correlation between two variables
+    - The change in a variable over time
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: Which graph is best for showing the relationship between two continuous
+      variables?
+    Options:
+    - Histogram
+    - Bar Graph
+    - Scatter Plot
+    - Pie Chart
+    CorrectOptionIndex: 2
+    LevelName: graphical rep of data
+  - QuestionText: 'A line graph is most commonly used to display:'
+    Options:
+    - Categorical proportions
+    - The relationship between two categories
+    - Frequency distributions
+    - Trends over time (Time Series Data)
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: A box plot (or box-and-whisker plot) visually displays which of
+      the following?
+    Options:
+    - The correlation coefficient
+    - The median, quartiles, range, and potential outliers
+    - The regression line
+    - The probability distribution
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: In a box plot, the "box" itself represents the range of which percentile
+      of the data?
+    Options:
+    - The middle 50% (Interquartile Range)
+    - The bottom 25%
+    - The top 25%
+    - The entire 100%
+    CorrectOptionIndex: 0
+    LevelName: graphical rep of data
+  - QuestionText: 'A stem-and-leaf plot is similar to a histogram but has the advantage
+      of:'
+    Options:
+    - Being easier to draw
+    - Preserving the original raw data values
+    - Showing the mean and standard deviation
+    - Being used for categorical data
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: Which graph is used to display the cumulative frequency of a dataset?
+    Options:
+    - Scatter Plot
+    - Pictogram
+    - Bar Chart
+    - Ogive (Cumulative Frequency Polygon)
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: 'A frequency polygon is created by:'
+    Options:
+    - Drawing circles
+    - Connecting the midpoints of the tops of the bars in a histogram
+    - Drawing bars with gaps
+    - Plotting individual data points
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: Which type of chart is most effective for comparing parts of a
+      whole?
+    Options:
+    - Line Graph
+    - Bar Graph
+    - Pie Chart
+    - Scatter Plot
+    CorrectOptionIndex: 2
+    LevelName: graphical rep of data
+  - QuestionText: 'A graph that uses pictures or symbols to represent data is called
+      a:'
+    Options:
+    - Histogram
+    - Pictogram
+    - Ogive
+    - Stem-and-leaf plot
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: How does a clustered bar chart differ from a simple bar chart?
+    Options:
+    - It has no bars
+    - It shows trends over time
+    - It is always horizontal
+    - It compares multiple data series side-by-side for the same categories
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: Why is it important to start the y-axis at zero in a bar graph?
+    Options:
+    - It is not important
+    - To avoid misleading visual comparisons of the bar heights
+    - To make the graph taller
+    - To follow a strict rule
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: A contour plot is a graphical technique for representing a ______-dimensional
+      surface.
+    Options:
+    - One
+    - Four
+    - Two
+    - Three
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: A bubble chart is an extension of which other plot?
+    Options:
+    - Bar Chart
+    - Scatter Plot
+    - Line Graph
+    - Histogram
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: Which graph would you use to track the progress of a project schedule?
+    Options:
+    - Pie Chart
+    - Scatter Plot
+    - Gantt Chart
+    - Box Plot
+    CorrectOptionIndex: 2
+    LevelName: graphical rep of data
+  - QuestionText: 'A map that uses color or shading to represent statistical data
+      for geographic areas is called a:'
+    Options:
+    - Scatter Plot
+    - Choropleth Map
+    - Line Graph
+    - Pictogram
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: "Assertion (A):\_Graphical misrepresentation can lead to incorrect
+      conclusions.\_Reason (R):\_Manipulating scales, omitting data, or using inappropriate
+      graphs can distort the true story of the data."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: graphical rep of data
+  - QuestionText: Contrast a "histogram" and a "bar graph."
+    Options:
+    - They are identical.
+    - 'Histogram: for continuous data, bars touch. Bar graph: for categorical data,
+      bars are separated.'
+    - 'Histogram: for categories. Bar graph: for continuous data.'
+    - Histogram has separated bars.
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: 'A researcher wants to show the distribution of exam scores for
+      a class of 100 students. The most appropriate graph is a:'
+    Options:
+    - Pie Chart
+    - Line Graph
+    - Histogram
+    - Scatter Plot
+    CorrectOptionIndex: 2
+    LevelName: graphical rep of data
+  - QuestionText: Which of the following is a key advantage of a stem-and-leaf plot
+      over a histogram?
+    Options:
+    - It is more colorful.
+    - It can show more than one variable.
+    - It is easier for computers to create.
+    - It retains the original data values.
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: 'A graph that is symmetrical and bell-shaped describes a:'
+    Options:
+    - Bimodal distribution
+    - Normal distribution
+    - Positively skewed distribution
+    - Uniform distribution
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: 'In a positively skewed distribution shown on a histogram, the
+      tail extends towards the:'
+    Options:
+    - Left
+    - It has no tail
+    - Center
+    - Right
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: 'A "stacked bar chart" is useful for showing:'
+    Options:
+    - The correlation between variables
+    - The total of a category and the sub-groups that compose it
+    - The trend over time for one variable
+    - The frequency of a single variable
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: Which graph is most appropriate for displaying the relationship
+      between temperature and ice cream sales?
+    Options:
+    - Histogram
+    - Bar Graph
+    - Scatter Plot
+    - Pie Chart
+    CorrectOptionIndex: 2
+    LevelName: graphical rep of data
+  - QuestionText: 'A flaw in a pie chart is that it can be misleading when:'
+    Options:
+    - It has too few slices
+    - It has too many slices, making comparisons difficult
+    - It is in color
+    - It is used for time series data
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: 'The term "bin" in the context of a histogram refers to the:'
+    Options:
+    - Y-axis label
+    - Data point outside the range
+    - Title of the graph
+    - Range of values grouped together in a single bar
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: 'A "Q-Q Plot" (Quantile-Quantile Plot) is used primarily to check
+      if data follows a:'
+    Options:
+    - Linear trend
+    - Theoretical distribution (e.g., Normal distribution)
+    - Bimodal pattern
+    - Cyclical pattern
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: Which graph would best show the percentage of a budget spent on
+      different departments?
+    Options:
+    - Line Graph
+    - Scatter Plot
+    - Pie Chart
+    - Box Plot
+    CorrectOptionIndex: 2
+    LevelName: graphical rep of data
+  - QuestionText: 'A "violin plot" combines features of a box plot with a:'
+    Options:
+    - Pie Chart
+    - Bar Chart
+    - Line Graph
+    - Kernel Density Plot
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: 'The primary purpose of a "funnel plot" is to assess:'
+    Options:
+    - Data distribution
+    - Publication bias in meta-analyses
+    - Project timelines
+    - Correlation strength
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: 'A "heatmap" represents data values using:'
+    Options:
+    - Bar heights
+    - Pie slice sizes
+    - Line slopes
+    - Color intensity
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: Which graph is best for showing the change in a country's population
+      over the last 50 years?
+    Options:
+    - Bar Graph
+    - Line Graph
+    - Scatter Plot
+    - Histogram
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: 'In a scatter plot, if the points form a pattern from the lower
+      left to the upper right, it indicates a:'
+    Options:
+    - Positive correlation
+    - Negative correlation
+    - No correlation
+    - Spurious correlation
+    CorrectOptionIndex: 0
+    LevelName: graphical rep of data
+  - QuestionText: 'A "radar chart" (or spider chart) is useful for:'
+    Options:
+    - Showing time series
+    - Comparing two means
+    - Showing frequency distributions
+    - Plotting multivariate data on axes starting from the same point
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: 'The "aspect ratio" of a graph (the ratio of its width to height)
+      is important because:'
+    Options:
+    - It must always be 1:1
+    - It can influence the perceived slopes and relationships in the data
+    - It determines the color
+    - It is only for bar graphs
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: 'A "Pareto chart" is a combination of a bar graph and a:'
+    Options:
+    - Pie Chart
+    - Box Plot
+    - Scatter Plot
+    - Line Graph
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: 'The main criticism of 3D effects in graphs (like 3D pie charts)
+      is that they:'
+    Options:
+    - Are more accurate
+    - Can distort perception and make data harder to interpret
+    - Are easier to create
+    - Are required for publication
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: 'A graph that shows the number of observations in each category
+      as a series of rectangles is a:'
+    Options:
+    - Bar Graph
+    - Line Graph
+    - Scatter Plot
+    - Ogive
+    CorrectOptionIndex: 0
+    LevelName: graphical rep of data
+  - QuestionText: Which graph is most suitable for identifying outliers in a dataset?
+    Options:
+    - Pie Chart
+    - Line Graph
+    - Box Plot
+    - Histogram
+    CorrectOptionIndex: 2
+    LevelName: graphical rep of data
+  - QuestionText: 'A "area chart" is essentially a line graph where:'
+    Options:
+    - The lines are dotted
+    - It has no axis
+    - The x-axis is categorical
+    - The area between the line and the axis is filled with color or shading
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: 'The "legend" in a graph is used to:'
+    Options:
+    - Make the graph larger
+    - Explain the meaning of the symbols, colors, or patterns used
+    - Calculate the mean
+    - Draw the axis
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: 'A "doughnut chart" is a variation of the:'
+    Options:
+    - Bar Chart
+    - Line Graph
+    - Pie Chart
+    - Scatter Plot
+    CorrectOptionIndex: 2
+    LevelName: graphical rep of data
+  - QuestionText: Which principle is most important for creating an effective graph?
+    Options:
+    - Using as many colors as possible
+    - Clarity and simplicity (the "data-ink ratio")
+    - Making it 3D
+    - Using a small font
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data
+  - QuestionText: 'A "biplot" is a graph that combines:'
+    Options:
+    - A pie chart and a bar chart
+    - A histogram and a box plot
+    - Two scatter plots
+    - Principal component analysis scores and loadings
+    CorrectOptionIndex: 3
+    LevelName: graphical rep of data
+  - QuestionText: 'A "run chart" is a simple plot of data points:'
+    Options:
+    - In a pie shape
+    - In a scatter pattern
+    - Over time, with a median line for reference
+    - As a 3D surface
+    CorrectOptionIndex: 2
+    LevelName: graphical rep of data
+  - QuestionText: 'The ultimate goal of any graphical representation is to:'
+    Options:
+    - Be artistically pleasing
+    - Communicate the story in the data accurately and efficiently to the viewer
+    - Use the latest software
+    - Replace all text
+    CorrectOptionIndex: 1
+    LevelName: graphical rep of data

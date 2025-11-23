@@ -1,0 +1,443 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: hypothesis
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is a research hypothesis?
+    Options:
+    - A random guess
+    - A tentative, testable statement about the relationship between variables
+    - A proven fact
+    - The conclusion of a study
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'A hypothesis must be:'
+    Options:
+    - Vague and general
+    - Complex and untestable
+    - Specific and testable
+    - A philosophical question
+    CorrectOptionIndex: 2
+    LevelName: hypothesis
+  - QuestionText: Which of the following is a characteristic of a good hypothesis?
+    Options:
+    - It states a causal relationship.
+    - It is based on the researcher's opinion only.
+    - It cannot be tested.
+    - It is a moral statement.
+    CorrectOptionIndex: 0
+    LevelName: hypothesis
+  - QuestionText: "The null hypothesis (H\u2080) typically states:"
+    Options:
+    - There is a positive relationship between variables.
+    - There is a negative relationship between variables.
+    - There is no significant relationship or difference between variables.
+    - The research hypothesis is correct.
+    CorrectOptionIndex: 2
+    LevelName: hypothesis
+  - QuestionText: "The alternative hypothesis (H\u2081) is:"
+    Options:
+    - The same as the null hypothesis.
+    - A statement that contradicts the null hypothesis.
+    - Always a directional statement.
+    - Not necessary in research.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'A directional hypothesis is also known as a:'
+    Options:
+    - Null hypothesis
+    - Statistical hypothesis
+    - Complex hypothesis
+    - One-tailed hypothesis
+    CorrectOptionIndex: 3
+    LevelName: hypothesis
+  - QuestionText: 'A non-directional hypothesis:'
+    Options:
+    - Predicts no relationship.
+    - Predicts the direction of the relationship.
+    - Predicts a relationship but not its direction.
+    - Is not testable.
+    CorrectOptionIndex: 2
+    LevelName: hypothesis
+  - QuestionText: 'A hypothesis that specifies the expected relationship between
+      a single independent and a single dependent variable is a:'
+    Options:
+    - Complex hypothesis
+    - Simple hypothesis
+    - Null hypothesis
+    - Working hypothesis
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'A hypothesis is formulated before:'
+    Options:
+    - Data analysis
+    - Writing the report
+    - Literature review
+    - Data collection
+    CorrectOptionIndex: 3
+    LevelName: hypothesis
+  - QuestionText: 'The process of testing a hypothesis leads to its:'
+    Options:
+    - Acceptance or rejection
+    - Proof
+    - Becoming a law
+    - Becoming a theory
+    CorrectOptionIndex: 0
+    LevelName: hypothesis
+  - QuestionText: 'A hypothesis derived from theory is called a:'
+    Options:
+    - Statistical hypothesis
+    - Deductive hypothesis
+    - Inductive hypothesis
+    - Null hypothesis
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'A hypothesis developed from observations is called an:'
+    Options:
+    - Deductive hypothesis
+    - Causal hypothesis
+    - Inductive hypothesis
+    - Statistical hypothesis
+    CorrectOptionIndex: 2
+    LevelName: hypothesis
+  - QuestionText: 'A "working hypothesis" is best described as a:'
+    Options:
+    - Final conclusion
+    - Tentative idea that guides the investigation
+    - Proven theory
+    - Type of null hypothesis
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'The primary function of a hypothesis is to:'
+    Options:
+    - Decorate the research report
+    - Confirm the researcher's biases
+    - Replace the need for data
+    - Provide a focus for the research and dictate the research design
+    CorrectOptionIndex: 3
+    LevelName: hypothesis
+  - QuestionText: Which of the following is essential for a hypothesis?
+    Options:
+    - It must be long.
+    - It must be based on the researcher's personal belief.
+    - It must be operationalizable.
+    - It must be in question form.
+    CorrectOptionIndex: 2
+    LevelName: hypothesis
+  - QuestionText: How does a hypothesis contribute to the research process?
+    Options:
+    - By making the research subjective.
+    - By providing a testable statement that gives direction and prevents a blind
+      search.
+    - By guaranteeing significant results.
+    - By eliminating the need for a literature review.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: Why must a hypothesis be falsifiable?
+    Options:
+    - So it can be proven true beyond any doubt.
+    - To make it easier to write.
+    - So that it aligns with popular opinion.
+    - So that it is possible to imagine evidence that would prove it wrong, making
+      it scientifically testable.
+    CorrectOptionIndex: 3
+    LevelName: hypothesis
+  - QuestionText: 'The statement "There will be a difference in exam scores between
+      students who study alone and those who study in groups" is an example of a:'
+    Options:
+    - Directional hypothesis
+    - Null hypothesis
+    - Non-directional hypothesis
+    - Causal hypothesis
+    CorrectOptionIndex: 2
+    LevelName: hypothesis
+  - QuestionText: What is the relationship between a research question and a hypothesis?
+    Options:
+    - They are the same thing.
+    - A hypothesis is a tentative answer to a research question, stated in a testable
+      form.
+    - A research question is derived from a hypothesis.
+    - There is no relationship.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'If a hypothesis is not supported by data, it means:'
+    Options:
+    - The research has failed.
+    - The hypothesis was poorly written.
+    - The initial prediction was incorrect, but this finding still contributes to
+      knowledge.
+    - The null hypothesis is proven true.
+    CorrectOptionIndex: 2
+    LevelName: hypothesis
+  - QuestionText: 'A complex hypothesis involves:'
+    Options:
+    - Only two variables
+    - More than two variables
+    - A non-testable statement
+    - A philosophical debate
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'The null hypothesis is rejected when the p-value is:'
+    Options:
+    - Greater than 0.05
+    - Less than 0
+    - Equal to 1
+    - Less than or equal to the significance level (e.g., 0.05)
+    CorrectOptionIndex: 3
+    LevelName: hypothesis
+  - QuestionText: 'A hypothesis that is stated in positive terms is the:'
+    Options:
+    - Null hypothesis
+    - Research hypothesis
+    - Statistical hypothesis
+    - Falsified hypothesis
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'The process of formulating a hypothesis after looking at the data
+      is called:'
+    Options:
+    - Deduction
+    - Operationalization
+    - Falsification
+    - HARKing (Hypothesizing After the Results are Known)
+    CorrectOptionIndex: 3
+    LevelName: hypothesis
+  - QuestionText: 'A good hypothesis should be:'
+    Options:
+    - Consistent with all known facts
+    - Inconsistent with the existing theory
+    - Based solely on intuition
+    - Impossible to test
+    CorrectOptionIndex: 0
+    LevelName: hypothesis
+  - QuestionText: 'The statement "Intelligent students are more likely to score higher
+      marks" is a:'
+    Options:
+    - Complex hypothesis
+    - Null hypothesis
+    - Non-directional hypothesis
+    - Simple, directional hypothesis
+    CorrectOptionIndex: 3
+    LevelName: hypothesis
+  - QuestionText: What does it mean to "operationalize" a hypothesis?
+    Options:
+    - To make it more complex.
+    - To define the variables in terms of how they will be measured or manipulated.
+    - To translate it into a different language.
+    - To prove it.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'A hypothesis that is not based on any theory or previous observation
+      is considered a:'
+    Options:
+    - Good hypothesis
+    - Deductive hypothesis
+    - Blind guess
+    - Working hypothesis
+    CorrectOptionIndex: 2
+    LevelName: hypothesis
+  - QuestionText: 'The confirmation of a hypothesis through testing strengthens the:'
+    Options:
+    - Researcher's salary
+    - Underlying theory from which it was derived
+    - Need for a null hypothesis
+    - Popularity of the research
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: In which type of research is a hypothesis most commonly used?
+    Options:
+    - Exploratory research
+    - Descriptive research
+    - Experimental and hypothesis-testing research
+    - Historical research
+    CorrectOptionIndex: 2
+    LevelName: hypothesis
+  - QuestionText: 'A researcher predicts: "The use of simulation software (IV) will
+      lead to a greater improvement in conceptual understanding (DV) compared to
+      traditional methods." After testing, the p-value is 0.03. What should the researcher
+      conclude?'
+    Options:
+    - Fail to reject the null hypothesis.
+    - Reject the null hypothesis. The data supports the research hypothesis.
+    - Accept the research hypothesis as proven.
+    - The hypothesis is invalid.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: "Assertion (A):\_A hypothesis must be falsifiable.\_Reason (R):\_Science
+      advances not by proving ideas true, but by eliminating false ones."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: hypothesis
+  - QuestionText: 'A study finds no significant difference between two teaching methods
+      (p-value = 0.20). The correct interpretation is:'
+    Options:
+    - The null hypothesis is proven true.
+    - The research hypothesis is accepted.
+    - We fail to reject the null hypothesis. There is insufficient evidence to support
+      a difference.
+    - The study was a failure.
+    CorrectOptionIndex: 2
+    LevelName: hypothesis
+  - QuestionText: Contrast a simple hypothesis with a complex hypothesis.
+    Options:
+    - 'Simple: one variable. Complex: two variables.'
+    - 'Simple: one IV and one DV. Complex: multiple IVs and/or DVs.'
+    - 'Simple: directional. Complex: non-directional.'
+    - 'Simple: testable. Complex: not testable.'
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'A researcher formulates a hypothesis that "Increased anxiety will
+      lead to poorer exam performance." After data collection, a negative correlation
+      is found. This:'
+    Options:
+    - Fails to support the hypothesis.
+    - Proves the null hypothesis.
+    - Supports the hypothesis.
+    - Is irrelevant to the hypothesis.
+    CorrectOptionIndex: 2
+    LevelName: hypothesis
+  - QuestionText: Which of the following is the WEAKEST hypothesis?
+    Options:
+    - '"Students who eat breakfast will score higher on a memory test than those
+      who do not."'
+    - '"There will be a relationship between sleep duration and problem-solving ability."'
+    - '"Exposure to sunlight improves mood."'
+    - '"Music may or may not affect plant growth."'
+    CorrectOptionIndex: 3
+    LevelName: hypothesis
+  - QuestionText: 'The statement "All swans are white" is a hypothesis. Finding one
+      black swan would:'
+    Options:
+    - Prove the hypothesis.
+    - Strengthen the hypothesis.
+    - Falsify the hypothesis.
+    - Have no effect.
+    CorrectOptionIndex: 2
+    LevelName: hypothesis
+  - QuestionText: In the context of a research proposal, where is the hypothesis
+      typically stated?
+    Options:
+    - In the methodology section
+    - In the abstract and at the end of the introduction/literature review
+    - In the appendix
+    - In the reference list
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'A "null hypothesis" is most useful for:'
+    Options:
+    - Stating the researcher's desired outcome.
+    - Replacing the research hypothesis.
+    - Making the research seem more objective.
+    - Providing a specific benchmark for statistical testing.
+    CorrectOptionIndex: 3
+    LevelName: hypothesis
+  - QuestionText: 'If a researcher fails to reject a false null hypothesis, this
+      is known as a:'
+    Options:
+    - Type I error
+    - Type II error
+    - Correct decision
+    - Standard error
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'Rejecting a true null hypothesis is a:'
+    Options:
+    - Type I error
+    - Type II error
+    - Correct decision
+    - Falsification
+    CorrectOptionIndex: 0
+    LevelName: hypothesis
+  - QuestionText: 'The power of a statistical test is the probability of:'
+    Options:
+    - Making a Type I error.
+    - Making a Type II error.
+    - Correctly rejecting a false null hypothesis.
+    - Correctly failing to reject a true null hypothesis.
+    CorrectOptionIndex: 2
+    LevelName: hypothesis
+  - QuestionText: 'A hypothesis that is formulated for statistical testing is called
+      a:'
+    Options:
+    - Working hypothesis
+    - Research hypothesis
+    - Complex hypothesis
+    - Statistical hypothesis
+    CorrectOptionIndex: 3
+    LevelName: hypothesis
+  - QuestionText: 'The concepts of Type I and Type II error are most directly linked
+      to the testing of the:'
+    Options:
+    - Research Hypothesis
+    - Null Hypothesis
+    - Deductive Hypothesis
+    - Inductive Hypothesis
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'A good hypothesis should be parsimonious, meaning it should be:'
+    Options:
+    - The simplest possible explanation for the phenomenon.
+    - The most complex explanation available.
+    - Based on multiple unrelated theories.
+    - Impossible to understand.
+    CorrectOptionIndex: 0
+    LevelName: hypothesis
+  - QuestionText: 'The phrase "If [IV], then [DV]" is a common structure for formulating
+      a:'
+    Options:
+    - Null Hypothesis
+    - Research Hypothesis
+    - Research Question
+    - Literature Review
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'In qualitative research, a hypothesis is:'
+    Options:
+    - Always used and tested statistically.
+    - Called a "qualihypo."
+    - More important than in quantitative research.
+    - Often not used in the initial stages; instead, research questions guide the
+      inquiry to allow themes to emerge.
+    CorrectOptionIndex: 3
+    LevelName: hypothesis
+  - QuestionText: 'A hypothesis contributes to the objectivity of research by:'
+    Options:
+    - Ensuring the researcher gets the result they want.
+    - Providing a specific, testable prediction that is evaluated against empirical
+      data, not personal bias.
+    - Making the research more complicated.
+    - Using complex statistical terms.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis
+  - QuestionText: 'After testing, a hypothesis that is consistently supported across
+      numerous studies may eventually become part of a:'
+    Options:
+    - New research question
+    - Null hypothesis
+    - Scientific law or theory
+    - Methodology section
+    CorrectOptionIndex: 2
+    LevelName: hypothesis
+  - QuestionText: 'The most critical role of a hypothesis is that it serves as a
+      bridge between:'
+    Options:
+    - The researcher and the participant.
+    - Theory and observation.
+    - The abstract and the appendix.
+    - Data collection and data analysis.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis

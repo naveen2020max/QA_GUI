@@ -1,0 +1,459 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: qualitative
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary goal of qualitative research?
+    Options:
+    - To test hypotheses and generalize findings
+    - To explore, understand, and interpret social phenomena in their natural setting
+    - To establish cause-and-effect relationships
+    - To quantify attitudes and opinions
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: Which of the following is a key characteristic of qualitative research?
+    Options:
+    - Inductive reasoning (building theory from data)
+    - Deductive reasoning (testing theory with data)
+    - Use of large, representative samples
+    - Structured and inflexible research design
+    CorrectOptionIndex: 0
+    LevelName: qualitative
+  - QuestionText: 'The philosophical foundation that views reality as socially constructed
+      is:'
+    Options:
+    - Positivism
+    - Constructivism
+    - Post-positivism
+    - Objectivism
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'A detailed study of a single case (e.g., one school, one community)
+      is known as a:'
+    Options:
+    - Phenomenology
+    - Ethnography
+    - Case Study
+    - Grounded Theory
+    CorrectOptionIndex: 2
+    LevelName: qualitative
+  - QuestionText: Which qualitative approach focuses on describing and interpreting
+      a culture or social group?
+    Options:
+    - Case Study
+    - Ethnography
+    - Phenomenology
+    - Narrative Research
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'The research approach that seeks to understand the essence of
+      a shared experience is:'
+    Options:
+    - Ethnography
+    - Phenomenology
+    - Grounded Theory
+    - Historical Research
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'A methodology that aims to develop a theory grounded in the data
+      itself is:'
+    Options:
+    - Case Study
+    - Ethnography
+    - Grounded Theory
+    - Phenomenology
+    CorrectOptionIndex: 2
+    LevelName: qualitative
+  - QuestionText: 'The process of selecting participants who can provide rich, relevant
+      information is called:'
+    Options:
+    - Random Sampling
+    - Stratified Sampling
+    - Purposive Sampling
+    - Cluster Sampling
+    CorrectOptionIndex: 2
+    LevelName: qualitative
+  - QuestionText: 'In qualitative research, data collection continues until:'
+    Options:
+    - A predetermined sample size is reached.
+    - No new information or themes are emerging (Theoretical Saturation)
+    - The budget runs out.
+    - All members of the population are interviewed.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: Which of the following is a primary data collection method in qualitative
+      research?
+    Options:
+    - Structured Questionnaires
+    - In-depth Interviews
+    - Laboratory Experiments
+    - Surveys
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'The process of immersing oneself in the research context to collect
+      data is called:'
+    Options:
+    - Experimentation
+    - Participant Observation
+    - Surveying
+    - Content Analysis
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'The type of interview that uses a pre-set list of open-ended questions,
+      but allows the interviewer to probe, is a:'
+    Options:
+    - Structured Interview
+    - Unstructured Interview
+    - Semi-structured Interview
+    - Closed Interview
+    CorrectOptionIndex: 2
+    LevelName: qualitative
+  - QuestionText: What is the primary purpose of a focus group discussion?
+    Options:
+    - To reach a consensus
+    - To generate data through group interaction on a topic determined by the researcher
+    - To interview individuals privately
+    - To test a hypothesis
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'The systematic procedure of analyzing textual data to identify
+      themes and patterns is:'
+    Options:
+    - Statistical Analysis
+    - Thematic Analysis
+    - Correlation Analysis
+    - Factor Analysis
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'The term "thick description" in qualitative research, coined by
+      Geertz, refers to:'
+    Options:
+    - A long research report
+    - Detailed, context-laden descriptions that convey the meanings underlying human
+      behavior
+    - A large sample size
+    - A complex statistical model
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: How does a qualitative researcher typically use the literature
+      review?
+    Options:
+    - To build a fixed theoretical framework for testing.
+    - To inform the study but remain open to having the framework challenged by the
+      data.
+    - It is not conducted in qualitative research.
+    - To prove the researcher's hypothesis.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: Why is the researcher considered the "primary instrument" in qualitative
+      research?
+    Options:
+    - Because they use complex lab equipment.
+    - Because they are actively involved in data collection and interpretation, using
+      their skills and empathy.
+    - Because they are the subject of the study.
+    - Because they perform statistical calculations.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: What is the purpose of "bracketing" in phenomenological research?
+    Options:
+    - To increase the sample size.
+    - To set aside the researcher's preconceptions and biases to better understand
+      the participants' experiences.
+    - To create survey brackets.
+    - To group data into categories.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: The concept of "trustworthiness" in qualitative research is analogous
+      to what in quantitative research?
+    Options:
+    - Sampling
+    - Validity and Reliability
+    - Data Collection
+    - Hypothesis Testing
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: '"Member checking" is a technique used to enhance:'
+    Options:
+    - Credibility (Internal Validity)
+    - Generalizability
+    - Cost-effectiveness
+    - Sampling
+    CorrectOptionIndex: 0
+    LevelName: qualitative
+  - QuestionText: '"Triangulation" in qualitative research refers to:'
+    Options:
+    - Using a triangular sample.
+    - Using multiple data sources, methods, or theories to cross-check findings and
+      enhance credibility.
+    - Drawing triangles on graphs.
+    - Having three researchers.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'A potential weakness of qualitative research is:'
+    Options:
+    - Its over-reliance on numerical data.
+    - The difficulty in generalizing findings due to small, non-random samples.
+    - Its inability to provide deep insights.
+    - Its rigid and inflexible design.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'The term "emic perspective" refers to:'
+    Options:
+    - The researcher's external view.
+    - The insider's view, the perspectives of the people being studied.
+    - The statistical perspective.
+    - The philosophical perspective.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'The initial stage of qualitative data analysis often involves:'
+    Options:
+    - Running statistical tests.
+    - Transcribing data and reading it repeatedly to become familiar with it (Immersion).
+    - Writing the final report.
+    - Generalizing the findings.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'The process of breaking down data into discrete parts and labeling
+      them is called:'
+    Options:
+    - Interpretation
+    - Coding
+    - Thick Description
+    - Triangulation
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: "Assertion (A):\_Qualitative research is often exploratory.\_Reason
+      (R):\_It is used when a phenomenon is not well understood and depth of understanding
+      is needed."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: qualitative
+  - QuestionText: A study that explores how teachers experience the transition to
+      a new national curriculum is best suited for which approach?
+    Options:
+    - Ethnography
+    - Phenomenology
+    - Grounded Theory
+    - Content Analysis
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: Contrast the sampling strategy of qualitative research with that
+      of quantitative research.
+    Options:
+    - Qualitative uses large random samples; Quantitative uses small purposive samples.
+    - Qualitative uses small, purposive samples; Quantitative uses large, random
+      samples.
+    - They use the same sampling strategies.
+    - Qualitative sampling aims for generalizability.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'A researcher lives with a remote tribal community for two years
+      to understand their cultural practices. This is:'
+    Options:
+    - A Case Study
+    - An Ethnography
+    - A Phenomenology
+    - A Narrative Inquiry
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: Which of the following is a strength of qualitative research?
+    Options:
+    - Its ability to produce statistically generalizable results.
+    - Its capacity to provide rich, detailed, and context-specific data.
+    - Its quick and easy data collection process.
+    - Its complete objectivity.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'A researcher analyzing students'' personal stories about their
+      science fair projects is conducting:'
+    Options:
+    - Ethnography
+    - Phenomenology
+    - Narrative Research
+    - Grounded Theory
+    CorrectOptionIndex: 2
+    LevelName: qualitative
+  - QuestionText: The term "axial coding" is most associated with which methodology?
+    Options:
+    - Phenomenology
+    - Grounded Theory
+    - Case Study
+    - Ethnography
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'A potential ethical challenge specific to qualitative research
+      is:'
+    Options:
+    - Using a small sample size.
+    - Maintaining confidentiality and anonymity due to the rich, detailed nature
+      of the data.
+    - The use of statistics.
+    - The cost of software.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'The philosophical idea that multiple realities exist based on
+      individual experiences is central to:'
+    Options:
+    - Positivism
+    - Interpretivism/Constructivism
+    - Objectivism
+    - Determinism
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: '"Peer debriefing" is a technique to enhance trustworthiness by:'
+    Options:
+    - Discussing the research process and findings with disinterested peers to challenge
+      the researcher's assumptions.
+    - Interviewing participants together.
+    - Checking the grammar of the report.
+    - Using the same peers as participants.
+    CorrectOptionIndex: 0
+    LevelName: qualitative
+  - QuestionText: 'A "research diary" or "reflexive journal" is kept to:'
+    Options:
+    - Record participant data.
+    - Document the researcher's personal reflections, biases, and decision-making
+      process.
+    - List daily appointments.
+    - Write the literature review.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'The final product of a grounded theory study is a:'
+    Options:
+    - Thick description of a culture.
+    - Essence of a lived experience.
+    - A theoretical model explaining a process.
+    - A detailed case history.
+    CorrectOptionIndex: 2
+    LevelName: qualitative
+  - QuestionText: 'In qualitative research, the term "transferability" refers to:'
+    Options:
+    - The ability to transfer data to a spreadsheet.
+    - The extent to which the findings can be applied to other contexts, judged by
+      the reader.
+    - The use of transfer forms.
+    - The generalizability of the sample.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: Which data collection method would be best for studying the decision-making
+      process of a committee?
+    Options:
+    - Surveys
+    - Non-participant observation of meetings
+    - Laboratory experiments
+    - Structured interviews
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'The process of selecting new participants based on referrals from
+      initial participants is:'
+    Options:
+    - Purposive Sampling
+    - Quota Sampling
+    - Snowball Sampling
+    - Convenience Sampling
+    CorrectOptionIndex: 2
+    LevelName: qualitative
+  - QuestionText: 'A "negative case" in qualitative analysis is one that:'
+    Options:
+    - Supports the emerging theory.
+    - Deviates from or contradicts the emerging patterns, and is sought to refine
+      the theory.
+    - Is not interesting.
+    - Is from a different country.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'The term "emic" is to "insider" as "etic" is to:'
+    Options:
+    - Outsider
+    - Emic
+    - Participant
+    - Researcher
+    CorrectOptionIndex: 0
+    LevelName: qualitative
+  - QuestionText: 'The initial, line-by-line coding of qualitative data is often
+      called:'
+    Options:
+    - Axial Coding
+    - Open Coding
+    - Selective Coding
+    - Thematic Coding
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: "Which qualitative approach is most concerned with the\_story\_as
+      the object of inquiry?"
+    Options:
+    - Ethnography
+    - Phenomenology
+    - Narrative Research
+    - Case Study
+    CorrectOptionIndex: 2
+    LevelName: qualitative
+  - QuestionText: 'A key difference between content analysis and thematic analysis
+      is that content analysis is often more:'
+    Options:
+    - Quantitative, focusing on counting and categorizing explicit content
+    - Inductive and interpretive
+    - Focused on latent meaning
+    - Subjective
+    CorrectOptionIndex: 0
+    LevelName: qualitative
+  - QuestionText: 'The concept of "confirmability" in qualitative research refers
+      to:'
+    Options:
+    - The ability to confirm the hypothesis.
+    - The degree to which the findings are shaped by the respondents and not researcher
+      bias.
+    - The confirmation of appointments with participants.
+    - The use of a confirmatory statistical test.
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'A researcher studying the language used in political speeches
+      is conducting:'
+    Options:
+    - Thematic Analysis
+    - Content Analysis
+    - Grounded Theory
+    - Ethnography
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'The flexible nature of a qualitative research design that allows
+      it to evolve is called:'
+    Options:
+    - Rigidity
+    - Emergent Design
+    - Fixed Design
+    - Static Design
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: The term "lived experience" is most central to which methodology?
+    Options:
+    - Grounded Theory
+    - Phenomenology
+    - Ethnography
+    - Case Study
+    CorrectOptionIndex: 1
+    LevelName: qualitative
+  - QuestionText: 'The most appropriate data analysis technique for identifying,
+      analyzing, and reporting patterns (themes) across a qualitative dataset is:'
+    Options:
+    - Discourse Analysis
+    - Thematic Analysis
+    - Narrative Analysis
+    - Statistical Analysis
+    CorrectOptionIndex: 1
+    LevelName: qualitative

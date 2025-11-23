@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: behaviouristic - learning
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Who is considered the founder of classical conditioning?
+    Options:
+    - B.F. Skinner
+    - John B. Watson
+    - Ivan Pavlov
+    - Edward Thorndike
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The process in operant conditioning by which a consequence strengthens
+      a behavior is called:'
+    Options:
+    - Acquisition
+    - Reinforcement
+    - Extinction
+    - Generalization
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'In Watson and Rayner''s experiment, Little Albert was conditioned
+      to fear a white rat. This demonstrated the learning principle of:'
+    Options:
+    - Operant Conditioning
+    - Classical Conditioning
+    - Insight Learning
+    - Observational Learning
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The Law of Effect, which states that behaviors followed by satisfying
+      consequences are strengthened, was proposed by:'
+    Options:
+    - B.F. Skinner
+    - Ivan Pavlov
+    - John B. Watson
+    - Edward Thorndike
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A stimulus that naturally and automatically triggers a response
+      without prior learning is called a(n):'
+    Options:
+    - Conditioned Stimulus (CS)
+    - Unconditioned Stimulus (US)
+    - Neutral Stimulus (NS)
+    - Conditioned Response (CR)
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The "Skinner Box" (operant chamber) was designed to study the
+      behavior of:'
+    Options:
+    - Dogs
+    - Rats and Pigeons
+    - Chimpanzees
+    - Humans
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'In classical conditioning, the learned reaction to a previously
+      neutral stimulus is called the:'
+    Options:
+    - Unconditioned Response (UR)
+    - Conditioned Stimulus (CS)
+    - Conditioned Response (CR)
+    - Unconditioned Stimulus (US)
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The gradual weakening and disappearance of a conditioned response
+      is known as:'
+    Options:
+    - Acquisition
+    - Spontaneous Recovery
+    - Extinction
+    - Discrimination
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic - learning
+  - QuestionText: Who famously stated, "Give me a dozen healthy infants... and I'll
+      guarantee to take any one at random and train him to become any type of specialist
+      I might select..."?
+    Options:
+    - B.F. Skinner
+    - Ivan Pavlov
+    - Edward Thorndike
+    - John B. Watson
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A schedule of reinforcement that provides a reward after a fixed
+      number of responses is a:'
+    Options:
+    - Fixed-Interval Schedule
+    - Variable-Interval Schedule
+    - Fixed-Ratio Schedule
+    - Variable-Ratio Schedule
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic - learning
+  - QuestionText: A student who receives a gold star for every five homework assignments
+      completed is on a ______ schedule of reinforcement.
+    Options:
+    - Fixed-Interval
+    - Variable-Interval
+    - Fixed-Ratio
+    - Variable-Ratio
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic - learning
+  - QuestionText: 'If a dog salivates to a bell but not to a buzzer, the dog is demonstrating:'
+    Options:
+    - Stimulus Generalization
+    - Stimulus Discrimination
+    - Extinction
+    - Acquisition
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The reappearance of a previously extinguished conditioned response
+      after a rest period is called:'
+    Options:
+    - Reacquisition
+    - Spontaneous Recovery
+    - Generalization
+    - Higher-Order Conditioning
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'Taking an aspirin to remove a headache is an example of behavior
+      maintained by:'
+    Options:
+    - Positive Reinforcement
+    - Negative Reinforcement
+    - Positive Punishment
+    - Negative Punishment
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A teacher who removes a student''s homework assignment because
+      of good behavior is using:'
+    Options:
+    - Positive Reinforcement
+    - Negative Reinforcement
+    - Positive Punishment
+    - Negative Punishment
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic - learning
+  - QuestionText: 'In John Watson''s view, the goal of psychology was to:'
+    Options:
+    - Understand the unconscious mind.
+    - Predict and control behavior.
+    - Explore human consciousness.
+    - Promote self-actualization.
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A child who is spanked for running into the street is undergoing:'
+    Options:
+    - Positive Reinforcement
+    - Negative Reinforcement
+    - Positive Punishment
+    - Negative Punishment
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The principle of "shaping" in operant conditioning involves:'
+    Options:
+    - Punishing unwanted behaviors severely.
+    - Reinforcing successive approximations of a target behavior.
+    - Allowing for spontaneous recovery of extinguished responses.
+    - Presenting the conditioned stimulus without the unconditioned stimulus.
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: A slot machine that pays out after an unpredictable number of lever
+      pulls uses a ______ schedule of reinforcement.
+    Options:
+    - Fixed-Interval
+    - Variable-Interval
+    - Fixed-Ratio
+    - Variable-Ratio
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The famous "Little Albert" experiment is often criticized today
+      primarily on:'
+    Options:
+    - Statistical inaccuracies
+    - Ethical grounds
+    - Its theoretical basis
+    - Its sample size being too large
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'Critically analyzing behaviorism, a major limitation is its:'
+    Options:
+    - Overemphasis on external, observable behavior and neglect of internal mental
+      processes.
+    - Focus on unconscious motivations.
+    - Inability to explain how habits are formed.
+    - Rejection of the scientific method.
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A teacher wants students to work consistently throughout the week,
+      not just before a test. The most effective reinforcement schedule to achieve
+      this would be:'
+    Options:
+    - Fixed-Ratio (every 5 assignments)
+    - Variable-Ratio (on average every 5 assignments)
+    - Fixed-Interval (every Friday)
+    - Variable-Interval (pop quizzes at unpredictable times)
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A student who studies hard to avoid the feeling of anxiety that
+      comes with failing a test is motivated by:'
+    Options:
+    - Positive Reinforcement
+    - Negative Reinforcement
+    - Positive Punishment
+    - Negative Punishment
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'Comparing classical and operant conditioning, a key difference
+      is that operant conditioning involves:'
+    Options:
+    - The behavior of the organism.
+    - The association between two stimuli.
+    - Reflexive, involuntary behaviors.
+    - The work of Ivan Pavlov.
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A school uses a token economy where students earn tokens for good
+      behavior that can be exchanged for privileges. This system is a direct application
+      of:'
+    Options:
+    - Classical Conditioning
+    - Operant Conditioning
+    - Insight Learning
+    - Observational Learning
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The phenomenon where a conditioned response is elicited by stimuli
+      similar to the original conditioned stimulus is called:'
+    Options:
+    - Discrimination
+    - Generalization
+    - Extinction
+    - Spontaneous Recovery
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A parent gives a child a candy bar to stop a tantrum in the supermarket.
+      In the long term, this is likely to:'
+    Options:
+    - Extinguish the tantrum behavior.
+    - Positively reinforce the parent's behavior of giving candy.
+    - Negatively reinforce the child's tantrum behavior.
+    - Serve as a punishment for the child.
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic - learning
+  - QuestionText: 'B.F. Skinner''s concept of "radical behaviorism" differed from
+      earlier forms by:'
+    Options:
+    - Denying the existence of internal events like thoughts and feelings.
+    - Acknowledging the role of internal events but insisting they are also behaviors
+      subject to the same laws.
+    - Focusing exclusively on the cognitive maps of rats.
+    - Rejecting the use of animal subjects.
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A teacher who wants to use shaping to teach a complex skill should
+      begin by:'
+    Options:
+    - Punishing all incorrect responses.
+    - Reinforcing any behavior that remotely resembles the target skill.
+    - Providing a detailed explanation of the entire skill.
+    - Waiting for the student to perform the skill perfectly.
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The "Premack Principle" states that:'
+    Options:
+    - A high-probability behavior can be used to reinforce a low-probability behavior.
+    - Continuous reinforcement is the most resistant to extinction.
+    - Punishment is always more effective than reinforcement.
+    - Learning is based on cognitive maps.
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A student who dislikes math but loves art could be motivated to
+      complete math homework by allowing them to paint afterward. This is an application
+      of the:'
+    Options:
+    - Law of Effect
+    - Premack Principle
+    - Principle of Extinction
+    - Concept of Higher-Order Conditioning
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A key criticism of using punishment in the classroom is that it:'
+    Options:
+    - Is the most effective way to teach new behaviors.
+    - Does not specify what the correct behavior is and may cause negative emotional
+      side effects.
+    - Works too quickly and is therefore unethical.
+    - Is a form of negative reinforcement.
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: In a corporate setting, a salesperson who receives a commission
+      for every tenth sale is on a ______ schedule, which typically produces a ______
+      rate of response.
+    Options:
+    - Fixed-Ratio; high and steady
+    - Variable-Ratio; high and steady
+    - Fixed-Interval; scalloped
+    - Variable-Interval; slow and steady
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The concept of "behavior modification" is primarily based on the
+      principles of:'
+    Options:
+    - Humanistic Psychology
+    - Psychoanalysis
+    - Behaviorism
+    - Gestalt Psychology
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A teacher who systematically desensitizes a student''s fear of
+      public speaking by first having them speak to a small, friendly group is using
+      a technique derived from:'
+    Options:
+    - Operant Conditioning
+    - Classical Conditioning
+    - Observational Learning
+    - Insight Learning
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'Edward Tolman''s research on "latent learning" in rats challenged
+      strict behaviorism by demonstrating that:'
+    Options:
+    - Learning can occur without immediate reinforcement.
+    - Continuous reinforcement is best.
+    - Punishment is ineffective.
+    - All behavior is reflexive.
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The most resistant-to-extinction schedule of reinforcement is:'
+    Options:
+    - Fixed-Ratio
+    - Variable-Ratio
+    - Fixed-Interval
+    - Continuous Reinforcement
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: A fundamental difference between negative reinforcement and punishment
+      is that negative reinforcement ______ a behavior, while punishment ______ it.
+    Options:
+    - strengthens; weakens
+    - weakens; strengthens
+    - ignores; strengthens
+    - weakens; ignores
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A student who feels anxious (CR) upon entering the school building
+      (CS) because they have been repeatedly bullied there is an example of:'
+    Options:
+    - Operant Conditioning
+    - Classical Conditioning
+    - The Premack Principle
+    - Latent Learning
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'John Watson''s behaviorism was a reaction against the prevailing
+      school of:'
+    Options:
+    - Functionalism
+    - Structuralism
+    - Humanism
+    - Cognitivism
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'In a parenting context, "time-out" is a form of:'
+    Options:
+    - Positive Reinforcement
+    - Negative Reinforcement
+    - Positive Punishment
+    - Negative Punishment
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The "Garcia effect" (taste aversion) challenged a strict behaviorist
+      view because it demonstrated:'
+    Options:
+    - That any neutral stimulus could become a conditioned stimulus.
+    - That the timing of the CS and US was not always critical.
+    - That learning required cognitive maps.
+    - The importance of vicarious reinforcement.
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: A teacher who wants to encourage a love of reading for its own
+      sake should be most cautious about using which of the following?
+    Options:
+    - Negative Reinforcement
+    - Extrinsic Rewards, which may undermine intrinsic motivation
+    - Variable-Ratio Schedules
+    - The Principle of Shaping
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'B.F. Skinner''s book, Walden Two, presents a vision of a society
+      based on:'
+    Options:
+    - Psychoanalytic principles
+    - Cognitive restructuring
+    - Operant conditioning
+    - Humanistic ideals
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The process of "chaining" in operant conditioning involves:'
+    Options:
+    - Breaking a complex behavior down into a series of simpler behaviors, each serving
+      as a cue for the next.
+    - Presenting two conditioned stimuli simultaneously.
+    - Using a single reinforcer for multiple different behaviors.
+    - The extinction of a series of behaviors.
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A key educational implication of Thorndike''s Law of Effect is
+      that learning is facilitated by:'
+    Options:
+    - Providing satisfying consequences for correct responses.
+    - Ensuring students understand the underlying concepts.
+    - Allowing students to discover everything on their own.
+    - Focusing on students' unconscious desires.
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The behaviorist perspective views the learner as essentially:'
+    Options:
+    - An active constructor of knowledge.
+    - A passive recipient of environmental influences.
+    - Driven by unconscious conflicts.
+    - Striving for self-actualization.
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic - learning
+  - QuestionText: 'A teacher who praises a shy student for simply raising their hand,
+      even if they don''t speak, is using the technique of:'
+    Options:
+    - Punishment
+    - Extinction
+    - Shaping
+    - Generalization
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic - learning
+  - QuestionText: 'The philosophical foundation of behaviorism is:'
+    Options:
+    - Existentialism
+    - Psychoanalysis
+    - Empiricism
+    - Idealism
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic - learning
+  - QuestionText: 'Despite its limitations, the lasting contribution of behaviorism
+      to education is its emphasis on:'
+    Options:
+    - The importance of observable outcomes and the systematic use of reinforcement.
+    - Understanding dreams and fantasies.
+    - The irrelevance of the environment.
+    - The supremacy of innate ideas.
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic - learning

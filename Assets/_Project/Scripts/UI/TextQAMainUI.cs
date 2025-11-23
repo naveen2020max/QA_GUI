@@ -126,6 +126,15 @@ public class TextQAMainUI : MonoBehaviour
         }
     }
 
+    public void DisableOptions()
+    {
+        if(_optionButtons == null) return;
+        foreach (var button in _optionButtons)
+        {
+            button.SetEnabled(false);
+        }
+    }
+
     public void SetFeedback(string text, bool isCorrect)
     {
         _feedbackText.text = text;

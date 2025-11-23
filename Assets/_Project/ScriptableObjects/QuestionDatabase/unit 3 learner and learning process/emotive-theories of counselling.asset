@@ -1,0 +1,429 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: emotive-theories of counselling
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Which counselling approach is most directly focused on emotional
+      expression and awareness?
+    Options:
+    - Behavioral Therapy
+    - Cognitive Therapy
+    - Gestalt Therapy
+    - Rational Emotive Behavior Therapy
+    CorrectOptionIndex: 2
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The "Empty Chair" technique is primarily used to:'
+    Options:
+    - Facilitate dialogue with different parts of oneself or significant others
+    - Teach relaxation skills
+    - Challenge irrational beliefs
+    - Analyze dream content
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: Who is considered the primary founder of Gestalt Therapy?
+    Options:
+    - Carl Rogers
+    - Fritz Perls
+    - Albert Ellis
+    - Aaron Beck
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'Emotion-Focused Therapy (EFT) is particularly effective for treating:'
+    Options:
+    - Specific phobias
+    - Learning disabilities
+    - Organizational behavior problems
+    - Couple distress and depression
+    CorrectOptionIndex: 3
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The primary goal of emotive approaches is to help clients:'
+    Options:
+    - Eliminate all negative emotions
+    - Access, express, and transform their emotions
+    - Develop purely rational thinking
+    - Avoid emotional experiences
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: Which technique involves exaggerating a movement or expression
+      to increase awareness of associated feelings?
+    Options:
+    - Systematic desensitization
+    - The exaggeration technique
+    - Cognitive restructuring
+    - Behavioral activation
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'In Gestalt Therapy, "unfinished business" refers to:'
+    Options:
+    - Uncompleted homework assignments
+    - Unresolved behavioral patterns
+    - Incomplete cognitive processing
+    - Unexpressed feelings from past situations
+    CorrectOptionIndex: 3
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The concept of "organismic self-regulation" in Gestalt Therapy
+      emphasizes:'
+    Options:
+    - External control of behavior
+    - The individual's innate ability to maintain balance and growth
+    - Cognitive regulation of emotions
+    - Behavioral modification techniques
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: Which emotive approach integrates person-centered therapy with
+      Gestalt techniques?
+    Options:
+    - Emotion-Focused Therapy (EFT)
+    - Rational Emotive Behavior Therapy
+    - Cognitive Behavioral Therapy
+    - Solution-Focused Brief Therapy
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The "Here and Now" focus in Gestalt Therapy emphasizes:'
+    Options:
+    - Historical analysis of childhood
+    - Present moment awareness and experience
+    - Future planning and goal setting
+    - Cognitive analysis of thoughts
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'A student who says "My head hurts" when actually feeling sad might
+      be encouraged in Gestalt Therapy to:'
+    Options:
+    - Take medication for the headache
+    - Re-express this as "I feel sad"
+    - Analyze why they have headaches when sad
+    - Avoid discussing physical symptoms
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: Which technique involves clients speaking for different conflicting
+      parts of themselves?
+    Options:
+    - Top dog/underdog dialogue
+    - Systematic desensitization
+    - Socratic questioning
+    - Behavioral rehearsal
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'Emotion-Focused Therapy views emotions as:'
+    Options:
+    - Problems to be eliminated
+    - Adaptive signals that provide important information
+    - Irrelevant to therapy process
+    - Always destructive and harmful
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The concept of "contact boundary" in Gestalt Therapy refers to:'
+    Options:
+    - The physical space between therapist and client
+    - The point where the self meets the environment
+    - The limits of emotional expression
+    - The boundary between conscious and unconscious
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: Which of the following is a key developer of Emotion-Focused Therapy?
+    Options:
+    - Albert Ellis
+    - Aaron Beck
+    - B.F. Skinner
+    - Leslie Greenberg
+    CorrectOptionIndex: 3
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'In emotive approaches, catharsis refers to:'
+    Options:
+    - Intellectual insight
+    - Emotional release and purification
+    - Behavioral change
+    - Cognitive restructuring
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The "cycle of experience" in Gestalt Therapy describes:'
+    Options:
+    - The process of completing emotional needs
+    - Behavioral reinforcement patterns
+    - Cognitive distortion formation
+    - Dream interpretation methods
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: Which technique helps clients become aware of how they interrupt
+      their emotional expression?
+    Options:
+    - Awareness continuum
+    - Thought recording
+    - Behavioral monitoring
+    - Cognitive disputation
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'Emotive approaches are particularly effective for clients who:'
+    Options:
+    - Need immediate behavior modification
+    - Are emotionally constricted or intellectualized
+    - Require highly structured therapy
+    - Have severe cognitive impairments
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The concept of "creative adjustment" in Gestalt Therapy refers
+      to:'
+    Options:
+    - Artistic expression in therapy
+    - The best possible adaptation available at the time
+    - Cognitive flexibility training
+    - Behavioral adaptation techniques
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'A student who says "People make me angry" would be encouraged
+      in Gestalt Therapy to:'
+    Options:
+    - Avoid those people
+    - Use relaxation techniques
+    - Analyze why people behave that way
+    - Take responsibility by saying "I make myself angry"
+    CorrectOptionIndex: 3
+    LevelName: emotive-theories of counselling
+  - QuestionText: Which emotion is considered a primary adaptive emotion in Emotion-Focused
+      Therapy?
+    Options:
+    - Unexpressed rage
+    - Maladaptive anxiety
+    - Primary sadness
+    - Secondary anger
+    CorrectOptionIndex: 2
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The "paradoxical theory of change" in Gestalt Therapy states that:'
+    Options:
+    - Change happens when we try harder to be different
+    - Change occurs when we become what we are
+    - Change requires medication
+    - Change happens through external reinforcement
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: Which technique involves focusing on bodily sensations to access
+      emotions?
+    Options:
+    - Body awareness exercises
+    - Cognitive monitoring
+    - Behavioral assessment
+    - Rational analysis
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'Emotion-Focused Therapy distinguishes between primary and secondary
+      emotions. Secondary emotions are:'
+    Options:
+    - The initial direct emotional responses
+    - Emotional reactions to primary emotions
+    - Less important emotions
+    - Positive emotions only
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'In Gestalt Therapy, "projection" refers to:'
+    Options:
+    - Planning for the future
+    - Disowning aspects of ourselves and attributing them to others
+    - Emotional expression
+    - Therapeutic goal setting
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: Which emotional marker indicates a need for emotional validation
+      in Emotion-Focused Therapy?
+    Options:
+    - Problematic reaction point
+    - Cognitive distortion
+    - Behavioral excess
+    - Intellectualization
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The concept of "figure formation" in Gestalt Therapy describes:'
+    Options:
+    - How needs emerge from the background and become figures
+    - Cognitive schema development
+    - Behavioral pattern formation
+    - Emotional regulation strategies
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: Which technique involves re-experiencing a past painful situation
+      in the present moment?
+    Options:
+    - Empty chair technique
+    - Systematic desensitization
+    - Cognitive rehearsal
+    - Behavioral activation
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'Emotive approaches are particularly valuable for addressing:'
+    Options:
+    - Specific skill deficits
+    - Unexpressed grief and trauma
+    - Cognitive distortions only
+    - Behavioral problems exclusively
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'A teacher notices a student consistently avoids expressing anger.
+      Using emotive approaches, the teacher might:'
+    Options:
+    - Encourage the student to suppress anger more effectively
+    - Help the student safely express angry feelings
+    - Teach the student that anger is always bad
+    - Ignore the emotional pattern
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The "two-chair technique" in Emotion-Focused Therapy is used to
+      work with:'
+    Options:
+    - Family conflicts
+    - Cognitive distortions
+    - Internal conflicts and splits
+    - Behavioral rehearsals
+    CorrectOptionIndex: 2
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'In Gestalt Therapy, "introjection" refers to:'
+    Options:
+    - Internalizing others' values without assimilating them
+    - Projecting feelings onto others
+    - Emotional expression
+    - Cognitive processing
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: Which emotion is often worked with as a primary adaptive emotion
+      in trauma processing?
+    Options:
+    - Secondary anxiety
+    - Maladaptive shame
+    - Healthy anger
+    - Intellectual curiosity
+    CorrectOptionIndex: 2
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The concept of "creative indifference" in Gestalt Therapy refers
+      to:'
+    Options:
+    - Not caring about clients
+    - Holding both poles of a conflict equally
+    - Emotional detachment
+    - Cognitive flexibility
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'Emotion-Focused Therapy for couples focuses on helping partners:'
+    Options:
+    - Win arguments effectively
+    - Express underlying attachment needs
+    - Develop logical arguments
+    - Avoid emotional expression
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'A student who says "It''s confusing" when feeling scared might
+      be encouraged to:'
+    Options:
+    - Avoid the confusing topic
+    - Focus on something else
+    - Analyze why it's confusing
+    - Say "I feel scared" instead
+    CorrectOptionIndex: 3
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The "awareness continuum" technique involves:'
+    Options:
+    - Systematically reporting present experience
+    - Recording automatic thoughts
+    - Monitoring behaviors
+    - Analyzing dreams
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: Which emotional marker indicates unfinished business in Emotion-Focused
+      Therapy?
+    Options:
+    - Self-interruptive split
+    - Cognitive distortion
+    - Behavioral excess
+    - Intellectualization
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'Gestalt Therapy''s view of human nature emphasizes:'
+    Options:
+    - Deterministic forces
+    - Holistic self-regulation
+    - Cognitive determinism
+    - Behavioral conditioning
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'A school counselor using emotive approaches with a bullied student
+      would focus on:'
+    Options:
+    - Helping the student express feelings of hurt and anger safely
+    - Teaching the student to suppress all emotions
+    - Only discussing cognitive strategies
+    - Avoiding emotional topics
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The concept of "contact interruptions" in Gestalt Therapy includes:'
+    Options:
+    - Projection, introjection, retroflection, etc.
+    - Cognitive distortions
+    - Behavioral patterns
+    - Emotional regulation strategies
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: Which technique helps access maladaptive emotional states?
+    Options:
+    - Systematic desensitization
+    - Cognitive disputation
+    - Behavioral reinforcement
+    - Evocation of feeling
+    CorrectOptionIndex: 3
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'Emotion-Focused Therapy views transformation as occurring through:'
+    Options:
+    - Avoiding painful emotions
+    - Accepting and exploring emotions
+    - Suppressing negative emotions
+    - Intellectual analysis only
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The "now I am aware" exercise is used to:'
+    Options:
+    - Enhance present moment awareness
+    - Challenge irrational beliefs
+    - Reinforce behaviors
+    - Analyze past experiences
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'In Emotion-Focused Therapy, "emotional schemes" refer to:'
+    Options:
+    - Cognitive distortions about emotions
+    - Internal emotional processing structures
+    - Behavioral emotional expressions
+    - Intellectual understanding of emotions
+    CorrectOptionIndex: 1
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'A teacher applying Gestalt principles would encourage students
+      to:'
+    Options:
+    - Take responsibility for their feelings and actions
+    - Blame others for their problems
+    - Avoid emotional expression
+    - Focus only on academic performance
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'The concept of "retroflection" in Gestalt Therapy means:'
+    Options:
+    - Avoiding contact
+    - Projecting onto others
+    - Internalizing values
+    - Doing to ourselves what we want to do to others
+    CorrectOptionIndex: 3
+    LevelName: emotive-theories of counselling
+  - QuestionText: 'Emotive approaches are particularly effective for helping with:'
+    Options:
+    - Emotional numbness and alienation
+    - Specific behavioral deficits
+    - Cognitive errors only
+    - Academic skill building
+    CorrectOptionIndex: 0
+    LevelName: emotive-theories of counselling

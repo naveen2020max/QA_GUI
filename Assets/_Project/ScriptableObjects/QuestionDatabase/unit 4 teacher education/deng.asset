@@ -1,0 +1,483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: deng
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Zongyi Deng's work primarily critiques and builds upon the foundational
+      work of which scholar?
+    Options:
+    - John Dewey
+    - Lee Shulman
+    - Benjamin Bloom
+    - Lev Vygotsky
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'Deng argues that the ultimate aim of teaching is to enable students
+      to:'
+    Options:
+    - Score high on standardized tests.
+    - Become active members of society.
+    - Acquire and internalize 'powerful' ways of thinking inherent to school subjects.
+    - Develop generic skills like critical thinking.
+    CorrectOptionIndex: 2
+    LevelName: deng
+  - QuestionText: According to Deng, what is the most significant limitation of Shulman's
+      concept of Pedagogical Content Knowledge (PCK)?
+    Options:
+    - It is too easy to measure.
+    - It lacks a clear curricular vision regarding the educational purpose of school
+      subjects.
+    - It overemphasizes the role of educational psychology.
+    - It ignores the teacher's content knowledge.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: Deng proposes 'Curricular Content Knowledge' (CCK) as a crucial
+      component of a teacher's knowledge base. What is its primary focus?
+    Options:
+    - General classroom management techniques.
+    - The why and what for of teaching a specific subject.
+    - Strategies for student engagement.
+    - Knowledge of standardized testing formats.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: In Deng's framework, what must a teacher understand before they
+      can transform content for teaching?
+    Options:
+    - The latest educational technology.
+    - The socio-economic background of every student.
+    - The educational potential and significance of the content itself.
+    - The administrative policies of the school.
+    CorrectOptionIndex: 2
+    LevelName: deng
+  - QuestionText: 'Deng emphasizes that teacher education should focus on preparing
+      teachers to engage in:'
+    Options:
+    - Uncritical implementation of the official curriculum.
+    - Pedagogical reasoning about the selection, organization, and transformation
+      of content.
+    - Following textbook instructions precisely.
+    - Designing co-curricular activities.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'For Deng, the knowledge base for teaching is fundamentally about
+      the capacity for:'
+    Options:
+    - Efficient classroom management.
+    - Mastering multiple teaching methods.
+    - Building strong parent-teacher relationships.
+    - Curricular reasoning and pedagogical transformation.
+    CorrectOptionIndex: 3
+    LevelName: deng
+  - QuestionText: Deng's concept of 'Curricular Content Knowledge' (CCK) is most
+      concerned with which of the following questions?
+    Options:
+    - How do I manage time during a lesson?
+    - Why is this topic important for students to learn?
+    - What are the common misconceptions in this topic?
+    - How can I use technology to teach this?
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'According to Deng, a teacher with strong CCK can critically examine
+      a curriculum to determine:'
+    Options:
+    - Its cost-effectiveness.
+    - Its alignment with the political agenda.
+    - Its intellectual and educational value for students.
+    - Its popularity among students.
+    CorrectOptionIndex: 2
+    LevelName: deng
+  - QuestionText: 'Deng''s scholarly contributions are most influential in the field
+      of:'
+    Options:
+    - Educational administration and leadership.
+    - Curriculum theory and teacher education.
+    - Special education and inclusive practices.
+    - Educational technology and e-learning.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'If a history teacher, inspired by Deng''s ideas, questions why
+      the French Revolution is a central topic and what specific historical thinking
+      skills it should foster in students, they are primarily engaging their:'
+    Options:
+    - General Pedagogical Knowledge.
+    - Knowledge of Learners.
+    - Curricular Content Knowledge.
+    - Content Knowledge.
+    CorrectOptionIndex: 2
+    LevelName: deng
+  - QuestionText: How does Deng's perspective fundamentally shift the focus of teacher
+      knowledge from Shulman's model?
+    Options:
+    - From how to teach to why we are teaching this particular content.
+    - From subject matter to child psychology.
+    - From classroom practice to policy analysis.
+    - From individual teaching to collaborative learning.
+    CorrectOptionIndex: 0
+    LevelName: deng
+  - QuestionText: 'A teacher education program designed around Deng''s framework
+      would likely require student-teachers to:'
+    Options:
+    - Only master a fixed set of lesson plans.
+    - Critically analyze national curriculum frameworks and justify content selection.
+    - Focus solely on micro-teaching skills.
+    - Memorize theories of educational psychology.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'Deng argues that without a strong foundation in Curricular Content
+      Knowledge, a teacher''s Pedagogical Content Knowledge (PCK) risks becoming:'
+    Options:
+    - Too research-oriented.
+    - Focused only on assessment.
+    - Overly dependent on student interest.
+    - A collection of technical tricks without educational purpose.
+    CorrectOptionIndex: 3
+    LevelName: deng
+  - QuestionText: 'According to Deng, the transformation of content for teaching
+      is not just a pedagogical act but also a:'
+    Options:
+    - Political act.
+    - Curricular and ethical act with educational aims.
+    - Financial decision.
+    - Social negotiation.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'A science teacher using Deng''s framework would prioritize understanding
+      the ''powerful knowledge'' of science, which refers to:'
+    Options:
+    - The list of facts in the textbook.
+    - The formulas needed for exams.
+    - The biographies of famous scientists.
+    - The ways of thinking, explaining, and inquiring that are distinctive to science.
+    CorrectOptionIndex: 3
+    LevelName: deng
+  - QuestionText: 'Deng''s work implies that the most significant role of a teacher
+      is that of a:'
+    Options:
+    - Classroom disciplinarian.
+    - Curricular and pedagogical designer.
+    - Neutral transmitter of information.
+    - Friend and mentor to students.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: In Deng's view, what is the relationship between the school subject
+      and the academic discipline?
+    Options:
+    - They are one and the same.
+    - The school subject is a simplified version of the academic discipline.
+    - The school subject is a re-contextualization for educational purposes, not
+      a mere simplification.
+    - The academic discipline is irrelevant to the school subject.
+    CorrectOptionIndex: 2
+    LevelName: deng
+  - QuestionText: 'A key criticism Deng levels against competency-based and skill-focused
+      curricula is that they:'
+    Options:
+    - Are too difficult for students.
+    - Undermine the intrinsic intellectual value of school subjects.
+    - Are too expensive to implement.
+    - Focus too much on content knowledge.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'For Deng, a teacher''s knowledge is specialized because it is
+      oriented toward the specific project of:'
+    Options:
+    - Raising school rankings.
+    - Managing educational bureaucracy.
+    - Ensuring student happiness at all times.
+    - Cultivating human powers and capabilities through school subjects.
+    CorrectOptionIndex: 3
+    LevelName: deng
+  - QuestionText: A mathematics curriculum committee is debating whether to include
+      a unit on fractal geometry. Applying Deng's principles, what would be their
+      most important consideration?
+    Options:
+    - Whether it will be on the standardized test.
+    - The 'powerful knowledge' and unique ways of thinking about patterns and infinity
+      that fractals offer students.
+    - How easy it is to teach with available resources.
+    - Its popularity in international curricula.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'Deng''s emphasis on ''Curricular Content Knowledge'' suggests
+      that a major flaw in many teacher education programs is that they train teachers
+      to be:'
+    Options:
+    - Overly philosophical.
+    - Critical of all authority.
+    - Uncritical technicians who implement curricula without understanding its educational
+      basis.
+    - Experts in a single teaching method.
+    CorrectOptionIndex: 2
+    LevelName: deng
+  - QuestionText: How does Deng's concept of 'powerful knowledge' relate to issues
+      of educational equity?
+    Options:
+    - It suggests that knowledge is power only for the elite.
+    - It argues that all knowledge is equally powerful.
+    - It ignores issues of equity, focusing only on knowledge structure.
+    - It posits that access to 'powerful knowledge' is a social justice issue, as
+      it empowers all students.
+    CorrectOptionIndex: 3
+    LevelName: deng
+  - QuestionText: 'When a teacher plans a unit, Deng would argue that the first and
+      most crucial step is to:'
+    Options:
+    - Choose engaging activities.
+    - Define the summative assessment.
+    - Clarify the educational significance and 'powerful ideas' of the unit content.
+    - Arrange the classroom seating.
+    CorrectOptionIndex: 2
+    LevelName: deng
+  - QuestionText: Deng's framework is most directly a critique of which trend in
+      education?
+    Options:
+    - The use of technology.
+    - The turn towards generic skills and competencies at the expense of disciplinary
+      knowledge.
+    - The emphasis on student well-being.
+    - The practice of homework.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'A teacher with strong CCK, according to Deng, would be able to
+      articulate a compelling reason for why every student should study:'
+    Options:
+    - The specific textbook chosen for the class.
+    - The key concepts and ways of thinking embodied in their subject.
+    - The life history of the curriculum designer.
+    - The format of the final exam.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'In comparing Shulman and Deng, one could say that while Shulman
+      provided a map of teacher knowledge, Deng provides a map for:'
+    Options:
+    - Teacher recruitment.
+    - Educational funding.
+    - Curriculum deliberation and educational justification.
+    - Student counseling.
+    CorrectOptionIndex: 2
+    LevelName: deng
+  - QuestionText: 'A school is adopting a new, integrated humanities curriculum.
+      A teacher influenced by Deng would be most concerned with:'
+    Options:
+    - The color of the new textbooks.
+    - Whether the integration preserves the distinct 'powerful knowledge' and ways
+      of thinking of history, geography, and civics.
+    - The number of pages in the curriculum document.
+    - The cost of field trips associated with the new curriculum.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'Deng''s work suggests that the most valuable professional development
+      for teachers would involve:'
+    Options:
+    - Team-building exercises.
+    - Deep collaborative study of their subject's educational potential and how to
+      represent it.
+    - Training in the latest presentation software.
+    - Sessions on how to raise test scores.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'The ultimate goal of developing a robust knowledge base for teachers,
+      from Deng''s viewpoint, is to ensure:'
+    Options:
+    - Teachers are compliant employees.
+    - That schools run efficiently.
+    - That all teachers use the same methods.
+    - The intellectual quality and educational worth of classroom instruction.
+    CorrectOptionIndex: 3
+    LevelName: deng
+  - QuestionText: 'Critically evaluating a national curriculum policy that reduces
+      history to a set of generic ''historical skills'' without specific content,
+      a Dengian scholar would most likely argue that:'
+    Options:
+    - This is a progressive and student-centered approach.
+    - This approach severs the essential link between skills and the powerful knowledge
+      structures of the discipline.
+    - This will make history easier to assess.
+    - This is a cost-effective way to design a curriculum.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: If a teacher education program truly embraced Deng's ideas, how
+      would it assess its student-teachers' readiness for the profession?
+    Options:
+    - Through a multiple-choice test on teaching methods.
+    - Through a popularity vote from their peers.
+    - By counting the number of lessons they taught.
+    - By evaluating their ability to design and justify a unit plan based on curricular
+      reasoning.
+    CorrectOptionIndex: 3
+    LevelName: deng
+  - QuestionText: 'Deng''s emphasis on the ''why'' of teaching content makes his
+      framework inherently:'
+    Options:
+    - Technocratic
+    - Philosophical and normative
+    - A-political
+    - Redundant
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'A key implication of Deng''s work for school leadership is that
+      principals should encourage teachers to:'
+    Options:
+    - Strictly adhere to the pacing guide.
+    - Focus primarily on student discipline.
+    - Avoid deviating from the textbook.
+    - See themselves as intellectual and curricular leaders of their subjects.
+    CorrectOptionIndex: 3
+    LevelName: deng
+  - QuestionText: Deng's concept of 'curricular reasoning' is most aligned with which
+      ancient philosophical tradition?
+    Options:
+    - Stoicism
+    - The Socratic tradition of questioning and justification
+    - Epicureanism
+    - Cynicism
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'Imagine two teachers teaching the same poem. Teacher A focuses
+      on identifying literary devices for an exam. Teacher B focuses on how the poem
+      offers a unique way of seeing human experience. According to Deng''s framework:'
+    Options:
+    - Both teachers are equally effective.
+    - Teacher A is more practical and better prepared students.
+    - Teacher B is engaging in a deeper level of curricular and pedagogical reasoning.
+    - Teacher B is wasting time on irrelevant philosophical points.
+    CorrectOptionIndex: 2
+    LevelName: deng
+  - QuestionText: Deng's scholarship can be seen as a defense of which of the following?
+    Options:
+    - The unexamined textbook.
+    - The intellectual and moral dimensions of teaching.
+    - The use of standardized testing.
+    - The teacher as a neutral technician.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'A potential practical challenge in implementing Deng''s vision
+      for teacher education is that it requires:'
+    Options:
+    - Less educated teachers.
+    - Teachers who are passive curriculum implementers.
+    - Teachers with deep scholarly understanding of their subject and its educational
+      aims.
+    - A reduction in teacher autonomy.
+    CorrectOptionIndex: 2
+    LevelName: deng
+  - QuestionText: 'Deng''s work provides a powerful theoretical tool to argue against:'
+    Options:
+    - The need for teacher certification.
+    - The de-professionalization of teaching into a set of simple routines.
+    - The use of technology in classrooms.
+    - All forms of student assessment.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'In the context of global educational reform, Deng''s ideas are
+      most relevant to debates about:'
+    Options:
+    - School uniform policies.
+    - The content of teacher licensing exams.
+    - Whether a knowledge-rich or skills-based curriculum is more educationally sound.
+    - The length of the school day.
+    CorrectOptionIndex: 2
+    LevelName: deng
+  - QuestionText: 'A teacher using Deng''s framework to plan a science unit on ecosystems
+      would start by asking:'
+    Options:
+    - '"What is the easiest experiment to set up?"'
+    - '"What is the core ''powerful knowledge'' about interdependence and systems
+      thinking that I want students to grasp?"'
+    - '"How many vocabulary words are in the chapter?"'
+    - '"Will this unit be fun?"'
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'Deng''s critique suggests that Shulman''s PCK is necessary but
+      not sufficient because it doesn''t adequately address:'
+    Options:
+    - Classroom management.
+    - The educational telos or end goal of teaching the content.
+    - The psychology of the adolescent learner.
+    - Communication with parents.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'The concept of ''powerful knowledge'' was originally developed
+      by sociologist Michael Young but was adapted by Deng for teacher education.
+      Deng''s adaptation focuses on:'
+    Options:
+    - The sociology of the school.
+    - Political campaigns for education.
+    - The economic value of knowledge.
+    - The implications for curriculum and pedagogy.
+    CorrectOptionIndex: 3
+    LevelName: deng
+  - QuestionText: 'For Deng, a curriculum is not just a document but a:'
+    Options:
+    - Financial contract.
+    - Proposal for a set of educational experiences aimed at cultivating human powers.
+    - List of topics to be covered.
+    - Tool for administrative control.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'A school district is deciding between two competing science curricula.
+      A Dengian analysis would favor the one that:'
+    Options:
+    - Has the most colorful textbook.
+    - Is aligned most closely with the standardized test.
+    - Most effectively structures and sequences the 'powerful knowledge' of the discipline
+      for student understanding.
+    - Is the cheapest to implement.
+    CorrectOptionIndex: 2
+    LevelName: deng
+  - QuestionText: 'Deng''s work helps to re-frame teacher accountability from being
+      primarily about test scores to being about:'
+    Options:
+    - Teacher popularity.
+    - The intellectual responsibility teachers have for the curriculum they enact.
+    - The number of hours spent in professional development.
+    - Adherence to scripted lessons.
+    CorrectOptionIndex: 1
+    LevelName: deng
+  - QuestionText: 'In a Deng-inspired teacher education program, a methods course
+      in English literature would look like:'
+    Options:
+    - A series of lectures on literary theory.
+    - A workshop on fun classroom activities for teaching any book.
+    - A seminar on deliberating the educational value of specific literary works
+      and how to represent their meaning to students.
+    - A course on how to grade essays quickly.
+    CorrectOptionIndex: 2
+    LevelName: deng
+  - QuestionText: 'Deng''s perspective is particularly valuable for teachers working
+      in contexts of:'
+    Options:
+    - Strict, centralized curriculum control, as it provides tools for critical engagement.
+    - Total curricular freedom, as it provides the only possible structure.
+    - Affluent communities only.
+    - Early childhood education only.
+    CorrectOptionIndex: 0
+    LevelName: deng
+  - QuestionText: 'The ultimate beneficiary of a teacher who possesses the robust
+      knowledge base described by Deng is the:'
+    Options:
+    - School administrator.
+    - Textbook publisher.
+    - Student, who gains access to transformative knowledge.
+    - Teacher, who has an easier job.
+    CorrectOptionIndex: 2
+    LevelName: deng
+  - QuestionText: 'Deng''s overall project can be best summarized as an effort to:'
+    Options:
+    - Make teacher education simpler and faster.
+    - Recover the intellectual and moral heart of teaching as a profession concerned
+      with knowledge.
+    - Replace all existing models of teacher knowledge.
+    - Promote a single, best method of teaching.
+    CorrectOptionIndex: 1
+    LevelName: deng

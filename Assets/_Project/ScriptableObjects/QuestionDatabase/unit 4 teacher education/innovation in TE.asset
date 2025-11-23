@@ -1,0 +1,445 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: innovation in TE
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the core idea behind the "Flipped Classroom" model in teacher
+      education?
+    Options:
+    - Eliminating all face-to-face interaction.
+    - Students review theoretical content online beforehand, using class time for
+      active learning.
+    - Teachers deliver lectures online only.
+    - Focusing solely on practical skills in class.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: Which model involves a student-teacher working intensively for
+      a full year alongside an expert mentor teacher in a school?
+    Options:
+    - The Traditional Apprenticeship Model
+    - The Micro-teaching Model
+    - The Correspondence Model
+    - The Residency Model
+    CorrectOptionIndex: 3
+    LevelName: innovation in TE
+  - QuestionText: 'The use of Virtual Reality (VR) in teacher education is innovative
+      because it allows for:'
+    Options:
+    - The complete replacement of real classroom experience.
+    - Low-risk practice of teaching skills in a simulated environment.
+    - Eliminating the need for a mentor.
+    - Focusing only on content knowledge.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'An "Inquiry-Oriented" teacher education program positions the
+      student-teacher as a(n):'
+    Options:
+    - Passive recipient of knowledge.
+    - Active inquirer and co-constructor of knowledge.
+    - Neutral observer.
+    - Sole authority in the classroom.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: The National Education Policy (NEP) 2020 strongly recommends which
+      innovative program structure?
+    Options:
+    - 1-year B.Ed. after post-graduation
+    - Correspondence courses for teacher training
+    - 2-year Diploma in Education
+    - 4-year Integrated Teacher Education Program (ITEP)
+    CorrectOptionIndex: 3
+    LevelName: innovation in TE
+  - QuestionText: 'A digital portfolio (e-portfolio) is primarily used for:'
+    Options:
+    - Storing administrative documents.
+    - Showcasing and reflecting on a student-teacher's growth and competencies over
+      time.
+    - Replacing all formal assessments.
+    - Communicating with parents.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'Problem-Based Learning (PBL) in teacher education typically begins
+      with:'
+    Options:
+    - A lecture from an expert.
+    - A final examination.
+    - A real-world, complex educational problem.
+    - A textbook chapter.
+    CorrectOptionIndex: 2
+    LevelName: innovation in TE
+  - QuestionText: 'The primary goal of integrating "Social-Emotional Learning" (SEL)
+      into teacher education is to:'
+    Options:
+    - Replace academic subject knowledge.
+    - Equip teachers to foster their own and their students' emotional intelligence
+      and well-being.
+    - Focus solely on student discipline.
+    - Reduce the curriculum load.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: Which of the following is an example of a performance-based assessment?
+    Options:
+    - A multiple-choice test on educational psychology.
+    - A written essay on teaching philosophy.
+    - A demonstration of a teaching skill followed by a viva voce.
+    - A true/false quiz on child development.
+    CorrectOptionIndex: 2
+    LevelName: innovation in TE
+  - QuestionText: '"Blended Learning" in teacher education refers to a combination
+      of:'
+    Options:
+    - Theory and practice.
+    - Face-to-face and online learning experiences.
+    - Primary and secondary education methods.
+    - Indian and Western educational philosophies.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'The innovation of "School-University Partnerships" aims to:'
+    Options:
+    - Give universities complete control over school curricula.
+    - Create a collaborative ecosystem for mutual benefit and better teacher preparation.
+    - Replace university-based teacher educators with school teachers.
+    - Focus only on school infrastructure development.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'Using AI-powered analytics to provide feedback on a student-teacher''s
+      questioning techniques is an innovation in:'
+    Options:
+    - Curriculum design.
+    - Micro-teaching.
+    - Admission procedures.
+    - Infrastructure planning.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: Which of the following is a key characteristic of an innovative
+      teacher education program?
+    Options:
+    - A rigid, fixed curriculum.
+    - A focus on rote memorization of theories.
+    - Cultivating reflective and agentic teachers.
+    - Isolation from technological tools.
+    CorrectOptionIndex: 2
+    LevelName: innovation in TE
+  - QuestionText: 'The "Case-Based Learning" approach uses:'
+    Options:
+    - Fictional stories for entertainment.
+    - Detailed narratives of real classroom situations for analysis and problem-solving.
+    - Only legal case studies.
+    - Isolated facts and figures.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'Innovation in teacher education is necessary to:'
+    Options:
+    - Maintain the status quo.
+    - Prepare teachers for the dynamic and complex 21st-century classroom.
+    - Simplify the process of becoming a teacher.
+    - Reduce the cost of teacher training.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'The "I" in the acronym "ITEP" stands for:'
+    Options:
+    - Indian
+    - Innovative
+    - Integrated
+    - International
+    CorrectOptionIndex: 2
+    LevelName: innovation in TE
+  - QuestionText: 'A "360-degree feedback" system for a student-teacher would include
+      input from:'
+    Options:
+    - The student-teacher only.
+    - The university supervisor only.
+    - Multiple sources like the mentor teacher, peers, and supervisor.
+    - Parents of school students.
+    CorrectOptionIndex: 2
+    LevelName: innovation in TE
+  - QuestionText: Which technological platform is widely used in India for teacher
+      professional development?
+    Options:
+    - DIKSHA
+    - NPTEL
+    - IRCTC
+    - MyGov
+    CorrectOptionIndex: 0
+    LevelName: innovation in TE
+  - QuestionText: 'An innovative focus on "Inclusive Education" in teacher preparation
+      ensures that teachers are ready to:'
+    Options:
+    - Teach only gifted students.
+    - Cater to the diverse learning needs of all children.
+    - Work only in private schools.
+    - Follow a one-size-fits-all approach.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'The shift from a "teacher-centered" to a "student-centered" approach
+      is a fundamental:'
+    Options:
+    - Pedagogical innovation.
+    - Administrative change.
+    - Financial restructuring.
+    - Political decision.
+    CorrectOptionIndex: 0
+    LevelName: innovation in TE
+  - QuestionText: 'The "T" in "ITEP" stands for:'
+    Options:
+    - Teaching
+    - Training
+    - Teacher
+    - Technical
+    CorrectOptionIndex: 2
+    LevelName: innovation in TE
+  - QuestionText: 'Using online forums for student-teachers to discuss and debate
+      educational issues is an example of:'
+    Options:
+    - Isolated learning.
+    - Blended learning and collaborative knowledge construction.
+    - A waste of time.
+    - Avoiding classroom interaction.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'The "E" in "ITEP" stands for:'
+    Options:
+    - Elementary
+    - Education
+    - Excellence
+    - Environmental
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'An innovative assessment method that tracks growth over time is
+      the:'
+    Options:
+    - Final written exam.
+    - Portfolio assessment.
+    - Pop quiz.
+    - Viva voce.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'The "P" in "ITEP" stands for:'
+    Options:
+    - Primary
+    - Professional
+    - Practical
+    - Program
+    CorrectOptionIndex: 3
+    LevelName: innovation in TE
+  - QuestionText: Which of the following is an example of a 21st-century skill that
+      should be explicitly taught in teacher education?
+    Options:
+    - Rote memorization
+    - Digital literacy and collaboration
+    - Calligraphy
+    - Strict discipline enforcement
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'A key challenge in implementing technological innovations like
+      VR in teacher education is:'
+    Options:
+    - Lack of student interest.
+    - High cost and infrastructure requirements.
+    - Over-qualification of teachers.
+    - It being too easy to implement.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'The innovation of "Reflective Practice" encourages teachers to:'
+    Options:
+    - Blame students for failures.
+    - Avoid new teaching methods.
+    - Follow the textbook without question.
+    - Systematically analyze their own teaching to improve.
+    CorrectOptionIndex: 3
+    LevelName: innovation in TE
+  - QuestionText: Which of the following is a structural innovation?
+    Options:
+    - Using a new textbook.
+    - "Implementing a 4-year integrated\_B.Sc.\_B.Ed. program."
+    - Changing the classroom seating arrangement.
+    - Giving a PowerPoint presentation.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'The ultimate aim of innovation in teacher education is to:'
+    Options:
+    - Make programs more complicated.
+    - Improve the quality of learning for school students.
+    - Increase the workload of teacher educators.
+    - Attract more candidates regardless of quality.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: '"Gamification" in teacher education involves using:'
+    Options:
+    - Only video games for entertainment.
+    - Game-design elements (like points, badges) to enhance motivation and engagement
+      in learning.
+    - Eliminating all forms of play.
+    - Focusing only on sports.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'A "Professional Development School" is an example of a strong:'
+    Options:
+    - School-University Partnership.
+    - Government Policy.
+    - Student Union.
+    - Corporate Sponsor.
+    CorrectOptionIndex: 0
+    LevelName: innovation in TE
+  - QuestionText: 'Innovation requires teacher educators to be:'
+    Options:
+    - Resistant to change.
+    - Lifelong learners and innovators themselves.
+    - Isolated from technology.
+    - Focused only on traditional methods.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: Which of the following is a pedagogical innovation?
+    Options:
+    - Building a new library.
+    - Adopting a Problem-Based Learning (PBL) approach.
+    - Increasing tuition fees.
+    - Hiring more administrative staff.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'The use of "Open Educational Resources (OER)" is an innovation
+      that promotes:'
+    Options:
+    - Costly and copyrighted materials.
+    - Traditional textbooks only.
+    - Closed online platforms.
+    - Free and accessible knowledge for teacher learning.
+    CorrectOptionIndex: 3
+    LevelName: innovation in TE
+  - QuestionText: 'A major barrier to innovation in teacher education in India is:'
+    Options:
+    - Too much funding for research.
+    - Rigid regulatory frameworks and resistance to change.
+    - An overabundance of innovative TEIs.
+    - Lack of any educational policies.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'The "Flipped Classroom" model was made more feasible by the advent
+      of:'
+    Options:
+    - Blackboards.
+    - Digital video and online content platforms.
+    - Overhead projectors.
+    - Radio broadcasts.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'An innovative program that focuses on preparing teachers for rural
+      and tribal areas would emphasize:'
+    Options:
+    - Only international curricula.
+    - Context-specific pedagogy and community engagement.
+    - Urban teaching methods only.
+    - Avoiding local languages.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: '"Design Thinking" in teacher education encourages:'
+    Options:
+    - A one-size-fits-all solution.
+    - A human-centered, iterative approach to solving educational problems.
+    - Copying existing designs.
+    - Avoiding any design process.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'The success of any innovation in teacher education depends most
+      critically on:'
+    Options:
+    - The color of the classroom walls.
+    - The willingness and capacity of teacher educators and institutions to embrace
+      change.
+    - The weather.
+    - The political party in power.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: '"Micro-credentials" or "Digital Badges" are an innovation in:'
+    Options:
+    - Certifying specific, discrete skills of teachers.
+    - Replacing university degrees.
+    - Awarding attendance.
+    - Grading student assignments.
+    CorrectOptionIndex: 0
+    LevelName: innovation in TE
+  - QuestionText: 'An "Innovation Lab" or "Maker Space" in a Teacher Education Institution
+      would be a place for student-teachers to:'
+    Options:
+    - Only take theoretical exams.
+    - Tinker, create, and prototype new teaching-learning materials and strategies.
+    - Isolate themselves.
+    - Avoid practical work.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'The "E" in "OER" stands for:'
+    Options:
+    - Excellent
+    - Educational
+    - Electronic
+    - Eastern
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'The "R" in "OER" stands for:'
+    Options:
+    - Resources
+    - Research
+    - Regulation
+    - Reform
+    CorrectOptionIndex: 0
+    LevelName: innovation in TE
+  - QuestionText: Which of the following is a technological innovation?
+    Options:
+    - A new theory of learning.
+    - Using a simulation to practice parent-teacher meetings.
+    - Changing the semester schedule.
+    - A new code of ethics for teachers.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'A key benefit of the "Integrated ITEP" model is that it:'
+    Options:
+    - Shortens the duration of teacher education.
+    - Separates subject knowledge from pedagogical training.
+    - Weaves together disciplinary knowledge and professional understanding from
+      the beginning.
+    - Focuses only on pedagogy.
+    CorrectOptionIndex: 2
+    LevelName: innovation in TE
+  - QuestionText: 'Innovation in assessment helps to create a culture of:'
+    Options:
+    - Fear and competition.
+    - Learning and growth.
+    - One-time performance.
+    - Standardization only.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'The "O" in "OER" stands for:'
+    Options:
+    - Official
+    - Operational
+    - Online
+    - Open
+    CorrectOptionIndex: 3
+    LevelName: innovation in TE
+  - QuestionText: 'A future-oriented innovation in teacher education is preparing
+      teachers for:'
+    Options:
+    - A world without technology.
+    - The ethical integration of Artificial Intelligence (AI) in education.
+    - Using only chalk and talk methods.
+    - Teaching a fixed, unchanging curriculum.
+    CorrectOptionIndex: 1
+    LevelName: innovation in TE
+  - QuestionText: 'The spirit of innovation is best captured by a mindset of:'
+    Options:
+    - '"This is how it has always been done."'
+    - '"New ideas are unnecessary."'
+    - '"Change is too difficult."'
+    - '"How can we do this better to meet the needs of future learners?"'
+    CorrectOptionIndex: 3
+    LevelName: innovation in TE

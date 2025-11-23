@@ -1,0 +1,471 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: TA experiential learning
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Who is considered the primary philosophical founder of experiential
+      learning theory?
+    Options:
+    - B.F. Skinner
+    - John Dewey
+    - Maria Montessori
+    - Benjamin Bloom
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: 'The experiential learning cycle typically begins with:'
+    Options:
+    - Abstract conceptualization
+    - Concrete experience
+    - Reflective observation
+    - Active experimentation
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: In David Kolb's experiential learning model, which phase involves
+      making sense of experiences and forming generalizations?
+    Options:
+    - Concrete experience
+    - Reflective observation
+    - Abstract conceptualization
+    - Active experimentation
+    CorrectOptionIndex: 2
+    LevelName: TA experiential learning
+  - QuestionText: 'A teacher educator takes B.Ed. students to observe different school
+      types before discussing "Sociological Foundations of Education." This approach
+      primarily demonstrates:'
+    Options:
+    - Expository learning
+    - Experiential learning
+    - Programmed instruction
+    - Mastery learning
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: Which of the following is NOT a key characteristic of experiential
+      learning?
+    Options:
+    - Teacher-centered instruction
+    - Learning through direct experience
+    - Reflection on experience
+    - Application to new situations
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: The concept of "learning by doing" is most closely associated with
+      which educator?
+    Options:
+    - John Dewey
+    - Lev Vygotsky
+    - Jean Piaget
+    - E.L. Thorndike
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: 'In experiential learning, the role of the teacher shifts from
+      information-giver to:'
+    Options:
+    - Disciplinarian
+    - Facilitator and guide
+    - Passive observer
+    - Sole evaluator
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: Which learning style in Kolb's model combines concrete experience
+      and active experimentation?
+    Options:
+    - Diverging
+    - Assimilating
+    - Converging
+    - Accommodating
+    CorrectOptionIndex: 3
+    LevelName: TA experiential learning
+  - QuestionText: Service-learning projects in teacher education programs represent
+      which type of experiential learning?
+    Options:
+    - Laboratory experiments
+    - Community-based experiences
+    - Simulation games
+    - Case studies only
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: 'The primary goal of reflective observation in experiential learning
+      is to:'
+    Options:
+    - Immediately apply knowledge
+    - Avoid personal involvement
+    - Memorize factual information
+    - Think critically about experiences from multiple perspectives
+    CorrectOptionIndex: 3
+    LevelName: TA experiential learning
+  - QuestionText: A professor designing an experiential learning activity for "Philosophical
+      Foundations of Education" asks students to simulate different philosophical
+      schools in classroom scenarios. What is the main advantage of this approach?
+    Options:
+    - It saves preparation time for the teacher
+    - Students directly experience the practical implications of philosophical positions
+    - It requires no theoretical background knowledge
+    - It eliminates the need for assessment
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: How does experiential learning in foundation courses differ from
+      traditional lecture-based approaches?
+    Options:
+    - It emphasizes passive reception of information
+    - It connects theoretical concepts to real-world applications
+    - It focuses solely on textbook knowledge
+    - It reduces student engagement
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: In implementing experiential learning for "Psychological Foundations,"
+      what preliminary step is most crucial for ensuring learning effectiveness?
+    Options:
+    - Providing clear theoretical framework before experiences
+    - Allowing completely unstructured experiences
+    - Eliminating all theoretical input
+    - Focusing only on enjoyable activities
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: A student complains that experiential learning activities take
+      too much time compared to lectures. How should the educator respond based on
+      experiential learning principles?
+    Options:
+    - Reduce all experiential components
+    - Explain that deep learning through experience requires meaningful time investment
+    - Agree and return to lecture methods
+    - Eliminate reflection components to save time
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: When assessing experiential learning in "Contemporary Indian Education,"
+      which method would be most appropriate?
+    Options:
+    - Standardized multiple-choice tests only
+    - Memory-based examinations
+    - Recitation of theoretical concepts
+    - Portfolios including reflections, projects, and practical applications
+    CorrectOptionIndex: 3
+    LevelName: TA experiential learning
+  - QuestionText: 'Compared to expository learning, experiential learning is more
+      effective for developing:'
+    Options:
+    - Rote memorization skills
+    - Practical application abilities and critical thinking
+    - Speed in recalling facts
+    - Passive learning habits
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: In Kolb's learning cycle, what potential problem occurs if students
+      move directly from concrete experience to active experimentation without reflection?
+    Options:
+    - Learning becomes more efficient
+    - Action may be taken without adequate understanding
+    - Theoretical knowledge improves
+    - Memory retention increases
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: A teacher educator notices students are having rich experiences
+      but not connecting them to educational theory in "Sociological Foundations."
+      What intervention would best address this?
+    Options:
+    - Providing structured reflection guides with theoretical frameworks
+    - Eliminating experiential components
+    - Allowing complete freedom in reflection
+    - Focusing only on enjoyable experiences
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: 'The "double-loop learning" concept in experiential learning emphasizes:'
+    Options:
+    - Repeating the same actions for mastery
+    - Examining and questioning underlying assumptions
+    - Following instructions without question
+    - Avoiding any critical analysis
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: Experiential learning aligns with which psychological perspective's
+      emphasis on active knowledge construction?
+    Options:
+    - Behaviorism
+    - Perennialism
+    - Essentialism
+    - Constructivism
+    CorrectOptionIndex: 3
+    LevelName: TA experiential learning
+  - QuestionText: Designing an experiential learning activity for "Historical Foundations
+      of Education" that involves analyzing primary historical documents would primarily
+      develop which cognitive skill?
+    Options:
+    - Memorization of dates
+    - Critical historical thinking and analysis
+    - Passive reception of information
+    - Rote learning
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: What is the most significant challenge in implementing experiential
+      learning in large teacher education classes?
+    Options:
+    - Providing individualized guidance and feedback
+    - Students prefer lecture methods
+    - It requires less teacher preparation
+    - It works only for simple content
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: In experiential learning, what is the primary purpose of the "abstract
+      conceptualization" phase?
+    Options:
+    - To have enjoyable experiences
+    - To develop theoretical understanding from experiences
+    - To avoid any theoretical input
+    - To focus only on practical skills
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: A professor wants to assess whether experiential learning activities
+      in "Psychological Foundations" are achieving desired outcomes. What evidence
+      would be most valid?
+    Options:
+    - Students' ability to apply psychological principles in real teaching situations
+    - Scores on theoretical tests only
+    - Student satisfaction ratings alone
+    - Attendance records
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: How does experiential learning address different learning styles
+      more effectively than traditional methods?
+    Options:
+    - It eliminates visual components
+    - It focuses only on auditory learning
+    - It engages multiple learning modalities through varied experiences
+    - It prioritizes reading and writing exclusively
+    CorrectOptionIndex: 2
+    LevelName: TA experiential learning
+  - QuestionText: 'The concept of "legitimate peripheral participation" in situated
+      learning theory relates to experiential learning by emphasizing:'
+    Options:
+    - Learning through gradual involvement in authentic practices
+    - Learning only through expert lectures
+    - Avoiding any practical involvement
+    - Theoretical study separated from practice
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: When designing experiential learning for "Educational Technology"
+      foundation courses, what principle should guide activity selection?
+    Options:
+    - Activities should be technologically complex regardless of educational value
+    - Experiences should directly connect to meaningful educational applications
+    - Avoid any hands-on technology use
+    - Focus only on theoretical aspects of technology
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: A student consistently struggles during the reflective observation
+      phase of experiential learning. What support strategy would be most effective?
+    Options:
+    - Providing reflection frameworks and guided questions
+    - Eliminating reflection requirements
+    - Allowing unstructured free writing only
+    - Skipping the reflection phase entirely
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: How does experiential learning in foundation courses specifically
+      prepare pre-service teachers for their future roles?
+    Options:
+    - By providing abstract theoretical knowledge only
+    - By developing practical wisdom through authentic teaching experiences
+    - By focusing solely on content knowledge
+    - By avoiding any classroom exposure
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: 'The "cognitive apprenticeship" model in experiential learning
+      emphasizes:'
+    Options:
+    - Making expert thinking processes visible to learners
+    - Keeping expert knowledge hidden
+    - Learning through observation only
+    - Avoiding any expert guidance
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: In implementing experiential learning for diverse learners in "Sociological
+      Foundations," what consideration is most important?
+    Options:
+    - Eliminating cultural references from experiences
+    - Using identical experiences for all students
+    - Providing multiple entry points and varied experience options
+    - Focusing only on majority culture experiences
+    CorrectOptionIndex: 2
+    LevelName: TA experiential learning
+  - QuestionText: What distinguishes experiential learning from simple "hands-on
+      activities"?
+    Options:
+    - The systematic inclusion of reflection and theoretical integration
+    - The absence of any theoretical framework
+    - The focus on entertainment value
+    - The elimination of teacher guidance
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: A professor wants to evaluate the depth of learning in experiential
+      activities for "Philosophical Foundations." Which assessment approach would
+      be most revealing?
+    Options:
+    - Using true-false questions about experiences
+    - Counting the number of experiences completed
+    - Measuring time spent on activities
+    - Analyzing students' reflective journals for evidence of conceptual understanding
+    CorrectOptionIndex: 3
+    LevelName: TA experiential learning
+  - QuestionText: 'The "zone of proximal development" concept supports experiential
+      learning by suggesting:'
+    Options:
+    - Learning occurs through challenging experiences with appropriate support
+    - Students should work completely independently
+    - All experiences should be easily achievable without help
+    - Teacher guidance inhibits learning
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: When students express discomfort with the ambiguity of experiential
+      learning, what response aligns with experiential learning principles?
+    Options:
+    - Eliminate all challenging experiences
+    - Immediately return to structured lectures
+    - Acknowledge discomfort as part of authentic learning and provide support
+    - Focus only on comfortable, familiar activities
+    CorrectOptionIndex: 2
+    LevelName: TA experiential learning
+  - QuestionText: How does experiential learning specifically support the development
+      of "phronesis" (practical wisdom) in teacher education?
+    Options:
+    - By separating theory from practice
+    - Through repeated cycles of experience, reflection, and application
+    - By focusing only on theoretical knowledge
+    - Through memorization of best practices
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: 'A key ethical consideration in designing experiential learning
+      for "Contemporary Educational Issues" is:'
+    Options:
+    - Ensuring experiences don't exploit communities or cause harm
+    - Avoiding any controversial topics
+    - Focusing only on positive educational examples
+    - Eliminating real-world engagement
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: The "action research" component in teacher education represents
+      which aspect of experiential learning?
+    Options:
+    - Avoiding any research involvement
+    - Theoretical study without application
+    - Passive observation of others' teaching
+    - Systematic investigation of one's own teaching practice
+    CorrectOptionIndex: 3
+    LevelName: TA experiential learning
+  - QuestionText: What is the primary benefit of using case studies as experiential
+      learning tools in foundation courses?
+    Options:
+    - They provide controlled, analyzable examples of complex educational situations
+    - They eliminate the need for theoretical knowledge
+    - They focus only on successful examples
+    - They avoid real-world complexity
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: In Kolb's learning styles inventory, which style prefers abstract
+      conceptualization and reflective observation?
+    Options:
+    - Diverging
+    - Assimilating
+    - Converging
+    - Accommodating
+    CorrectOptionIndex: 1
+    LevelName: TA experiential learning
+  - QuestionText: A professor wants to ensure experiential learning activities in
+      "Psychological Foundations" are educationally meaningful rather than just entertaining.
+      What design principle is most important?
+    Options:
+    - Clear alignment with learning objectives and theoretical frameworks
+    - Focus on enjoyment above all else
+    - Elimination of challenging components
+    - Using popular activities regardless of relevance
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: 'The concept of "transformative learning" through experience emphasizes:'
+    Options:
+    - Reinforcement of pre-existing beliefs only
+    - Minor adjustments to existing knowledge
+    - Fundamental changes in perspectives and understanding
+    - Avoidance of perspective changes
+    CorrectOptionIndex: 2
+    LevelName: TA experiential learning
+  - QuestionText: When implementing experiential learning in resource-limited environments,
+      what adaptation strategy is most effective?
+    Options:
+    - Using simulations, case studies, and role-plays as experience substitutes
+    - Eliminating experiential components entirely
+    - Focusing only on theoretical instruction
+    - Using only outdoor experiences
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: How does experiential learning specifically address the "theory-practice
+      gap" in teacher education?
+    Options:
+    - By focusing only on practical skills
+    - By emphasizing theory over practice
+    - By creating continuous dialogue between theoretical concepts and practical
+      experiences
+    - By keeping theory and practice separate
+    CorrectOptionIndex: 2
+    LevelName: TA experiential learning
+  - QuestionText: A student completes an experiential activity successfully but cannot
+      articulate what they learned. What does this suggest about the learning design?
+    Options:
+    - The reflection phase was inadequate or missing
+    - The experience was perfectly designed
+    - No learning occurred
+    - Theoretical understanding is unnecessary
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: 'The "cognitive conflict" often generated by experiential learning
+      is valuable because it:'
+    Options:
+    - Shows learning isn't occurring
+    - Should be avoided at all costs
+    - Indicates poor activity design
+    - Creates discomfort that motivates deeper learning and conceptual change
+    CorrectOptionIndex: 3
+    LevelName: TA experiential learning
+  - QuestionText: When designing experiential learning sequences for foundation courses,
+      what progression principle should guide the design?
+    Options:
+    - Moving from simpler to more complex experiences with increasing autonomy
+    - Using random experience ordering
+    - Starting with the most complex challenges
+    - Maintaining identical difficulty levels throughout
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: How does experiential learning specifically support the development
+      of teacher identity?
+    Options:
+    - By observing others without participation
+    - By avoiding any teaching experiences
+    - Through theoretical study only
+    - Through repeated experiences of acting and reflecting as a teacher
+    CorrectOptionIndex: 3
+    LevelName: TA experiential learning
+  - QuestionText: 'A key difference between experiential learning and traditional
+      field experiences is that experiential learning:'
+    Options:
+    - Systematically integrates reflection and theoretical learning
+    - Focuses only on skill acquisition
+    - Avoids any theoretical framework
+    - Emphasizes quantity over quality of experiences
+    CorrectOptionIndex: 0
+    LevelName: TA experiential learning
+  - QuestionText: What is the most significant long-term benefit of using experiential
+      learning in teacher education foundation courses?
+    Options:
+    - Reduced need for teacher preparation
+    - Faster coverage of theoretical content
+    - Development of adaptable, reflective practitioners who can learn from experience
+    - Elimination of theoretical knowledge requirements
+    CorrectOptionIndex: 2
+    LevelName: TA experiential learning

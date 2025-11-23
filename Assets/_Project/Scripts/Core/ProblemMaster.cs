@@ -169,7 +169,7 @@ public abstract class ProblemMaster<TProblem, TSolution, TResult> : MonoBehaviou
         // Ensure results reflect the intended number of questions
         int totalAttempted = _resultStack.Count; // How many were actually answered/timed out
         int correct = _resultStack.Count(result => isCorrectPredicate(result));
-
+        Debug.Log($"Level Results: Attempted={totalAttempted}, Correct={correct}, MaxQuestions={this.maxQuestions}");
         return new LevelResultInfo
         {
             TotalQuestionsAttempted = totalAttempted,

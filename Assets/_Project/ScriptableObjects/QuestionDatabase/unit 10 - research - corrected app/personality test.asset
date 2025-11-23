@@ -1,0 +1,452 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: personality test
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary purpose of a personality test?
+    Options:
+    - To diagnose mental illness
+    - To measure intelligence
+    - To assess characteristic patterns of thinking, feeling, and behaving
+    - To determine academic aptitude
+    CorrectOptionIndex: 2
+    LevelName: personality test
+  - QuestionText: Which of the following is a key characteristic of a projective
+      personality test?
+    Options:
+    - Uses objective, multiple-choice questions
+    - Uses ambiguous stimuli to project unconscious feelings and conflicts
+    - Has high reliability and validity
+    - Is easy to score and interpret
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The Thematic Apperception Test (TAT) is a:'
+    Options:
+    - Projective test requiring stories about pictures
+    - Self-report inventory
+    - Objective personality test
+    - Measure of cognitive ability
+    CorrectOptionIndex: 0
+    LevelName: personality test
+  - QuestionText: 'The Minnesota Multiphasic Personality Inventory (MMPI) is a classic
+      example of a:'
+    Options:
+    - Projective Test
+    - Self-Report Inventory
+    - Behavioral Assessment
+    - Situational Test
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The "Big Five" personality traits are also known as the:'
+    Options:
+    - MMPI Factors
+    - Five-Factor Model (FFM)
+    - Psychodynamic Dimensions
+    - Myers-Briggs Types
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: Which of the following is NOT one of the Big Five personality traits?
+    Options:
+    - Openness to Experience
+    - Conscientiousness
+    - Psychoticism
+    - Agreeableness
+    CorrectOptionIndex: 2
+    LevelName: personality test
+  - QuestionText: 'The Myers-Briggs Type Indicator (MBTI) classifies people based
+      on the theories of:'
+    Options:
+    - B.F. Skinner
+    - Carl Jung
+    - Sigmund Freud
+    - Albert Bandura
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'A key criticism of the Myers-Briggs Type Indicator (MBTI) is its:'
+    Options:
+    - High cost
+    - Low reliability and validity for predicting behavior
+    - Use of projective techniques
+    - Complexity of scoring
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The Rorschach Inkblot Test is primarily used to assess:'
+    Options:
+    - Academic achievement
+    - Unconscious thought processes and personality structure
+    - Vocational interests
+    - Specific phobias
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The term "ipsative" in personality testing refers to scales where:'
+    Options:
+    - Scores are compared to a norm group.
+    - Items force a choice between equally desirable options, measuring relative
+      strength within an individual.
+    - There is no right or wrong answer.
+    - Scores are based on speed.
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The concept of "reliability" in personality testing refers to
+      the:'
+    Options:
+    - Test's ability to measure what it claims to measure
+    - Consistency of scores when the test is repeated
+    - Social acceptability of the test items
+    - Length of the test
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The concept of "validity" in personality testing refers to the:'
+    Options:
+    - Accuracy of the test in measuring the intended personality construct
+    - Consistency of the scores
+    - Ease of administration
+    - Popularity of the test
+    CorrectOptionIndex: 0
+    LevelName: personality test
+  - QuestionText: 'A personality test that is "norm-referenced" means that:'
+    Options:
+    - It has no standards for comparison.
+    - An individual's score is interpreted by comparing it to scores from a representative
+      sample (norm group).
+    - It only measures normal behavior.
+    - It is always valid.
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: Which theorist is most associated with a psychodynamic approach
+      to personality assessment?
+    Options:
+    - Carl Rogers
+    - Sigmund Freud
+    - Gordon Allport
+    - Raymond Cattell
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The 16 Personality Factor Questionnaire (16PF) was developed by:'
+    Options:
+    - Paul Costa & Robert McCrae
+    - Raymond Cattell
+    - Isabel Myers & Katharine Briggs
+    - Hans Eysenck
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: How does a "trait" approach to personality differ from a "type"
+      approach?
+    Options:
+    - Traits are qualitative, types are quantitative.
+    - Traits are continuous dimensions; types are discrete categories.
+    - There is no difference.
+    - Traits are for assessment, types are for therapy.
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: Why is the context of assessment important in personality testing?
+    Options:
+    - It is not important.
+    - Because test results can be influenced by the test-taker's mood, the environment,
+      and their understanding of the purpose.
+    - It only matters for projective tests.
+    - It only affects the cost.
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: What is a major advantage of objective personality inventories
+      (like the MMPI)?
+    Options:
+    - They are easy to interpret subjectively.
+    - They are standardized, easy to administer to large groups, and can be scored
+      reliably.
+    - They guarantee accurate self-knowledge.
+    - They uncover deep unconscious material.
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: What is a potential weakness of self-report inventories?
+    Options:
+    - They are too expensive.
+    - They are susceptible to response sets like social desirability (faking good)
+      or acquiescence (yea-saying).
+    - They cannot be used in research.
+    - They are always invalid.
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The "lie scale" embedded in tests like the MMPI is designed to
+      detect:'
+    Options:
+    - High intelligence
+    - A tendency to present oneself in an overly favorable light
+    - Clinical depression
+    - Extraversion
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'A teacher uses a checklist to record how often a student exhibits
+      behaviors like "works independently" or "seeks help." This is a form of:'
+    Options:
+    - Projective Test
+    - Behavioral Assessment
+    - Self-Report Inventory
+    - Aptitude Test
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The concept of "self-concept" is most central to the personality
+      theory of:'
+    Options:
+    - Sigmund Freud
+    - Carl Rogers
+    - B.F. Skinner
+    - Hans Eysenck
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: "Assertion (A):\_Personality tests should never be used as the
+      sole basis for important decisions.\_Reason (R):\_Personality is complex, and
+      test scores are just one source of information and can be misinterpreted."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: personality test
+  - QuestionText: 'The NEO-PI-R is a test specifically designed to measure:'
+    Options:
+    - Jungian Psychological Types
+    - The Big Five Personality Traits
+    - Psychopathological symptoms
+    - Vocational interests
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'A "situational test" of personality involves:'
+    Options:
+    - Analyzing dreams
+    - Placing a person in a simulated real-life scenario to observe their behavior
+    - Completing a long questionnaire
+    - Interpreting inkblots
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The id, ego, and superego are personality structures in the theory
+      of:'
+    Options:
+    - Carl Jung
+    - Sigmund Freud
+    - Alfred Adler
+    - Karen Horney
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'A person taking a test answers "yes" to almost every question,
+      regardless of content. This is the response set of:'
+    Options:
+    - Social Desirability
+    - Acquiescence
+    - Malingering
+    - Deviance
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The term "personality" is best defined as:'
+    Options:
+    - A person's intelligence level
+    - Enduring patterns of thinking, feeling, and behaving that characterize a person
+    - Temporary emotional states
+    - A person's moral character
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: Which type of validity is most important for a personality test
+      meant to identify individuals at risk for anxiety disorders?
+    Options:
+    - Content Validity
+    - Criterion Validity (specifically predictive validity)
+    - Face Validity
+    - Construct Validity
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'A teacher who understands that a student''s high "neuroticism"
+      score might indicate a tendency to experience test anxiety more strongly is
+      using the test for:'
+    Options:
+    - Diagnosis
+    - Understanding and prediction
+    - Labeling
+    - Placement
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The process of establishing norms for a personality test involves:'
+    Options:
+    - Writing the test items
+    - Administering the test to a large, representative sample to create a standard
+      for comparison
+    - Interpreting individual scores
+    - Validating the test
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'A key ethical consideration in personality testing is:'
+    Options:
+    - Using the longest test available
+    - Ensuring confidentiality of results and providing appropriate feedback
+    - Using only projective tests
+    - Avoiding all self-report measures
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The Forer Effect (Barnum Effect) explains why people:'
+    Options:
+    - Dislike personality tests
+    - Accept vague, general personality descriptions as uniquely accurate for them
+    - Always tell the truth on tests
+    - Prefer objective tests
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: Which assessment method is most directly based on learning principles?
+    Options:
+    - The Rorschach Test
+    - Behavioral Observation
+    - The TAT
+    - The MBTI
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'A "validity scale" on a personality inventory is designed to:'
+    Options:
+    - Measure a primary personality trait
+    - Detect inaccurate or misleading response patterns
+    - Make the test longer
+    - Replace the need for reliability
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: The concept of "locus of control" is part of which perspective
+      on personality?
+    Options:
+    - Psychoanalytic
+    - Social-Cognitive
+    - Trait
+    - Humanistic
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'A person described as reliable, organized, and disciplined would
+      likely score high on the Big Five trait of:'
+    Options:
+    - Openness
+    - Conscientiousness
+    - Extraversion
+    - Agreeableness
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The Thematic Apperception Test (TAT) is often scored for:'
+    Options:
+    - Needs (e.g., achievement, affiliation) and presses (environmental forces)
+    - The number of responses
+    - The Big Five traits
+    - IQ
+    CorrectOptionIndex: 0
+    LevelName: personality test
+  - QuestionText: Which test is most likely to be used in a clinical setting to aid
+      in diagnosing mental disorders?
+    Options:
+    - MBTI
+    - MMPI-2
+    - 16PF
+    - NEO-PI-R
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'A person taking a test for a job tries to make themselves look
+      like the "ideal candidate." This is the response set of:'
+    Options:
+    - Social Desirability
+    - Acquiescence
+    - Malingering
+    - Deviance
+    CorrectOptionIndex: 0
+    LevelName: personality test
+  - QuestionText: 'The "halo effect" in behavioral rating occurs when:'
+    Options:
+    - A rater uses only the middle of the scale.
+    - A rater's overall positive impression of a person influences their ratings
+      of specific traits.
+    - A rater is too strict.
+    - Ratings are done in a halo-shaped room.
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The term "projection" in projective tests is a defense mechanism
+      originally described by:'
+    Options:
+    - Carl Rogers
+    - Sigmund Freud
+    - Gordon Allport
+    - Albert Bandura
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'A key difference between personality and mood is that personality
+      is:'
+    Options:
+    - Temporary and changing
+    - Relatively stable and enduring
+    - Easily measured
+    - Always positive
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'For a personality test to be useful in cross-cultural research,
+      it must demonstrate:'
+    Options:
+    - Cross-cultural validity (measurement invariance)
+    - That it was developed in the US
+    - That it uses only pictures
+    - That it is very long
+    CorrectOptionIndex: 0
+    LevelName: personality test
+  - QuestionText: 'A "standardized" test means that:'
+    Options:
+    - It always gives the same score.
+    - It is administered and scored in a consistent manner for all test-takers.
+    - It is always fair.
+    - It is based on a standard theory.
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The "Big Five" trait of Openness to Experience includes facets
+      like:'
+    Options:
+    - Friendliness and compassion
+    - Imagination, artistic interest, and intellectual curiosity
+    - Anxiety and depression
+    - Competence and order
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'A teacher using a personality test to help students understand
+      their own learning styles and potential career paths is using the test for:'
+    Options:
+    - Diagnosis
+    - Guidance and self-awareness
+    - Selection
+    - Research
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: The concept of "reliability" is concerned with __________, while
+      "validity" is concerned with __________.
+    Options:
+    - Consistency; Accuracy
+    - Accuracy; Consistency
+    - Cost; Length
+    - Theory; Practice
+    CorrectOptionIndex: 0
+    LevelName: personality test
+  - QuestionText: Which of the following is a fundamental ethical principle of psychological
+      testing?
+    Options:
+    - Tests should be used to label people.
+    - Informed consent must be obtained from the test-taker.
+    - Results should be shared publicly.
+    - Only experts can be tested.
+    CorrectOptionIndex: 1
+    LevelName: personality test
+  - QuestionText: 'The most important consideration for an educator using a personality
+      inventory is to:'
+    Options:
+    - Use the most popular test.
+    - Understand the test's limitations and use it as one piece of information among
+      many.
+    - Rely on it completely for student placement.
+    - Keep the results a secret from the student.
+    CorrectOptionIndex: 1
+    LevelName: personality test

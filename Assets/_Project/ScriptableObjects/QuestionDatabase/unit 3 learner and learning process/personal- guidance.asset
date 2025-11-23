@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: personal- guidance
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The primary aim of personal guidance is to:'
+    Options:
+    - Secure a high-paying job for the individual.
+    - Help an individual achieve personal happiness and social adjustment.
+    - Improve academic grades through better study habits.
+    - Select the most profitable career path.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'A student is experiencing intense anxiety before every exam, despite
+      being well-prepared. This is a classic case for:'
+    Options:
+    - Educational Guidance
+    - Vocational Guidance
+    - Personal Guidance
+    - Recreational Guidance
+    CorrectOptionIndex: 2
+    LevelName: personal- guidance
+  - QuestionText: Which of the following is a key "principle" underlying effective
+      personal guidance?
+    Options:
+    - It should be highly directive, telling the client what to do.
+    - It must maintain strict confidentiality to build trust.
+    - It should be provided only in group settings.
+    - Its main goal is to enforce social conformity.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: The concept of "self-actualization" is most closely associated
+      with which theorist and is a central goal of personal guidance?
+    Options:
+    - B.F. Skinner
+    - John Dewey
+    - Frank Parsons
+    - Abraham Maslow
+    CorrectOptionIndex: 3
+    LevelName: personal- guidance
+  - QuestionText: 'A teacher notices a student is being socially isolated by peers.
+      The teacher''s role in providing personal guidance in this situation is to:'
+    Options:
+    - Ignore it, as it is a normal part of growing up.
+    - Facilitate activities that promote inclusion and develop the student's social
+      skills.
+    - Punish the entire class.
+    - Immediately refer the student to a psychiatrist.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'In the context of personal guidance, "catharsis" refers to:'
+    Options:
+    - The final solution to a problem.
+    - The process of giving advice.
+    - The emotional release a client experiences by talking about pent-up feelings.
+    - A type of psychological test.
+    CorrectOptionIndex: 2
+    LevelName: personal- guidance
+  - QuestionText: 'A student is struggling with body image issues and low self-esteem
+      due to social media influence. This falls primarily under the domain of:'
+    Options:
+    - Vocational Guidance
+    - Academic Guidance
+    - Personal Guidance
+    - Health Guidance
+    CorrectOptionIndex: 2
+    LevelName: personal- guidance
+  - QuestionText: 'The "Non-Directive" or "Client-Centered" approach to personal
+      counselling was primarily developed by:'
+    Options:
+    - Sigmund Freud
+    - Carl Rogers
+    - Albert Ellis
+    - Donald Super
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: Which of the following is a core condition for effective personal
+      counselling according to Carl Rogers?
+    Options:
+    - Unconditional Positive Regard
+    - Systematic Desensitization
+    - Dream Interpretation
+    - Logical Consequences
+    CorrectOptionIndex: 0
+    LevelName: personal- guidance
+  - QuestionText: Personal guidance is needed at which stage of life?
+    Options:
+    - Only during adolescence
+    - Only during adulthood crises
+    - Throughout an individual's life
+    - Only in early childhood
+    CorrectOptionIndex: 2
+    LevelName: personal- guidance
+  - QuestionText: 'A student confides in a counselor about experiencing bullying.
+      The counselor''s immediate ethical priority is to:'
+    Options:
+    - Promise absolute secrecy and do nothing.
+    - Ensure the student's safety and well-being, which may require breaking confidentiality.
+    - Advise the student to fight back physically.
+    - Ignore it as it's a common school occurrence.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'A school implements a program on "Anger Management" for students.
+      This is an example of:'
+    Options:
+    - Curative Personal Guidance
+    - Preventive Personal Guidance
+    - Vocational Guidance
+    - Educational Assessment
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'The technique of "Active Listening" in personal guidance involves:'
+    Options:
+    - Listening while preparing a response.
+    - Dominating the conversation.
+    - Giving immediate advice and solutions.
+    - Paraphrasing and reflecting the client's feelings to show understanding.
+    CorrectOptionIndex: 3
+    LevelName: personal- guidance
+  - QuestionText: Which of the following is a tool used to understand social relationships
+      within a group, often used in personal guidance?
+    Options:
+    - Aptitude Test
+    - Sociogram
+    - Interest Inventory
+    - Achievement Test
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'Personal guidance differs from vocational guidance in that it
+      focuses on:'
+    Options:
+    - The world of work and employment.
+    - An individual's emotional, social, and personal well-being.
+    - Academic achievement and study skills.
+    - Choosing the right college courses.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'A student says, "I''m completely worthless because I failed one
+      test." A counselor using a Cognitive-Behavioral approach would likely:'
+    Options:
+    - Explore the client's childhood relationship with their parents.
+    - Share a story about their own failure.
+    - Agree with the client to build rapport.
+    - Help the client identify and challenge this irrational, all-or-nothing thought.
+    CorrectOptionIndex: 3
+    LevelName: personal- guidance
+  - QuestionText: 'The principle of "Acceptance" in personal guidance means the counselor:'
+    Options:
+    - Agrees with everything the client says.
+    - Creates a non-judgmental atmosphere where the client feels valued as a person.
+    - Accepts gifts from the client.
+    - Accepts the client's problematic behavior without trying to change it.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'A "Crisis Intervention" service in a school is a form of:'
+    Options:
+    - Long-term psychotherapy
+    - Immediate and short-term personal guidance
+    - Vocational planning
+    - Academic tutoring
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'The ultimate goal of personal guidance is to help an individual
+      become:'
+    Options:
+    - Dependent on the counselor for support.
+    - Compliant with societal norms.
+    - Perfect and free from all problems.
+    - A self-directed, self-aware, and integrated person.
+    CorrectOptionIndex: 3
+    LevelName: personal- guidance
+  - QuestionText: 'In a culturally diverse setting, a personal guidance counselor
+      must be particularly aware of:'
+    Options:
+    - Imposing their own cultural values on the client.
+    - The client's cultural background and its influence on their personal issues.
+    - Avoiding discussions about culture altogether.
+    - Both a and b.
+    CorrectOptionIndex: 3
+    LevelName: personal- guidance
+  - QuestionText: 'A student is caught in a conflict between pursuing their passion
+      for art and fulfilling their family''s expectation of joining the family business.
+      The personal guidance counselor''s role is to:'
+    Options:
+    - Side with the family for financial security.
+    - Side with the student's passion unconditionally.
+    - Act as a facilitator to help the student explore their values, understand family
+      expectations, and make a conscious, autonomous decision.
+    - Tell the student to keep both options open without deciding.
+    CorrectOptionIndex: 2
+    LevelName: personal- guidance
+  - QuestionText: 'Evaluating two approaches to handling a student''s chronic lying:
+      Teacher A uses public shaming. Teacher B uses personal guidance to understand
+      the underlying cause (e.g., fear of punishment, seeking attention). A key reason
+      Teacher B''s approach is more effective is that it:'
+    Options:
+    - Is quicker and easier to implement.
+    - Addresses the root cause of the behavior, leading to more lasting change.
+    - Makes an example of the student for the rest of the class.
+    - Requires less training.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: A counselor who helps a client see the disconnect between their
+      stated goal (e.g., "I want friends") and their actual behavior (e.g., rejecting
+      social invitations) is using a technique central to which therapy?
+    Options:
+    - Psychoanalysis
+    - Reality Therapy
+    - Person-Centered Therapy
+    - Trait-and-Factor Therapy
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'In the context of digital citizenship, personal guidance now must
+      include helping students with issues like:'
+    Options:
+    - Choosing the right programming language.
+    - Selecting the fastest internet plan.
+    - Building a professional LinkedIn profile.
+    - Cyberbullying, online privacy, and managing digital footprints.
+    CorrectOptionIndex: 3
+    LevelName: personal- guidance
+  - QuestionText: 'A client expresses strong feelings of anger towards a parent.
+      A Rogerian counselor would respond with:'
+    Options:
+    - '"You shouldn''t be angry at your parent."'
+    - '"Tell me more about what your parent did to make you so angry."'
+    - '"It seems you are feeling very angry when you talk about your parent."'
+    - '"Let''s analyze your childhood dreams."'
+    CorrectOptionIndex: 2
+    LevelName: personal- guidance
+  - QuestionText: 'The ethical concept of "Dual Relationship" is problematic in personal
+      guidance because it:'
+    Options:
+    - Saves time and resources.
+    - Can impair the counselor's objectivity and exploit the client.
+    - Is a required part of building rapport.
+    - Makes counseling more efficient.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'A school''s personal guidance program that includes lessons on
+      empathy, resilience, and emotional literacy for all students is primarily:'
+    Options:
+    - Curative and crisis-oriented.
+    - Developmental and preventive.
+    - Redundant and unnecessary.
+    - Focused on academic remediation.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'A student who is a perfectionist is highly self-critical and experiences
+      significant stress. The counselor might hypothesize, based on Ellis''s ABC
+      model, that the student''s stress (C) is not caused by their high standards
+      (A) but by their (B):'
+    Options:
+    - Athletic ability
+    - Parental genes
+    - Career goals
+    - Irrational beliefs (e.g., "I must be perfect to be worthwhile")
+    CorrectOptionIndex: 3
+    LevelName: personal- guidance
+  - QuestionText: 'When dealing with a client from a marginalized community, a culturally
+      competent counselor will:'
+    Options:
+    - Assume their problems are the same as everyone else's.
+    - Acknowledge the potential impact of systemic factors like discrimination on
+      their personal well-being.
+    - Avoid discussing cultural background.
+    - Focus solely on individual pathology.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'The "Eclectic Approach" in personal guidance means the counselor:'
+    Options:
+    - Is specialized in only one technique.
+    - Selects and uses techniques from various schools of thought based on the client's
+      needs.
+    - Only deals with electrical impulses in the brain.
+    - Follows a single, rigid protocol for all clients.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'A teacher uses "Circle Time" to allow students to share their
+      feelings and experiences. This strategy is a form of:'
+    Options:
+    - Individual Psychotherapy
+    - Academic Assessment
+    - Vocational Exploration
+    - Group Guidance for personal development
+    CorrectOptionIndex: 3
+    LevelName: personal- guidance
+  - QuestionText: 'A student grieving the loss of a parent may need help through
+      the stages of grief. A personal guidance counselor''s primary role here is
+      to:'
+    Options:
+    - Rush the student through the grieving process.
+    - Provide a supportive space for the student to process their loss at their own
+      pace.
+    - Advise the student to "be strong" and move on.
+    - Prescribe medication.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'The principle of "Self-worth" in guidance emphasizes that:'
+    Options:
+    - A person's worth is determined by their grades.
+    - Every individual has inherent dignity and value.
+    - Only successful people have worth.
+    - Worth is measured by material possessions.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: A counselor who focuses on a client's strengths, resources, and
+      potential for growth is practicing from a __________ perspective.
+    Options:
+    - Pathological
+    - Psychoanalytic
+    - Authoritarian
+    - Strength-based
+    CorrectOptionIndex: 3
+    LevelName: personal- guidance
+  - QuestionText: 'In a situation where a client poses a serious threat to themselves
+      or others, the counselor''s ethical obligation to maintain confidentiality:'
+    Options:
+    - Becomes absolute and unbreakable.
+    - Is overridden by the duty to protect.
+    - Is irrelevant.
+    - Requires the counselor to confront the threatening person directly.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'A personal guidance program that includes peer mediation training
+      is effectively fostering:'
+    Options:
+    - Academic competition
+    - Conflict resolution and social skills
+    - Vocational skills
+    - Memorization techniques
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'The "Inventory Service" in guidance can support personal guidance
+      by providing data on a student''s:'
+    Options:
+    - Future salary potential.
+    - Favorite subjects only.
+    - Parent's occupation.
+    - Personality traits and emotional adjustment.
+    CorrectOptionIndex: 3
+    LevelName: personal- guidance
+  - QuestionText: 'A teacher notices a sudden and drastic change in a student''s
+      behavior (e.g., becoming withdrawn or aggressive). The most appropriate initial
+      action is to:'
+    Options:
+    - Ignore it as a phase.
+    - Provide empathetic support and consider a referral to the school counselor.
+    - Punish the student for the change in behavior.
+    - Immediately call the parents and accuse them of wrongdoing.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'The concept of "Unconditional Positive Regard" means the counselor:'
+    Options:
+    - Approves of all the client's behaviors.
+    - Values and accepts the client as a person without judgment.
+    - Is positively regarded by the client.
+    - Always feels positive during sessions.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'A student facing an identity crisis, questioning their values
+      and life direction, is experiencing a challenge that is best addressed through:'
+    Options:
+    - Vocational Guidance
+    - Financial Guidance
+    - Educational Guidance
+    - Personal Guidance
+    CorrectOptionIndex: 3
+    LevelName: personal- guidance
+  - QuestionText: 'A counselor''s personal values strongly conflict with a client''s
+      lifestyle choices (e.g., regarding relationships). The ethical course of action
+      is to:'
+    Options:
+    - Try to convince the client their choices are wrong.
+    - Refer the client to another counselor to ensure impartiality.
+    - Suppress their own values and proceed.
+    - Terminate the session immediately.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'The "Directive" approach to counseling is characterized by the
+      counselor:'
+    Options:
+    - Acting primarily as a listener.
+    - Taking a leading role by giving advice and solutions.
+    - Focusing on the client's unconscious mind.
+    - Using only open-ended questions.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'A guidance program that helps students develop skills for managing
+      stress and anxiety is primarily contributing to their:'
+    Options:
+    - Vocational readiness
+    - Physical fitness
+    - Academic content knowledge
+    - Personal and emotional well-being
+    CorrectOptionIndex: 3
+    LevelName: personal- guidance
+  - QuestionText: 'The primary purpose of "rapport building" in the initial stage
+      of personal counseling is to:'
+    Options:
+    - Become friends with the client.
+    - Establish a foundation of trust and a working alliance.
+    - Extract personal information quickly.
+    - Decide on the number of sessions needed.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'A student who is a "first-generation learner" might face unique
+      personal challenges related to:'
+    Options:
+    - Academic pressure and family expectations.
+    - Lack of role models and difficulty adjusting to the academic culture.
+    - Both a and b.
+    - Superior inherited intelligence.
+    CorrectOptionIndex: 2
+    LevelName: personal- guidance
+  - QuestionText: 'A counselor using a "Behavioral" approach to help a client with
+      a fear of public speaking would likely focus on:'
+    Options:
+    - Exploring childhood memories of speaking.
+    - Systematic desensitization and practice.
+    - Analyzing dreams about audiences.
+    - Interpreting the symbolic meaning of the fear.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'The "Fantasy Stage" in Ginzberg''s career development theory has
+      a parallel in personal development, where young children:'
+    Options:
+    - Make realistic personal plans.
+    - Have unrealistic and imaginative views of themselves and their future.
+    - Are completely unaware of themselves.
+    - Focus only on vocational choices.
+    CorrectOptionIndex: 1
+    LevelName: personal- guidance
+  - QuestionText: 'In a parent-teacher meeting, a parent demands to know the details
+      of their child''s personal counseling sessions. The counselor should:'
+    Options:
+    - Disclose all details to maintain transparency.
+    - Share information only if the child is getting poor grades.
+    - Refuse to speak with the parent.
+    - Explain the ethical boundaries of confidentiality and focus on the child's
+      overall well-being.
+    CorrectOptionIndex: 3
+    LevelName: personal- guidance
+  - QuestionText: 'A school''s failure to provide an effective personal guidance
+      program can lead to an increase in:'
+    Options:
+    - Student maladjustment, dropout rates, and mental health issues.
+    - The number of students going to college.
+    - Academic achievement across the board.
+    - Teacher satisfaction.
+    CorrectOptionIndex: 0
+    LevelName: personal- guidance

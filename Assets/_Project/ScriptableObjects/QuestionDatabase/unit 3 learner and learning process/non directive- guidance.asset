@@ -1,0 +1,445 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: non directive- guidance
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Non-directive guidance is primarily associated with which prominent
+      psychologist?
+    Options:
+    - B.F. Skinner
+    - Carl Rogers
+    - Sigmund Freud
+    - John Dewey
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'In non-directive counseling, the counselor''s primary role is
+      to act as a:'
+    Options:
+    - Diagnostician and advisor
+    - Facilitator and reflective listener
+    - Teacher and guide
+    - Judge and evaluator
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'The theoretical foundation of non-directive guidance is rooted
+      in:'
+    Options:
+    - Behavioral psychology
+    - Humanistic psychology
+    - Psychoanalytic theory
+    - Trait-and-factor theory
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: Which of the following is a core condition for effective non-directive
+      counseling?
+    Options:
+    - Unconditional Positive Regard
+    - Systematic Desensitization
+    - Dream Interpretation
+    - Logical Consequences
+    CorrectOptionIndex: 0
+    LevelName: non directive- guidance
+  - QuestionText: 'The term "client-centered therapy" is synonymous with:'
+    Options:
+    - Directive counseling
+    - Non-directive counseling
+    - Behavioral counseling
+    - Reality therapy
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: In non-directive guidance, the counselor primarily uses which technique
+      to facilitate client self-exploration?
+    Options:
+    - Interpretation
+    - Reflection of feelings
+    - Advice-giving
+    - Confrontation
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'The fundamental assumption of non-directive guidance is that clients:'
+    Options:
+    - Are incapable of understanding their own problems
+    - Must be directed toward correct solutions
+    - Need expert advice to solve their problems
+    - Have the inherent capacity for self-understanding and problem-solving
+    CorrectOptionIndex: 3
+    LevelName: non directive- guidance
+  - QuestionText: Which of the following statements would a non-directive counselor
+      be MOST likely to use?
+    Options:
+    - '"You should try this approach to solve your problem."'
+    - '"I understand that you''re feeling confused about which path to take."'
+    - '"Your test results indicate that engineering is your best option."'
+    - '"Let me analyze your dream for you."'
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'Non-directive guidance is particularly effective for clients who:'
+    Options:
+    - Need immediate crisis intervention
+    - Require specific information about careers
+    - Seek greater self-awareness and personal growth
+    - Have severe cognitive impairments
+    CorrectOptionIndex: 2
+    LevelName: non directive- guidance
+  - QuestionText: 'The ultimate goal of non-directive guidance is to help clients
+      become:'
+    Options:
+    - Dependent on the counselor for support
+    - More self-directed and self-actualized
+    - Compliant with social expectations
+    - Experts in psychological theory
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'A student says, "I''m terrible at math and I''ll never pass this
+      course." A non-directive counselor''s response would be:'
+    Options:
+    - '"You need to study harder and get a tutor."'
+    - '"You''re feeling really discouraged about math right now."'
+    - '"Let me show you how to solve these problems."'
+    - '"Your math aptitude test shows you have potential."'
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'The concept of "empathic understanding" in non-directive guidance
+      means the counselor:'
+    Options:
+    - Feels sorry for the client
+    - Shares personal similar experiences
+    - Agrees with everything the client says
+    - Accurately perceives the client's internal frame of reference
+    CorrectOptionIndex: 3
+    LevelName: non directive- guidance
+  - QuestionText: 'Compared to directive guidance, non-directive counseling places
+      greater emphasis on:'
+    Options:
+    - The counselor's expertise
+    - Psychological testing and assessment
+    - The therapeutic relationship itself
+    - Giving specific advice
+    CorrectOptionIndex: 2
+    LevelName: non directive- guidance
+  - QuestionText: 'In non-directive counseling, the counselor''s attitude of "genuineness"
+      or "congruence" means:'
+    Options:
+    - The counselor always tells the client what to do
+    - The counselor is openly being themselves without facade
+    - The counselor remains completely neutral and detached
+    - The counselor shares all personal problems with the client
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'Non-directive guidance is LEAST appropriate when:'
+    Options:
+    - A client needs to explore personal values
+    - A client is dealing with relationship issues
+    - A client wants to understand their emotions better
+    - A client is in immediate danger to self or others
+    CorrectOptionIndex: 3
+    LevelName: non directive- guidance
+  - QuestionText: 'The non-directive approach is particularly valuable for helping
+      students with:'
+    Options:
+    - Learning specific mathematical formulas
+    - Identity exploration and self-concept development
+    - Memorizing historical facts
+    - Understanding complex scientific concepts
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'In a non-directive session, the majority of talking is done by:'
+    Options:
+    - The counselor
+    - Neither (silence is maintained)
+    - Equally divided between both
+    - The client
+    CorrectOptionIndex: 3
+    LevelName: non directive- guidance
+  - QuestionText: 'A key criticism of non-directive guidance is that it:'
+    Options:
+    - Is too structured and rigid
+    - May be too slow for clients wanting quick solutions
+    - Gives too much advice
+    - Overemphasizes psychological testing
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'The non-directive approach is fundamentally based on the principle
+      of:'
+    Options:
+    - External reinforcement
+    - Self-actualization
+    - Behavioral modification
+    - Cognitive restructuring
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'In school settings, non-directive techniques are particularly
+      useful for:'
+    Options:
+    - Classroom discipline
+    - Administrative decision-making
+    - Teaching specific academic content
+    - Helping students with personal and social adjustment issues
+    CorrectOptionIndex: 3
+    LevelName: non directive- guidance
+  - QuestionText: 'A teacher using non-directive principles with a student who is
+      upset about a friendship conflict would:'
+    Options:
+    - Tell the student exactly how to resolve the conflict
+    - Listen empathetically and help the student clarify their own feelings and solutions
+    - Contact the other student's parents immediately
+    - Assign punishment to both students
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'The concept of "organismic valuing process" in Rogers'' theory
+      refers to the:'
+    Options:
+    - Counselor's method of assessment
+    - Individual's innate ability to know what is good for their development
+    - School's system of valuing students
+    - Process of psychological testing
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'In non-directive counseling, silence is typically viewed as:'
+    Options:
+    - A waste of valuable session time
+    - Something that should always be filled with conversation
+    - A sign that the counselor is unprepared
+    - An opportunity for the client to process thoughts and feelings
+    CorrectOptionIndex: 3
+    LevelName: non directive- guidance
+  - QuestionText: 'A student says, "I don''t know what to do about college. My parents
+      want me to be a doctor, but I love art." A non-directive counselor would:'
+    Options:
+    - Recommend compromise careers like medical illustration
+    - Help the student explore their own values, feelings, and options
+    - Explain the financial benefits of being a doctor
+    - Contact the parents to discuss the situation
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'The non-directive approach is particularly effective in cross-cultural
+      counseling because it:'
+    Options:
+    - Imposes Western values of self-exploration
+    - Allows clients to explore issues within their own cultural framework
+    - Provides clear directives that transcend culture
+    - Avoids discussing cultural differences
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'A limitation of non-directive guidance in school settings is that
+      it:'
+    Options:
+    - Provides too much structure for students
+    - Is incompatible with educational goals
+    - Focuses too much on giving advice
+    - May not be practical for large-scale implementation due to time constraints
+    CorrectOptionIndex: 3
+    LevelName: non directive- guidance
+  - QuestionText: 'The concept of "actualizing tendency" in Rogers'' theory refers
+      to:'
+    Options:
+    - The counselor's tendency to direct the client
+    - The innate drive of organisms to develop their full potential
+    - The process of adapting to social expectations
+    - The tendency to avoid challenging situations
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'In non-directive group counseling, the leader''s primary role
+      is to:'
+    Options:
+    - Teach specific skills to group members
+    - Create a climate of trust and facilitate member interaction
+    - Assign roles and tasks to each member
+    - Interpret the dynamics of the group
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'A teacher applying non-directive principles in the classroom would:'
+    Options:
+    - Maintain strict control over all learning activities
+    - Focus exclusively on academic achievement
+    - Provide detailed instructions for every assignment
+    - Create opportunities for student-directed learning and choice
+    CorrectOptionIndex: 3
+    LevelName: non directive- guidance
+  - QuestionText: 'The non-directive approach has been most influential in the development
+      of:'
+    Options:
+    - Standardized testing
+    - Contemporary counseling ethics and relationship factors
+    - Behavioral modification techniques
+    - Psychoanalytic dream interpretation
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'A student confides, "I''m thinking about dropping out of school."
+      A non-directive counselor''s FIRST response would be:'
+    Options:
+    - '"That would be a terrible mistake with lifelong consequences."'
+    - '"You''re considering leaving school and I sense this is a difficult decision
+      for you."'
+    - '"Let me tell you about the benefits of staying in school."'
+    - '"I need to contact your parents immediately."'
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'The concept of "conditions of worth" in Rogers'' theory refers
+      to:'
+    Options:
+    - The counselor's professional qualifications
+    - Requirements clients must meet to receive counseling
+    - Expectations individuals feel they must meet to receive positive regard from
+      others
+    - The necessary conditions for effective therapy
+    CorrectOptionIndex: 2
+    LevelName: non directive- guidance
+  - QuestionText: 'Non-directive guidance is particularly effective for helping clients
+      with:'
+    Options:
+    - Learning specific technical skills
+    - Ambivalence and decision-making conflicts
+    - Immediate crisis resolution
+    - Severe psychiatric disorders
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'In non-directive counseling, assessment instruments are typically:'
+    Options:
+    - The primary focus of treatment
+    - Used to direct the client toward specific solutions
+    - Administered in every session
+    - Used sparingly, if at all, to avoid imposing external evaluations
+    CorrectOptionIndex: 3
+    LevelName: non directive- guidance
+  - QuestionText: 'A key difference between non-directive and psychoanalytic approaches
+      is that non-directive counseling:'
+    Options:
+    - Focuses more on unconscious processes
+    - Places greater emphasis on the present and future than the past
+    - Relies heavily on dream interpretation
+    - Views the counselor as an expert interpreter
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'The non-directive approach is particularly valuable in promoting:'
+    Options:
+    - External motivation
+    - Teacher-centered learning
+    - Student autonomy and responsibility
+    - Standardized testing outcomes
+    CorrectOptionIndex: 2
+    LevelName: non directive- guidance
+  - QuestionText: 'A counselor using non-directive techniques with a resistant client
+      would:'
+    Options:
+    - Confront the resistance directly
+    - Accept and reflect the client's resistance
+    - Terminate the counseling relationship
+    - Refer the client for medication
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'The concept of "phenomenological field" in Rogers'' theory refers
+      to:'
+    Options:
+    - The counselor's theoretical orientation
+    - A specific counseling technique
+    - The physical environment of the counseling room
+    - The client's subjective reality and perception of experiences
+    CorrectOptionIndex: 3
+    LevelName: non directive- guidance
+  - QuestionText: Non-directive guidance is most compatible with which educational
+      philosophy?
+    Options:
+    - Essentialism
+    - Progressivism
+    - Perennialism
+    - Behaviorism
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'A teacher using non-directive principles with a shy student would:'
+    Options:
+    - Force the student to participate in class discussions
+    - Create a safe environment where the student feels comfortable contributing
+    - Ignore the student's shyness
+    - Focus exclusively on academic performance
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'The non-directive approach has been criticized for:'
+    Options:
+    - Being too authoritarian
+    - Underemphasizing the importance of the counseling relationship
+    - Potentially lacking structure for clients who need more direction
+    - Overusing psychological testing
+    CorrectOptionIndex: 2
+    LevelName: non directive- guidance
+  - QuestionText: 'In non-directive counseling, the concept of "client as expert"
+      means:'
+    Options:
+    - The client knows more psychology than the counselor
+    - The client is the best authority on their own experience
+    - The client should direct the counseling process entirely
+    - The client doesn't need professional help
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'The non-directive approach is particularly effective for helping
+      students develop:'
+    Options:
+    - Memorization skills
+    - Critical thinking and problem-solving abilities
+    - Test-taking strategies
+    - Competitive spirit
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'A school counselor using non-directive approaches in career counseling
+      would:'
+    Options:
+    - Match student traits to specific occupations
+    - Tell students which careers they should pursue
+    - Provide lists of high-paying careers
+    - Help students explore their own values, interests, and aspirations
+    CorrectOptionIndex: 3
+    LevelName: non directive- guidance
+  - QuestionText: 'The concept of "fully functioning person" in Rogers'' theory describes
+      someone who:'
+    Options:
+    - Always achieves high grades
+    - Is open to experience and trusts their own organismic valuing process
+    - Conforms perfectly to social expectations
+    - Never experiences emotional distress
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'In non-directive counseling, termination typically occurs when:'
+    Options:
+    - The counselor decides the client has made sufficient progress
+    - The client feels they have achieved their goals
+    - A predetermined number of sessions have been completed
+    - The client's problems are completely resolved
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'The non-directive approach has been most influential in the development
+      of:'
+    Options:
+    - Standardized curriculum
+    - Traditional teaching methods
+    - Behavioral management systems
+    - Contemporary peer counseling programs
+    CorrectOptionIndex: 3
+    LevelName: non directive- guidance
+  - QuestionText: 'A key contribution of non-directive guidance to the field of education
+      is its emphasis on:'
+    Options:
+    - Teacher-centered instruction
+    - The importance of the emotional climate for learning
+    - Standardized testing outcomes
+    - Competitive academic environments
+    CorrectOptionIndex: 1
+    LevelName: non directive- guidance
+  - QuestionText: 'In non-directive counseling, the counselor''s use of "restatement"
+      involves:'
+    Options:
+    - Paraphrasing the content of what the client has said
+    - Giving advice based on professional expertise
+    - Interpreting the unconscious meaning of statements
+    - Directing the client toward specific solutions
+    CorrectOptionIndex: 0
+    LevelName: non directive- guidance

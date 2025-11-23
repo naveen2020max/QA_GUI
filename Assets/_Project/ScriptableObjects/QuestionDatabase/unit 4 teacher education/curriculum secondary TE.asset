@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: curriculum secondary TE
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: According to NCFTE-2009, what is the central vision for teacher
+      education in India?
+    Options:
+    - To produce teachers who can complete the syllabus on time
+    - To develop humane, reflective, and autonomous teachers
+    - To focus exclusively on pedagogical skills
+    - To standardize teaching methods across India
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: The NCFTE-2009 criticizes traditional teacher education for its
+      theory-practice dichotomy. How does it propose to bridge this gap?
+    Options:
+    - By eliminating theoretical components entirely
+    - By reducing the duration of the course
+    - By focusing only on practical skills
+    - By providing longer, more meaningful school internship programs
+    CorrectOptionIndex: 3
+    LevelName: curriculum secondary TE
+  - QuestionText: Which of the following is a core component of the D.El.Ed. curriculum
+      framework that reflects its vision of inclusive education?
+    Options:
+    - Advanced Theoretical Physics
+    - Creating an Inclusive School
+    - Educational Administration
+    - Foreign Language Training
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: If a teacher education program includes a course on "Understanding
+      the Self," it is most directly aligned with which vision of NCFTE-2009?
+    Options:
+    - Developing technological proficiency
+    - Focusing on examination reform
+    - Enhancing subject matter knowledge
+    - Fostering teacher autonomy and identity
+    CorrectOptionIndex: 3
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Internship'' in a D.El.Ed. program is designed to be a period
+      of:'
+    Options:
+    - Observing senior teachers without any participation
+    - Intensive engagement with learners and the school environment
+    - Vacation for student-teachers
+    - Theoretical study away from schools
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: A key feature of the elementary teacher education curriculum structure
+      is its organization into three broad curricular areas. Which is NOT one of
+      them?
+    Options:
+    - Perspectives in Education
+    - Curriculum and Pedagogy
+    - Engineering and Technology
+    - School Internship
+    CorrectOptionIndex: 2
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The vision of "connecting knowledge to life outside the school"
+      from NCF-2005 is operationalized in teacher education through areas like:'
+    Options:
+    - Rote memorization techniques
+    - Pedagogy of Environmental Studies
+    - Advanced Calculus
+    - Theoretical Psychology only
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: Critically analyzing the vision of NCFTE-2009, which would be considered
+      a major implementation challenge?
+    Options:
+    - Its focus on reflective practice
+    - Its recommendation for inclusive practices
+    - Its emphasis on child-centered education
+    - The gap between its progressive vision and the reality of most TEIs
+    CorrectOptionIndex: 3
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Perspectives in Education'' component in the curriculum
+      includes foundational knowledge from:'
+    Options:
+    - Only Psychology
+    - Psychology, Sociology, and Philosophy
+    - Only Pedagogy
+    - Only Management Studies
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: How does the structure of the modern D.El.Ed. curriculum address
+      the vision of making education more flexible?
+    Options:
+    - By prescribing a rigid, uniform syllabus for all
+    - By incorporating thematic rather than textbook-based teaching
+    - By eliminating all practical components
+    - By focusing only on traditional assessment methods
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The NCFTE-2009 emphasizes that teacher education should move from:'
+    Options:
+    - A discipline-focused approach to a culture-focused approach
+    - A rigid to a flexible model
+    - A teacher-centered to a learner-centered paradigm
+    - All of the above
+    CorrectOptionIndex: 3
+    LevelName: curriculum secondary TE
+  - QuestionText: 'In the context of curriculum structure, ''Pedagogy of Mathematics''
+      at the elementary level primarily aims to:'
+    Options:
+    - Train mathematicians
+    - Develop fear of numbers in children
+    - Make mathematics a joyful, meaningful activity
+    - Focus only on advanced algebra
+    CorrectOptionIndex: 2
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Vision'' of teacher education as per curriculum documents
+      is best described as:'
+    Options:
+    - A set of rules for teacher behavior
+    - A blueprint for teacher recruitment
+    - A philosophical statement about the ideal teacher and teaching-learning process
+    - A list of prescribed textbooks
+    CorrectOptionIndex: 2
+    LevelName: curriculum secondary TE
+  - QuestionText: 'A teacher educator designing a curriculum for ''Language Acquisition''
+      would base it on the NCF-NCFTE vision that emphasizes:'
+    Options:
+    - Rote memorization of grammar rules
+    - A multiliteracy and multilingual approach
+    - Using only the English language
+    - Avoiding the mother tongue in the classroom
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''School Experience Program'' (SEP) in the curriculum is structured
+      to:'
+    Options:
+    - Replace the internship entirely
+    - Focus only on administrative duties
+    - Be a one-time observation visit
+    - Provide a continuous engagement with the school context, beginning early in
+      the program
+    CorrectOptionIndex: 3
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Critical Perspective on Education'' in the curriculum aims
+      to enable teachers to:'
+    Options:
+    - Accept all educational policies without question
+    - Critically examine socio-political contexts of education
+    - Focus only on classroom teaching
+    - Avoid engagement with community issues
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'Comparing the vision of NCF-2005 and NCFTE-2009, a core commonality
+      is their emphasis on:'
+    Options:
+    - Standardized testing as the primary goal
+    - Reducing the number of working days for teachers
+    - Reducing the burden on the learner and connecting knowledge to life
+    - Increasing the amount of homework
+    CorrectOptionIndex: 2
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Gender'' component in the teacher education curriculum is
+      included to:'
+    Options:
+    - Reinforce existing stereotypes
+    - Promote sensitivity and equitable classroom practices
+    - Focus only on women's education
+    - Separate boys and girls in classes
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Peace Education'' component in the curriculum structure
+      aligns with the vision of building:'
+    Options:
+    - A competitive and aggressive society
+    - A democratic and just society
+    - A society focused only on economic growth
+    - A religiously segregated society
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'A significant shift in the structure of the teacher education
+      curriculum, as recommended by NCFTE-2009, is from a:'
+    Options:
+    - Annual to a semester system
+    - Practical-focused to a theory-only model
+    - Local to an entirely international curriculum
+    - Flexible to a rigid model
+    CorrectOptionIndex: 0
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Art Education'' component in the curriculum is justified
+      by the vision that:'
+    Options:
+    - Arts are a waste of academic time
+    - Arts are essential for the holistic development of the child
+    - Arts should be taught only by special teachers
+    - Arts have no connection with cognitive development
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Vision'' section of curriculum documents primarily serves
+      to:'
+    Options:
+    - Provide a detailed day-to-day lesson plan
+    - Guide the overall goals and direction of the program
+    - List the names of recommended authors
+    - Specify the furniture for classrooms
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'In the curriculum structure, ''Understanding the Child'' as a
+      core area is derived from the foundational discipline of:'
+    Options:
+    - Sociology
+    - Philosophy
+    - Psychology
+    - Economics
+    CorrectOptionIndex: 2
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Pedagogy of Social Science'' at the elementary level, as
+      per the vision of NCF-2005, should aim to:'
+    Options:
+    - Promote rote learning of dates and events
+    - Develop critical thinking about social issues
+    - Avoid discussing contemporary problems
+    - Focus only on geography
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''ICT'' component in the teacher education curriculum is envisioned
+      as a:'
+    Options:
+    - Separate subject with no connection to pedagogy
+    - Tool for enhancing the teaching-learning process
+    - Replacement for the teacher
+    - Mandatory programming course
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'A teacher education institution that allocates significant time
+      for community engagement is aligning its curriculum with the vision of:'
+    Options:
+    - Isolating the school from the community
+    - Establishing the school as the only knowledge center
+    - Building a connection between the school and the community
+    - Focusing only on urban communities
+    CorrectOptionIndex: 2
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Curriculum and Pedagogy'' area in the D.El.Ed. structure
+      is primarily concerned with:'
+    Options:
+    - Foundational theories of education only
+    - The 'how' of teaching specific school subjects
+    - Management of school finances
+    - Historical development of education in Europe
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Reading and Reflecting on Texts'' paper is included in the
+      curriculum to develop:'
+    Options:
+    - Speed reading skills only
+    - Exclusive focus on fictional literature
+    - The skill of memorizing texts
+    - Critical literacy and the ability to engage with diverse texts
+    CorrectOptionIndex: 3
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Health and Physical Education'' component reflects the vision
+      of:'
+    Options:
+    - Focusing only on academic achievement
+    - The holistic development of the child
+    - Training Olympic athletes
+    - Separating physical health from mental health
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'A key difference between the structure of an old TTC curriculum
+      and the modern D.El.Ed. curriculum is the latter''s emphasis on:'
+    Options:
+    - Apprenticeship model without theoretical underpinnings
+    - A balanced integration of theory and practice
+    - Theory-dominated approach
+    - Eliminating the internship component
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: The 'Vision' of the elementary teacher education curriculum is
+      most directly opposed to which of the following practices?
+    Options:
+    - Child-centered learning
+    - Reflective teaching
+    - Rote memorization and textbook-centric teaching
+    - Inclusive education
+    CorrectOptionIndex: 2
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Craft'' component in the curriculum (like ''Work and Education'')
+      is based on the philosophical vision of:'
+    Options:
+    - Mahatma Gandhi's Nai Talim
+    - Exclusive academic learning
+    - Western models of industrialization
+    - Avoiding manual work
+    CorrectOptionIndex: 0
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Assessment'' component in the teacher education curriculum
+      trains teachers to:'
+    Options:
+    - Use only year-end examinations
+    - Use continuous and comprehensive evaluation (CCE) to support learning
+    - Focus only on grading and ranking students
+    - Avoid assessing students altogether
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Perspectives in Education'' section of the curriculum aims
+      to provide teachers with:'
+    Options:
+    - A set of fixed answers to educational problems
+    - A lens to understand the broader context and aims of education
+    - Skills for stock market investment
+    - Training in medical sciences
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''School Internship'' is structurally placed in the curriculum
+      typically:'
+    Options:
+    - At the very beginning of the program
+    - In the final year, as a culminating experience
+    - Sporadically throughout the program with a sustained block at the end
+    - Only after the theoretical exams are over
+    CorrectOptionIndex: 2
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Environmental Studies'' (EVS) curriculum for elementary
+      classes is taught as an integrated area because:'
+    Options:
+    - It is less important than other subjects
+    - Children at this age perceive the world holistically
+    - It is easier to examine
+    - There is a shortage of subject teachers
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Vision'' of the curriculum, as per NCFTE-2009, expects a
+      teacher to be a(n):'
+    Options:
+    - Passive technician implementing prescribed methods
+    - Active, reflective practitioner and facilitator
+    - Authoritarian figure in the classroom
+    - Isolated professional working alone
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The structure of the D.El.Ed. curriculum mandates a certain number
+      of days for internship. This highlights the importance given to:'
+    Options:
+    - Theoretical knowledge
+    - Vacation time
+    - Written examinations
+    - Field experiences and practical training
+    CorrectOptionIndex: 3
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Pedagogy of English Language'' at the elementary level focuses
+      on:'
+    Options:
+    - Teaching complex grammatical structures first
+    - Developing communicative competence
+    - Ensuring perfect pronunciation from day one
+    - Avoiding the use of the mother tongue completely
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'A curriculum that includes ''Drama and Art in Education'' as a
+      pedagogical tool is based on the vision that learning should be:'
+    Options:
+    - A serious and silent activity
+    - An enjoyable and creative process
+    - Confined to textbooks
+    - Focused only on individual work
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Philosophical Foundations of Education'' within the curriculum
+      structure helps a teacher to:'
+    Options:
+    - Develop their own perspective on the aims and purpose of education
+    - Memorize the biographies of philosophers
+    - Ignore practical classroom issues
+    - Focus only on Western philosophy
+    CorrectOptionIndex: 0
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Sociological Foundations of Education'' component enables
+      teachers to understand:'
+    Options:
+    - Advanced mathematical theories
+    - Only the economic status of students
+    - The chemical composition of materials
+    - The impact of social factors on education
+    CorrectOptionIndex: 3
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Vision'' of the curriculum documents is ultimately realized
+      through:'
+    Options:
+    - The quality of its translation into syllabi, textbooks, and classroom transactions
+    - The number of pages in the document
+    - The complexity of its language
+    - Its international comparisons
+    CorrectOptionIndex: 0
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Community Work'' component in the internship is designed
+      to:'
+    Options:
+    - Keep student-teachers busy
+    - Help teachers understand the socio-cultural background of their learners
+    - Replace classroom teaching
+    - Focus only on urban community surveys
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: The structure of the curriculum, with its focus on 'Inclusive Education,'
+      directly challenges which traditional practice?
+    Options:
+    - Collaborative learning
+    - Segregation of children with disabilities
+    - The use of teaching-learning materials
+    - Formative assessment
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Peace Education'' component in the curriculum structure
+      is a reflection of the constitutional value of:'
+    Options:
+    - Fraternity
+    - Right to Property
+    - Centralization of power
+    - Uniformity
+    CorrectOptionIndex: 0
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Curriculum and Pedagogy'' area is typically subdivided into:'
+    Options:
+    - Pedagogy of individual school subjects (Language, Mathematics, EVS, etc.)
+    - Foundational disciplines only
+    - Management studies
+    - Advanced research methodologies
+    CorrectOptionIndex: 0
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''Vision'' of the curriculum expects a teacher to be a facilitator
+      of knowledge rather than a transmitter. This shift requires a change in:'
+    Options:
+    - The physical infrastructure of schools only
+    - The teacher's role and classroom processes
+    - The number of working days
+    - The salary structure of teachers
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'The ''School Internship'' includes activities like lesson planning,
+      teaching, and assessment. This structure is designed to develop:'
+    Options:
+    - Theoretical knowledge of child psychology
+    - Practical professional competencies
+    - Administrative skills for becoming a principal
+    - Expertise in educational policy-making
+    CorrectOptionIndex: 1
+    LevelName: curriculum secondary TE
+  - QuestionText: 'A critical analysis of the curriculum''s vision would conclude
+      that its successful implementation depends most heavily on:'
+    Options:
+    - The quality and commitment of teacher educators
+    - The color of the school buildings
+    - The number of students in a class
+    - The political party in power
+    CorrectOptionIndex: 0
+    LevelName: curriculum secondary TE

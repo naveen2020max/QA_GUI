@@ -1,0 +1,446 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: factors - teacher development
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'A teacher''s belief in their own ability to help all students
+      learn is known as:'
+    Options:
+    - Self-esteem
+    - Teacher efficacy
+    - Personal motivation
+    - Academic confidence
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: Which of the following is a personal factor affecting teacher development?
+    Options:
+    - School leadership
+    - The national curriculum
+    - A teacher's level of reflectiveness
+    - Availability of teaching resources
+    CorrectOptionIndex: 2
+    LevelName: factors - teacher development
+  - QuestionText: 'A school where teachers regularly observe each other''s classes
+      and provide feedback has a:'
+    Options:
+    - Isolated culture
+    - Collaborative culture
+    - Competitive culture
+    - Traditional culture
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher who is driven by a genuine passion for their subject
+      matter is influenced by:'
+    Options:
+    - Extrinsic motivation
+    - Intrinsic motivation
+    - Administrative pressure
+    - Parental expectations
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: Which contextual factor can severely limit the time a teacher has
+      for professional development?
+    Options:
+    - Strong teacher self-efficacy
+    - High levels of student motivation
+    - A reflective disposition
+    - Excessive administrative workload
+    CorrectOptionIndex: 3
+    LevelName: factors - teacher development
+  - QuestionText: 'The ability of a teacher to bounce back from a difficult lesson
+      and try again is an example of:'
+    Options:
+    - Openness to change
+    - Resilience
+    - High academic qualification
+    - External motivation
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'The role of a supportive principal in teacher development is primarily
+      to:'
+    Options:
+    - Increase administrative duties
+    - Provide instructional leadership and resources
+    - Focus solely on student discipline
+    - Minimize teacher collaboration
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher''s personal philosophy about how children learn best
+      is a(n):'
+    Options:
+    - Contextual factor
+    - Administrative policy
+    - Personal belief about teaching and learning
+    - Extrinsic motivator
+    CorrectOptionIndex: 2
+    LevelName: factors - teacher development
+  - QuestionText: Which of the following is a contextual factor?
+    Options:
+    - A teacher's subject knowledge
+    - The socio-economic background of the students
+    - A teacher's emotional intelligence
+    - A teacher's commitment to the profession
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher who regularly analyzes their lessons to see what worked
+      and what didn''t is engaging in:'
+    Options:
+    - Complaining
+    - Reflective practice
+    - External motivation
+    - Isolation
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'Professional Development (PD) is most effective when it is:'
+    Options:
+    - A one-time, lecture-based workshop
+    - Ongoing, relevant to classroom needs, and includes follow-up support
+    - Mandatory and unrelated to teacher interests
+    - Focused only on theoretical knowledge
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: A teacher's family responsibilities and health are examples of
+      _____ factors.
+    Options:
+    - Contextual
+    - Policy-related
+    - Personal and circumstantial
+    - Societal
+    CorrectOptionIndex: 2
+    LevelName: factors - teacher development
+  - QuestionText: 'A school policy that emphasizes high-stakes standardized testing
+      can:'
+    Options:
+    - Unquestionably promote teacher creativity.
+    - Limit teacher autonomy and hinder developmental risk-taking.
+    - Be the only factor in teacher development.
+    - Replace the need for teacher motivation.
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: A teacher's depth of knowledge in their subject area is a _____
+      factor.
+    Options:
+    - Contextual
+    - Personal
+    - Societal
+    - Administrative
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'The concept of "Professional Learning Communities" (PLCs) directly
+      supports teacher development by fostering:'
+    Options:
+    - Isolation and independent work
+    - Strict adherence to textbooks
+    - Competition for resources
+    - Collaboration and shared responsibility
+    CorrectOptionIndex: 3
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher who is willing to try a new teaching strategy even if
+      it might fail demonstrates:'
+    Options:
+    - Low self-efficacy
+    - Openness to change and risk-taking
+    - Resistance to development
+    - Poor planning
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: Lack of access to basic teaching-learning materials (TLMs) is a
+      _____ barrier to teacher development.
+    Options:
+    - Personal
+    - Contextual-resource based
+    - Motivational
+    - Philosophical
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher''s motivation that comes from a desire for promotion
+      or a salary increment is:'
+    Options:
+    - Intrinsic motivation
+    - Self-efficacy
+    - Reflectiveness
+    - Extrinsic motivation
+    CorrectOptionIndex: 3
+    LevelName: factors - teacher development
+  - QuestionText: 'The emotional environment of the school, characterized by trust
+      and respect, is part of the:'
+    Options:
+    - National education policy
+    - School climate
+    - Teacher's personal life
+    - Student curriculum
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher''s ability to understand and manage their own emotions
+      in a stressful classroom is an aspect of:'
+    Options:
+    - Subject knowledge
+    - Emotional intelligence
+    - Extrinsic motivation
+    - Administrative skill
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: Which factor can either be a major challenge or an opportunity
+      for developing resilience, depending on support?
+    Options:
+    - Teaching in a high-needs, resource-poor environment
+    - Having a strong academic background
+    - Being an intrinsically motivated teacher
+    - Having a small class size
+    CorrectOptionIndex: 0
+    LevelName: factors - teacher development
+  - QuestionText: 'A punitive teacher evaluation system is likely to:'
+    Options:
+    - Foster innovation and creativity.
+    - Create fear and inhibit professional growth.
+    - Have no impact on teacher development.
+    - Increase intrinsic motivation.
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher''s life stage (e.g., being a new parent) can influence
+      their development by affecting their:'
+    Options:
+    - Subject knowledge
+    - Available time and energy for professional activities
+    - Core teaching beliefs
+    - Understanding of school policy
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: The societal status accorded to teachers is a _____ factor influencing
+      their morale and development.
+    Options:
+    - Personal
+    - Contextual-societal
+    - Administrative
+    - Resource-based
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher who believes "students cannot learn this difficult topic"
+      is constrained by their:'
+    Options:
+    - High self-efficacy
+    - Limiting beliefs about student learning
+    - Strong resource support
+    - Collaborative school culture
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: Which of the following is a personal disposition that positively
+      affects development?
+    Options:
+    - A fixed mindset
+    - Resistance to feedback
+    - Curiosity and a love for learning
+    - Blaming students for failure
+    CorrectOptionIndex: 2
+    LevelName: factors - teacher development
+  - QuestionText: The "input" that a teacher brings from their own education and
+      training is a _____ factor.
+    Options:
+    - Contextual
+    - Personal
+    - Policy
+    - Societal
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'A key role of school leadership in teacher development is to create:'
+    Options:
+    - A culture of fear and competition
+    - Conditions that support learning and growth for both teachers and students
+    - An overwhelming amount of paperwork
+    - Strict, unchangeable rules
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher''s development is most sustainable when it is driven
+      by:'
+    Options:
+    - Only extrinsic rewards
+    - A combination of intrinsic motivation and supportive contexts
+    - Fear of punishment
+    - Mandatory policy directives
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: Large class sizes primarily act as a _____ barrier to teacher development.
+    Options:
+    - Personal-motivational
+    - Philosophical
+    - Contextual-structural
+    - Resource-based
+    CorrectOptionIndex: 2
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher''s reflection-on-action occurs:'
+    Options:
+    - While they are teaching
+    - After the teaching has taken place
+    - Before they plan a lesson
+    - Never
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: Which factor is most directly under a teacher's own control?
+    Options:
+    - National education policy
+    - Their own level of reflectiveness and effort to learn
+    - The school's budget for resources
+    - Societal attitudes towards education
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'A school that provides time for teachers to plan and learn together
+      is investing in a supportive:'
+    Options:
+    - Personal factor
+    - Philosophical factor
+    - Contextual factor
+    - Fixed mindset
+    CorrectOptionIndex: 2
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher who feels trusted and respected by their principal is
+      more likely to:'
+    Options:
+    - Avoid taking any risks
+    - Experiment with new teaching methods
+    - Isolate themselves from colleagues
+    - Focus only on textbook teaching
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: "The factor of \"teacher identity\" \u2013 how one sees oneself
+      as a professional \u2013 is a _____ factor."
+    Options:
+    - Contextual
+    - Personal
+    - Resource-based
+    - Administrative
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'A prescriptive, centralized curriculum can hinder teacher development
+      by reducing:'
+    Options:
+    - Student enrollment
+    - The cost of education
+    - Teacher autonomy and creativity
+    - Parental involvement
+    CorrectOptionIndex: 2
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher''s ability to perceive and understand the emotions of
+      their students is a component of:'
+    Options:
+    - Subject Matter Knowledge
+    - Emotional Intelligence
+    - Extrinsic Motivation
+    - Administrative Efficiency
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: Which combination is MOST conducive to continuous teacher development?
+    Options:
+    - Low self-efficacy and a punitive school climate.
+    - High intrinsic motivation and a collaborative school culture.
+    - Extrinsic motivation only and abundant resources.
+    - Fixed beliefs about learning and a supportive principal.
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'The "Matthew Effect" in teacher development suggests that:'
+    Options:
+    - All teachers develop at the same rate.
+    - Contextual factors are the only thing that matters.
+    - Personal factors are irrelevant.
+    - Teachers who start strong and get support tend to get stronger, while those
+      who struggle may fall further behind.
+    CorrectOptionIndex: 3
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher''s personal circumstances, such as a health issue, can
+      impact their development by affecting their:'
+    Options:
+    - Core teaching philosophy
+    - Energy and focus at work
+    - Understanding of the curriculum
+    - Relationships with the principal
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'A key difference between personal and contextual factors is that
+      personal factors are:'
+    Options:
+    - Always fixed and unchangeable
+    - Internal to the teacher, while contextual factors are external
+    - Less important than contextual factors
+    - The same for every teacher in a school
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'A school''s decision to fund a teacher''s participation in a national
+      conference is an example of supporting development through:'
+    Options:
+    - Personal motivation
+    - Mandating a personal disposition
+    - Changing the teacher's beliefs
+    - Contextual resource allocation
+    CorrectOptionIndex: 3
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher who believes "I can learn to be better at teaching students
+      with disabilities" has a:'
+    Options:
+    - Fixed mindset
+    - Growth mindset
+    - Low self-efficacy
+    - Resistance to change
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: The factor of "workload" is primarily a _____ factor.
+    Options:
+    - Personal
+    - Contextual
+    - Philosophical
+    - Motivational (only intrinsic)
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'Teacher development is best understood as a process influenced
+      by:'
+    Options:
+    - Personal factors only.
+    - Contextual factors only.
+    - The dynamic interaction between personal and contextual factors.
+    - Pre-service training only.
+    CorrectOptionIndex: 2
+    LevelName: factors - teacher development
+  - QuestionText: A teacher's personal value system and ethics are a _____ factor
+      affecting their professional choices.
+    Options:
+    - Contextual
+    - Personal
+    - Resource-based
+    - Policy-related
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: A national policy that mandates 50 hours of professional development
+      per year is a _____ factor.
+    Options:
+    - Personal
+    - Contextual-policy
+    - Philosophical
+    - Motivational (only extrinsic)
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development
+  - QuestionText: 'A teacher''s sense of satisfaction when a struggling student finally
+      understands a concept is a form of:'
+    Options:
+    - Extrinsic reward
+    - Administrative feedback
+    - Contextual pressure
+    - Intrinsic motivation
+    CorrectOptionIndex: 3
+    LevelName: factors - teacher development
+  - QuestionText: Which of the following is a barrier to development created by the
+      context?
+    Options:
+    - A teacher's lack of reflectiveness
+    - A school culture that discourages collaboration and innovation
+    - A teacher's low self-efficacy
+    - A teacher's fixed mindset
+    CorrectOptionIndex: 1
+    LevelName: factors - teacher development

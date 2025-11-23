@@ -1,0 +1,424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: quality enhancement of TE
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The primary goal of professionalizing teacher education is to:'
+    Options:
+    - Increase the number of teacher education institutions.
+    - Establish teaching as a respected, standards-based profession.
+    - Reduce the cost of teacher training.
+    - Focus solely on theoretical knowledge.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: Which national framework provides the guiding principles for reforming
+      teacher education curriculum in India?
+    Options:
+    - National Education Policy (NEP)
+    - National Curriculum Framework (NCF)
+    - National Curriculum Framework for Teacher Education (NCFTE)
+    - Right to Education Act (RTE)
+    CorrectOptionIndex: 2
+    LevelName: quality enhancement of TE
+  - QuestionText: 'A key strategy for enhancing the theory-practice connection is:'
+    Options:
+    - Eliminating the internship program.
+    - Extending and enriching the school internship with proper mentorship.
+    - Focusing only on university-based lectures.
+    - Reducing the amount of practical work.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The statutory body responsible for setting norms and standards
+      for teacher education programs in India is the:'
+    Options:
+    - NCERT
+    - UGC
+    - NCTE
+    - NAAC
+    CorrectOptionIndex: 2
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The acronym "CPD" for teacher educators stands for:'
+    Options:
+    - Central Planning Department
+    - Continuous Professional Development
+    - Curriculum and Program Design
+    - Certified Professional Diploma
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: Which of the following is a characteristic of a quality-enhanced
+      assessment system in teacher education?
+    Options:
+    - Reliance solely on final written examinations.
+    - Use of portfolios, reflective journals, and practical demonstrations.
+    - Subjective grading without criteria.
+    - Avoiding any form of feedback.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "PCK" in teacher education stands for:'
+    Options:
+    - Primary Content Knowledge
+    - Pedagogical Content Knowledge
+    - Professional Curriculum Knowledge
+    - Practical Classroom Kinetics
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The NAAC is primarily responsible for:'
+    Options:
+    - Recruiting teachers.
+    - Developing school textbooks.
+    - Assessing and accrediting higher education institutions, including TEIs.
+    - Conducting board examinations.
+    CorrectOptionIndex: 2
+    LevelName: quality enhancement of TE
+  - QuestionText: 'A major challenge in the professionalization of teacher education
+      is:'
+    Options:
+    - The presence of too many high-quality TEIs.
+    - The prevalence of sub-standard and commercially oriented TEIs.
+    - Over-qualification of teacher educators.
+    - Excessive focus on practical training.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The integration of ICT in teacher education aims to:'
+    Options:
+    - Replace teacher educators with computers.
+    - Enhance the reach, quality, and innovation in training.
+    - Focus only on teaching computer skills.
+    - Increase the cost of teacher education.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'Stringent entry norms for teacher education programs are essential
+      for:'
+    Options:
+    - Restricting the number of teachers.
+    - Making the program easier.
+    - Ensuring that candidates with the right aptitude and skills enter the profession.
+    - Focusing only on academic scores.
+    CorrectOptionIndex: 2
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The concept of a "reflective practitioner" refers to a teacher
+      who:'
+    Options:
+    - Blames students for failures.
+    - Systematically analyzes their own practice to improve.
+    - Follows the textbook without question.
+    - Works in isolation from colleagues.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: Which initiative provides massive open online courses (MOOCs) for
+      teacher professional development?
+    Options:
+    - DIKSHA
+    - SWAYAM
+    - e-Pathshala
+    - NROER
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'School-University partnerships are crucial for:'
+    Options:
+    - Giving universities control over schools.
+    - Replacing school-based teacher training.
+    - Providing a real-world context for student-teachers and fostering mutual learning.
+    - Isolating theory from practice.
+    CorrectOptionIndex: 2
+    LevelName: quality enhancement of TE
+  - QuestionText: Quality enhancement in teacher education requires a shift from
+      a focus on _____ to a focus on _____.
+    Options:
+    - practice; theory
+    - inputs; learning outcomes and competencies
+    - quality; quantity
+    - students; teachers
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: The National Education Policy (NEP) 2020 recommends a 4-year integrated
+      _____ as the preferred mode for becoming a teacher.
+    Options:
+    - "B.Tech.\_B.Ed."
+    - "B.A. /\_B.Sc.\_B.Ed."
+    - Diploma in Education
+    - M.Phil. in Education
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'A key element of faculty development is:'
+    Options:
+    - Isolating teacher educators from new research.
+    - Encouraging engagement with research and publication.
+    - Reducing their workload.
+    - Focusing only on their teaching hours.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The use of "micro-teaching" in teacher education is primarily
+      for:'
+    Options:
+    - Replacing the full internship.
+    - Evaluating teacher educators.
+    - Assessing only content knowledge.
+    - Practicing and refining specific teaching skills in a controlled setting.
+    CorrectOptionIndex: 3
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The DIKSHA portal is a national platform for:'
+    Options:
+    - School administration.
+    - Teacher professional development and resources.
+    - University admissions.
+    - Financial management of TEIs.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'A culture of quality is best fostered in TEIs through:'
+    Options:
+    - External pressure only.
+    - Internal self-regulation and a commitment to continuous improvement.
+    - Avoiding all forms of assessment.
+    - Focusing only on infrastructure.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The term "accreditation" in teacher education refers to:'
+    Options:
+    - The process of granting a license to a teacher.
+    - The recruitment process for teacher educators.
+    - The final examination for student-teachers.
+    - A formal recognition that an institution meets certain predetermined standards
+      of quality.
+    CorrectOptionIndex: 3
+    LevelName: quality enhancement of TE
+  - QuestionText: Which of the following is a 21st-century skill that should be integrated
+      into teacher education?
+    Options:
+    - Rote memorization
+    - Critical thinking and problem-solving
+    - Blind obedience
+    - Isolation
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'A robust mentoring system for novice teachers is important for:'
+    Options:
+    - Increasing their workload.
+    - Providing support and reducing early-career attrition.
+    - Criticizing their performance.
+    - Replacing pre-service education.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "I" in the acronym "ICT" stands for:'
+    Options:
+    - Instructional
+    - International
+    - Integrated
+    - Information
+    CorrectOptionIndex: 3
+    LevelName: quality enhancement of TE
+  - QuestionText: 'Quality enhancement directly contributes to the professionalization
+      of teaching by:'
+    Options:
+    - Lowering entry standards.
+    - Ensuring that graduates are competent, reflective professionals.
+    - Focusing only on theoretical aspects.
+    - Eliminating practical training.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "E" in "NCFTE" stands for:'
+    Options:
+    - Elementary
+    - Educational
+    - Ethical
+    - Environmental
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'An "Inquiry-Oriented" teacher education program emphasizes:'
+    Options:
+    - Passive reception of knowledge.
+    - Developing the capacity to question and investigate educational practices.
+    - Following prescribed methods without deviation.
+    - Avoiding research.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "Right to Education Act (RTE)" impacts teacher education by:'
+    Options:
+    - Mandating specific teacher qualifications and training needs.
+    - Abolishing the need for teacher training.
+    - Focusing only on student rights.
+    - Reducing the number of teachers required.
+    CorrectOptionIndex: 0
+    LevelName: quality enhancement of TE
+  - QuestionText: 'A "portfolio" in teacher education assessment typically includes:'
+    Options:
+    - Only the final degree certificate.
+    - A collection of a student-teacher's work showcasing growth and competence.
+    - A single test paper.
+    - The teacher educator's notes.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The ultimate beneficiary of quality enhancement in teacher education
+      is the:'
+    Options:
+    - Teacher Education Institution
+    - School Principal
+    - Student in the school classroom
+    - Government
+    CorrectOptionIndex: 2
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "A" in "NAAC" stands for:'
+    Options:
+    - Assessment
+    - Accreditation
+    - Association
+    - Authority
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'A major recommendation for improving teacher education is to phase
+      out:'
+    Options:
+    - All pre-service programs.
+    - The 1-year B.Ed. program in favor of longer, integrated programs.
+    - The use of technology.
+    - The internship component.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "C" in "NCTE" stands for:'
+    Options:
+    - Central
+    - Council
+    - Commission
+    - College
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'Action research by teachers contributes to professionalization
+      by:'
+    Options:
+    - Adding to their administrative burden.
+    - Generating context-specific knowledge and improving their own practice.
+    - Being irrelevant to classroom teaching.
+    - Replacing all other forms of professional development.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "T" in "NCFTE" stands for:'
+    Options:
+    - Teaching
+    - Training
+    - Teacher
+    - Technical
+    CorrectOptionIndex: 2
+    LevelName: quality enhancement of TE
+  - QuestionText: 'A key feature of a professionalized field is:'
+    Options:
+    - Lack of any regulatory body.
+    - Low entry standards.
+    - A strong code of ethics and self-regulation.
+    - Isolation from research.
+    CorrectOptionIndex: 2
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "N" in both "NCFTE" and "NCTE" stands for:'
+    Options:
+    - New
+    - National
+    - Northern
+    - Noble
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'Quality enhancement requires teacher educators to be:'
+    Options:
+    - Passive transmitters of information.
+    - Role models of lifelong learning and reflective practice.
+    - Isolated from the school system.
+    - Focused only on completing the syllabus.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "F" in "NCFTE" stands for:'
+    Options:
+    - Faculty
+    - Federal
+    - Foundation
+    - Framework
+    CorrectOptionIndex: 3
+    LevelName: quality enhancement of TE
+  - QuestionText: 'A significant barrier to quality enhancement is:'
+    Options:
+    - High motivation among teacher educators.
+    - Inadequate funding and resources for TEIs.
+    - An overabundance of qualified applicants.
+    - Strong school-university partnerships.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "E" in "NCTE" stands for:'
+    Options:
+    - Elementary
+    - Education
+    - Ethical
+    - Excellence
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The use of simulations in teacher education helps to:'
+    Options:
+    - Replace real classroom experience.
+    - Increase student-teacher anxiety.
+    - Provide a safe environment for practicing complex scenarios.
+    - Focus only on theoretical models.
+    CorrectOptionIndex: 2
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "C" in "CPD" stands for:'
+    Options:
+    - Certified
+    - Continuous
+    - Curriculum
+    - Central
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'A "growth mindset" in teacher education refers to the belief that:'
+    Options:
+    - Teaching abilities are fixed and cannot be improved.
+    - Abilities can be developed through dedication and hard work.
+    - Only some people are born to be teachers.
+    - Reflection is unnecessary.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "P" in "PCK" stands for:'
+    Options:
+    - Primary
+    - Practical
+    - Professional
+    - Pedagogical
+    CorrectOptionIndex: 3
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "K" in "PCK" stands for:'
+    Options:
+    - Kinesthetics
+    - Knowledge
+    - Key
+    - Kit
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "D" in "CPD" stands for:'
+    Options:
+    - Diploma
+    - Development
+    - Department
+    - Design
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The "N" in "NAAC" stands for:'
+    Options:
+    - New
+    - Noble
+    - Northern
+    - National
+    CorrectOptionIndex: 3
+    LevelName: quality enhancement of TE
+  - QuestionText: 'The vision of a professionalized teacher education system is one
+      that produces teachers who are:'
+    Options:
+    - Technicians following scripts.
+    - Autonomous, reflective, and agentic professionals.
+    - Dependent on external directives.
+    - Isolated from the community.
+    CorrectOptionIndex: 1
+    LevelName: quality enhancement of TE

@@ -1,0 +1,459 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: importance of review
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary purpose of a literature review in research?
+    Options:
+    - To copy the work of others
+    - To showcase the researcher's reading skills
+    - To situate the current study within the existing body of knowledge
+    - To fill pages in the thesis
+    CorrectOptionIndex: 2
+    LevelName: importance of review
+  - QuestionText: 'A literature review helps to avoid:'
+    Options:
+    - Writing a research proposal
+    - Duplication of previous work
+    - Statistical analysis
+    - All of the above
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: Which of these is a direct benefit of conducting a literature review?
+    Options:
+    - It guarantees funding.
+    - It makes the research subjective.
+    - It replaces the need for data collection.
+    - It helps in formulating a sharp and relevant research problem.
+    CorrectOptionIndex: 3
+    LevelName: importance of review
+  - QuestionText: The literature review provides a ______ for interpreting the results
+      of the study.
+    Options:
+    - Conclusion
+    - Framework
+    - Hypothesis
+    - Budget
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: 'By reviewing literature, a researcher can identify:'
+    Options:
+    - Only the books they need to buy
+    - Personal opinions of famous authors
+    - The exact conclusion they should reach
+    - The methodological approaches used in prior studies
+    CorrectOptionIndex: 3
+    LevelName: importance of review
+  - QuestionText: 'A thorough literature review allows the researcher to:'
+    Options:
+    - Prove their intelligence
+    - Learn about the current state of knowledge in their area of interest
+    - Skip the methodology chapter
+    - Avoid citing sources
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: 'The literature review helps in the selection of:'
+    Options:
+    - The university for study
+    - The color of the thesis cover
+    - Research instruments and tools
+    - The author's name
+    CorrectOptionIndex: 2
+    LevelName: importance of review
+  - QuestionText: Which of these is NOT a key function of a literature review?
+    Options:
+    - To identify key concepts and variables
+    - To provide a ready-made introduction
+    - To uncover research gaps
+    - To help refine research questions
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: A literature review contributes to the ______ of a research study.
+    Options:
+    - Cost
+    - Length
+    - Theoretical foundation
+    - Font size
+    CorrectOptionIndex: 2
+    LevelName: importance of review
+  - QuestionText: 'The process of literature review begins typically:'
+    Options:
+    - After data collection
+    - During the data analysis phase
+    - After writing the conclusion
+    - Before finalizing the research problem
+    CorrectOptionIndex: 3
+    LevelName: importance of review
+  - QuestionText: 'A good literature review is:'
+    Options:
+    - A mere summary of sources
+    - An annotated bibliography
+    - A critical synthesis of relevant literature
+    - A list of quotations
+    CorrectOptionIndex: 2
+    LevelName: importance of review
+  - QuestionText: The review of literature helps to establish the ______ of the research.
+    Options:
+    - Price
+    - Significance
+    - Weight
+    - Color
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: 'Identifying contradictory findings in existing literature can
+      lead to:'
+    Options:
+    - A confused researcher
+    - Copying one of the studies
+    - Abandoning the research
+    - A valuable research problem to resolve the conflict
+    CorrectOptionIndex: 3
+    LevelName: importance of review
+  - QuestionText: 'The scope of a literature review should be:'
+    Options:
+    - As narrow as possible
+    - As broad as possible
+    - Relevant and focused on the research topic
+    - Random
+    CorrectOptionIndex: 2
+    LevelName: importance of review
+  - QuestionText: A literature review is considered a ______ activity.
+    Options:
+    - One-time
+    - Continuous
+    - Optional
+    - Redundant
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: How does a literature review prevent "reinventing the wheel"?
+    Options:
+    - By encouraging replication without credit
+    - By focusing only on very old studies
+    - By providing blueprints for research wheels
+    - By helping the researcher understand what is already known, thus avoiding duplication
+    CorrectOptionIndex: 3
+    LevelName: importance of review
+  - QuestionText: Why is it important for a literature review to be critical?
+    Options:
+    - To harshly criticize all previous researchers
+    - To blindly accept all published work
+    - To evaluate the strengths and weaknesses of existing research
+    - To prove that the new study is better
+    CorrectOptionIndex: 2
+    LevelName: importance of review
+  - QuestionText: 'The statement "A literature review helps in sharpening the research
+      focus" means it:'
+    Options:
+    - Makes the topic broader.
+    - Helps in narrowing down from a broad idea to a specific research question.
+    - Blurs the research objectives.
+    - Focuses only on methodology.
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: How does a literature review provide methodological insights?
+    Options:
+    - By prescribing a single correct method.
+    - By listing all possible methods without context.
+    - By discouraging the use of new methods.
+    - By revealing the methods used by others, their success, and limitations, thus
+      informing the researcher's choice.
+    CorrectOptionIndex: 3
+    LevelName: importance of review
+  - QuestionText: 'If a literature review reveals a well-established theory, a researcher
+      can:'
+    Options:
+    - Ignore it completely.
+    - Use it as a foundation to build their own hypothesis or research framework.
+    - Copy it as their own.
+    - Prove it wrong without evidence.
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: 'The process of identifying a "gap" in the literature is essential
+      because:'
+    Options:
+    - It finds empty pages in journals.
+    - It helps in filling library shelves.
+    - It points to an area that has not been explored or sufficiently answered, justifying
+      the new research.
+    - It is a mandatory phrase to use.
+    CorrectOptionIndex: 2
+    LevelName: importance of review
+  - QuestionText: 'A well-synthesized literature review creates a:'
+    Options:
+    - List of unrelated facts.
+    - A cohesive narrative that tells the story of what is known and what remains
+      to be discovered.
+    - A personal diary.
+    - A set of raw data.
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: How does a literature review contribute to the development of a
+      theoretical framework?
+    Options:
+    - By avoiding theory altogether.
+    - By summarizing theories without connection.
+    - By creating a new theory without a basis.
+    - By helping the researcher select and justify the theories that are relevant
+      to their study.
+    CorrectOptionIndex: 3
+    LevelName: importance of review
+  - QuestionText: 'The credibility of a research study is enhanced when the literature
+      review:'
+    Options:
+    - Is very long.
+    - Is comprehensive and includes key seminal works and recent findings.
+    - Uses only internet blogs.
+    - Cites only the researcher's own work.
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: Why should a literature review be updated even after the initial
+      research design?
+    Options:
+    - To change the research question constantly.
+    - To find reasons to stop the research.
+    - To increase the word count.
+    - To incorporate new, relevant studies that may have been published during the
+      research process.
+    CorrectOptionIndex: 3
+    LevelName: importance of review
+  - QuestionText: 'A literature review helps in operationalizing variables by:'
+    Options:
+    - Giving them a monetary value.
+    - Showing how key concepts have been defined and measured in previous studies.
+    - Making them more complex.
+    - Ignoring their definition.
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: 'The difference between a literature review and an essay is that
+      a literature review:'
+    Options:
+    - Is always shorter.
+    - Does not require citations.
+    - Is based on a systematic search and critical analysis of published research
+      on a specific topic.
+    - Is a personal opinion piece.
+    CorrectOptionIndex: 2
+    LevelName: importance of review
+  - QuestionText: How does a literature review save time and resources for a researcher?
+    Options:
+    - By providing free books.
+    - By preventing the researcher from pursuing a dead-end or already-answered question.
+    - By doing the data analysis.
+    - By writing the thesis automatically.
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: 'In the context of research, the literature review acts as a:'
+    Options:
+    - Final destination.
+    - Barrier
+    - Decoration
+    - Launchpad
+    CorrectOptionIndex: 3
+    LevelName: importance of review
+  - QuestionText: 'A researcher finds that all studies on a topic have used only
+      qualitative methods. This insight from the literature review could justify
+      a study that:'
+    Options:
+    - Replicates the same qualitative approach.
+    - Uses a quantitative or mixed-methods approach to provide a different perspective.
+    - Abandons the topic.
+    - Criticizes all qualitative research.
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: A researcher conducts a literature review and finds a seminal study
+      from 1980 that is cited in all subsequent work. What is the MOST appropriate
+      action?
+    Options:
+    - Ignore it as it is too old.
+    - Cite it without reading it.
+    - Copy its methodology without question.
+    - Critically examine this study to understand the foundation of the field, while
+      also focusing on recent developments.
+    CorrectOptionIndex: 3
+    LevelName: importance of review
+  - QuestionText: "Assertion (A):\_A literature review is not just a summary but
+      a conceptual synthesis.\_Reason (R):\_A synthesis reorganizes and integrates
+      information, revealing new patterns and relationships."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: importance of review
+  - QuestionText: 'A researcher''s literature review only includes studies that support
+      their preconceived idea. This is a flaw because it introduces:'
+    Options:
+    - Cost overruns
+    - Confirmation bias, undermining the review's objectivity and comprehensiveness.
+    - Better formatting
+    - A stronger hypothesis
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: 'If a literature review reveals that a proposed research question
+      was already conclusively answered by a rigorous, recent study, the researcher
+      should:'
+    Options:
+    - Proceed as planned.
+    - Plagiarize the study.
+    - Acknowledge the finding and consider refining their question to address a remaining
+      nuance or a different context.
+    - Hide the study.
+    CorrectOptionIndex: 2
+    LevelName: importance of review
+  - QuestionText: Contrast the role of a literature review in quantitative versus
+      qualitative research.
+    Options:
+    - It is unnecessary in qualitative research.
+    - In quantitative research, it often precedes hypothesis formation; in qualitative,
+      it may inform the study but remain more open-ended to avoid imposing preconceptions.
+    - The role is identical and rigid in both.
+    - It is only for developing instruments in quantitative research.
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: A well-conducted literature review should logically lead the reader
+      to which section of a research proposal?
+    Options:
+    - The acknowledgements
+    - The list of references only
+    - The appendix
+    - The statement of the problem and the research questions
+    CorrectOptionIndex: 3
+    LevelName: importance of review
+  - QuestionText: 'The "conceptual framework" of a study is most directly derived
+      from:'
+    Options:
+    - The researcher's dreams
+    - The statistical software manual
+    - The synthesis of theories and concepts found in the literature review
+    - The data collection plan
+    CorrectOptionIndex: 2
+    LevelName: importance of review
+  - QuestionText: Evaluating the "trustworthiness" of sources in a literature review
+      is crucial. Which of these is the LEAST trustworthy source for a scientific
+      literature review?
+    Options:
+    - A peer-reviewed journal article
+    - A seminal academic book
+    - A reputable conference proceeding
+    - An anonymous blog post
+    CorrectOptionIndex: 3
+    LevelName: importance of review
+  - QuestionText: 'A researcher finds two conflicting theories in the literature.
+      The BEST way to handle this in the review is to:'
+    Options:
+    - Choose one and ignore the other.
+    - Present both, analyze their points of conflict, and explain how the current
+      study might help resolve or explore this tension.
+    - Declare both wrong.
+    - Combine them randomly.
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: 'The literature review helps in setting the boundaries of a study
+      by:'
+    Options:
+    - Drawing physical lines on a map.
+    - Isolating the study from all prior work.
+    - Making the study as broad as possible.
+    - Defining what will and will not be covered, thus providing focus and manageability.
+    CorrectOptionIndex: 3
+    LevelName: importance of review
+  - QuestionText: 'The term "systematic literature review" implies a process that
+      is:'
+    Options:
+    - Random and haphazard
+    - Methodical, explicit, and reproducible
+    - Based on personal preference
+    - Done only after the study
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: 'A meta-analysis is a type of literature review that:'
+    Options:
+    - Discusses books about metaphysics.
+    - Qualitatively summarizes themes.
+    - Statically combines the results of multiple independent studies on the same
+      topic.
+    - Is always subjective.
+    CorrectOptionIndex: 2
+    LevelName: importance of review
+  - QuestionText: 'The PRIMARY reason for citing sources in a literature review is
+      to:'
+    Options:
+    - Increase the number of references.
+    - Give credit to other scholars and avoid plagiarism.
+    - Make the review look impressive.
+    - Fill empty space.
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: 'A researcher uses the literature review to build a case that their
+      study is needed. This is part of establishing the study''s:'
+    Options:
+    - Feasibility
+    - Budget
+    - Rationale and significance
+    - Timeline
+    CorrectOptionIndex: 2
+    LevelName: importance of review
+  - QuestionText: 'If a literature review is poorly organized and simply lists study
+      after study, it lacks:'
+    Options:
+    - Thematic or conceptual synthesis
+    - Enough references
+    - Complex words
+    - Personal opinions
+    CorrectOptionIndex: 0
+    LevelName: importance of review
+  - QuestionText: 'The process of conducting a literature review can itself generate:'
+    Options:
+    - New primary data
+    - New research questions and hypotheses
+    - The final results
+    - Research funding automatically
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: 'In a research article, the literature review is typically found
+      in the:'
+    Options:
+    - Methodology section
+    - Results section
+    - Introduction and/or a dedicated section
+    - Abstract only
+    CorrectOptionIndex: 2
+    LevelName: importance of review
+  - QuestionText: 'A key challenge in writing a literature review is:'
+    Options:
+    - Finding any source at all.
+    - Balancing comprehensiveness with focus, ensuring it is not just a summary but
+      a critical, synthesized analysis.
+    - Making it as long as possible.
+    - Avoiding all citations.
+    CorrectOptionIndex: 1
+    LevelName: importance of review
+  - QuestionText: 'The FINAL outcome of a robust literature review should be:'
+    Options:
+    - A closed mind
+    - A guarantee of successful results
+    - A list of every article ever published
+    - A clear, justified, and specific direction for the proposed research
+    CorrectOptionIndex: 3
+    LevelName: importance of review
+  - QuestionText: 'A researcher states, "The literature review is the foundation
+      upon which my research is built." This means that the review:'
+    Options:
+    - Is the least important part.
+    - Provides the necessary background, context, and justification that supports
+      every other part of the study.
+    - Is the decorative base of the thesis.
+    - Is only for the supervisor's review.
+    CorrectOptionIndex: 1
+    LevelName: importance of review

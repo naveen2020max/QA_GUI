@@ -1,0 +1,461 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: factor analysis
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary goal of Factor Analysis?
+    Options:
+    - To test mean differences between groups
+    - To reduce a large number of variables to a smaller set of underlying factors
+    - To predict the value of a dependent variable
+    - To establish cause-and-effect relationships
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'The underlying, unobservable constructs that Factor Analysis aims
+      to identify are called:'
+    Options:
+    - Dependent Variables
+    - Independent Variables
+    - Factors
+    - Covariates
+    CorrectOptionIndex: 2
+    LevelName: factor analysis
+  - QuestionText: 'In Factor Analysis, the observed or measured variables are called:'
+    Options:
+    - Factors
+    - Latent Variables
+    - Manifest Variables
+    - Criteria
+    CorrectOptionIndex: 2
+    LevelName: factor analysis
+  - QuestionText: 'The statistical index that shows how much of the variance in a
+      variable is explained by the extracted factors is called:'
+    Options:
+    - Eigenvalue
+    - Factor Loading
+    - Communality
+    - Scree Plot
+    CorrectOptionIndex: 2
+    LevelName: factor analysis
+  - QuestionText: 'A Factor Loading indicates:'
+    Options:
+    - The mean of a factor
+    - The correlation between an observed variable and a factor
+    - The variance of a factor
+    - The reliability of a factor
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: What does the Eigenvalue represent in Factor Analysis?
+    Options:
+    - The number of factors to extract
+    - The amount of variance explained by a factor
+    - The reliability of a factor
+    - The correlation between factors
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'The Kaiser-Guttman rule suggests retaining factors with an Eigenvalue:'
+    Options:
+    - Less than 0
+    - Greater than 1
+    - Less than 1
+    - Greater than the number of variables
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'A visual method for determining the number of factors to retain
+      by plotting eigenvalues is called a:'
+    Options:
+    - Histogram
+    - Box Plot
+    - Scree Plot
+    - Pareto Chart
+    CorrectOptionIndex: 2
+    LevelName: factor analysis
+  - QuestionText: 'The initial, unrotated factor solution is often difficult to interpret
+      because:'
+    Options:
+    - It has too few factors
+    - Factors are often correlated with many variables
+    - It maximizes the number of factors
+    - The communalities are too high
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'The primary purpose of Factor Rotation is to:'
+    Options:
+    - Increase the eigenvalues
+    - Achieve a simpler, more interpretable factor structure
+    - Reduce the number of factors
+    - Calculate communalities
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'Varimax rotation is a method that produces factors which are:'
+    Options:
+    - Correlated with each other
+    - Uncorrelated (orthogonal)
+    - Always the same as the unrotated solution
+    - Based on only two variables
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'Oblimin rotation is used when the researcher believes the underlying
+      factors are:'
+    Options:
+    - Uncorrelated (orthogonal)
+    - Correlated (oblique)
+    - Categorical
+    - Irrelevant
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'A factor where most variables have high loadings is often called
+      a:'
+    Options:
+    - Specific Factor
+    - General Factor
+    - Error Factor
+    - Unique Factor
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'The proportion of variance in the original variables that is not
+      explained by the common factors is called:'
+    Options:
+    - Communality
+    - Eigenvalue
+    - Uniqueness
+    - Loading
+    CorrectOptionIndex: 2
+    LevelName: factor analysis
+  - QuestionText: Factor Analysis is most appropriately used with what type of data?
+    Options:
+    - Nominal
+    - Ordinal
+    - Interval or Ratio
+    - Any of the above
+    CorrectOptionIndex: 2
+    LevelName: factor analysis
+  - QuestionText: Why is a sample size of at least 100 generally recommended for
+      Factor Analysis?
+    Options:
+    - To make the calculations easier
+    - To ensure the solution is stable and generalizable
+    - To guarantee normal distribution
+    - To have more variables than factors
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'A researcher finds a variable has a communality of 0.15 after
+      extraction. This most likely means:'
+    Options:
+    - The variable is well-explained by the factors.
+    - The variable is poorly explained by the factors.
+    - The factor loading is high.
+    - The eigenvalue is high.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: If a variable has a factor loading of 0.80 on Factor 1 and 0.20
+      on Factor 2 after rotation, how should this be interpreted?
+    Options:
+    - The variable is not useful.
+    - The variable is a pure measure of Factor 1.
+    - The variable is a complex measure of both factors.
+    - The variable's communality is low.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'The KMO (Kaiser-Meyer-Olkin) measure is used to assess:'
+    Options:
+    - The number of factors
+    - The reliability of the scale
+    - The sampling adequacy for Factor Analysis
+    - The significance of factor loadings
+    CorrectOptionIndex: 2
+    LevelName: factor analysis
+  - QuestionText: Bartlett's test of sphericity is significant (p < .05). What does
+      this indicate?
+    Options:
+    - The correlation matrix is an identity matrix.
+    - The variables are uncorrelated in the population.
+    - The correlation matrix is not an identity matrix, and Factor Analysis is appropriate.
+    - The sample size is too small.
+    CorrectOptionIndex: 2
+    LevelName: factor analysis
+  - QuestionText: What is the key conceptual difference between Principal Component
+      Analysis (PCA) and Factor Analysis?
+    Options:
+    - PCA requires a normal distribution, Factor Analysis does not.
+    - PCA analyzes all variance, while Factor Analysis analyzes only common variance.
+    - PCA is used for prediction, Factor Analysis for description.
+    - There is no difference; they are the same.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: In the context of scale development, what does a clean factor structure
+      imply?
+    Options:
+    - All items have high communalities.
+    - Each item loads highly on one and only one factor.
+    - The eigenvalues are all greater than 1.
+    - The KMO value is perfect.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'A researcher conducts an EFA and finds a clear two-factor solution.
+      To confirm this structure in a new sample, they should use:'
+    Options:
+    - Another Exploratory Factor Analysis (EFA)
+    - Confirmatory Factor Analysis (CFA)
+    - Principal Component Analysis (PCA)
+    - A t-test
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: If two factors from an obliquely rotated solution have a correlation
+      of 0.75, what is the most appropriate conclusion?
+    Options:
+    - The factors are independent.
+    - The two factors are measuring highly related constructs.
+    - The rotation was done incorrectly.
+    - The factor loadings are invalid.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'A high cross-loading occurs when an item has:'
+    Options:
+    - Low communality
+    - A high loading on more than one factor
+    - A loading greater than the eigenvalue
+    - A negative loading
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: What is the primary purpose of conducting a Parallel Analysis when
+      deciding the number of factors?
+    Options:
+    - To rotate the factors
+    - To compare observed eigenvalues to those from random data
+    - To calculate factor scores
+    - To assess the reliability of factors
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'The sum of the squared factor loadings of all variables on a single
+      factor is the:'
+    Options:
+    - Communality
+    - Uniqueness
+    - Eigenvalue
+    - KMO statistic
+    CorrectOptionIndex: 2
+    LevelName: factor analysis
+  - QuestionText: In a well-defined factor solution, what is the desired range for
+      factor loadings?
+    Options:
+    - As close to 0 as possible
+    - Generally above
+    - 0.4
+    - or
+    CorrectOptionIndex: -1
+    LevelName: factor analysis
+  - QuestionText: 'The concept of "simple structure" was proposed by:'
+    Options:
+    - Kaiser
+    - Bartlett
+    - Thurstone
+    - Guttman
+    CorrectOptionIndex: 2
+    LevelName: factor analysis
+  - QuestionText: 'Factor scores are:'
+    Options:
+    - The eigenvalues of the factors
+    - Estimates of respondents' standings on the latent factors
+    - The same as the original variable scores
+    - The correlations between factors
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: A researcher runs an EFA on a 20-item scale and finds a single
+      factor explains 60% of the variance, while the next five factors have eigenvalues
+      just above 1.0. The scree plot shows a clear elbow after the first factor.
+      What is the most defensible action?
+    Options:
+    - Retain only one factor.
+    - Retain six factors as per Kaiser's rule.
+    - Retain two factors.
+    - Discard the analysis.
+    CorrectOptionIndex: 0
+    LevelName: factor analysis
+  - QuestionText: In a PCA for a 10-item scale, the communality for an item is 0.95.
+      In a Factor Analysis (Principal Axis Factoring) for the same data, its communality
+      is 0.60. Why did this happen?
+    Options:
+    - The Factor Analysis was done incorrectly.
+    - "PCA uses 1.0 as the initial communality estimate, while FA uses a lower estimate
+      (like R\xB2), focusing only on shared variance."
+    - The item is unreliable.
+    - The sample size was too small.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: After a Varimax rotation, Factor 1 is defined by items about "enjoyment"
+      and Factor 2 by items about "concentration." An Oblimin rotation shows these
+      two factors correlate at r = 0.80. What is the best interpretation?
+    Options:
+    - The orthogonal solution is more accurate.
+    - The two constructs, while conceptually distinct, are highly related in this
+      population.
+    - The scale is unidimensional.
+    - The factor loadings are invalid.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: A researcher wants to create a short form of a personality questionnaire.
+      Which factor analysis output is MOST useful for selecting the best 5 items
+      to represent a 10-item factor?
+    Options:
+    - The scree plot
+    - The KMO statistic
+    - The factor loadings from the rotated matrix
+    - The eigenvalues
+    CorrectOptionIndex: 2
+    LevelName: factor analysis
+  - QuestionText: A Confirmatory Factor Analysis (CFA) yields a CFI of 0.89 and an
+      RMSEA of 0.08. How should these results be interpreted?
+    Options:
+    - The model has a perfect fit.
+    - The model fit is acceptable but not excellent.
+    - The model fit is poor.
+    - The factors are unreliable.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'If a researcher hypothesizes a priori that a scale has three specific
+      subscales, the most methodologically rigorous approach is to:'
+    Options:
+    - Run an EFA and see if three factors emerge.
+    - Run a CFA to directly test the hypothesized three-factor model.
+    - Use only one factor to simplify the model.
+    - Calculate only the Cronbach's alpha for the total scale.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: An item has a factor loading of 0.10 on its primary factor and
+      a communality of 0.02. What is the most appropriate action?
+    Options:
+    - Retain the item as it is.
+    - Highlight the item as a key marker.
+    - Remove the item from the scale.
+    - Use it to calculate factor scores.
+    CorrectOptionIndex: 2
+    LevelName: factor analysis
+  - QuestionText: In a factor matrix, an item has a loading of -0.85 on a factor
+      measuring "Optimism." How should this be interpreted?
+    Options:
+    - The item is faulty and should be reversed.
+    - The item is a very strong indicator of "Pessimism," the opposite pole of the
+      factor.
+    - The item has a low communality.
+    - The factor loading is not significant.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'A second-order factor analysis is conducted when:'
+    Options:
+    - The sample size is very large.
+    - The researcher wants to find factors that explain the correlations among the
+      first-order factors.
+    - The initial eigenvalues are low.
+    - The KMO is below 0.5.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: What is the fundamental reason for the statement "Factor analysis
+      is a family of techniques, not a single method"?
+    Options:
+    - It can only be done with specific software.
+    - There are different methods for extraction (e.g., PAF, ML) and rotation (e.g.,
+      Varimax, Oblimin), each with different goals and assumptions.
+    - It was invented by multiple people simultaneously.
+    - It can analyze both continuous and categorical data.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'A researcher finds that a two-factor EFA solution in Sample 1
+      does not replicate well in Sample 2. The most likely reason is NOT:'
+    Options:
+    - The sample size for one or both studies was too small.
+    - The factors are inherently unstable in the population.
+    - The initial solution was over-factored (too many factors were extracted).
+    - The researcher used a different statistical software package.
+    CorrectOptionIndex: 3
+    LevelName: factor analysis
+  - QuestionText: How does using Maximum Likelihood (ML) extraction differ from Principal
+      Axis Factoring (PAF)?
+    Options:
+    - ML provides factor scores, PAF does not.
+    - ML allows for statistical goodness-of-fit tests, while PAF does not.
+    - PAF requires a larger sample size than ML.
+    - ML is used only for orthogonal rotation.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'In the context of validity, a clear factor structure that matches
+      the theoretical construct provides evidence for:'
+    Options:
+    - Test-retest reliability
+    - Internal consistency reliability
+    - Construct validity
+    - Criterion validity
+    CorrectOptionIndex: 2
+    LevelName: factor analysis
+  - QuestionText: 'A "Heywood case" in Factor Analysis refers to a situation where:'
+    Options:
+    - The number of factors equals the number of variables.
+    - A communality estimate is greater than 1.0.
+    - All factor loadings are zero.
+    - The scree plot has no clear elbow.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: When comparing an orthogonal and an oblique rotation solution,
+      what finding would strongly justify choosing the oblique solution?
+    Options:
+    - The factors are easier to name.
+    - The inter-factor correlations are substantial (e.g.,
+    - r
+    - '> 0.30'
+    CorrectOptionIndex: -1
+    LevelName: factor analysis
+  - QuestionText: 'The pattern matrix in an oblique rotation shows:'
+    Options:
+    - The correlations between factors
+    - The unique relationship between a variable and a factor, controlling for other
+      factors
+    - The simple correlations between variables and factors
+    - The initial communality estimates
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: What is the primary criticism of using the "Eigenvalue greater
+      than 1" rule in isolation?
+    Options:
+    - It is too difficult to calculate.
+    - It often overestimates the number of factors to retain.
+    - It always underestimates the number of factors.
+    - It requires a large sample size.
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'If a researcher is only interested in data reduction for predictive
+      modeling and is not concerned with underlying latent constructs, the most appropriate
+      technique is:'
+    Options:
+    - Confirmatory Factor Analysis
+    - Principal Component Analysis
+    - Exploratory Factor Analysis with Oblimin rotation
+    - Parallel Analysis
+    CorrectOptionIndex: 1
+    LevelName: factor analysis
+  - QuestionText: 'A factor with only one variable loading highly on it is generally:'
+    Options:
+    - The most important factor
+    - A sign of a well-defined structure
+    - Problematic and likely not meaningful
+    - Ideal for interpretation
+    CorrectOptionIndex: 2
+    LevelName: factor analysis
+  - QuestionText: 'The process of assigning a meaningful label to a factor is based
+      primarily on:'
+    Options:
+    - The eigenvalue of the factor
+    - The examination of variables with high loadings on that factor
+    - The number of variables in the analysis
+    - The choice of rotation method
+    CorrectOptionIndex: 1
+    LevelName: factor analysis

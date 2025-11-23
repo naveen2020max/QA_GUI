@@ -1,0 +1,479 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: approaches to intelligence
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Who proposed the concept of 'g' factor (general intelligence) and
+      's' factor (specific intelligence)?
+    Options:
+    - Louis Thurstone
+    - Charles Spearman
+    - Howard Gardner
+    - Robert Sternberg
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'The Triarchic Theory of Intelligence, which includes analytical,
+      creative, and practical intelligence, was proposed by:'
+    Options:
+    - John B. Carroll
+    - David Wechsler
+    - Robert Sternberg
+    - J.P. Guilford
+    CorrectOptionIndex: 2
+    LevelName: approaches to intelligence
+  - QuestionText: Howard Gardner's Theory of Multiple Intelligences initially proposed
+      how many distinct intelligences?
+    Options:
+    - Five
+    - Seven
+    - Eight
+    - Nine
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'The PASS theory of intelligence, which stands for Planning, Attention,
+      Simultaneous, and Successive processing, is associated with:'
+    Options:
+    - Arthur Jensen
+    - J.P. Guilford
+    - Jagannath Prasad Das
+    - John Horn
+    CorrectOptionIndex: 2
+    LevelName: approaches to intelligence
+  - QuestionText: Which theorist used factor analysis to identify primary mental
+      abilities such as verbal comprehension and perceptual speed?
+    Options:
+    - Charles Spearman
+    - Louis Thurstone
+    - Raymond Cattell
+    - Alfred Binet
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'The concept of "fluid intelligence" (Gf) and "crystallized intelligence"
+      (Gc) was introduced by:'
+    Options:
+    - Robert Sternberg
+    - John Carroll
+    - David Wechsler
+    - Raymond Cattell
+    CorrectOptionIndex: 3
+    LevelName: approaches to intelligence
+  - QuestionText: According to Howard Gardner, which of the following is NOT one
+      of the multiple intelligences?
+    Options:
+    - Naturalist
+    - Emotional
+    - Bodily-Kinesthetic
+    - Musical
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'The Three-Stratum Theory, a hierarchical model with a general
+      intelligence factor at the apex, was developed by:'
+    Options:
+    - John B. Carroll
+    - Louis Thurstone
+    - Charles Spearman
+    - J.P. Guilford
+    CorrectOptionIndex: 0
+    LevelName: approaches to intelligence
+  - QuestionText: 'The Wechsler Adult Intelligence Scale (WAIS) was developed by:'
+    Options:
+    - Alfred Binet
+    - David Wechsler
+    - Lewis Terman
+    - Robert Yerkes
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: The idea that intelligence consists of 180 different mental abilities
+      was proposed by which theorist?
+    Options:
+    - J.P. Guilford
+    - Howard Gardner
+    - Louis Thurstone
+    - Robert Sternberg
+    CorrectOptionIndex: 0
+    LevelName: approaches to intelligence
+  - QuestionText: If a person is very good at understanding their own emotions and
+      motives, according to Gardner, they excel in _______ intelligence.
+    Options:
+    - Interpersonal
+    - Intrapersonal
+    - Existential
+    - Linguistic
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: A mechanic who can expertly diagnose an engine problem by listening
+      to it is likely demonstrating high ______ intelligence in Gardner's framework.
+    Options:
+    - Logical-Mathematical
+    - Bodily-Kinesthetic
+    - Naturalist
+    - Musical
+    CorrectOptionIndex: 0
+    LevelName: approaches to intelligence
+  - QuestionText: 'Cattell''s concept of ''crystallized intelligence'' is best characterized
+      by:'
+    Options:
+    - The ability to think logically and solve novel problems.
+    - The accumulation of knowledge, skills, and experience.
+    - The speed of neural processing.
+    - The capacity for abstract reasoning.
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'Sternberg''s ''practical intelligence'' is most similar to the
+      common concept of:'
+    Options:
+    - Book smarts
+    - Street smarts
+    - Creative genius
+    - Emotional sensitivity
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'A key criticism of Spearman''s ''g'' factor is that it:'
+    Options:
+    - Is too specific and ignores general ability.
+    - Overemphasizes the role of genetics.
+    - May oversimplify intelligence by ignoring specific abilities.
+    - Is not supported by any statistical evidence.
+    CorrectOptionIndex: 2
+    LevelName: approaches to intelligence
+  - QuestionText: 'The primary difference between Sternberg''s analytical intelligence
+      and Cattell''s fluid intelligence is that analytical intelligence:'
+    Options:
+    - Is solely based on cultural knowledge.
+    - Is not related to problem-solving.
+    - Specifically involves comparing, evaluating, and critiquing.
+    - Declines with age.
+    CorrectOptionIndex: 2
+    LevelName: approaches to intelligence
+  - QuestionText: 'Louis Thurstone''s theory challenged Spearman''s by arguing that
+      intelligence is best understood as:'
+    Options:
+    - A single, general ability.
+    - A hierarchy of three strata.
+    - Several primary mental abilities.
+    - A combination of practical and creative skills.
+    CorrectOptionIndex: 2
+    LevelName: approaches to intelligence
+  - QuestionText: According to the PASS theory, a student who struggles to follow
+      a series of instructions is likely having difficulty with _______ processing.
+    Options:
+    - Simultaneous
+    - Successive
+    - Planning
+    - Attention
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'A major educational implication of Gardner''s theory is that it
+      advocates for:'
+    Options:
+    - A single, standardized method of assessment for all.
+    - Teaching and assessing students in a variety of ways.
+    - Focusing instruction solely on linguistic and logical skills.
+    - Grouping students by their general IQ score.
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: If Fluid Intelligence (Gf) is the ability to solve novel problems,
+      which of the following tasks would best measure it?
+    Options:
+    - Defining a complex vocabulary word.
+    - Identifying the pattern in a series of abstract shapes.
+    - Reciting historical dates from memory.
+    - Writing an essay on a well-practiced topic.
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'A school that designs its curriculum around projects, artistic
+      performances, and collaborative problem-solving is most clearly influenced
+      by the theories of:'
+    Options:
+    - Charles Spearman
+    - Robert Sternberg
+    - Howard Gardner
+    - Raymond Cattell
+    CorrectOptionIndex: 2
+    LevelName: approaches to intelligence
+  - QuestionText: 'Critically analyzing the theory of Multiple Intelligences, a major
+      criticism from the scientific community is that:'
+    Options:
+    - It is too focused on a single 'g' factor.
+    - It lacks strong empirical evidence and its "intelligences" are better described
+      as talents or aptitudes.
+    - It ignores the role of creativity in intelligence.
+    - It was developed using advanced brain imaging technology.
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'An entrepreneur who successfully invents a new product by identifying
+      a market gap, designing a solution, and persuading investors is demonstrating
+      a strong combination of Sternberg''s:'
+    Options:
+    - Analytical and Creative intelligences
+    - Memory and Analytical intelligences
+    - Analytical and Practical intelligences
+    - Creative and Practical intelligences
+    CorrectOptionIndex: 3
+    LevelName: approaches to intelligence
+  - QuestionText: A researcher finds a high correlation between scores on a vocabulary
+      test and a matrix reasoning test. This finding would provide the strongest
+      support for which theory?
+    Options:
+    - Gardner's Theory of Multiple Intelligences
+    - Spearman's Two-Factor Theory
+    - Sternberg's Triarchic Theory
+    - Thurstone's Primary Mental Abilities
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'Comparing the theories of Cattell and Carroll, a key similarity
+      is that both:'
+    Options:
+    - Reject the existence of a general intelligence factor.
+    - Propose a hierarchical model with a general ability at the top.
+    - Identify exactly seven primary mental abilities.
+    - Focus exclusively on non-cognitive aspects of intelligence.
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'A teacher who values both a student''s innate problem-solving
+      speed (Gf) and their accumulated knowledge from study (Gc) is taking a perspective
+      most aligned with:'
+    Options:
+    - Howard Gardner
+    - J.P. Guilford
+    - Louis Thurstone
+    - Raymond Cattell
+    CorrectOptionIndex: 3
+    LevelName: approaches to intelligence
+  - QuestionText: 'If a theory of intelligence is described as "nomothetic," it means
+      it aims to:'
+    Options:
+    - Understand the unique configuration of abilities in a single individual.
+    - Establish universal laws and dimensions that apply to all people.
+    - Describe intelligence based on a single, observable behavior.
+    - Focus only on the biological basis of intelligence.
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'The concept of "successful intelligence" in Sternberg''s later
+      work refers to the ability to:'
+    Options:
+    - Achieve high scores on standardized tests.
+    - Succeed in life by capitalizing on strengths and correcting weaknesses.
+    - Develop expertise in a single, narrow domain.
+    - Master the analytical component of the triarchic theory.
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'A historical analysis of intelligence theories shows a clear shift
+      from:'
+    Options:
+    - Multiple factors to a single, unitary concept.
+    - A holistic view to a purely biological one.
+    - A unitary concept to a more diversified and multifaceted view.
+    - An emphasis on practicality to an emphasis on academic prowess.
+    CorrectOptionIndex: 2
+    LevelName: approaches to intelligence
+  - QuestionText: A student who can easily create mental maps and visualize spatial
+      relationships likely has a high ______ intelligence, but this ability is also
+      a good indicator of Spearman's ______.
+    Options:
+    - Spatial / 'g' factor
+    - Interpersonal / 's' factor
+    - Naturalist / fluid intelligence
+    - Linguistic / crystallized intelligence
+    CorrectOptionIndex: 0
+    LevelName: approaches to intelligence
+  - QuestionText: 'The "investment theory" in the context of intelligence proposes
+      that:'
+    Options:
+    - Fluid intelligence is invested to acquire crystallized intelligence.
+    - Financial investment in education directly increases IQ.
+    - Crystallized intelligence is used to solve novel problems.
+    - Intelligence is a fixed asset that cannot be changed.
+    CorrectOptionIndex: 0
+    LevelName: approaches to intelligence
+  - QuestionText: 'A critic of Gardner''s theory might argue that calling musical
+      or bodily talent an "intelligence" dilutes the term, which has traditionally
+      been associated with:'
+    Options:
+    - Emotional regulation.
+    - Reasoning, problem-solving, and abstract thinking.
+    - Physical prowess and artistic skill.
+    - Social popularity and influence.
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'In the context of education, a major limitation of Spearman''s
+      ''g'' factor theory is that it:'
+    Options:
+    - Provides too many avenues for differentiating instruction.
+    - Can lead to a narrow focus on tasks that only measure 'g', potentially overlooking
+      other important student strengths.
+    - Is too complex for teachers to understand.
+    - Overemphasizes the role of the arts in cognitive development.
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'A cross-cultural study finds that a test based on Sternberg''s
+      practical intelligence predicts job success better than a traditional IQ test
+      in a non-Western culture. This finding supports the idea that:'
+    Options:
+    - Traditional IQ tests are universally valid.
+    - Practical intelligence is unrelated to success.
+    - Cultural context shapes the expression and value of different intelligent behaviors.
+    - Analytical intelligence is the only true form of intelligence.
+    CorrectOptionIndex: 2
+    LevelName: approaches to intelligence
+  - QuestionText: According to the PASS model, a student who is good at solving analogies
+      and seeing relationships between concepts is strong in _______ processing.
+    Options:
+    - Successive
+    - Simultaneous
+    - Planning
+    - Attention
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'The theory that most directly challenges the use of a single IQ
+      score to represent a person''s intellectual capacity is:'
+    Options:
+    - Spearman's Two-Factor Theory
+    - Jensen's Level I/Level II Theory
+    - Gardner's Theory of Multiple Intelligences
+    - Cattell's Theory of Fluid and Crystallized Intelligence
+    CorrectOptionIndex: 2
+    LevelName: approaches to intelligence
+  - QuestionText: 'An educational psychologist arguing for the existence of ''g''
+      would most likely point to the phenomenon of:'
+    Options:
+    - Positive manifold (the tendency for different cognitive tests to correlate
+      positively).
+    - Savant syndrome, where someone is exceptional in one area but poor in others.
+    - The modularity of the brain.
+    - The independence of artistic and academic skills.
+    CorrectOptionIndex: 0
+    LevelName: approaches to intelligence
+  - QuestionText: 'If a test is designed to minimize the influence of cultural knowledge
+      and language, it is most likely trying to measure:'
+    Options:
+    - Crystallized Intelligence (Gc)
+    - Fluid Intelligence (Gf)
+    - Intrapersonal Intelligence
+    - Practical Intelligence
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'A synthesis of modern intelligence theories would likely conclude
+      that:'
+    Options:
+    - Spearman's 'g' is completely irrelevant.
+    - Intelligence is entirely a product of cultural training.
+    - Gardner's eight intelligences have been proven to be entirely independent.
+    - There is a general mental ability, but it is expressed through and interacts
+      with more specific cognitive processes and domains.
+    CorrectOptionIndex: 3
+    LevelName: approaches to intelligence
+  - QuestionText: The concept of "neuroplasticity" provides support for which view
+      of intelligence?
+    Options:
+    - A purely fixed and hereditary view.
+    - A view that emphasizes the potential for cognitive development and growth.
+    - The idea that intelligence is a single, unitary entity.
+    - The notion that crystallized intelligence cannot be improved.
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'A teacher who designs a lesson on the water cycle that includes
+      a diagram (spatial), a song (musical), a written report (linguistic), and a
+      hands-on experiment (bodily-kinesthetic) is directly applying principles from:'
+    Options:
+    - The PASS theory
+    - The CHC theory
+    - Gardner's Multiple Intelligences theory
+    - Spearman's 'g' factor theory
+    CorrectOptionIndex: 2
+    LevelName: approaches to intelligence
+  - QuestionText: 'Sternberg''s Creative Intelligence involves, among other things,
+      the ability to deal with novelty. This is most similar to Cattell''s concept
+      of:'
+    Options:
+    - Crystallized Intelligence
+    - Fluid Intelligence
+    - General Intelligence
+    - Specific Intelligence
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'The Cattell-Horn-Carroll (CHC) theory is significant because it:'
+    Options:
+    - Was the first theory to propose a general intelligence factor.
+    - Is a comprehensive framework that integrates the ideas of Cattell, Horn, and
+      Carroll.
+    - Denies the existence of any broad abilities beyond 'g'.
+    - Focuses exclusively on non-cognitive factors.
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: 'A key difference between Thurstone''s and Spearman''s theories
+      is that Thurstone:'
+    Options:
+    - Denied that different cognitive tasks could correlate with each other.
+    - Focused only on practical intelligence.
+    - Believed intelligence was entirely learned.
+    - Argued that intelligence is best described by a set of primary mental abilities
+      rather than a dominant 'g' factor.
+    CorrectOptionIndex: 3
+    LevelName: approaches to intelligence
+  - QuestionText: 'From a sociological perspective, the shift from unitary to multiple
+      theories of intelligence can be seen as a move towards:'
+    Options:
+    - A more elitist view of human potential.
+    - A more democratic and inclusive view of human capability.
+    - A stronger emphasis on standardized testing.
+    - A denial of individual differences.
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence
+  - QuestionText: A student who is a talented dancer but struggles with traditional
+      academic subjects would be an example that challenges ______ but supports ______.
+    Options:
+    - Sternberg's theory / Spearman's theory
+    - Gardner's theory / Thurstone's theory
+    - Spearman's strict unitary view / Gardner's multiple intelligences view
+    - Cattell's theory / Carroll's theory
+    CorrectOptionIndex: 2
+    LevelName: approaches to intelligence
+  - QuestionText: 'The "Flynn effect" (the rise in IQ scores over time) is most easily
+      explained by improvements in:'
+    Options:
+    - Genetic factors.
+    - Overall health and nutrition, which influence fluid intelligence.
+    - Education, environmental complexity, and test-taking familiarity, which influence
+      crystallized and fluid intelligence.
+    - Musical and bodily-kinesthetic intelligences.
+    CorrectOptionIndex: 2
+    LevelName: approaches to intelligence
+  - QuestionText: 'If intelligence were truly a set of independent modules as suggested
+      by some multiple intelligence theories, one would expect to find:'
+    Options:
+    - High correlations between all cognitive tests.
+    - Many "savants" who are highly gifted in one area but average or below in others.
+    - No one who is generally intelligent across domains.
+    - Both B and C.
+    CorrectOptionIndex: 3
+    LevelName: approaches to intelligence
+  - QuestionText: 'An educational system that relies heavily on standardized testing
+      for student placement is operating on a model of intelligence most closely
+      aligned with:'
+    Options:
+    - Howard Gardner
+    - Robert Sternberg
+    - Charles Spearman
+    - Louis Thurstone
+    CorrectOptionIndex: 2
+    LevelName: approaches to intelligence
+  - QuestionText: 'The theory that best accounts for the fact that a brilliant scientist
+      might be a terrible poet, and vice versa, is:'
+    Options:
+    - Spearman's Two-Factor Theory (emphasizing 's' factors)
+    - Gardner's Theory of Multiple Intelligences
+    - Cattell's Investment Theory
+    - Sternberg's Triarchic Theory (emphasizing different domains of application)
+    CorrectOptionIndex: 1
+    LevelName: approaches to intelligence

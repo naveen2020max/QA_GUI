@@ -1,0 +1,472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: thurstone
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Who developed the Thurstone scale?
+    Options:
+    - Rensis Likert
+    - Louis Thurstone
+    - Charles Spearman
+    - Frederick Herzberg
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'The Thurstone scale is also known as:'
+    Options:
+    - The Summated Rating Scale
+    - The Equal-Appearing Interval Scale
+    - The Semantic Differential Scale
+    - The Cumulative Scale
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'The primary purpose of a Thurstone scale is to measure:'
+    Options:
+    - Aptitude
+    - Attitudes
+    - Aptitude and Attitudes
+    - Personality Traits
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: In the construction of a Thurstone scale, who are the "judges"?
+    Options:
+    - The final respondents
+    - The statisticians
+    - A group of experts who rate the items
+    - The researchers themselves
+    CorrectOptionIndex: 2
+    LevelName: thurstone
+  - QuestionText: What do the judges specifically rate about each potential statement
+      in a Thurstone scale?
+    Options:
+    - Its clarity
+    - Its favorability towards the attitude object
+    - Its length
+    - Its grammatical correctness
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'The scale value of a statement in a Thurstone scale is determined
+      by its:'
+    Options:
+    - Mean rating from the judges
+    - Median rating from the judges
+    - Mode rating from the judges
+    - Standard Deviation of the judges' ratings
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: What statistical measure from the judges' ratings is used to select
+      the final items for a Thurstone scale?
+    Options:
+    - Mean
+    - Median
+    - Mode
+    - Interquartile Range / Q-value
+    CorrectOptionIndex: 3
+    LevelName: thurstone
+  - QuestionText: 'A Thurstone scale typically presents statements to the respondent
+      in a:'
+    Options:
+    - Random order
+    - Forced-choice format
+    - Specific order of increasing favorability
+    - Paired comparison format
+    CorrectOptionIndex: 0
+    LevelName: thurstone
+  - QuestionText: How does a respondent answer a Thurstone scale?
+    Options:
+    - They rate their agreement on a 5-point scale.
+    - They check all statements they agree with.
+    - They rank the statements from most to least agreeable.
+    - They choose between pairs of statements.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'The final score for a respondent on a Thurstone scale is the:'
+    Options:
+    - Sum of the scale values of all items
+    - Mean of the scale values of agreed items
+    - Median of the scale values of agreed items
+    - Mode of the scale values of agreed items
+    CorrectOptionIndex: 2
+    LevelName: thurstone
+  - QuestionText: The Thurstone scale is considered to produce what level of data?
+    Options:
+    - Nominal
+    - Ordinal
+    - Interval
+    - Ratio
+    CorrectOptionIndex: 2
+    LevelName: thurstone
+  - QuestionText: Which of the following is a major disadvantage of the Thurstone
+      scale?
+    Options:
+    - It is easy to construct.
+    - It is time-consuming and laborious to construct.
+    - It does not produce interval data.
+    - It is less reliable than a Likert scale.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'The concept that a Thurstone scale should cover the entire range
+      of the attitude continuum, from very unfavorable to very favorable, relates
+      to its:'
+    Options:
+    - Reliability
+    - Unidimensionality
+    - Comprehensiveness
+    - Objectivity
+    CorrectOptionIndex: 2
+    LevelName: thurstone
+  - QuestionText: 'A scale where agreeing with a stronger item implies agreement
+      with all weaker items is a:'
+    Options:
+    - Likert Scale
+    - Guttman Scale
+    - Semantic Differential
+    - Thurstone Scale
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: The Thurstone scale is an example of a scale constructed using
+      the ________ approach.
+    Options:
+    - Judgmental
+    - Psychometric
+    - Factor Analytic
+    - Empirical
+    CorrectOptionIndex: 0
+    LevelName: thurstone
+  - QuestionText: Why is the median used instead of the mean to calculate an item's
+      scale value during construction?
+    Options:
+    - The mean is too difficult to calculate.
+    - The median is less affected by extreme ratings from a few judges.
+    - The median is always a whole number.
+    - The median is required for interval data.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: What is the primary purpose of calculating the Interquartile Range
+      (IQR) during item selection?
+    Options:
+    - To find the average attitude
+    - To ensure a wide range of item values
+    - To select items on which the judges show high agreement
+    - To eliminate items that are too long
+    CorrectOptionIndex: 2
+    LevelName: thurstone
+  - QuestionText: How does the Thurstone scale attempt to achieve the property of
+      "equal-appearing intervals"?
+    Options:
+    - By having an equal number of items.
+    - By using judges to sort items into piles that represent equal psychological
+      distances.
+    - By using a 5-point response format.
+    - By calculating the mean and standard deviation.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'A key difference between Thurstone and Likert scales is that the
+      Thurstone scale:'
+    Options:
+    - Uses a single overall score.
+    - Uses an "agree-disagree" response format.
+    - Has item values determined by judges, not the researcher.
+    - Is easier to construct.
+    CorrectOptionIndex: 2
+    LevelName: thurstone
+  - QuestionText: 'If a respondent''s score on a Thurstone scale is 6.5, this means:'
+    Options:
+    - They agreed with 6.5 statements.
+    - Their attitude is neutral.
+    - The median favorability of the statements they agreed with is 6.5.
+    - The average favorability of the statements they agreed with is 6.5.
+    CorrectOptionIndex: 2
+    LevelName: thurstone
+  - QuestionText: Why might a researcher choose a Thurstone scale over a Likert scale
+      for a foundational study on a new attitude?
+    Options:
+    - For its speed of administration.
+    - Because it is easier to construct.
+    - Because its interval property allows for more powerful parametric statistical
+      tests.
+    - Because it avoids the need for expert judgment.
+    CorrectOptionIndex: 2
+    LevelName: thurstone
+  - QuestionText: 'The requirement that items in a Thurstone scale should be spread
+      out from one end of the scale to the other ensures:'
+    Options:
+    - High reliability
+    - Face validity
+    - That the scale can discriminate between different levels of attitude
+    - That the scale is unidimensional
+    CorrectOptionIndex: 2
+    LevelName: thurstone
+  - QuestionText: What is a major criticism regarding the "equal-appearing interval"
+      property of the Thurstone scale?
+    Options:
+    - It is too easy to achieve.
+    - The intervals are only equal in the perception of the specific judges used.
+    - It produces ordinal data.
+    - It requires a large sample of respondents.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'In a Thurstone scale, an item with a very high Interquartile Range
+      (IQR) would be:'
+    Options:
+    - Highly desirable
+    - Ambiguous to the judges
+    - Very favorable
+    - Very unfavorable
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'The respondent''s role in a Thurstone scale is best described
+      as:'
+    Options:
+    - A rater of agreement
+    - A passive selector of pre-valued statements
+    - A judge of item favorability
+    - A ranker of attitudes
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: If two items have median scale values of 4.2 and 4.3, but the first
+      has a very small IQR and the second has a very large IQR, which item is better
+      for the final scale?
+    Options:
+    - The item with a value of 4.2
+    - The item with a value of 4.3
+    - Both are equally good.
+    - Neither should be used.
+    CorrectOptionIndex: 0
+    LevelName: thurstone
+  - QuestionText: The Thurstone scale is considered more ________ than the Likert
+      scale, but less ________.
+    Options:
+    - Reliable; valid
+    - Objective; efficient
+    - Efficient; objective
+    - Valid; reliable
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'The concept of a "neutral point" on a Thurstone scale is typically:'
+    Options:
+    - Explicitly labeled for the respondent.
+    - Implied by the range of scale values (e.g., 1-11).
+    - Not present.
+    - Determined by the median judge.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'A major threat to the validity of a Thurstone scale is:'
+    Options:
+    - The age of the respondents
+    - The bias and competence of the panel of judges
+    - The number of items
+    - The use of the median for scoring
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'Compared to a Guttman scale, a Thurstone scale:'
+    Options:
+    - Is cumulative.
+    - Is easier to construct.
+    - Does not assume that item endorsements are scalable.
+    - Produces only ordinal data.
+    CorrectOptionIndex: 2
+    LevelName: thurstone
+  - QuestionText: A researcher constructs a Thurstone scale on "Attitude towards
+      Online Learning" but finds the final scores have very low variance. What was
+      the most likely flaw in the construction phase?
+    Options:
+    - The judges were too varied.
+    - The selected statements were all clustered in a narrow range of favorability
+      (e.g., only from 6 to 8).
+    - The IQR criteria were too strict.
+    - The median was used instead of the mean.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'If a Thurstone scale is administered in a different cultural context
+      than the one in which it was developed, the scale values of the items might
+      be invalid because:'
+    Options:
+    - The scoring uses the median.
+    - The judges' perceptions of favorability are culture-specific.
+    - The IQR would be different.
+    - The number of items would change.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'A critic argues that a Thurstone scale score is not a true interval
+      measure because the distances between items are based on subjective judgments.
+      The best defense for the scale''s interval property is:'
+    Options:
+    - It uses numbers, so it must be interval.
+    - The law of large numbers applied to judges cancels out individual subjectivity,
+      creating a psychophysical continuum.
+    - All social science data is interval.
+    - The Likert scale is worse.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: In a modern research context, why is the Thurstone scale rarely
+      used compared to the Likert scale?
+    Options:
+    - It is less reliable.
+    - It produces nominal data.
+    - The cost and time of construction are high relative to the marginal gain in
+      data quality for most applications.
+    - It cannot be analyzed statistically.
+    CorrectOptionIndex: 2
+    LevelName: thurstone
+  - QuestionText: 'When analyzing data from a Thurstone scale, a researcher wants
+      to compare attitude scores between men and women. The most appropriate statistical
+      test is:'
+    Options:
+    - A Chi-square test
+    - An independent samples t-test
+    - A Mann-Whitney U test
+    - A Pearson correlation
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: A respondent agrees with items having scale values of 2, 2, 9,
+      and 10. Their attitude score is 6. What does this score potentially mask?
+    Options:
+    - Their neutral attitude
+    - Their highly favorable attitude
+    - The bimodality of their responses
+    - Their unfavorable attitude
+    CorrectOptionIndex: 2
+    LevelName: thurstone
+  - QuestionText: 'To establish construct validity for a new Thurstone scale on "Environmental
+      Concern," a researcher should correlate its scores with:'
+    Options:
+    - The age of the respondents.
+    - Scores on an established, valid measure of environmental concern.
+    - The IQR of the items.
+    - The number of judges used.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'If a set of Thurstone scale items has high internal consistency
+      (e.g., high Cronbach''s alpha), this would:'
+    Options:
+    - Be expected, as the scale is unidimensional.
+    - Be surprising, as the items are selected to represent a wide range of a continuum,
+      not to be highly correlated with each other.
+    - Validate the judges' ratings.
+    - Invalidate the scale's interval property.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'A researcher uses a panel of 10 judges who are all experts in
+      the field. A potential problem with this approach is:'
+    Options:
+    - The sample size is too small for statistical analysis.
+    - The judges may have a shared bias, limiting the generalizability of the scale
+      values to a broader population.
+    - The IQR will be artificially inflated.
+    - The median will be invalid.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'The process of having judges sort statements into 11 piles is
+      methodologically similar to the psychophysical technique called:'
+    Options:
+    - Paired Comparisons
+    - The Method of Constant Stimuli
+    - The Method of Limits
+    - The Method of Equal-Appearing Intervals
+    CorrectOptionIndex: 3
+    LevelName: thurstone
+  - QuestionText: 'A major philosophical difference between Thurstone and Likert
+      is that Thurstone believed attitude intensity was:'
+    Options:
+    - Irrelevant
+    - An internal state only the respondent could report.
+    - An external property of the statement itself, to be judged by others.
+    - Best measured by frequency counts.
+    CorrectOptionIndex: 2
+    LevelName: thurstone
+  - QuestionText: When constructing a Thurstone scale, a researcher finds that items
+      with very low and very high scale values have small IQRs, but items in the
+      middle (4-7) have large IQRs. What does this imply?
+    Options:
+    - The judges had difficulty assessing neutral statements.
+    - The scale will be highly reliable.
+    - The judges were biased.
+    - The final scale should only use extreme items.
+    CorrectOptionIndex: 0
+    LevelName: thurstone
+  - QuestionText: 'In the digital age, the judge rating process for a Thurstone scale
+      could be made more efficient by:'
+    Options:
+    - Using a Likert scale instead.
+    - Using online surveys to recruit a larger and more diverse set of judges.
+    - Eliminating the IQR calculation.
+    - Having the researcher be the sole judge.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'If a Thurstone scale is found to be highly correlated with social
+      desirability, this is a threat to its:'
+    Options:
+    - Reliability
+    - Construct Validity
+    - Ease of administration
+    - Objectivity
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'A researcher wants to create a short, impactful scale. For a Thurstone
+      scale, the best way to select a small number of final items from a large pool
+      is to choose items that:'
+    Options:
+    - Have the smallest IQRs and are evenly spaced across the entire range of scale
+      values.
+    - Are the longest and most detailed.
+    - Have the highest mean ratings from the judges.
+    - Are all from the favorable end of the spectrum.
+    CorrectOptionIndex: 0
+    LevelName: thurstone
+  - QuestionText: The scoring method of a Thurstone scale (using the median of endorsed
+      items) makes it particularly susceptible to distortion from what kind of response
+      pattern?
+    Options:
+    - Acquiescence Bias
+    - Central Tendency Bias
+    - An inconsistent or bimodal pattern of agreement
+    - Social Desirability Bias
+    CorrectOptionIndex: 2
+    LevelName: thurstone
+  - QuestionText: 'Compared to a scale developed through Factor Analysis, a Thurstone
+      scale is more focused on:'
+    Options:
+    - Identifying underlying dimensions of a construct.
+    - The content validity and equal-interval representation of the attitude continuum.
+    - Maximizing internal consistency.
+    - Creating a unidimensional measure.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'A key reason the Thurstone scale is considered a "pre-scale" technique
+      is that it:'
+    Options:
+    - Must be administered before other tests.
+    - Involves a preliminary scaling of items using judges before administering the
+      final scale to respondents.
+    - Was developed before the Likert scale.
+    - Uses pre-existing statements.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'If a statement has a median of 7.0 and an IQR of 0.5, this indicates
+      that:'
+    Options:
+    - Judges strongly disagreed on its favorability.
+    - The middle 50% of judges placed it between 6.75 and 7.25.
+    - It is an ambiguous statement.
+    - It should be rejected from the scale.
+    CorrectOptionIndex: 1
+    LevelName: thurstone
+  - QuestionText: 'The historical significance of the Thurstone scale lies in its:'
+    Options:
+    - Speed and efficiency.
+    - Being the first method to treat attitude measurement as a psychological continuum
+      with measurable intervals.
+    - Use of simple summation.
+    - Replacement of all previous scales.
+    CorrectOptionIndex: 1
+    LevelName: thurstone

@@ -1,0 +1,447 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: district level agencies
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Which institution is the nodal agency for in-service teacher education
+      at the elementary level in a district?
+    Options:
+    - SCERT
+    - DIET
+    - NCERT
+    - UGC
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'The CRC (Cluster Resource Centre) typically caters to a group
+      of:'
+    Options:
+    - All schools in a state
+    - 10-15 schools in a geographical cluster
+    - Only private schools in a district
+    - Secondary schools only
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'The primary function of a Block Resource Centre (BRC) is to:'
+    Options:
+    - Develop national curriculum frameworks
+    - Provide academic support and training to teachers at the block level
+    - Regulate university education
+    - Manage district finances
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: Who acts as the direct mentor and academic guide for teachers at
+      the cluster level?
+    Options:
+    - The District Collector
+    - The DIET Principal
+    - The CRC Coordinator
+    - The School Principal
+    CorrectOptionIndex: 2
+    LevelName: district level agencies
+  - QuestionText: 'The administrative head responsible for coordinating all in-service
+      training programs in a district is the:'
+    Options:
+    - DIET Lecturer
+    - District Education Officer (DEO)
+    - CRC Coordinator
+    - BRC Coordinator
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: Which of the following is a key role of a DIET?
+    Options:
+    - Awarding Ph.D. degrees
+    - Developing locally relevant Teaching-Learning Materials (TLMs)
+    - Setting national education policy
+    - Governing higher education institutions
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'The institutional structure for in-service teacher education at
+      the district level follows a cascade model. The correct sequence is:'
+    Options:
+    - NCERT -> SCERT -> DIET -> BRC -> CRC
+    - CRC -> BRC -> DIET -> SCERT -> NCERT
+    - UGC -> DIET -> CRC -> Teacher
+    - School -> State -> National -> International
+    CorrectOptionIndex: 0
+    LevelName: district level agencies
+  - QuestionText: 'A teacher facing a classroom challenge would first seek on-site
+      academic support from the:'
+    Options:
+    - NCERT
+    - SCERT
+    - CRC Coordinator
+    - University Professor
+    CorrectOptionIndex: 2
+    LevelName: district level agencies
+  - QuestionText: The main target group for DIET's in-service programs are teachers
+      of which level?
+    Options:
+    - Higher Education
+    - Secondary and Senior Secondary
+    - Elementary Education (Classes I-VIII)
+    - Pre-primary only
+    CorrectOptionIndex: 2
+    LevelName: district level agencies
+  - QuestionText: Which agency is responsible for the logistical arrangements for
+      a large-scale district-level teacher training workshop?
+    Options:
+    - DIET
+    - District Education Office (DEO)
+    - CRC
+    - State Government Secretariat
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'The "C" in CRC stands for:'
+    Options:
+    - Central
+    - Cluster
+    - Core
+    - Curriculum
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'A BRC Coordinator receives academic guidance and resources primarily
+      from the:'
+    Options:
+    - State Education Minister
+    - DIET
+    - University Grants Commission
+    - Central Board of Secondary Education
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: Which institution is most directly involved in organizing monthly
+      cluster-level meetings for teachers?
+    Options:
+    - DIET
+    - BRC
+    - CRC
+    - SCERT
+    CorrectOptionIndex: 2
+    LevelName: district level agencies
+  - QuestionText: 'The primary purpose of establishing a multi-level structure (DIET,
+      BRC, CRC) is to:'
+    Options:
+    - Increase bureaucratic hurdles
+    - Ensure academic support reaches every single teacher
+    - Reduce the number of training programs
+    - Centralize all decision-making
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'A DIET also plays a significant role in the training of:'
+    Options:
+    - Corporate managers
+    - Headteachers and school principals
+    - Medical doctors
+    - Engineering students
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: Which of the following is NOT typically a function of a DIET?
+    Options:
+    - Conducting action research on local educational problems
+    - Organizing cultural festivals for the public
+    - Providing in-service training to elementary teachers
+    - Acting as a resource centre for the district
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'The success of the CRC model heavily relies on the:'
+    Options:
+    - Political affiliation of the coordinator
+    - Weather conditions in the district
+    - Number of schools in the state
+    - Proactive and supportive role of the CRC Coordinator
+    CorrectOptionIndex: 3
+    LevelName: district level agencies
+  - QuestionText: 'A teacher seeking a transfer within the district for professional
+      development would approach the:'
+    Options:
+    - CRC Coordinator
+    - District Education Officer (DEO)
+    - School Principal
+    - Block Development Officer
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'The institution that serves as the academic backbone of the Sarva
+      Shiksha Abhiyan (SSA) at the district level is the:'
+    Options:
+    - District Court
+    - DIET
+    - Local College
+    - Police Station
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: Which agency is responsible for identifying master trainers at
+      the district level who can then train other teachers?
+    Options:
+    - SCERT
+    - NCERT
+    - CRC
+    - DIET
+    CorrectOptionIndex: 3
+    LevelName: district level agencies
+  - QuestionText: 'A "Resource Centre" at the district level, where teachers can
+      access books, journals, and TLMs, is typically located at the:'
+    Options:
+    - District Library
+    - DIET
+    - Zilla Panchayat Office
+    - State Secretariat
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'The "B" in BRC stands for:'
+    Options:
+    - Basic
+    - Block
+    - Board
+    - Bureau
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'The primary focus of in-service training at the CRC level is:'
+    Options:
+    - High-level theoretical research
+    - Administrative law
+    - International educational policies
+    - Immediate, practical classroom-based issues
+    CorrectOptionIndex: 3
+    LevelName: district level agencies
+  - QuestionText: Which of the following agencies is most likely to conduct a training
+      program on a new state textbook for all language teachers in a block?
+    Options:
+    - NCERT
+    - BRC
+    - UGC
+    - AICTE
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: The creation of DIETs was a major recommendation of which national
+      policy?
+    Options:
+    - National Policy on Education (NPE), 1986
+    - National Curriculum Framework (NCF), 2005
+    - Kothari Commission (1964-66)
+    - Right to Education Act (RTE), 2009
+    CorrectOptionIndex: 0
+    LevelName: district level agencies
+  - QuestionText: 'A key challenge faced by district-level agencies is:'
+    Options:
+    - Lack of any teachers to train
+    - Inadequate infrastructure and funding for effective training
+    - Over-qualification of all teachers
+    - Absence of a national curriculum
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'The role of the District Education Officer (DEO) in in-service
+      education is primarily:'
+    Options:
+    - Academic and pedagogical
+    - Administrative and supervisory
+    - Financial auditing of schools
+    - Teaching students directly
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: Which institution would be responsible for training Key Resource
+      Persons (KRPs) who will then train teachers at the block and cluster level?
+    Options:
+    - CRC
+    - BRC
+    - DIET
+    - SCERT
+    CorrectOptionIndex: 2
+    LevelName: district level agencies
+  - QuestionText: 'The main advantage of having a CRC is that it provides:'
+    Options:
+    - A centralized location for all state-level policy making
+    - Localized, context-specific, and accessible support to teachers
+    - A platform for political campaigns
+    - Free meals for teachers
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'A DIET is established in every district by the:'
+    Options:
+    - Central Government alone
+    - State Government
+    - United Nations
+    - Private corporations
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: Which agency is responsible for monitoring the academic progress
+      of schools within a cluster?
+    Options:
+    - DIET
+    - NCTE
+    - NCERT
+    - CRC
+    CorrectOptionIndex: 3
+    LevelName: district level agencies
+  - QuestionText: 'The "I" in DIET stands for:'
+    Options:
+    - International
+    - Institute
+    - Indian
+    - Integrated
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'A teacher wishing to access digital resources for teaching science
+      would most likely be directed to the resource centre at the:'
+    Options:
+    - BRC or DIET
+    - District Court
+    - Local Market
+    - State Capital
+    CorrectOptionIndex: 0
+    LevelName: district level agencies
+  - QuestionText: 'The cascade model of training, implemented through DIETs, BRCs,
+      and CRCs, is often criticized for:'
+    Options:
+    - Being too fast and efficient
+    - Dilution of training quality as it trickles down
+    - Involving too few people
+    - Being too expensive for the government
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: Which district-level institution is most directly involved in the
+      "on-the-job" support of a teacher?
+    Options:
+    - DIET
+    - CRC
+    - District Treasury
+    - State SCERT
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'The primary source of funding for the functioning of DIETs, BRCs,
+      and CRCs is the:'
+    Options:
+    - Central Government (through schemes like Samagra Shiksha)
+    - Local community donations
+    - Student fees
+    - International aid
+    CorrectOptionIndex: 0
+    LevelName: district level agencies
+  - QuestionText: 'A program aimed at training all mathematics teachers in a district
+      on a new pedagogical approach would be organized by the:'
+    Options:
+    - CRC
+    - DIET in coordination with BRCs/CRCs
+    - Individual schools independently
+    - National Testing Agency
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'The institution that maintains records of teacher attendance and
+      leave at the district level is the:'
+    Options:
+    - DIET
+    - District Education Office (DEO)
+    - CRC
+    - BRC
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'The "E" in DIET stands for:'
+    Options:
+    - Economic
+    - Emergency
+    - Environmental
+    - Elementary
+    CorrectOptionIndex: 3
+    LevelName: district level agencies
+  - QuestionText: 'A major function of the BRC is to:'
+    Options:
+    - Award graduate degrees
+    - Act as a bridge between the DIET and the CRCs
+    - Set national educational standards
+    - Manage the state's education budget
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: Which of the following is a correct statement about the relationship
+      between these agencies?
+    Options:
+    - The CRC reports to the BRC, which reports to the DIET.
+    - The DIET reports to the CRC, which reports to the BRC.
+    - The BRC and CRC are independent of each other.
+    - The NCERT directly manages all CRCs.
+    CorrectOptionIndex: 0
+    LevelName: district level agencies
+  - QuestionText: 'For a secondary school teacher, in-service training at the district
+      level might also be provided by a:'
+    Options:
+    - College of Teacher Education (CTE)
+    - Primary Health Centre
+    - Anganwadi worker
+    - Traffic Police department
+    CorrectOptionIndex: 0
+    LevelName: district level agencies
+  - QuestionText: 'The ultimate goal of all these district-level agencies is to:'
+    Options:
+    - Increase the administrative workload of teachers
+    - Improve the quality of classroom transactions and student learning
+    - Create more government jobs
+    - Reduce the number of schools
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'A "Master Trainer" identified by the DIET is responsible for:'
+    Options:
+    - Training other teachers in their area of expertise
+    - Managing the district's sports events
+    - Cooking meals for mid-day meals
+    - Driving the school bus
+    CorrectOptionIndex: 0
+    LevelName: district level agencies
+  - QuestionText: 'The district-level structure for in-service education is a key
+      component of:'
+    Options:
+    - The national defense strategy
+    - India's efforts to achieve Universalization of Elementary Education (UEE)
+    - The foreign policy of India
+    - The industrial development plan
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'A workshop on "Continuous and Comprehensive Evaluation (CCE)"
+      for all teachers in a block would be organized by the:'
+    Options:
+    - BRC
+    - National Commission for Minorities
+    - Supreme Court of India
+    - Reserve Bank of India
+    CorrectOptionIndex: 0
+    LevelName: district level agencies
+  - QuestionText: 'The academic authority that provides the broad framework and guidelines
+      for the training conducted by DIETs is the:'
+    Options:
+    - SCERT
+    - CRC
+    - Local Municipal Corporation
+    - District Police
+    CorrectOptionIndex: 0
+    LevelName: district level agencies
+  - QuestionText: 'A significant challenge for CRC Coordinators is:'
+    Options:
+    - Having too few teachers to support
+    - The large number of schools and diverse needs they have to cater to
+    - The absence of any defined role
+    - Being overpaid for their work
+    CorrectOptionIndex: 1
+    LevelName: district level agencies
+  - QuestionText: 'The "T" in DIET stands for:'
+    Options:
+    - Technology
+    - Terminal
+    - Tertiary
+    - Training
+    CorrectOptionIndex: 3
+    LevelName: district level agencies
+  - QuestionText: 'The effectiveness of the entire district-level support system
+      is most visible in the:'
+    Options:
+    - Number of meetings held
+    - Improved teaching practices and student outcomes in classrooms
+    - Size of the government office buildings
+    - Number of cars owned by officials
+    CorrectOptionIndex: 1
+    LevelName: district level agencies

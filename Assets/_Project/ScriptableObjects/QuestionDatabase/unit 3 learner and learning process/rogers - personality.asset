@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: rogers - personality
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Carl Rogers is a central figure in which school of psychology?
+    Options:
+    - Psychoanalysis
+    - Behaviorism
+    - Humanistic Psychology
+    - Cognitive Psychology
+    CorrectOptionIndex: 2
+    LevelName: rogers - personality
+  - QuestionText: 'According to Carl Rogers, the one central source of energy in
+      the human personality is the:'
+    Options:
+    - Actualizing Tendency
+    - Pleasure Principle
+    - Collective Unconscious
+    - Inferiority Complex
+    CorrectOptionIndex: 0
+    LevelName: rogers - personality
+  - QuestionText: 'Rogers defined the self as:'
+    Options:
+    - A fixed and unchanging entity.
+    - A flexible and fluid concept of who one is.
+    - Solely determined by unconscious archetypes.
+    - A set of conditioned responses.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'In Rogerian theory, the "Ideal Self" refers to:'
+    Options:
+    - The person you were in the past.
+    - The unconscious part of the personality.
+    - The fully functioning person.
+    - "The self-concept you feel you\_ought\_to be or desire to be."
+    CorrectOptionIndex: 3
+    LevelName: rogers - personality
+  - QuestionText: What is the term for the anxiety that arises from experiencing
+      information that is inconsistent with the self-concept?
+    Options:
+    - Conditional Regard
+    - Incongruence
+    - Existential Anxiety
+    - Cognitive Dissonance
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'Rogers'' approach to therapy is most commonly known as:'
+    Options:
+    - Rational Emotive Behavior Therapy
+    - Client-Centered Therapy
+    - Psychoanalytic Therapy
+    - Reality Therapy
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'The three core conditions for therapeutic growth, according to
+      Rogers, are Unconditional Positive Regard, Congruence, and:'
+    Options:
+    - Free Association
+    - Dream Analysis
+    - Active Conditioning
+    - Empathic Understanding
+    CorrectOptionIndex: 3
+    LevelName: rogers - personality
+  - QuestionText: '"Conditions of Worth" are best described as:'
+    Options:
+    - Prerequisites we set for our own happiness.
+    - The standards we must meet to receive positive regard from others.
+    - The innate values all humans share.
+    - The conditions necessary for self-actualization.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'A key characteristic of a "Fully Functioning Person" is being
+      open to:'
+    Options:
+    - Experience
+    - Conditioning
+    - Authority
+    - Criticism
+    CorrectOptionIndex: 0
+    LevelName: rogers - personality
+  - QuestionText: 'Rogers believed that for positive growth to occur, there must
+      be a congruence between the self-concept and:'
+    Options:
+    - The ideal self
+    - The organismic valuing process
+    - The conditions of worth
+    - The collective unconscious
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'A parent who tells a child, "I will love you only if you get top
+      grades," is directly fostering:'
+    Options:
+    - Empathic Understanding
+    - Conditions of Worth
+    - Organismic Valuing
+    - Unconditional Positive Regard
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'A teacher who listens to a student''s frustration without judgment
+      and strives to see the situation from the student''s perspective is demonstrating:'
+    Options:
+    - Congruence
+    - Unconditional Positive Regard
+    - Empathic Understanding
+    - Conditional Regard
+    CorrectOptionIndex: 2
+    LevelName: rogers - personality
+  - QuestionText: 'A student who sees themselves as "bad at math" but gets an ''A''
+      on a test may feel anxiety and dismiss the grade as a "fluke." This is a classic
+      example of:'
+    Options:
+    - Self-Actualization
+    - Incongruence
+    - The Actualizing Tendency
+    - Congruence
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'The "Organismic Valuing Process" can be understood as an internal:'
+    Options:
+    - GPS that guides us toward experiences that promote growth.
+    - List of societal rules we must follow.
+    - Mechanism for repressing traumatic memories.
+    - System for calculating conditions of worth.
+    CorrectOptionIndex: 0
+    LevelName: rogers - personality
+  - QuestionText: 'A therapist who is genuine, transparent, and does not hide behind
+      a professional facade is demonstrating the core condition of:'
+    Options:
+    - Unconditional Positive Regard
+    - Empathic Understanding
+    - Congruence
+    - Positive Psychology
+    CorrectOptionIndex: 2
+    LevelName: rogers - personality
+  - QuestionText: 'According to Rogers, psychological maladjustment occurs when:'
+    Options:
+    - The id, ego, and superego are in conflict.
+    - A person is unable to self-actualize due to external barriers.
+    - Behaviors are not reinforced properly.
+    - There is a significant gap between the real self and the ideal self.
+    CorrectOptionIndex: 3
+    LevelName: rogers - personality
+  - QuestionText: 'In an educational context, a "person-centered" classroom would
+      likely emphasize:'
+    Options:
+    - Strict discipline and standardized testing.
+    - Teacher-directed lectures and rote memorization.
+    - Student choice, self-evaluation, and a facilitative learning environment.
+    - Competitive grading on a curve.
+    CorrectOptionIndex: 2
+    LevelName: rogers - personality
+  - QuestionText: 'The concept of Unconditional Positive Regard implies:'
+    Options:
+    - Approving of all of a person's behaviors.
+    - Prizing the person as having inherent worth, regardless of their behavior.
+    - Setting high standards for a person to achieve.
+    - Providing love only when expectations are met.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'A student who is a "fully functioning" learner would most likely:'
+    Options:
+    - Depend entirely on the teacher for direction.
+    - Avoid challenging tasks to prevent failure.
+    - Take responsibility for their own learning process.
+    - Focus solely on grades as a measure of success.
+    CorrectOptionIndex: 2
+    LevelName: rogers - personality
+  - QuestionText: 'Rogers believed that the drive for self-actualization is:'
+    Options:
+    - Only present in a select few individuals.
+    - A fundamental, innate motivation in all humans.
+    - Developed through operant conditioning.
+    - Primarily driven by sexual and aggressive instincts.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'Critically analyzing Rogers'' theory, a major criticism is that
+      it:'
+    Options:
+    - Is too deterministic and pessimistic.
+    - Ignores the subjective experience of the individual.
+    - Overemphasizes the role of unconscious conflict.
+    - May be overly idealistic and difficult to apply in all cultural contexts that
+      value collectivism over individualism.
+    CorrectOptionIndex: 3
+    LevelName: rogers - personality
+  - QuestionText: 'A teacher who wants to apply Rogerian principles should primarily
+      act as a(n):'
+    Options:
+    - Distributor of knowledge and disciplinarian.
+    - Facilitator of learning and personal growth.
+    - Unconditional reinforcer of all student behaviors.
+    - Strict evaluator of student performance.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'If a student''s "ideal self" is to be a perfect straight-A student,
+      but their "real self" is a B student, Rogers would predict the student may
+      experience:'
+    Options:
+    - High levels of motivation and drive.
+    - A weakened organismic valuing process.
+    - A strong sense of congruence.
+    - Incongruence and psychological distress.
+    CorrectOptionIndex: 3
+    LevelName: rogers - personality
+  - QuestionText: 'Comparing Rogers to Freud, a fundamental difference is that Rogers
+      emphasized:'
+    Options:
+    - The determinism of childhood experiences.
+    - Human consciousness, free will, and the potential for growth.
+    - The importance of dream analysis.
+    - The structure of the id, ego, and superego.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: In a staff meeting, a principal emphasizes that "students must
+      feel safe and valued to take academic risks." This philosophy is most aligned
+      with which Rogerian concept?
+    Options:
+    - Conditions of Worth
+    - Incongruence
+    - The Actualizing Tendency
+    - The Necessary and Sufficient Conditions for therapeutic change applied to education.
+    CorrectOptionIndex: 3
+    LevelName: rogers - personality
+  - QuestionText: 'A student who is naturally curious and explores topics of personal
+      interest, even if they are not part of the curriculum, is following their:'
+    Options:
+    - Conditions of Worth
+    - Organismic Valuing Process
+    - Ideal Self
+    - Locus of Control
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'The concept of "congruence" in a teacher implies that the teacher:'
+    Options:
+    - Always agrees with the students' opinions.
+    - Has no negative feelings towards students.
+    - Provides positive reinforcement constantly.
+    - Is authentic and their actions match their feelings.
+    CorrectOptionIndex: 3
+    LevelName: rogers - personality
+  - QuestionText: 'Rogers'' theory suggests that a person becomes a "fully functioning
+      person" when they:'
+    Options:
+    - Have achieved all their life goals.
+    - Are free from conditions of worth and live in accordance with their organismic
+      valuing process.
+    - Have a fully developed superego.
+    - Can successfully use defense mechanisms.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'A key educational implication of Rogers'' view on "Experiential
+      Learning" is that:'
+    Options:
+    - Learning is most significant when it is self-discovered and relevant to the
+      learner.
+    - Learning only occurs through direct instruction.
+    - Rote memorization is the foundation of all knowledge.
+    - The curriculum should be entirely standardized.
+    CorrectOptionIndex: 0
+    LevelName: rogers - personality
+  - QuestionText: 'The phenomenon where a person internalizes the values of others
+      (like parents or teachers) and then uses them as their own, even if they are
+      not authentic, is the origin of:'
+    Options:
+    - The Ideal Self
+    - Conditions of Worth
+    - Empathic Understanding
+    - The Actualizing Tendency
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'A teacher who says, "I disapprove of your disruptive behavior,
+      but I still value and respect you as a person," is demonstrating:'
+    Options:
+    - Conditional Positive Regard
+    - Congruence
+    - Unconditional Positive Regard
+    - Empathic Understanding
+    CorrectOptionIndex: 2
+    LevelName: rogers - personality
+  - QuestionText: 'From a Rogerian perspective, the primary barrier to a student''s
+      personal and academic growth is:'
+    Options:
+    - A lack of innate intelligence.
+    - The imposition of external conditions of worth.
+    - An underdeveloped id.
+    - A lack of behavioral reinforcement.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'Rogers believed that the "good life" is a process, not a state
+      of being. It is characterized by:'
+    Options:
+    - A continuous movement toward becoming one's true self.
+    - The accumulation of wealth and status.
+    - The absence of all psychological conflict.
+    - Reaching a final state of self-actualization.
+    CorrectOptionIndex: 0
+    LevelName: rogers - personality
+  - QuestionText: 'In a person-centered classroom, assessment would likely focus
+      more on:'
+    Options:
+    - Norm-referenced standardized tests.
+    - Self-evaluation and personal growth.
+    - Comparing students to each other.
+    - Punishing incorrect answers.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: The concept of the "Actualizing Tendency" is most similar to which
+      concept in another theory?
+    Options:
+    - Freud's Libido
+    - Maslow's Self-Actualization
+    - Skinner's Reinforcement
+    - Jung's Archetypes
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: A student who feels incongruence is most likely to employ which
+      of the following to reduce the anxiety?
+    Options:
+    - Subception, a process of perceptual defense that distorts or denies the threatening
+      experience.
+    - Free association.
+    - Projecting their feelings onto the teacher.
+    - Asking for unconditional positive regard.
+    CorrectOptionIndex: 0
+    LevelName: rogers - personality
+  - QuestionText: 'Rogers'' view on human nature is fundamentally:'
+    Options:
+    - Pessimistic and deterministic.
+    - Neutral, like a blank slate.
+    - Optimistic and trusting in the human capacity for positive growth.
+    - Focused on psychopathology.
+    CorrectOptionIndex: 2
+    LevelName: rogers - personality
+  - QuestionText: 'A teacher applying Rogerian principles would view a student''s
+      "misbehavior" primarily as:'
+    Options:
+    - A sign of a character flaw.
+    - A symptom of incongruence or a response to conditions of worth.
+    - A deliberate attempt to undermine authority.
+    - A conditioned response that needs to be extinguished.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'The ultimate goal of Rogerian therapy and education is to help
+      the individual:'
+    Options:
+    - Conform to societal expectations.
+    - Understand their unconscious conflicts.
+    - Develop a powerful superego.
+    - Become a more authentic, self-directed person.
+    CorrectOptionIndex: 3
+    LevelName: rogers - personality
+  - QuestionText: 'A school that abolishes its honor roll system to reduce excessive
+      competition and student anxiety might be indirectly trying to reduce:'
+    Options:
+    - The actualizing tendency.
+    - Conditions of worth.
+    - Empathic understanding.
+    - The organismic valuing process.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'Rogers'' emphasis on the "phenomenal field" means that he prioritized:'
+    Options:
+    - The objective reality of a situation.
+    - Genetic influences on personality.
+    - The therapist's interpretation of events.
+    - The individual's subjective perception of reality.
+    CorrectOptionIndex: 3
+    LevelName: rogers - personality
+  - QuestionText: A student says, "I have to be the best; otherwise, I'm nothing."
+      This statement reflects a large discrepancy between the ______ and the ______.
+    Options:
+    - Real Self / Organismic Self
+    - Ideal Self / Real Self
+    - Self-Concept / Conditions of Worth
+    - Ego / Superego
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'The core conditions for growth (empathy, congruence, UPR) are
+      considered "necessary and sufficient" for personality change. This means Rogers
+      believed that:'
+    Options:
+    - They are helpful but not essential.
+    - They are only effective in a clinical setting.
+    - They must be paired with behavioral techniques.
+    - If these conditions are present, positive change will occur; if they are absent,
+      it will not.
+    CorrectOptionIndex: 3
+    LevelName: rogers - personality
+  - QuestionText: 'In contrast to a behaviorist, Rogers would argue that a student''s
+      motivation comes primarily from:'
+    Options:
+    - External rewards and punishments.
+    - An innate drive to learn and grow.
+    - The desire to avoid punishment.
+    - Conditioned reflexes.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'A teacher who shares their own genuine excitement about a subject
+      and admits when they don''t know an answer is modeling:'
+    Options:
+    - Unconditional Positive Regard
+    - Congruence
+    - Empathic Understanding
+    - Conditional Regard
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'The concept that a person''s self-structure must be flexible to
+      assimilate new experiences is key to avoiding:'
+    Options:
+    - The actualizing tendency.
+    - Positive regard.
+    - Empathic understanding.
+    - Psychological rigidity and defensiveness.
+    CorrectOptionIndex: 3
+    LevelName: rogers - personality
+  - QuestionText: 'Rogers'' theory has been highly influential in the development
+      of:'
+    Options:
+    - Standardized intelligence testing.
+    - Student-centered learning and constructivist education.
+    - Psychoeducational assessments.
+    - Token economy systems in classrooms.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'A person who is "living in the moment" and trusting their own
+      feelings as a guide is exhibiting characteristics of a:'
+    Options:
+    - Person with strong conditions of worth.
+    - Fully functioning person.
+    - Person experiencing incongruence.
+    - Person with a underdeveloped ideal self.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality
+  - QuestionText: 'The educational philosophy that most closely aligns with Rogers''
+      views is:'
+    Options:
+    - Essentialism
+    - Perennialism
+    - Progressivism
+    - Behaviorism
+    CorrectOptionIndex: 2
+    LevelName: rogers - personality
+  - QuestionText: 'Rogers'' lasting contribution to education is the emphasis on:'
+    Options:
+    - The irrelevance of the teacher-student relationship.
+    - The transformative power of a supportive, authentic, and trusting interpersonal
+      climate.
+    - The primacy of curriculum content over process.
+    - Using grades as the primary motivator for learning.
+    CorrectOptionIndex: 1
+    LevelName: rogers - personality

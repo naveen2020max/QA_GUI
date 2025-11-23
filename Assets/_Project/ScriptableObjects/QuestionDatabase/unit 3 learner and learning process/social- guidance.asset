@@ -1,0 +1,468 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: social- guidance
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The primary aim of social guidance is to help individuals:'
+    Options:
+    - Achieve the highest grades in academic subjects.
+    - Develop healthy interpersonal relationships and adjust effectively to their
+      social environment.
+    - Choose a specific career path.
+    - Improve their physical fitness and health.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A teacher organizes a "buddy system" where older students befriend
+      and guide newcomers. This initiative is a direct application of:'
+    Options:
+    - Vocational Guidance
+    - Social Guidance
+    - Health Guidance
+    - Academic Remediation
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: Which of the following is a key principle of effective social guidance?
+    Options:
+    - It should promote competition over cooperation.
+    - It is only necessary for students from disadvantaged backgrounds.
+    - It should enforce strict conformity to a single social standard.
+    - It must respect cultural and individual differences in social norms.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: 'The concept of "social skills" includes abilities such as:'
+    Options:
+    - Solving complex mathematical equations.
+    - Effective communication, active listening, and conflict resolution.
+    - Memorizing historical dates.
+    - Lifting heavy weights.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A student who is new to the school and struggling to make friends
+      would benefit most from:'
+    Options:
+    - Intensive vocational counseling.
+    - Social guidance aimed at fostering inclusion and building interpersonal skills.
+    - A rigorous academic tutoring schedule.
+    - Being left alone to adjust at their own pace.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A "Sociogram" is a tool used in social guidance to:'
+    Options:
+    - Measure academic aptitude.
+    - Test physical endurance.
+    - Analyze the nutritional content of school meals.
+    - Map out the social relationships and dynamics within a group.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: 'Social guidance in schools is particularly crucial during adolescence
+      because this period is marked by:'
+    Options:
+    - A decreased interest in peer relationships.
+    - A strong desire for independence and the formation of a social identity.
+    - The completion of personality development.
+    - Exclusive focus on academic achievement.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: Which of the following activities is most directly associated with
+      fostering social development?
+    Options:
+    - Silent individual study
+    - Cooperative group projects and peer collaboration
+    - Taking a standardized test
+    - Listening to a lecture without interaction
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'The ultimate goal of social guidance is to create individuals
+      who are:'
+    Options:
+    - Socially isolated but academically brilliant.
+    - Indifferent to social norms.
+    - Able to manipulate others for personal gain.
+    - Socially competent, empathetic, and responsible citizens.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: 'A school''s "Anti-Bullying Policy" is a clear example of a structured
+      approach to:'
+    Options:
+    - Vocational planning.
+    - Social guidance and creating a safe social environment.
+    - Physical health education.
+    - Curriculum development.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A student is often involved in conflicts with peers and has difficulty
+      sharing resources. This indicates a need for intervention in the area of:'
+    Options:
+    - Vocational Guidance
+    - Social Guidance (specifically, conflict resolution and sharing)
+    - Advanced Academic Guidance
+    - Artistic Guidance
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'The "Role-Playing" technique in social guidance is primarily used
+      to:'
+    Options:
+    - Practice for a school play.
+    - Diagnose learning disabilities.
+    - Replace actual social interactions.
+    - Allow students to practice and develop social skills in a safe, simulated environment.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: 'Social guidance differs from personal guidance in that it focuses
+      more on:'
+    Options:
+    - An individual's internal emotional state.
+    - The individual's relationships and interactions with others and the community.
+    - Career choices and job preparation.
+    - Study habits and time management.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A teacher uses "Circle Time" to discuss feelings and practice
+      taking turns in conversation. This is an example of:'
+    Options:
+    - Health Guidance
+    - Social Guidance in a group setting
+    - Vocational Exploration
+    - Academic Testing
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'The principle of "Social Acceptance" in guidance emphasizes that
+      every individual:'
+    Options:
+    - Must be popular.
+    - Must change to fit into a group.
+    - Should conform to the majority's opinion.
+    - Has the right to be treated with dignity and respect, regardless of their background.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: 'A school club dedicated to community service (e.g., volunteering
+      at a shelter) is an excellent vehicle for:'
+    Options:
+    - Isolating students from the real world.
+    - Developing social responsibility and empathy through social guidance.
+    - Improving technical computer skills.
+    - Focusing solely on academic research.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'In the context of social guidance, "empathy" is defined as the
+      ability to:'
+    Options:
+    - Feel sorry for someone.
+    - Understand and share the feelings of another person.
+    - Win an argument.
+    - Ignore the problems of others.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A student who is a cultural minority in the classroom may face
+      unique social challenges. Effective social guidance in this context involves:'
+    Options:
+    - Forcing assimilation into the majority culture.
+    - Separating the student from others.
+    - Ignoring cultural differences to ensure fairness.
+    - Promoting cultural awareness, inclusion, and celebrating diversity.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: 'The "Group Dynamic" approach in social guidance focuses on:'
+    Options:
+    - Individual psychotherapy.
+    - Understanding and improving the interactions and processes within a group.
+    - Isolating individuals from group influence.
+    - Teaching history of social movements.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'Social guidance is considered a lifelong process because:'
+    Options:
+    - People never learn to socialize.
+    - Social environments and expectations change throughout life, requiring continuous
+      adjustment.
+    - It is only taught in school.
+    - It is a fixed set of skills learned in childhood.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A teacher observes that a few students are consistently left out
+      of group formations during recess. To address this social exclusion proactively,
+      the teacher should:'
+    Options:
+    - Let the students resolve it on their own.
+    - Ignore the situation, as it is a natural part of social hierarchy.
+    - Punish the popular students.
+    - Implement structured group activities with assigned roles that ensure inclusion
+      for all.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: 'Evaluating two approaches to a conflict between students: Teacher
+      A imposes a solution. Teacher B acts as a mediator, guiding the students to
+      express their feelings and reach a mutual agreement. Teacher B''s approach
+      is more aligned with social guidance because it:'
+    Options:
+    - Is quicker and less messy.
+    - Empowers students with lifelong conflict resolution skills.
+    - Establishes the teacher's authority more firmly.
+    - Requires less teacher involvement in the long run.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'In an increasingly digital world, social guidance must now encompass
+      "digital citizenship," which includes teaching students about:'
+    Options:
+    - Advanced coding languages.
+    - Online etiquette, cyberbullying prevention, and responsible use of social media.
+    - How to build a personal computer.
+    - The history of the internet.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A student with a physical disability uses a wheelchair and is
+      unable to access certain areas of the playground, leading to social isolation.
+      This situation highlights that effective social guidance must also address:'
+    Options:
+    - Vocational aspirations.
+    - The student's personality flaws.
+    - The student's academic performance.
+    - Environmental barriers and advocate for inclusive infrastructure.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: 'A counselor uses a "Sociodrama" where students act out a scenario
+      of peer pressure. This technique is particularly effective for social guidance
+      because it:'
+    Options:
+    - Helps students memorize social rules.
+    - Allows students to explore different perspectives and practice responses in
+      a low-risk setting.
+    - Is a form of entertainment.
+    - Replaces the need for actual social interaction.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'The concept of "peer mediation" as part of a school''s social
+      guidance program is valuable because it:'
+    Options:
+    - Reduces the workload for teachers.
+    - Leverages student influence to resolve conflicts and builds leadership skills
+      in the mediators.
+    - Allows teachers to avoid dealing with student conflicts.
+    - Is only effective for minor issues.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A school aims to reduce incidents of racial teasing. A comprehensive
+      social guidance approach would include:'
+    Options:
+    - Punishing every incident severely without discussion.
+    - Grouping students by race to avoid conflict.
+    - Avoiding discussions about race altogether.
+    - Integrating multicultural education and empathy-building activities into the
+      curriculum.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: 'According to Vygotsky''s theory, social interaction is:'
+    Options:
+    - A hindrance to cognitive development.
+    - Fundamental to the process of cognitive development.
+    - Unrelated to learning.
+    - Only important in adulthood.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A student who is a "first-generation learner" might need specific
+      social guidance support to:'
+    Options:
+    - Improve their genetic intellectual capacity.
+    - Navigate the hidden social rules and cultural capital of the school environment.
+    - Learn basic manners.
+    - Overcome physical disabilities.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'The "Eclectic Approach" in social guidance means the counselor:'
+    Options:
+    - Uses only one theoretical model.
+    - Ignores individual differences.
+    - Focuses exclusively on electrical impulses in the brain.
+    - Selects techniques from various theories (e.g., behavioral, humanistic, cognitive)
+      to suit the social skill deficit.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: 'A teacher notices a student using negative language to describe
+      a peer''s cultural practices. The teacher''s most constructive response, aligned
+      with social guidance, is to:'
+    Options:
+    - Ignore it to avoid controversy.
+    - Use it as a teachable moment to discuss cultural respect and the impact of
+      words.
+    - Laugh along with the comment.
+    - Immediately send the student to the principal's office.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A school''s social guidance program that includes lessons on "active
+      listening" and "I-statements" is primarily focused on improving:'
+    Options:
+    - Athletic performance.
+    - Interpersonal communication skills.
+    - Mathematical reasoning.
+    - Artistic ability.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'The principle of "Modeling" in social guidance suggests that students
+      often learn social behaviors by:'
+    Options:
+    - Reading books in isolation.
+    - Genetic inheritance alone.
+    - Taking multiple-choice tests.
+    - Observing and imitating significant adults and peers.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: 'A "guidance-minded" teacher creating a classroom environment that
+      fosters social development would:'
+    Options:
+    - Encourage intense individual competition.
+    - Establish clear expectations for respectful behavior and create opportunities
+      for collaboration.
+    - Allow students to sort out social hierarchies without intervention.
+    - Focus solely on academic drills.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'In the context of social guidance, "social perception" refers
+      to the ability to:'
+    Options:
+    - Perceive one's own internal states.
+    - Accurately interpret social cues, body language, and the emotions of others.
+    - Memorize social studies facts.
+    - See long distances.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A student who has recently immigrated and has limited proficiency
+      in the school''s primary language is likely to experience social isolation.
+      The school''s social guidance program can best support this student by:'
+    Options:
+    - Placing them in a separate classroom.
+    - Ignoring the language barrier.
+    - Telling them to try harder to fit in.
+    - Implementing a buddy system and providing visual supports and language assistance.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: 'The ultimate aim of social guidance in a democratic society is
+      to prepare students to be:'
+    Options:
+    - Passive and obedient citizens.
+    - Active, participatory, and responsible members of their community.
+    - Socially elite individuals.
+    - Apathetic towards social issues.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A school''s failure to provide effective social guidance can contribute
+      to:'
+    Options:
+    - An increase in social conflicts, bullying, and a negative school climate.
+    - Higher scores in science and math.
+    - A more quiet and disciplined student body.
+    - A reduction in the need for school rules.
+    CorrectOptionIndex: 0
+    LevelName: social- guidance
+  - QuestionText: 'The "Case Conference" technique, where teachers, counselors, and
+      parents discuss a student''s social difficulties, aligns with the guidance
+      principle of:'
+    Options:
+    - Isolation
+    - Cooperation
+    - Confidentiality Breach
+    - Paternalism
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A counselor helps a student who feels socially anxious by gradually
+      exposing them to small group interactions. This technique is based on principles
+      of:'
+    Options:
+    - Psychoanalysis
+    - Behavioral Therapy (systematic desensitization)
+    - Career Theory
+    - Existential Therapy
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A student is part of a peer group that engages in minor vandalism.
+      The social guidance counselor''s role is to help the student:'
+    Options:
+    - Join a different group immediately without reflection.
+    - Hide their involvement from authorities.
+    - Become the leader of the vandalism group.
+    - Understand the consequences of their actions and develop the courage to resist
+      negative peer pressure.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: 'The concept of "Social Intelligence" as an outcome of social guidance
+      involves:'
+    Options:
+    - High academic IQ.
+    - The ability to navigate complex social environments and build effective relationships.
+    - Knowledge of all world cultures.
+    - The ability to win arguments.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A teacher uses literature featuring characters from diverse backgrounds
+      facing social dilemmas. This is a method of integrating social guidance by:'
+    Options:
+    - Sticking to the standard canon.
+    - Promoting empathy and discussion about social issues.
+    - Focusing only on grammar and vocabulary.
+    - Avoiding controversial topics.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'In the context of inclusive education, social guidance for a student
+      with autism spectrum disorder might specifically focus on:'
+    Options:
+    - Forcing them to behave "normally."
+    - Focusing solely on their academic strengths.
+    - Isolating them to reduce sensory overload.
+    - Teaching explicit social scripts and helping peers understand their communication
+      style.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: A school-wide program that celebrates various cultural festivals
+      throughout the year is an example of social guidance at the ________ level.
+    Options:
+    - Curative
+    - Organizational and cultural
+    - Individual therapeutic
+    - Vocational
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'The "Follow-up Service" in social guidance is important to:'
+    Options:
+    - Spy on students' social lives.
+    - Monitor a student's social progress after an intervention.
+    - Provide financial support.
+    - Replace parental involvement.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'A student confides in a counselor about being pressured to send
+      inappropriate photos. The counselor''s immediate priority is to:'
+    Options:
+    - Promise absolute confidentiality.
+    - Contact the parents without the student's knowledge.
+    - Tell the student it's a normal part of dating.
+    - Ensure the student's safety and provide guidance on how to handle the situation
+      and report it if necessary.
+    CorrectOptionIndex: 3
+    LevelName: social- guidance
+  - QuestionText: 'A guidance program that focuses on teaching students about human
+      rights and children''s rights is contributing to their:'
+    Options:
+    - Vocational awareness.
+    - Social and civic awareness.
+    - Physical health.
+    - Artistic expression.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance
+  - QuestionText: 'The principle of "Universality" in guidance, applied to social
+      guidance, means that:'
+    Options:
+    - Only some students need social skills training.
+    - All students can benefit from opportunities to enhance their social competence.
+    - Social rules are the same in every culture.
+    - Guidance is a universal language.
+    CorrectOptionIndex: 1
+    LevelName: social- guidance

@@ -1,0 +1,461 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: factores - social competence
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'Social competence is best defined as the ability to:'
+    Options:
+    - Dominate social interactions
+    - Achieve personal goals in social interactions while maintaining positive relationships
+    - Please everyone in a social group
+    - Avoid all social conflicts
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: Which of the following is a key component of social competence?
+    Options:
+    - Physical strength
+    - Academic achievement
+    - Social problem-solving skills
+    - Musical ability
+    CorrectOptionIndex: 2
+    LevelName: factores - social competence
+  - QuestionText: 'The ability to understand another person''s perspective, thoughts,
+      and feelings is called:'
+    Options:
+    - Egocentrism
+    - Emotional intelligence
+    - Theory of mind
+    - Social dominance
+    CorrectOptionIndex: 2
+    LevelName: factores - social competence
+  - QuestionText: Which parenting style is most consistently associated with the
+      development of social competence in children?
+    Options:
+    - Authoritarian
+    - Permissive
+    - Authoritative
+    - Neglectful
+    CorrectOptionIndex: 2
+    LevelName: factores - social competence
+  - QuestionText: 'The aspect of social competence that involves initiating and maintaining
+      conversations is known as:'
+    Options:
+    - Social initiation
+    - Conflict resolution
+    - Emotional regulation
+    - Peer acceptance
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: Which factor represents a COGNITIVE component of social competence?
+    Options:
+    - Physical attractiveness
+    - Interpreting social cues accurately
+    - Family income level
+    - Height and weight
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: 'The ability to recognize and understand one''s own emotions is
+      a key aspect of:'
+    Options:
+    - Social dominance
+    - Emotional intelligence
+    - Physical competence
+    - Academic intelligence
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: Which of the following is an ENVIRONMENTAL factor affecting social
+      competence?
+    Options:
+    - Temperament
+    - Family socioeconomic status
+    - Theory of mind
+    - Emotional regulation ability
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: 'Peer acceptance is considered an important factor in social competence
+      because it provides:'
+    Options:
+    - Opportunities for social skill practice
+    - Guaranteed academic success
+    - Protection from all negative experiences
+    - Automatic leadership positions
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'The ability to control one''s emotional responses in social situations
+      is called:'
+    Options:
+    - Emotional expression
+    - Emotional regulation
+    - Emotional contagion
+    - Emotional intelligence
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: 'A child who can successfully join a group of peers at play demonstrates
+      competence in:'
+    Options:
+    - Social initiation
+    - Conflict avoidance
+    - Solitary play
+    - Academic skills
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: Which situation best illustrates the role of "theory of mind" in
+      social competence?
+    Options:
+    - A child sharing toys to make another child happy
+    - A child memorizing multiplication tables
+    - A child running faster than peers
+    - A child eating lunch quickly
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'Authoritative parenting promotes social competence because it
+      typically provides:'
+    Options:
+    - Strict rules without explanation
+    - Warmth with appropriate structure and expectations
+    - Complete freedom without boundaries
+    - Inconsistent discipline
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: 'A child who misinterprets accidental bumps as intentional pushing
+      is demonstrating difficulty with:'
+    Options:
+    - Social cue interpretation
+    - Physical coordination
+    - Academic learning
+    - Musical ability
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: Which factor most directly affects a child's opportunities to develop
+      social competence?
+    Options:
+    - Number of siblings
+    - Peer interaction opportunities
+    - Eye color
+    - Shoe size
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: 'Emotional regulation contributes to social competence by enabling
+      individuals to:'
+    Options:
+    - Suppress all emotions
+    - Respond appropriately in social situations
+    - Avoid all social interactions
+    - Control others' emotions
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: 'Children from higher socioeconomic backgrounds often show better
+      social competence partly because they typically have:'
+    Options:
+    - More access to social enrichment activities
+    - Less parental supervision
+    - Fewer peer interactions
+    - More strict punishment
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'A child who responds to peer conflict with compromise rather than
+      aggression demonstrates good:'
+    Options:
+    - Social problem-solving skills
+    - Academic ability
+    - Physical strength
+    - Musical talent
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'Cultural factors influence social competence by affecting:'
+    Options:
+    - Genetic inheritance
+    - Expected social behaviors and values
+    - Physical growth patterns
+    - Academic curriculum
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: 'The ability to take turns in conversation demonstrates competence
+      in:'
+    Options:
+    - Social conventions
+    - Academic testing
+    - Physical sports
+    - Musical rhythm
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: Critically analyzing social competence development, which factor
+      appears most foundational?
+    Options:
+    - Early attachment relationships
+    - Elementary school curriculum
+    - Adolescent peer groups
+    - College education
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'A child with strong emotional regulation skills but poor social
+      cue interpretation would likely experience:'
+    Options:
+    - Success in all social situations
+    - Difficulty understanding social contexts despite emotional control
+    - Complete social isolation
+    - Automatic leadership positions
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: Which educational approach would best support social competence
+      development?
+    Options:
+    - Exclusive focus on individual academic achievement
+    - Cooperative learning and social skills training
+    - Competitive grading systems only
+    - Eliminating all group activities
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: 'A child from a culture that values collectivism might demonstrate
+      social competence through:'
+    Options:
+    - Extreme individualism
+    - Avoiding all group activities
+    - Dominating all conversations
+    - Group harmony and cooperation
+    CorrectOptionIndex: 3
+    LevelName: factores - social competence
+  - QuestionText: 'The relationship between language development and social competence
+      can be described as:'
+    Options:
+    - Completely unrelated
+    - Mutually reinforcing - each supports the other
+    - Language development hinders social competence
+    - Social competence prevents language development
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: 'A teacher notices that a student''s social competence improves
+      after participation in group projects. This demonstrates the importance of:'
+    Options:
+    - Individual work only
+    - Focusing only on academic content
+    - Eliminating all social activities
+    - Structured social interaction opportunities
+    CorrectOptionIndex: 3
+    LevelName: factores - social competence
+  - QuestionText: 'Children with difficult temperaments can develop strong social
+      competence when parents provide:'
+    Options:
+    - Consistent, responsive caregiving
+    - Complete freedom without guidance
+    - Harsh, punitive discipline
+    - Emotional neglect
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: Which factor explains why identical twins raised in the same family
+      may develop different social competence levels?
+    Options:
+    - Genetic differences
+    - Unique experiences and peer relationships
+    - Different physical appearances
+    - Variable intelligence levels
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: A school implementing an anti-bullying program that teaches empathy
+      skills is addressing which factor affecting social competence?
+    Options:
+    - Emotional understanding
+    - Physical strength
+    - Academic achievement
+    - Family income
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'The "digital native" generation faces unique challenges in social
+      competence development due to:'
+    Options:
+    - Reduced face-to-face interaction practice
+    - Increased academic pressure
+    - Decreased intelligence levels
+    - Improved physical health
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'A child who moves frequently and changes schools may experience
+      challenges in social competence development due to:'
+    Options:
+    - Overdeveloped social skills
+    - Too much academic enrichment
+    - Excessive social opportunities
+    - Disrupted peer relationship continuity
+    CorrectOptionIndex: 3
+    LevelName: factores - social competence
+  - QuestionText: 'Research shows that children with strong sibling relationships
+      often demonstrate better social competence because siblings provide:'
+    Options:
+    - Practice with conflict resolution and social negotiation
+    - Guaranteed friendship
+    - Academic tutoring
+    - Financial support
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'A child who understands social hierarchy in peer groups demonstrates
+      advanced:'
+    Options:
+    - Social understanding
+    - Mathematical ability
+    - Physical coordination
+    - Musical skill
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: Which intervention would be most effective for a child struggling
+      with social cue interpretation?
+    Options:
+    - Complete social isolation
+    - Additional mathematics homework
+    - Physical exercise only
+    - Social stories and explicit teaching of social signals
+    CorrectOptionIndex: 3
+    LevelName: factores - social competence
+  - QuestionText: 'Children from bilingual families often show enhanced social competence
+      due to developed skills in:'
+    Options:
+    - Cognitive flexibility and perspective-taking
+    - Mathematical calculation
+    - Physical coordination
+    - Musical rhythm
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'A teacher who creates classroom rules through student discussion
+      is promoting social competence by developing:'
+    Options:
+    - Understanding of social systems and cooperation
+    - Blind obedience
+    - Individual competition
+    - Social withdrawal
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'The relationship between academic achievement and social competence
+      is best described as:'
+    Options:
+    - Completely independent
+    - Bidirectional - each influences the other
+    - Social competence hinders academic success
+    - Academic success prevents social development
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: 'A child with high social competence but low academic achievement
+      might succeed in careers requiring:'
+    Options:
+    - Strong interpersonal skills
+    - Isolated laboratory work
+    - Minimal human contact
+    - Individual research only
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'Cultural capital (familiarity with dominant cultural norms) affects
+      social competence by influencing:'
+    Options:
+    - Access to social opportunities and acceptance
+    - Genetic inheritance
+    - Physical health
+    - Musical ability
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'A child who adapts their communication style when speaking to
+      younger children demonstrates:'
+    Options:
+    - Musical talent
+    - Academic superiority
+    - Physical dominance
+    - Social perspective-taking
+    CorrectOptionIndex: 3
+    LevelName: factores - social competence
+  - QuestionText: 'Children experiencing chronic poverty may face social competence
+      challenges due to:'
+    Options:
+    - Stress and limited social opportunities
+    - Excessive social enrichment
+    - Too much peer interaction
+    - Overdeveloped social skills
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'A school that integrates students with diverse abilities in inclusive
+      classrooms promotes social competence through:'
+    Options:
+    - Exposure to different perspectives and abilities
+    - Segregation by ability level
+    - Elimination of social interaction
+    - Focus on academic competition only
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'The development of social competence across the lifespan suggests
+      that:'
+    Options:
+    - It's fixed in early childhood
+    - It can be developed and refined throughout life
+    - It peaks in adolescence
+    - It disappears in adulthood
+    CorrectOptionIndex: 1
+    LevelName: factores - social competence
+  - QuestionText: 'A child who successfully navigates different social expectations
+      at home, school, and with peers demonstrates:'
+    Options:
+    - Social cognitive flexibility
+    - Academic intelligence only
+    - Physical adaptability
+    - Musical versatility
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'Children with strong teacher relationships often show better social
+      competence because teachers provide:'
+    Options:
+    - Social coaching and emotional support
+    - Only academic instruction
+    - Complete personal freedom
+    - Financial resources
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'The impact of neighborhood quality on social competence operates
+      through:'
+    Options:
+    - Number of cars owned
+    - Housing architecture
+    - Proximity to shopping malls
+    - Availability of safe play spaces and positive peer models
+    CorrectOptionIndex: 3
+    LevelName: factores - social competence
+  - QuestionText: 'A child who uses humor appropriately to diffuse social tension
+      demonstrates advanced:'
+    Options:
+    - Social problem-solving skills
+    - Academic knowledge
+    - Physical coordination
+    - Musical timing
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'Children who experience secure attachment in infancy typically
+      show better social competence because they develop:'
+    Options:
+    - Basic trust and relationship templates
+    - Complete social independence
+    - Avoidance of all relationships
+    - Dependency on single relationships
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence
+  - QuestionText: 'The most effective approach to enhancing social competence in
+      schools involves:'
+    Options:
+    - Focusing exclusively on academics
+    - Isolated social skills lessons only
+    - Eliminating all social activities
+    - Comprehensive programs addressing multiple factors
+    CorrectOptionIndex: 3
+    LevelName: factores - social competence
+  - QuestionText: 'Current research suggests that social competence in the 21st century
+      requires additional skills in:'
+    Options:
+    - Digital communication and online social navigation
+    - Agricultural techniques
+    - Industrial manufacturing
+    - Pre-digital communication only
+    CorrectOptionIndex: 0
+    LevelName: factores - social competence

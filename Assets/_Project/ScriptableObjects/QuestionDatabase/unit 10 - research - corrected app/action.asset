@@ -1,0 +1,487 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: action
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary goal of action research?
+    Options:
+    - To develop universal theories
+    - To solve an immediate problem within a specific local context
+    - To contribute to fundamental knowledge
+    - To replicate previous studies
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: 'Action research is primarily conducted by:'
+    Options:
+    - University researchers in labs
+    - Professional full-time researchers
+    - Practitioners (like teachers) in their own setting
+    - Government agencies
+    CorrectOptionIndex: 2
+    LevelName: action
+  - QuestionText: 'The main driving force behind initiating an action research project
+      is:'
+    Options:
+    - A gap in the theoretical literature
+    - The personal curiosity of an academic
+    - A funding agency's directive
+    - A specific, practical problem encountered in professional practice
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: 'Kurt Lewin is widely credited with:'
+    Options:
+    - Coining the term "Basic Research"
+    - Developing the concept and methodology of Action Research
+    - Inventing the scientific method
+    - Pioneering laboratory experiments
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: 'The typical design of action research is best described as:'
+    Options:
+    - A rigid, pre-determined experiment
+    - A double-blind controlled trial
+    - A single, one-time survey
+    - A flexible, cyclical process of planning, acting, observing, and reflecting
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: 'The primary audience for the findings of action research is:'
+    Options:
+    - The global academic community
+    - The researcher-practitioner and their immediate community of practice
+    - The general public
+    - Policy makers at the national level
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: 'Action research is best classified as a type of:'
+    Options:
+    - Quantitative research
+    - Qualitative research
+    - Mixed-methods research
+    - It can be any of the above, depending on the problem.
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: 'The "action" in action research refers to:'
+    Options:
+    - A literature review
+    - The implementation of a planned intervention or strategy
+    - Data analysis
+    - Writing the final report
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: 'A key characteristic of action research is that it aims to:'
+    Options:
+    - Generalize findings to a large population
+    - Test a pre-existing hypothesis from theory
+    - Empower practitioners and bring about change
+    - Be completely objective and value-free
+    CorrectOptionIndex: 2
+    LevelName: action
+  - QuestionText: 'The validity of action research is primarily judged by:'
+    Options:
+    - Statistical significance
+    - Its ability to bring about desired improvement in the context studied
+    - The number of citations it receives
+    - Its contribution to abstract theory
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: Which of these is a key step in the action research cycle?
+    Options:
+    - Reflection
+    - Laboratory analysis
+    - Peer review for publication
+    - National implementation
+    CorrectOptionIndex: 0
+    LevelName: action
+  - QuestionText: 'Action research is most commonly used in the field of:'
+    Options:
+    - Astrophysics
+    - Education
+    - Particle Physics
+    - Ancient History
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: 'In action research, the role of the practitioner is that of a(n):'
+    Options:
+    - External observer
+    - Subject of the study
+    - Active participant and researcher
+    - Disinterested analyst
+    CorrectOptionIndex: 2
+    LevelName: action
+  - QuestionText: 'The scope of findings in action research is typically:'
+    Options:
+    - Highly generalizable
+    - Limited to the specific context in which it was conducted
+    - Universal
+    - Irrelevant
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: Which word is LEAST associated with action research?
+    Options:
+    - Empowerment
+    - Collaboration
+    - Reflection
+    - Generalizability
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: How does action research primarily differ from traditional basic
+      research?
+    Options:
+    - In its use of qualitative data
+    - 'In its purpose: solving local problems vs. building general knowledge'
+    - In its requirement for a hypothesis
+    - In its duration
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: 'The "reflection" phase in the action research cycle is crucial
+      because it:'
+    Options:
+    - Is the final step of the research
+    - Ensures the findings can be generalized
+    - Replaces the need for data collection
+    - Allows the researcher to interpret data and plan the next steps
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: 'If a teacher tries a new grouping strategy to improve student
+      collaboration, observes the outcomes, and then refines the strategy, she is
+      engaging in:'
+    Options:
+    - Applied Research
+    - Basic Research
+    - Action Research
+    - Historical Research
+    CorrectOptionIndex: 2
+    LevelName: action
+  - QuestionText: Why is collaboration often emphasized in action research?
+    Options:
+    - To meet funding requirements
+    - Because it is easier than working alone
+    - To speed up the publication process
+    - To ensure multiple perspectives are considered in problem-solving and to empower
+      participants
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: 'The statement "Action research is a democratic process" implies
+      that:'
+    Options:
+    - It always involves voting.
+    - It involves stakeholders in the research process, valuing their input and empowering
+      them.
+    - It is only used in political science.
+    - Its findings determine public policy.
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: 'A school principal works with teachers to identify causes of low
+      attendance and then implements a new parental outreach program. This is action
+      research because:'
+    Options:
+    - It is conducted in a school.
+    - It uses complex statistics.
+    - It is funded by the government.
+    - It is a systematic, self-reflective inquiry by practitioners to improve their
+      own practice.
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: Which scenario best illustrates the "planning" stage of action
+      research?
+    Options:
+    - A teacher analyzes test scores.
+    - A teacher identifies a problem with student engagement and designs a new interactive
+      activity to address it.
+    - A principal mandates a new school rule.
+    - A researcher publishes a paper.
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: 'The relationship between action research and professional development
+      is that action research:'
+    Options:
+    - Is unrelated to professional development.
+    - Is only for novice teachers.
+    - Replaces the need for formal training.
+    - Is a powerful form of professional development that fosters reflective practice.
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: 'A potential limitation of action research is that its findings:'
+    Options:
+    - Are always subjective.
+    - May not be applicable to other contexts due to their specific, localized nature.
+    - Are too theoretical.
+    - Are always universally true.
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: 'In the action research spiral, the "observing" stage primarily
+      involves:'
+    Options:
+    - Ignoring the results
+    - Implementing the plan
+    - Systematically collecting data to see the effects of the action
+    - Writing the final report
+    CorrectOptionIndex: 2
+    LevelName: action
+  - QuestionText: 'If an action research project leads to a successful change in
+      a classroom, the next logical step for the teacher-researcher is often to:'
+    Options:
+    - Stop all research.
+    - Patent the process.
+    - Assume the solution will work forever.
+    - Share the findings with colleagues and/or begin a new cycle on a different
+      problem.
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: 'Action research is considered "emancipatory" when it:'
+    Options:
+    - Frees the researcher from paperwork.
+    - Aims not only to solve a problem but also to empower participants and challenge
+      unjust structures.
+    - Uses only electronic data.
+    - Is published in open-access journals.
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: How does the role of literature review in action research typically
+      differ from its role in basic research?
+    Options:
+    - It is not done in action research.
+    - It is used to identify a theoretical gap to fill.
+    - It is used to understand the problem better and learn from others' attempts,
+      not to build new theory.
+    - It is more extensive.
+    CorrectOptionIndex: 2
+    LevelName: action
+  - QuestionText: 'The credibility of action research is strengthened by:'
+    Options:
+    - The use of complex jargon
+    - Triangulation of data sources (using multiple methods to check consistency)
+    - Isolating the research from participants
+    - Keeping the findings secret
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: 'The phrase "practitioner as researcher" means:'
+    Options:
+    - Practitioners are the subjects of academic studies.
+    - Practitioners passively receive research findings from academics.
+    - Practitioners actively investigate and improve their own professional practice.
+    - Practitioners are unqualified to conduct research.
+    CorrectOptionIndex: 2
+    LevelName: action
+  - QuestionText: A physics teacher notices students consistently perform poorly
+      on problems involving circuit diagrams. She implements a new hands-on modeling
+      technique, collects performance data for 4 weeks, and finds modest improvement.
+      What is the most appropriate next step?
+    Options:
+    - Declare the research complete and publish the results.
+    - Abandon the new technique as a failure.
+    - Mandate the technique for all science classes.
+    - Reflect on the data, consider modifying the technique, and begin a second,
+      refined cycle of research.
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: "Criticism:\_\"Action research lacks scientific rigor due to its
+      subjective nature and the researcher's personal involvement.\"\_Counter-argument:"
+    Options:
+    - All research is subjective.
+    - Its rigor comes from its systematic, cyclical approach, use of multiple data
+      sources (triangulation), and its focus on democratic validity and practical
+      impact.
+    - It doesn't need to be rigorous.
+    - Only quantitative research is rigorous.
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: A school district wants to improve its science curriculum. Contrast
+      an action research approach with a traditional applied research approach.
+    Options:
+    - 'AR: Hire external experts to design and test a new curriculum. Applied: Have
+      teachers study curriculum theory.'
+    - 'AR: Have teachers study student data and propose changes. Applied: Implement
+      a pre-designed, nationally validated curriculum.'
+    - 'AR: Have teacher teams identify local challenges, design interventions, test
+      them in their classrooms, and refine them. Applied: Hire researchers to conduct
+      a controlled study to test the efficacy of a specific, pre-defined curriculum.'
+    - There is no difference.
+    CorrectOptionIndex: 2
+    LevelName: action
+  - QuestionText: 'In an action research project aimed at reducing science anxiety
+      among girls, the researcher (the teacher) should be most concerned with:'
+    Options:
+    - Ensuring the findings are statistically significant for publication.
+    - Maintaining a completely objective and detached stance.
+    - Hiding the research process from the students.
+    - How her own beliefs and actions might influence the process and ensuring the
+      girls' voices are heard.
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: 'An action research study in one school shows that a peer-tutoring
+      program dramatically improved physics scores. The principal of another school
+      wants to implement it. The most reasoned conclusion is:'
+    Options:
+    - The program will definitely work in the new school.
+    - The program should be rejected because action research findings are not generalizable.
+    - The program holds promise, but it should be adapted and tested through a new
+      action research cycle in the new context.
+    - The program is useless.
+    CorrectOptionIndex: 2
+    LevelName: action
+  - QuestionText: "Which proposal for a research project in\_Physical Science Education\_is
+      most aligned with the spirit of action research?"
+    Options:
+    - '"A meta-analysis of global studies on inquiry-based learning."'
+    - '"A longitudinal study of the impact of socioeconomic status on science achievement."'
+    - '"A theoretical paper on constructivism."'
+    - '"A collaborative inquiry by the 9th-grade science team to develop and test
+      lab-based formative assessments to improve student conceptual understanding."'
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: 'The concept of "living theory" in action research refers to:'
+    Options:
+    - A theory that is still alive in textbooks.
+    - Theories that are generated from and embodied within the practice of the researcher.
+    - Theories about biology.
+    - Theories that have been proven false.
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: 'If an action research project fails to solve the identified problem,
+      it should be considered:'
+    Options:
+    - A waste of time and resources.
+    - Proof that the practitioner is a bad researcher.
+    - A valuable learning experience that provides insights for the next cycle of
+      inquiry.
+    - An reason to revert to traditional top-down solutions.
+    CorrectOptionIndex: 2
+    LevelName: action
+  - QuestionText: 'A key ethical imperative in action research that is less prominent
+      in traditional research is:'
+    Options:
+    - Gaining informed consent.
+    - Ensuring the research process itself benefits the participants and does not
+      just extract data from them.
+    - Using anonymous surveys.
+    - Having a university ethics board approval.
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: 'The ultimate aim of emancipatory action research in education
+      is to:'
+    Options:
+    - Improve standardized test scores.
+    - Publish research papers.
+    - Make the teacher's job easier.
+    - Transform educational practices and structures to make them more equitable
+      and just for all learners.
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: A teacher's action research shows that using digital simulations
+      improves learning for high-achieving students but widens the gap for low-achievers.
+      This dilemma best illustrates which key aspect of the action research process?
+    Options:
+    - The need for immediate, full-scale implementation.
+    - The inevitability of research failure.
+    - The complex, ethical nature of reflection, where a solution for one group may
+      create a problem for another.
+    - The superiority of traditional teaching methods.
+    CorrectOptionIndex: 2
+    LevelName: action
+  - QuestionText: "Statement 1:\_Action research prioritizes practical relevance
+      over methodological purity.    Statement 2:\_This makes it inherently less
+      valid than controlled experimental research."
+    Options:
+    - Both statements are true, and Statement 2 is a correct interpretation of Statement
+      1.
+    - Both statements are true, but Statement 2 is NOT a correct interpretation of
+      Statement 1.
+    - Statement 1 is false, but Statement 2 is true.
+    - Statement 1 is true, but Statement 2 is false.
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: 'In a collaborative action research project, a university researcher
+      acts as a "critical friend" to a group of teachers, not the lead investigator.
+      This role is primarily intended to:'
+    Options:
+    - Take credit for the teachers' work.
+    - Provide external validation and challenge assumptions, thereby strengthening
+      the rigor of the teachers' inquiry.
+    - Collect data for the university's own research.
+    - Tell the teachers what the correct solution is.
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: "If an action research project successfully solves a classroom
+      management issue, but the teacher-researcher cannot articulate\_why\_the solution
+      worked, the research can be considered:"
+    Options:
+    - A practical success but an incomplete action research cycle, as reflection
+      should lead to a deeper understanding of the underlying principles.
+    - A total failure because no report was written.
+    - The ideal outcome, as only the action matters.
+    - Proof that theory is unimportant.
+    CorrectOptionIndex: 0
+    LevelName: action
+  - QuestionText: Contrast the primary "product" of traditional basic research with
+      the primary "product" of a robust action research project.
+    Options:
+    - 'Basic: A published paper. AR: A published paper.'
+    - 'Basic: A new curriculum. AR: A statistical model.'
+    - 'Basic: A new theory or contribution to general knowledge. AR: An improved
+      situation and a more empowered, reflective practitioner.'
+    - 'Basic: A new product. AR: A government policy.'
+    CorrectOptionIndex: 2
+    LevelName: action
+  - QuestionText: A school mandates that all teachers conduct action research, tying
+      it to their performance review. This mandate most directly threatens which
+      core principle of authentic action research?
+    Options:
+    - The use of quantitative data.
+    - Its voluntary, participatory, and empowering nature.
+    - The need for a literature review.
+    - The cycle of planning and acting.
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: 'An action research study finds that a new formative assessment
+      strategy improves student motivation. To claim this finding has "dialogic validity,"
+      the researcher must demonstrate that:'
+    Options:
+    - The p-value was less than 0.05.
+    - The researcher felt confident about it.
+    - A single expert approved it.
+    - The findings have been subjected to critical discussion and seem plausible
+      to a community of peers and stakeholders.
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: 'The "double loop learning" facilitated by action research refers
+      to:'
+    Options:
+    - Using two data collection methods.
+    - Not only achieving a goal (single loop) but also questioning and refining the
+      underlying values and assumptions behind the goal (double loop).
+    - Conducting two cycles of research.
+    - Comparing two groups of students.
+    CorrectOptionIndex: 1
+    LevelName: action
+  - QuestionText: 'A teacher uses action research to successfully integrate indigenous
+      knowledge of astronomy into the physics curriculum. This work is best described
+      as:'
+    Options:
+    - Applied research, as it uses existing knowledge.
+    - Basic research into indigenous practices.
+    - A violation of the official curriculum.
+    - Emancipatory action research, as it can challenge the dominance of Western
+      science and validate local knowledge systems.
+    CorrectOptionIndex: 3
+    LevelName: action
+  - QuestionText: 'Evaluating the long-term success of an action research project
+      should primarily focus on:'
+    Options:
+    - Whether the initial intervention is still used exactly as designed.
+    - Whether the culture of reflective practice and capacity for self-improvement
+      has been sustained within the community.
+    - The number of publications it produced.
+    - The one-time boost in test scores.
+    CorrectOptionIndex: 1
+    LevelName: action

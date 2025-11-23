@@ -502,8 +502,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timePerQuestion: 30
-  maxQuestions: 10
-  _textLoader: {fileID: 11400000, guid: 9bc685183459f40428193a24baa9d732, type: 2}
+  maxQuestions: 3
+  _textLoader: {fileID: 11400000, guid: 548dc7f334486874eb8ccd17709052fc, type: 2}
+  _sessionData: {fileID: 11400000, guid: b4dcd6ca214a55d498296951a7520ea0, type: 2}
 --- !u!1 &2037372846
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,15 +514,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2037372849}
-  - component: {fileID: 2037372848}
   - component: {fileID: 2037372847}
+  - component: {fileID: 2037372850}
   m_Layer: 0
   m_Name: UI_LevelCompleteManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2037372847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -541,23 +542,6 @@ MonoBehaviour:
   m_WorldSpaceSizeMode: 1
   m_WorldSpaceWidth: 1920
   m_WorldSpaceHeight: 1080
---- !u!114 &2037372848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2037372846}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48fab7e2fae98b143b9f4a11f5aceba1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  passThresholdPercentage: 0.7
-  nextLevelSceneName: NextLevelScene
-  mainMenuSceneName: MainMenuScene
-  problemMaster: {fileID: 0}
-  levelCompleteStyleSheet: {fileID: 7433441132597879392, guid: 799baccb458bb384796debe83d777ff6, type: 3}
 --- !u!4 &2037372849
 Transform:
   m_ObjectHideFlags: 0
@@ -573,6 +557,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2037372850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037372846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a48402b19ba9a4ea32cd97ad3224cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passThresholdPercentage: 0.7
+  nextLevelSceneName: NextLevelScene
+  mainMenuSceneName: MainMenu
+  problemMaster: {fileID: 1308985894}
+  levelCompleteStyleSheet: {fileID: 7433441132597879392, guid: 799baccb458bb384796debe83d777ff6, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

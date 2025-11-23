@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: variable
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is a variable in research?
+    Options:
+    - A constant value
+    - A concept or characteristic that can take on different values
+    - The conclusion of a study
+    - A type of hypothesis
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: 'The variable that is manipulated or controlled by the researcher
+      is called the:'
+    Options:
+    - Dependent variable
+    - Extraneous variable
+    - Independent variable
+    - Confounding variable
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: 'The variable that is observed and measured for changes is the:'
+    Options:
+    - Independent variable
+    - Dependent variable
+    - Control variable
+    - Continuous variable
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: 'A variable that is not the primary focus but can affect the outcome
+      of an experiment is a(n):'
+    Options:
+    - Independent variable
+    - Dependent variable
+    - Extraneous variable
+    - Discrete variable
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: 'Variables that can take on any value within a range are called:'
+    Options:
+    - Discrete variables
+    - Categorical variables
+    - Confounding variables
+    - Continuous variables
+    CorrectOptionIndex: 3
+    LevelName: variable
+  - QuestionText: 'Variables that represent distinct categories are called:'
+    Options:
+    - Continuous variables
+    - Discrete variables
+    - Dependent variables
+    - Intervening variables
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: 'A variable that connects the independent and dependent variables
+      is a(n):'
+    Options:
+    - Extraneous variable
+    - Confounding variable
+    - Intervening variable
+    - Control variable
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: 'The process of defining a variable in measurable terms is called:'
+    Options:
+    - Hypothesis
+    - Operationalization
+    - Validation
+    - Randomization
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: 'A variable that is kept constant to prevent its effects on the
+      outcome is a:'
+    Options:
+    - Confounding variable
+    - Independent variable
+    - Dependent variable
+    - Control variable
+    CorrectOptionIndex: 3
+    LevelName: variable
+  - QuestionText: 'A variable that varies along a continuum and has a true zero point
+      is a(n):'
+    Options:
+    - Interval variable
+    - Ordinal variable
+    - Ratio variable
+    - Nominal variable
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: 'A variable that is used to categorize data without a specific
+      order is a(n):'
+    Options:
+    - Ordinal variable
+    - Interval variable
+    - Ratio variable
+    - Nominal variable
+    CorrectOptionIndex: 3
+    LevelName: variable
+  - QuestionText: 'A variable that allows for ranking but not precise measurement
+      of differences is a(n):'
+    Options:
+    - Nominal variable
+    - Ordinal variable
+    - Interval variable
+    - Ratio variable
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: 'A variable that has ordered categories with meaningful intervals
+      but no true zero is a(n):'
+    Options:
+    - Nominal variable
+    - Ordinal variable
+    - Interval variable
+    - Ratio variable
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: Which of the following is an example of a continuous variable?
+    Options:
+    - Number of students in a class
+    - Type of teaching method
+    - Gender of participants
+    - Height of students
+    CorrectOptionIndex: 3
+    LevelName: variable
+  - QuestionText: Which of the following is an example of a discrete variable?
+    Options:
+    - Time taken to solve a problem
+    - Temperature in a room
+    - Score on a multiple-choice test
+    - Weight of individuals
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: How does the independent variable differ from the dependent variable?
+    Options:
+    - The IV is the effect, the DV is the cause.
+    - The IV is manipulated, the DV is measured.
+    - The IV is measured, the DV is manipulated.
+    - There is no difference.
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: Why is operationalization crucial for variables?
+    Options:
+    - It makes the research more theoretical.
+    - It ensures variables are defined vaguely.
+    - It allows for clear measurement and replication of the study.
+    - It eliminates the need for a hypothesis.
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: In the hypothesis "Students who use interactive simulations (IV)
+      will show higher test scores (DV) than those who use textbooks," what is the
+      DV?
+    Options:
+    - Use of interactive simulations
+    - Type of instructional material
+    - The students
+    - Test scores
+    CorrectOptionIndex: 3
+    LevelName: variable
+  - QuestionText: What is the primary purpose of identifying control variables?
+    Options:
+    - To make the experiment more complex.
+    - To isolate the effect of the independent variable on the dependent variable.
+    - To ensure the dependent variable changes.
+    - To manipulate the outcome.
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: How can a confounding variable affect research results?
+    Options:
+    - It can make the study more valid.
+    - It can provide a clear explanation for the results.
+    - It can create a false association or mask a real one between the IV and DV.
+    - It has no effect on the results.
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: 'The variable "academic motivation" in the relationship between
+      teaching method (IV) and academic achievement (DV) is likely a(n):'
+    Options:
+    - Confounding variable
+    - Control variable
+    - Dependent variable
+    - Intervening variable
+    CorrectOptionIndex: 3
+    LevelName: variable
+  - QuestionText: Why is a ratio scale considered the highest level of measurement?
+    Options:
+    - It has the most categories.
+    - It allows for ranking only.
+    - It has a true zero point and equal intervals, allowing for statements about
+      proportions.
+    - It is the easiest to measure.
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: The variable "socioeconomic status" (Low, Middle, High) is typically
+      measured on what scale?
+    Options:
+    - Nominal
+    - Ordinal
+    - Interval
+    - Ratio
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: What is the key difference between an extraneous variable and a
+      confounding variable?
+    Options:
+    - There is no difference.
+    - An extraneous variable is always controlled, while a confounding variable is
+      not.
+    - An extraneous variable is any unwanted variable, while a confounding variable
+      is one that systematically varies with the IV.
+    - A confounding variable is always measured, while an extraneous variable is
+      not.
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: 'In an experiment, random assignment is used primarily to control
+      for:'
+    Options:
+    - The dependent variable
+    - The independent variable
+    - The hypothesis
+    - Extraneous variables
+    CorrectOptionIndex: 3
+    LevelName: variable
+  - QuestionText: 'A researcher studies the effect of fertilizer amount (IV) on plant
+      growth (DV). The amount of water given to all plants is a:'
+    Options:
+    - Confounding variable
+    - Independent variable
+    - Control variable
+    - Intervening variable
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: The variable "time" is typically what type of variable?
+    Options:
+    - Nominal
+    - Ordinal
+    - Interval
+    - Ratio
+    CorrectOptionIndex: 3
+    LevelName: variable
+  - QuestionText: Which of the following is an example of a nominal variable?
+    Options:
+    - Level of agreement (Strongly Agree to Strongly Disagree)
+    - Temperature in Fahrenheit
+    - Type of rock (Igneous, Sedimentary, Metamorphic)
+    - Number of children in a family
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: 'The concept of "construct validity" is most concerned with:'
+    Options:
+    - Whether the study can be repeated.
+    - Whether the operational definition accurately captures the theoretical variable.
+    - The statistical significance of the results.
+    - The ethics of the research.
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: 'A variable that can take only two values is called a:'
+    Options:
+    - Continuous variable
+    - Confounding variable
+    - Polytomous variable
+    - Dichotomous variable
+    CorrectOptionIndex: 3
+    LevelName: variable
+  - QuestionText: 'In a study on the effect of sleep (IV) on memory recall (DV),
+      the time of day the test is administered starts to affect scores. This "time
+      of day" is now a:'
+    Options:
+    - Control variable
+    - Independent variable
+    - Confounding variable
+    - Intervening variable
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: "Assertion (A):\_All confounding variables are extraneous variables.\_Reason
+      (R):\_But not all extraneous variables become confounding variables."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: variable
+  - QuestionText: 'A researcher hypothesizes that a new teaching method (IV) improves
+      learning (DV) by increasing student engagement. Here, ''student engagement''
+      is a:'
+    Options:
+    - Confounding Variable
+    - Control Variable
+    - Intervening Variable
+    - Dependent Variable
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: 'In a correlation study examining the relationship between time
+      spent studying and exam scores, both variables are:'
+    Options:
+    - Independent variables
+    - Dependent variables
+    - Confounding variables
+    - Neither independent nor dependent
+    CorrectOptionIndex: 3
+    LevelName: variable
+  - QuestionText: Which of the following is the BEST operational definition for "anxiety"?
+    Options:
+    - A feeling of worry
+    - A score on the Hamilton Anxiety Rating Scale
+    - A nervous disorder
+    - A fast heartbeat
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: 'A study finds that ice cream sales and drowning incidents are
+      correlated. The weather is a:'
+    Options:
+    - Independent variable
+    - Dependent variable
+    - Confounding variable
+    - Intervening variable
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: The variable "political affiliation" (Democrat, Republican, Independent)
+      is measured on a(n) ______ scale, but if we add "Strength of Affiliation" (Strong,
+      Weak), it becomes a(n) ______ scale.
+    Options:
+    - Ordinal, Nominal
+    - Nominal, Ordinal
+    - Interval, Ratio
+    - Ratio, Interval
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: 'The distinction between discrete and continuous variables is important
+      primarily for:'
+    Options:
+    - Choosing a research topic.
+    - Determining the research hypothesis.
+    - Writing the literature review.
+    - Selecting appropriate statistical analyses.
+    CorrectOptionIndex: 3
+    LevelName: variable
+  - QuestionText: If a researcher does not control a key extraneous variable, the
+      study's ______ validity is threatened.
+    Options:
+    - Internal
+    - External
+    - Construct
+    - Statistical
+    CorrectOptionIndex: 0
+    LevelName: variable
+  - QuestionText: 'A variable that is manipulated at two levels (e.g., "low dose"
+      and "high dose") is said to have:'
+    Options:
+    - Two dependent variables
+    - Two constructs
+    - Two conditions or levels
+    - Two hypotheses
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: 'The variable "intelligence" as measured by an IQ test is considered
+      a(n):'
+    Options:
+    - Observable variable
+    - Intervening construct
+    - Independent variable
+    - Confounding variable
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: In a double-blind experiment, who is unaware of the levels of the
+      independent variable?
+    Options:
+    - Only the participants
+    - Only the researcher
+    - Both the participants and the researchers
+    - The statistician
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: 'A mediating variable is another term for a(n):'
+    Options:
+    - Independent variable
+    - Confounding variable
+    - Control variable
+    - Intervening variable
+    CorrectOptionIndex: 3
+    LevelName: variable
+  - QuestionText: 'A moderating variable is one that:'
+    Options:
+    - Is the main focus of the study
+    - Affects the strength or direction of the relationship between the IV and DV
+    - Is always kept constant
+    - Is the same as the dependent variable
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: Which of the following is a quantitative variable?
+    Options:
+    - Favorite color
+    - Brand of smartphone
+    - Annual income
+    - Type of degree
+    CorrectOptionIndex: 2
+    LevelName: variable
+  - QuestionText: 'The reliability of a measurement tool refers to its:'
+    Options:
+    - Accuracy in measuring the intended construct
+    - Consistency or stability of measurement
+    - Appropriateness for the research question
+    - Cost-effectiveness
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: 'A variable that is composed of multiple indicators or items is
+      called a:'
+    Options:
+    - Simple variable
+    - Controlled variable
+    - Confounding variable
+    - Composite variable
+    CorrectOptionIndex: 3
+    LevelName: variable
+  - QuestionText: 'The process of converting a continuous variable into a categorical
+      one is called:'
+    Options:
+    - Operationalization
+    - Dichotomization
+    - Validation
+    - Randomization
+    CorrectOptionIndex: 1
+    LevelName: variable
+  - QuestionText: 'In a research study, the variables that are measured but not manipulated
+      are often called:'
+    Options:
+    - Predictor variables
+    - Outcome variables
+    - Active variables
+    - Attribute variables
+    CorrectOptionIndex: 3
+    LevelName: variable
+  - QuestionText: 'The most critical reason for clearly defining variables at the
+      start of a study is to:'
+    Options:
+    - Ensure the study is long enough.
+    - Provide a clear framework for measurement, analysis, and replication, thus
+      ensuring the study's rigor.
+    - Impress the review committee.
+    - Make the data analysis easier.
+    CorrectOptionIndex: 1
+    LevelName: variable

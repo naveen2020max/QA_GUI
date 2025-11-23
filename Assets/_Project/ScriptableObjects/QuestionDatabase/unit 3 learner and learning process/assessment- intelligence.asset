@@ -1,0 +1,460 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: assessment- intelligence
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: "The first successful intelligence test was developed by Alfred
+      Binet and Th\xE9odore Simon in what year?"
+    Options:
+    - 1890
+    - 1905
+    - 1916
+    - 1927
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'The Intelligence Quotient (IQ) was originally calculated using
+      the formula:'
+    Options:
+    - (Chronological Age / Mental Age) x 100
+    - (Mental Age / Chronological Age) x 100
+    - (Mental Age x Chronological Age) / 100
+    - (Mental Age - Chronological Age) + 100
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: Which of the following is a widely used individual test of intelligence
+      for adults?
+    Options:
+    - Stanford-Binet Intelligence Scales
+    - Woodcock-Johnson Tests of Cognitive Abilities
+    - Raven's Progressive Matrices
+    - Wechsler Adult Intelligence Scale (WAIS)
+    CorrectOptionIndex: 3
+    LevelName: assessment- intelligence
+  - QuestionText: 'The concept of "Mental Age" was a key contribution of:'
+    Options:
+    - David Wechsler
+    - Lewis Terman
+    - Alfred Binet
+    - Charles Spearman
+    CorrectOptionIndex: 2
+    LevelName: assessment- intelligence
+  - QuestionText: 'A test that requires minimal use of language from the test-taker
+      is known as a:'
+    Options:
+    - Performance test
+    - Verbal test
+    - Achievement test
+    - Aptitude test
+    CorrectOptionIndex: 0
+    LevelName: assessment- intelligence
+  - QuestionText: 'The Stanford-Binet Intelligence Scales were an American adaptation
+      of the Binet-Simon scale by:'
+    Options:
+    - Robert Yerkes
+    - Lewis Terman
+    - Henry Goddard
+    - Francis Galton
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: Which test is considered a classic example of a non-verbal, culture-reduced
+      intelligence test?
+    Options:
+    - Thematic Apperception Test (TAT)
+    - Minnesota Multiphasic Personality Inventory (MMPI)
+    - Raven's Progressive Matrices
+    - Wechsler Intelligence Scale for Children (WISC)
+    CorrectOptionIndex: 2
+    LevelName: assessment- intelligence
+  - QuestionText: 'The deviation IQ used in modern tests like the WAIS compares an
+      individual''s score to:'
+    Options:
+    - Their own previous test scores
+    - The average performance of their age group
+    - The performance of a group of geniuses
+    - A fixed mental age standard
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: Who pioneered the use of factor analysis in the study of intelligence
+      and proposed the 'g' factor?
+    Options:
+    - Louis Thurstone
+    - Raymond Cattell
+    - Charles Spearman
+    - John B. Carroll
+    CorrectOptionIndex: 2
+    LevelName: assessment- intelligence
+  - QuestionText: 'The Wechsler Preschool and Primary Scale of Intelligence (WPPSI)
+      is designed for children aged:'
+    Options:
+    - 6-16 years
+    - 2.5-7 years
+    - 0-3 years
+    - 12-18 years
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'The primary purpose of establishing norms for an intelligence
+      test is to:'
+    Options:
+    - Ensure all test-takers get the same score
+    - Provide a basis for comparing an individual's performance to a representative
+      sample
+    - Make the test easier for everyone
+    - Eliminate the need for trained administrators
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'If a test yields consistent results upon retaking, it is said
+      to have high:'
+    Options:
+    - Validity
+    - Objectivity
+    - Standardization
+    - Reliability
+    CorrectOptionIndex: 3
+    LevelName: assessment- intelligence
+  - QuestionText: 'A key difference between the Binet and Wechsler tests is that
+      Wechsler:'
+    Options:
+    - Used the Mental Age concept exclusively
+    - Provided separate verbal and performance scores
+    - Did not calculate an overall IQ score
+    - Was designed only for children
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'The concept of "fluid intelligence" is best measured by tests
+      that require:'
+    Options:
+    - Recalling historical facts and vocabulary
+    - Solving novel problems and recognizing patterns
+    - Reading comprehension and writing skills
+    - Social understanding and empathy
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'A test that measures what it claims to measure is said to have:'
+    Options:
+    - Reliability
+    - Norms
+    - Standardization
+    - Validity
+    CorrectOptionIndex: 3
+    LevelName: assessment- intelligence
+  - QuestionText: 'The Flynn effect refers to the observation that:'
+    Options:
+    - IQ scores are decreasing over time
+    - IQ scores are increasing over time
+    - Emotional intelligence is more important than IQ
+    - Intelligence is fixed and unchangeable
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'A major advantage of individual intelligence tests over group
+      tests is that they:'
+    Options:
+    - Are cheaper and easier to administer
+    - Allow for observation of test-taking behavior
+    - Can be given to large groups simultaneously
+    - Require less training to administer
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'Crystallized intelligence is primarily assessed through measures
+      of:'
+    Options:
+    - Abstract reasoning
+    - Processing speed
+    - Spatial visualization
+    - Acquired knowledge and vocabulary
+    CorrectOptionIndex: 3
+    LevelName: assessment- intelligence
+  - QuestionText: 'The term "standardization" in intelligence testing refers to:'
+    Options:
+    - The consistency of scoring across different raters
+    - The process of establishing norms and administering the test under uniform
+      conditions
+    - Ensuring the test is fair for all cultural groups
+    - The stability of test scores over time
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'A child who performs at the level of an average 8-year-old on
+      an intelligence test has a mental age of:'
+    Options:
+    - 8 years
+    - 10 years
+    - 6 years
+    - It depends on the child's chronological age
+    CorrectOptionIndex: 0
+    LevelName: assessment- intelligence
+  - QuestionText: 'A critic of traditional intelligence testing argues that they
+      are culturally biased because they:'
+    Options:
+    - Require familiarity with the dominant culture's language and concepts
+    - Are too long and complicated
+    - Measure only mathematical ability
+    - Are administered by computers
+    CorrectOptionIndex: 0
+    LevelName: assessment- intelligence
+  - QuestionText: 'If a student''s scores on the verbal and performance scales of
+      the WISC differ significantly, the most appropriate interpretation is that:'
+    Options:
+    - The test is invalid and should be discarded
+    - The student has cheating on one part of the test
+    - There may be a significant disparity between verbal and non-verbal abilities
+    - All intelligence tests are useless
+    CorrectOptionIndex: 2
+    LevelName: assessment- intelligence
+  - QuestionText: 'The concept of "dynamic assessment" differs from traditional intelligence
+      testing by focusing on:'
+    Options:
+    - The individual's learning potential and modifiability
+    - Comparison with age-based norms
+    - Innate, fixed abilities
+    - Past academic achievement
+    CorrectOptionIndex: 0
+    LevelName: assessment- intelligence
+  - QuestionText: 'A school psychologist chooses a test with high predictive validity
+      for academic success. This means the test:'
+    Options:
+    - Measures a wide range of cognitive abilities
+    - Can accurately forecast future school performance
+    - Is fun and engaging for students
+    - Has been standardized on a large population
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'The WISC (Wechsler Intelligence Scale for Children) is preferred
+      over group tests for identifying learning disabilities because it:'
+    Options:
+    - Is quicker to administer
+    - Provides a more comprehensive profile of strengths and weaknesses
+    - Is less expensive
+    - Can be given by classroom teachers
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'A test that claims to measure "innate intelligence" but actually
+      measures acquired knowledge lacks:'
+    Options:
+    - Reliability
+    - Construct validity
+    - Standardization
+    - Norms
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'The ethical principle of "informed consent" in intelligence testing
+      requires that:'
+    Options:
+    - Parents or participants understand the purpose and potential uses of the test
+    - Tests must be given to everyone in a school
+    - Results must always be shared with the public
+    - Only psychologists can develop intelligence tests
+    CorrectOptionIndex: 0
+    LevelName: assessment- intelligence
+  - QuestionText: 'A fundamental difference between achievement tests and intelligence
+      tests is that achievement tests measure:'
+    Options:
+    - General cognitive ability
+    - What has been learned from specific instruction
+    - Creative potential
+    - Emotional stability
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'The concept of "stereotype threat" can negatively impact test
+      performance by:'
+    Options:
+    - Making the test questions too easy
+    - Causing anxiety related to negative stereotypes about one's group
+    - Providing unfair advantage to certain groups
+    - Eliminating time limits on tests
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'A psychologist interpreting an IQ score of 115 would most accurately
+      describe this individual as:'
+    Options:
+    - Intellectually disabled
+    - Below average
+    - Within the average range
+    - Within the high average range
+    CorrectOptionIndex: 3
+    LevelName: assessment- intelligence
+  - QuestionText: 'The factor structure of the Wechsler tests supports the view that
+      intelligence is:'
+    Options:
+    - A single, unitary ability
+    - Composed of multiple related abilities
+    - Entirely determined by environment
+    - Impossible to measure
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'A major limitation of non-verbal intelligence tests is that they:'
+    Options:
+    - Still require cultural familiarity with test-taking situations
+    - Are better predictors of academic success than verbal tests
+    - Eliminate all cultural bias
+    - Are easier to score than verbal tests
+    CorrectOptionIndex: 0
+    LevelName: assessment- intelligence
+  - QuestionText: 'The concept of "multiple intelligences" (Gardner) challenges traditional
+      intelligence testing by suggesting that:'
+    Options:
+    - IQ tests measure all important forms of intelligence
+    - Intelligence is too broad to be captured by standardized tests alone
+    - Mathematical ability is the only true intelligence
+    - Testing should be eliminated from schools
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'When comparing scores from different intelligence tests, it is
+      important to consider that:'
+    Options:
+    - All IQ tests measure exactly the same abilities
+    - Different tests may have different theoretical foundations and measure different
+      skills
+    - The oldest test is always the most accurate
+    - Computer-administered tests are always better
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'A child from a disadvantaged background scores low on a traditional
+      IQ test but shows remarkable problem-solving skills in real-life situations.
+      This discrepancy challenges the test''s:'
+    Options:
+    - Reliability
+    - Ecological validity
+    - Standardization
+    - Scoring efficiency
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'The "g" factor in intelligence testing refers to:'
+    Options:
+    - General intelligence underlying all cognitive tasks
+    - Group-specific intelligence
+    - Genetic determination of intelligence
+    - Growth potential in learning
+    CorrectOptionIndex: 0
+    LevelName: assessment- intelligence
+  - QuestionText: 'A test that consistently underestimates the intelligence of rural
+      children likely has problems with:'
+    Options:
+    - Reliability
+    - Cultural fairness
+    - Administrative cost
+    - Time limits
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'The practice of "testing the limits" in intelligence assessment
+      involves:'
+    Options:
+    - Strictly adhering to standardized procedures
+    - Giving hints or extra time to see if performance improves
+    - Using only the most difficult test items
+    - Comparing scores across different age groups
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'A significant difference between the Stanford-Binet and Wechsler
+      tests is that the Stanford-Binet:'
+    Options:
+    - Does not provide an overall IQ score
+    - Uses a cognitive factors approach rather than verbal/performance scales
+    - Is only for adults
+    - Was developed more recently
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'The term "standard error of measurement" is important in IQ testing
+      because it:'
+    Options:
+    - Indicates the exactness of the IQ score
+    - Measures the administrator's competence
+    - Determines the cultural fairness of the test
+    - Calculates the test's cost-effectiveness
+    CorrectOptionIndex: 0
+    LevelName: assessment- intelligence
+  - QuestionText: 'A psychologist using the "response to intervention" (RTI) model
+      for identifying learning disabilities emphasizes:'
+    Options:
+    - A single IQ test score
+    - How the student responds to evidence-based instruction
+    - Teacher recommendations only
+    - Genetic testing
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'The Kaufman Assessment Battery for Children (K-ABC) is notable
+      for its foundation in:'
+    Options:
+    - Psychoanalytic theory
+    - Humanistic psychology
+    - Strict behavioral theory
+    - Cognitive processing and neuropsychological theory
+    CorrectOptionIndex: 3
+    LevelName: assessment- intelligence
+  - QuestionText: 'When assessing individuals with disabilities, the most important
+      consideration is:'
+    Options:
+    - Using the same standardized procedures for everyone
+    - Selecting appropriate tests and making necessary accommodations
+    - Avoiding intelligence testing altogether
+    - Focusing only on their strengths
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'The "zone of proximal development" concept suggests that intelligence
+      assessment should focus on:'
+    Options:
+    - What the child can do independently
+    - The difference between actual and potential development
+    - Genetic potential only
+    - Past achievements
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'A test that shows good "concurrent validity" for intelligence
+      would:'
+    Options:
+    - Predict future academic success
+    - Be free of cultural bias
+    - Measure multiple intelligences
+    - Correlate well with other established intelligence tests
+    CorrectOptionIndex: 3
+    LevelName: assessment- intelligence
+  - QuestionText: 'The change from ratio IQ to deviation IQ was necessary because:'
+    Options:
+    - Mental age becomes meaningless in adulthood
+    - Children's intelligence stops developing after age 16
+    - Ratio IQs were too difficult to calculate
+    - Deviation IQs are less accurate
+    CorrectOptionIndex: 0
+    LevelName: assessment- intelligence
+  - QuestionText: 'In neuropsychological assessment, intelligence testing helps to:'
+    Options:
+    - Diagnose specific neurological disorders
+    - Provide a baseline of cognitive functioning
+    - Replace medical tests like MRI
+    - Measure only memory abilities
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'The "Flynn effect" has important implications for IQ test developers
+      because it requires:'
+    Options:
+    - Periodic restandardization of tests
+    - Eliminating verbal subtests
+    - Using only non-verbal tests
+    - Lowering the definition of average IQ
+    CorrectOptionIndex: 0
+    LevelName: assessment- intelligence
+  - QuestionText: 'A fundamental ethical concern in intelligence testing is that
+      results may be used to:'
+    Options:
+    - Help individuals understand their strengths and weaknesses
+    - Label and limit educational opportunities
+    - Develop better teaching methods
+    - Plan appropriate interventions
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence
+  - QuestionText: 'The most current approach to intelligence assessment emphasizes:'
+    Options:
+    - Using a single score to describe cognitive ability
+    - Understanding an individual's unique pattern of cognitive strengths and weaknesses
+    - Focusing exclusively on academic skills
+    - Eliminating all standardized testing
+    CorrectOptionIndex: 1
+    LevelName: assessment- intelligence

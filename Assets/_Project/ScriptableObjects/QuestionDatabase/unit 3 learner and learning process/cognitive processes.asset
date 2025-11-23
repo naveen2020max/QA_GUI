@@ -1,0 +1,480 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: cognitive processes
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The primary focus of cognitive psychology in education is:'
+    Options:
+    - The study of observable behavior and its consequences.
+    - The study of mental processes such as thinking, memory, and problem-solving.
+    - The analysis of unconscious motives and drives.
+    - The examination of group dynamics and social influences.
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'The process of transforming sensory input into a form that can
+      be stored in memory is known as:'
+    Options:
+    - Retrieval
+    - Encoding
+    - Chunking
+    - Rehearsal
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'According to Piaget, the cognitive stage where a child can think
+      logically about concrete events is the:'
+    Options:
+    - Sensorimotor Stage
+    - Preoperational Stage
+    - Concrete Operational Stage
+    - Formal Operational Stage
+    CorrectOptionIndex: 2
+    LevelName: cognitive processes
+  - QuestionText: '''Metacognition'' can be best defined as:'
+    Options:
+    - The ability to read very quickly.
+    - The process of thinking about one's own thinking and learning processes.
+    - The capacity to memorize large amounts of data.
+    - The skill of arguing a point effectively.
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'In Bloom''s Revised Taxonomy, the level that involves justifying
+      a stand or decision is:'
+    Options:
+    - Remembering
+    - Understanding
+    - Analyzing
+    - Evaluating
+    CorrectOptionIndex: 3
+    LevelName: cognitive processes
+  - QuestionText: 'The concept of ''Zone of Proximal Development'' (ZPD) was proposed
+      by:'
+    Options:
+    - Jean Piaget
+    - Lev Vygotsky
+    - John Dewey
+    - Benjamin Bloom
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'A mental shortcut or rule-of-thumb that simplifies decision-making
+      is called a(n):'
+    Options:
+    - Algorithm
+    - Heuristic
+    - Prototype
+    - Schema
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'The component of the information processing model that holds information
+      for a very brief duration (less than a second) is:'
+    Options:
+    - Long-term Memory
+    - Working Memory
+    - Sensory Register
+    - Central Executive
+    CorrectOptionIndex: 2
+    LevelName: cognitive processes
+  - QuestionText: 'The inability to see a problem from a new perspective, often due
+      to past experience, is known as:'
+    Options:
+    - Functional Fixedness
+    - Confirmation Bias
+    - Mental Set
+    - Availability Heuristic
+    CorrectOptionIndex: 2
+    LevelName: cognitive processes
+  - QuestionText: 'The highest level of Gagne''s hierarchy of learning, which involves
+      developing new perspectives and creating novel outcomes, is:'
+    Options:
+    - Signal Learning
+    - Problem-Solving
+    - Cognitive Strategies
+    - Verbal Information
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: A teacher uses a Venn diagram to help students compare and contrast
+      two historical revolutions. This activity primarily targets which cognitive
+      level of Bloom's taxonomy?
+    Options:
+    - Applying
+    - Analyzing
+    - Creating
+    - Evaluating
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'If a student is trying to memorize a formula by repeating it over
+      and over again, they are primarily using:'
+    Options:
+    - Elaborative Rehearsal
+    - Metacognitive Monitoring
+    - Maintenance Rehearsal
+    - Chunking
+    CorrectOptionIndex: 2
+    LevelName: cognitive processes
+  - QuestionText: A child who understands that the amount of clay remains the same
+      even when its shape changes has mastered the concept of conservation. This
+      is a hallmark of which Piagetian stage?
+    Options:
+    - Preoperational
+    - Sensorimotor
+    - Formal Operational
+    - Concrete Operational
+    CorrectOptionIndex: 3
+    LevelName: cognitive processes
+  - QuestionText: 'Vygotsky''s concept of scaffolding is best demonstrated when a
+      teacher:'
+    Options:
+    - Gives students a final exam.
+    - Provides temporary support through hints and prompts until the student can
+      do the task alone.
+    - Lets students learn entirely through self-discovery.
+    - Groups students homogeneously by ability.
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'A student who always approaches math problems in the same way,
+      even when a simpler method exists, is likely experiencing:'
+    Options:
+    - A mental set
+    - Confirmation bias
+    - The framing effect
+    - Insight learning
+    CorrectOptionIndex: 0
+    LevelName: cognitive processes
+  - QuestionText: 'The difference between "divergent" and "convergent" thinking is
+      that divergent thinking:'
+    Options:
+    - Finds the single correct solution to a problem.
+    - Generates multiple creative ideas or solutions.
+    - Is based on logical and analytical processes.
+    - Is only used in scientific experiments.
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'According to the Information Processing Model, the component responsible
+      for overseeing the flow of information throughout the memory system is the:'
+    Options:
+    - Sensory Register
+    - Phonological Loop
+    - Central Executive
+    - Episodic Buffer
+    CorrectOptionIndex: 2
+    LevelName: cognitive processes
+  - QuestionText: 'A student who can successfully complete a science experiment only
+      when the teacher breaks it down into steps is working within their:'
+    Options:
+    - Actual Development Level
+    - Zone of Proximal Development
+    - Formal Operational Stage
+    - Field of Independent Learning
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'When a student connects new information about the Civil War to
+      their existing knowledge about historical conflicts, they are using:'
+    Options:
+    - Maintenance Rehearsal
+    - Elaborative Rehearsal
+    - Selective Attention
+    - Source Amnesia
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'In Gagne''s theory, learning "concepts" is a prerequisite for
+      learning:'
+    Options:
+    - Signal Learning
+    - Verbal Information
+    - Rules
+    - Problem-Solving
+    CorrectOptionIndex: 2
+    LevelName: cognitive processes
+  - QuestionText: A history teacher wants students to not just recall facts about
+      the Magna Carta but to evaluate its long-term impact on modern democracies.
+      This objective aligns most closely with which level of Bloom's Taxonomy?
+    Options:
+    - Understanding
+    - Applying
+    - Analyzing
+    - Evaluating
+    CorrectOptionIndex: 3
+    LevelName: cognitive processes
+  - QuestionText: 'Critically analyze: "A teacher strictly adhering to Piaget''s
+      stages would not introduce abstract algebra until high school." This practice
+      is justified because Piaget''s Formal Operational Stage, where abstract reasoning
+      emerges, typically begins around:'
+    Options:
+    - Early childhood (2-6 years)
+    - Middle childhood (7-11 years)
+    - Adolescence (12+ years)
+    - Infancy (0-2 years)
+    CorrectOptionIndex: 2
+    LevelName: cognitive processes
+  - QuestionText: 'A student consistently fails to solve problems that require a
+      "eureka" moment or sudden reorganization of the problem elements. This student
+      is likely struggling with:'
+    Options:
+    - Algorithmic thinking
+    - Insight learning
+    - Means-end analysis
+    - Functional fixedness
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'If a curriculum is designed based on Bruner''s theory, it would
+      most likely emphasize:'
+    Options:
+    - Rote memorization and drill practices.
+    - A fixed sequence of instruction that cannot be altered.
+    - The active process of constructing knowledge through a spiral curriculum.
+    - Avoiding any social interaction during learning.
+    CorrectOptionIndex: 2
+    LevelName: cognitive processes
+  - QuestionText: 'A student is excellent at memorizing vocabulary words for a test
+      but cannot use them correctly in a conversation. This indicates a problem with:'
+    Options:
+    - Sensory memory capacity.
+    - Transfer of learning from declarative to procedural knowledge.
+    - The capacity of the phonological loop.
+    - Metacognitive awareness.
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'A teacher designs a project where students must create a new product
+      to solve an environmental issue and then develop a marketing campaign for it.
+      This project best fosters:'
+    Options:
+    - Convergent thinking
+    - Divergent and creative thinking
+    - Mental set
+    - Confirmation bias
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'Comparing Piaget''s and Vygotsky''s theories, a key difference
+      is that Vygotsky placed a greater emphasis on:'
+    Options:
+    - Biological maturation and universal stages.
+    - The individual's independent exploration of the world.
+    - Social interaction and cultural tools in cognitive development.
+    - The role of reinforcement and punishment.
+    CorrectOptionIndex: 2
+    LevelName: cognitive processes
+  - QuestionText: 'A child who uses the word "doggie" to refer to all four-legged
+      animals is demonstrating the cognitive process of:'
+    Options:
+    - Accommodation
+    - Assimilation
+    - Conservation
+    - Egocentrism
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'You observe a student who, after failing a math test, says, "I
+      need to change how I study. I''ll try making concept maps instead of just rereading."
+      This student is demonstrating strong:'
+    Options:
+    - Long-term memory
+    - Metacognitive skills
+    - Functional fixedness
+    - Sensory register efficiency
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'According to Ausubel''s theory, the most important factor influencing
+      learning is:'
+    Options:
+    - The number of repetitions.
+    - The quality of the learner's existing cognitive structure.
+    - The speed of the teacher's presentation.
+    - The use of punishment for incorrect answers.
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'A student is trying to understand a complex philosophical text.
+      They break it down into its core arguments, identify assumptions, and detect
+      logical fallacies. These actions are primarily examples of:'
+    Options:
+    - Critical thinking
+    - Rote learning
+    - Brainstorming
+    - Heuristic processing
+    CorrectOptionIndex: 0
+    LevelName: cognitive processes
+  - QuestionText: 'In a classroom, a teacher uses advanced organizers. This strategy
+      is directly derived from the work of:'
+    Options:
+    - B.F. Skinner
+    - David Ausubel
+    - Robert Gagne
+    - Jean Piaget
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'A person who readily believes a news article that confirms their
+      pre-existing political views, while dismissing contradictory evidence, is falling
+      prey to:'
+    Options:
+    - The availability heuristic
+    - Confirmation bias
+    - Belief perseverance
+    - The representativeness heuristic
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'Evaluating the statement: "Intelligence is a fixed, unitary trait."
+      A more contemporary, cognitive view would argue that:'
+    Options:
+    - Intelligence is entirely determined by genetics.
+    - There are multiple intelligences and cognitive processes are malleable.
+    - IQ tests are the only valid measure of cognitive ability.
+    - Cognitive processes cannot be improved through instruction.
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'A student learns a mathematical rule but cannot apply it to a
+      real-world problem in physics. The most likely cognitive reason for this failure
+      is:'
+    Options:
+    - A lack of motivation.
+    - The use of an algorithm.
+    - An overdeveloped sensory register.
+    - Inadequate transfer of learning.
+    CorrectOptionIndex: 3
+    LevelName: cognitive processes
+  - QuestionText: 'Hypothesize: What would be the likely outcome if the central executive
+      component of working memory were impaired?'
+    Options:
+    - A person would have perfect long-term memory.
+    - A person would struggle to focus attention, plan, and coordinate mental activities.
+    - Sensory memory would become more accurate.
+    - Automatic processing would become impossible.
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: A teacher encourages students to ask "what if" questions and to
+      generate hypotheses for a science experiment. This strategy is most aligned
+      with fostering thinking at the __________ stage.
+    Options:
+    - Sensorimotor
+    - Preoperational
+    - Concrete Operational
+    - Formal Operational
+    CorrectOptionIndex: 3
+    LevelName: cognitive processes
+  - QuestionText: 'The "serial position effect" explains why we best remember the:'
+    Options:
+    - Middle items in a list.
+    - Items that are repeated.
+    - First and last items in a list.
+    - Most emotionally charged items.
+    CorrectOptionIndex: 2
+    LevelName: cognitive processes
+  - QuestionText: 'When solving a problem, using a method that guarantees a solution,
+      such as a mathematical formula, is known as using a(n):'
+    Options:
+    - Heuristic
+    - Algorithm
+    - Insight
+    - Mental Set
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'A student who modifies their existing schema of "birds" (which
+      was "things that fly") to include ostriches after learning they cannot fly
+      is demonstrating:'
+    Options:
+    - Assimilation
+    - Accommodation
+    - Equilibration
+    - Centration
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'In the context of memory, the "levels of processing" theory suggests
+      that memory retention is primarily determined by:'
+    Options:
+    - The length of time spent rehearsing.
+    - The sense modality (visual, auditory) used.
+    - The depth and meaningfulness of the processing.
+    - The primacy of the information.
+    CorrectOptionIndex: 2
+    LevelName: cognitive processes
+  - QuestionText: A teacher designs a test where students must create a new model
+      to explain a scientific phenomenon. This question targets the __________ level
+      of Bloom's Taxonomy.
+    Options:
+    - Analyzing
+    - Evaluating
+    - Creating
+    - Applying
+    CorrectOptionIndex: 2
+    LevelName: cognitive processes
+  - QuestionText: Contrast 'convergent' and 'divergent' thinking by identifying which
+      task would require primarily divergent thinking.
+    Options:
+    - Solving a quadratic equation using a standard formula.
+    - Listing as many creative uses for a brick as possible.
+    - Selecting the correct answer on a multiple-choice test.
+    - Following a recipe to bake a cake.
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'A person who estimates the likelihood of a plane crash based on
+      recent news reports is using the:'
+    Options:
+    - Representativeness heuristic
+    - Anchoring heuristic
+    - Availability heuristic
+    - Confirmation bias
+    CorrectOptionIndex: 2
+    LevelName: cognitive processes
+  - QuestionText: 'Synthesizing the theories of Piaget and Vygotsky, an effective
+      teacher would likely:'
+    Options:
+    - Ignore individual readiness and teach to the whole class.
+    - Provide developmentally appropriate materials (Piaget) within a socially interactive,
+      scaffolded environment (Vygotsky).
+    - Focus solely on social interaction without regard for cognitive stages.
+    - Emphasize rote learning above all else.
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'A student is preparing for an exam by summarizing chapters in
+      their own words, creating self-tests, and drawing diagrams. These strategies
+      are all examples of:'
+    Options:
+    - Shallow processing
+    - Metacognitive control strategies
+    - Functional fixedness
+    - Maintenance rehearsal
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'The phenomenon where earlier learning interferes with the recall
+      of later learning is called:'
+    Options:
+    - Retroactive Interference
+    - Motivated Forgetting
+    - Source Amnesia
+    - Proactive Interference
+    CorrectOptionIndex: 3
+    LevelName: cognitive processes
+  - QuestionText: 'According to Gagne, the internal condition essential for "attitude"
+      learning is:'
+    Options:
+    - Recall of prerequisite rules and concepts.
+    - A human model and reinforcement.
+    - Verbal cues and prompts.
+    - Stimulus-response connections.
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes
+  - QuestionText: 'A teacher wants to help students overcome "functional fixedness."
+      The most effective activity would be to:'
+    Options:
+    - Have them practice memorizing definitions.
+    - Isolate them for individual work.
+    - Provide them with a detailed algorithm for solving problems.
+    - Give them an object (e.g., a paperclip) and ask them to brainstorm its many
+      possible uses.
+    CorrectOptionIndex: 3
+    LevelName: cognitive processes
+  - QuestionText: 'A student who can successfully apply a learned strategy to a novel
+      problem in a different subject area is demonstrating positive:'
+    Options:
+    - Near Transfer
+    - Far Transfer
+    - Negative Transfer
+    - Metacognitive Inhibition
+    CorrectOptionIndex: 1
+    LevelName: cognitive processes

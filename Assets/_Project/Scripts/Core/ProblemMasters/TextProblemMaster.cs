@@ -7,6 +7,7 @@ public class TextProblemMaster : ProblemMaster<TextQuestion, TextAnswer, TextRes
                                     ITextAnswerHandler<TextAnswer, TextResult>
 {
     [SerializeField] private TextQuestionLoader _textLoader;
+    [SerializeField] private QuizSessionData _sessionData;
 
     protected override async Task<List<TextQuestion>> LoadQuestionsAsync(int difficulty, int level)
     {
@@ -15,7 +16,9 @@ public class TextProblemMaster : ProblemMaster<TextQuestion, TextAnswer, TextRes
 
     protected override void ProcessProblem(TextQuestion problem)
     {
-        Debug.Log($"Processing text question: {problem.QuestionText}");
+        Debug.Log($"Processing text question: {problem.QuestionText} answer {problem.Options[problem.CorrectOptionIndex]}");
+        
+
     }
 
     protected override TextResult CreateResult(float userChoiceIndex)
@@ -33,6 +36,11 @@ public class TextProblemMaster : ProblemMaster<TextQuestion, TextAnswer, TextRes
         };
     }
 
+    private void Awake()
+    {
+        _textLoader = _sessionData.currentQuestionLoader;
+    }
+
     private async void Start()
     {
         await StartLevel(1, 1);
@@ -40,6 +48,7 @@ public class TextProblemMaster : ProblemMaster<TextQuestion, TextAnswer, TextRes
 
     public TextResult RecordResult(int selectedOptionIndex)
     {
+        //var res = RecordResult((float)selectedOptionIndex);
         var question = _currentLevelQuestions[currentQuestionNumber];
         var result = new TextResult(question, selectedOptionIndex);
         TriggerOnResultRecorded(result);
@@ -56,7 +65,7 @@ public class TextQuestion
 
     public List<string> Options = new List<string>(); // e.g. ["Paris", "Rome", "Berlin"]
     public int CorrectOptionIndex;                    // 0-based index of correct answer
-
+    public string LevelName;
     public override string ToString()
     {
         string opts = string.Join(", ", Options);

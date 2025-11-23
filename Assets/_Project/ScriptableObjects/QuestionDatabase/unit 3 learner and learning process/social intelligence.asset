@@ -1,0 +1,464 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: social intelligence
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Who first coined the term "social intelligence" in 1920?
+    Options:
+    - Howard Gardner
+    - Edward Thorndike
+    - Daniel Goleman
+    - John Mayer
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'Social intelligence is primarily defined as the ability to:'
+    Options:
+    - Excel in academic and logical tasks.
+    - Understand and manage people, and act wisely in human relations.
+    - Memorize and recall social norms and rules.
+    - Control one's own emotional states completely.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: Which of the following is a core component of social intelligence?
+    Options:
+    - Mathematical reasoning
+    - Spatial visualization
+    - Social awareness
+    - Musical rhythm
+    CorrectOptionIndex: 2
+    LevelName: social intelligence
+  - QuestionText: The concept of "Theory of Mind" is most closely related to which
+      aspect of social intelligence?
+    Options:
+    - Social facility
+    - Social awareness
+    - Primal empathy
+    - Verbal fluency
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: Who proposed the theory of Multiple Intelligences, which includes
+      interpersonal intelligence as a key type?
+    Options:
+    - Robert Sternberg
+    - Peter Salovey
+    - Howard Gardner
+    - David Wechsler
+    CorrectOptionIndex: 2
+    LevelName: social intelligence
+  - QuestionText: 'In Daniel Goleman''s model, social intelligence is comprised of
+      two broad categories: social awareness and:'
+    Options:
+    - Social control
+    - Social facility
+    - Social manipulation
+    - Social isolation
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'The ability to feel what others feel, often demonstrated through
+      nonverbal cues, is known as:'
+    Options:
+    - Cognitive empathy
+    - Emotional empathy
+    - Compassion
+    - Sympathy
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: Which of the following is considered a key skill under "social
+      facility"?
+    Options:
+    - Self-regulation
+    - Primal empathy
+    - Concern for others
+    - Influence
+    CorrectOptionIndex: 3
+    LevelName: social intelligence
+  - QuestionText: "The \"Troms\xF8 Social Intelligence Scale\" is used to:"
+    Options:
+    - Measure general intelligence (IQ).
+    - Assess a person's social intelligence through self-report.
+    - Diagnose autism spectrum disorder.
+    - Evaluate mathematical problem-solving skills.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'The concept that social intelligence is distinct from academic
+      intelligence was a central argument of:'
+    Options:
+    - Charles Spearman
+    - Edward Thorndike
+    - Lewis Terman
+    - Alfred Binet
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'A student who can accurately sense the mood of a classroom as
+      soon as they walk in is demonstrating high levels of:'
+    Options:
+    - Social influence
+    - Cognitive accuracy
+    - Self-presentation
+    - Primal empathy
+    CorrectOptionIndex: 3
+    LevelName: social intelligence
+  - QuestionText: 'A teacher who modifies their communication style to effectively
+      explain a concept to a struggling student, a parent, and a colleague is demonstrating:'
+    Options:
+    - Social expressiveness
+    - Behavioral flexibility
+    - Concern for others
+    - Self-regulation
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'The primary difference between emotional intelligence and social
+      intelligence is that social intelligence specifically focuses on:'
+    Options:
+    - Understanding and managing one's own emotions.
+    - Cognitive abilities like memory and reasoning.
+    - Navigating and understanding external social situations and relationships.
+    - The biological basis of emotions.
+    CorrectOptionIndex: 2
+    LevelName: social intelligence
+  - QuestionText: 'According to Goleman, "synchrony" in social interactions refers
+      to the ability to:'
+    Options:
+    - Win arguments and debates.
+    - Interact smoothly at the nonverbal level.
+    - Memorize social scripts.
+    - Control the emotions of others.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: A student who is able to calm down a conflict between two friends
+      by helping them see each other's perspective is using which social intelligence
+      skill?
+    Options:
+    - Social influence
+    - Self-presentation
+    - Concern for others
+    - Cognitive empathy
+    CorrectOptionIndex: 3
+    LevelName: social intelligence
+  - QuestionText: If "interpersonal intelligence" (Gardner) is the capacity to understand
+      the intentions of others, it most directly overlaps with which component of
+      Goleman's model?
+    Options:
+    - Social facility
+    - Social awareness
+    - Self-regulation
+    - Influence
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: The concept of "impression management" is a key part of which broader
+      social intelligence skill?
+    Options:
+    - Primal empathy
+    - Self-presentation
+    - Behavioral flexibility
+    - Concern
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: A person with high social intelligence would most likely be successful
+      in which career?
+    Options:
+    - A solitary research scientist
+    - A night-shift security guard
+    - A counselor or teacher
+    - A data entry clerk
+    CorrectOptionIndex: 2
+    LevelName: social intelligence
+  - QuestionText: 'A key reason social intelligence is crucial in educational settings
+      is that it:'
+    Options:
+    - Replaces the need for academic knowledge.
+    - Helps in creating a positive and effective learning environment.
+    - Is only important for the school principal.
+    - Ensures all students have the same friends.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'The ability to understand complex social situations and the causes
+      behind people''s behavior is known as:'
+    Options:
+    - Social cognition
+    - Social influence
+    - Emotional contagion
+    - Behavioral synchrony
+    CorrectOptionIndex: 0
+    LevelName: social intelligence
+  - QuestionText: 'Critically analyzing the measurement of social intelligence, a
+      major challenge is that:'
+    Options:
+    - It is perfectly correlated with IQ and thus redundant.
+    - It often relies on self-report, which can be biased, or on contrived tests
+      that may not predict real-world behavior.
+    - It can only be measured with expensive brain-scanning technology.
+    - It is a fixed trait that cannot be developed.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'A teacher designs group projects specifically to help students
+      practice negotiation, active listening, and conflict resolution. This pedagogical
+      strategy is primarily aimed at developing students'':'
+    Options:
+    - Crystallized intelligence
+    - Social intelligence
+    - Fluid intelligence
+    - Musical intelligence
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'A manager who can sense growing frustration in their team during
+      a meeting and skillfully redirects the conversation to a more positive topic
+      is demonstrating a high degree of:'
+    Options:
+    - Social awareness and social facility
+    - Primal empathy and self-isolation
+    - Cognitive empathy and social withdrawal
+    - Self-presentation and low concern
+    CorrectOptionIndex: 0
+    LevelName: social intelligence
+  - QuestionText: 'Comparing the theories of Gardner and Goleman, a key difference
+      is that Goleman''s model of social intelligence:'
+    Options:
+    - Is part of a broader framework of multiple, independent intelligences.
+    - Is more narrowly focused on the cognitive aspects of problem-solving.
+    - Integrates social and emotional processes more explicitly and is rooted in
+      neuroscience.
+    - Denies the existence of interpersonal intelligence.
+    CorrectOptionIndex: 2
+    LevelName: social intelligence
+  - QuestionText: 'A student who is academically brilliant but consistently fails
+      to work effectively in a team, often offending peers, is likely struggling
+      with:'
+    Options:
+    - Low fluid intelligence
+    - High social intelligence
+    - Low social intelligence
+    - High logical-mathematical intelligence
+    CorrectOptionIndex: 2
+    LevelName: social intelligence
+  - QuestionText: The concept of "emotional contagion," where one person's emotions
+      trigger similar emotions in others, is most relevant to which component of
+      social intelligence?
+    Options:
+    - Self-presentation
+    - Primal empathy
+    - Behavioral flexibility
+    - Social influence
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'In a culturally diverse classroom, a teacher with high social
+      intelligence would be most likely to:'
+    Options:
+    - Ignore cultural differences to treat everyone exactly the same.
+    - Recognize and respectfully adapt to different cultural communication styles.
+    - Expect all students to assimilate to the dominant classroom culture.
+    - Avoid any discussions about culture to prevent conflict.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'A school implements a program that uses role-playing to teach
+      students how to handle bullying, peer pressure, and friendship issues. This
+      program is directly targeting the development of:'
+    Options:
+    - Abstract reasoning skills
+    - Visual-spatial abilities
+    - Crystallized knowledge
+    - Social intelligence competencies
+    CorrectOptionIndex: 3
+    LevelName: social intelligence
+  - QuestionText: 'The "Machiavellian" use of social intelligence refers to using
+      these skills for:'
+    Options:
+    - Altruistic and prosocial goals.
+    - Personal manipulation and gain.
+    - Academic achievement.
+    - Artistic expression.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'A key argument for teaching social intelligence in schools is
+      that it:'
+    Options:
+    - Is more important than all academic subjects.
+    - Is a set of skills that can be learned and is linked to long-term life success.
+    - Is entirely determined by genetics and therefore cannot be changed.
+    - Is only relevant for students pursuing careers in sales.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'A person who can tell a captivating story that holds an audience''s
+      attention is demonstrating strong skills in:'
+    Options:
+    - Social expressiveness
+    - Cognitive empathy
+    - Self-regulation
+    - Primal empathy
+    CorrectOptionIndex: 0
+    LevelName: social intelligence
+  - QuestionText: The "Pyramid of Social Intelligence" model often places which element
+      as the foundational skill?
+    Options:
+    - Social Influence
+    - Self-Awareness
+    - Behavioral Flexibility
+    - Concern for Others
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'A historical perspective on social intelligence reveals that it
+      was initially:'
+    Options:
+    - Considered the only form of intelligence.
+    - Largely ignored in favor of academic and cognitive measures.
+    - Perfectly measured by early IQ tests.
+    - Deemed irrelevant to survival.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'A teacher who uses "I" statements and active listening to de-escalate
+      a disruptive student is modeling:'
+    Options:
+    - Low academic expectations
+    - Cognitive dissonance
+    - Authoritarian classroom management
+    - Effective social and emotional communication
+    CorrectOptionIndex: 3
+    LevelName: social intelligence
+  - QuestionText: 'The concept that social intelligence may have evolved as a crucial
+      survival tool for humans is supported by the:'
+    Options:
+    - Social brain hypothesis
+    - General intelligence theory
+    - Triarchic theory of intelligence
+    - Theory of multiple intelligences
+    CorrectOptionIndex: 0
+    LevelName: social intelligence
+  - QuestionText: 'A student with high social intelligence is likely to have an advantage
+      in a job interview because they can:'
+    Options:
+    - Recite textbook definitions perfectly.
+    - Build rapport, read the interviewer's cues, and present themselves effectively.
+    - Solve complex math problems quickly.
+    - Ignore the social dynamics and focus solely on their resume.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'Critically evaluating social intelligence, a potential downside
+      is that it can sometimes lead to:'
+    Options:
+    - Increased social isolation.
+    - A complete lack of empathy.
+    - A decrease in academic performance.
+    - Social anxiety if a person becomes overly focused on analyzing interactions.
+    CorrectOptionIndex: 3
+    LevelName: social intelligence
+  - QuestionText: 'In the context of inclusive education, social intelligence is
+      vital for teachers to:'
+    Options:
+    - Identify and exclude students with social difficulties.
+    - Foster a classroom community where all students feel valued and understood.
+    - Streamline the curriculum for faster completion.
+    - Focus only on the highest-achieving students.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'The ability to understand the "unwritten rules" of a social group
+      is a key aspect of:'
+    Options:
+    - Social cognition
+    - Fluid intelligence
+    - Crystallized intelligence
+    - Musical-rhythmic intelligence
+    CorrectOptionIndex: 0
+    LevelName: social intelligence
+  - QuestionText: 'A school principal who successfully navigates conflicts between
+      staff, parents, and the school board is relying heavily on their:'
+    Options:
+    - Bodily-kinesthetic intelligence
+    - Social intelligence
+    - Existential intelligence
+    - Naturalistic intelligence
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'The "Bar-On model" of Emotional-Social Intelligence is distinct
+      because it focuses on:'
+    Options:
+    - A cross-section of emotional and social competencies that influence intelligent
+      behavior.
+    - A purely cognitive understanding of social rules.
+    - The genetic basis of intelligence.
+    - Intelligence as a single, general factor.
+    CorrectOptionIndex: 0
+    LevelName: social intelligence
+  - QuestionText: 'A teacher''s ability to "read the room" and decide whether to
+      stick to the lesson plan or pivot to address student confusion or restlessness
+      is an example of:'
+    Options:
+    - Poor planning
+    - High social awareness and behavioral flexibility
+    - Low academic standards
+    - Rigid teaching style
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'The development of social intelligence in children is most effectively
+      fostered by:'
+    Options:
+    - Isolating them from social conflicts.
+    - Allowing all social interactions to occur without adult guidance.
+    - Focusing exclusively on individual academic work.
+    - Providing opportunities for guided social interaction and reflection.
+    CorrectOptionIndex: 3
+    LevelName: social intelligence
+  - QuestionText: 'A key difference between sympathy and empathy in social intelligence
+      is that empathy involves:'
+    Options:
+    - Feeling pity for someone.
+    - Understanding and sharing the feelings of another.
+    - Providing a solution to a person's problem.
+    - Judging another person's emotional response.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'The concept of "social information processing" suggests that socially
+      intelligent individuals:'
+    Options:
+    - Ignore social cues to make decisions faster.
+    - Accurately encode, interpret, and respond to social cues.
+    - Rely solely on their first impression of people.
+    - Process information more slowly in social settings.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'A limitation of viewing social intelligence as a set of skills
+      is that it may:'
+    Options:
+    - Overemphasize the role of conscious learning and underemphasize innate temperament.
+    - Be too simple to be useful in educational contexts.
+    - Conflict with theories of multiple intelligences.
+    - Be impossible to measure in any form.
+    CorrectOptionIndex: 0
+    LevelName: social intelligence
+  - QuestionText: 'In a digital age, "digital social intelligence" has emerged, which
+      involves:'
+    Options:
+    - Ignoring online interactions.
+    - Applying social intelligence principles to communicate effectively and appropriately
+      via digital platforms.
+    - Using technology to avoid face-to-face communication.
+    - Memorizing all social media platform rules.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence
+  - QuestionText: 'A student who can successfully lead a group of peers towards a
+      common goal without using commands or aggression is demonstrating strong:'
+    Options:
+    - Social influence
+    - Self-oriented behavior
+    - Primal empathy
+    - Social withdrawal
+    CorrectOptionIndex: 0
+    LevelName: social intelligence
+  - QuestionText: 'Research linking social intelligence to academic success suggests
+      that it:'
+    Options:
+    - Has no correlation whatsoever.
+    - Is a stronger predictor of success than IQ in some life domains.
+    - Is only important for elementary school students.
+    - Inhibits deep cognitive processing.
+    CorrectOptionIndex: 1
+    LevelName: social intelligence

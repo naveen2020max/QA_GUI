@@ -1,0 +1,464 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: research integrity
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the core principle of research integrity?
+    Options:
+    - Publishing as many papers as possible
+    - Adherence to honesty, accuracy, efficiency, and objectivity in research
+    - Obtaining the largest possible research grants
+    - Ensuring all hypotheses are proven correct
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: Which of the following is a core component of research integrity?
+    Options:
+    - Selective reporting of data
+    - Fabrication of results
+    - Careful record-keeping and data management
+    - Ignoring conflicting data
+    CorrectOptionIndex: 2
+    LevelName: research integrity
+  - QuestionText: 'Fabrication in research refers to:'
+    Options:
+    - Making up data or results and recording them as real
+    - Manipulating research materials or processes to distort results
+    - Using someone else's work without attribution
+    - Publishing the same data in multiple papers
+    CorrectOptionIndex: 0
+    LevelName: research integrity
+  - QuestionText: 'Falsification in research involves:'
+    Options:
+    - Making up data
+    - Inappropriately manipulating research materials, equipment, or processes to
+      arrive at a desired result
+    - Stealing ideas
+    - Forgetting to cite a source
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'Plagiarism is best defined as:'
+    Options:
+    - A statistical error
+    - Collaborating with international researchers
+    - The appropriation of another person's ideas, processes, results, or words without
+      giving appropriate credit
+    - Disagreeing with a senior researcher's hypothesis
+    CorrectOptionIndex: 2
+    LevelName: research integrity
+  - QuestionText: Which of the following is NOT considered a FFP (Fabrication, Falsification,
+      Plagiarism) violation?
+    Options:
+    - Inventing data for a clinical trial
+    - Deleting data points that contradict the hypothesis
+    - Copying a methodology section from a published paper without citation
+    - Making an honest error in data analysis
+    CorrectOptionIndex: 3
+    LevelName: research integrity
+  - QuestionText: 'The primary purpose of peer review is to:'
+    Options:
+    - Guarantee that the research is correct
+    - Uphold the quality and integrity of published research by providing expert
+      evaluation
+    - Ensure only positive results are published
+    - Speed up the publication process
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'A conflict of interest in research could arise from:'
+    Options:
+    - Financial ties to a company whose product is being studied
+    - A personal relationship with a co-author
+    - A strong belief in one's own hypothesis
+    - Both A and B
+    CorrectOptionIndex: 3
+    LevelName: research integrity
+  - QuestionText: 'Informed consent in human subject research requires that participants:'
+    Options:
+    - Are paid handsomely for their time
+    - Understand the research's risks, benefits, and procedures and voluntarily agree
+      to participate
+    - Are not told about potential risks to avoid scaring them
+    - Must have a college degree
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'Data management is a key aspect of research integrity. It includes:'
+    Options:
+    - Deleting raw data after analysis
+    - Using data only once
+    - Sharing data only after a patent is filed
+    - Keeping clear, organized, and secure records of all primary data
+    CorrectOptionIndex: 3
+    LevelName: research integrity
+  - QuestionText: '"Salami Slicing" in publication refers to:'
+    Options:
+    - A valid method of dividing a large study into logical parts
+    - Publishing the least publishable unit of research from a single study to increase
+      publication count
+    - Critiquing other researchers' work
+    - A type of data analysis
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'Guest or gift authorship is unethical because it:'
+    Options:
+    - Increases the number of co-authors
+    - Is too expensive
+    - Grants authorship to individuals who have not made a significant intellectual
+      contribution
+    - Is a form of plagiarism
+    CorrectOptionIndex: 2
+    LevelName: research integrity
+  - QuestionText: 'The role of a Research Integrity Officer (RIO) is to:'
+    Options:
+    - Punish researchers
+    - Oversee and educate on responsible conduct of research and handle allegations
+      of misconduct
+    - Secure research funding
+    - Write research papers for faculty
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'Animal research ethics is guided by the "3Rs" framework, which
+      stands for:'
+    Options:
+    - Record, Report, Review
+    - Registration, Replication, Release
+    - Respect, Responsibility, Rigor
+    - Replacement, Reduction, Refinement
+    CorrectOptionIndex: 3
+    LevelName: research integrity
+  - QuestionText: The reproducibility crisis in science is primarily linked to a
+      failure in which aspect of research integrity?
+    Options:
+    - Plagiarism
+    - Rigor in methods and analysis, and transparency in reporting
+    - Grant writing
+    - Peer review scheduling
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: Why is it important for researchers to disclose conflicts of interest?
+    Options:
+    - To increase their credibility
+    - To get more citations
+    - To comply with tax laws
+    - To allow journals, funders, and the public to assess potential bias
+    CorrectOptionIndex: 3
+    LevelName: research integrity
+  - QuestionText: 'A researcher changes the study''s primary hypothesis after looking
+      at the data to fit a statistically significant result. This is a practice known
+      as:'
+    Options:
+    - HARKing (Hypothesizing After the Results are Known)
+    - Valid post-hoc analysis
+    - Peer review
+    - Data management
+    CorrectOptionIndex: 0
+    LevelName: research integrity
+  - QuestionText: 'Pre-registration of a study involves:'
+    Options:
+    - Publishing the paper before data collection
+    - Publishing only the positive results
+    - Publicly documenting the research plan, hypotheses, and analysis method before
+      conducting the study
+    - Keeping the research secret until it is complete
+    CorrectOptionIndex: 2
+    LevelName: research integrity
+  - QuestionText: 'The main ethical concern with "p-hacking" is that it:'
+    Options:
+    - Is a form of plagiarism
+    - Inflates the Type I error rate, making false positive findings more likely
+    - Slows down the research process
+    - Requires advanced statistical knowledge
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'Mentorship in research integrity involves:'
+    Options:
+    - Doing all the work for the mentee
+    - Ensuring the mentee never fails
+    - Teaching mentees about ethical practices and responsible research conduct
+    - Focusing only on technical skills
+    CorrectOptionIndex: 2
+    LevelName: research integrity
+  - QuestionText: 'A postdoctoral researcher is pressured by their supervisor to
+      analyze data in a way that produces a significant result, despite their concerns
+      about the method''s appropriateness. This situation primarily involves a violation
+      of:'
+    Options:
+    - Data ownership policies
+    - The mentor's responsibility to foster a culture of integrity and avoid coercion
+    - Copyright law
+    - Animal welfare guidelines
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'A study finds a correlation between two variables with p=0.04.
+      The researchers conclude a strong causal relationship and do not report that
+      they measured 20 other variables with no significant correlation. This is an
+      example of:'
+    Options:
+    - Responsible data reporting
+    - Valid hypothesis testing
+    - Robust peer review
+    - Selective reporting and p-hacking, which misrepresents the true nature of the
+      findings
+    CorrectOptionIndex: 3
+    LevelName: research integrity
+  - QuestionText: 'The principle of "justice" in human subjects research (per the
+      Belmont Report) primarily requires that:'
+    Options:
+    - The benefits and burdens of research are distributed fairly
+    - Participants are paid well
+    - The research is published in a high-impact journal
+    - Data is kept completely confidential
+    CorrectOptionIndex: 0
+    LevelName: research integrity
+  - QuestionText: 'A lab has a policy of destroying primary lab notebooks five years
+      after a project ends. From a research integrity perspective, this is:'
+    Options:
+    - Good for saving space
+    - Problematic, as it prevents verification and replication of the published work
+    - A private matter for the lab
+    - Required by most funding agencies
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'A reviewer for a journal recognizes that a submitted manuscript
+      is building on their own unpublished work. The ethical action is to:'
+    Options:
+    - Reject the manuscript to protect their own idea.
+    - Contact the author directly to collaborate.
+    - Quickly publish their own work to establish priority.
+    - Inform the editor of the potential conflict of interest and let them decide
+      on the appropriate action.
+    CorrectOptionIndex: 3
+    LevelName: research integrity
+  - QuestionText: 'A researcher uses a copyrighted survey in their study without
+      obtaining permission. This is primarily a violation of:'
+    Options:
+    - Research integrity principles
+    - Copyright law
+    - Both A and B
+    - Neither A nor B
+    CorrectOptionIndex: 2
+    LevelName: research integrity
+  - QuestionText: 'The concept of "research misconduct" as defined by federal agencies
+      in the U.S. typically includes:'
+    Options:
+    - Honest error
+    - Differences of opinion
+    - Authorship disputes
+    - Fabrication, Falsification, and Plagiarism (FFP)
+    CorrectOptionIndex: 3
+    LevelName: research integrity
+  - QuestionText: 'A "whistleblower" in a research misconduct case is:'
+    Options:
+    - Always an external person
+    - An individual who raises concerns about potential misconduct in good faith
+    - Always a junior researcher
+    - Guaranteed to lose their job
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'The most effective way to prevent research misconduct is through:'
+    Options:
+    - Harsh punishment after it occurs
+    - Increasing the number of audits
+    - A culture of education, mentoring, and institutional support for integrity
+    - Restricting access to laboratories
+    CorrectOptionIndex: 2
+    LevelName: research integrity
+  - QuestionText: According to the ICMJE guidelines, which of the following is a
+      valid criterion for authorship?
+    Options:
+    - Acquisition of funding
+    - Final approval of the version to be published
+    - Providing laboratory space only
+    - Being the head of the department
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'A senior researcher is listed as an author on a paper from their
+      lab, even though they were on sabbatical and had no input into the research
+      or manuscript. This is an example of:'
+    Options:
+    - Deserved recognition
+    - A copyright violation
+    - A valid cultural practice
+    - Gift authorship, which is unethical
+    CorrectOptionIndex: 3
+    LevelName: research integrity
+  - QuestionText: 'A company funds a study of its new drug. The contract gives the
+      company the right to block publication of the results. This agreement:'
+    Options:
+    - Protects intellectual property
+    - Is standard practice and ethical
+    - Raises serious concerns about research integrity and suppression of unfavorable
+      results
+    - Is required by law
+    CorrectOptionIndex: 2
+    LevelName: research integrity
+  - QuestionText: 'The practice of submitting the same manuscript to multiple journals
+      simultaneously is:'
+    Options:
+    - An efficient way to get published
+    - Generally considered unethical
+    - Acceptable if the journals allow it
+    - A form of open access
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'The purpose of an Institutional Review Board (IRB) is to:'
+    Options:
+    - Ensure research is scientifically valid
+    - Improve the writing quality of research proposals
+    - Secure research funding
+    - Protect the rights and welfare of human research subjects
+    CorrectOptionIndex: 3
+    LevelName: research integrity
+  - QuestionText: 'A researcher finds an error in a published paper they authored.
+      The correct course of action is to:'
+    Options:
+    - Ignore it, as the paper is already published.
+    - Contact the journal to publish a correction or erratum.
+    - Hope no one notices.
+    - Blame a co-author.
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: '"Double-blind" peer review is designed to:'
+    Options:
+    - Reduce bias by hiding the identities of both the author and the reviewer
+    - Make the process faster
+    - Give an advantage to famous researchers
+    - Ensure the reviewer knows the author's reputation
+    CorrectOptionIndex: 0
+    LevelName: research integrity
+  - QuestionText: 'A junior researcher suspects a senior colleague of data fabrication
+      but fears retaliation. This highlights the importance of:'
+    Options:
+    - Silent loyalty
+    - Confidential and safe channels for reporting concerns
+    - Immediately going to the media
+    - Ignoring the suspicion
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'The concept of "beneficence" in research ethics requires that:'
+    Options:
+    - Researchers maximize possible benefits and minimize possible harms
+    - Research is always beneficial to the researcher
+    - Participants are always paid
+    - All research is published
+    CorrectOptionIndex: 0
+    LevelName: research integrity
+  - QuestionText: 'Using another researcher''s idea from a conference presentation
+      without permission is:'
+    Options:
+    - Acceptable because it was presented publicly
+    - Plagiarism if not credited, even if it's an idea and not text
+    - Only a problem if it leads to a publication
+    - Fair Use
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'The primary goal of data sharing is to:'
+    Options:
+    - Give away one's competitive advantage
+    - Increase citation counts
+    - Satisfy a journal's requirement
+    - Promote transparency, verification, and cumulative knowledge building
+    CorrectOptionIndex: 3
+    LevelName: research integrity
+  - QuestionText: A lab publishes a groundbreaking finding. Another lab, following
+      the published methods exactly, cannot replicate the result. The original lab
+      refuses to share its raw data. This situation primarily violates which principle
+      of research integrity?
+    Options:
+    - Justice
+    - Transparency and accountability
+    - Respect for persons
+    - Mentorship
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'A researcher is writing a grant proposal and intentionally overstates
+      the preliminary data to improve the chances of funding. This is an example
+      of:'
+    Options:
+    - Justifiable competition
+    - Plagiarism
+    - Acceptable grant-writing strategy
+    - Falsification and a serious breach of integrity
+    CorrectOptionIndex: 3
+    LevelName: research integrity
+  - QuestionText: 'The term "QRPs" (Questionable Research Practices) refers to:'
+    Options:
+    - Fabrication and Falsification
+    - Practices that are not outright misconduct but violate the spirit of integrity
+      (e.g., p-hacking, low power)
+    - Standard statistical methods
+    - Ethical peer review
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'An institution''s failure to adequately investigate an allegation
+      of misconduct against a star researcher can lead to:'
+    Options:
+    - Protection of the institution's reputation
+    - Increased research funding
+    - A "chilling effect" where others are afraid to speak up, and a erosion of institutional
+      credibility
+    - Better morale in the lab
+    CorrectOptionIndex: 2
+    LevelName: research integrity
+  - QuestionText: 'The concept of "implied consent" is generally considered:'
+    Options:
+    - Sufficient for all social science surveys
+    - Insufficient for most research involving more than minimal risk; explicit informed
+      consent is required.
+    - The gold standard for medical trials
+    - A type of plagiarism
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'A researcher uses a standardized test in their study but modifies
+      several questions without reporting this in the paper. This compromises the
+      research''s:'
+    Options:
+    - Validity and integrity, as it misrepresents the methods used
+    - Readability
+    - Number of citations
+    - Adherence to copyright law
+    CorrectOptionIndex: 0
+    LevelName: research integrity
+  - QuestionText: 'The "Mertonian Norms of Science" (e.g., Communism, Universalism,
+      Disinterestedness, Organized Skepticism) provide:'
+    Options:
+    - A set of legal regulations
+    - A sociological description of the ethical ideals of science
+    - A statistical analysis method
+    - A guide for laboratory safety
+    CorrectOptionIndex: 1
+    LevelName: research integrity
+  - QuestionText: 'A finding has "clinical significance" if it:'
+    Options:
+    - Has a low p-value (p < 0.05)
+    - Has been replicated once
+    - Is published in a top-tier journal
+    - Is large enough to be of practical importance to patients or clinicians
+    CorrectOptionIndex: 3
+    LevelName: research integrity
+  - QuestionText: 'When a project involves researchers from multiple countries, the
+      ethical review should generally:'
+    Options:
+    - Follow the standards of the country with the most lenient regulations
+    - Apply the standards of the funding agency's country
+    - Apply the ethical standards of each country where the research is conducted
+    - Ignore international differences
+    CorrectOptionIndex: 2
+    LevelName: research integrity
+  - QuestionText: 'The ultimate responsibility for the integrity of a published manuscript
+      lies with the:'
+    Options:
+    - Journal editor
+    - Peer reviewers
+    - Corresponding author only
+    - All listed authors
+    CorrectOptionIndex: 3
+    LevelName: research integrity

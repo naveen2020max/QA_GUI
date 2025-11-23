@@ -1,0 +1,459 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: wertheimer - personality
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Max Wertheimer is best known as the founding figure of which school
+      of psychology?
+    Options:
+    - Behaviorism
+    - Psychoanalysis
+    - Gestalt Psychology
+    - Functionalism
+    CorrectOptionIndex: 2
+    LevelName: wertheimer - personality
+  - QuestionText: The famous principle "The whole is other than the sum of its parts"
+      is a cornerstone of which psychological approach?
+    Options:
+    - Structuralism
+    - Gestalt Psychology
+    - Associationism
+    - Behaviorism
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'Wertheimer''s early research that led to Gestalt psychology was
+      focused on the perception of:'
+    Options:
+    - Depth perception in infants
+    - The phi phenomenon (apparent motion)
+    - Classical conditioning
+    - Dream symbolism
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: Which of the following is NOT one of the fundamental principles
+      of perceptual organization in Gestalt psychology?
+    Options:
+    - Proximity
+    - Closure
+    - Reinforcement
+    - Similarity
+    CorrectOptionIndex: 2
+    LevelName: wertheimer - personality
+  - QuestionText: "The Gestalt principle of \"Pr\xE4gnanz\" states that we tend to
+      perceive things in the:"
+    Options:
+    - Most complex way possible.
+    - Simplest, most stable, and organized form possible.
+    - Way we have been conditioned to see them.
+    - Exact detail of their sensory components.
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: "K\xF6hler's experiments with chimpanzees that demonstrated \"insight
+      learning\" were strongly supported by which Gestalt psychologist?"
+    Options:
+    - Sigmund Freud
+    - B.F. Skinner
+    - Max Wertheimer
+    - Ivan Pavlov
+    CorrectOptionIndex: 2
+    LevelName: wertheimer - personality
+  - QuestionText: 'In Gestalt psychology, the organized whole that we perceive is
+      called the:'
+    Options:
+    - Stimulus
+    - Gestalt
+    - Schema
+    - Construct
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'The Gestalt principle that elements that are close together are
+      perceived as a group is called:'
+    Options:
+    - Similarity
+    - Continuity
+    - Proximity
+    - Closure
+    CorrectOptionIndex: 2
+    LevelName: wertheimer - personality
+  - QuestionText: 'Wertheimer''s book "Productive Thinking" emphasized the importance
+      of:'
+    Options:
+    - Rote memorization and drill
+    - Understanding the structural relations in a problem
+    - Reinforcement schedules
+    - Repressing emotional conflicts
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: Which of these concepts is most central to Wertheimer's view of
+      problem-solving?
+    Options:
+    - Stimulus-Response Associations
+    - Insight
+    - Conditioned Reflexes
+    - Defense Mechanisms
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'A teacher presents the following pattern: ( . . ) ( . . ) ( .
+      . ). Students perceive it as three pairs of dots rather than six individual
+      dots. This demonstrates the Gestalt principle of:'
+    Options:
+    - Closure
+    - Figure-Ground
+    - Similarity
+    - Proximity
+    CorrectOptionIndex: 3
+    LevelName: wertheimer - personality
+  - QuestionText: 'When looking at a dashed line, we perceive a single continuous
+      line rather than individual dashes. This illustrates the principle of:'
+    Options:
+    - Closure
+    - Good Continuation
+    - Similarity
+    - Common Fate
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'A student struggling with a math problem suddenly exclaims, "Oh!
+      Now I see how it works!" This "Aha!" experience is best described as:'
+    Options:
+    - Trial-and-error learning
+    - Insight learning
+    - Operant conditioning
+    - Latent learning
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'According to Wertheimer, "productive thinking" occurs when a learner:'
+    Options:
+    - Memorizes formulas perfectly.
+    - Repeats a procedure until it becomes automatic.
+    - Re-structures the problem to see the underlying relationships.
+    - Focuses on each isolated element of the problem.
+    CorrectOptionIndex: 2
+    LevelName: wertheimer - personality
+  - QuestionText: 'The phi phenomenon, studied by Wertheimer, demonstrates that:'
+    Options:
+    - Our perception can create an illusion of movement from stationary images.
+    - All learning is based on stimulus-response connections.
+    - Personality is determined by unconscious forces.
+    - Memory decays rapidly without rehearsal.
+    CorrectOptionIndex: 0
+    LevelName: wertheimer - personality
+  - QuestionText: 'A teacher who asks students to find patterns and relationships
+      in historical events rather than just memorizing dates is promoting:'
+    Options:
+    - Reproductive thinking
+    - Productive thinking
+    - Rote learning
+    - Conditioned responses
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'In a picture of a vase that can also be seen as two faces, the
+      ability to switch between seeing the vase and the faces demonstrates the Gestalt
+      principle of:'
+    Options:
+    - Proximity
+    - Closure
+    - Figure-Ground
+    - Similarity
+    CorrectOptionIndex: 2
+    LevelName: wertheimer - personality
+  - QuestionText: 'Wertheimer criticized traditional educational methods for overemphasizing:'
+    Options:
+    - Understanding structural relationships
+    - Blind, mechanical repetition and rote learning
+    - The role of insight in problem-solving
+    - The importance of perceptual organization
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'The Gestalt view of learning suggests that meaningful learning
+      occurs through:'
+    Options:
+    - The gradual strengthening of S-R bonds
+    - The memorization of isolated facts
+    - The reinforcement of correct responses
+    - The reorganization of cognitive structures
+    CorrectOptionIndex: 3
+    LevelName: wertheimer - personality
+  - QuestionText: 'A student who can apply a learned mathematical concept to a completely
+      novel situation in physics has likely engaged in:'
+    Options:
+    - Reproductive thinking
+    - Productive thinking
+    - Mental set
+    - Functional fixedness
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'Critically analyzing traditional education from a Gestalt perspective,
+      a major flaw would be that it often treats knowledge as:'
+    Options:
+    - A series of interconnected insights.
+    - A collection of isolated, unrelated facts to be memorized.
+    - A holistic structure to be understood.
+    - A product of perceptual organization.
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'A math teacher presents the area of a rectangle, then a parallelogram,
+      and asks students to discover the relationship. This approach is most aligned
+      with Wertheimer''s emphasis on:'
+    Options:
+    - Drill and practice
+    - Breaking problems into smallest parts
+    - Reinforcement for correct answers
+    - Discovering fundamental structural principles
+    CorrectOptionIndex: 3
+    LevelName: wertheimer - personality
+  - QuestionText: 'Comparing Gestalt psychology to Behaviorism, a fundamental difference
+      is that Gestalt psychology emphasizes:'
+    Options:
+    - The importance of observable behavior over mental processes.
+    - The active organization of perception and cognition by the mind.
+    - Learning as a process of accumulating stimulus-response associations.
+    - The environment as the sole determinant of behavior.
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'A student is stuck on a problem because they can only see the
+      objects involved in their conventional uses. A Gestalt psychologist would say
+      the student is experiencing:'
+    Options:
+    - Insight
+    - Positive Reinforcement
+    - The Phi Phenomenon
+    - Functional Fixedness
+    CorrectOptionIndex: 3
+    LevelName: wertheimer - personality
+  - QuestionText: 'In the context of organizational problem-solving, "groupthink"
+      is a major barrier because it:'
+    Options:
+    - Encourages too much divergent thinking.
+    - Suppresses dissent and critical evaluation in favor of group cohesion.
+    - Relies too heavily on algorithms.
+    - Promotes functional fixedness.
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'A problem-solving strategy that is particularly useful when the
+      goal state is clearly defined, but the path to it is not, is:'
+    Options:
+    - Trial and Error
+    - Working Backwards
+    - Means-End Analysis
+    - Using an Analogy
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'Research on expertise suggests that a key difference between chess
+      masters and novices is that masters:'
+    Options:
+    - Consider more possible moves in their head.
+    - Have a better memory for random board positions.
+    - Recognize meaningful patterns and chunks of pieces from their vast experience.
+    - Use trial and error more efficiently.
+    CorrectOptionIndex: 2
+    LevelName: wertheimer - personality
+  - QuestionText: 'A teacher who asks, "How is this math problem similar to the one
+      we solved yesterday?" is explicitly prompting students to use:'
+    Options:
+    - Functional Fixedness
+    - Analogical Transfer
+    - Mental Set
+    - Divergent Thinking
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'The "confirmation bias" hinders problem-solving by leading individuals
+      to:'
+    Options:
+    - Seek out information that contradicts their hypothesis.
+    - Rely solely on algorithms.
+    - Generate an unlimited number of alternatives.
+    - Seek out information that confirms their existing beliefs or hypotheses.
+    CorrectOptionIndex: 3
+    LevelName: wertheimer - personality
+  - QuestionText: 'The most effective problem-solvers are typically those who:'
+    Options:
+    - Stick to one strategy until it works.
+    - Possess a flexible repertoire of strategies and can monitor their progress.
+    - Avoid heuristics at all costs.
+    - Work exclusively alone.
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'In Gestalt psychology, the concept of "insight" involves a sudden:'
+    Options:
+    - Application of a learned algorithm.
+    - Restructuring of the problem's perceptual field.
+    - Use of the availability heuristic.
+    - Onset of functional fixedness.
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'A major challenge in solving ill-defined problems is that:'
+    Options:
+    - The solution path is always obvious.
+    - They do not require incubation.
+    - They can only be solved using algorithms.
+    - The problem solver must often define the goal and constraints themselves.
+    CorrectOptionIndex: 3
+    LevelName: wertheimer - personality
+  - QuestionText: 'The "problem-solving cycle" is considered cyclical rather than
+      linear because:'
+    Options:
+    - People rarely solve problems correctly on the first try.
+    - Evaluation often leads back to redefining the problem or selecting a new strategy.
+    - Insight always occurs at the beginning.
+    - It is impossible to identify a problem correctly at the start.
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'A software developer who creates a "prototype" or a minimal version
+      of a program to test an idea is using a strategy that helps to:'
+    Options:
+    - Commit to the first solution.
+    - Avoid the incubation period.
+    - Induce functional fixedness.
+    - Make an ill-defined problem more well-defined through action and feedback.
+    CorrectOptionIndex: 3
+    LevelName: wertheimer - personality
+  - QuestionText: 'The concept of "lateral thinking," coined by Edward de Bono, emphasizes:'
+    Options:
+    - A strict, logical, step-by-step approach.
+    - Looking at a problem from new and unusual perspectives.
+    - Deepening one's knowledge in a single domain.
+    - The use of complex algorithms.
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'A key educational implication of problem-solving research is that
+      instruction should focus on:'
+    Options:
+    - Teaching a single, most efficient algorithm for each subject.
+    - Eliminating the use of heuristics.
+    - Ensuring students never experience an impasse.
+    - Teaching metacognitive skills and a variety of problem-solving strategies.
+    CorrectOptionIndex: 3
+    LevelName: wertheimer - personality
+  - QuestionText: 'The "overconfidence effect" can be a barrier to effective problem-solving
+      because it may lead a person to:'
+    Options:
+    - Seek diverse opinions and feedback.
+    - Persist with an incorrect solution for too long.
+    - Underestimate their abilities and give up easily.
+    - Rely too heavily on insight.
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: In a team setting, "brainstorming" is a technique designed to overcome
+      which common barrier?
+    Options:
+    - Functional Fixedness
+    - The incubation period
+    - The use of analogies
+    - Premature criticism and judgment of ideas
+    CorrectOptionIndex: 3
+    LevelName: wertheimer - personality
+  - QuestionText: 'The ability to overcome functional fixedness and mental set is
+      most closely associated with:'
+    Options:
+    - Crystallized Intelligence
+    - Creativity and Divergent Thinking
+    - High scores on standardized tests
+    - The use of trial and error
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'The ultimate goal of teaching problem-solving skills in education
+      is to equip students to:'
+    Options:
+    - Memorize solutions to common problems.
+    - Become independent, adaptable learners who can tackle novel challenges.
+    - Perform well only on standardized tests.
+    - Avoid making any mistakes.
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'A teacher who values creativity would most likely respond to an
+      unconventional student idea by:'
+    Options:
+    - Immediately dismissing it as wrong.
+    - Ignoring it and moving on.
+    - Punishing the student for not following directions.
+    - Asking questions to understand the student's thinking and explore its potential.
+    CorrectOptionIndex: 3
+    LevelName: wertheimer - personality
+  - QuestionText: 'A school that implements a comprehensive mental hygiene program
+      is primarily focusing on:'
+    Options:
+    - Tertiary prevention
+    - Primary prevention
+    - Crisis intervention only
+    - Reactive treatment
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'The relationship between mental hygiene and academic achievement
+      can be best described as:'
+    Options:
+    - Unrelated aspects of student development
+    - Positively correlated, with good mental hygiene supporting learning
+    - Negatively correlated, as focus on mental health reduces academic time
+    - Only relevant for special education students
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'A teacher practicing mental hygiene principles would likely:'
+    Options:
+    - Ignore emotional issues to focus solely on academics
+    - Encourage competition that causes significant stress
+    - Refer all emotional matters to the school counselor immediately
+    - Create a classroom environment that supports emotional safety
+    CorrectOptionIndex: 3
+    LevelName: wertheimer - personality
+  - QuestionText: 'The shift from institutional care to community-based mental health
+      services was strongly influenced by:'
+    Options:
+    - The mental hygiene movement's advocacy
+    - Decreased funding for hospitals
+    - Lack of medical professionals
+    - Pharmaceutical company policies
+    CorrectOptionIndex: 0
+    LevelName: wertheimer - personality
+  - QuestionText: 'Mental hygiene in workplace settings typically focuses on:'
+    Options:
+    - Increasing working hours for higher productivity
+    - Reducing labor costs by cutting benefits
+    - Creating supportive environments that prevent burnout
+    - Identifying and firing employees with mental health issues
+    CorrectOptionIndex: 2
+    LevelName: wertheimer - personality
+  - QuestionText: 'A key difference between mental hygiene and traditional psychotherapy
+      is that mental hygiene:'
+    Options:
+    - Is only for severely mentally ill individuals
+    - Emphasizes prevention and applies to everyone
+    - Requires medical certification to practice
+    - Focuses exclusively on childhood trauma
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'The concept of "emotional first aid" in mental hygiene refers
+      to:'
+    Options:
+    - Immediate psychiatric hospitalization
+    - Basic skills to address everyday emotional challenges
+    - Advanced psychoanalytic techniques
+    - Medication for anxiety disorders
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality
+  - QuestionText: 'A community mental health center offering parenting classes and
+      stress management workshops is practicing:'
+    Options:
+    - Tertiary prevention
+    - Diagnostic assessment
+    - Only crisis intervention
+    - Primary prevention
+    CorrectOptionIndex: 3
+    LevelName: wertheimer - personality
+  - QuestionText: 'Mental hygiene education in schools is most effective when it:'
+    Options:
+    - Is taught as a separate subject once a year
+    - Is integrated throughout the school environment and curriculum
+    - Focuses only on students with identified problems
+    - Is optional for interested students only
+    CorrectOptionIndex: 1
+    LevelName: wertheimer - personality

@@ -1,0 +1,460 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: nature, need - guidance
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The primary focus of educational guidance is to:'
+    Options:
+    - Solve personal emotional problems
+    - Assist students in their academic growth and development
+    - Provide financial aid to students
+    - Ensure strict discipline in the school
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: Which principle of guidance asserts that it is a continuous process
+      throughout an individual's life?
+    Options:
+    - Principle of Holistic Development
+    - Principle of Individual Differences
+    - Principle of Continuity
+    - Principle of Cooperation
+    CorrectOptionIndex: 2
+    LevelName: nature, need - guidance
+  - QuestionText: A student is confused between pursuing Engineering or Fine Arts.
+      Which type of guidance service is most needed?
+    Options:
+    - Personal Guidance
+    - Vocational Guidance
+    - Educational Guidance
+    - Social Guidance
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'Counselling is best described as:'
+    Options:
+    - Giving expert advice to solve a problem
+    - A process of information dissemination
+    - A helping relationship to facilitate self-understanding and decision-making
+    - A disciplinary action for deviant behavior
+    CorrectOptionIndex: 2
+    LevelName: nature, need - guidance
+  - QuestionText: 'According to the principle of confidentiality in counselling,
+      a counsellor must:'
+    Options:
+    - Share all information with the principal
+    - Disclose information only with the client's consent or in cases of imminent
+      danger
+    - Discuss cases with other teachers for better input
+    - Keep all records open for parents to review
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'The main goal of "placement service" in guidance is to:'
+    Options:
+    - Place students in appropriate jobs or educational streams
+    - Place students in detention for misconduct
+    - Arrange seating arrangements in the classroom
+    - Allocate students to different houses in school
+    CorrectOptionIndex: 0
+    LevelName: nature, need - guidance
+  - QuestionText: Which of the following is a key difference between guidance and
+      counselling?
+    Options:
+    - Guidance is for groups, while counselling is only for individuals.
+    - Guidance is preventive and developmental, while counselling is more curative
+      and therapeutic.
+    - Counselling is provided by teachers, while guidance is provided by experts.
+    - There is no significant difference between the two.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'The "follow-up service" in a school guidance program is essential
+      to:'
+    Options:
+    - Punish former students who are not successful
+    - Evaluate the effectiveness of the guidance provided and make improvements
+    - Collect fees from alumni
+    - Monitor the personal lives of ex-students
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: Who is often regarded as the "Father of Guidance"?
+    Options:
+    - Carl Rogers
+    - Sigmund Freud
+    - Frank Parsons
+    - John Dewey
+    CorrectOptionIndex: 2
+    LevelName: nature, need - guidance
+  - QuestionText: 'The principle of "acceptance" in counselling implies that the
+      counsellor:'
+    Options:
+    - Accepts the client's views without question
+    - Creates a non-judgmental environment where the client feels valued
+    - Accepts gifts from the client as a token of gratitude
+    - Agrees with all the client's actions
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'A teacher notices a student''s performance has suddenly dropped
+      and they have become withdrawn. The teacher''s most appropriate first step
+      should be to:'
+    Options:
+    - Ignore it, as it might be a temporary phase.
+    - Immediately call the parents and complain.
+    - Provide empathetic guidance and, if needed, refer the student to the school
+      counsellor.
+    - Scold the student in front of the class for not studying.
+    CorrectOptionIndex: 2
+    LevelName: nature, need - guidance
+  - QuestionText: 'In the context of counselling, "empathy" is best defined as:'
+    Options:
+    - Feeling sorry for the client's situation.
+    - Understanding and feeling the client's emotional experience from their frame
+      of reference.
+    - Sharing one's own similar experiences with the client.
+    - Sympathizing with the client's problems.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: A school implements a program on "Cyber Safety and Digital Citizenship"
+      for all students. This initiative falls primarily under which type of guidance?
+    Options:
+    - Personal Guidance
+    - Vocational Guidance
+    - Preventive Guidance
+    - Curative Counselling
+    CorrectOptionIndex: 2
+    LevelName: nature, need - guidance
+  - QuestionText: If a counsellor believes that a client's potential for growth is
+      determined by their past experiences and unconscious motives, they are most
+      likely adhering to which theoretical orientation?
+    Options:
+    - Person-Centered Therapy
+    - Behavioral Therapy
+    - Psychoanalytic Therapy
+    - Cognitive-Behavioral Therapy
+    CorrectOptionIndex: 2
+    LevelName: nature, need - guidance
+  - QuestionText: 'The concept of "Individual Differences" as a principle of guidance
+      necessitates that:'
+    Options:
+    - All students should be treated exactly the same for fairness.
+    - Guidance programs must be flexible to cater to the unique needs of each student.
+    - Only gifted students should receive special guidance.
+    - It is not practical to consider in a large classroom.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: A student who is a first-generation learner from a rural background
+      is struggling to adjust to a metropolitan university. Which service of guidance
+      is most critical to help this student?
+    Options:
+    - Orientation Service
+    - Placement Service
+    - Research Service
+    - Information Service
+    CorrectOptionIndex: 0
+    LevelName: nature, need - guidance
+  - QuestionText: 'Critically analyzing the statement: "Guidance is for all, but
+      not the same for all." This statement emphasizes the principles of:'
+    Options:
+    - Universality and Individualization
+    - Elitism and Segregation
+    - Cooperation and Confidentiality
+    - Remediation and Punishment
+    CorrectOptionIndex: 0
+    LevelName: nature, need - guidance
+  - QuestionText: 'In a culturally diverse classroom, a counsellor must be especially
+      mindful of:'
+    Options:
+    - Imposing their own cultural values on the client.
+    - Using standardized tests without considering cultural context.
+    - The client's cultural background and its influence on their worldview.
+    - All of the above.
+    CorrectOptionIndex: 3
+    LevelName: nature, need - guidance
+  - QuestionText: 'A school''s guidance program is often criticized for being reactive
+      (dealing with crises) rather than proactive (preventing problems). To address
+      this, the program should integrate more:'
+    Options:
+    - Long-term psychoanalysis for selected students.
+    - Developmental and preventive activities in the regular curriculum.
+    - Strict disciplinary measures.
+    - Competitive career aptitude tests.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'A student excels in mathematics but is under immense family pressure
+      to pursue medical science. The ethical dilemma for the counsellor involves
+      balancing:'
+    Options:
+    - The principle of confidentiality vs. the need to inform the parents.
+    - The student's self-awareness and autonomy vs. familial expectations and cultural
+      norms.
+    - The school's reputation vs. the student's happiness.
+    - The cost of engineering versus medical education.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: "Evaluating the effectiveness of a school's career guidance program,
+      which metric would be the\_least\_directly useful?"
+    Options:
+    - Student satisfaction surveys.
+    - The number of students placed in high-salary jobs.
+    - The reduction in the number of students changing their stream after Class XII.
+    - The number of career-related seminars conducted.
+    CorrectOptionIndex: 3
+    LevelName: nature, need - guidance
+  - QuestionText: 'A teacher uses a "Circle Time" activity where students share their
+      feelings. This strategy primarily promotes:'
+    Options:
+    - Academic excellence.
+    - Personal and social development through guidance.
+    - Vocational skill development.
+    - Competitive spirit.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: The "trait-and-factor" theory of counselling, pioneered by Frank
+      Parsons, is most applicable to which modern guidance service?
+    Options:
+    - Personal Counselling for anxiety
+    - Career Counselling and aptitude matching
+    - Group Therapy for addiction
+    - Crisis Intervention for trauma
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'If a guidance program is to be truly "comprehensive," it must:'
+    Options:
+    - Focus only on the top 10% and bottom 10% of students.
+    - Be an integral part of the total educational program for all students.
+    - Be managed solely by an external agency.
+    - Function independently of the school's academic goals.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: A counsellor who uses techniques like active listening, unconditional
+      positive regard, and genuineness is practicing which approach?
+    Options:
+    - Behavioral
+    - Cognitive
+    - Person-Centered
+    - Reality Therapy
+    CorrectOptionIndex: 2
+    LevelName: nature, need - guidance
+  - QuestionText: 'The need for guidance in modern education has increased primarily
+      due to:'
+    Options:
+    - Decrease in the number of students.
+    - Reduction in curriculum complexity.
+    - Expansion of educational and career opportunities and complex social challenges.
+    - The lack of qualified teachers.
+    CorrectOptionIndex: 2
+    LevelName: nature, need - guidance
+  - QuestionText: 'In a counselling session, a client says, "I''m so stupid; I always
+      fail." A counsellor using a Cognitive-Behavioral approach would most likely:'
+    Options:
+    - Explore the client's childhood experiences with failure.
+    - Help the client identify and challenge this irrational self-statement.
+    - Provide unconditional positive regard to make them feel better.
+    - Refer the client for psychiatric evaluation.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'The "inventory service" in guidance involves:'
+    Options:
+    - Taking stock of school furniture.
+    - Collecting and using data about student characteristics (aptitude, interest,
+      personality).
+    - Inventorying the financial assets of students.
+    - Checking the attendance inventory.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'A student confides in a counsellor about being bullied. The counsellor''s
+      immediate priority should be to:'
+    Options:
+    - Assure the student's safety and well-being.
+    - Promise complete confidentiality and do nothing.
+    - Immediately confront the bully without planning.
+    - Ignore it as a normal part of growing up.
+    CorrectOptionIndex: 0
+    LevelName: nature, need - guidance
+  - QuestionText: 'The term "catharsis" in the counselling process refers to:'
+    Options:
+    - The final solution to a problem.
+    - The emotional release experienced by the client when sharing pent-up feelings.
+    - The counsellor's interpretation of a dream.
+    - The cognitive restructuring of a thought.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: Which of the following is NOT typically a function of a school
+      counsellor?
+    Options:
+    - Administering psychological tests.
+    - Teaching regular academic subjects as a primary duty.
+    - Providing crisis intervention.
+    - Consulting with teachers and parents.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'The principle of "self-worth" in guidance emphasizes that:'
+    Options:
+    - Only high-achieving students have inherent worth.
+    - Every individual has dignity and value and should be respected.
+    - A student's worth is determined by their grades.
+    - Guidance should focus only on building self-esteem.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'A guidance program that focuses on helping students develop effective
+      study habits, time management, and goal-setting skills is primarily addressing:'
+    Options:
+    - Vocational needs
+    - Personal-social needs
+    - Academic/Educational needs
+    - Recreational needs
+    CorrectOptionIndex: 2
+    LevelName: nature, need - guidance
+  - QuestionText: 'In the context of ethical practice, "dual relationship" for a
+      counsellor is problematic because it:'
+    Options:
+    - Increases the counsellor's social network.
+    - Can impair objectivity, create conflicts of interest, and exploit the client.
+    - Is a required part of building rapport.
+    - Saves time and resources.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'A class is dealing with the sudden death of a classmate. The most
+      appropriate role for the guidance counsellor here is:'
+    Options:
+    - To continue with the scheduled guidance curriculum.
+    - To provide crisis counselling and grief support to the affected students.
+    - To advise the school to suspend classes for a month.
+    - To avoid the situation to prevent emotional attachment.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'The "directive" approach to counselling is characterized by:'
+    Options:
+    - The counsellor being non-judgmental and reflective.
+    - The counsellor taking a leading role by advising, prescribing, and directing
+      the client.
+    - The client directing the session entirely.
+    - A focus on the client's unconscious mind.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'The ultimate aim of guidance is to:'
+    Options:
+    - Make students dependent on the counsellor.
+    - Guarantee a high-paying job for every student.
+    - Ensure students always obey their parents.
+    - Foster an individual's ability to be self-directing and self-actualizing.
+    CorrectOptionIndex: 3
+    LevelName: nature, need - guidance
+  - QuestionText: 'A school introduces a peer-tutoring program where senior students
+      guide juniors. This initiative aligns with the guidance principle of:'
+    Options:
+    - Specialization
+    - Cooperation (utilizing peer resources)
+    - Isolation
+    - Elitism
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: Which counselling theory would be most focused on changing a client's
+      specific maladaptive behavior through techniques like reinforcement?
+    Options:
+    - Psychodynamic Therapy
+    - Behavioral Therapy
+    - Existential Therapy
+    - Person-Centered Therapy
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'The "information service" in a guidance program provides students
+      with data related to:'
+    Options:
+    - Their personal secrets.
+    - Other students' academic records.
+    - Confidential teacher reports.
+    - Educational, vocational, and personal-social opportunities.
+    CorrectOptionIndex: 3
+    LevelName: nature, need - guidance
+  - QuestionText: 'A student says, "My parents will kill me if I don''t become an
+      engineer." A skilled counsellor would respond with:'
+    Options:
+    - '"You should listen to your parents; they know best."'
+    - '"That''s a very strong feeling. Can you tell me more about what you want for
+      your future?"'
+    - '"Well, engineering is a good field."'
+    - '"Don''t worry, everything will be fine."'
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'The concept of "non-directive" counselling was primarily popularized
+      by:'
+    Options:
+    - B.F. Skinner
+    - Albert Ellis
+    - Carl Rogers
+    - Frank Parsons
+    CorrectOptionIndex: 2
+    LevelName: nature, need - guidance
+  - QuestionText: Which of the following is a "hard skill" that a guidance counsellor
+      must possess?
+    Options:
+    - Empathy
+    - Knowledge of psychological assessment tools
+    - Patience
+    - Cultural sensitivity
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'A guidance program that is "developmental" in nature is primarily
+      concerned with:'
+    Options:
+    - Fixing severe psychological disorders.
+    - Identifying and nurturing the potential of all students at different stages
+      of growth.
+    - Providing financial guidance.
+    - Punishing students with behavioral issues.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'In a parent-teacher meeting, a parent insists on knowing everything
+      discussed in their child''s counselling session. The counsellor should:'
+    Options:
+    - Disclose all details to maintain a good relationship with the parent.
+    - Share information only if the child is present and consents.
+    - Refuse to speak to the parent any further.
+    - Firmly explain the ethical principle of confidentiality and its limits, focusing
+      on the child's best interest.
+    CorrectOptionIndex: 3
+    LevelName: nature, need - guidance
+  - QuestionText: 'The "Eclectic Approach" in counselling means the counsellor:'
+    Options:
+    - Sticks rigidly to one theoretical model.
+    - Selects and integrates techniques from various theories based on the client's
+      needs.
+    - Focuses solely on the client's ecosystem.
+    - A approach that is exclusively behavioral.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: 'A school''s failure to have a structured guidance program can
+      lead to:'
+    Options:
+    - Increased student dropout rates and maladjustment.
+    - Improved academic results as teachers focus only on teaching.
+    - Reduced workload for the school administration.
+    - More disciplined students.
+    CorrectOptionIndex: 0
+    LevelName: nature, need - guidance
+  - QuestionText: 'The primary purpose of "rapport building" in the initial stage
+      of counselling is to:'
+    Options:
+    - Become friends with the client.
+    - Establish a foundation of trust and a working alliance.
+    - Extract personal information quickly.
+    - Decide on the fees for the session.
+    CorrectOptionIndex: 1
+    LevelName: nature, need - guidance
+  - QuestionText: Which service is specifically designed to help students transition
+      from one educational level to another (e.g., from school to college)?
+    Options:
+    - Counselling Service
+    - Placement Service
+    - Orientation Service
+    - Research Service
+    CorrectOptionIndex: 2
+    LevelName: nature, need - guidance

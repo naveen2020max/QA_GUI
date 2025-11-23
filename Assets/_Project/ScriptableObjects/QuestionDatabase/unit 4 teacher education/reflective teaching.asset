@@ -1,0 +1,454 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: reflective teaching
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary goal of reflective teaching?
+    Options:
+    - To prove one's teaching methods are correct
+    - To improve student learning and professional practice
+    - To complete administrative paperwork
+    - To compare oneself favorably with colleagues
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: Which of the following is a key characteristic of a reflective
+      teacher?
+    Options:
+    - Strict adherence to a prescribed curriculum
+    - Reliance on intuition without analysis
+    - Critical examination of one's own beliefs and practices
+    - Avoidance of new teaching methods
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: 'The "What? So What? Now What?" model is a framework for:'
+    Options:
+    - Lesson planning
+    - Student assessment
+    - Classroom management
+    - Structured reflection
+    CorrectOptionIndex: 3
+    LevelName: reflective teaching
+  - QuestionText: 'Maintaining a reflective journal primarily serves to:'
+    Options:
+    - Fulfill a course requirement
+    - Provide a record for school inspection
+    - Document experiences and facilitate self-dialogue
+    - Share all personal thoughts with the principal
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: 'In the context of reflective teaching, ''critical incident analysis''
+      refers to:'
+    Options:
+    - Analyzing a student's failure
+    - Reflecting on a significant classroom event to derive meaning
+    - Criticizing a colleague's teaching method
+    - Investigating a disciplinary issue
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: Which strategy involves teachers collaboratively planning, observing,
+      and refining a single lesson?
+    Options:
+    - Peer coaching
+    - Lesson study
+    - Micro-teaching
+    - Workshop
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: A teacher analyzing video recordings of their own teaching is using
+      which strategy for reflection?
+    Options:
+    - Action research
+    - Journaling
+    - Direct observation and analysis
+    - Portfolio development
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: 'The role of a mentor in promoting reflective teaching is best
+      described as a:'
+    Options:
+    - Evaluator
+    - Facilitator who asks probing questions
+    - Source of all correct answers
+    - Disciplinarian
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: Which of the following questions is MOST likely to promote reflective
+      thinking?
+    Options:
+    - '"Did you cover the syllabus today?"'
+    - '"Will you use the same activity tomorrow?"'
+    - '"How many students passed the test?"'
+    - '"Why do you think your explanation of that concept was effective for some
+      students but not others?"'
+    CorrectOptionIndex: 3
+    LevelName: reflective teaching
+  - QuestionText: 'Reflective teaching is best understood as a:'
+    Options:
+    - Linear process with a clear end point
+    - Cyclical and ongoing process
+    - One-time activity at the end of a term
+    - Theoretical concept with no practical application
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: If a teacher uses student feedback to redesign a unit plan, they
+      are engaging in which phase of the reflective cycle?
+    Options:
+    - Description
+    - Analysis
+    - Action Planning
+    - Evaluation
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: 'A school allocates specific time every week for teachers to discuss
+      student work and teaching challenges. This initiative is promoting:'
+    Options:
+    - Administrative compliance
+    - Collaborative reflection
+    - Independent planning
+    - Parent-teacher communication
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: Which of the following is the LEAST effective way to promote a
+      reflective culture in a school?
+    Options:
+    - Encouraging risk-taking and viewing mistakes as learning opportunities
+    - Prioritizing high-stakes test scores as the only measure of success
+    - Implementing structured peer observation programs
+    - Providing training on reflective models and frameworks
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'A teacher educator asks student-teachers to write about a time
+      a lesson did not go as planned and what they learned from it. This is an example
+      of using:'
+    Options:
+    - A standardized test
+    - A reflective portfolio
+    - Critical incident analysis
+    - Summative assessment
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: 'The main purpose of a teaching portfolio in reflective practice
+      is to:'
+    Options:
+    - Showcase only successful lessons and achievements
+    - Provide a comprehensive and curated record of professional growth over time
+    - Serve as a public relations tool for the school
+    - Replace all other forms of assessment
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'According to Dewey, reflection is triggered by:'
+    Options:
+    - A state of certainty
+    - Receiving positive feedback
+    - Following instructions precisely
+    - A state of confusion or doubt
+    CorrectOptionIndex: 3
+    LevelName: reflective teaching
+  - QuestionText: Which strategy involves a teacher systematically investigating
+      a problem in their own classroom?
+    Options:
+    - Peer observation
+    - Action research
+    - Lesson study
+    - Journaling
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: A reflective teacher, after a lesson, considers how the cultural
+      backgrounds of students might have influenced their engagement. This demonstrates
+      reflection at which level?
+    Options:
+    - Technical (focus on skills)
+    - Practical (focus on assumptions and student meaning)
+    - Critical (focus on ethical and social context)
+    - Superficial (focus on surface events)
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: 'The phrase "reflection-on-action" refers to:'
+    Options:
+    - Thinking while teaching
+    - Thinking after teaching has occurred
+    - Planning before teaching
+    - Ignoring past experiences
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: What is a significant barrier to promoting reflective teaching?
+    Options:
+    - Lack of time and a culture of performance pressure
+    - Too much collaboration among staff
+    - An overabundance of professional development opportunities
+    - Teachers' inherent inability to reflect
+    CorrectOptionIndex: 0
+    LevelName: reflective teaching
+  - QuestionText: 'A teacher thinks, "The group work was chaotic because I didn''t
+      set clear roles. Next time, I will assign specific tasks." This is an example
+      of:'
+    Options:
+    - Justification of action
+    - Blaming students
+    - Surface-level reflection
+    - Descriptive and analytical reflection leading to an action plan
+    CorrectOptionIndex: 3
+    LevelName: reflective teaching
+  - QuestionText: Which tool is specifically designed to structure reflection by
+      moving through stages like Description, Feelings, Evaluation, and Analysis?
+    Options:
+    - SWOT Analysis
+    - Gibbs' Reflective Cycle
+    - SMART Goals
+    - Bloom's Taxonomy
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'The concept of the "reflective practitioner" was extensively popularized
+      by:'
+    Options:
+    - Benjamin Bloom
+    - B.F. Skinner
+    - "Donald Sch\xF6n"
+    - Lee Shulman
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: 'In a peer observation focused on reflection, the observer''s primary
+      role is to:'
+    Options:
+    - Grade the teacher's performance
+    - Provide a judgment of "good" or "bad"
+    - Collect descriptive data and act as a critical friend
+    - Take over the class if needed
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: 'Reflective teaching is essential in the 21st century primarily
+      because it:'
+    Options:
+    - Is a mandatory requirement for teacher certification
+    - Helps teachers adapt to diverse and rapidly changing classrooms
+    - Makes lesson planning faster
+    - Reduces the need for professional development
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'When a teacher questions the underlying assumptions and power
+      structures within the school curriculum, they are engaging in:'
+    Options:
+    - Technical reflection
+    - Practical reflection
+    - Critical reflection
+    - Deliberative reflection
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: Which of the following is an outcome of effective reflective practice?
+    Options:
+    - Increased rigidity in teaching methods
+    - Defensiveness about one's teaching style
+    - Enhanced pedagogical decision-making
+    - Dependence on external validation
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: 'A Professional Learning Community (PLC) supports reflective teaching
+      by:'
+    Options:
+    - Isolating teachers in their classrooms
+    - Creating a forum for collaborative inquiry and shared responsibility
+    - Focusing solely on administrative announcements
+    - Enforcing a standardized teaching method for all
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'The first step in most reflective cycles is typically:'
+    Options:
+    - Developing an action plan
+    - Describing the experience
+    - Analyzing the causes
+    - Evaluating the outcomes
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'A teacher who only asks, "What went well today?" without probing
+      deeper is likely engaging in:'
+    Options:
+    - Critical reflection
+    - Technical rationality
+    - Superficial reflection
+    - Action research
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: 'Analyzing student assessment data to identify patterns and adjust
+      instruction is a form of:'
+    Options:
+    - Reflection-in-action
+    - Evidence-based reflection
+    - Intuitive teaching
+    - Summative evaluation
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: "Donald Sch\xF6n's concept of \"reflection-in-action\" refers to
+      the ability to:"
+    Options:
+    - Think carefully after a lesson is over
+    - Think on your feet and adjust your teaching in the moment
+    - Write a detailed lesson plan
+    - Reflect only during scheduled times
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'A strategy that involves collecting and selecting artifacts to
+      demonstrate professional growth is:'
+    Options:
+    - Peer observation
+    - Maintaining a teaching portfolio
+    - Critical incident analysis
+    - Micro-teaching
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'For reflection to be meaningful, it must be:'
+    Options:
+    - Always positive and uncritical
+    - Based solely on personal feelings
+    - Done in isolation
+    - Linked to future action and change
+    CorrectOptionIndex: 3
+    LevelName: reflective teaching
+  - QuestionText: 'A school leader who wants to foster reflection should primarily:'
+    Options:
+    - Only reward high test scores
+    - Create a safe environment for sharing and risk-taking
+    - Publicly criticize teaching failures
+    - Mandate a single reflective model for all
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: Which of the following is a product of reflective teaching rather
+      than a process?
+    Options:
+    - Journaling
+    - Peer observation
+    - A revised and improved lesson plan
+    - Asking "why" questions
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: 'The "Analysis" stage in a reflective model involves:'
+    Options:
+    - Simply listing what happened
+    - Explaining why things happened the way they did
+    - Making a value judgment
+    - Planning for the next lesson
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'A teacher reflecting at a practical level would be concerned with:'
+    Options:
+    - The efficiency of a teaching technique
+    - The educational consequences of their actions and their underlying assumptions
+    - The political and ethical implications of the curriculum
+    - The alignment with national standards
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: Which strategy is most focused on generating actionable knowledge
+      for a specific classroom context?
+    Options:
+    - Attending a national conference
+    - Reading a theoretical book on education
+    - Conducting action research
+    - Listening to a motivational speaker
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: 'A key difference between a reflective teacher and a non-reflective
+      teacher is that the reflective teacher:'
+    Options:
+    - Never makes mistakes
+    - Views challenges as opportunities for learning
+    - Blames external factors for failures
+    - Follows the textbook page by page
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'The ultimate beneficiary of a teacher''s reflective practice is
+      the:'
+    Options:
+    - School principal
+    - Teacher educator
+    - Student
+    - Teacher themselves
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: Which of these is an essential component of a reflective journal
+      entry?
+    Options:
+    - A record of daily attendance
+    - Critical questioning of one's own decisions
+    - Copies of all worksheets used
+    - Minutes of staff meetings
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'The term "critical friend" in reflective practice refers to a
+      peer who:'
+    Options:
+    - Only offers praise
+    - Provides supportive yet challenging feedback
+    - Focuses on finding faults
+    - Avoids giving any opinion
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'Reflective teaching requires teachers to be:'
+    Options:
+    - Infallible experts
+    - Passive recipients of knowledge
+    - Active, self-directed learners
+    - Detached from their students
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: 'A teacher uses a student survey to gather feedback on their teaching
+      methods. This is an example of using:'
+    Options:
+    - Intuition
+    - External evidence for reflection
+    - Summative assessment
+    - Administrative data
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'The habit of reflection helps a teacher to move from a focus on
+      what they teach to a focus on:'
+    Options:
+    - How quickly they can finish the syllabus
+    - The number of activities completed
+    - How they are perceived by colleagues
+    - What and how students are learning
+    CorrectOptionIndex: 3
+    LevelName: reflective teaching
+  - QuestionText: Which of the following best describes the relationship between
+      reflection and professional development?
+    Options:
+    - Reflection is a separate activity from professional development.
+    - Reflection is the core of continuous professional development.
+    - Professional development makes reflection unnecessary.
+    - Reflection is only for novice teachers.
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'A teacher considering whether their assessment methods are fair
+      to all students, including those from marginalized groups, is engaging in:'
+    Options:
+    - Technical reflection
+    - Practical reflection
+    - Critical reflection
+    - Deliberative reflection
+    CorrectOptionIndex: 2
+    LevelName: reflective teaching
+  - QuestionText: 'The most significant factor in determining whether a reflective
+      strategy will be adopted by teachers is its:'
+    Options:
+    - Complexity
+    - Perceived usefulness and practicality
+    - Cost of implementation
+    - Popularity in other countries
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching
+  - QuestionText: 'A reflective teaching culture in a school is one where:'
+    Options:
+    - Mistakes are hidden
+    - Inquiry, dialogue, and shared learning are valued
+    - Individual competition is encouraged
+    - Teachers work in isolation
+    CorrectOptionIndex: 1
+    LevelName: reflective teaching

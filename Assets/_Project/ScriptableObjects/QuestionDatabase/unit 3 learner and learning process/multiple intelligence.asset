@@ -1,0 +1,476 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: multiple intelligence
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'Howard Gardner''s Theory of Multiple Intelligences was first introduced
+      in his seminal book:'
+    Options:
+    - Emotional Intelligence
+    - 'Frames of Mind: The Theory of Multiple Intelligences'
+    - The Unschooled Mind
+    - Intelligence Reframed
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: Which of the following is NOT one of the original eight intelligences
+      proposed by Howard Gardner?
+    Options:
+    - Naturalist
+    - Existential
+    - Musical
+    - Spiritual
+    CorrectOptionIndex: 3
+    LevelName: multiple intelligence
+  - QuestionText: 'The intelligence that involves sensitivity to the sounds, rhythms,
+      and tones of music is:'
+    Options:
+    - Rhythmic Intelligence
+    - Auditory Intelligence
+    - Musical Intelligence
+    - Harmonic Intelligence
+    CorrectOptionIndex: 2
+    LevelName: multiple intelligence
+  - QuestionText: 'According to Gardner, intelligence is best defined as:'
+    Options:
+    - The ability to score high on standardized tests.
+    - A biopsychological potential to process information that can be activated in
+      a cultural setting.
+    - The capacity for logical reasoning and problem-solving.
+    - The general cognitive ability factor known as 'g'.
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: The ability to discern patterns in the natural world is central
+      to which intelligence?
+    Options:
+    - Environmental
+    - Naturalist
+    - Ecological
+    - Biological
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: Which intelligence involves the capacity to understand oneself,
+      one's emotions, and motivations?
+    Options:
+    - Introspective
+    - Intrapersonal
+    - Internal
+    - Self-Intelligence
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'Gardner added the eighth intelligence, Naturalist Intelligence,
+      after studying the talents of:'
+    Options:
+    - Classical musicians
+    - Expert chess players
+    - Taxonomists and naturalists like Charles Darwin
+    - Computer programmers
+    CorrectOptionIndex: 2
+    LevelName: multiple intelligence
+  - QuestionText: 'The core ability of Bodily-Kinesthetic Intelligence is:'
+    Options:
+    - Superior physical strength
+    - Using one's whole body or parts of the body to solve problems or create products
+    - Excellent hand-eye coordination for sports
+    - The ability to endure physical pain
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: A person who is skilled at understanding and interacting with others
+      possesses high ______ intelligence.
+    Options:
+    - Social
+    - Interpersonal
+    - Communal
+    - Extrapersonal
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'Gardner proposed the possibility of a ninth intelligence, which
+      he called "Existential Intelligence." This intelligence deals with:'
+    Options:
+    - The capacity to tackle deep questions about human existence.
+    - The ability to perform complex mathematical calculations.
+    - Understanding computer languages and systems.
+    - Mastering multiple foreign languages.
+    CorrectOptionIndex: 0
+    LevelName: multiple intelligence
+  - QuestionText: A student who loves to draw, doodle, and create detailed mind maps
+      is likely demonstrating a strength in ______ intelligence.
+    Options:
+    - Spatial
+    - Logical
+    - Intrapersonal
+    - Naturalist
+    CorrectOptionIndex: 0
+    LevelName: multiple intelligence
+  - QuestionText: A teacher who incorporates role-playing, debates, and group projects
+      into their lessons is primarily catering to students with strengths in ______
+      intelligence.
+    Options:
+    - Intrapersonal
+    - Logical-Mathematical
+    - Interpersonal
+    - Naturalist
+    CorrectOptionIndex: 2
+    LevelName: multiple intelligence
+  - QuestionText: 'The main criticism that Gardner''s theory is "not a theory of
+      intelligence but a theory of talents" stems from the fact that:'
+    Options:
+    - It was developed using rigorous statistical factor analysis.
+    - It focuses on abilities that are not highly valued in academic settings.
+    - Some of the intelligences lack strong evidence of being distinct neural systems.
+    - It overemphasizes the role of genetics in ability.
+    CorrectOptionIndex: 2
+    LevelName: multiple intelligence
+  - QuestionText: A farmer who can expertly identify crops, predict weather patterns,
+      and understand animal behavior is likely high in ______ intelligence.
+    Options:
+    - Environmental
+    - Naturalist
+    - Ecological
+    - Biological
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: According to Gardner's theory, a traditional school curriculum
+      heavily emphasizes which two intelligences?
+    Options:
+    - Interpersonal and Intrapersonal
+    - Linguistic and Logical-Mathematical
+    - Spatial and Bodily-Kinesthetic
+    - Musical and Naturalist
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: A dancer or a surgeon would be considered to have a high degree
+      of ______ intelligence.
+    Options:
+    - Spatial
+    - Physical
+    - Bodily-Kinesthetic
+    - Athletic
+    CorrectOptionIndex: 2
+    LevelName: multiple intelligence
+  - QuestionText: 'The key educational implication of the Multiple Intelligences
+      theory is that:'
+    Options:
+    - Teachers should teach every lesson in eight different ways.
+    - Students should be assessed solely through standardized tests.
+    - Instruction and assessment should be varied to address different intelligences.
+    - Schools should focus only on the intelligences where students are weak.
+    CorrectOptionIndex: 2
+    LevelName: multiple intelligence
+  - QuestionText: A poet and a public speaker would both be considered to have a
+      high degree of ______ intelligence.
+    Options:
+    - Communicative
+    - Linguistic
+    - Verbal
+    - Rhetorical
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: A student who is highly self-motivated, reflective, and has a strong
+      sense of their own goals and weaknesses is strong in ______ intelligence.
+    Options:
+    - Introspective
+    - Self-Intelligence
+    - Internal
+    - Intrapersonal
+    CorrectOptionIndex: 3
+    LevelName: multiple intelligence
+  - QuestionText: 'Gardner argued that his theory is supported by evidence from all
+      of the following EXCEPT:'
+    Options:
+    - The existence of prodigies and savants in specific domains.
+    - Psychometric tests showing a strong 'g' factor.
+    - Distinct neural regions dedicated to specific abilities.
+    - A distinct developmental trajectory for each intelligence.
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'A school decides to abolish its traditional music and arts programs
+      to focus more on math and reading. From the perspective of Multiple Intelligences
+      theory, this decision is problematic because it:'
+    Options:
+    - Ignores the potential strengths and development of students with musical and
+      spatial intelligences.
+    - Correctly prioritizes the most important intelligences for future success.
+    - Ensures that all students become proficient in linguistic intelligence.
+    - Is based on the proven superiority of logical-mathematical intelligence.
+    CorrectOptionIndex: 0
+    LevelName: multiple intelligence
+  - QuestionText: 'Critically analyzing Gardner''s theory, a major weakness from
+      a scientific standpoint is that:'
+    Options:
+    - It is too simplistic and only includes two types of intelligence.
+    - Its core intelligences are not easily and independently measurable with reliable
+      tests.
+    - It overemphasizes the role of factor analysis in defining intelligence.
+    - It ignores the biological basis of cognitive abilities.
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'A math teacher who wants to appeal to students with high interpersonal
+      intelligence might:'
+    Options:
+    - Give students a complex problem to solve individually and in silence.
+    - Show a video lecture explaining a mathematical concept.
+    - Provide a list of formulas to memorize for a test.
+    - Have students work in small groups to solve a real-world math problem.
+    CorrectOptionIndex: 3
+    LevelName: multiple intelligence
+  - QuestionText: 'Comparing Gardner''s Theory of Multiple Intelligences to Spearman''s
+      ''g'' factor theory, a fundamental difference is that Gardner:'
+    Options:
+    - Believes intelligence is a single, general ability.
+    - Argues that different cognitive abilities are largely independent of one another.
+    - Focuses exclusively on academic and cognitive skills.
+    - Denies the role of genetics in any intellectual capacity.
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'A student who is struggling with a written history assignment
+      might be allowed to create a detailed timeline with illustrations or a documentary
+      film instead. This differentiation in assessment is a direct application of:'
+    Options:
+    - Standardized testing principles.
+    - The Theory of Multiple Intelligences.
+    - Behaviorist learning theory.
+    - Classical conditioning.
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'Gardner''s inclusion of "Existential Intelligence" as a possible
+      ninth intelligence is controversial because:'
+    Options:
+    - It is the most easily measured of all the intelligences.
+    - It is identical to intrapersonal intelligence.
+    - It is only relevant in religious contexts.
+    - It is considered by some to be a philosophical concern rather than a psychological
+      capacity.
+    CorrectOptionIndex: 3
+    LevelName: multiple intelligence
+  - QuestionText: 'A key reason why the Theory of Multiple Intelligences has been
+      so influential in education, despite scientific criticisms, is that it:'
+    Options:
+    - Provides a simple, quantifiable measure of student ability.
+    - Offers a pragmatic and humanizing framework for recognizing diverse student
+      strengths.
+    - Has been proven to increase IQ scores.
+    - Aligns perfectly with traditional grading systems.
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'If a curriculum is designed around "apprenticeships" where students
+      spend significant time in different "intelligence studios" (e.g., a design
+      studio, a logic lab, a nature center), it is most directly inspired by the
+      work of:'
+    Options:
+    - B.F. Skinner
+    - Howard Gardner
+    - Jean Piaget
+    - Lev Vygotsky
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'A teacher criticizes the MI theory, arguing, "We can''t teach
+      eight different ways for every single concept; it''s not practical." A valid
+      counter-argument from an MI proponent would be that:'
+    Options:
+    - Teachers must indeed teach every concept in eight different ways to be effective.
+    - The theory recommends focusing on only one intelligence per student.
+    - The theory is only meant for identifying students for special education.
+    - The goal is to use a variety of approaches over time, not necessarily in every
+      single lesson.
+    CorrectOptionIndex: 3
+    LevelName: multiple intelligence
+  - QuestionText: The phenomenon of a "savant," who has an extraordinary ability
+      in one narrow area (like calendar calculation) but significant cognitive limitations
+      in others, provides the strongest support for which aspect of Gardner's theory?
+    Options:
+    - The modularity and independence of certain intelligences.
+    - The dominance of logical-mathematical intelligence.
+    - The unity of all intelligences under a general 'g' factor.
+    - The role of crystallized intelligence in expertise.
+    CorrectOptionIndex: 0
+    LevelName: multiple intelligence
+  - QuestionText: In the context of educational technology, a "virtual field trip"
+      to an art museum would primarily engage and assess a student's ______ intelligence.
+    Options:
+    - Naturalist
+    - Spatial
+    - Interpersonal
+    - Linguistic
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'A school that uses portfolio-based assessments, including art
+      projects, recordings of musical performances, and reports on science experiments,
+      is aligning its evaluation system with the principles of:'
+    Options:
+    - Standardized intelligence testing.
+    - Norm-referenced grading.
+    - Exclusive focus on linguistic and logical skills.
+    - The Theory of Multiple Intelligences.
+    CorrectOptionIndex: 3
+    LevelName: multiple intelligence
+  - QuestionText: 'Gardner argued that an intelligence must have the potential for
+      isolation by brain damage. This criterion supports the idea that:'
+    Options:
+    - All intelligences are located in the same part of the brain.
+    - An intelligence is a distinct neurobiological system.
+    - Brain damage enhances all types of intelligence.
+    - Intelligences cannot be developed or improved.
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: A teacher who encourages students to keep a personal journal to
+      reflect on their learning and feelings is fostering the development of ______
+      intelligence.
+    Options:
+    - Interpersonal
+    - Linguistic
+    - Intrapersonal
+    - Existential
+    CorrectOptionIndex: 2
+    LevelName: multiple intelligence
+  - QuestionText: 'The concept that different cultures value and cultivate different
+      intelligences (e.g., a seafaring culture valuing spatial intelligence) is a
+      key part of Gardner''s definition because he sees intelligence as:'
+    Options:
+    - Purely genetic and unchangeable.
+    - Activated in a cultural context.
+    - Only relevant in Western societies.
+    - Independent of the environment.
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'Comparing Bodily-Kinesthetic Intelligence to traditional views
+      of intelligence, Gardner''s theory is revolutionary because it:'
+    Options:
+    - Includes physical skill as a form of intelligence.
+    - Denies that athletes can be intelligent.
+    - States that physical skill is the most important intelligence.
+    - Separates physical coordination from cognitive processing.
+    CorrectOptionIndex: 0
+    LevelName: multiple intelligence
+  - QuestionText: A project-based learning unit where students design, build, and
+      market a product engages which combination of intelligences?
+    Options:
+    - Only Logical-Mathematical
+    - Spatial, Bodily-Kinesthetic, Interpersonal, and Linguistic
+    - Only Intrapersonal and Existential
+    - Primarily Musical and Naturalist
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'A valid criticism of applying MI theory in the classroom is that
+      it can lead to:'
+    Options:
+    - An increased focus on critical thinking and problem-solving.
+    - The labeling of students and a fixed mindset about their abilities.
+    - Greater uniformity in teaching methods.
+    - Less parent involvement in education.
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'Gardner''s theory has been most warmly received in the field of:'
+    Options:
+    - Neuropsychology, because of its solid biological evidence for each intelligence.
+    - Psychometrics, because it provides new and reliable tests.
+    - Education, because it provides a language for discussing student diversity.
+    - Behaviorism, because it focuses on observable behaviors.
+    CorrectOptionIndex: 2
+    LevelName: multiple intelligence
+  - QuestionText: 'The idea that a person can be "intelligent" in many different
+      ways, not just academically, has primarily helped to:'
+    Options:
+    - Lower academic standards in schools.
+    - Reduce funding for arts education.
+    - Promote a more inclusive and strengths-based view of learners.
+    - Prove that IQ tests are perfectly accurate.
+    CorrectOptionIndex: 2
+    LevelName: multiple intelligence
+  - QuestionText: 'When a student who struggles with written tests creates an intricate
+      and accurate model of a cell for a science project, it demonstrates that:'
+    Options:
+    - The student is not intelligent enough for written work.
+    - Assessment methods can make a student's intelligence visible or invisible.
+    - Science projects are easier than written tests.
+    - The student has a learning disability.
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: A teacher who plays background music during individual work time
+      and uses rhythmic chants to teach multiplication tables is attempting to reach
+      students with strengths in ______ intelligence.
+    Options:
+    - Auditory
+    - Rhythmic
+    - Musical
+    - Logical
+    CorrectOptionIndex: 2
+    LevelName: multiple intelligence
+  - QuestionText: The theory of Multiple Intelligences is LEAST compatible with which
+      of the following educational practices?
+    Options:
+    - Differentiated instruction
+    - Universal Design for Learning (UDL)
+    - Relying exclusively on multiple-choice standardized tests for promotion
+    - Using a variety of formative assessments
+    CorrectOptionIndex: 2
+    LevelName: multiple intelligence
+  - QuestionText: 'Gardner''s theory suggests that the aim of education should be
+      to:'
+    Options:
+    - Identify and strengthen the weakest intelligence in each student.
+    - Develop the core competencies of linguistic and logical intelligence above
+      all others.
+    - Help individuals develop a blend of intelligences that they can use productively.
+    - Ensure all students achieve the same level in all eight intelligences.
+    CorrectOptionIndex: 2
+    LevelName: multiple intelligence
+  - QuestionText: 'The concept of "neurodiversity" aligns well with Multiple Intelligences
+      theory because both:'
+    Options:
+    - Seek to cure neurological differences.
+    - Recognize and value different kinds of minds and cognitive profiles.
+    - Focus only on autism spectrum disorders.
+    - Believe that everyone has the same neurological makeup.
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'A history teacher assessing a unit on ancient Egypt could offer
+      a choice of assessments: writing an essay, creating a 3D model of a pyramid,
+      composing a song about a pharaoh, or leading a discussion on Egyptian religion.
+      This approach is designed to:'
+    Options:
+    - Make grading more difficult for the teacher.
+    - Allow students to demonstrate understanding through their intellectual strengths.
+    - Ensure that only the most intelligent students succeed.
+    - Replace the need for any written work.
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'A fundamental difference between Sternberg''s Triarchic Theory
+      and Gardner''s Theory is that Sternberg''s theory:'
+    Options:
+    - Proposes eight independent intelligences.
+    - Is based entirely on factor analysis.
+    - Denies the role of context in intelligence.
+    - Is focused specifically on the processes of information processing (analytic,
+      creative, practical).
+    CorrectOptionIndex: 3
+    LevelName: multiple intelligence
+  - QuestionText: 'If a school''s "honor roll" were expanded to include categories
+      like "Community Builder" (Interpersonal), "Creative Visionary" (Spatial), and
+      "Naturalist Scholar," it would reflect a shift in mindset influenced by:'
+    Options:
+    - The standardized testing movement.
+    - Howard Gardner's Theory of Multiple Intelligences.
+    - The emphasis on a single general intelligence.
+    - A purely behaviorist approach to learning.
+    CorrectOptionIndex: 1
+    LevelName: multiple intelligence
+  - QuestionText: 'Gardner''s criterion that an intelligence has a distinct developmental
+      history is supported by:'
+    Options:
+    - The fact that all children learn to walk and talk at the exact same age.
+    - The slowing of brain development after adolescence.
+    - The uniformity of cognitive development across all domains.
+    - The observation that prodigies in music or chess develop their extraordinary
+      skills at a very young age.
+    CorrectOptionIndex: 3
+    LevelName: multiple intelligence

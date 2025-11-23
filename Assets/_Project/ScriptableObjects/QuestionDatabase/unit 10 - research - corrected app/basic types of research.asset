@@ -1,0 +1,471 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: basic types of research
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary goal of basic research?
+    Options:
+    - To solve an immediate problem
+    - To expand knowledge for knowledge's sake
+    - To develop a new product
+    - To analyze market trends
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: 'Basic research is also commonly known as:'
+    Options:
+    - Applied research
+    - Action research
+    - Fundamental or pure research
+    - Analytical research
+    CorrectOptionIndex: 2
+    LevelName: basic types of research
+  - QuestionText: 'The findings of basic research are primarily intended for:'
+    Options:
+    - Immediate commercial use
+    - An academic audience and other researchers
+    - Policy formulation only
+    - The general public only
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: Which of the following is a key characteristic of basic research?
+    Options:
+    - It is always conducted in a laboratory.
+    - It is driven by a specific, practical problem.
+    - It is theoretical and exploratory in nature.
+    - Its outcomes are always patented.
+    CorrectOptionIndex: 2
+    LevelName: basic types of research
+  - QuestionText: Who is most likely to fund basic research?
+    Options:
+    - Private corporations seeking profit
+    - Marketing firms
+    - Individual consumers
+    - Government agencies like a National Science Foundation
+    CorrectOptionIndex: 3
+    LevelName: basic types of research
+  - QuestionText: 'The knowledge gained from basic research is:'
+    Options:
+    - Always directly applicable
+    - Often used as a foundation for applied research
+    - Meant to be kept secret
+    - Irrelevant to technological advancement
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: Which statement is TRUE about basic research?
+    Options:
+    - It is focused on universal principles and generalizations.
+    - It is synonymous with research and development (R&D).
+    - It is less rigorous than applied research.
+    - It does not require a formal methodology.
+    CorrectOptionIndex: 0
+    LevelName: basic types of research
+  - QuestionText: 'The outcome of basic research is typically published in:'
+    Options:
+    - Patent documents
+    - Popular science magazines
+    - Newspaper articles
+    - Peer-reviewed academic journals
+    CorrectOptionIndex: 3
+    LevelName: basic types of research
+  - QuestionText: 'Basic research is oriented towards:'
+    Options:
+    - Profit maximization
+    - Fulfilling a client's specific need
+    - The discovery of new facts or theories
+    - Implementing solutions in real-world settings
+    CorrectOptionIndex: 2
+    LevelName: basic types of research
+  - QuestionText: Which of the following best describes the time frame for results
+      in basic research?
+    Options:
+    - Short-term and immediate
+    - Long-term and unpredictable
+    - Fixed and pre-determined
+    - Always completed within a year
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: 'The research design in basic research is generally:'
+    Options:
+    - Flexible and evolving
+    - Rigid and strictly adhered to
+    - Designed by the funding agency
+    - Non-existent
+    CorrectOptionIndex: 0
+    LevelName: basic types of research
+  - QuestionText: 'A study investigating the "Origins of the Universe" is an example
+      of:'
+    Options:
+    - Applied research
+    - Basic research
+    - Action research
+    - Evaluative research
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: 'The primary motivation for a basic researcher is:'
+    Options:
+    - Financial gain
+    - Policy change
+    - Social recognition
+    - Curiosity and the desire to know
+    CorrectOptionIndex: 3
+    LevelName: basic types of research
+  - QuestionText: Which term is LEAST associated with basic research?
+    Options:
+    - Theoretical
+    - Exploratory
+    - Pragmatic
+    - Fundamental
+    CorrectOptionIndex: 2
+    LevelName: basic types of research
+  - QuestionText: 'Basic research contributes to the development of:'
+    Options:
+    - Specific software tools
+    - New scientific theories
+    - Marketing strategies
+    - Clinical guidelines for a hospital
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: How does basic research primarily differ from applied research?
+    Options:
+    - By its use of complex statistics
+    - By being less expensive
+    - By the number of researchers involved
+    - By its fundamental purpose or aim
+    CorrectOptionIndex: 3
+    LevelName: basic types of research
+  - QuestionText: Why might a government invest in basic research despite its lack
+      of immediate application?
+    Options:
+    - It is cheaper than applied research.
+    - It creates the foundational knowledge that drives future innovation and technology.
+    - Its results are guaranteed.
+    - It is always popular with voters.
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: 'If a researcher studies "the cognitive processes involved in learning
+      a second language" without aiming to create a language app, it is:'
+    Options:
+    - Basic Research
+    - Applied Research
+    - Action Research
+    - Developmental Research
+    CorrectOptionIndex: 0
+    LevelName: basic types of research
+  - QuestionText: 'The statement "Basic research is the pacemaker of technological
+      progress" implies that:'
+    Options:
+    - Basic research is slower than applied research.
+    - Technological advancements are often dependent on discoveries from basic research.
+    - Basic research requires the latest technology to be conducted.
+    - Applied research is unnecessary.
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: 'A company discovers a new chemical compound while conducting basic
+      research on material properties. This demonstrates that basic research:'
+    Options:
+    - Is a waste of resources for a company
+    - Should always be avoided in industry
+    - Can have unexpected and potentially valuable outcomes
+    - Is identical to quality control
+    CorrectOptionIndex: 2
+    LevelName: basic types of research
+  - QuestionText: How is the research question in basic research typically formulated?
+    Options:
+    - Based on a specific market demand
+    - As a broad, theoretical inquiry into a phenomenon
+    - To evaluate the success of a social program
+    - To solve a localized problem in a community
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: Which scenario best illustrates a potential outcome of basic research?
+    Options:
+    - A new drug is developed and brought to market.
+    - A school implements a new teaching method successfully.
+    - A physicist formulates a new theory about quantum particles.
+    - A company increases its sales through a new ad campaign.
+    CorrectOptionIndex: 2
+    LevelName: basic types of research
+  - QuestionText: 'The relationship between basic and applied research is best described
+      as:'
+    Options:
+    - Independent and separate
+    - Sequential and interdependent
+    - Identical
+    - Competitive
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: 'A critique of basic research is that it is "ivory tower" research.
+      This criticizes its perceived:'
+    Options:
+    - High cost
+    - Ethical standards
+    - Theoretical complexity
+    - Lack of practical relevance in the short term
+    CorrectOptionIndex: 3
+    LevelName: basic types of research
+  - QuestionText: 'If an applied research project fails, it often goes back to basic
+      research. This is because:'
+    Options:
+    - Basic research is easier.
+    - It may indicate a gap in fundamental understanding that needs to be addressed
+      first.
+    - Applied researchers are not competent.
+    - Basic research provides ready-made solutions.
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: Which finding would most likely be a direct result of basic research
+      in education?
+    Options:
+    - A list of effective classroom management techniques.
+    - A report on student satisfaction with online learning.
+    - A revised school curriculum.
+    - A new theory on how metacognition develops in adolescents.
+    CorrectOptionIndex: 3
+    LevelName: basic types of research
+  - QuestionText: 'Understanding the fundamental principles of "how students learn"
+      (basic research) can help in "designing better textbooks" (applied research).
+      This shows:'
+    Options:
+    - The superiority of basic research
+    - The linear model from research to application
+    - That both types of research are the same
+    - That basic research is more important
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: 'In the context of physical sciences, researching "the properties
+      of a newly synthesized nanomaterial" without a specific use in mind is:'
+    Options:
+    - Basic Research, as it seeks to understand fundamental properties.
+    - Applied Research, as it involves materials.
+    - Action Research, as it involves creation.
+    - None of the above
+    CorrectOptionIndex: 0
+    LevelName: basic types of research
+  - QuestionText: Which factor is a major consideration when evaluating a basic research
+      proposal?
+    Options:
+    - Its potential for immediate profit
+    - The theoretical contribution to the field
+    - Its direct impact on public policy
+    - The cost-effectiveness of the solution
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: 'The statement "There is no such thing as pure basic research in
+      today''s world" reflects the idea that:'
+    Options:
+    - All research is ultimately applied.
+    - Basic research is no longer conducted.
+    - Even basic research is often influenced by societal needs and funding priorities.
+    - The distinction between basic and applied is clear-cut.
+    CorrectOptionIndex: 2
+    LevelName: basic types of research
+  - QuestionText: A study aims to "develop a theoretical model to explain the relationship
+      between gravitational waves and spacetime curvature." How would you classify
+      this research?
+    Options:
+    - Applied Research
+    - Basic Research
+    - Evaluative Research
+    - Descriptive Research
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: 'A pharmaceutical company investigates the fundamental cellular
+      mechanism of a rare disease. They have no specific drug target yet. This is
+      best described as:'
+    Options:
+    - Applied Research, because a company is doing it.
+    - Diagnostic Research, because it involves a disease.
+    - Action Research, because it aims to solve a problem.
+    - Basic Research, because it seeks fundamental understanding without an immediate
+      product.
+    CorrectOptionIndex: 3
+    LevelName: basic types of research
+  - QuestionText: "Assertion (A):\_Basic research is a luxury for developing nations.\_Reason
+      (R):\_Developing nations should focus only on applied research to solve their
+      immediate problems."
+    Options:
+    - Both A and R are true, and R is the correct explanation of A.
+    - Both A and R are true, but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 2
+    LevelName: basic types of research
+  - QuestionText: Which of the following is the STRONGEST argument for increasing
+      funding for basic research?
+    Options:
+    - It builds the essential foundation of knowledge that drives long-term economic
+      and technological leadership.
+    - It is less expensive than other forms of research.
+    - It consistently produces immediate commercial products.
+    - Its outcomes are predictable and easily measured.
+    CorrectOptionIndex: 0
+    LevelName: basic types of research
+  - QuestionText: If you were to design a research study to explore the "impact of
+      a new teaching method on student anxiety," what would be the crucial first
+      step that relies on basic research?
+    Options:
+    - Implementing the method in a classroom.
+    - Conducting a literature review on the fundamental theories of learning and
+      anxiety.
+    - Surveying teachers about their opinions.
+    - Analyzing the cost of the new method.
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: A researcher discovers a new particle in a physics experiment.
+      This discovery has no known application today. How should this research be
+      valued?
+    Options:
+    - It has no value until an application is found.
+    - Its value lies solely in the prestige it brings to the researcher.
+    - Its value is in the contribution to fundamental human knowledge and the potential
+      for future, unforeseen applications.
+    - Its value can only be determined by a public vote.
+    CorrectOptionIndex: 2
+    LevelName: basic types of research
+  - QuestionText: "Which proposal for a research project in\_Physical Science Education\_is
+      most aligned with the spirit of basic research?"
+    Options:
+    - '"Investigating the underlying cognitive schemas students use to understand
+      the concept of ''force''."'
+    - '"Evaluating the effectiveness of virtual reality in teaching Newton''s Laws."'
+    - '"Developing and testing a new low-cost lab kit for high schools."'
+    - '"Creating a standardized assessment for physics aptitude."'
+    CorrectOptionIndex: 0
+    LevelName: basic types of research
+  - QuestionText: "Criticism:\_\"Basic research in education is too abstract and
+      does not help teachers in the classroom.\"\_Counter-argument:"
+    Options:
+    - All basic research is eventually useless.
+    - Basic research provides the foundational principles of learning and pedagogy
+      that inform the development of effective teaching strategies and materials.
+    - Teachers do not need to understand theory.
+    - Basic research is only for psychologists, not educators.
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: 'The transition from Einstein''s theory of relativity (basic research)
+      to the functionality of GPS systems (applied technology) is an example of:'
+    Options:
+    - A coincidental occurrence.
+    - The inevitable linear path of all research.
+    - How basic research can have profound, albeit delayed, practical implications.
+    - The superiority of theoretical physics over engineering.
+    CorrectOptionIndex: 2
+    LevelName: basic types of research
+  - QuestionText: You are reviewing two research proposals. Proposal X seeks to understand
+      the neural basis of curiosity. Proposal Y aims to use a specific teaching method
+      to improve student grades. Which statement is correct?
+    Options:
+    - Proposal X is applied, and Y is basic.
+    - Both are basic research.
+    - Both are applied research.
+    - Proposal X is basic, and Y is applied.
+    CorrectOptionIndex: 3
+    LevelName: basic types of research
+  - QuestionText: 'A government has to cut its science budget and can only fund one
+      type of research. Making a decision requires:'
+    Options:
+    - Always choosing basic research.
+    - 'Evaluating the national goals: long-term knowledge capital (basic) vs. short-term
+      problem-solving (applied).'
+    - Always choosing applied research.
+    - Funding neither.
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: 'In a research report, the " theoretical framework" section is
+      most directly influenced by:'
+    Options:
+    - Findings from prior basic research.
+    - The budget of the project.
+    - The personal opinions of the researcher.
+    - The tools used for data analysis.
+    CorrectOptionIndex: 0
+    LevelName: basic types of research
+  - QuestionText: Which of the following represents a potential ethical challenge
+      specific to BASIC research?
+    Options:
+    - Ensuring immediate benefits to participants.
+    - Justifying the use of public funds for work with no immediate tangible benefit
+      to society.
+    - Applying findings to a commercial product.
+    - Dealing with conflicts of interest in corporate funding.
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: 'If a study on "Quantum Entanglement" later enables the development
+      of un-hackable communication (Quantum Cryptography), the initial study is best
+      categorized as:'
+    Options:
+    - Action Research
+    - Applied Research
+    - Basic Research
+    - Developmental Research
+    CorrectOptionIndex: 2
+    LevelName: basic types of research
+  - QuestionText: 'The concept of "use-inspired basic research" (Pasteur''s Quadrant)
+      implies:'
+    Options:
+    - Research can be both quest for fundamental understanding and inspired by potential
+      use.
+    - The distinction between basic and applied research is absolute.
+    - Basic research is never useful.
+    - Applied research never produces new knowledge.
+    CorrectOptionIndex: 0
+    LevelName: basic types of research
+  - QuestionText: 'A chemist develops a new theory for chemical bonding while trying
+      to create a more efficient battery. This work falls in:'
+    Options:
+    - Pure Basic Research
+    - Pure Applied Research
+    - Use-Inspired Basic Research
+    - Technical Development
+    CorrectOptionIndex: 2
+    LevelName: basic types of research
+  - QuestionText: 'To argue that "basic research in physical science education is
+      redundant because we already have effective teaching methods," one must assume
+      that:'
+    Options:
+    - The process of human learning is fully understood.
+    - Applied research is self-sufficient.
+    - Teachers do not need to understand theory.
+    - All of the above.
+    CorrectOptionIndex: 0
+    LevelName: basic types of research
+  - QuestionText: When comparing a basic research paper to an applied research paper,
+      what would you expect to find MORE of in the basic research paper?
+    Options:
+    - Discussions of cost-benefit analysis.
+    - Detailed descriptions of practical implementation.
+    - References to fundamental theories and speculative conclusions about their
+      implications.
+    - Step-by-step guides for practitioners.
+    CorrectOptionIndex: 2
+    LevelName: basic types of research
+  - QuestionText: 'The validity of a basic research study is primarily judged by
+      its:'
+    Options:
+    - Immediate social impact.
+    - Rigor of methodology and contribution to theoretical knowledge.
+    - Popularity among the public.
+    - Potential for commercialization.
+    CorrectOptionIndex: 1
+    LevelName: basic types of research
+  - QuestionText: 'A researcher finds that students'' misconceptions about heat and
+      temperature align with a historical scientific theory. This finding is significant
+      for basic research because it:'
+    Options:
+    - Provides a ready-made lesson plan.
+    - Offers a direct solution to the misconception.
+    - Contributes to the fundamental understanding of how knowledge evolves and how
+      cognitive structures mirror historical development in science.
+    - Is an interesting but useless fact.
+    CorrectOptionIndex: 2
+    LevelName: basic types of research

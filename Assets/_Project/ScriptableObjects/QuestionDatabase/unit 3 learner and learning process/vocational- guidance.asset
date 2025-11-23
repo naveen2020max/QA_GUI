@@ -1,0 +1,472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: vocational- guidance
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Who is widely regarded as the "Father of Vocational Guidance"?
+    Options:
+    - Carl Rogers
+    - John Holland
+    - Frank Parsons
+    - B.F. Skinner
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: "A student who has high realistic (R) and investigative (I) scores
+      on Holland's Typology would be\_least\_suited for a career as a:"
+    Options:
+    - Civil Engineer
+    - Research Scientist
+    - Clinical Psychologist (high Social 'S' needed)
+    - Computer Programmer
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: 'The primary goal of vocational guidance is to:'
+    Options:
+    - Guarantee a high-paying job for every individual.
+    - Help an individual choose, prepare for, enter, and progress in an occupation.
+    - Provide financial loans for starting a business.
+    - Force individuals into careers where labor shortages exist.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'The "Trait and Factor" theory of vocational guidance, which involves
+      matching personal traits to job factors, was primarily developed by:'
+    Options:
+    - John Holland
+    - Frank Parsons
+    - Donald Super
+    - Anna Freud
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: Which of the following is a key "principle" of vocational guidance?
+    Options:
+    - It is a one-time event at the end of schooling.
+    - It is based solely on current market trends, ignoring individual aptitude.
+    - It is a continuous developmental process.
+    - It should be provided only to academically weak students.
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: 'Aptitude tests used in vocational guidance primarily aim to measure:'
+    Options:
+    - A person's current level of knowledge in a subject.
+    - A person's potential for acquiring specific skills or learning in a particular
+      area.
+    - A person's interests and hobbies.
+    - A person's level of motivation.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'Donald Super''s Life-Span, Life-Space theory emphasizes that career
+      development is:'
+    Options:
+    - A single decision made in adolescence.
+    - A process involving different life stages and multiple social roles.
+    - Solely determined by economic factors.
+    - A random process with no discernible pattern.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'The "Job Placement Service" in a vocational guidance program is
+      specifically concerned with:'
+    Options:
+    - Providing counseling for emotional problems.
+    - Organizing recreational activities.
+    - Administering intelligence tests.
+    - Helping individuals secure actual employment.
+    CorrectOptionIndex: 3
+    LevelName: vocational- guidance
+  - QuestionText: 'John Holland''s Theory of Vocational Choice (RIASEC) is based
+      on the concept that career choice is an expression of:'
+    Options:
+    - Parental pressure
+    - Personality type
+    - Blind luck
+    - Government policy
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'In the context of vocational guidance, a "Follow-up Service" is
+      essential to:'
+    Options:
+    - Spy on former students.
+    - Evaluate the effectiveness of the guidance and placement provided.
+    - Provide financial aid to alumni.
+    - Force individuals to stay in their jobs.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: A student who enjoys working with people, helping, teaching, and
+      healing is likely to have a high score in which Holland code?
+    Options:
+    - Realistic (R)
+    - Investigative (I)
+    - Social (S)
+    - Conventional (C)
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: 'The concept of "Career Maturity" refers to:'
+    Options:
+    - The chronological age at which a person chooses a career.
+    - The individual's readiness to make informed and appropriate career decisions.
+    - The number of jobs a person has held.
+    - The level of income a person has achieved.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'Vocational guidance differs from educational guidance in that
+      it is specifically concerned with:'
+    Options:
+    - Solving personal adjustment problems.
+    - The world of work and occupational choices.
+    - Improving study habits.
+    - Selecting college courses.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'A "Conventional (C)" personality type in Holland''s model would
+      be most suited for a job as a:'
+    Options:
+    - Sculptor
+    - Biologist
+    - Accountant
+    - Social Worker
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: 'The primary purpose of an "Interest Inventory" in vocational guidance
+      is to:'
+    Options:
+    - Measure a person's intelligence.
+    - Identify the activities a person finds motivating and enjoyable.
+    - Assess a person's level of anxiety.
+    - Determine a person's physical strength.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'Krumboltz''s Social Learning Theory of Career Decision Making
+      (SLTCDM) emphasizes the role of:'
+    Options:
+    - Unconscious motives
+    - Genetic predispositions
+    - Learning experiences and environmental influences
+    - Astrological signs
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: The "Exploration Stage" in Donald Super's theory is most characteristic
+      of which age group?
+    Options:
+    - Childhood (0-14)
+    - Adolescence and early adulthood (15-24)
+    - Middle adulthood (25-44)
+    - Late adulthood (45+)
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'In vocational guidance, the principle of "Individual Differences"
+      implies that:'
+    Options:
+    - Everyone should be guided toward the same few prestigious careers.
+    - Guidance must be tailored to the unique aptitudes, interests, and values of
+      each person.
+    - Group guidance is ineffective.
+    - Only measurable differences should be considered.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'A "Vocational School" is distinct from a traditional school because
+      it focuses on:'
+    Options:
+    - Purely theoretical knowledge.
+    - Athletic training.
+    - Liberal arts education.
+    - Preparing students for immediate entry into a specific trade or occupation.
+    CorrectOptionIndex: 3
+    LevelName: vocational- guidance
+  - QuestionText: 'The term "Occupational Information" refers to:'
+    Options:
+    - Personal secrets of the employee.
+    - Detailed data about various jobs, including nature of work, requirements, and
+      prospects.
+    - Confidential company records.
+    - Information about employee salaries only.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'A highly creative and unstructured student with "Artistic (A)"
+      Holland codes is being pressured by their family to become a structured, rule-bound
+      "Conventional (C)" accountant. The vocational counselor''s most ethical approach
+      is to:'
+    Options:
+    - Support the family's choice for financial security.
+    - Ignore the student's interests and focus on aptitude.
+    - Help the student and family understand the personality-work environment mismatch
+      and explore compromise careers (e.g., graphic designer).
+    - Refuse to provide any further guidance.
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: 'Evaluating two vocational guidance programs: Program A uses only
+      a single aptitude test. Program B uses a battery of tests, interest inventories,
+      and provides structured work-shadowing experiences. A key limitation of Program
+      A is that it:'
+    Options:
+    - Is more cost-effective.
+    - Provides a more holistic and reliable assessment of the individual.
+    - Risks giving an incomplete picture by relying on a single data point.
+    - Takes too much time to implement.
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: A 45-year-old factory worker who has been laid off due to automation
+      seeks vocational guidance. According to Super's theory, they are likely in
+      the ________ stage and need guidance focused on ________.
+    Options:
+    - Growth; fantasy play
+    - Exploration; tentative choices
+    - Establishment; stabilizing the career
+    - Maintenance; deceleration and retirement planning
+    CorrectOptionIndex: 3
+    LevelName: vocational- guidance
+  - QuestionText: 'In the modern "Gig Economy," the traditional concept of a linear,
+      lifelong career is changing. This implies that vocational guidance must now
+      place greater emphasis on:'
+    Options:
+    - Directly placing people in a single, permanent job.
+    - Developing transferable skills, adaptability, and entrepreneurial thinking.
+    - Focusing only on government job preparations.
+    - Discouraging freelance work.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'A vocational counselor learns that a client''s primary motivation
+      for choosing a career is "to earn more money than their siblings." According
+      to Krumboltz''s theory, this choice is most influenced by:'
+    Options:
+    - A genetic predisposition.
+    - Task approach skills.
+    - An instrumental learning experience and associated reinforcement.
+    - A single aptitude test score.
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: 'Critically analyzing a government policy that funds vocational
+      training only for "high-growth" industries, a guidance expert would argue that
+      it overlooks the principle of:'
+    Options:
+    - Confidentiality
+    - Individual Differences (ignoring individual aptitudes and interests)
+    - Cooperation
+    - Universality
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'A vocational guidance program that is truly "developmental" would
+      start in:'
+    Options:
+    - The final year of college.
+    - Middle school, by fostering career awareness and self-concept.
+    - Only after a person becomes unemployed.
+    - During the retirement phase.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: If a counselor uses a computer-based system that matches a client's
+      skills and interests to a database of occupations, they are essentially using
+      a modern application of which classic theory?
+    Options:
+    - Psychoanalytic Theory
+    - Existential Theory
+    - Social Learning Theory
+    - Trait and Factor Theory
+    CorrectOptionIndex: 3
+    LevelName: vocational- guidance
+  - QuestionText: 'The concept of "Career Indecision" is best addressed by a vocational
+      counselor through:'
+    Options:
+    - Making the decision for the client.
+    - Providing systematic exposure to occupational information and building decision-making
+      skills.
+    - Telling the client to choose any job quickly.
+    - Ignoring the issue until it resolves itself.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'A student with excellent grades in both Biology and Fine Arts
+      is struggling to choose a pre-university stream. The counselor''s role is to
+      act as a:'
+    Options:
+    - Decision-maker who tells the student what to do.
+    - Facilitator who helps the student clarify their values, interests, and future
+      goals.
+    - Judge who evaluates which field is more prestigious.
+    - Messenger who only relays information from parents.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'In the context of vocational guidance for persons with disabilities,
+      the counselor''s primary focus should be on:'
+    Options:
+    - Their limitations and inabilities.
+    - Discouraging them from seeking employment.
+    - Directing them only to sheltered workshops.
+    - Job matching based on their abilities and necessary workplace accommodations.
+    CorrectOptionIndex: 3
+    LevelName: vocational- guidance
+  - QuestionText: 'The "Entrepreneurship" dimension of vocational guidance has become
+      increasingly important. It primarily involves guiding individuals to:'
+    Options:
+    - Seek only salaried employment.
+    - Develop the skills and mindset to create their own employment opportunities.
+    - Avoid all financial risk.
+    - Work only for large corporations.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'A vocational counselor discovers a client has a strong "Investigative
+      (I)" interest but a low aptitude for abstract reasoning. The most constructive
+      approach is to:'
+    Options:
+    - Dismiss their interests entirely.
+    - Encourage them to pursue a pure research career regardless.
+    - Explore related careers that satisfy their investigative nature but require
+      a different skill mix (e.g., science journalism, technical writing, lab technician).
+    - Tell them they are not smart enough for any science-related field.
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: 'The "Job Analysis" technique is used in vocational guidance to:'
+    Options:
+    - Analyze an individual's personal life.
+    - Systematically study the tasks, duties, and responsibilities of a specific
+      job.
+    - Spy on employees.
+    - Set employee salaries.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'A client says, "I''ll be a failure if I don''t become a doctor."
+      A counselor using a Cognitive-Behavioral approach would first:'
+    Options:
+    - Agree with the client's self-assessment.
+    - Help the client identify and challenge this all-or-nothing thinking.
+    - Immediately start discussing medical school admissions.
+    - End the session.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'The ethical principle of "Informed Consent" in vocational testing
+      requires that the client:'
+    Options:
+    - Pays for the tests in advance.
+    - Shares the results with their friends.
+    - Gets perfect scores on the tests.
+    - Understands the purpose, nature, and potential uses of the tests before taking
+      them.
+    CorrectOptionIndex: 3
+    LevelName: vocational- guidance
+  - QuestionText: 'Linda Gottfredson''s Theory of Circumscription and Compromise
+      suggests that children, especially in the early grades, begin to:'
+    Options:
+    - Eliminate career options they see as unsuitable for their sex or social class.
+    - Make final career choices.
+    - Start their own businesses.
+    - Develop advanced technical skills.
+    CorrectOptionIndex: 0
+    LevelName: vocational- guidance
+  - QuestionText: 'A vocational guidance program that partners with local industries
+      for internships and apprenticeships is effectively implementing the principle
+      of:'
+    Options:
+    - Isolation
+    - Cooperation
+    - Confidentiality
+    - Paternalism
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'In a rapidly changing job market, the most valuable outcome of
+      effective vocational guidance is a client who is:'
+    Options:
+    - Locked into one specific skill set.
+    - Dependent on the counselor for lifelong advice.
+    - Equipped with career adaptability and lifelong learning skills.
+    - Focused only on jobs that existed in the previous decade.
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: A counselor who helps a client practice interview skills and write
+      a resume is providing assistance in the _______ phase of vocational guidance.
+    Options:
+    - Self-awareness
+    - Occupational information
+    - Choice and Placement
+    - Follow-up
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: 'The concept of "Transferable Skills" is crucial in modern vocational
+      guidance because it:'
+    Options:
+    - Limits a person to one specific job.
+    - Refers to skills that are valuable across a wide range of occupations (e.g.,
+      communication, problem-solving).
+    - Only applies to manual labor jobs.
+    - Is another term for basic literacy.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'A client from a rural, low-income background with no role models
+      in professional careers may, according to Social Cognitive Career Theory (SCCT),
+      have low:'
+    Options:
+    - Aptitude
+    - Career-related self-efficacy
+    - Physical strength
+    - Genetic potential
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'The "Realistic (R)" Holland type often has a preference for:'
+    Options:
+    - Working with ideas and theories.
+    - Helping and teaching others.
+    - Working with tools, machines, and animals.
+    - Structured, orderly data and paperwork.
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: 'Vocational guidance in the 21st century must be "psychoeducational,"
+      meaning it should:'
+    Options:
+    - Focus only on psychological therapy.
+    - Teach individuals how to navigate their own career development process.
+    - Be provided only by licensed psychiatrists.
+    - Ignore educational qualifications.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'A vocational counselor discovers a significant discrepancy between
+      a client''s measured aptitudes and their stated interests. The most productive
+      next step is to:'
+    Options:
+    - Ignore the aptitudes and follow the interests.
+    - Ignore the interests and follow the aptitudes.
+    - Explore this discrepancy with the client to foster deeper self-understanding.
+    - Declare the client unemployable.
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: 'The "Fantasy Stage" in Ginzberg''s career development theory is
+      characteristic of:'
+    Options:
+    - Adolescence
+    - Adulthood
+    - Childhood (up to age 11)
+    - Retirement
+    CorrectOptionIndex: 2
+    LevelName: vocational- guidance
+  - QuestionText: 'A key criticism of early Trait-and-Factor approaches was that
+      they were sometimes too:'
+    Options:
+    - Client-centered and flexible.
+    - Static and mechanical, ignoring the dynamic nature of career development.
+    - Focused on emotions.
+    - Expensive to implement.
+    CorrectOptionIndex: 1
+    LevelName: vocational- guidance
+  - QuestionText: 'When providing vocational guidance in a culturally diverse society,
+      a counselor must be aware of:'
+    Options:
+    - Imposing their own cultural values regarding "prestigious" careers.
+    - Cultural factors that influence work values and career choices.
+    - Potential biases in standardized tests.
+    - All of the above.
+    CorrectOptionIndex: 3
+    LevelName: vocational- guidance
+  - QuestionText: 'The "Information Service" in vocational guidance is crucial because
+      it helps to:'
+    Options:
+    - Break down stereotypes and broaden a client's awareness of opportunities.
+    - Keep client information confidential.
+    - Replace the need for counseling.
+    - Provide medical advice.
+    CorrectOptionIndex: 0
+    LevelName: vocational- guidance

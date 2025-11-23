@@ -1,0 +1,451 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: res tool characteristics
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary purpose of a research tool?
+    Options:
+    - To make the report look longer
+    - To prove the researcher's hypothesis
+    - To systematically collect data relevant to the research problem
+    - To analyze data statistically
+    CorrectOptionIndex: 2
+    LevelName: res tool characteristics
+  - QuestionText: Which of the following is a fundamental characteristic of a good
+      research tool?
+    Options:
+    - Complexity
+    - Reliability
+    - High Cost
+    - Subjectivity
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The consistency or stability of a research tool in measuring a
+      variable is known as:'
+    Options:
+    - Validity
+    - Reliability
+    - Objectivity
+    - Usability
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The accuracy of a research tool in measuring what it is intended
+      to measure is called:'
+    Options:
+    - Validity
+    - Reliability
+    - Practicability
+    - Durability
+    CorrectOptionIndex: 0
+    LevelName: res tool characteristics
+  - QuestionText: 'If a weighing scale shows different weights for the same person
+      in a short span of time, the tool lacks:'
+    Options:
+    - Validity
+    - Reliability
+    - Objectivity
+    - Clarity
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'If a test designed to measure mathematical reasoning only measures
+      arithmetic calculation speed, it lacks:'
+    Options:
+    - Construct Validity
+    - Test-Retest Reliability
+    - Practicability
+    - Economy
+    CorrectOptionIndex: 0
+    LevelName: res tool characteristics
+  - QuestionText: 'The characteristic of a research tool that ensures it is easy
+      to administer, score, and interpret is its:'
+    Options:
+    - Validity
+    - Reliability
+    - Practicability
+    - Measurability
+    CorrectOptionIndex: 2
+    LevelName: res tool characteristics
+  - QuestionText: 'A research tool that produces similar results when scored by different
+      evaluators is said to have high:'
+    Options:
+    - Internal Consistency
+    - Inter-rater Reliability
+    - Split-half Reliability
+    - Face Validity
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: Which type of validity is concerned with how well a test correlates
+      with an external criterion?
+    Options:
+    - Content Validity
+    - Criterion Validity
+    - Construct Validity
+    - Face Validity
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The extent to which a tool appears to measure what it is supposed
+      to measure is called:'
+    Options:
+    - Content Validity
+    - Criterion Validity
+    - Construct Validity
+    - Face Validity
+    CorrectOptionIndex: 3
+    LevelName: res tool characteristics
+  - QuestionText: 'A good research tool must be:'
+    Options:
+    - Vague and general
+    - Precise and unambiguous
+    - Based on personal opinion
+    - Difficult to obtain
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The characteristic that allows a research tool to be used with
+      different groups and in different situations is its:'
+    Options:
+    - Cost-effectiveness
+    - Generality
+    - Length
+    - Complexity
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: The "Test-Retest" method is used to establish which type of reliability?
+    Options:
+    - Internal Consistency
+    - Stability over time
+    - Equivalence
+    - Inter-rater
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The "Split-Half" method is used to assess:'
+    Options:
+    - Internal Consistency
+    - Stability
+    - Equivalence
+    - Inter-rater
+    CorrectOptionIndex: 0
+    LevelName: res tool characteristics
+  - QuestionText: Which characteristic ensures that a research tool is free from
+      the personal bias of the scorer?
+    Options:
+    - Reliability
+    - Objectivity
+    - Validity
+    - Sensitivity
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: How does reliability relate to validity?
+    Options:
+    - A tool can be valid without being reliable.
+    - A tool must be reliable to be valid.
+    - Reliability and validity are the same.
+    - Validity is not important if a tool is reliable.
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: Why is "clarity of instruction" a vital characteristic of a research
+      tool?
+    Options:
+    - To make the tool look professional.
+    - To ensure all participants understand the task in the same way, enhancing reliability
+      and validity.
+    - To increase the difficulty.
+    - To allow for subjective interpretation.
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: What is the purpose of establishing "norms" for a research tool?
+    Options:
+    - To make the tool more expensive.
+    - To provide a standard frame of reference for interpreting an individual's score.
+    - To hide the true purpose of the test.
+    - To ensure it is only used once.
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'A tool that can detect small but important differences in the
+      characteristic being measured is said to have high:'
+    Options:
+    - Reliability
+    - Sensitivity
+    - Objectivity
+    - Generality
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The "Kuder-Richardson" and "Cronbach''s Alpha" coefficients are
+      measures of:'
+    Options:
+    - Internal Consistency Reliability
+    - Test-Retest Reliability
+    - Inter-rater Reliability
+    - Criterion Validity
+    CorrectOptionIndex: 0
+    LevelName: res tool characteristics
+  - QuestionText: 'A researcher wants to ensure their questionnaire covers all aspects
+      of "job satisfaction." They are concerned with:'
+    Options:
+    - Criterion Validity
+    - Content Validity
+    - Construct Validity
+    - Face Validity
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'A new depression scale is administered at the same time as a well-established
+      scale. The correlation between them establishes:'
+    Options:
+    - Predictive Validity
+    - Concurrent Validity
+    - Construct Validity
+    - Face Validity
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: "Assertion (A):\_A highly practical research tool is not necessarily
+      valid.\_Reason (R):\_A tool can be easy to use but may not accurately measure
+      the intended construct."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: res tool characteristics
+  - QuestionText: Contrast "Reliability" and "Validity" using an archery target analogy.
+    Options:
+    - Reliability is a tight cluster; Validity is hitting the bullseye.
+    - Reliability is a tight cluster of arrows; Validity is hitting the bullseye
+      with that cluster.
+    - Validity is a tight cluster; Reliability is hitting the bullseye.
+    - They are the same in the analogy.
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: A tool that yields a score of 100, 102, and 98 for a stable characteristic
+      is _____, whereas a tool that yields 150, 149, and 151 is _____.
+    Options:
+    - Valid, Reliable
+    - Reliable but not valid, Reliable and potentially valid
+    - Valid but not reliable, Neither
+    - Neither, Both
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The characteristic of a research tool that allows it to be used
+      in various cultures after proper adaptation is its:'
+    Options:
+    - Objectivity
+    - Cross-cultural Validity/Fairness
+    - Economy
+    - Sensitivity
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: Why is "standardization" a critical process for a research tool?
+    Options:
+    - To make it unique.
+    - To establish uniform procedures for administration and scoring, which enhances
+      reliability and comparability.
+    - To keep it a secret.
+    - To make it subjective.
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'A tool that is inexpensive and time-efficient to use possesses
+      the characteristic of:'
+    Options:
+    - Sensitivity
+    - Economy
+    - Generality
+    - Objectivity
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The ability of a tool to measure an abstract, theoretical construct
+      (like intelligence) is known as:'
+    Options:
+    - Content Validity
+    - Criterion Validity
+    - Construct Validity
+    - Face Validity
+    CorrectOptionIndex: 2
+    LevelName: res tool characteristics
+  - QuestionText: 'A good research tool should have clear "operational definitions"
+      to ensure:'
+    Options:
+    - That the variables are defined in measurable terms, enhancing clarity and replicability
+    - That the tool is long enough
+    - That the results are always significant
+    - That it is based on theory alone
+    CorrectOptionIndex: 0
+    LevelName: res tool characteristics
+  - QuestionText: Which of the following is the STRONGEST characteristic for ensuring
+      a tool measures the correct concept?
+    Options:
+    - High Face Validity
+    - High Construct Validity
+    - High Inter-rater Reliability
+    - Low Cost
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'A flaw in a research tool is indicated by:'
+    Options:
+    - Clear instructions
+    - Vague or double-barreled questions that confuse respondents
+    - A pilot study
+    - Standardized scoring
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The concept of "reactivity" refers to a situation where:'
+    Options:
+    - The tool is reliable.
+    - The act of measurement itself alters the phenomenon being studied.
+    - The tool is too long.
+    - The scorer is biased.
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'A "ceiling effect" occurs when a tool is:'
+    Options:
+    - Too difficult for all participants
+    - Too easy, so it fails to discriminate between high-ability individuals
+    - Perfectly valid
+    - Perfectly reliable
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The "floor effect" is the opposite, occurring when a tool is:'
+    Options:
+    - Too difficult, so it fails to discriminate between low-ability individuals
+    - Too easy
+    - Perfectly sensitive
+    - Highly objective
+    CorrectOptionIndex: 0
+    LevelName: res tool characteristics
+  - QuestionText: 'The process of "pilot testing" a research tool is done to:'
+    Options:
+    - Identify and rectify ambiguities and assess its reliability and validity
+    - Replace the main study
+    - Guarantee significant results
+    - Make the tool more theoretical
+    CorrectOptionIndex: 0
+    LevelName: res tool characteristics
+  - QuestionText: 'For a tool to be considered "standardized," it must have:'
+    Options:
+    - Been used in many studies
+    - Established norms, uniform administration procedures, and scoring rules
+    - Been developed by a famous researcher
+    - A high price tag
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The characteristic of "comprehensiveness" ensures that a tool:'
+    Options:
+    - Is very long
+    - Adequately covers the entire domain of the construct being measured
+    - Is easy to score
+    - Is used internationally
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'A tool that produces a normal distribution of scores in a large
+      population is likely to have good:'
+    Options:
+    - Discriminatory Power
+    - Face Validity
+    - Economy
+    - Reactivity
+    CorrectOptionIndex: 0
+    LevelName: res tool characteristics
+  - QuestionText: 'The "standard error of measurement" is an index of:'
+    Options:
+    - Validity
+    - The amount of error inherent in an individual's observed score
+    - The tool's cost
+    - The tool's length
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'A "culture-fair" test is designed to maximize:'
+    Options:
+    - Complexity
+    - Validity across different cultural and subcultural groups
+    - The difficulty level
+    - Subjectivity
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The term "parsimony" in the context of research tools refers to
+      the:'
+    Options:
+    - Use of complex language
+    - Principle that a tool should be as simple as possible while still effectively
+      measuring the construct
+    - Length of the tool
+    - Cost of development
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'A key ethical characteristic of a research tool is that it should:'
+    Options:
+    - Be deceptive
+    - Respect the dignity and rights of participants (e.g., confidentiality, minimal
+      intrusion)
+    - Be mandatory for all
+    - Have no instructions
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The "utility" of a research tool is a composite of its:'
+    Options:
+    - Color and design
+    - Practical value, which depends on its reliability, validity, and practicability
+    - Age and history
+    - Theoretical origins
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'A tool that is "unobtrusive" has the advantage of minimizing:'
+    Options:
+    - Reactivity
+    - Reliability
+    - Validity
+    - Cost
+    CorrectOptionIndex: 0
+    LevelName: res tool characteristics
+  - QuestionText: 'When a tool''s items are all strongly related to the central construct,
+      it demonstrates high:'
+    Options:
+    - Homogeneity
+    - Heterogeneity
+    - Objectivity
+    - Generality
+    CorrectOptionIndex: 0
+    LevelName: res tool characteristics
+  - QuestionText: 'The process of establishing the "validity" of a tool is:'
+    Options:
+    - A one-time event
+    - An ongoing, cumulative process that requires multiple lines of evidence
+    - Unnecessary if it is reliable
+    - Only important for questionnaires
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'A good research tool should have appropriate "difficulty level"
+      and "discriminatory index" to ensure it is:'
+    Options:
+    - Too hard for everyone
+    - Suitable for the target population and can distinguish between different levels
+      of the trait
+    - Easy to fake
+    - Based on old theories
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The most critical characteristic that a researcher must establish
+      for their tool before collecting main study data is:'
+    Options:
+    - Its color
+    - Its reliability and validity for the intended population and purpose
+    - Its popularity
+    - Its length
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics
+  - QuestionText: 'The ultimate test of a research tool''s quality is its:'
+    Options:
+    - Price
+    - Ability to yield trustworthy and meaningful data that accurately addresses
+      the research questions
+    - Complexity
+    - Number of pages
+    CorrectOptionIndex: 1
+    LevelName: res tool characteristics

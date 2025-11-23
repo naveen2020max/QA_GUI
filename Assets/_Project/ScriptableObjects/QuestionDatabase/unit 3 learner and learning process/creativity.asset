@@ -1,0 +1,468 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: creativity
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'J.P. Guilford''s structure of intellect model distinguished between
+      two types of thinking: Convergent and:'
+    Options:
+    - Divergent
+    - Reflective
+    - Lateral
+    - Critical
+    CorrectOptionIndex: 0
+    LevelName: creativity
+  - QuestionText: 'The stage of the creative process that involves subconscious mental
+      activity is known as:'
+    Options:
+    - Preparation
+    - Incubation
+    - Illumination
+    - Verification
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: Who proposed the "Investment Theory of Creativity," which suggests
+      that creative people "buy low and sell high" in the world of ideas?
+    Options:
+    - Teresa Amabile
+    - Robert Sternberg
+    - Mihaly Csikszentmihalyi
+    - J.P. Guilford
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'The ability to produce many different ideas is a characteristic
+      of divergent thinking known as:'
+    Options:
+    - Flexibility
+    - Originality
+    - Fluency
+    - Elaboration
+    CorrectOptionIndex: 2
+    LevelName: creativity
+  - QuestionText: 'Teresa Amabile''s Componential Theory of Creativity emphasizes
+      the crucial role of:'
+    Options:
+    - Genetic inheritance only
+    - High IQ scores
+    - Intrinsic motivation
+    - Extrinsic rewards
+    CorrectOptionIndex: 2
+    LevelName: creativity
+  - QuestionText: 'The term "Flow," describing a state of complete immersion and
+      focus in a creative activity, was coined by:'
+    Options:
+    - Abraham Maslow
+    - Carl Rogers
+    - Howard Gardner
+    - Divergent thinking tests.
+    CorrectOptionIndex: 3
+    LevelName: creativity
+  - QuestionText: 'According to Graham Wallas, the "Aha!" moment in the creative
+      process is called:'
+    Options:
+    - Preparation
+    - Incubation
+    - Illumination
+    - Verification
+    CorrectOptionIndex: 2
+    LevelName: creativity
+  - QuestionText: 'The Torrance Tests of Creative Thinking (TTCT) primarily measure:'
+    Options:
+    - Intelligence Quotient (IQ)
+    - Divergent thinking abilities
+    - Convergent thinking skills
+    - Emotional intelligence
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'In creativity research, a novel and appropriate product or solution
+      is often referred to as a:'
+    Options:
+    - Prototype
+    - Heuristic
+    - Creative artifact
+    - Innovation
+    CorrectOptionIndex: 2
+    LevelName: creativity
+  - QuestionText: The concept that creativity requires a confluence of domain-relevant
+      skills, creativity-relevant processes, and task motivation is central to whose
+      theory?
+    Options:
+    - Robert Sternberg
+    - Teresa Amabile
+    - J.P. Guilford
+    - Mihaly Csikszentmihalyi
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'A student who can generate a wide variety of uses for a common
+      brick is demonstrating high levels of:'
+    Options:
+    - Convergent thinking
+    - Divergent thinking
+    - Critical thinking
+    - Analytical thinking
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'The "Incubation" stage in the creative process is considered valuable
+      because it allows for:'
+    Options:
+    - Direct instruction on the problem.
+    - Careful verification of the final answer.
+    - Immediate implementation of the first solution.
+    - Unconscious processing and making remote associations.
+    CorrectOptionIndex: 3
+    LevelName: creativity
+  - QuestionText: 'A teacher who rewards students with money for every creative story
+      they write might, according to research, inadvertently reduce:'
+    Options:
+    - The students' IQ
+    - The students' intrinsic motivation for writing
+    - The students' convergent thinking skills
+    - Classroom discipline
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'In Sternberg''s Investment Theory, creative people are like good
+      investors because they:'
+    Options:
+    - Always follow popular trends.
+    - Pursue ideas that are currently unpopular but have growth potential.
+    - Invest only in sure things.
+    - Avoid all risks.
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'A major criticism of the "lone genius" myth of creativity is that
+      it ignores the importance of:'
+    Options:
+    - Genetic factors
+    - Psychometric testing
+    - Divergent thinking tests
+    - The cultural and social context (the "field" and the "domain")
+    CorrectOptionIndex: 3
+    LevelName: creativity
+  - QuestionText: 'The phenomenon where previous problem-solving strategies prevent
+      the finding of a simpler solution is known as:'
+    Options:
+    - Functional Fixedness
+    - Mental Set
+    - Confirmation Bias
+    - The Einstellung Effect
+    CorrectOptionIndex: 3
+    LevelName: creativity
+  - QuestionText: 'According to Mihaly Csikszentmihalyi''s systems model, creativity
+      results from the interaction between the individual, the culture (domain),
+      and the:'
+    Options:
+    - Family
+    - Field (social system)
+    - Educational system
+    - Unconscious mind
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'A student who can easily shift from one approach to another when
+      solving a problem is demonstrating cognitive:'
+    Options:
+    - Fluency
+    - Elaboration
+    - Originality
+    - Flexibility
+    CorrectOptionIndex: 3
+    LevelName: creativity
+  - QuestionText: 'The "Four-C Model" of creativity includes Mini-c, Little-c, Pro-c,
+      and:'
+    Options:
+    - Micro-c
+    - Big-C
+    - Mega-c
+    - Ultra-c
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'A classroom environment that fosters creativity is typically characterized
+      by:'
+    Options:
+    - Strict rules and no tolerance for mistakes.
+    - Psychological safety and openness to novel ideas.
+    - Emphasis on single correct answers.
+    - Highly structured and teacher-centered activities.
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'Critically analyzing creativity tests, a major limitation is that
+      they often:'
+    Options:
+    - Measure creative potential rather than real-world creative achievement.
+    - Are too closely aligned with IQ tests.
+    - Focus only on convergent thinking.
+    - Ignore fluency and flexibility.
+    CorrectOptionIndex: 0
+    LevelName: creativity
+  - QuestionText: 'A teacher who assigns a project with the prompt "Design a solution
+      to reduce litter in our school" instead of "Write a report on litter" is more
+      likely to foster:'
+    Options:
+    - Rote memorization
+    - Creative problem-solving
+    - Standardized test skills
+    - Convergent thinking
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'The "tension" between intrinsic and extrinsic motivation in creativity
+      is best resolved by the understanding that:'
+    Options:
+    - Extrinsic rewards always enhance creativity.
+    - Intrinsic motivation is the primary driver, but certain types of extrinsic
+      motivators (like feedback) can support it.
+    - Only intrinsic motivation matters for any task.
+    - Extrinsic rewards are the most powerful motivators for creative work.
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'A company that wants to foster innovation would be wise to structure
+      teams that include:'
+    Options:
+    - Only experts from the same field.
+    - Only junior employees with fresh ideas.
+    - People who all think alike to avoid conflict.
+    - A diverse mix of people with different knowledge bases and perspectives.
+    CorrectOptionIndex: 3
+    LevelName: creativity
+  - QuestionText: The "candle problem" experiment demonstrates how ______ can impede
+      creative problem-solving.
+    Options:
+    - Incubation
+    - Functional fixedness
+    - Divergent thinking
+    - The illumination stage
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'Comparing the theories of Amabile and Sternberg, a common thread
+      is that both recognize creativity as:'
+    Options:
+    - A single, easily measurable trait.
+    - A complex interaction of multiple factors.
+    - Solely dependent on personality.
+    - The same as high intelligence.
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: A student who produces a highly original and elaborate science
+      fair project is demonstrating both ______ and ______.
+    Options:
+    - Fluency; Flexibility
+    - Preparation; Verification
+    - Convergent thinking; Critical thinking
+    - Originality; Elaboration
+    CorrectOptionIndex: 3
+    LevelName: creativity
+  - QuestionText: 'The concept of "Big-C" creativity refers to:'
+    Options:
+    - Everyday problem-solving.
+    - Eminent creativity that has a significant impact on a culture or field.
+    - The creativity of young children.
+    - Professional-level expertise that is not groundbreaking.
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'A key educational implication of creativity research is that curriculum
+      and assessment should:'
+    Options:
+    - Value only one correct answer.
+    - Provide opportunities for open-ended problems and multiple solutions.
+    - Focus exclusively on memorization of facts.
+    - Avoid any form of subjective evaluation.
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'A teacher who encourages students to learn from their "failed"
+      experiments without punishment is primarily fostering:'
+    Options:
+    - A fear of failure
+    - Convergent thinking
+    - Lower academic standards
+    - A growth mindset and psychological safety for creative risk-taking
+    CorrectOptionIndex: 3
+    LevelName: creativity
+  - QuestionText: 'The "threshold hypothesis" suggests that:'
+    Options:
+    - Above a certain IQ (around 120), creativity and IQ are not strongly correlated.
+    - Creativity is entirely dependent on IQ.
+    - Everyone has the same creative potential.
+    - IQ is irrelevant to creativity.
+    CorrectOptionIndex: 0
+    LevelName: creativity
+  - QuestionText: 'In Csikszentmihalyi''s systems model, the "field" is responsible
+      for:'
+    Options:
+    - Storing symbolic knowledge.
+    - Generating new ideas.
+    - Selecting and validating creative contributions.
+    - Providing genetic potential.
+    CorrectOptionIndex: 2
+    LevelName: creativity
+  - QuestionText: 'A major barrier to organizational creativity is "groupthink,"
+      which can be counteracted by:'
+    Options:
+    - Encouraging unanimous agreement quickly.
+    - Appointing a devil's advocate to challenge consensus.
+    - Discouraging diverse opinions.
+    - Isolving team members from one another.
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'Brainstorming sessions are most effective when the rule of "defer
+      judgment" is followed because it:'
+    Options:
+    - Slows down the process.
+    - Encourages a free flow of ideas without the fear of immediate criticism.
+    - Ensures only high-quality ideas are shared.
+    - Makes it easier to reach a consensus.
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'The relationship between knowledge and creativity is best described
+      as:'
+    Options:
+    - "An inverse relationship\u2014more knowledge means less creativity."
+    - No relationship exists.
+    - "A linear relationship\u2014the more you know, the more creative you are."
+    - "A U-shaped relationship\u2014some knowledge is necessary, but too much can
+      lead to rigidity."
+    CorrectOptionIndex: 3
+    LevelName: creativity
+  - QuestionText: 'A teacher using the SCAMPER technique (Substitute, Combine, Adapt,
+      etc.) is directly trying to enhance students'':'
+    Options:
+    - Metacognitive skills
+    - Idea-generation abilities
+    - Test-taking speed
+    - Rote memorization
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: A person who is persistent in the face of obstacles and willing
+      to take intellectual risks is demonstrating the ______ aspect of the creative
+      personality.
+    Options:
+    - Cognitive
+    - Environmental
+    - Dispositional
+    - Conformist
+    CorrectOptionIndex: 2
+    LevelName: creativity
+  - QuestionText: 'The "Verification" stage in the creative process is most similar
+      to:'
+    Options:
+    - Critical thinking and refinement
+    - Unconscious processing
+    - The initial "Aha!" moment
+    - Mind wandering
+    CorrectOptionIndex: 0
+    LevelName: creativity
+  - QuestionText: 'A school that values creativity would assess students using:'
+    Options:
+    - Only standardized multiple-choice tests.
+    - A variety of methods, including portfolios, projects, and open-ended tasks.
+    - Solely on the basis of final exam scores.
+    - By comparing them to a single, rigid standard.
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'According to research, the role of constraints in creativity is
+      that they:'
+    Options:
+    - Always stifle creative expression.
+    - Can sometimes enhance creativity by providing a challenge and focus.
+    - Are irrelevant to the creative process.
+    - Should be eliminated entirely.
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'The concept of "Little-c" creativity is important in education
+      because it:'
+    Options:
+    - Only applies to famous artists and scientists.
+    - Is measured by the Torrance Tests.
+    - Is too vague to be useful.
+    - Validates the everyday creative acts of all students.
+    CorrectOptionIndex: 3
+    LevelName: creativity
+  - QuestionText: 'A society that values tradition and conformity over all else is
+      likely to:'
+    Options:
+    - Foster high levels of innovation.
+    - Suppress creative expression that challenges norms.
+    - Produce more creative geniuses.
+    - Encourage intellectual risk-taking.
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'The ability to make connections between seemingly unrelated concepts
+      is a key cognitive process in creativity known as:'
+    Options:
+    - Remote Associates
+    - Functional Fixedness
+    - Mental Set
+    - Convergent Thinking
+    CorrectOptionIndex: 0
+    LevelName: creativity
+  - QuestionText: 'A teacher who asks, "In how many different ways can we solve this
+      math problem?" is promoting:'
+    Options:
+    - Algorithmic thinking
+    - Divergent thinking
+    - Mental set
+    - Confirmation bias
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'The lasting impact of fostering creativity in education is that
+      it prepares students to:'
+    Options:
+    - Excel only on standardized tests.
+    - Avoid any form of failure.
+    - Conform to existing knowledge structures.
+    - Solve the complex, novel problems of the future.
+    CorrectOptionIndex: 3
+    LevelName: creativity
+  - QuestionText: 'A key difference between creativity and innovation is that innovation
+      requires:'
+    Options:
+    - The generation of novel ideas.
+    - The successful implementation of a creative idea.
+    - A high IQ score.
+    - Divergent thinking tests.
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'A curriculum that integrates the arts into STEM subjects (creating
+      STEAM) is based on the premise that:'
+    Options:
+    - Arts are less important than sciences.
+    - Artistic thinking can enhance scientific creativity and problem-solving.
+    - Students should specialize in one area only.
+    - Standardized tests are the best measure of learning.
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'The phenomenon where individuals come up with more creative ideas
+      when they are not focusing directly on the problem supports the importance
+      of:'
+    Options:
+    - The Incubation period
+    - The Illumination stage
+    - Extrinsic motivation
+    - Functional fixedness
+    CorrectOptionIndex: 0
+    LevelName: creativity
+  - QuestionText: 'A teacher who values creativity would most likely respond to an
+      unconventional student idea by:'
+    Options:
+    - Immediately dismissing it as wrong.
+    - Asking questions to understand the student's thinking and explore its potential.
+    - Punishing the student for not following directions.
+    - Ignoring it and moving on.
+    CorrectOptionIndex: 1
+    LevelName: creativity
+  - QuestionText: 'The ultimate goal of promoting creativity in the classroom is
+      to develop:'
+    Options:
+    - Students who all think and produce in the same way.
+    - Individuals who can adapt, innovate, and contribute original ideas to the world.
+    - Experts who only work within established paradigms.
+    - Learners who are solely motivated by grades.
+    CorrectOptionIndex: 1
+    LevelName: creativity

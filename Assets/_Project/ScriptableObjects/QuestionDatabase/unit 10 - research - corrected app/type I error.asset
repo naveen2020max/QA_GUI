@@ -1,0 +1,454 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: type I error
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is a Type I error?
+    Options:
+    - Failing to reject a false null hypothesis
+    - Rejecting a true null hypothesis
+    - Accepting a true alternative hypothesis
+    - Failing to accept a false hypothesis
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: 'The probability of committing a Type I error is denoted by:'
+    Options:
+    - "\u03B2 (Beta)"
+    - "1 - \u03B2"
+    - "\u03B1 (Alpha)"
+    - p
+    CorrectOptionIndex: 2
+    LevelName: type I error
+  - QuestionText: 'A Type I error is also known as a:'
+    Options:
+    - False negative
+    - True positive
+    - False positive
+    - True negative
+    CorrectOptionIndex: 2
+    LevelName: type I error
+  - QuestionText: "If a researcher sets \u03B1 = 0.05, what is the risk they are
+      willing to take of making a Type I error?"
+    Options:
+    - 0.05
+    - 0.5
+    - 0.95
+    - 0.005
+    CorrectOptionIndex: 0
+    LevelName: type I error
+  - QuestionText: "The conventional level of significance (\u03B1) in social science
+      research is:"
+    Options:
+    - 0.01
+    - 0.05
+    - 0.1
+    - 1
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: Who controls the probability of making a Type I error?
+    Options:
+    - The participants
+    - The statistician
+    - The researcher
+    - It is uncontrolled
+    CorrectOptionIndex: 2
+    LevelName: type I error
+  - QuestionText: 'A result is declared "statistically significant" when:'
+    Options:
+    - "p-value > \u03B1"
+    - "p-value = \u03B1"
+    - "p-value < \u03B1"
+    - "p-value = \u03B2"
+    CorrectOptionIndex: 2
+    LevelName: type I error
+  - QuestionText: 'Making a Type I error means the researcher has:'
+    Options:
+    - Found a non-existent effect
+    - Missed a real effect
+    - Proven the null hypothesis
+    - Proven the alternative hypothesis
+    CorrectOptionIndex: 0
+    LevelName: type I error
+  - QuestionText: 'The complement of a Type I error is:'
+    Options:
+    - A Type II error
+    - "Correctly rejecting a false H\u2080"
+    - "Correctly failing to reject a true H\u2080"
+    - The power of the test
+    CorrectOptionIndex: 2
+    LevelName: type I error
+  - QuestionText: "If you decrease the \u03B1 level from 0.05 to 0.01, what happens
+      to the probability of a Type I error?"
+    Options:
+    - It increases
+    - It decreases
+    - It stays the same
+    - It becomes zero
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: "A p-value of 0.03 when \u03B1=0.05 leads to the rejection of H\u2080.
+      In this case, what is the risk of a Type I error?"
+    Options:
+    - 0.03
+    - 0.05
+    - 0.97
+    - 0.95
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: 'In a legal analogy, a Type I error is equivalent to:'
+    Options:
+    - Freeing a guilty person
+    - Convicting an innocent person
+    - A correct acquittal
+    - A correct conviction
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: The concept of a Type I error is most directly related to which
+      of the following?
+    Options:
+    - Confidence Level
+    - Effect Size
+    - Sampling Method
+    - Standard Deviation
+    CorrectOptionIndex: 0
+    LevelName: type I error
+  - QuestionText: 'Conducting multiple hypothesis tests on the same dataset without
+      adjustment inflates the:'
+    Options:
+    - Type II error rate
+    - Overall Type I error rate
+    - Effect size
+    - Sample size
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: 'The Bonferroni correction is used to control for:'
+    Options:
+    - Increased Type II error
+    - Inflation of Type I error
+    - Low statistical power
+    - Small effect sizes
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: "If H\u2080 is true, the probability of correctly failing to reject
+      it is:"
+    Options:
+    - "\u03B1"
+    - "\u03B2"
+    - "1 - \u03B1"
+    - "1 - \u03B2"
+    CorrectOptionIndex: 2
+    LevelName: type I error
+  - QuestionText: "A researcher wants to be very cautious about claiming a new drug
+      works. They should set \u03B1 to:"
+    Options:
+    - 0.1
+    - 0.05
+    - 0.01
+    - 1
+    CorrectOptionIndex: 2
+    LevelName: type I error
+  - QuestionText: "The trade-off between Type I and Type II error implies that decreasing
+      \u03B1 will:"
+    Options:
+    - "Decrease \u03B2"
+    - "Increase \u03B2"
+    - "Have no effect on \u03B2"
+    - Increase power
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: 'A statistically significant result (p < .05) from a single, well-designed
+      study:'
+    Options:
+    - "Proves H\u2081 is true"
+    - "Proves H\u2080 is false"
+    - "Suggests H\u2080 may be false"
+    - Is automatically practically important
+    CorrectOptionIndex: 2
+    LevelName: type I error
+  - QuestionText: 'Replicating a significant finding in a new study is important
+      because it:'
+    Options:
+    - Guarantees the effect is real
+    - Reduces the likelihood that the original finding was a Type I error
+    - Increases the p-value
+    - Decreases the effect size
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: "A researcher conducts 10 independent tests, each at \u03B1=0.05.
+      If all null hypotheses are true, what is the probability of making at least
+      one Type I error?"
+    Options:
+    - 0.05
+    - 0.4
+    - 0.6
+    - 0.95
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: 'A 95% confidence interval that does not include the null value
+      (e.g., zero) is equivalent to:'
+    Options:
+    - "Failing to reject H\u2080 at \u03B1=0.05"
+    - "Rejecting H\u2080 at \u03B1=0.05"
+    - A Type II error
+    - "A high probability of H\u2080 being true"
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: In which scenario is a Type I error most costly?
+    Options:
+    - Concluding a harmless new food is effective.
+    - Concluding an expensive, invasive medical treatment works when it does not.
+    - Failing to detect a small improvement in a manufacturing process.
+    - Failing to find a correlation between two variables.
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: "If you set \u03B1 = 0, what would be the consequence?"
+    Options:
+    - You would never commit a Type I error.
+    - You would have maximum power.
+    - You would never commit a Type II error.
+    - "You would always reject H\u2080."
+    CorrectOptionIndex: 0
+    LevelName: type I error
+  - QuestionText: 'The "false discovery rate" is a modern approach to controlling:'
+    Options:
+    - The proportion of Type I errors among all rejected hypotheses
+    - The overall Type II error rate
+    - The sample size
+    - The effect size
+    CorrectOptionIndex: 0
+    LevelName: type I error
+  - QuestionText: A study with a small sample size is more prone to which type of
+      error?
+    Options:
+    - Type I Error
+    - Type II Error
+    - Both equally
+    - Neither
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: 'A p-value is best described as:'
+    Options:
+    - "The probability that H\u2080 is true."
+    - "The probability that H\u2081 is true."
+    - "The probability of the data given H\u2080 is true."
+    - The probability of making a Type I error.
+    CorrectOptionIndex: 2
+    LevelName: type I error
+  - QuestionText: 'When a researcher "data dredges" or performs "p-hacking," they
+      are artificially:'
+    Options:
+    - Increasing the Type II error rate
+    - Increasing the effective Type I error rate
+    - Decreasing the effect size
+    - Increasing the sample size
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: "The null hypothesis distribution (under H\u2080) is used to define:"
+    Options:
+    - The effect size
+    - "The critical value for rejecting H\u2080, which depends on \u03B1"
+    - The power of the test
+    - The alternative hypothesis
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: "A researcher finds a significant result with p = 0.049. If H\u2080
+      is actually true, what has occurred?"
+    Options:
+    - A correct decision
+    - A Type I error
+    - A Type II error
+    - Cannot be determined
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: "A pharmaceutical company runs 20 clinical trials for a drug that
+      is truly ineffective (H\u2080 is true for all). Using \u03B1=0.05, what is
+      the expected number of trials that will show a significant (but false) positive
+      result?"
+    Options:
+    - 0
+    - 1
+    - 5
+    - 20
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: 'If a researcher reports "p < 0.05" instead of the exact p-value,
+      this can be misleading because:'
+    Options:
+    - "It hides the strength of evidence against H\u2080."
+    - It automatically causes a Type I error.
+    - It increases the sample size.
+    - It decreases the effect size.
+    CorrectOptionIndex: 0
+    LevelName: type I error
+  - QuestionText: "In a two-tailed test, the \u03B1 risk is:"
+    Options:
+    - Split between the two tails of the distribution
+    - All placed in one tail
+    - Irrelevant
+    - The same as the p-value
+    CorrectOptionIndex: 0
+    LevelName: type I error
+  - QuestionText: "A confidence interval can be used to test a hypothesis. For a
+      two-sided test, if a 99% CI contains the null value, the result of the test
+      at \u03B1=0.01 is:"
+    Options:
+    - "Reject H\u2080"
+    - "Fail to reject H\u2080"
+    - Inconclusive
+    - A Type I error
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: 'The seriousness of a Type I error is a key factor in deciding:'
+    Options:
+    - The sample size
+    - "The desired level of significance (\u03B1)"
+    - The test statistic
+    - The degrees of freedom
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: 'A meta-analysis is helpful in mitigating the problem of Type I
+      errors in individual studies because it:'
+    Options:
+    - Combines evidence from multiple studies, making a false positive overall conclusion
+      less likely.
+    - Guarantees that all included studies are free of Type I errors.
+    - "Always uses a very low \u03B1 level."
+    - Focuses only on effect sizes, ignoring p-values.
+    CorrectOptionIndex: 0
+    LevelName: type I error
+  - QuestionText: 'If you perform a one-tailed test when a two-tailed test is appropriate,
+      you are:'
+    Options:
+    - "Increasing \u03B2"
+    - "Decreasing \u03B1"
+    - "Increasing the effective \u03B1 for the tail you are testing"
+    - Decreasing power
+    CorrectOptionIndex: 2
+    LevelName: type I error
+  - QuestionText: 'The phrase "statistically significant at the 5% level" means that:'
+    Options:
+    - There is a 5% chance the null hypothesis is true.
+    - The results have 5% practical significance.
+    - "The observed result would occur by chance alone less than 5% of the time if
+      H\u2080 were true."
+    - The effect size is 5%.
+    CorrectOptionIndex: 2
+    LevelName: type I error
+  - QuestionText: "A researcher wants to test a new teaching method. H\u2080: The
+      new method has no effect. If they reject H\u2080 and conclude it is better,
+      but in reality it has no effect, they have made a:"
+    Options:
+    - Type I error
+    - Type II error
+    - Correct decision
+    - Error in calculating the p-value
+    CorrectOptionIndex: 0
+    LevelName: type I error
+  - QuestionText: "The power of a test (1-\u03B2) is the probability of:"
+    Options:
+    - "Rejecting a true H\u2080"
+    - "Failing to reject a false H\u2080"
+    - "Correctly rejecting a false H\u2080"
+    - "Correctly failing to reject a true H\u2080"
+    CorrectOptionIndex: 2
+    LevelName: type I error
+  - QuestionText: A study has low power. What is the relationship between its significant
+      findings (p < .05) and the likelihood they are Type I errors?
+    Options:
+    - The significant findings are more likely to be Type I errors.
+    - The significant findings are less likely to be Type I errors.
+    - There is no relationship between power and the likelihood of a Type I error.
+    - Low power eliminates Type I errors.
+    CorrectOptionIndex: 0
+    LevelName: type I error
+  - QuestionText: "Which of the following practices directly increases the\_long-run\_rate
+      of Type I errors?"
+    Options:
+    - Using a random sample
+    - Pre-registering a study's hypothesis and analysis plan
+    - Selective reporting of only significant outcomes
+    - Using a double-blind design
+    CorrectOptionIndex: 2
+    LevelName: type I error
+  - QuestionText: "A Bonferroni correction for 5 tests at a desired \u03B1=0.05 would
+      use a new significance level of:"
+    Options:
+    - 0.05
+    - 0.01
+    - 0.005
+    - 0.25
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: "A researcher sets \u03B1=0.05 and gets p=0.02. They reject H\u2080.
+      The probability that this decision is a Type I error is:"
+    Options:
+    - 0.02
+    - 0.05
+    - 0.98
+    - Unknown
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: 'In a Bayesian framework, the analogue to the Type I error rate
+      is considered in the context of:'
+    Options:
+    - P-Values
+    - Posterior Probabilities
+    - Confidence Intervals
+    - Sampling Distributions
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: 'If the consequences of a Type I error are severe and the consequences
+      of a Type II error are mild, a researcher should:'
+    Options:
+    - "Set a high \u03B1 level (e.g., 0.10)"
+    - "Set a low \u03B1 level (e.g., 0.01)"
+    - Increase the sample size
+    - Decrease the sample size
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: 'A test is considered "conservative" if it:'
+    Options:
+    - Has a high Type I error rate
+    - Has a low Type I error rate
+    - Has high power
+    - Is easy to compute
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: 'The "file drawer problem" (publication bias) leads to an inflation
+      of the perceived Type I error rate in the scientific literature because:'
+    Options:
+    - Only studies with non-significant results are published.
+    - Only studies with significant results are published, including some that are
+      false positives.
+    - All studies are published regardless of outcome.
+    - The sample sizes in published studies are too small.
+    CorrectOptionIndex: 1
+    LevelName: type I error
+  - QuestionText: "A p-value of 0.06 when \u03B1=0.05 means:"
+    Options:
+    - A Type I error has been made.
+    - A Type II error has been made.
+    - "H\u2080 is definitely true."
+    - "There is not enough evidence to reject H\u2080, but this does not prove H\u2080
+      is true."
+    CorrectOptionIndex: 3
+    LevelName: type I error
+  - QuestionText: 'The most definitive way to reduce both Type I and Type II errors
+      simultaneously is to:'
+    Options:
+    - "Set \u03B1 to zero."
+    - Increase the sample size.
+    - Use a one-tailed test.
+    - Use a non-parametric test.
+    CorrectOptionIndex: 1
+    LevelName: type I error

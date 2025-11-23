@@ -1,0 +1,464 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: directive- guidance
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Directive guidance is primarily characterized by the counselor
+      playing what kind of role?
+    Options:
+    - A passive listener
+    - A non-judgmental reflector
+    - An active, authoritative leader and expert
+    - A collaborative partner
+    CorrectOptionIndex: 2
+    LevelName: directive- guidance
+  - QuestionText: 'A counselor using directive guidance with a student struggling
+      with career choice would most likely:'
+    Options:
+    - Ask open-ended questions about the student's feelings.
+    - Administer aptitude tests, analyze the results, and suggest specific suitable
+      careers.
+    - Reflect the student's uncertainty back to them.
+    - Wait for the student to find their own solution.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: The theoretical foundation of directive guidance is most closely
+      associated with which approach?
+    Options:
+    - Person-Centered Therapy
+    - Trait-and-Factor Theory
+    - Psychoanalytic Theory
+    - Existential Therapy
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: Who is considered the primary pioneer of the directive approach
+      in counseling and guidance?
+    Options:
+    - Carl Rogers
+    - John Dewey
+    - E.G. Williamson
+    - B.F. Skinner
+    CorrectOptionIndex: 2
+    LevelName: directive- guidance
+  - QuestionText: 'In directive guidance, the counselor''s main responsibility is
+      to:'
+    Options:
+    - Facilitate the client's self-discovery.
+    - Diagnose the problem and prescribe a solution.
+    - Provide unconditional positive regard.
+    - Explore the client's childhood experiences.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: Which of the following techniques is MOST characteristic of a directive
+      counselor?
+    Options:
+    - Active listening
+    - Giving advice and suggestions
+    - Reflection of feelings
+    - Maintaining silence
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: Directive guidance is often compared to which medical model?
+    Options:
+    - The holistic health model
+    - The community health model
+    - The palliative care model
+    - The diagnosis-prescription model
+    CorrectOptionIndex: 3
+    LevelName: directive- guidance
+  - QuestionText: 'The directive approach is most effective in situations that require:'
+    Options:
+    - Deep, long-term personality change.
+    - Immediate crisis intervention and concrete information.
+    - Exploration of existential meaning.
+    - Resolving unconscious conflicts.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'A key criticism of the directive approach is that it may:'
+    Options:
+    - Take too long to produce results.
+    - Foster excessive dependence on the counselor and undermine client autonomy.
+    - Be too non-judgmental.
+    - Lack structure and direction.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'In the context of school guidance, a directive approach would
+      be most appropriate for:'
+    Options:
+    - Helping a student explore their identity.
+    - Facilitating a values clarification workshop.
+    - Counseling a student through grief.
+    - Explaining the specific steps required to apply for a college scholarship.
+    CorrectOptionIndex: 3
+    LevelName: directive- guidance
+  - QuestionText: 'A teacher using a directive approach to handle a classroom conflict
+      would most likely:'
+    Options:
+    - Let the students work it out themselves.
+    - Establish clear rules and consequences for the behavior.
+    - Facilitate a discussion where students share their feelings.
+    - Use metaphoric stories to illustrate a point.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'The directive approach assumes that the counselor:'
+    Options:
+    - Has superior knowledge, training, and experience to solve the client's problems.
+    - Is an equal partner in the therapeutic relationship.
+    - Is a blank slate for the client's projections.
+    - Should avoid giving any direct opinions.
+    CorrectOptionIndex: 0
+    LevelName: directive- guidance
+  - QuestionText: Which of the following is a primary tool used in directive guidance
+      for assessment?
+    Options:
+    - Free association
+    - Standardized psychological tests
+    - Dream analysis
+    - Empty chair technique
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'The final step in E.G. Williamson''s directive counseling process
+      is:'
+    Options:
+    - Establishing rapport
+    - Diagnosis
+    - Follow-up
+    - Termination
+    CorrectOptionIndex: 2
+    LevelName: directive- guidance
+  - QuestionText: 'A directive counselor working with an indecisive student would
+      emphasize:'
+    Options:
+    - The student's capacity for self-direction.
+    - Logical analysis of options and a planned course of action.
+    - Exploration of deep-seated fears.
+    - Acceptance of the indecision as normal.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'In a directive guidance session, the flow of communication is
+      primarily:'
+    Options:
+    - From client to counselor.
+    - From counselor to client.
+    - Equally balanced between both.
+    - Non-verbal.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'Directive guidance is LEAST effective for clients who:'
+    Options:
+    - Are in immediate danger and need clear instructions.
+    - Are from cultures that respect authority figures.
+    - Lack information and need concrete advice.
+    - Are highly resistant and value their autonomy greatly.
+    CorrectOptionIndex: 3
+    LevelName: directive- guidance
+  - QuestionText: 'The term "prescription" in the directive approach refers to the
+      counselor''s role in:'
+    Options:
+    - Writing medical prescriptions.
+    - Recommending a specific course of action for the client to follow.
+    - Diagnosing mental illnesses.
+    - Predicting future behavior.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'A modern application of the directive approach is evident in:'
+    Options:
+    - Psychoanalytic therapy.
+    - Career information centers where experts match traits to jobs.
+    - Client-centered support groups.
+    - Art therapy sessions.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'Compared to non-directive counseling, directive guidance is generally
+      more:'
+    Options:
+    - Structured and counselor-centered.
+    - Unstructured and client-centered.
+    - Focused on emotional exploration.
+    - Ambiguous and open-ended.
+    CorrectOptionIndex: 0
+    LevelName: directive- guidance
+  - QuestionText: 'A student is panicking about an important exam tomorrow. Using
+      a directive approach, the counselor''s BEST initial response would be to:'
+    Options:
+    - Explore the childhood roots of the student's anxiety.
+    - Teach the student a specific relaxation technique and help them create a study
+      schedule for the night.
+    - Reflect, "You're feeling very overwhelmed right now."
+    - Ask, "What does this panic mean to you?"
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'Critically analyzing the directive approach, a major ethical concern
+      is that it:'
+    Options:
+    - Lacks any theoretical foundation.
+    - Can disempower clients by implying they are incapable of solving their own
+      problems.
+    - Is too expensive to implement.
+    - Takes too long to show results.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'In a culturally diverse setting, a potential pitfall of a strictly
+      directive approach is that it may:'
+    Options:
+    - Be too passive for clients from collectivist cultures.
+    - Focus too much on client autonomy.
+    - Lack the structure that some clients desire.
+    - Impose the counselor's cultural values and solutions on the client.
+    CorrectOptionIndex: 3
+    LevelName: directive- guidance
+  - QuestionText: 'A teacher uses a directive approach to manage a student''s disruptive
+      behavior by implementing a strict behavior modification chart. A key limitation
+      of this approach is that it might:'
+    Options:
+    - Be ineffective in the long run if the student doesn't internalize the reasons
+      for change.
+    - Empower the student too quickly.
+    - Take too much time to implement.
+    - Be too collaborative.
+    CorrectOptionIndex: 0
+    LevelName: directive- guidance
+  - QuestionText: 'Evaluating two counseling styles for a client seeking information
+      about vocational training programs: A directive counselor would provide a list
+      of programs and eligibility criteria. A non-directive counselor would help
+      the client explore their feelings about vocational training. The directive
+      approach is more efficient in this scenario because:'
+    Options:
+    - It addresses the client's stated need for concrete information directly and
+      quickly.
+    - It leads to deeper personal insight.
+    - It builds a stronger therapeutic alliance.
+    - It is always the preferred method.
+    CorrectOptionIndex: 0
+    LevelName: directive- guidance
+  - QuestionText: 'A counselor using an eclectic approach might use directive techniques:'
+    Options:
+    - Exclusively throughout the entire counseling process.
+    - Only when the client needs immediate structure, information, or skill-building.
+    - Never, as it contradicts other theories.
+    - Only during the termination phase.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: The directive approach aligns most closely with which educational
+      philosophy?
+    Options:
+    - Progressivism
+    - Essentialism (emphasizing transmission of knowledge from expert to learner)
+    - Reconstructionism
+    - Existentialism
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'A parent using a directive parenting style would most likely respond
+      to a child''s poor grade by:'
+    Options:
+    - Asking the child how they feel about the grade.
+    - Suggesting the child explore the symbolic meaning of the grade.
+    - Believing the child will naturally improve when ready.
+    - Setting up a mandated study schedule and taking away privileges until grades
+      improve.
+    CorrectOptionIndex: 3
+    LevelName: directive- guidance
+  - QuestionText: 'In a school setting, the directive approach is most visible in:'
+    Options:
+    - Peer counseling programs.
+    - The standard curriculum and disciplinary code.
+    - Student-led conferences.
+    - Open classroom discussions.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'A key difference between "directing" and "guiding" is that directing
+      involves:'
+    Options:
+    - Walking alongside the client on their journey.
+    - Telling the client which path to take.
+    - Helping the client read the map.
+    - Letting the client choose any path.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'A student says, "I don''t know what to do about my friend who
+      is cheating." A directive counselor''s response would be:'
+    Options:
+    - '"How does that make you feel?"'
+    - '"That sounds like a difficult dilemma."'
+    - '"Let''s analyze the school''s academic integrity policy and the potential
+      consequences for both of you. I recommend you speak to your teacher."'
+    - '"What do you think is the right thing to do?"'
+    CorrectOptionIndex: 2
+    LevelName: directive- guidance
+  - QuestionText: 'The decline in popularity of the pure directive approach in the
+      mid-20th century was largely due to the rise of:'
+    Options:
+    - Behavioral psychology.
+    - Humanistic psychology and Carl Rogers' client-centered approach.
+    - Cognitive psychology.
+    - Neuro-linguistic programming.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'A modern legacy of the directive approach is its contribution
+      to the development of:'
+    Options:
+    - Psychoanalysis.
+    - Behavioral and Cognitive-Behavioral Therapies (CBT), which are often structured
+      and directive.
+    - Gestalt therapy.
+    - Narrative therapy.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'In a crisis situation (e.g., a student threatening self-harm),
+      a counselor must often adopt a directive role to:'
+    Options:
+    - Promote long-term self-understanding.
+    - Build a democratic relationship.
+    - Explore the underlying causes of the crisis.
+    - Ensure immediate safety and stabilization.
+    CorrectOptionIndex: 3
+    LevelName: directive- guidance
+  - QuestionText: 'A teacher using a directive style to teach a complex skill like
+      essay writing would:'
+    Options:
+    - Provide students with a variety of essays and let them discover the patterns.
+    - Use a structured formula (e.g., a specific outline) and model each step explicitly.
+    - Encourage free writing without correction.
+    - Only assess the final product without feedback.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'The directive approach can be empowering for certain clients,
+      such as those who:'
+    Options:
+    - Already have high self-efficacy.
+    - Are in a state of confusion and feel overwhelmed, and need clear direction
+      to take the first step.
+    - Are highly resistant to authority.
+    - Have a strong need for self-exploration.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: A counselor's use of interpretation (e.g., "Your procrastination
+      seems to be a way of avoiding failure") is a technique associated with the
+      __________ approach.
+    Options:
+    - Non-directive
+    - Person-centered
+    - Existential
+    - Directive (as it provides an expert's analysis)
+    CorrectOptionIndex: 3
+    LevelName: directive- guidance
+  - QuestionText: In which of Williamson's steps does the counselor synthesize information
+      from tests and interviews to understand the client's problem?
+    Options:
+    - Analysis
+    - Synthesis
+    - Diagnosis
+    - Counseling
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'A potential strength of the directive approach in a school setting
+      is its:'
+    Options:
+    - Ability to handle deep-seated emotional trauma.
+    - Efficiency in dealing with large numbers of students needing information.
+    - Focus on building a profound therapeutic alliance.
+    - Suitability for all types of students and problems.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'A student seeking guidance on which science stream to choose would
+      receive the MOST directive assistance from a counselor who:'
+    Options:
+    - Listens empathetically to their doubts.
+    - Shares stories of other students' struggles.
+    - Asks, "What does your heart tell you?"
+    - Administers aptitude and interest tests and then recommends a specific stream
+      based on the results.
+    CorrectOptionIndex: 3
+    LevelName: directive- guidance
+  - QuestionText: The directive approach is most compatible with a __________ view
+      of human nature.
+    Options:
+    - Phenomenological
+    - Rational and intellectual
+    - Deterministic and unconscious
+    - Holistic and spiritual
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: A teacher who believes students learn best through clear instruction,
+      demonstration, and practice is adhering to a philosophy consistent with __________
+      guidance.
+    Options:
+    - Non-directive
+    - Directive
+    - laissez-faire
+    - Constructivist
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'In a group guidance session on study skills, a leader using a
+      directive approach would:'
+    Options:
+    - Let the group members set the agenda.
+    - Use only open-ended questions.
+    - Facilitate a discussion on what study methods feel right to each person.
+    - Present a pre-planned lesson on effective study techniques.
+    CorrectOptionIndex: 3
+    LevelName: directive- guidance
+  - QuestionText: 'A major contribution of the directive approach to the field of
+      counseling is that it:'
+    Options:
+    - Established counseling as a professional, scientific activity.
+    - Emphasized the importance of the therapeutic relationship above all else.
+    - Focused exclusively on emotional expression.
+    - Rejected the use of any assessment tools.
+    CorrectOptionIndex: 0
+    LevelName: directive- guidance
+  - QuestionText: 'When using a directive approach, it is crucial for the counselor
+      to also:'
+    Options:
+    - Remain completely neutral and anonymous.
+    - Build rapport and ensure the client understands and agrees with the proposed
+      plan.
+    - Avoid any kind of assessment.
+    - Use techniques from every other counseling approach simultaneously.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'A counselor using a purely directive style is LEAST likely to
+      say:'
+    Options:
+    - '"Based on your test scores, I think you should pursue engineering."'
+    - '"The first step you need to take is to talk to your teacher."'
+    - '"How would you like to proceed?"'
+    - '"Here is a list of books you must read to improve your situation."'
+    CorrectOptionIndex: 2
+    LevelName: directive- guidance
+  - QuestionText: 'In the context of special education, a directive approach is often
+      used in:'
+    Options:
+    - Unstructured play therapy.
+    - Applied Behavior Analysis (ABA) to teach specific skills.
+    - Client-centered counseling for the parents.
+    - Dream analysis with the child.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance
+  - QuestionText: 'The directive approach can be ineffective if the counselor:'
+    Options:
+    - Has superior knowledge and experience.
+    - Uses standardized tests.
+    - Provides clear and logical advice.
+    - Misdiagnoses the client's problem and prescribes an incorrect solution.
+    CorrectOptionIndex: 3
+    LevelName: directive- guidance
+  - QuestionText: 'A modern, more collaborative version of the directive approach
+      might be described as:'
+    Options:
+    - A teacher-centered lecture.
+    - A guide-on-the-side rather than a sage-on-the-stage.
+    - A doctor-patient relationship.
+    - A blank slate approach.
+    CorrectOptionIndex: 1
+    LevelName: directive- guidance

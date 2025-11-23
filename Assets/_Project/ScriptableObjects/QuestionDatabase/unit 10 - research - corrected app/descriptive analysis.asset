@@ -1,0 +1,441 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: descriptive analysis
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary purpose of descriptive statistics?
+    Options:
+    - To make predictions about a population
+    - To summarize, organize, and simplify data
+    - To test hypotheses
+    - To establish cause-and-effect
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: Which of the following is a measure of central tendency?
+    Options:
+    - Range
+    - Standard Deviation
+    - Mean
+    - Variance
+    CorrectOptionIndex: 2
+    LevelName: descriptive analysis
+  - QuestionText: 'The most frequently occurring score in a dataset is the:'
+    Options:
+    - Mean
+    - Median
+    - Mode
+    - Range
+    CorrectOptionIndex: 2
+    LevelName: descriptive analysis
+  - QuestionText: 'The middle point in a dataset, when the scores are arranged in
+      order, is the:'
+    Options:
+    - Median
+    - Mean
+    - Mode
+    - Midrange
+    CorrectOptionIndex: 0
+    LevelName: descriptive analysis
+  - QuestionText: Which measure of central tendency is most affected by extreme scores
+      (outliers)?
+    Options:
+    - Mean
+    - Median
+    - Mode
+    - All are equally affected
+    CorrectOptionIndex: 0
+    LevelName: descriptive analysis
+  - QuestionText: 'In a positively skewed distribution, the relationship between
+      the mean, median, and mode is typically:'
+    Options:
+    - Mean = Median = Mode
+    - Mean > Median > Mode
+    - Mode > Median > Mean
+    - Median > Mean > Mode
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'The appropriate measure of central tendency for nominal data (e.g.,
+      eye color) is the:'
+    Options:
+    - Mean
+    - Median
+    - Mode
+    - Standard Deviation
+    CorrectOptionIndex: 2
+    LevelName: descriptive analysis
+  - QuestionText: 'The difference between the highest and lowest scores in a dataset
+      is the:'
+    Options:
+    - Variance
+    - Standard Deviation
+    - Range
+    - Interquartile Range
+    CorrectOptionIndex: 2
+    LevelName: descriptive analysis
+  - QuestionText: 'The average of the squared deviations from the mean is the:'
+    Options:
+    - Range
+    - Variance
+    - Standard Deviation
+    - Mean Absolute Deviation
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'The square root of the variance is the:'
+    Options:
+    - Mean
+    - Range
+    - Standard Deviation
+    - Median
+    CorrectOptionIndex: 2
+    LevelName: descriptive analysis
+  - QuestionText: Which measure of variability is least affected by extreme scores?
+    Options:
+    - Range
+    - Variance
+    - Standard Deviation
+    - Interquartile Range (IQR)
+    CorrectOptionIndex: 3
+    LevelName: descriptive analysis
+  - QuestionText: 'The IQR (Interquartile Range) is the difference between the:'
+    Options:
+    - Mean and Median
+    - Third Quartile (Q3) and First Quartile (Q1)
+    - Highest and Lowest scores
+    - Mode and Mean
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'A z-score indicates:'
+    Options:
+    - The mean of the dataset
+    - The number of standard deviations a score is from the mean
+    - The mode of the dataset
+    - The range of the dataset
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'A score with a z-score of 0 is:'
+    Options:
+    - An outlier
+    - The highest score
+    - Exactly equal to the mean
+    - The lowest score
+    CorrectOptionIndex: 2
+    LevelName: descriptive analysis
+  - QuestionText: 'A histogram is a graphical representation used for:'
+    Options:
+    - Displaying the frequency distribution of a continuous variable
+    - Showing the relationship between two variables
+    - Displaying categorical data
+    - Showing parts of a whole
+    CorrectOptionIndex: 0
+    LevelName: descriptive analysis
+  - QuestionText: 'A bar graph is typically used for representing data that are:'
+    Options:
+    - Continuous
+    - Categorical (Nominal or Ordinal)
+    - Skewed
+    - Correlated
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'A pie chart is most appropriate for showing:'
+    Options:
+    - The mean and standard deviation
+    - The proportion of cases in each category of a nominal variable
+    - The correlation between two variables
+    - The change in a variable over time
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: A box plot (box-and-whisker plot) visually displays which of the
+      following?
+    Options:
+    - The correlation coefficient
+    - The median, quartiles, and potential outliers
+    - The regression line
+    - The probability distribution
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'A distribution where the left tail is longer than the right tail
+      is:'
+    Options:
+    - Symmetrical
+    - Negatively Skewed
+    - Positively Skewed
+    - Bimodal
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'A normal distribution is characterized by:'
+    Options:
+    - Being bimodal
+    - Being symmetrical and bell-shaped
+    - Having a mean of 0
+    - Having no variability
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: The Empirical Rule states that in a normal distribution, approximately
+      what percentage of data falls within one standard deviation of the mean?
+    Options:
+    - 0.5
+    - 0.68
+    - 0.95
+    - 0.997
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'The 5-number summary consists of:'
+    Options:
+    - Mean, SD, Variance, Range, Mode
+    - Minimum, Q1, Median, Q3, Maximum
+    - Q1, Q2, Q3, Q4, Mean
+    - Mode, Median, Mean, Range, IQR
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: How does the median compare to the mean in a negatively skewed
+      distribution?
+    Options:
+    - The median is greater than the mean.
+    - The median is greater than the mean.
+    - The median is equal to the mean.
+    - The relationship cannot be determined.
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: Why is the standard deviation generally considered a better measure
+      of variability than the range?
+    Options:
+    - It is easier to calculate.
+    - It uses all the data points and is less affected by extreme scores than the
+      range.
+    - It is always smaller.
+    - It can be used for categorical data.
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: What is the main purpose of using a z-score?
+    Options:
+    - To create a graph
+    - To determine a score's relative position and compare scores from different
+      distributions
+    - To calculate the average
+    - To find the most frequent score
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: "Assertion (A):\_The mean is the balance point of a distribution.\_Reason
+      (R):\_The sum of the deviations of each score from the mean is always zero."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: descriptive analysis
+  - QuestionText: 'A dataset has a mean of 50 and a standard deviation of 5. A score
+      of 60 has a z-score of:'
+    Options:
+    - 1
+    - 2
+    - -2
+    - 10
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: Contrast a "parameter" with a "statistic."
+    Options:
+    - They are the same.
+    - A parameter describes a population; a statistic describes a sample.
+    - A statistic describes a population; a parameter describes a sample.
+    - Parameters are for inference, statistics for description.
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: Which measure of central tendency would you report for annual income
+      data, which is typically highly skewed?
+    Options:
+    - Median
+    - Mean
+    - Mode
+    - Standard Deviation
+    CorrectOptionIndex: 0
+    LevelName: descriptive analysis
+  - QuestionText: A scatter plot is used for which of the following?
+    Options:
+    - Displaying the relationship between two continuous variables
+    - Showing the frequency of a single variable
+    - Comparing means of three groups
+    - Displaying categorical proportions
+    CorrectOptionIndex: 0
+    LevelName: descriptive analysis
+  - QuestionText: Which of the following is the STRONGEST reason for using the standard
+      deviation over the variance?
+    Options:
+    - It is easier to calculate.
+    - It is expressed in the original units of the data, making it more interpretable.
+    - It is always a smaller number.
+    - It is not sensitive to outliers.
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'A flaw in using only the range to describe data is that it:'
+    Options:
+    - Is too difficult to calculate.
+    - Is extremely sensitive to outliers and gives no information about the distribution
+      of values between the max and min.
+    - Is always zero.
+    - Cannot be used with the mean.
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'The concept of "kurtosis" refers to the:'
+    Options:
+    - Skewness of a distribution
+    - Peakedness or flatness of a distribution compared to a normal curve
+    - Average of the distribution
+    - Variability of the distribution
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'In a perfectly symmetrical, unimodal distribution:'
+    Options:
+    - The range is zero
+    - The mean, median, and mode are all equal
+    - The standard deviation is 1
+    - The variance is negative
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'The coefficient of variation is useful for:'
+    Options:
+    - Finding the mean
+    - Comparing the relative variability of datasets with different units or widely
+      different means
+    - Calculating z-scores
+    - Determining skewness
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'A frequency polygon is a line graph that represents:'
+    Options:
+    - The mean over time
+    - The frequencies of classes in a frequency distribution
+    - The correlation between two variables
+    - The interquartile range
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'The cumulative frequency for a class interval is the:'
+    Options:
+    - Frequency of that interval
+    - Sum of the frequencies for that class and all previous classes
+    - Difference between the highest and lowest frequency
+    - Average frequency
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'A researcher calculates the mean of a sample. This mean is a:'
+    Options:
+    - Statistic
+    - Parameter
+    - Population
+    - Constant
+    CorrectOptionIndex: 0
+    LevelName: descriptive analysis
+  - QuestionText: 'The midrange is calculated as:'
+    Options:
+    - (Q3 - Q1)/2
+    - (Maximum + Minimum) / 2
+    - (Mean + Median)/2
+    - (Mode + Mean)/2
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'Descriptive statistics are to "what the data looks like" as inferential
+      statistics are to:'
+    Options:
+    - '"Making predictions or generalizations from the data"'
+    - '"Summarizing the data"'
+    - '"Drawing graphs"'
+    - '"Calculating means"'
+    CorrectOptionIndex: 0
+    LevelName: descriptive analysis
+  - QuestionText: 'If a distribution is bimodal, the best measure of central tendency
+      to report is/are the:'
+    Options:
+    - Mean
+    - Median
+    - Modes
+    - Mean and Median
+    CorrectOptionIndex: 2
+    LevelName: descriptive analysis
+  - QuestionText: 'The variance for a population is denoted by:'
+    Options:
+    - "\u03C3\xB2"
+    - "s\xB2"
+    - "\u03C3"
+    - s
+    CorrectOptionIndex: 0
+    LevelName: descriptive analysis
+  - QuestionText: 'A stem-and-leaf plot is similar to a histogram but has the advantage
+      of:'
+    Options:
+    - Being easier to draw
+    - Preserving the original raw data values
+    - Showing the mean and standard deviation
+    - Being used for categorical data
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'The mean of a dataset is 100 and the median is 95. The distribution
+      is most likely:'
+    Options:
+    - Symmetrical
+    - Positively Skewed
+    - Negatively Skewed
+    - Bimodal
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: Which of the following is NOT a property of the standard deviation?
+    Options:
+    - It is the square root of the variance.
+    - It is measured in the same units as the original data.
+    - It can be negative.
+    - It is sensitive to outliers.
+    CorrectOptionIndex: 2
+    LevelName: descriptive analysis
+  - QuestionText: 'The purpose of a "measure of variability" is to quantify the:'
+    Options:
+    - Central value
+    - Spread or dispersion of the data points
+    - Shape of the distribution
+    - Most frequent value
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: In a normal distribution, what percent of scores lie between the
+      mean and a z-score of +1?
+    Options:
+    - 0.25
+    - 0.34
+    - 0.68
+    - 0.95
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'The most appropriate graph for showing the trend of a variable
+      over time is a:'
+    Options:
+    - Bar chart
+    - Histogram
+    - Line graph
+    - Pie chart
+    CorrectOptionIndex: 2
+    LevelName: descriptive analysis
+  - QuestionText: 'If every score in a dataset is multiplied by a constant, the standard
+      deviation will be:'
+    Options:
+    - Unchanged
+    - Multiplied by that constant
+    - Divided by that constant
+    - Increased by that constant
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis
+  - QuestionText: 'The ultimate goal of descriptive analysis is to:'
+    Options:
+    - Prove a hypothesis
+    - Provide a clear and accurate summary of the data to facilitate understanding
+      and communication
+    - Make inferences about a population
+    - Calculate p-values
+    CorrectOptionIndex: 1
+    LevelName: descriptive analysis

@@ -1,0 +1,474 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: emotional intelligence
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The term "Emotional Intelligence" was first formally introduced
+      into academic psychology by:'
+    Options:
+    - Daniel Goleman
+    - Peter Salovey and John Mayer
+    - Howard Gardner
+    - Robert Sternberg
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: Which of the following is NOT one of the four core branches in
+      Salovey and Mayer's original model of EI?
+    Options:
+    - Perceiving Emotions
+    - Using Emotions
+    - Managing Emotions
+    - Ignoring Emotions
+    CorrectOptionIndex: 3
+    LevelName: emotional intelligence
+  - QuestionText: Daniel Goleman's model of Emotional Intelligence is best described
+      as a(n) ______ model.
+    Options:
+    - Ability-based
+    - Mixed (ability and trait)
+    - Purely cognitive
+    - Psychoanalytic
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'The ability to understand the emotional makeup of other people
+      and skillfully respond to their emotions is known as:'
+    Options:
+    - Self-awareness
+    - Self-regulation
+    - Social skill
+    - Empathy
+    CorrectOptionIndex: 3
+    LevelName: emotional intelligence
+  - QuestionText: Which of the following is a key component of Goleman's emotional
+      intelligence framework?
+    Options:
+    - Logical-mathematical reasoning
+    - Self-motivation
+    - Spatial visualization
+    - Musical rhythm
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'The concept that best describes the ability to control or redirect
+      disruptive impulses and moods is:'
+    Options:
+    - Self-awareness
+    - Self-regulation
+    - Motivation
+    - Social skill
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: The MSCEIT (Mayer-Salovey-Caruso Emotional Intelligence Test) is
+      based on which model of EI?
+    Options:
+    - The Trait Model
+    - The Cognitive Model
+    - The Mixed Model
+    - The Ability Model
+    CorrectOptionIndex: 3
+    LevelName: emotional intelligence
+  - QuestionText: 'In the context of EI, "affect" refers to:'
+    Options:
+    - Logical reasoning ability
+    - A broad range of feelings, including emotions and moods
+    - Physical fitness levels
+    - Academic achievement
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: Which researcher developed the Emotional Quotient Inventory (EQ-i),
+      a self-report measure of emotional intelligence?
+    Options:
+    - John Mayer
+    - Daniel Goleman
+    - Reuven Bar-On
+    - Peter Salovey
+    CorrectOptionIndex: 2
+    LevelName: emotional intelligence
+  - QuestionText: 'The ability to recognize and understand your own moods, emotions,
+      and drives, as well as their effect on others, is called:'
+    Options:
+    - Empathy
+    - Social Skill
+    - Self-Awareness
+    - Self-Regulation
+    CorrectOptionIndex: 2
+    LevelName: emotional intelligence
+  - QuestionText: A teacher who can accurately sense the frustration in a student's
+      voice during a one-on-one conversation is demonstrating high competence in
+      which branch of EI?
+    Options:
+    - Managing Emotions
+    - Understanding Emotions
+    - Using Emotions
+    - Perceiving Emotions
+    CorrectOptionIndex: 3
+    LevelName: emotional intelligence
+  - QuestionText: 'A student who feels anxious about an exam but uses that anxiety
+      to focus more intently on studying is demonstrating the ability to:'
+    Options:
+    - Suppress emotions
+    - Use emotions to facilitate thinking
+    - Ignore emotional signals
+    - Manipulate others' emotions
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'The primary difference between the Ability Model and Mixed Models
+      of EI is that Ability Models:'
+    Options:
+    - Focus on EI as a set of mental abilities that can be measured objectively
+    - Combine emotional skills with personality traits
+    - Are only used in clinical psychology
+    - Deny that emotions can be managed
+    CorrectOptionIndex: 0
+    LevelName: emotional intelligence
+  - QuestionText: 'A school leader who remains calm and makes rational decisions
+      during a crisis is demonstrating strong:'
+    Options:
+    - Self-awareness
+    - Self-regulation
+    - Empathy
+    - Social skill
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: According to Goleman, which component of EI is crucial for effective
+      leadership and teamwork?
+    Options:
+    - Self-awareness
+    - Technical expertise
+    - Logical reasoning
+    - Social skill
+    CorrectOptionIndex: 3
+    LevelName: emotional intelligence
+  - QuestionText: The concept of "emotional contagion" is most closely related to
+      which aspect of EI?
+    Options:
+    - Self-awareness
+    - Empathy
+    - Self-motivation
+    - Cognitive ability
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'A teacher who understands that a student''s angry outburst might
+      be masking feelings of embarrassment or fear is demonstrating:'
+    Options:
+    - Social skill
+    - Motivation
+    - Self-regulation
+    - Emotional understanding
+    CorrectOptionIndex: 3
+    LevelName: emotional intelligence
+  - QuestionText: 'In an educational context, high emotional intelligence among teachers
+      is correlated with:'
+    Options:
+    - Lower student achievement
+    - More positive classroom climate and better student-teacher relationships
+    - Increased use of punitive discipline
+    - Decreased student engagement
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: The ability to delay immediate gratification for long-term success
+      is a key aspect of which EI component?
+    Options:
+    - Empathy
+    - Self-regulation
+    - Social skill
+    - Self-awareness
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'A student who can accurately label their feelings as "disappointed"
+      rather than just "angry" is demonstrating:'
+    Options:
+    - Emotional vocabulary
+    - Social manipulation
+    - Cognitive dissonance
+    - Emotional suppression
+    CorrectOptionIndex: 0
+    LevelName: emotional intelligence
+  - QuestionText: 'Critically analyzing the measurement of EI, a major challenge
+      with self-report measures (like the EQ-i) is that they:'
+    Options:
+    - Are too objective and reliable
+    - Can be influenced by self-deception and social desirability bias
+    - Are based on actual performance tasks
+    - Are too expensive to administer
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'A school implements a Social-Emotional Learning (SEL) program
+      that includes lessons on identifying emotions, managing stress, and resolving
+      conflicts. This program is most directly aimed at developing students'':'
+    Options:
+    - Logical-mathematical intelligence
+    - Emotional intelligence
+    - Musical-rhythmic intelligence
+    - Spatial intelligence
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'A manager who can sense growing tension during a team meeting
+      and skillfully redirects the conversation to common goals is demonstrating
+      high levels of:'
+    Options:
+    - Self-awareness and social skill
+    - Technical expertise only
+    - Emotional suppression
+    - Cognitive intelligence alone
+    CorrectOptionIndex: 0
+    LevelName: emotional intelligence
+  - QuestionText: 'Research showing that EI can be a better predictor of workplace
+      success than IQ in many professions suggests that:'
+    Options:
+    - Cognitive ability is irrelevant to success
+    - The ability to manage oneself and relationships is crucial in collaborative
+      environments
+    - Emotional intelligence is fixed and cannot be developed
+    - IQ tests should be eliminated entirely
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'A teacher who reflects on why a particular student''s behavior
+      triggers frustration in them, and develops strategies to respond more constructively,
+      is primarily engaging in:'
+    Options:
+    - Emotional labor
+    - Enhancing their self-awareness and self-regulation
+    - Lowering academic standards
+    - Emotional manipulation of the student
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'The concept of "amygdala hijacking" refers to situations where:'
+    Options:
+    - The rational brain effectively manages emotional responses
+    - People accurately perceive others' emotional states
+    - Individuals use emotions to enhance creative thinking
+    - The emotional brain overwhelms the rational brain in response to a perceived
+      threat
+    CorrectOptionIndex: 3
+    LevelName: emotional intelligence
+  - QuestionText: 'A key criticism of the popularization of EI is that it sometimes:'
+    Options:
+    - Is presented as a panacea for all social problems without sufficient empirical
+      evidence
+    - Has too much rigorous scientific support
+    - Overemphasizes cognitive abilities at the expense of emotions
+    - Is only relevant in Western cultures
+    CorrectOptionIndex: 0
+    LevelName: emotional intelligence
+  - QuestionText: 'In a diverse classroom, a teacher with high EI would be most likely
+      to:'
+    Options:
+    - Ignore cultural differences in emotional expression
+    - Recognize and respect different cultural norms for emotional display
+    - Demand that all students express emotions in the same way
+    - Avoid discussing emotions altogether
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'The relationship between EI and moral development suggests that
+      individuals with high EI:'
+    Options:
+    - Are more likely to make ethical decisions because they better understand the
+      emotional impact on others
+    - Are more skilled at manipulating others for personal gain
+    - Have no correlation with moral reasoning
+    - Are less aware of social justice issues
+    CorrectOptionIndex: 0
+    LevelName: emotional intelligence
+  - QuestionText: 'A student who can persuade their peers to adopt a new study method
+      by appealing to their shared frustration with current methods and hope for
+      better results is using:'
+    Options:
+    - Cognitive intelligence only
+    - Emotional manipulation
+    - Emotional intelligence to facilitate social influence
+    - Authoritarian control
+    CorrectOptionIndex: 2
+    LevelName: emotional intelligence
+  - QuestionText: 'The concept that EI abilities develop with age and experience
+      supports the view that EI is:'
+    Options:
+    - Entirely genetic and fixed at birth
+    - A set of skills that can be learned and enhanced
+    - Only relevant in adulthood
+    - Unrelated to life success
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'A school counselor using emotion-focused coping strategies with
+      an anxious student is helping them to:'
+    Options:
+    - Suppress all anxious feelings
+    - Understand, express, and manage their anxiety constructively
+    - Avoid situations that cause anxiety
+    - Transfer their anxiety to others
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'The "four-branch model" of EI is hierarchical, suggesting that:'
+    Options:
+    - All branches are equally difficult to master
+    - Perceiving emotions is the most advanced skill
+    - More basic skills (like perceiving emotions) form the foundation for more advanced
+      skills (like managing emotions)
+    - Managing emotions is the easiest skill to develop
+    CorrectOptionIndex: 2
+    LevelName: emotional intelligence
+  - QuestionText: 'A teacher who creates a classroom environment where students feel
+      safe expressing confusion, asking questions, and making mistakes is fostering:'
+    Options:
+    - Emotional intelligence through psychological safety
+    - Dependence on the teacher
+    - A competitive and high-stress environment
+    - Emotional suppression
+    CorrectOptionIndex: 0
+    LevelName: emotional intelligence
+  - QuestionText: 'Neuroscientific research on EI has shown that it involves integration
+      between:'
+    Options:
+    - Only the left hemisphere of the brain
+    - The limbic system (emotional centers) and the prefrontal cortex (regulatory
+      centers)
+    - Only the brainstem
+    - Isolated neural networks with no interaction
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'A valid criticism of some EI training programs is that they:'
+    Options:
+    - Are too focused on long-term development
+    - May promise quick fixes without creating lasting behavioral change
+    - Have too much empirical evidence supporting their effectiveness
+    - Overemphasize ability-based measures
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'In the context of conflict resolution, high EI enables individuals
+      to:'
+    Options:
+    - Avoid conflicts at all costs
+    - Suppress their own emotional reactions completely
+    - Win arguments by manipulating others' emotions
+    - Understand the emotional perspectives of all parties and find mutually acceptable
+      solutions
+    CorrectOptionIndex: 3
+    LevelName: emotional intelligence
+  - QuestionText: 'The concept of "emotional granularity" refers to:'
+    Options:
+    - The ability to experience emotions in a vague, undifferentiated way
+    - The capacity to make fine-grained distinctions between similar emotions
+    - The tendency to express all emotions with the same intensity
+    - The skill of hiding one's true emotions
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'A school that implements "restorative practices" instead of punitive
+      discipline is implicitly recognizing the importance of:'
+    Options:
+    - Emotional intelligence in repairing harm and rebuilding relationships
+    - Removing all consequences for misbehavior
+    - Focusing solely on academic achievement
+    - Using emotional manipulation to control students
+    CorrectOptionIndex: 0
+    LevelName: emotional intelligence
+  - QuestionText: 'Research on EI in educational settings suggests that teachers
+      with high EI:'
+    Options:
+    - Have lower student achievement in their classrooms
+    - Create better learning environments and have stronger relationships with students
+    - Are more likely to use authoritarian teaching methods
+    - Focus exclusively on cognitive development
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'The ability to accurately distinguish between a student''s sadness,
+      disappointment, and shame requires:'
+    Options:
+    - High cognitive intelligence only
+    - Ignoring nonverbal cues
+    - Emotional suppression
+    - Sophisticated emotional perception and understanding
+    CorrectOptionIndex: 3
+    LevelName: emotional intelligence
+  - QuestionText: 'A key difference between empathy and sympathy is that empathy
+      involves:'
+    Options:
+    - Feeling pity for someone
+    - Understanding and sharing the feelings of another
+    - Providing solutions to others' problems
+    - Judging others' emotional responses
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'The development of EI in children is most effectively fostered
+      by:'
+    Options:
+    - Avoiding discussions about emotions
+    - Providing opportunities to identify, express, and manage emotions with guidance
+    - Punishing emotional expressions
+    - Focusing exclusively on academic skills
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'In the workplace, the concept of "emotional labor" refers to:'
+    Options:
+    - The physical exertion required for certain jobs
+    - The financial compensation for stressful work
+    - The cognitive load of solving technical problems
+    - The effort to manage one's emotions to meet job requirements
+    CorrectOptionIndex: 3
+    LevelName: emotional intelligence
+  - QuestionText: 'A limitation of the Ability Model of EI is that it:'
+    Options:
+    - Is too closely aligned with personality psychology
+    - May not capture the full range of emotional and social competencies needed
+      in real-world situations
+    - Is based entirely on self-report measures
+    - Overemphasizes the role of emotional manipulation
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'The concept that EI can be developed throughout adulthood challenges
+      the notion that:'
+    Options:
+    - Intelligence is solely cognitive and fixed
+    - Emotions are important in human experience
+    - Social skills can be learned
+    - Self-awareness is valuable
+    CorrectOptionIndex: 0
+    LevelName: emotional intelligence
+  - QuestionText: 'A teacher who uses "I" statements ("I feel frustrated when assignments
+      are incomplete") instead of blaming language ("You never do your work") is
+      modeling:'
+    Options:
+    - Poor communication skills
+    - Emotional intelligence in expressing feelings responsibly
+    - Emotional manipulation
+    - Weak classroom management
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'Cross-cultural research on EI suggests that:'
+    Options:
+    - The expression and regulation of emotions are understood identically across
+      all cultures
+    - While basic emotions are universal, their expression and management are influenced
+      by cultural norms
+    - Emotional intelligence is irrelevant in collectivist cultures
+    - Western models of EI apply perfectly to all cultural contexts
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence
+  - QuestionText: 'The relationship between EI and resilience suggests that individuals
+      with high EI:'
+    Options:
+    - Are less able to cope with adversity
+    - Experience fewer negative emotions
+    - Avoid challenging situations to protect their emotional state
+    - Are better equipped to bounce back from setbacks because they can manage their
+      emotions effectively
+    CorrectOptionIndex: 3
+    LevelName: emotional intelligence
+  - QuestionText: 'An educational policy that prioritizes SEL (Social-Emotional Learning)
+      is fundamentally recognizing that:'
+    Options:
+    - Academic learning is separate from emotional development
+    - Emotional skills are prerequisites for and enhancers of academic learning and
+      life success
+    - Emotional intelligence should replace academic instruction
+    - Only students with behavioral problems need emotional skills training
+    CorrectOptionIndex: 1
+    LevelName: emotional intelligence

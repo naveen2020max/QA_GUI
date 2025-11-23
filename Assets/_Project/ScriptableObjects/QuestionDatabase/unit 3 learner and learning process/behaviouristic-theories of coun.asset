@@ -1,0 +1,442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: behaviouristic-theories of coun
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The primary focus of behaviouristic counselling is on:'
+    Options:
+    - Unconscious conflicts and childhood experiences
+    - Observable and measurable behaviors
+    - Self-actualization and personal growth
+    - Cognitive schemas and thought patterns
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: Who is considered the founder of classical conditioning?
+    Options:
+    - B.F. Skinner
+    - John B. Watson
+    - Ivan Pavlov
+    - Albert Bandura
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'In behaviouristic terms, any stimulus that naturally elicits a
+      response without prior learning is called a(n):'
+    Options:
+    - Conditioned stimulus
+    - Unconditioned stimulus
+    - Neutral stimulus
+    - Operant stimulus
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'B.F. Skinner is best known for his work in:'
+    Options:
+    - Classical conditioning
+    - Humanistic psychology
+    - Cognitive psychology
+    - Operant conditioning
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'The process of gradually reinforcing successive approximations
+      of a target behavior is called:'
+    Options:
+    - Extinction
+    - Shaping
+    - Flooding
+    - Modeling
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'In systematic desensitization, the first step typically involves:'
+    Options:
+    - Direct exposure to the feared stimulus
+    - Teaching relaxation techniques
+    - Creating a hierarchy of fears
+    - Using aversive conditioning
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: Which technique involves removing a pleasant stimulus to decrease
+      a behavior?
+    Options:
+    - Positive reinforcement
+    - Negative reinforcement
+    - Positive punishment
+    - Negative punishment
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A student who fears public speaking is gradually exposed to speaking
+      situations while practicing relaxation. This is an example of:'
+    Options:
+    - Aversion therapy
+    - Systematic desensitization
+    - Flooding
+    - Token economy
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'The process by which a conditioned response gradually disappears
+      when the conditioned stimulus is repeatedly presented without the unconditioned
+      stimulus is called:'
+    Options:
+    - Acquisition
+    - Generalization
+    - Extinction
+    - Discrimination
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: Who developed the social learning theory that bridges behaviorism
+      and cognitive psychology?
+    Options:
+    - Joseph Wolpe
+    - Albert Bandura
+    - John B. Watson
+    - Ivan Pavlov
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A teacher gives a student a sticker for every book they read.
+      This is an example of:'
+    Options:
+    - Negative reinforcement
+    - Positive punishment
+    - Positive reinforcement
+    - Extinction
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'In behaviouristic counselling, assessment typically focuses on:'
+    Options:
+    - Dream analysis
+    - Behavioral observation and measurement
+    - Projective tests
+    - Free association
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A student is allowed to leave class early when they complete their
+      work. This is an example of:'
+    Options:
+    - Positive reinforcement
+    - Negative reinforcement
+    - Positive punishment
+    - Negative punishment
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'The technique of exposing a client to the most frightening scenario
+      immediately is called:'
+    Options:
+    - Systematic desensitization
+    - Modeling
+    - Flooding
+    - Shaping
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'Behavior modification programs often use token economies, which
+      are based on principles of:'
+    Options:
+    - Classical conditioning
+    - Operant conditioning
+    - Humanistic psychology
+    - Psychoanalysis
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A student who learns to be anxious about tests because they were
+      associated with failure is demonstrating:'
+    Options:
+    - Operant conditioning
+    - Classical conditioning
+    - Social learning
+    - Cognitive learning
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'The concept of "reciprocal determinism" in social learning theory
+      emphasizes that:'
+    Options:
+    - Behavior is determined solely by environment
+    - Reinforcement is the only important factor
+    - All behavior is classically conditioned
+    - Behavior, environment, and personal factors interact
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: Which technique involves having a client observe and imitate appropriate
+      behaviors?
+    Options:
+    - Systematic desensitization
+    - Modeling
+    - Flooding
+    - Aversion therapy
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A student who stops bullying after being suspended from school
+      is demonstrating the effect of:'
+    Options:
+    - Positive reinforcement
+    - Negative reinforcement
+    - Punishment
+    - Extinction
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'Behaviouristic counselling is particularly effective for treating:'
+    Options:
+    - Existential crises
+    - Specific phobias and anxiety disorders
+    - Personality disorders
+    - Identity issues
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A school counselor uses a system where students earn points for
+      positive behaviors that can be exchanged for privileges. This is called a:'
+    Options:
+    - Behavior contract
+    - Token economy
+    - Modeling program
+    - Desensitization hierarchy
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'In classical conditioning, when a dog salivates to a bell that
+      was paired with food, the salivation is called the:'
+    Options:
+    - Unconditioned stimulus
+    - Conditioned stimulus
+    - Unconditioned response
+    - Conditioned response
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'The process by which a response becomes associated with a wide
+      range of similar stimuli is called:'
+    Options:
+    - Discrimination
+    - Generalization
+    - Extinction
+    - Acquisition
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A teacher who wants to decrease shouting-out behavior ignores
+      it while reinforcing raised hands. This uses:'
+    Options:
+    - Punishment and reinforcement
+    - Extinction and reinforcement
+    - Modeling and shaping
+    - Flooding and desensitization
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: Which of the following is a key difference between classical and
+      operant conditioning?
+    Options:
+    - Classical conditioning involves voluntary behaviors
+    - Operant conditioning involves reflexive behaviors
+    - Classical conditioning involves association between stimuli
+    - Operant conditioning doesn't use reinforcement
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A student learns multiplication by watching another student solve
+      problems successfully. This demonstrates:'
+    Options:
+    - Classical conditioning
+    - Operant conditioning
+    - Social learning
+    - Systematic desensitization
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'The concept of "self-efficacy" in social learning theory refers
+      to:'
+    Options:
+    - One's belief in their ability to succeed
+    - The effectiveness of reinforcement
+    - How efficiently one learns
+    - The strength of conditioned responses
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A behaviouristic counselor working with a student who has test
+      anxiety would be LEAST likely to:'
+    Options:
+    - Create a fear hierarchy
+    - Explore childhood test experiences
+    - Teach relaxation techniques
+    - Use gradual exposure
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'In a behavior modification program, baseline data is collected
+      to:'
+    Options:
+    - Diagnose mental disorders
+    - Measure behavior before intervention
+    - Determine intelligence levels
+    - Assess personality traits
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: A student who is rewarded for every fifth correct response is on
+      which reinforcement schedule?
+    Options:
+    - Fixed ratio
+    - Variable ratio
+    - Fixed interval
+    - Variable interval
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: A school implements a program where students receive recognition
+      for every week of perfect attendance. This uses which reinforcement schedule?
+    Options:
+    - Fixed ratio
+    - Variable ratio
+    - Fixed interval
+    - Variable interval
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: Which technique pairs an unpleasant stimulus with an undesirable
+      behavior?
+    Options:
+    - Systematic desensitization
+    - Aversion therapy
+    - Modeling
+    - Shaping
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A key strength of behaviouristic approaches is their:'
+    Options:
+    - Focus on deep psychological meaning
+    - Attention to unconscious processes
+    - Emphasis on free will
+    - Strong empirical support for specific issues
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A teacher wants to use shaping to help a student write better
+      essays. The first step would be to:'
+    Options:
+    - Expect a perfect essay immediately
+    - Reinforce any attempt at writing
+    - Punish poor writing
+    - Ignore all writing attempts
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'The concept of "preparedness" in behaviorism suggests that:'
+    Options:
+    - Some associations are biologically easier to learn
+    - All learning requires conscious preparation
+    - Behavior modification always requires preparation
+    - Classical conditioning prepares us for operant conditioning
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A behaviouristic counselor would view "resistance" in therapy
+      as:'
+    Options:
+    - Unconscious defense mechanisms
+    - Learned behaviors maintained by reinforcement
+    - Lack of motivation
+    - Spiritual blockage
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'In social learning theory, learning that occurs but isn''t immediately
+      demonstrated is called:'
+    Options:
+    - Latent learning
+    - Observational learning
+    - Cognitive learning
+    - Insight learning
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A student who studies hard to avoid parental disapproval is demonstrating:'
+    Options:
+    - Positive reinforcement
+    - Negative reinforcement
+    - Positive punishment
+    - Negative punishment
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: Which of the following is a limitation of behaviouristic approaches?
+    Options:
+    - They may not address underlying cognitive factors
+    - They are too focused on unconscious processes
+    - They overemphasize free will
+    - They lack empirical support
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A teacher uses a chart where students move their name up for good
+      behavior and down for misbehavior. This is a form of:'
+    Options:
+    - Token economy
+    - Behavior contract
+    - Response cost
+    - Modeling
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'The "Little Albert" experiment demonstrated how:'
+    Options:
+    - Operant conditioning works with humans
+    - Phobias could be learned through classical conditioning
+    - Social learning affects behavior
+    - Reinforcement schedules influence learning
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A student who begins to enjoy all subjects after having a wonderful
+      math teacher demonstrates:'
+    Options:
+    - Stimulus generalization
+    - Stimulus discrimination
+    - Extinction
+    - Shaping
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'In behaviour therapy, "homework assignments" are used to:'
+    Options:
+    - Keep clients busy between sessions
+    - Practice new behaviors in natural settings
+    - Explore childhood memories
+    - Develop insight into problems
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: A casino slot machine that pays out unpredictably uses which reinforcement
+      schedule?
+    Options:
+    - Fixed ratio
+    - Variable interval
+    - Fixed interval
+    - Variable ratio
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A key ethical concern in behaviour modification is:'
+    Options:
+    - It works too quickly
+    - It may be used to control behavior without consent
+    - It is too expensive
+    - It requires too much client participation
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A student learns to distinguish between appropriate and inappropriate
+      times to speak in class through:'
+    Options:
+    - Stimulus generalization
+    - Stimulus discrimination
+    - Response generalization
+    - Extinction
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: Which behaviouristic technique would be most appropriate for treating
+      enuresis (bedwetting)?
+    Options:
+    - Systematic desensitization
+    - Aversion therapy
+    - Bell-and-pad method
+    - Modeling
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'The concept of "behavioral assessment" involves:'
+    Options:
+    - Projective tests and interviews
+    - Direct observation and measurement of behavior
+    - Dream analysis
+    - Free association
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun
+  - QuestionText: 'A teacher who wants to encourage creativity should use:'
+    Options:
+    - Continuous reinforcement
+    - Intermittent reinforcement
+    - Punishment for uncreative work
+    - Extinction of creative attempts
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic-theories of coun

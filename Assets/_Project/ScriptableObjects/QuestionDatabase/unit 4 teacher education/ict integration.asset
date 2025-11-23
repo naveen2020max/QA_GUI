@@ -1,0 +1,443 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: ict integration
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What does ICT stand for in the context of education?
+    Options:
+    - International Communication Technology
+    - Information and Communication Technology
+    - Integrated Curriculum Teaching
+    - Instructional Computer Training
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'The primary goal of ICT integration is to:'
+    Options:
+    - Replace teachers with computers.
+    - Use the most expensive technology available.
+    - Support and enhance the teaching-learning process.
+    - Focus solely on teaching computer programming.
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: 'According to the SAMR model, using a word processor instead of
+      a typewriter is an example of:'
+    Options:
+    - Redefinition
+    - Modification
+    - Augmentation
+    - Substitution
+    CorrectOptionIndex: 3
+    LevelName: ict integration
+  - QuestionText: The TPACK framework emphasizes the intersection of which three
+      types of knowledge?
+    Options:
+    - Technical, Practical, and Conceptual
+    - Technology, Pedagogy, and Content
+    - Teaching, Planning, and Assessment
+    - Theory, Practice, and Communication
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: Which of the following is a major barrier to effective ICT integration?
+    Options:
+    - Increased student engagement
+    - Lack of teacher training and professional development
+    - Availability of multimedia resources
+    - Development of critical thinking skills
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: A teacher using an online simulation to allow students to virtually
+      dissect a frog is operating at which level of the SAMR model?
+    Options:
+    - Substitution
+    - Augmentation
+    - Modification
+    - Redefinition
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: 'The "Digital Divide" refers to:'
+    Options:
+    - The gap between different operating systems.
+    - The difference in cost between various technologies.
+    - The inequality of access to technology among different groups of people.
+    - The generation gap between teachers and students.
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: Which of the following is an example of learning with ICT?
+    Options:
+    - Taking a course on how to use a spreadsheet.
+    - Using a spreadsheet to analyze data for a science project.
+    - Browsing the internet for fun.
+    - Typing a report on a computer.
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'The "I" in ICT stands for:'
+    Options:
+    - Instructional
+    - International
+    - Information
+    - Integrated
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: 'A key benefit of ICT integration for students is the development
+      of:'
+    Options:
+    - Rote memorization skills
+    - 21st-century skills like collaboration and digital literacy
+    - Dependence on the teacher
+    - Isolation from peers
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: Which level of ICT integration involves using technology to create
+      tasks that were previously inconceivable?
+    Options:
+    - Emerging
+    - Applying
+    - Infusing
+    - Transforming
+    CorrectOptionIndex: 3
+    LevelName: ict integration
+  - QuestionText: A teacher using a PowerPoint presentation to deliver a lecture
+      is primarily at which stage of integration?
+    Options:
+    - Transforming
+    - Applying
+    - Emerging
+    - Infusing
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: Which of the following is a contextual challenge for ICT integration?
+    Options:
+    - A teacher's negative attitude toward technology.
+    - Lack of reliable internet connectivity in the school.
+    - A student's lack of interest.
+    - A teacher's strong subject knowledge.
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'The "C" in ICT stands for:'
+    Options:
+    - Computer
+    - Communication
+    - Curriculum
+    - Classroom
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'Using Google Docs for students to collaboratively write a story
+      is an example of:'
+    Options:
+    - Learning about ICT.
+    - Isolating students.
+    - Learning through ICT (collaboration and communication).
+    - Substitution in the SAMR model.
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: 'The TPACK framework suggests that effective technology integration
+      requires teachers to understand:'
+    Options:
+    - Only the content they teach.
+    - How to use technology in isolation.
+    - The complex interplay between technology, teaching methods, and subject matter.
+    - Only the latest software.
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: Which government initiative in India aims to build an open digital
+      infrastructure for schools?
+    Options:
+    - SWAYAM
+    - DIKSHA
+    - NPTEL
+    - e-Pathshala
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'In the SAMR model, using a blog for students to publish their
+      work for a global audience is an example of:'
+    Options:
+    - Substitution
+    - Augmentation
+    - Modification
+    - Redefinition
+    CorrectOptionIndex: 3
+    LevelName: ict integration
+  - QuestionText: 'A major personal factor that can hinder a teacher''s ability to
+      integrate ICT is:'
+    Options:
+    - The school's budget.
+    - The teacher's lack of self-efficacy or confidence with technology.
+    - The national curriculum.
+    - The speed of the school's internet.
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: Which of the following is a key infrastructure requirement for
+      ICT integration?
+    Options:
+    - A large library
+    - Functional hardware and stable electricity
+    - A spacious playground
+    - Traditional chalkboards
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'The "T" in the TPACK framework stands for:'
+    Options:
+    - Teaching
+    - Technical
+    - Technology
+    - Theoretical
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: Using an educational app that provides instant feedback to students
+      on a quiz represents which level of the SAMR model?
+    Options:
+    - Substitution
+    - Augmentation
+    - Modification
+    - Redefinition
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'The term "Blended Learning" refers to:'
+    Options:
+    - Learning only online.
+    - A mix of traditional face-to-face and online learning experiences.
+    - Learning only from textbooks.
+    - Using only one type of technology.
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: Which of the following is a benefit of ICT for teachers?
+    Options:
+    - Increased isolation
+    - More administrative work
+    - Access to online professional development resources
+    - Decreased need for lesson planning
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: 'The "K" in TPACK stands for:'
+    Options:
+    - Key
+    - Knowledge
+    - Kinesthetic
+    - Kit
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: A school that has a few computers used only by the administration
+      is at the _____ level of integration.
+    Options:
+    - Transforming
+    - Applying
+    - Emerging
+    - Infusing
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: 'The SWAYAM platform is an initiative for:'
+    Options:
+    - Providing free online courses
+    - Distributing free textbooks
+    - Building school infrastructure
+    - Training only science teachers
+    CorrectOptionIndex: 0
+    LevelName: ict integration
+  - QuestionText: Which of the following is an example of a transformative use of
+      ICT?
+    Options:
+    - Typing an essay instead of writing it by hand.
+    - Using a calculator for complex calculations.
+    - Connecting with a classroom in another country for a joint cultural project
+      via video conference.
+    - Reading a PDF version of a textbook.
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: 'Effective ICT integration can help address different learning
+      styles by providing:'
+    Options:
+    - Only textual information.
+    - A one-size-fits-all approach.
+    - Multimedia content (audio, video, interactive).
+    - Longer school hours.
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: 'The "A" in SAMR stands for:'
+    Options:
+    - Application
+    - Augmentation
+    - Adaptation
+    - Amplification
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'A key challenge related to content in ICT integration is:'
+    Options:
+    - The high cost of internet data.
+    - The lack of quality digital content in regional languages.
+    - The speed of computers.
+    - The number of computers per classroom.
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'The "M" in SAMR stands for:'
+    Options:
+    - Modification
+    - Motivation
+    - Multimedia
+    - Management
+    CorrectOptionIndex: 0
+    LevelName: ict integration
+  - QuestionText: 'Using a virtual reality (VR) headset to take students on a tour
+      of ancient Rome is an example of:'
+    Options:
+    - Learning about ICT.
+    - The Emerging stage.
+    - Redefining the learning experience (SAMR).
+    - A low-level substitution.
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: 'The "P" in the TPACK framework stands for:'
+    Options:
+    - Professional
+    - Pedagogical
+    - Practical
+    - Personal
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: Which of the following is a personal factor that can promote ICT
+      integration?
+    Options:
+    - A teacher's growth mindset and willingness to learn.
+    - The school's location.
+    - The age of the students.
+    - Government policies.
+    CorrectOptionIndex: 0
+    LevelName: ict integration
+  - QuestionText: 'The "R" in SAMR stands for:'
+    Options:
+    - Revision
+    - Redefinition
+    - Replacement
+    - Reflection
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'The e-Pathshala portal is used for:'
+    Options:
+    - Hosting teacher recruitment exams.
+    - Disseminating educational e-resources (textbooks, videos).
+    - Managing school finances.
+    - Providing medical advice to students.
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'A teacher who is proficient in using technology but does not know
+      how to use it effectively for teaching their subject lacks:'
+    Options:
+    - Technological Knowledge (TK)
+    - Pedagogical Knowledge (PK)
+    - Technological Pedagogical Knowledge (TPK)
+    - Content Knowledge (CK)
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: 'The "S" in SAMR stands for:'
+    Options:
+    - System
+    - Substitution
+    - Simulation
+    - Software
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'ICT integration can make assessment more:'
+    Options:
+    - Subjective and time-consuming.
+    - Efficient and provide immediate feedback.
+    - Dependent on paper and pen.
+    - Focused only on final exams.
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'The "C" in the TPACK framework stands for:'
+    Options:
+    - Communication
+    - Computer
+    - Content
+    - Classroom
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: 'A key infrastructural challenge in many Indian schools is:'
+    Options:
+    - Too many computers.
+    - Unreliable electricity supply.
+    - An overabundance of digital content.
+    - Highly trained teachers.
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'Using an online quiz tool like Kahoot! or Quizizz to conduct a
+      formative assessment is an example of:'
+    Options:
+    - Augmentation (SAMR) and learning with ICT.
+    - Substitution.
+    - Learning about ICT.
+    - A transformative practice.
+    CorrectOptionIndex: 0
+    LevelName: ict integration
+  - QuestionText: 'The National Education Policy (NEP) 2020 emphasizes the integration
+      of technology to:'
+    Options:
+    - Replace teachers.
+    - Improve educational access, equity, and quality.
+    - Focus only on coding skills.
+    - Reduce the number of schools.
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: A teacher using an interactive whiteboard to display videos, diagrams,
+      and allow students to interact with the content is moving towards the _____
+      level of integration.
+    Options:
+    - Emerging
+    - Applying
+    - Infusing
+    - Transforming
+    CorrectOptionIndex: 2
+    LevelName: ict integration
+  - QuestionText: Which of the following is a potential negative effect of poor ICT
+      integration?
+    Options:
+    - Enhanced student collaboration.
+    - Cognitive overload and distraction for students.
+    - Development of digital literacy.
+    - Personalized learning paths.
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'The success of ICT integration ultimately depends on:'
+    Options:
+    - The cost of the equipment.
+    - The teacher's ability to effectively weave technology into the learning process.
+    - The number of computers per student.
+    - The brand of the software used.
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: Which of the following best describes the "Applying" stage of ICT
+      integration?
+    Options:
+    - Technology is used to do the same thing as before, but more efficiently.
+    - Technology is not used at all.
+    - Technology allows for the creation of entirely new tasks.
+    - Technology is used seamlessly and ubiquitously.
+    CorrectOptionIndex: 0
+    LevelName: ict integration
+  - QuestionText: A school that has a dedicated computer lab used for specific "computer
+      classes" but not integrated into other subjects is typically at the _____ stage.
+    Options:
+    - Transforming
+    - Applying
+    - Emerging
+    - Infusing
+    CorrectOptionIndex: 1
+    LevelName: ict integration
+  - QuestionText: 'The vision for ICT in education is to move from a teacher-centered,
+      broadcast model of learning to a:'
+    Options:
+    - More expensive model.
+    - Student-centered, interactive, and constructive model.
+    - Model with no teacher involvement.
+    - Model that relies solely on textbooks.
+    CorrectOptionIndex: 1
+    LevelName: ict integration

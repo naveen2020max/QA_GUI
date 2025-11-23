@@ -1,0 +1,464 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: factors - social learning
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: According to Bandura, which of the following is NOT one of the
+      four core processes governing observational learning?
+    Options:
+    - Attention
+    - Retention
+    - Reinforcement
+    - Motivation
+    CorrectOptionIndex: 2
+    LevelName: factors - social learning
+  - QuestionText: 'The characteristic of a model that makes an observer more likely
+      to imitate them due to perceived success or status is:'
+    Options:
+    - Similarity
+    - Competence
+    - Nurturance
+    - Gender
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: 'In social learning theory, the process of remembering the modeled
+      behavior is called:'
+    Options:
+    - Attention
+    - Retention
+    - Reproduction
+    - Motivation
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: Which factor refers to the observer's belief in their own ability
+      to perform the modeled behavior?
+    Options:
+    - Self-efficacy
+    - Self-esteem
+    - Locus of control
+    - Emotional arousal
+    CorrectOptionIndex: 0
+    LevelName: factors - social learning
+  - QuestionText: 'When a model is rewarded for a behavior, and this increases the
+      observer''s likelihood of imitating that behavior, it is called:'
+    Options:
+    - Direct reinforcement
+    - Vicarious reinforcement
+    - Self-reinforcement
+    - Punishment
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: 'The cognitive process where an observer must first notice the
+      model''s behavior is called:'
+    Options:
+    - Retention
+    - Attention
+    - Motivation
+    - Reproduction
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: Which of the following is a PERSONAL factor affecting social learning?
+    Options:
+    - Model's prestige
+    - Environmental cues
+    - Complexity of the behavior
+    - Observer's self-efficacy
+    CorrectOptionIndex: 3
+    LevelName: factors - social learning
+  - QuestionText: 'The concept that refers to the match between the model''s and
+      observer''s characteristics is:'
+    Options:
+    - Prestige
+    - Similarity
+    - Competence
+    - Nurturance
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: Which process involves converting stored mental images into overt
+      behavior?
+    Options:
+    - Attention
+    - Retention
+    - Reproduction
+    - Motivation
+    CorrectOptionIndex: 2
+    LevelName: factors - social learning
+  - QuestionText: 'The final process in observational learning that determines whether
+      learned behaviors will be performed is:'
+    Options:
+    - Attention
+    - Retention
+    - Reproduction
+    - Motivation
+    CorrectOptionIndex: 3
+    LevelName: factors - social learning
+  - QuestionText: 'A student is more likely to imitate a teacher''s problem-solving
+      method when the teacher is perceived as:'
+    Options:
+    - Strict and demanding
+    - Knowledgeable and successful
+    - Young and inexperienced
+    - Distant and formal
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: Which situation best demonstrates the effect of vicarious reinforcement
+      on social learning?
+    Options:
+    - A child receives candy for cleaning their room
+    - A student watches another student get praised for asking good questions
+    - A teenager practices basketball alone
+    - An employee works overtime without recognition
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: A complex behavior is less likely to be learned through observation
+      because it affects which process?
+    Options:
+    - Attention
+    - Retention
+    - Reproduction
+    - Motivation
+    CorrectOptionIndex: 2
+    LevelName: factors - social learning
+  - QuestionText: 'A student with high self-efficacy in sports is more likely to:'
+    Options:
+    - Avoid physical activities
+    - Imitate complex athletic skills
+    - Focus only on academic subjects
+    - Disregard coach's demonstrations
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: Which environmental factor most directly affects the attention
+      process in observational learning?
+    Options:
+    - Cultural values
+    - Distractions in the environment
+    - Availability of rewards
+    - Model's gender
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: A model who is warm and supportive is demonstrating which characteristic
+      that enhances observational learning?
+    Options:
+    - Competence
+    - Prestige
+    - Nurturance
+    - Similarity
+    CorrectOptionIndex: 2
+    LevelName: factors - social learning
+  - QuestionText: The ability to mentally rehearse and organize observed behavior
+      primarily affects which process?
+    Options:
+    - Attention
+    - Retention
+    - Reproduction
+    - Motivation
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: 'A student who observes multiple models performing the same behavior
+      differently is experiencing:'
+    Options:
+    - Competing models
+    - Consistent modeling
+    - Vicarious punishment
+    - Direct reinforcement
+    CorrectOptionIndex: 0
+    LevelName: factors - social learning
+  - QuestionText: Which factor explains why children are more likely to imitate same-gender
+      models?
+    Options:
+    - Competence
+    - Similarity
+    - Prestige
+    - Nurturance
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: 'The emotional state of the observer affects social learning primarily
+      through its impact on:'
+    Options:
+    - Attention processes
+    - Environmental factors
+    - Model characteristics
+    - Cultural norms
+    CorrectOptionIndex: 0
+    LevelName: factors - social learning
+  - QuestionText: Critically analyzing social learning situations, which factor most
+      significantly determines whether learned behaviors will be performed?
+    Options:
+    - The observer's attention to the model
+    - The observer's motivation and expected outcomes
+    - The model's physical appearance
+    - The environmental temperature
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: 'A company wants employees to adopt new safety procedures. Based
+      on social learning principles, the MOST effective strategy would be to:'
+    Options:
+    - Have respected senior employees demonstrate the procedures
+    - Post written instructions on bulletin boards
+    - Threaten penalties for non-compliance
+    - Provide individual training in isolation
+    CorrectOptionIndex: 0
+    LevelName: factors - social learning
+  - QuestionText: 'In a diverse classroom, students from different cultural backgrounds
+      might respond differently to the same model due to variations in:'
+    Options:
+    - Biological maturation
+    - Cultural values and prior experiences
+    - Genetic intelligence
+    - Physical abilities
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: Which scenario best illustrates how self-efficacy affects observational
+      learning?
+    Options:
+    - A student watches a math demonstration but doesn't believe they can do it
+    - A model receives punishment for their behavior
+    - The environment is noisy during demonstration
+    - The model is from a different cultural background
+    CorrectOptionIndex: 0
+    LevelName: factors - social learning
+  - QuestionText: 'A teacher notices that students imitate behaviors more when they
+      see multiple peers performing them. This demonstrates the importance of:'
+    Options:
+    - Model consistency
+    - Model prestige
+    - Model similarity
+    - Model competence
+    CorrectOptionIndex: 2
+    LevelName: factors - social learning
+  - QuestionText: 'Comparing direct reinforcement and vicarious reinforcement, a
+      key difference is that vicarious reinforcement:'
+    Options:
+    - Requires the observer to personally experience consequences
+    - Involves observing consequences experienced by others
+    - Is always more effective than direct reinforcement
+    - Works only with punishment
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: 'A student with low self-efficacy who observes a similar peer succeed
+      is likely to experience:'
+    Options:
+    - Decreased motivation
+    - Enhanced self-efficacy and increased effort
+    - Complete behavior extinction
+    - No change in behavior
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: The phenomenon where violent media exposure leads to increased
+      aggression in viewers can be best explained by deficiencies in which process?
+    Options:
+    - Attention to non-aggressive models
+    - Motivation for pro-social behavior
+    - Retention of peaceful conflict resolution strategies
+    - All of the above
+    CorrectOptionIndex: 3
+    LevelName: factors - social learning
+  - QuestionText: 'In organizational settings, the most effective models for promoting
+      ethical behavior are typically:'
+    Options:
+    - High-status leaders who demonstrate ethical conduct
+    - Entry-level employees
+    - External consultants
+    - Automated systems
+    CorrectOptionIndex: 0
+    LevelName: factors - social learning
+  - QuestionText: 'A child who observes conflicting behaviors from parents and peers
+      is experiencing challenges in:'
+    Options:
+    - Attention processes
+    - Retention processes
+    - Motivation processes
+    - All observational learning processes
+    CorrectOptionIndex: 3
+    LevelName: factors - social learning
+  - QuestionText: Which factor explains why demonstration alone is insufficient for
+      learning complex skills like surgery?
+    Options:
+    - Lack of attention
+    - Reproduction difficulties requiring physical practice
+    - Insufficient motivation
+    - Inadequate retention
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: A teacher who demonstrates multiple ways to solve a problem is
+      addressing which factor affecting social learning?
+    Options:
+    - Model flexibility
+    - Behavior complexity
+    - Observer self-efficacy
+    - Environmental constraints
+    CorrectOptionIndex: 0
+    LevelName: factors - social learning
+  - QuestionText: The effectiveness of apprenticeship programs can be largely attributed
+      to which combination of factors?
+    Options:
+    - High model competence + high observer self-efficacy
+    - Model similarity + environmental support
+    - Competent model + guided reproduction practice
+    - Simple behaviors + high motivation
+    CorrectOptionIndex: 2
+    LevelName: factors - social learning
+  - QuestionText: 'In multicultural educational settings, social learning is most
+      enhanced when:'
+    Options:
+    - Using only one teaching model
+    - Incorporating diverse models that reflect student backgrounds
+    - Eliminating all cultural references
+    - Focusing only on individual learning
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: A student's past experiences with failure in mathematics primarily
+      affects which factor in learning new math strategies?
+    Options:
+    - Attention to the model
+    - Self-efficacy for reproduction
+    - Environmental distractions
+    - Model characteristics
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: 'The phenomenon where children imitate aggressive behaviors seen
+      on television despite knowing they might be punished demonstrates the power
+      of:'
+    Options:
+    - Model prestige and competence
+    - Vicarious reinforcement
+    - Emotional arousal
+    - All of the above
+    CorrectOptionIndex: 3
+    LevelName: factors - social learning
+  - QuestionText: 'In workplace training, the most significant barrier to social
+      learning is often:'
+    Options:
+    - Lack of competent models
+    - Insufficient opportunities for reproduction
+    - Inadequate attention due to distractions
+    - Low motivation due to irrelevant content
+    CorrectOptionIndex: 2
+    LevelName: factors - social learning
+  - QuestionText: 'A teacher who wants to enhance retention of demonstrated material
+      should primarily focus on:'
+    Options:
+    - Making the demonstration entertaining
+    - Providing opportunities for mental rehearsal
+    - Increasing the model's prestige
+    - Adding environmental distractions
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: 'The relationship between model consistency and observer learning
+      can be described as:'
+    Options:
+    - Inconsistent modeling enhances learning through variety
+    - Consistent modeling across multiple models enhances learning
+    - Model consistency is irrelevant to learning
+    - Inconsistent modeling is always better
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: Which combination of factors would MOST likely result in successful
+      social learning?
+    Options:
+    - Attractive model + complex behavior + distracted observer
+    - Nurturant model + irrelevant behavior + low motivation
+    - Similar model + impossible behavior + high self-efficacy
+    - Competent model + simple behavior + motivated observer
+    CorrectOptionIndex: 3
+    LevelName: factors - social learning
+  - QuestionText: 'A student''s cultural background influences social learning primarily
+      through its effect on:'
+    Options:
+    - Biological capacity to learn
+    - What behaviors are attended to and valued
+    - Physical reproduction abilities
+    - Genetic learning predispositions
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: 'In developing educational programs, the most overlooked factor
+      in social learning is typically:'
+    Options:
+    - Model characteristics
+    - Observer's self-efficacy
+    - Environmental distractions
+    - Retention processes
+    CorrectOptionIndex: 3
+    LevelName: factors - social learning
+  - QuestionText: The effectiveness of peer tutoring programs can be largely attributed
+      to which factor?
+    Options:
+    - High model prestige
+    - Model similarity and relatability
+    - Complex behavior demonstration
+    - Formal environmental setting
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: 'A manager who wants to promote innovation through social learning
+      should emphasize:'
+    Options:
+    - Punishing failed innovations
+    - Rewarding and publicizing successful innovations
+    - Keeping innovations secret
+    - Discouraging observation of others
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: The digital age has most significantly impacted which factor in
+      social learning?
+    Options:
+    - Availability and diversity of models
+    - Biological capacity for attention
+    - Genetic learning factors
+    - Physical reproduction abilities
+    CorrectOptionIndex: 0
+    LevelName: factors - social learning
+  - QuestionText: 'A child who observes parents reading regularly is more likely
+      to develop reading habits due to:'
+    Options:
+    - Direct reinforcement only
+    - Vicarious reinforcement and model consistency
+    - Genetic predisposition only
+    - Environmental pressures only
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: 'In skill acquisition, the transition from observation to performance
+      is most dependent on:'
+    Options:
+    - The observer's motivation and self-efficacy
+    - The model's physical appearance
+    - Environmental temperature
+    - Time of day
+    CorrectOptionIndex: 0
+    LevelName: factors - social learning
+  - QuestionText: Which educational approach best addresses multiple factors affecting
+      social learning?
+    Options:
+    - Lecture-only format
+    - Independent reading assignments
+    - Demonstration + guided practice + feedback
+    - Silent meditation
+    CorrectOptionIndex: 2
+    LevelName: factors - social learning
+  - QuestionText: 'The most significant limitation of social learning theory is its:'
+    Options:
+    - Overemphasis on cognitive processes
+    - Underestimation of biological constraints
+    - Failure to consider environmental factors
+    - Ignorance of model characteristics
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning
+  - QuestionText: 'In designing anti-bullying programs, the most comprehensive approach
+      would address:'
+    Options:
+    - Only the bullies' behavior
+    - Multiple factors including model influences, observer motivation, and environmental
+      support
+    - Only victim characteristics
+    - Only environmental factors
+    CorrectOptionIndex: 1
+    LevelName: factors - social learning

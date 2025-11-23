@@ -1,0 +1,482 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: types of TEP
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: The Bachelor of Elementary Education (B.El.Ed.) program is structurally
+      classified as what type of program?
+    Options:
+    - A consecutive model program
+    - An in-service teacher education program
+    - An integrated teacher education program
+    - A special education program
+    CorrectOptionIndex: 2
+    LevelName: types of TEP
+  - QuestionText: If a policy planner aims to reduce the total time taken to become
+      a qualified secondary teacher while ensuring deeper integration of subject
+      knowledge and pedagogy, which program type should they advocate for?
+    Options:
+    - The consecutive B.Ed. model
+    - "The 4-year integrated B.A. B.Ed./B.Sc.\_B.Ed. model"
+    - A series of short-term in-service workshops
+    - The Diploma in Elementary Education (D.El.Ed.)
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: What is the primary distinction between pre-service and in-service
+      teacher education?
+    Options:
+    - Pre-service is for secondary teachers, in-service is for elementary teachers.
+    - Pre-service is theoretical, in-service is practical.
+    - Pre-service is qualification-oriented for new entrants, while in-service provides
+      continuous professional development for working teachers.
+    - Pre-service is offered by universities, in-service is offered by NGOs.
+    CorrectOptionIndex: 2
+    LevelName: types of TEP
+  - QuestionText: 'A teacher with a B.Ed. degree undergoes a 3-week training on implementing
+      experiential learning. This activity is an example of:'
+    Options:
+    - Pre-service teacher education
+    - In-service teacher education
+    - An integrated program
+    - A consecutive program
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: The National Education Policy (NEP) 2020 recommends phasing out
+      which of the following structures for teacher preparation?
+    Options:
+    - Integrated 4-year programs
+    - The 2-year B.Ed. program
+    - The 1-year B.Ed. program
+    - Master of Education (M.Ed.) programs
+    CorrectOptionIndex: 2
+    LevelName: types of TEP
+  - QuestionText: 'A program designed to equip teachers with specialized skills for
+      teaching students with visual impairments is categorized under:'
+    Options:
+    - Elementary Teacher Education
+    - Physical Education
+    - Adult Education
+    - Special Education
+    CorrectOptionIndex: 3
+    LevelName: types of TEP
+  - QuestionText: The 'consecutive model' of teacher education is best described
+      by which of the following pathways?
+    Options:
+    - B.A. B.Ed. (4-year integrated program)
+    - "B.Sc.\_\u2192 B.Ed. (Two separate degrees)"
+    - "D.El.Ed. \u2192 B.Ed."
+    - "B.Ed. \u2192 M.Ed."
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: 'Critically analyze the following scenario: A B.Ed. college introduces
+      a mandatory module where student-teachers must develop a digital portfolio
+      of their lesson plans and student work. This innovation primarily addresses
+      a limitation of which traditional program characteristic?'
+    Options:
+    - Overemphasis on theoretical foundations
+    - Lack of a reflective practice component
+    - Insufficient focus on physical education
+    - Absence of a consecutive model structure
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: Which of the following is the foundational pre-service qualification
+      for teaching at the secondary level (Classes 9-10) in India?
+    Options:
+    - Diploma in Elementary Education (D.El.Ed.)
+    - Bachelor of Physical Education (B.P.Ed.)
+    - Master of Education (M.Ed.)
+    - Bachelor of Education (B.Ed.)
+    CorrectOptionIndex: 3
+    LevelName: types of TEP
+  - QuestionText: Imagine two teacher education programs. Program A is a 4-year B.A.
+      B.Ed. Program B is a 3-year B.A. followed by a 2-year B.Ed. Which of the following
+      is a potential advantage of Program A over Program B?
+    Options:
+    - It takes longer to complete.
+    - It allows for a deeper, more simultaneous integration of disciplinary knowledge
+      and pedagogical principles.
+    - It is a consecutive model.
+    - It focuses only on pedagogy and not on subject content.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: The Diploma in Elementary Education (D.El.Ed.) is primarily designed
+      to prepare teachers for which stage of schooling?
+    Options:
+    - Pre-primary and Nursery
+    - Classes I to VIII (Elementary Stage)
+    - Classes IX and X (Secondary Stage)
+    - Classes XI and XII (Senior Secondary Stage)
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: Which regulatory body is responsible for recognizing and regulating
+      teacher education programs like B.Ed. and D.El.Ed. in India?
+    Options:
+    - University Grants Commission (UGC)
+    - National Council of Educational Research and Training (NCERT)
+    - National Council for Teacher Education (NCTE)
+    - Central Board of Secondary Education (CBSE)
+    CorrectOptionIndex: 2
+    LevelName: types of TEP
+  - QuestionText: 'A B.P.Ed. graduate is qualified to:'
+    Options:
+    - Teach science at the secondary level.
+    - Serve as a special educator for children with learning disabilities.
+    - Become a principal of a senior secondary school.
+    - Teach physical education in schools.
+    CorrectOptionIndex: 3
+    LevelName: types of TEP
+  - QuestionText: 'The M.Ed. program is best described as a:'
+    Options:
+    - Pre-service program for secondary teachers.
+    - Pre-service program for elementary teachers.
+    - Higher-degree program for teacher educators and educational specialists.
+    - Diploma program for in-service training.
+    CorrectOptionIndex: 2
+    LevelName: types of TEP
+  - QuestionText: What is the primary goal of in-service teacher education programs?
+    Options:
+    - To award a formal degree to aspiring teachers.
+    - To provide a one-time orientation for new teachers.
+    - To replace the need for pre-service qualifications.
+    - To facilitate continuous professional development and updating of skills for
+      practicing teachers.
+    CorrectOptionIndex: 3
+    LevelName: types of TEP
+  - QuestionText: 'The NISHTHA (National Initiative for School Heads'' and Teachers''
+      Holistic Advancement) program launched by NCERT is a prime example of a:'
+    Options:
+    - Pre-service integrated program.
+    - Large-scale in-service teacher training initiative.
+    - Special education diploma program.
+    - Consecutive model teacher education program.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: 'A teacher education program that includes a strong component of
+      learning Indian Sign Language (ISL) is most likely a program in:'
+    Options:
+    - Early Childhood Education
+    - Educational Technology
+    - Special Education (Hearing Impairment)
+    - Physical Education
+    CorrectOptionIndex: 2
+    LevelName: types of TEP
+  - QuestionText: 'The 2-year B.Ed. program, as mandated by NCTE, is an improvement
+      over the 1-year program primarily because it:'
+    Options:
+    - Is more expensive to run.
+    - Allows for an extended internship and more comprehensive coverage of pedagogical
+      theory.
+    - Focuses only on theoretical aspects.
+    - Replaces the need for a master's degree.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: Which of the following sequences correctly represents the consecutive
+      model of teacher education for a secondary school teacher?
+    Options:
+    - "B.El.Ed. \u2192 M.Ed."
+    - "D.El.Ed. \u2192 B.Ed."
+    - Integrated B.A. B.Ed.
+    - "B.A. \u2192 B.Ed."
+    CorrectOptionIndex: 3
+    LevelName: types of TEP
+  - QuestionText: 'A key philosophical difference between an integrated B.El.Ed.
+      and a consecutive B.Ed. is that the integrated model:'
+    Options:
+    - Considers pedagogy and subject knowledge as separate domains to be mastered
+      sequentially.
+    - Views the development of a teacher's identity and professional knowledge as
+      a simultaneous, intertwined process.
+    - Is only for those who want to teach at the pre-primary level.
+    - Eliminates the need for practical training.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: The Nursery Teacher Training (N.T.T.) program qualifies an individual
+      to teach at which level?
+    Options:
+    - Senior Secondary Level (Classes 11-12)
+    - Elementary Level (Classes 1-8)
+    - Pre-Primary / Early Childhood Level
+    - Secondary Level (Classes 9-10)
+    CorrectOptionIndex: 2
+    LevelName: types of TEP
+  - QuestionText: 'A program that combines the study of history or science with the
+      principles of teaching and learning within a single curriculum is known as
+      a(n):'
+    Options:
+    - In-service program
+    - Consecutive program
+    - Special education program
+    - Integrated program
+    CorrectOptionIndex: 3
+    LevelName: types of TEP
+  - QuestionText: 'The Ph.D. in Education is primarily a:'
+    Options:
+    - Pre-service teacher qualification program.
+    - Program for training school principals.
+    - Research-focused degree for creating scholars and policy analysts.
+    - Diploma in educational administration.
+    CorrectOptionIndex: 2
+    LevelName: types of TEP
+  - QuestionText: If a state government wants to upgrade the qualifications of its
+      existing elementary teachers who hold a D.El.Ed. to a degree level, which would
+      be the most logical pathway to recommend?
+    Options:
+    - They must start over with a 4-year integrated B.El.Ed.
+    - They can pursue a B.Ed. program designed for elementary teachers.
+    - They should enroll in an M.Phil. program.
+    - No further qualification is needed.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: The scope of teacher education programs includes training for which
+      of the following?
+    Options:
+    - Only government school teachers.
+    - Only those who wish to become school principals.
+    - Only teachers in urban private schools.
+    - Teachers for pre-primary, elementary, secondary, and senior secondary levels,
+      including specialized areas.
+    CorrectOptionIndex: 3
+    LevelName: types of TEP
+  - QuestionText: Which of the following is a characteristic of a high-quality in-service
+      teacher education program?
+    Options:
+    - It is a one-way lecture-based transmission of information.
+    - It is directly linked to teachers' classroom contexts and challenges.
+    - It has no connection to the current curriculum.
+    - It is a one-time event at the beginning of a teacher's career.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: 'The B.El.Ed. program places a strong emphasis on:'
+    Options:
+    - Advanced research methodologies.
+    - Pedagogy suited for senior secondary education.
+    - Child-centered learning and the context of elementary education.
+    - The management of school finances.
+    CorrectOptionIndex: 2
+    LevelName: types of TEP
+  - QuestionText: 'A teacher who completes an M.Ed. program is qualified to take
+      up a position as a:'
+    Options:
+    - Physical Education teacher in a primary school.
+    - Teacher educator in a B.Ed. college.
+    - Nursery school teacher.
+    - Secondary school science teacher.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: The "reflective teaching practice" is a core component most effectively
+      integrated into which type of program?
+    Options:
+    - A short-term 10-day orientation program
+    - A correspondence course with no practical component
+    - A program focused solely on theoretical examinations
+    - A program with a sustained and supervised internship period, like the 2-year
+      B.Ed.
+    CorrectOptionIndex: 3
+    LevelName: types of TEP
+  - QuestionText: What is a major challenge faced by the in-service teacher education
+      system in India?
+    Options:
+    - They are the only pathway to become a teacher.
+    - They are often disconnected from classroom realities and fail to bring about
+      tangible changes in teaching practices.
+    - They are mandatory for obtaining a Ph.D.
+    - They replace pre-service qualifications.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: The D.El.Ed. program is typically of how many years' duration?
+    Options:
+    - 1 year
+    - 2 years
+    - 4 years
+    - 6 months
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: 'A program that leads to a Bachelor of Physical Education degree
+      is abbreviated as:'
+    Options:
+    - B.P.Ed.
+    - B.Ed.
+    - B.El.Ed.
+    - D.P.Ed.
+    CorrectOptionIndex: 0
+    LevelName: types of TEP
+  - QuestionText: 'The Integrated Teacher Education Programme (ITEP) as envisioned
+      in NEP 2020 will be offered in:'
+    Options:
+    - IITs and IIMs only.
+    - Multi-disciplinary colleges and universities.
+    - Industrial training institutes.
+    - Secondary schools only.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: 'A key difference between the B.Ed. and the M.Ed. program is that
+      the M.Ed. focuses more on:'
+    Options:
+    - Basic classroom teaching skills.
+    - Preparing teachers for the elementary level.
+    - Educational research, leadership, and teacher education.
+    - Foundational literacy and numeracy.
+    CorrectOptionIndex: 2
+    LevelName: types of TEP
+  - QuestionText: 'The ''Sandwich'' pattern of teacher education sometimes used in
+      B.Ed. programs refers to:'
+    Options:
+    - A program that includes free meals for students.
+    - Alternating blocks of theoretical coursework and school-based internship.
+    - A program that focuses only on summer vacations.
+    - A course on food nutrition for teachers.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: 'Evaluating the effectiveness of a teacher education program should
+      ideally involve assessing:'
+    Options:
+    - Only the final university examination scores of the student-teachers.
+    - The cost of the program.
+    - The number of books in the institution's library.
+    - The ability of the graduating teachers to foster student learning in real classrooms.
+    CorrectOptionIndex: 3
+    LevelName: types of TEP
+  - QuestionText: 'The Post-Graduate Diploma in Educational Management (PGDEM) is
+      designed for:'
+    Options:
+    - Nursery teachers.
+    - Aspiring educational administrators and leaders.
+    - Special educators for children with autism.
+    - Physical education trainers.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: 'A pre-service teacher education program that is considered ''job-oriented''
+      inherently implies that it:'
+    Options:
+    - Guarantees a government job.
+    - Is the same as a Bachelor of Arts degree.
+    - Is only about theoretical knowledge.
+    - Focuses on developing specific competencies required for the teaching profession.
+    CorrectOptionIndex: 3
+    LevelName: types of TEP
+  - QuestionText: 'The District Institute of Education and Training (DIET) primarily
+      focuses on:'
+    Options:
+    - Offering Ph.D. programs in education.
+    - Providing in-service training for elementary teachers and teacher educators
+      at the district level.
+    - Regulating university-level B.Ed. programs.
+    - Training teachers for foreign countries.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: A critique of the traditional 1-year B.Ed. program was that its
+      internship was often too brief and perfunctory. How does the 2-year B.Ed. program
+      address this?
+    Options:
+    - By removing the internship component entirely.
+    - By providing a longer, more substantial and supervised school experience.
+    - By focusing only on theoretical coursework.
+    - By converting it into a correspondence course.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: What is the primary focus of Early Childhood Care and Education
+      (ECCE) teacher training programs?
+    Options:
+    - Preparing teachers for senior secondary classes.
+    - Educational administration and management.
+    - Advanced pedagogical theory for subject teachers.
+    - The holistic development of children in the 3-6 years age group through play
+      and discovery.
+    CorrectOptionIndex: 3
+    LevelName: types of TEP
+  - QuestionText: 'The M.Phil. (Master of Philosophy) in Education was a program
+      that:'
+    Options:
+    - Served as a pre-doctoral research degree.
+    - Was the basic qualification for primary teaching.
+    - Focused solely on physical training.
+    - Was a diploma in nursery education.
+    CorrectOptionIndex: 0
+    LevelName: types of TEP
+  - QuestionText: 'A teacher education program that includes courses on "Braille"
+      and "Orientation & Mobility" is designed for:'
+    Options:
+    - Teaching Physical Education.
+    - Special Education for children with Visual Impairment.
+    - Teaching Mathematics at the secondary level.
+    - Early Childhood Education.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: 'The National Curriculum Framework for Teacher Education (NCFTE,
+      2009) emphasized making teacher education more ''integrated''. This was a direct
+      critique of the:'
+    Options:
+    - High cost of education.
+    - Overemphasis on practical training.
+    - Lack of buildings for teacher education institutions.
+    - Artificial separation between theory and practice in traditional programs.
+    CorrectOptionIndex: 3
+    LevelName: types of TEP
+  - QuestionText: 'A ''bridge course'' in the context of teacher education is often
+      designed to:'
+    Options:
+    - Help teachers learn how to construct physical bridges.
+    - Provide a pathway for teachers with one qualification (e.g., D.El.Ed.) to upgrade
+      to another (e.g., B.Ed.).
+    - Replace the B.Ed. degree entirely.
+    - Train teachers for engineering colleges.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: 'The B.Ed. (Special Education) program is typically offered for
+      various disabilities. This specialization is crucial because:'
+    Options:
+    - It is easier to complete than a general B.Ed.
+    - It has no practical component.
+    - It allows teachers to avoid mainstream classrooms.
+    - It equips teachers with specific strategies to address the diverse learning
+      needs of children with disabilities.
+    CorrectOptionIndex: 3
+    LevelName: types of TEP
+  - QuestionText: The 'understanding level' of teaching is a key objective of which
+      type of teacher education program?
+    Options:
+    - Only pre-service programs
+    - Only in-service programs
+    - All quality teacher education programs, both pre-service and in-service
+    - Only physical education programs
+    CorrectOptionIndex: 2
+    LevelName: types of TEP
+  - QuestionText: 'A significant advantage of distance or online in-service teacher
+      education programs is their:'
+    Options:
+    - Ability to provide hands-on practical training.
+    - Potential to reach a large number of teachers across geographical barriers.
+    - Replacement of all face-to-face interaction.
+    - Focus solely on theoretical research.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP
+  - QuestionText: 'The Justice J.S. Verma Committee (2012) was constituted to review
+      and revitalize:'
+    Options:
+    - The infrastructure of schools in India.
+    - The sports policy of India.
+    - The curriculum for medical education.
+    - Teacher education in India.
+    CorrectOptionIndex: 3
+    LevelName: types of TEP
+  - QuestionText: 'When comparing a 4-year integrated B.A. B.Ed. with a 3-year B.A.
+      + 2-year B.Ed. pathway, a potential drawback of the integrated program could
+      be:'
+    Options:
+    - It is more time-efficient.
+    - A student must commit to the teaching profession at the entry point of undergraduate
+      studies itself.
+    - It provides a richer integration of content and pedagogy.
+    - It is recommended by the NEP 2020.
+    CorrectOptionIndex: 1
+    LevelName: types of TEP

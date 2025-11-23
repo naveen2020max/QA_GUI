@@ -1,0 +1,489 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: organization of components pre
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Which of the following is considered the foundational pillar that
+      informs all other components of pre-service teacher education?
+    Options:
+    - School Internship
+    - Perspectives in Education
+    - Co-curricular Activities
+    - Communication Skills
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'A teacher education program structures its ''Curriculum and Pedagogic
+      Studies'' around two teaching subjects. This organization is primarily designed
+      to:'
+    Options:
+    - Reduce the workload of student-teachers.
+    - Focus exclusively on theoretical knowledge.
+    - Ensure teachers can teach all subjects equally.
+    - Develop depth and specialized pedagogical content knowledge.
+    CorrectOptionIndex: 3
+    LevelName: organization of components pre
+  - QuestionText: The component 'Engagement with the Field' is strategically interspersed
+      throughout the pre-service program, rather than being concentrated at the end.
+      What is the primary rationale for this organization?
+    Options:
+    - To reduce transportation costs for the institution.
+    - To create a continuous dialogue between theory and practice from the outset.
+    - To give student-teachers more free time.
+    - To follow a traditional model of teacher training.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: What is the primary objective of organizing a 'School Internship'
+      as a culminating experience in pre-service teacher education?
+    Options:
+    - To provide a break from theoretical studies.
+    - To allow student-teachers to observe classes passively.
+    - To integrate and apply all learned components in a real-school setting.
+    - To focus solely on developing administrative skills.
+    CorrectOptionIndex: 2
+    LevelName: organization of components pre
+  - QuestionText: The 'Reading and Reflecting on Texts' component is organized to
+      develop which crucial teacher competency?
+    Options:
+    - Physical endurance
+    - Critical literacy and the ability to engage with academic discourses
+    - Speed reading without comprehension
+    - Memorization of philosophical texts
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: If a curriculum designer wants to ensure that student-teachers
+      can critically examine the socio-political context of education, which component
+      should be most emphasized in its organization?
+    Options:
+    - Pedagogy of a School Subject
+    - Understanding the Self
+    - Contemporary India and Education
+    - Health and Physical Education
+    CorrectOptionIndex: 2
+    LevelName: organization of components pre
+  - QuestionText: 'The organization of ''Pedagogical Content Knowledge'' (PCK) as
+      a distinct focus within the curriculum signifies a shift from viewing teaching
+      as:'
+    Options:
+    - A purely practical skill to a purely theoretical one.
+    - A simple transmission of content to a complex integration of content and pedagogy.
+    - An individual activity to a group activity.
+    - An art to a science.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: A pre-service program is criticized for having its 'Theoretical
+      Perspectives' and 'School Internship' components running in complete isolation
+      from each other. This flaw in organization violates which core principle of
+      teacher education?
+    Options:
+    - The principle of economy
+    - The principle of centralized control
+    - The principle of selective admission
+    - The principle of theory-practice integration
+    CorrectOptionIndex: 3
+    LevelName: organization of components pre
+  - QuestionText: 'The component ''Understanding the Self'' is organized early in
+      many pre-service programs to primarily:'
+    Options:
+    - Fulfill a psychological requirement.
+    - Help student-teachers begin constructing their professional identity.
+    - Replace the need for pedagogical knowledge.
+    - Focus on physical health.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'In a well-organized pre-service curriculum, the ''Assessment and
+      Evaluation'' course is placed before the internship so that:'
+    Options:
+    - Student-teachers can avoid learning about assessment.
+    - It remains a purely theoretical exercise.
+    - Student-teachers have the theoretical knowledge to design and implement assessments
+      during their practice.
+    - It can be taught in isolation from classroom reality.
+    CorrectOptionIndex: 2
+    LevelName: organization of components pre
+  - QuestionText: Which component of pre-service teacher education is specifically
+      designed to bridge the gap between the teacher education institution and the
+      community?
+    Options:
+    - Computer Science
+    - Community Living Camp
+    - Advanced Theoretical Physics
+    - Foreign Language Studies
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'The organization of the ''Perspectives in Education'' component
+      typically includes foundational knowledge from:'
+    Options:
+    - A single discipline.
+    - Only management studies.
+    - Only technological disciplines.
+    - Psychology, Sociology, and Philosophy.
+    CorrectOptionIndex: 3
+    LevelName: organization of components pre
+  - QuestionText: "A program that organizes its 'School Experience Program' (SEP)
+      through gradual exposure\u2014starting with observation and moving to limited
+      teaching, and finally to full-time teaching\u2014is adhering to which pedagogical
+      principle?"
+    Options:
+    - Principle of Punishment and Reward
+    - Principle of Proceeding from Simple to Complex
+    - Principle of Isolation
+    - Principle of Uniformity
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'The ''ICT'' component in a modern pre-service program is no longer
+      a standalone paper but is integrated across the curriculum. This organizational
+      shift reflects the understanding that ICT is a:'
+    Options:
+    - Separate subject to be mastered.
+    - Topic relevant only to computer teachers.
+    - Replacement for the teacher.
+    - Pedagogical tool to enhance learning in all areas.
+    CorrectOptionIndex: 3
+    LevelName: organization of components pre
+  - QuestionText: 'When the ''Inclusive Education'' component is woven throughout
+      various curriculum areas rather than being a single course, it demonstrates
+      that inclusion is understood as:'
+    Options:
+    - An add-on topic.
+    - A cross-cutting perspective fundamental to all teaching.
+    - Relevant only for special educators.
+    - A legal formality.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'The ''Action Research'' project is often organized as part of
+      the internship. The primary purpose of this is to:'
+    Options:
+    - Add to the workload of the student-teacher.
+    - Replace the theoretical components of the program.
+    - Develop the teacher as a reflective practitioner who can systematically inquire
+      into their own practice.
+    - Focus solely on library-based research.
+    CorrectOptionIndex: 2
+    LevelName: organization of components pre
+  - QuestionText: What is the main purpose of organizing 'Micro-teaching' sessions
+      before the full-scale internship?
+    Options:
+    - To replace the need for a full internship.
+    - To provide a safe environment for practicing and refining specific teaching
+      skills.
+    - To focus only on theoretical discussions.
+    - To evaluate student-teachers based on a single performance.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'The organization of co-curricular activities like ''Drama and
+      Art in Education'' within pre-service teacher education aims to:'
+    Options:
+    - Waste academic time.
+    - Separate arts from the academic curriculum.
+    - Train teachers to become professional artists.
+    - Equip future teachers to use creative and expressive arts as pedagogical tools.
+    CorrectOptionIndex: 3
+    LevelName: organization of components pre
+  - QuestionText: 'In the context of organizing pre-service teacher education, the
+      ''Feedback Mechanism'' after teaching practice is crucial for:'
+    Options:
+    - Discouraging student-teachers.
+    - Providing a one-way judgment from the supervisor.
+    - Facilitating professional growth and improvement through constructive critique.
+    - Replacing the final examination.
+    CorrectOptionIndex: 2
+    LevelName: organization of components pre
+  - QuestionText: 'A curriculum framework that mandates a certain number of weeks
+      for ''School Internship'' is emphasizing the importance of:'
+    Options:
+    - Theoretical knowledge over practical experience.
+    - Ensuring sufficient time for developing practical professional competencies.
+    - Reducing the cost of teacher education.
+    - Keeping student-teachers away from college.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'The ''Workshop on Developing Learning Resources'' is organized
+      to train student-teachers in:'
+    Options:
+    - Only using ready-made materials.
+    - Critically evaluating, adapting, and creating teaching-learning materials (TLMs).
+    - Relying solely on textbooks.
+    - Avoiding the use of any technology.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: "The sequential organization of courses\u2014from 'Perspectives
+      in Education' to 'Curriculum and Pedagogy' and finally to 'Engagement with
+      the Field'\u2014reflects a logical:"
+    Options:
+    - Progression from foundations to application.
+    - Preference for theory over practice.
+    - Random arrangement of topics.
+    - Focus on practice over theory.
+    CorrectOptionIndex: 0
+    LevelName: organization of components pre
+  - QuestionText: If a program organizes a 'Seminar on Current Educational Issues,'
+      it is primarily aiming to develop which of the following in student-teachers?
+    Options:
+    - Rote memorization skills.
+    - Awareness and critical perspective on contemporary debates.
+    - Isolation from real-world problems.
+    - Expertise in historical education.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'The organization of ''Gender Studies'' as a compulsory component
+      in pre-service teacher education is a direct response to the need for:'
+    Options:
+    - Reinforcing traditional gender roles.
+    - Separating boys and girls in schools.
+    - Focusing only on women's education.
+    - Promoting gender sensitivity and equitable classroom practices.
+    CorrectOptionIndex: 3
+    LevelName: organization of components pre
+  - QuestionText: 'A program that integrates ''Environmental Education'' across its
+      curriculum is advocating for:'
+    Options:
+    - The isolation of environmental concerns.
+    - An ecological perspective as a core value in all educational endeavors.
+    - The elimination of science from the curriculum.
+    - Focusing only on theoretical aspects of the environment.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'The ''Simulated Teaching'' component is organized before actual
+      classroom teaching to:'
+    Options:
+    - Create an artificial environment that has no real value.
+    - Replace the need for lesson planning.
+    - Provide a low-risk platform for skill development and receiving feedback.
+    - Focus only on communication skills.
+    CorrectOptionIndex: 2
+    LevelName: organization of components pre
+  - QuestionText: 'The organization of a ''Pre-Internship School Exposure'' program
+      is intended to:'
+    Options:
+    - Surprise the student-teachers.
+    - Familiarize them with the school culture and ethos before the intensive internship.
+    - Replace the main internship.
+    - Focus only on administrative work.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'A key challenge in the organization of the ''School Internship''
+      component is:'
+    Options:
+    - Ensuring quality supervision and meaningful feedback.
+    - Its short duration and comprehensive nature.
+    - The lack of theoretical connection.
+    - Both a) and b)
+    CorrectOptionIndex: 3
+    LevelName: organization of components pre
+  - QuestionText: 'The ''Philosophical Foundation of Education'' component is organized
+      to help student-teachers:'
+    Options:
+    - Memorize the quotes of philosophers.
+    - Develop their own educational philosophy.
+    - Avoid practical teaching.
+    - Focus only on Western philosophy.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'In a well-organized pre-service program, the ''Psychology of Learning''
+      component directly informs the ''Pedagogy'' component. This illustrates:'
+    Options:
+    - The disjointed nature of the curriculum.
+    - The overemphasis on theory.
+    - The functional relationship between understanding how students learn and how
+      to teach them.
+    - The separation of child development from teaching.
+    CorrectOptionIndex: 2
+    LevelName: organization of components pre
+  - QuestionText: 'The ''Block Teaching'' during internship, where a student-teacher
+      teaches continuously for a set period, is organized to:'
+    Options:
+    - Overburden the student-teacher.
+    - Provide an experience of sustained engagement with a group of learners.
+    - Replace the need for lesson plans.
+    - Focus only on one specific skill.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'The organization of ''Peer Observation and Feedback'' sessions
+      during teaching practice aims to foster:'
+    Options:
+    - Competition and rivalry.
+    - Isolation among student-teachers.
+    - Dependence on the supervisor.
+    - A culture of collaborative learning and shared professional growth.
+    CorrectOptionIndex: 3
+    LevelName: organization of components pre
+  - QuestionText: 'The ''Sociological Foundation of Education'' component is crucial
+      in the organization of the curriculum as it prepares teachers to:'
+    Options:
+    - Ignore social disparities.
+    - Understand and address the impact of social factors on education.
+    - Focus only on individual psychology.
+    - Work only with homogeneous groups.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'A program that offers ''Elective Courses'' on topics like ''Peace
+      Education'' or ''Value Education'' in its organization is allowing for:'
+    Options:
+    - A reduction in core content.
+    - A focus only on optional subjects.
+    - The customization of learning based on interest and context.
+    - The elimination of foundational courses.
+    CorrectOptionIndex: 2
+    LevelName: organization of components pre
+  - QuestionText: 'The final ''Practice Teaching'' portfolio, which includes lesson
+      plans, reflections, and student work, is organized to serve as:'
+    Options:
+    - A mere formality for submission.
+    - A comprehensive record of professional learning and growth.
+    - A tool for comparing student-teachers competitively.
+    - A replacement for theoretical examinations.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'The organization of ''Content Enrichment'' courses alongside pedagogical
+      courses ensures that:'
+    Options:
+    - Subject matter knowledge is neglected.
+    - The program becomes too theoretical.
+    - Pedagogy is considered more important than content.
+    - Teachers have both deep content knowledge and the skills to teach it effectively.
+    CorrectOptionIndex: 3
+    LevelName: organization of components pre
+  - QuestionText: 'The ''Unit Planning'' exercise is organized before ''Lesson Planning''
+      in a curriculum because:'
+    Options:
+    - It is a more complex task.
+    - It helps in understanding the broader context before breaking it down into
+      daily lessons.
+    - It is an easier task.
+    - It is unrelated to lesson planning.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'A program that integrates ''Self-Evaluation'' as a formal component
+      in its organization is aiming to develop:'
+    Options:
+    - A sense of superiority among student-teachers.
+    - Dependence on external evaluation.
+    - The capacity for metacognition and self-directed professional development.
+    - A focus only on weaknesses.
+    CorrectOptionIndex: 2
+    LevelName: organization of components pre
+  - QuestionText: 'The ''Collaborative Projects'' component among student-teachers
+      is organized to promote:'
+    Options:
+    - Individualistic work ethics.
+    - Teamwork and shared problem-solving skills.
+    - Rivalry and competition.
+    - Isolation from peers.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'The organization of a ''Foundational Course in Language and Communication''
+      is essential for pre-service teachers to:'
+    Options:
+    - Learn a foreign language.
+    - Develop the proficiency required for effective classroom communication and
+      instruction.
+    - Focus only on written communication.
+    - Replace the need for subject knowledge.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'The ''Time Allocation'' for different components in a pre-service
+      curriculum (e.g., more hours for internship than for a single theoretical paper)
+      reflects:'
+    Options:
+    - The relative importance assigned to those components.
+    - A random decision.
+    - That all components are equally important regardless of time.
+    - The cost-effectiveness of the component.
+    CorrectOptionIndex: 0
+    LevelName: organization of components pre
+  - QuestionText: 'A curriculum that organizes ''Case Study Analysis'' of real classroom
+      scenarios is designed to enhance:'
+    Options:
+    - Theoretical abstraction.
+    - The ability to apply theoretical knowledge to complex, real-world situations.
+    - Rote learning of case details.
+    - Isolation from practical problems.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: "The 'Sequencing' of the curriculum\u2014where student-teachers
+      learn about the learner first, then about learning, and then about teaching\u2014is
+      based on a:"
+    Options:
+    - Illogical and random order.
+    - Focus on content before the child.
+    - Top-down approach to teaching.
+    - Logical constructivist approach to building professional knowledge.
+    CorrectOptionIndex: 3
+    LevelName: organization of components pre
+  - QuestionText: 'The organization of ''Guest Lectures'' by practicing school principals
+      and senior teachers provides student-teachers with:'
+    Options:
+    - A break from regular classes.
+    - Insights from experienced professionals in the field.
+    - Irrelevant information.
+    - A replacement for their regular teacher educators.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'The ''Continuous and Comprehensive Evaluation'' of student-teachers
+      themselves, through various means (assignments, practicum, viva, internship),
+      is organized to:'
+    Options:
+    - Assess them based on a single final exam.
+    - Focus only on their theoretical knowledge.
+    - Reduce the workload of the evaluators.
+    - Provide a holistic and ongoing assessment of their professional development.
+    CorrectOptionIndex: 3
+    LevelName: organization of components pre
+  - QuestionText: 'A program that organizes a ''Community Survey'' as part of its
+      field engagement aims to:'
+    Options:
+    - Isolate the school from the community.
+    - Help student-teachers understand the socio-cultural background of their future
+      learners.
+    - Add an extra burden without purpose.
+    - Focus only on urban communities.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'The ''Skill of Introduction'' and ''Skill of Explanation'' are
+      practiced separately in micro-teaching before being integrated in a full lesson.
+      This organization follows the principle of:'
+    Options:
+    - Whole-to-Part learning.
+    - Massed Practice.
+    - Part-to-Whole learning.
+    - Global Perspective.
+    CorrectOptionIndex: 2
+    LevelName: organization of components pre
+  - QuestionText: 'The mandatory ''Reflective Journal'' maintained throughout the
+      program is organized to cultivate:'
+    Options:
+    - The habit of diary writing.
+    - The practice of critical self-reflection on one's learning and experiences.
+    - A record of daily events without analysis.
+    - A document for public display.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre
+  - QuestionText: 'The organization of the pre-service curriculum into ''Theoretical''
+      and ''Practical'' components, with credit allocation for each, is a structural
+      mechanism to ensure:'
+    Options:
+    - That theory is valued over practice.
+    - That practice is considered optional.
+    - A balanced weightage to both knowledge and application.
+    - The separation of the two domains.
+    CorrectOptionIndex: 2
+    LevelName: organization of components pre
+  - QuestionText: 'A program that concludes with a ''Capstone Seminar,'' where student-teachers
+      present their action research projects, is designed to:'
+    Options:
+    - Test their public speaking skills in isolation.
+    - Showcase the culmination of their learning and inquiry during the program.
+    - Add a final, stressful event.
+    - Replace the final practicum examination.
+    CorrectOptionIndex: 1
+    LevelName: organization of components pre

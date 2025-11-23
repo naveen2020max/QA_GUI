@@ -1,0 +1,466 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: problem solving
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The initial stage of the problem-solving process, where one identifies
+      that a problem exists, is known as:'
+    Options:
+    - Problem Identification
+    - Problem Representation
+    - Solution Implementation
+    - Solution Evaluation
+    CorrectOptionIndex: 0
+    LevelName: problem solving
+  - QuestionText: 'A step-by-step procedure that guarantees a solution to a problem
+      is called a(n):'
+    Options:
+    - Heuristic
+    - Algorithm
+    - Insight
+    - Prototype
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'The "problem space" in problem-solving consists of the:'
+    Options:
+    - Physical environment where the problem occurs.
+    - Initial state, goal state, and all possible intermediate states.
+    - Mental set of the problem solver.
+    - Time limit for solving the problem.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'Who proposed the influential four-stage model of problem-solving:
+      Preparation, Incubation, Illumination, and Verification?'
+    Options:
+    - John Dewey
+    - George Polya
+    - Max Wertheimer
+    - Graham Wallas
+    CorrectOptionIndex: 3
+    LevelName: problem solving
+  - QuestionText: 'A mental shortcut or "rule of thumb" used in problem-solving is
+      known as a:'
+    Options:
+    - Algorithm
+    - Heuristic
+    - Schema
+    - Paradigm
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'In problem-solving, the tendency to approach a problem in a way
+      that has been successful in the past is called:'
+    Options:
+    - Functional Fixedness
+    - Confirmation Bias
+    - Mental Set
+    - Availability Heuristic
+    CorrectOptionIndex: 2
+    LevelName: problem solving
+  - QuestionText: 'The sudden and often novel realization of the solution to a problem
+      is called:'
+    Options:
+    - Algorithmic Processing
+    - Insight
+    - Convergent Thinking
+    - Means-End Analysis
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'The inability to see that an object can have a function other
+      than its typical one is known as:'
+    Options:
+    - Mental Set
+    - Functional Fixedness
+    - Confirmation Bias
+    - Belief Perseverance
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'The strategy that involves reducing the difference between the
+      current state and the goal state is called:'
+    Options:
+    - Working Backwards
+    - Trial and Error
+    - Analogical Transfer
+    - Means-End Analysis
+    CorrectOptionIndex: 3
+    LevelName: problem solving
+  - QuestionText: Which type of problem is characterized by a clear starting point,
+      a defined goal, and a predictable solution path?
+    Options:
+    - Ill-Defined Problem
+    - Well-Defined Problem
+    - Insight Problem
+    - Divergent Problem
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: A student trying to solve a physics problem draws a diagram. This
+      activity is part of which crucial problem-solving stage?
+    Options:
+    - Problem Identification
+    - Solution Evaluation
+    - Strategy Selection
+    - Problem Representation
+    CorrectOptionIndex: 3
+    LevelName: problem solving
+  - QuestionText: 'A doctor who quickly diagnoses a common illness based on a few
+      key symptoms is likely using a:'
+    Options:
+    - Trial-and-Error Approach
+    - Heuristic
+    - Algorithm
+    - Means-End Analysis
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: The "Aha!" moment in problem-solving is most closely associated
+      with which stage of Wallas's model?
+    Options:
+    - Preparation
+    - Incubation
+    - Illumination
+    - Verification
+    CorrectOptionIndex: 2
+    LevelName: problem solving
+  - QuestionText: 'A person trying to solve a word puzzle by randomly trying different
+      letter combinations is using the strategy of:'
+    Options:
+    - Algorithm
+    - Insight
+    - Trial and Error
+    - Analogy
+    CorrectOptionIndex: 2
+    LevelName: problem solving
+  - QuestionText: 'When you try to solve a new problem by applying a solution that
+      worked for a similar problem in the past, you are using:'
+    Options:
+    - Functional Fixedness
+    - Analogical Transfer
+    - Mental Set
+    - Confirmation Bias
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'The "incubation" period in problem-solving is beneficial because
+      it allows for:'
+    Options:
+    - Intensive, focused effort on the problem.
+    - The unconscious processing of the problem.
+    - The immediate implementation of the first solution.
+    - The careful verification of the final answer.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'A problem that lacks a clear path to the solution or has ambiguous
+      goals is known as a(n):'
+    Options:
+    - Well-Defined Problem
+    - Convergent Problem
+    - Algorithmic Problem
+    - Ill-Defined Problem
+    CorrectOptionIndex: 3
+    LevelName: problem solving
+  - QuestionText: 'In the means-end analysis strategy, the problem solver:'
+    Options:
+    - Starts from the goal and works backward to the start.
+    - Breaks down the problem into smaller, more manageable subproblems.
+    - Waits for a sudden insight to occur.
+    - Uses random combinations until a solution is found.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'The "Einstellung effect" refers to the negative aspect of a mental
+      set, where a person:'
+    Options:
+    - Finds creative solutions quickly.
+    - Becomes more flexible in their thinking.
+    - Fails to see a simpler solution because they are fixated on a familiar method.
+    - Relies too heavily on analogies.
+    CorrectOptionIndex: 2
+    LevelName: problem solving
+  - QuestionText: A student who successfully solves a problem and then checks their
+      answer for accuracy is in which stage of the problem-solving process?
+    Options:
+    - Problem Identification
+    - Strategy Formulation
+    - Solution Evaluation
+    - Incubation
+    CorrectOptionIndex: 2
+    LevelName: problem solving
+  - QuestionText: 'Critically analyzing problem-solving strategies, a major disadvantage
+      of algorithms is that they:'
+    Options:
+    - Do not guarantee a solution.
+    - Can be inefficient for complex, real-world problems.
+    - Rely too much on sudden insight.
+    - Prevent the use of heuristics.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'A teacher presents a problem and encourages students to generate
+      as many creative solutions as possible without judgment. This exercise is primarily
+      fostering:'
+    Options:
+    - Convergent Thinking
+    - Divergent Thinking
+    - Functional Fixedness
+    - Mental Set
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'A programmer is stuck on a complex bug. She stops working on it
+      for a day, and upon returning, she immediately sees the solution. This best
+      illustrates the value of:'
+    Options:
+    - Functional Fixedness
+    - Trial and Error
+    - Means-End Analysis
+    - The Incubation Period
+    CorrectOptionIndex: 3
+    LevelName: problem solving
+  - QuestionText: 'Comparing insight problem-solving to analytical problem-solving,
+      a key difference is that insight:'
+    Options:
+    - Involves a slow, step-by-step process.
+    - Is often preceded by an impasse and involves sudden restructuring of the problem.
+    - Always uses algorithms.
+    - Is less effective for complex problems.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'The "nine-dot problem," where participants must connect nine dots
+      with four straight lines without lifting the pen, is difficult primarily due
+      to:'
+    Options:
+    - A lack of intelligence in the participants.
+    - Functional fixedness regarding the use of the pen.
+    - Self-imposed constraints on the solution (assuming lines must stay within the
+      imaginary square).
+    - The use of an incorrect algorithm.
+    CorrectOptionIndex: 2
+    LevelName: problem solving
+  - QuestionText: 'In a business context, a manager who frames a budget shortfall
+      not as a "cost-cutting problem" but as an "innovation and growth opportunity"
+      is primarily:'
+    Options:
+    - Falling prey to functional fixedness.
+    - Restructuring the problem representation.
+    - Using an algorithm.
+    - Demonstrating a mental set.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'A key reason why experts in a field solve problems more efficiently
+      than novices is that experts:'
+    Options:
+    - Use trial and error more effectively.
+    - Have a richer base of domain-specific knowledge and organized schemas.
+    - Are less likely to experience insight.
+    - Avoid using heuristics altogether.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'The phenomenon where a person continues to invest time, money,
+      or effort into a failing course of action is known as the "escalation of commitment."
+      This is a type of barrier to effective problem-solving related to:'
+    Options:
+    - Functional Fixedness
+    - Mental Set
+    - Confirmation Bias
+    - Emotional and Social Factors
+    CorrectOptionIndex: 3
+    LevelName: problem solving
+  - QuestionText: 'A teacher who designs a lesson where students must use a ruler
+      to measure a desk, but the true task requires them to use the ruler as a lever
+      to retrieve a stuck object, is trying to help students overcome:'
+    Options:
+    - Mental Set
+    - Functional Fixedness
+    - Confirmation Bias
+    - The Availability Heuristic
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'Metacognition is crucial in problem-solving because it involves:'
+    Options:
+    - The initial burst of insight.
+    - The unconscious incubation of ideas.
+    - The application of a specific heuristic.
+    - Thinking about one's own thinking processes and regulating strategies.
+    CorrectOptionIndex: 3
+    LevelName: problem solving
+  - QuestionText: 'A doctor who misdiagnoses a rare disease because they are overly
+      influenced by recent, similar cases is falling prey to the:'
+    Options:
+    - Representativeness Heuristic
+    - Availability Heuristic
+    - Anchoring Heuristic
+    - Confirmation Bias
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'Design thinking, an approach used for solving complex, ill-defined
+      problems, is characterized by its emphasis on:'
+    Options:
+    - Strict adherence to a single, correct algorithm.
+    - Empathy with the user, ideation, and rapid prototyping.
+    - Avoiding any form of trial and error.
+    - Relying solely on the designer's expert opinion.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'A student consistently uses a complicated formula to solve math
+      problems, even when a much simpler one exists. This is a classic example of:'
+    Options:
+    - The Einstellung effect (a negative mental set).
+    - Effective use of analogical transfer.
+    - Divergent thinking.
+    - Successful problem representation.
+    CorrectOptionIndex: 0
+    LevelName: problem solving
+  - QuestionText: 'The "analogical paradox" in problem-solving refers to the finding
+      that:'
+    Options:
+    - People are good at using analogies but poor at recognizing them.
+    - People are good at recognizing analogies but poor at spontaneously using them
+      to solve problems.
+    - Analogies always lead to incorrect solutions.
+    - Only experts can use analogies effectively.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'In the context of organizational problem-solving, "groupthink"
+      is a major barrier because it:'
+    Options:
+    - Encourages too much divergent thinking.
+    - Promotes functional fixedness.
+    - Relies too heavily on algorithms.
+    - Suppresses dissent and critical evaluation in favor of group cohesion.
+    CorrectOptionIndex: 3
+    LevelName: problem solving
+  - QuestionText: 'A problem-solving strategy that is particularly useful when the
+      goal state is clearly defined, but the path to it is not, is:'
+    Options:
+    - Trial and Error
+    - Working Backwards
+    - Means-End Analysis
+    - Using an Analogy
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'Research on expertise suggests that a key difference between chess
+      masters and novices is that masters:'
+    Options:
+    - Consider more possible moves in their head.
+    - Have a better memory for random board positions.
+    - Recognize meaningful patterns and chunks of pieces from their vast experience.
+    - Use trial and error more efficiently.
+    CorrectOptionIndex: 2
+    LevelName: problem solving
+  - QuestionText: 'A teacher who asks, "How is this math problem similar to the one
+      we solved yesterday?" is explicitly prompting students to use:'
+    Options:
+    - Functional Fixedness
+    - Analogical Transfer
+    - Mental Set
+    - Divergent Thinking
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'The "confirmation bias" hinders problem-solving by leading individuals
+      to:'
+    Options:
+    - Seek out information that contradicts their hypothesis.
+    - Rely solely on algorithms.
+    - Generate an unlimited number of alternatives.
+    - Seek out information that confirms their existing beliefs or hypotheses.
+    CorrectOptionIndex: 3
+    LevelName: problem solving
+  - QuestionText: 'The most effective problem-solvers are typically those who:'
+    Options:
+    - Stick to one strategy until it works.
+    - Possess a flexible repertoire of strategies and can monitor their progress.
+    - Avoid heuristics at all costs.
+    - Work exclusively alone.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'In Gestalt psychology, the concept of "insight" involves a sudden:'
+    Options:
+    - Application of a learned algorithm.
+    - Restructuring of the problem's perceptual field.
+    - Use of the availability heuristic.
+    - Onset of functional fixedness.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'A major challenge in solving ill-defined problems is that:'
+    Options:
+    - The solution path is always obvious.
+    - They do not require incubation.
+    - They can only be solved using algorithms.
+    - The problem solver must often define the goal and constraints themselves.
+    CorrectOptionIndex: 3
+    LevelName: problem solving
+  - QuestionText: 'The "problem-solving cycle" is considered cyclical rather than
+      linear because:'
+    Options:
+    - People rarely solve problems correctly on the first try.
+    - Evaluation often leads back to redefining the problem or selecting a new strategy.
+    - Insight always occurs at the beginning.
+    - It is impossible to identify a problem correctly at the start.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'A software developer who creates a "prototype" or a minimal version
+      of a program to test an idea is using a strategy that helps to:'
+    Options:
+    - Commit to the first solution.
+    - Make an ill-defined problem more well-defined through action and feedback.
+    - Induce functional fixedness.
+    - Avoid the incubation period.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'The concept of "lateral thinking," coined by Edward de Bono, emphasizes:'
+    Options:
+    - A strict, logical, step-by-step approach.
+    - The use of complex algorithms.
+    - Deepening one's knowledge in a single domain.
+    - Looking at a problem from new and unusual perspectives.
+    CorrectOptionIndex: 3
+    LevelName: problem solving
+  - QuestionText: 'A key educational implication of problem-solving research is that
+      instruction should focus on:'
+    Options:
+    - Teaching a single, most efficient algorithm for each subject.
+    - Teaching metacognitive skills and a variety of problem-solving strategies.
+    - Ensuring students never experience an impasse.
+    - Eliminating the use of heuristics.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'The "overconfidence effect" can be a barrier to effective problem-solving
+      because it may lead a person to:'
+    Options:
+    - Seek diverse opinions and feedback.
+    - Persist with an incorrect solution for too long.
+    - Underestimate their abilities and give up easily.
+    - Rely too heavily on insight.
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: In a team setting, "brainstorming" is a technique designed to overcome
+      which common barrier?
+    Options:
+    - Functional Fixedness
+    - The incubation period
+    - The use of analogies
+    - Premature criticism and judgment of ideas
+    CorrectOptionIndex: 3
+    LevelName: problem solving
+  - QuestionText: 'The ability to overcome functional fixedness and mental set is
+      most closely associated with:'
+    Options:
+    - Crystallized Intelligence
+    - Creativity and Divergent Thinking
+    - High scores on standardized tests
+    - The use of trial and error
+    CorrectOptionIndex: 1
+    LevelName: problem solving
+  - QuestionText: 'The ultimate goal of teaching problem-solving skills in education
+      is to equip students to:'
+    Options:
+    - Memorize solutions to common problems.
+    - Become independent, adaptable learners who can tackle novel challenges.
+    - Perform well only on standardized tests.
+    - Avoid making any mistakes.
+    CorrectOptionIndex: 1
+    LevelName: problem solving

@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: intelligence test
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary purpose of an intelligence test?
+    Options:
+    - To measure learned knowledge in a specific subject
+    - To diagnose personality disorders
+    - To assess general cognitive abilities like reasoning, problem-solving, and
+      abstract thinking
+    - To determine a person's interests
+    CorrectOptionIndex: 2
+    LevelName: intelligence test
+  - QuestionText: 'The concept of "g" or general intelligence was first proposed
+      by:'
+    Options:
+    - Alfred Binet
+    - David Wechsler
+    - Charles Spearman
+    - Louis Thurstone
+    CorrectOptionIndex: 2
+    LevelName: intelligence test
+  - QuestionText: 'The first successful intelligence test was developed by Binet
+      and Simon to:'
+    Options:
+    - Select students for gifted programs
+    - Identify children in need of remedial education in Parisian schools
+    - Recruit soldiers for the army
+    - Assess adult job applicants
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The Intelligence Quotient (IQ) was originally calculated as:'
+    Options:
+    - (Mental Age / Chronological Age)
+    - (Mental Age / Chronological Age) x 100
+    - (Chronological Age / Mental Age) x 100
+    - A percentile rank
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'Modern IQ scores are based on:'
+    Options:
+    - The ratio of mental to chronological age
+    - A comparison of an individual's performance to a normative sample (deviation
+      IQ)
+    - The number of correct answers
+    - The speed of completion
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: Which of the following is a major individual intelligence test?
+    Options:
+    - The SAT
+    - The Wechsler Adult Intelligence Scale (WAIS)
+    - The Armed Forces Qualification Test
+    - The GRE
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The Wechsler scales provide separate scores for:'
+    Options:
+    - g-factor and s-factor
+    - Verbal Comprehension and Perceptual Reasoning
+    - Crystallized and Fluid Intelligence
+    - Achievement and Aptitude
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The Stanford-Binet Intelligence Scales are a direct descendent
+      of the work of:'
+    Options:
+    - David Wechsler
+    - Alfred Binet
+    - Charles Spearman
+    - Robert Sternberg
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'A good intelligence test must be:'
+    Options:
+    - Long and complicated
+    - Reliable and Valid
+    - Easy to score subjectively
+    - Based on a single theory
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The concept that intelligence consists of multiple relatively
+      independent abilities is associated with:'
+    Options:
+    - Charles Spearman
+    - L.L. Thurstone
+    - Alfred Binet
+    - John Carroll
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'Howard Gardner''s theory of Multiple Intelligences proposes that:'
+    Options:
+    - IQ is a single entity
+    - There are several distinct types of intelligences (e.g., musical, bodily-kinesthetic,
+      interpersonal)
+    - Emotional intelligence is the most important
+    - Intelligence is fixed at birth
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'Robert Sternberg''s Triarchic Theory of Intelligence includes:'
+    Options:
+    - g and s factors
+    - Analytical, Creative, and Practical Intelligence
+    - Seven primary mental abilities
+    - Emotional and Social Intelligence
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The distinction between "fluid intelligence" (Gf) and "crystallized
+      intelligence" (Gc) was made by:'
+    Options:
+    - David Wechsler
+    - Raymond Cattell
+    - John Mayer
+    - Peter Salovey
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'Fluid intelligence is best described as the ability to:'
+    Options:
+    - Recall facts and information
+    - Solve novel problems, perceive relationships, and think logically
+    - Understand social situations
+    - Use learned skills and knowledge
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'Crystallized intelligence is best described as the ability to:'
+    Options:
+    - Think quickly
+    - Use skills, knowledge, and experience that have been accumulated over time
+    - Perceive visual patterns
+    - Control one's emotions
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: How does a "deviation IQ" score interpret an individual's performance?
+    Options:
+    - It compares mental age to chronological age.
+    - It compares the individual's score to the average performance of others in
+      the same age group.
+    - It measures the speed of processing.
+    - It counts the number of correct answers.
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: Why is the standardization of an intelligence test critical?
+    Options:
+    - To make it more expensive
+    - To ensure that all test-takers are assessed under the same conditions, allowing
+      for fair comparisons.
+    - To make it longer
+    - To hide the purpose of the test
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: What is a major criticism of early intelligence tests?
+    Options:
+    - They were too short.
+    - They were culturally biased, favoring individuals from the mainstream culture
+      in which they were developed.
+    - They measured too many abilities.
+    - They were only for children.
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'A "culture-fair" test attempts to:'
+    Options:
+    - Only be administered in one culture
+    - Minimize the influence of verbal language and specific cultural knowledge
+    - Be written in multiple languages
+    - Test only non-verbal skills
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The term "mental retardation" (now Intellectual Disability) is
+      typically associated with an IQ score below approximately:'
+    Options:
+    - 85
+    - 70
+    - 100
+    - 115
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'A person with an IQ score of 130 would be classified as:'
+    Options:
+    - Intellectually Disabled
+    - Average
+    - Gifted or Very Superior
+    - Superior
+    CorrectOptionIndex: 2
+    LevelName: intelligence test
+  - QuestionText: 'The Flynn Effect refers to the observation that:'
+    Options:
+    - IQ scores are fixed.
+    - Raw scores on IQ tests have been rising steadily over the past century.
+    - Intelligence is hereditary.
+    - IQ tests are becoming harder.
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: "Assertion (A):\_Intelligence is a product of both genetics and
+      environment.\_Reason (R):\_Heritability estimates show a strong genetic component,
+      but factors like education and nutrition also play a crucial role."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: intelligence test
+  - QuestionText: 'The concept of "emotional intelligence" involves the ability to:'
+    Options:
+    - Score high on math tests
+    - Perceive, understand, manage, and use emotions effectively
+    - Memorize large amounts of data
+    - Think in logical sequences
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'A group intelligence test is best suited for:'
+    Options:
+    - Detailed clinical diagnosis
+    - Large-scale screening in schools or the military
+    - Individual counseling
+    - Assessing infants
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'An "aptitude test" differs from an "achievement test" in that
+      an aptitude test aims to predict:'
+    Options:
+    - Future performance or learning potential in a specific area
+    - Past learning in a school subject
+    - Current level of knowledge
+    - Personality traits
+    CorrectOptionIndex: 0
+    LevelName: intelligence test
+  - QuestionText: 'The "standard error of measurement" is important because it:'
+    Options:
+    - Makes the test more valid
+    - Indicates that an obtained score is an estimate and provides a range within
+      which the true score likely falls
+    - Gives the final IQ score
+    - Measures test difficulty
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'A psychologist observes a child''s play to assess their problem-solving
+      skills. This is a form of:'
+    Options:
+    - Standardized Testing
+    - Behavioral Assessment
+    - Self-Report
+    - Projective Testing
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The "normal curve" is used in IQ testing because:'
+    Options:
+    - It is easy to draw.
+    - The distribution of intelligence in the population follows a normal (bell-shaped)
+      curve.
+    - All traits are normally distributed.
+    - It makes scores look better.
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'If a test has high "predictive validity," it means it:'
+    Options:
+    - Looks like it measures intelligence.
+    - Accurately forecasts future performance (e.g., in school or job training).
+    - Measures all aspects of intelligence.
+    - Is internally consistent.
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'A teacher uses an intelligence test to identify students for a
+      gifted and talented program. This is an example of:'
+    Options:
+    - Diagnosis
+    - Selection and Placement
+    - Research
+    - Therapy
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'A major ethical concern in using intelligence tests is:'
+    Options:
+    - Their length
+    - The potential for mislabeling and the self-fulfilling prophecy (stereotype
+      threat)
+    - Their cost
+    - The colors used in the test booklets
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The term "stereotype threat" refers to:'
+    Options:
+    - A threat to test security
+    - A situational predicament where individuals are at risk of confirming negative
+      stereotypes about their group, which can undermine test performance
+    - A type of test question
+    - A way to boost IQ scores
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: Who proposed the concept of the "Zone of Proximal Development"
+      (ZPD), which critiques static IQ testing?
+    Options:
+    - Jean Piaget
+    - Lev Vygotsky
+    - Howard Gardner
+    - Robert Sternberg
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The "g-factor" of intelligence is most evident in tasks that require:'
+    Options:
+    - Rote memorization
+    - Complex cognitive processing, reasoning, and problem-solving
+    - Physical coordination
+    - Simple reaction time
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'A 10-year-old child with a mental age of 12 would have a ratio
+      IQ of:'
+    Options:
+    - 83
+    - 120
+    - 100
+    - 110
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The WISC (Wechsler Intelligence Scale for Children) is designed
+      for ages:'
+    Options:
+    - 2-7 years
+    - 6-16 years
+    - 16 and above
+    - Adults only
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'A key advantage of an individually administered intelligence test
+      is that the examiner can:'
+    Options:
+    - Test large groups quickly
+    - Observe the test-taker's problem-solving strategies and level of engagement
+    - Avoid establishing rapport
+    - Use a computer for all scoring
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The "ceiling effect" in a test occurs when:'
+    Options:
+    - The test is too easy for everyone.
+    - The test is too easy for high-ability individuals, so their true ability is
+      not measured.
+    - The test is too hard for everyone.
+    - The test room's ceiling is too low.
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'According to the Cattell-Horn-Carroll (CHC) theory, intelligence
+      is:'
+    Options:
+    - A single factor
+    - A hierarchy with a general ability (g) at the top and broad & narrow abilities
+      below
+    - Only seven primary abilities
+    - Only practical and creative
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: '"Concurrent validity" for an intelligence test is established
+      by:'
+    Options:
+    - Predicting future grades
+    - Correlating its scores with scores from another established test given at the
+      same time
+    - Analyzing the test items
+    - Testing a large sample
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'A "performance scale" on an intelligence test primarily measures:'
+    Options:
+    - Verbal knowledge
+    - Non-verbal, fluid reasoning and visual-motor skills
+    - Crystallized intelligence
+    - Memory span
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The concept that intelligence tests measure a narrow "academic
+      intelligence" is a criticism leveled by proponents of:'
+    Options:
+    - The g-factor theory
+    - Multiple Intelligences and Triarchic Theories
+    - The Stanford-Binet
+    - The deviation IQ
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'For an intelligence test to be used fairly in a diverse society,
+      it is essential that it has demonstrated:'
+    Options:
+    - Lack of bias and fair predictive validity across different groups
+    - A very high price
+    - A single form
+    - Only verbal items
+    CorrectOptionIndex: 0
+    LevelName: intelligence test
+  - QuestionText: 'The "digit span" subtest on the Wechsler scales is a measure of:'
+    Options:
+    - Vocabulary
+    - Working Memory
+    - Processing Speed
+    - Perceptual Reasoning
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'A heritability estimate of 0.60 for intelligence means that:'
+    Options:
+    - 60% of an individual's intelligence is genetic.
+    - 60% of the variation in intelligence scores within a population can be attributed
+      to genetic variation.
+    - Intelligence is 60% environmental.
+    - The test is 60% reliable.
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The "Flynn Effect" poses a challenge to the idea that intelligence
+      is:'
+    Options:
+    - Purely genetic and fixed
+    - Influenced by environment
+    - Measurable
+    - A single factor
+    CorrectOptionIndex: 0
+    LevelName: intelligence test
+  - QuestionText: 'When interpreting an IQ score, a school psychologist should consider
+      the:'
+    Options:
+    - Score in isolation
+    - Score in the context of the child's background, motivation, and other test
+      behaviors
+    - Opinions of the parents only
+    - Cost of the test
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The "knowledge" component of Sternberg''s Triarchic Theory is
+      most closely related to:'
+    Options:
+    - Fluid Intelligence
+    - Crystallized Intelligence
+    - Creative Intelligence
+    - Practical Intelligence
+    CorrectOptionIndex: 1
+    LevelName: intelligence test
+  - QuestionText: 'The most responsible use of an intelligence test in an educational
+      setting is to:'
+    Options:
+    - Label and track students permanently.
+    - Gain insights to help plan appropriate educational instruction and support.
+    - Rank students against each other.
+    - Replace teacher assessment.
+    CorrectOptionIndex: 1
+    LevelName: intelligence test

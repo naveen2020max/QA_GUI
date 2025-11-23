@@ -1,0 +1,448 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: research report steps
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary purpose of a research report?
+    Options:
+    - To list all the data collected
+    - To present the research process and findings in a structured, logical format
+    - To criticize other studies
+    - To secure funding for the next project
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: Which of the following is typically the FIRST step in writing a
+      research report?
+    Options:
+    - Writing the abstract
+    - Preparing the final bibliography
+    - Organizing the raw data and creating an outline
+    - Printing and binding
+    CorrectOptionIndex: 2
+    LevelName: research report steps
+  - QuestionText: 'The "Preliminary Pages" of a report usually include all of the
+      following EXCEPT:'
+    Options:
+    - Title Page
+    - Table of Contents
+    - List of Tables and Figures
+    - Detailed data analysis
+    CorrectOptionIndex: 3
+    LevelName: research report steps
+  - QuestionText: 'The section that provides a brief, comprehensive summary of the
+      entire research study is the:'
+    Options:
+    - Introduction
+    - Abstract
+    - Conclusion
+    - Recommendation
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: 'The main function of the "Introduction" chapter is to:'
+    Options:
+    - Present statistical analyses
+    - Provide a personal opinion
+    - List all references
+    - Introduce the research problem, its background, and significance
+    CorrectOptionIndex: 3
+    LevelName: research report steps
+  - QuestionText: 'The "Review of Literature" in a report serves to:'
+    Options:
+    - Prove the researcher is well-read
+    - Situate the current study within existing knowledge and show how it contributes
+    - Copy passages from other books
+    - Fill space between chapters
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: 'The "Methodology" section should be written with enough detail
+      to:'
+    Options:
+    - Impress the reader with technical jargon
+    - Hide the weaknesses of the study
+    - Make the report longer
+    - Allow another researcher to replicate the study
+    CorrectOptionIndex: 3
+    LevelName: research report steps
+  - QuestionText: 'The core findings of the research, presented without interpretation,
+      are found in the:'
+    Options:
+    - Introduction
+    - Results section
+    - Discussion
+    - Conclusion
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: 'The section where the researcher interprets the results, discusses
+      their implications, and relates them to the literature is the:'
+    Options:
+    - Methodology
+    - Results
+    - Discussion
+    - Bibliography
+    CorrectOptionIndex: 2
+    LevelName: research report steps
+  - QuestionText: 'The "Conclusion" section should:'
+    Options:
+    - Introduce new data
+    - Summarize the main findings and state the final outcome of the research
+    - Repeat the abstract word for word
+    - List all the raw data
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: '"Recommendations" in a research report are typically based on:'
+    Options:
+    - The researcher's personal beliefs
+    - Future funding opportunities
+    - What is popular
+    - The findings and conclusions of the study
+    CorrectOptionIndex: 3
+    LevelName: research report steps
+  - QuestionText: 'The list of all sources cited in the report is called the:'
+    Options:
+    - Appendix
+    - Bibliography or References
+    - Index
+    - Glossary
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: 'Supplementary material, such as raw data or complex tables, is
+      usually placed in the:'
+    Options:
+    - Introduction
+    - Conclusion
+    - Abstract
+    - Appendix
+    CorrectOptionIndex: 3
+    LevelName: research report steps
+  - QuestionText: Which of the following is a key characteristic of a good research
+      report?
+    Options:
+    - Subjectivity and bias
+    - Clarity, accuracy, and conciseness
+    - Vague language
+    - Complex sentences
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: 'The process of checking the draft for errors in grammar, spelling,
+      and formatting is known as:'
+    Options:
+    - Data analysis
+    - Piloting
+    - Proofreading
+    - Sampling
+    CorrectOptionIndex: 2
+    LevelName: research report steps
+  - QuestionText: Why is creating an outline a crucial step before writing the report?
+    Options:
+    - To delay the writing process
+    - To ensure the report is logically organized and all key points are covered
+    - To determine the sample size
+    - To analyze the data
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: How does the "Results" section differ from the "Discussion" section?
+    Options:
+    - They are the same.
+    - Discussion presents data; Results interpret it.
+    - Results present the data; Discussion interprets the meaning of the data.
+    - Results are subjective; Discussion is objective.
+    CorrectOptionIndex: 2
+    LevelName: research report steps
+  - QuestionText: What is the purpose of using headings and sub-headings in a report?
+    Options:
+    - To increase the page count
+    - To improve readability and organization, guiding the reader through the content
+    - To meet formatting requirements only
+    - To make the report look technical
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: Why must the "Methodology" section be written in the past tense?
+    Options:
+    - It is a rule with no reason.
+    - To make it sound more formal.
+    - To confuse the reader.
+    - Because it describes procedures that have already been completed.
+    CorrectOptionIndex: 3
+    LevelName: research report steps
+  - QuestionText: "In which section would a researcher explain\_why\_a particular
+      sampling technique was chosen?"
+    Options:
+    - Abstract
+    - Methodology
+    - Results
+    - Appendix
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: 'A researcher includes a table showing the correlation coefficients
+      between variables. This table belongs in the:'
+    Options:
+    - Introduction
+    - Literature Review
+    - Results section
+    - Recommendation
+    CorrectOptionIndex: 2
+    LevelName: research report steps
+  - QuestionText: 'The statement, "The findings suggest that the new teaching method
+      significantly improves performance, which aligns with the theory proposed by
+      Smith (2020)," belongs in the:'
+    Options:
+    - Methodology
+    - Results
+    - Bibliography
+    - Discussion
+    CorrectOptionIndex: 3
+    LevelName: research report steps
+  - QuestionText: What is the primary goal of the "Abstract"?
+    Options:
+    - To provide a detailed critique
+    - To offer a brief, accurate summary of the report's key aspects
+    - To list all limitations
+    - To acknowledge funders
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: How should references be handled in a research report?
+    Options:
+    - They can be copied without citation.
+    - Only major theories need to be cited.
+    - Every source must be properly cited to avoid plagiarism and give credit.
+    - Citations are optional.
+    CorrectOptionIndex: 2
+    LevelName: research report steps
+  - QuestionText: 'The "Limitations" section is typically included to:'
+    Options:
+    - Make the study seem weak
+    - Acknowledge the study's weaknesses, which enhances its credibility and contextualizes
+      the findings.
+    - Blame others for problems
+    - Satisfy a formatting rule
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: "Assertion (A):\_The title of a research report should be concise
+      and descriptive.\_Reason (R):\_It helps potential readers quickly identify
+      the content and relevance of the study."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: research report steps
+  - QuestionText: 'A report states: "A quasi-experimental design was employed, with
+      a pre-test and post-test for both control and experimental groups." This sentence
+      belongs in the:'
+    Options:
+    - Introduction
+    - Methodology (Research Design)
+    - Results
+    - Abstract
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: Contrast the "Conclusion" with the "Abstract."
+    Options:
+    - The Conclusion is longer than the Abstract.
+    - The Abstract comes at the end.
+    - They are identical.
+    - The Abstract is a preview; the Conclusion is a summary of the completed journey
+      and its endpoint.
+    CorrectOptionIndex: 3
+    LevelName: research report steps
+  - QuestionText: 'If a researcher suggests "future studies should use a longitudinal
+      design," this recommendation is based on:'
+    Options:
+    - A personal hunch
+    - The limitations of the current study (e.g., its cross-sectional nature)
+    - The need to make the report longer
+    - The first author's preference
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: 'The step of "Interpreting the Findings" primarily involves:'
+    Options:
+    - Listing raw scores
+    - Writing the acknowledgements
+    - Describing the sample
+    - Explaining what the results mean, linking them to the research questions and
+      theory.
+    CorrectOptionIndex: 3
+    LevelName: research report steps
+  - QuestionText: Which of the following is the STRONGEST way to present a finding
+      in the Results section?
+    Options:
+    - '"It seems like the new method worked pretty well."'
+    - '"The data appears to show a trend towards significance."'
+    - '"The experimental group (M=85, SD=5) scored significantly higher than the
+      control group (M=70, SD=8), t(58)=4.52, p<.05."'
+    - '"Everyone did better with the new method."'
+    CorrectOptionIndex: 2
+    LevelName: research report steps
+  - QuestionText: 'A flaw in a research report is indicated by:'
+    Options:
+    - A clear and logical structure
+    - The discussion introducing new results not presented earlier.
+    - Consistency between the title, abstract, and conclusions
+    - Proper citation of sources
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: 'The "Acknowledgements" section is used to:'
+    Options:
+    - Thank individuals or institutions that provided help or funding.
+    - List the research questions.
+    - Present additional data.
+    - Criticize the peer reviewers.
+    CorrectOptionIndex: 0
+    LevelName: research report steps
+  - QuestionText: 'The term "Plagiarism" in report writing refers to:'
+    Options:
+    - Using too many references
+    - Using others' ideas or words without giving proper credit.
+    - Writing a long report
+    - Collaborating with others
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: 'Before finalizing the report, it is often beneficial to:'
+    Options:
+    - Send it to a journal immediately
+    - Delete the methodology section
+    - Have colleagues or mentors review it for feedback.
+    - Change all the results
+    CorrectOptionIndex: 2
+    LevelName: research report steps
+  - QuestionText: 'The IMRaD structure for a research report stands for:'
+    Options:
+    - Introduction, Methods, Results, and Discussion
+    - Ideas, Methodology, Review, and Data
+    - Index, Main body, References, and Appendix
+    - Inquiry, Model, Reporting, and Design
+    CorrectOptionIndex: 0
+    LevelName: research report steps
+  - QuestionText: In which section should a researcher place the detailed, verbatim
+      transcripts of interviews?
+    Options:
+    - Results
+    - Discussion
+    - Appendix
+    - Abstract
+    CorrectOptionIndex: 2
+    LevelName: research report steps
+  - QuestionText: 'The process of ensuring that the report flows logically from one
+      section to the next is called:'
+    Options:
+    - Data analysis
+    - Creating coherence
+    - Piloting
+    - Randomization
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: 'A "List of Tables and Figures" is included to:'
+    Options:
+    - Increase printing costs
+    - Show the researcher's drawing skills
+    - Replace the table of contents
+    - Help readers quickly locate specific visual aids within the report.
+    CorrectOptionIndex: 3
+    LevelName: research report steps
+  - QuestionText: When writing the report, the tense should generally shift from
+      past to present in which section?
+    Options:
+    - Methodology
+    - Results
+    - Introduction and Discussion
+    - Appendix
+    CorrectOptionIndex: 2
+    LevelName: research report steps
+  - QuestionText: 'The purpose of the "Recommendations" section is to suggest:'
+    Options:
+    - Changes to past events
+    - Practical actions or future research directions based on the study's conclusions.
+    - What the title should be
+    - New research questions for others
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: 'A key difference between a research proposal and a research report
+      is that the report:'
+    Options:
+    - Describes intended methods
+    - Predicts outcomes
+    - Argues for feasibility
+    - Contains the actual results and analysis of the collected data.
+    CorrectOptionIndex: 3
+    LevelName: research report steps
+  - QuestionText: 'Visual representations like graphs and charts are most effectively
+      used in the:'
+    Options:
+    - Introduction
+    - Literature Review
+    - Results section
+    - Bibliography
+    CorrectOptionIndex: 2
+    LevelName: research report steps
+  - QuestionText: 'The final step in the report writing process is typically:'
+    Options:
+    - Data Collection
+    - Proofreading and preparing the final draft for submission.
+    - Formulating the hypothesis
+    - Selecting the sample
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: 'The "Summary" is sometimes used interchangeably with "Abstract,"
+      but a summary is more commonly a part of the:'
+    Options:
+    - Methodology
+    - Appendix
+    - Title page
+    - Conclusion chapter
+    CorrectOptionIndex: 3
+    LevelName: research report steps
+  - QuestionText: 'Citing a source in the text and then providing full details in
+      the reference list is an example of:'
+    Options:
+    - Plagiarism
+    - Acknowledging sources and maintaining academic integrity.
+    - Data fabrication
+    - Redundant work
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: 'If a researcher uses a standardized test, the "Methodology" section
+      should:'
+    Options:
+    - Just report the scores.
+    - Hide the name of the test.
+    - Name the test and describe its reliability and validity.
+    - Criticize the test.
+    CorrectOptionIndex: 2
+    LevelName: research report steps
+  - QuestionText: 'The term "Executive Summary" is often used in reports for:'
+    Options:
+    - Academic journals
+    - Policy makers or business audiences, providing a concise overview of the problem,
+      findings, and recommendations.
+    - The appendix
+    - Only the results
+    CorrectOptionIndex: 1
+    LevelName: research report steps
+  - QuestionText: 'A well-written research report ensures that:'
+    Options:
+    - All data is presented, even if irrelevant.
+    - The introduction is the longest part.
+    - The discussion is based on opinions.
+    - There is a clear and direct link between the research questions, the results,
+      and the conclusions.
+    CorrectOptionIndex: 3
+    LevelName: research report steps
+  - QuestionText: 'The most important characteristic of a research report is its:'
+    Options:
+    - Length
+    - "Accuracy and honesty\_in presenting the research process and findings."
+    - Use of colorful graphs
+    - Complex vocabulary
+    CorrectOptionIndex: 1
+    LevelName: research report steps

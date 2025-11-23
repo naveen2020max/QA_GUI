@@ -1,0 +1,454 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: in-service TE
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary target group for in-service teacher education?
+    Options:
+    - Aspiring teachers before they start their career
+    - Working teachers already in the profession
+    - School principals and administrators only
+    - Parents and community members
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'The concept of in-service teacher education is best described
+      as a:'
+    Options:
+    - One-time induction program
+    - Voluntary activity with no clear goals
+    - Replacement for pre-service education
+    - Continuous and lifelong process
+    CorrectOptionIndex: 3
+    LevelName: in-service TE
+  - QuestionText: Which of the following is a key reason for the need for in-service
+      teacher education?
+    Options:
+    - To eliminate the need for pre-service training
+    - To keep teachers updated with rapid changes in knowledge and pedagogy
+    - To reduce the number of working days for teachers
+    - To standardize teacher salaries
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'The main purpose of in-service teacher education is to:'
+    Options:
+    - Criticize teachers for their shortcomings
+    - Replace experienced teachers with new ones
+    - Provide teachers with a vacation from their routine
+    - Improve the quality of classroom instruction and student learning
+    CorrectOptionIndex: 3
+    LevelName: in-service TE
+  - QuestionText: Which of the following falls within the scope of in-service teacher
+      education?
+    Options:
+    - Awarding initial teaching degrees
+    - Training in the use of new educational technology
+    - Recruiting new teachers
+    - Designing school buildings
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'The term "INSET" is an acronym for:'
+    Options:
+    - International Service for Education and Training
+    - Integrated System for Educational Technology
+    - Initial Service and Educational Theory
+    - In-Service Teacher Education
+    CorrectOptionIndex: 3
+    LevelName: in-service TE
+  - QuestionText: 'A workshop on implementing the National Education Policy (NEP)
+      2020 in classrooms is an example of:'
+    Options:
+    - Pre-service education
+    - In-service education
+    - Student counseling
+    - Parent-teacher association work
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: Which factor has LEAST contributed to the growing need for in-service
+      teacher education?
+    Options:
+    - Static and unchanging nature of knowledge
+    - Development of new pedagogical theories
+    - Increasing diversity in student populations
+    - Advancements in information technology
+    CorrectOptionIndex: 0
+    LevelName: in-service TE
+  - QuestionText: 'The purpose of in-service education that focuses on training teachers
+      to handle children with special needs is to promote:'
+    Options:
+    - Competitive learning
+    - Inclusive education
+    - Streamlining the curriculum
+    - Standardized testing
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: Which of the following is a key characteristic of effective in-service
+      teacher education?
+    Options:
+    - It is disconnected from teachers' classroom realities.
+    - It is a one-way lecture from an expert.
+    - It is relevant and directly applicable to teachers' work.
+    - It is mandatory and punitive in nature.
+    CorrectOptionIndex: 2
+    LevelName: in-service TE
+  - QuestionText: 'A teacher attending a course on "Flipped Classroom Models" is
+      engaging in in-service education to:'
+    Options:
+    - Fulfill a mandatory requirement for promotion
+    - Update their pedagogical skills with a new teaching strategy
+    - Replace their basic teaching qualification
+    - Avoid classroom teaching for a few days
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: The scope of in-service education includes training in which of
+      the following?
+    Options:
+    - Only subject content knowledge
+    - Only co-curricular activities
+    - Only administrative duties
+    - All aspects of a teacher's professional role, including pedagogy, assessment,
+      and counseling
+    CorrectOptionIndex: 3
+    LevelName: in-service TE
+  - QuestionText: 'The philosophy underlying in-service teacher education is that
+      teacher learning should be:'
+    Options:
+    - Confined to the pre-service phase
+    - A lifelong endeavor
+    - The sole responsibility of the teacher
+    - Focused only on theoretical knowledge
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: Which of the following is a major challenge in implementing effective
+      in-service teacher education programs in India?
+    Options:
+    - Lack of any need for teacher development
+    - Absence of a national curriculum framework
+    - Over-qualification of all teachers
+    - Inadequate funding and logistical support
+    CorrectOptionIndex: 3
+    LevelName: in-service TE
+  - QuestionText: 'The "NISHTHA" program launched by the Government of India is a
+      prime example of a:'
+    Options:
+    - Pre-service teacher training program
+    - Large-scale in-service teacher training initiative
+    - Student scholarship scheme
+    - School infrastructure development plan
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'A key difference between pre-service and in-service teacher education
+      is that in-service education is:'
+    Options:
+    - More theoretical
+    - Focused on initial qualification
+    - Job-embedded and continuous
+    - Only for elementary teachers
+    CorrectOptionIndex: 2
+    LevelName: in-service TE
+  - QuestionText: 'The purpose of conducting in-service programs on "Continuous and
+      Comprehensive Evaluation (CCE)" is to:'
+    Options:
+    - Promote rote learning and memorization
+    - Train teachers in diverse and continuous assessment methods
+    - Eliminate all forms of student assessment
+    - Focus only on year-end examinations
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: Which of the following is within the scope of in-service education
+      for professional development?
+    Options:
+    - Learning action research methodologies
+    - Taking attendance
+    - Supervising school meals
+    - Managing school finances
+    CorrectOptionIndex: 0
+    LevelName: in-service TE
+  - QuestionText: 'The need for in-service education arises partly from the fact
+      that pre-service education:'
+    Options:
+    - Is always perfect and requires no follow-up
+    - Cannot prepare teachers for all the challenges of a dynamic classroom
+    - Is not a recognized form of education
+    - Is more important than experience
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'A seminar on "Integrating Mental Health Awareness in Teaching"
+      serves the purpose of:'
+    Options:
+    - Increasing teacher workload unnecessarily
+    - Enhancing the teacher's ability to support holistic student development
+    - Replacing the school counselor's role
+    - Focusing only on academic outcomes
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'The scope of in-service education extends to helping teachers
+      understand and address:'
+    Options:
+    - Only the academic needs of high-achieving students
+    - Administrative paperwork
+    - Only the syllabus prescribed in the textbook
+    - The learning needs of a diverse student population, including marginalized
+      groups
+    CorrectOptionIndex: 3
+    LevelName: in-service TE
+  - QuestionText: 'A teacher participating in an online certification course on "Blended
+      Learning" during their service is engaging in:'
+    Options:
+    - A pre-service qualification
+    - A form of in-service professional development
+    - An unrelated hobby
+    - A mandatory government test
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'The fundamental concept of in-service teacher education aligns
+      with the principle of:'
+    Options:
+    - Fixed ability
+    - Lifelong learning
+    - Static knowledge
+    - One-time training
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: Which of the following is a primary need for in-service education
+      in the 21st century?
+    Options:
+    - To reduce the use of technology in classrooms
+    - To isolate teachers from global educational trends
+    - To encourage traditional chalk-and-talk methods only
+    - To prepare teachers for the integration of ICT in education
+    CorrectOptionIndex: 3
+    LevelName: in-service TE
+  - QuestionText: 'The "District Institute of Education and Training (DIET)" in India
+      plays a significant role in:'
+    Options:
+    - Pre-service teacher education only
+    - Providing in-service training to elementary school teachers
+    - Higher education research
+    - International student exchange
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'A key purpose of in-service education is to foster a teacher''s
+      identity as a:'
+    Options:
+    - Passive implementer of directives
+    - Reflective practitioner and change agent
+    - Isolated worker
+    - Bureaucratic official
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'The scope of in-service education regarding curriculum includes:'
+    Options:
+    - Blindly implementing the curriculum without question
+    - Creating a personal curriculum unrelated to national goals
+    - Ignoring national curriculum frameworks
+    - Understanding, interpreting, and effectively transacting the curriculum
+    CorrectOptionIndex: 3
+    LevelName: in-service TE
+  - QuestionText: 'A teacher who attends a program to learn how to use a new software
+      for creating interactive quizzes is addressing the need to:'
+    Options:
+    - Increase paperwork
+    - Improve technological pedagogical skills
+    - Replace human teachers with software
+    - Avoid direct interaction with students
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'The concept of "continuous professional development" (CPD) is
+      synonymous with the modern view of:'
+    Options:
+    - Pre-service teacher education
+    - School administration
+    - Student assessment
+    - In-service teacher education
+    CorrectOptionIndex: 3
+    LevelName: in-service TE
+  - QuestionText: 'A major purpose of in-service education is to orient teachers
+      to:'
+    Options:
+    - Their personal financial investments
+    - New educational policies and national missions
+    - The political affiliations of students
+    - The architectural design of schools
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'The scope of in-service education for a science teacher could
+      include a workshop on:'
+    Options:
+    - New discoveries and experiments in their field
+    - The history of art
+    - Advanced literary criticism
+    - Musical notation
+    CorrectOptionIndex: 0
+    LevelName: in-service TE
+  - QuestionText: 'The need for in-service education is most critically driven by
+      the goal of:'
+    Options:
+    - Maintaining the status quo in education
+    - Improving educational quality and student achievement
+    - Reducing the number of teachers
+    - Standardizing teacher attire
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'A program designed to train teachers in conflict resolution and
+      peer mediation techniques falls under the scope of:'
+    Options:
+    - Student discipline only
+    - Enhancing teachers' professional competencies in classroom management and social
+      skills
+    - Legal training for teachers
+    - Extracurricular activity management
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'The fundamental concept of in-service teacher education rejects
+      the idea that:'
+    Options:
+    - Learning is lifelong
+    - Teacher training ends with pre-service education
+    - Collaboration is useful
+    - Practice can be improved
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: Which of the following is a key indicator of a successful in-service
+      teacher education program?
+    Options:
+    - Teachers feel entertained.
+    - The program lasted for a very long time.
+    - The program was delivered by a famous speaker.
+    - Teachers can directly apply what they learned to improve their classroom practice.
+    CorrectOptionIndex: 3
+    LevelName: in-service TE
+  - QuestionText: 'The purpose of in-service education that focuses on "action research"
+      is to enable teachers to:'
+    Options:
+    - Become theoretical researchers in universities
+    - Systematically study and solve problems in their own classrooms
+    - Avoid teaching responsibilities
+    - Criticize educational policies
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'The scope of in-service education is influenced by:'
+    Options:
+    - Only the teacher's personal interests
+    - The uniform design of the school
+    - The weather conditions of the region
+    - The changing needs of the society, students, and the education system
+    CorrectOptionIndex: 3
+    LevelName: in-service TE
+  - QuestionText: 'A teacher participating in a peer observation and feedback program
+      is engaging in a form of:'
+    Options:
+    - Summative evaluation for promotion
+    - Collaborative in-service professional development
+    - Pre-service training
+    - Disciplinary action
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'The need for in-service education becomes more critical in an
+      era of:'
+    Options:
+    - Educational stagnation
+    - Globalization and rapid change
+    - Fixed and unchanging job roles
+    - De-professionalization of teaching
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'A core purpose of in-service education is to combat:'
+    Options:
+    - Teacher enthusiasm
+    - Parental involvement
+    - Student attendance
+    - Professional obsolescence
+    CorrectOptionIndex: 3
+    LevelName: in-service TE
+  - QuestionText: 'Training on "Differentiated Instruction" falls within the scope
+      of in-service education aimed at:'
+    Options:
+    - Teaching all students in the same way
+    - Catering to individual learning differences in a mixed-ability classroom
+    - Streamlining the assessment process
+    - Reducing teacher planning time
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: The concept of in-service teacher education is best supported by
+      which ancient Indian saying?
+    Options:
+    - '"Vasudhaiva Kutumbakam"'
+    - '"Satyameva Jayate"'
+    - '"Aa no bhadraha kratavo yantu vishwataha" (Let noble thoughts come from all
+      directions)'
+    - '"Sarvam Khalvidam Brahma"'
+    CorrectOptionIndex: 2
+    LevelName: in-service TE
+  - QuestionText: 'A key need for in-service education identified by the NEP 2020
+      is to:'
+    Options:
+    - Reduce the number of teachers
+    - Prepare teachers for a 5+3+3+4 curricular structure
+    - Eliminate all teacher training
+    - Focus only on STEM education
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'The purpose of a "refresher course" in in-service education is
+      to:'
+    Options:
+    - Refresh teachers by giving them a break
+    - Update and renew knowledge in a specific subject area
+    - Replace old teachers with new ones
+    - Criticize outdated teaching methods
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'The scope of in-service education for school leadership includes
+      training for the role of:'
+    Options:
+    - Only a classroom teacher
+    - Only a parent
+    - Only a student
+    - A mentor teacher or head of department
+    CorrectOptionIndex: 3
+    LevelName: in-service TE
+  - QuestionText: 'The concept of in-service education implies that professional
+      competence is:'
+    Options:
+    - Static and fixed at the start of a career
+    - Dynamic and needs continuous nurturing
+    - Irrelevant to student learning
+    - Solely dependent on personal talent
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'A workshop on "Creating a Positive Learning Environment" addresses
+      the need to:'
+    Options:
+    - Focus only on academic content
+    - Improve the psychological and emotional climate of the classroom
+    - Decorate the classroom walls
+    - Strictly control student behavior
+    CorrectOptionIndex: 1
+    LevelName: in-service TE
+  - QuestionText: 'The ultimate purpose of all in-service teacher education is to
+      enhance:'
+    Options:
+    - Teacher salaries
+    - The complexity of the curriculum
+    - The reputation of the school
+    - Student learning experiences and outcomes
+    CorrectOptionIndex: 3
+    LevelName: in-service TE
+  - QuestionText: 'The scope of in-service education, therefore, is not limited to
+      a few topics but is:'
+    Options:
+    - Narrow and specialized
+    - Holistic and all-encompassing of a teacher's professional life
+    - Focused only on one pedagogical method
+    - Concerned only with subject content
+    CorrectOptionIndex: 1
+    LevelName: in-service TE

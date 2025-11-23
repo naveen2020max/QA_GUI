@@ -1,0 +1,469 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: research tool - likert
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Who developed the Likert scale?
+    Options:
+    - Rensis Likert
+    - Louis Thurstone
+    - Charles Spearman
+    - Frederick Herzberg
+    CorrectOptionIndex: 0
+    LevelName: research tool - likert
+  - QuestionText: 'A typical Likert scale measures:'
+    Options:
+    - Nominal data
+    - Ordinal data
+    - Interval data
+    - Ratio data
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: What is the most common number of points on a Likert scale?
+    Options:
+    - 3-point
+    - 5-point
+    - 7-point
+    - 10-point
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: Which of the following is NOT a typical response category in a
+      standard Likert scale?
+    Options:
+    - Strongly Agree
+    - Neutral
+    - Always
+    - Strongly Disagree
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: 'A Likert scale where multiple items are summed to create a composite
+      score is called a:'
+    Options:
+    - Semantic Differential
+    - Likert Item
+    - Likert Scale
+    - Thurstone Scale
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: 'The fundamental construct measured by a standard Likert scale
+      is:'
+    Options:
+    - Frequency
+    - Intensity
+    - Agreement
+    - Quality
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: Which statistical measure is considered inappropriate for raw Likert
+      scale data by purists?
+    Options:
+    - Frequency
+    - Mode
+    - Mean
+    - Percentage
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: 'A bipolar scale that uses opposing adjectives at each end is known
+      as a:'
+    Options:
+    - Guttman Scale
+    - Likert Scale
+    - Semantic Differential Scale
+    - Stapel Scale
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: What is the primary purpose of reversing the scoring for negatively
+      worded items in a Likert scale?
+    Options:
+    - To confuse the respondent
+    - To reduce response bias
+    - To make analysis easier
+    - To increase reliability
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'The individual statements or questions in a Likert scale are referred
+      to as:'
+    Options:
+    - Indicators
+    - Likert items
+    - Probes
+    - Variables
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'In a 5-point Likert scale, the numerical value assigned to "Strongly
+      Agree" is typically:'
+    Options:
+    - 1
+    - 3
+    - 5
+    - 10
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: The Likert scale is primarily used in which type of research?
+    Options:
+    - Experimental Research
+    - Qualitative Research
+    - Survey Research
+    - Historical Research
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: 'A "Neutral" option in a Likert scale is also called the:'
+    Options:
+    - Midpoint
+    - Axis
+    - Fulcrum
+    - Median
+    CorrectOptionIndex: 0
+    LevelName: research tool - likert
+  - QuestionText: Which of the following best describes the data from a single Likert
+      item?
+    Options:
+    - Continuous
+    - Discrete
+    - Categorical
+    - Binary
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'The process of ensuring a Likert scale consistently measures what
+      it is supposed to measure is checking for:'
+    Options:
+    - Validity
+    - Reliability
+    - Objectivity
+    - Generality
+    CorrectOptionIndex: 0
+    LevelName: research tool - likert
+  - QuestionText: If a researcher uses a 7-point Likert scale instead of a 5-point
+      one, what is the most likely intended outcome?
+    Options:
+    - Faster completion
+    - Reduced respondent fatigue
+    - Increased measurement sensitivity
+    - Simplified data analysis
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: Why is it considered bad practice to omit a neutral midpoint (e.g.,
+      creating a forced-choice 4-point scale)?
+    Options:
+    - It reduces reliability
+    - It forces respondents to take a stance even if they don't have one
+    - It makes the scale interval
+    - It invalidates the scale
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'A researcher calculates the average of ten 5-point Likert items
+      to represent a construct. The resulting average data can be treated as:'
+    Options:
+    - Nominal
+    - Ordinal
+    - Interval
+    - Ratio
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: What is the key difference between a Likert scale and a Thurstone
+      scale?
+    Options:
+    - Number of options
+    - Method of construction
+    - Type of construct measured
+    - Data analysis technique
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'If a respondent marks "Strongly Agree" for both "I am satisfied
+      with my job" and "I am thinking of quitting my job," this indicates a potential
+      problem with:'
+    Options:
+    - Reliability
+    - Validity
+    - Scalar integrity
+    - Face validity
+    CorrectOptionIndex: 0
+    LevelName: research tool - likert
+  - QuestionText: The Cronbach's Alpha coefficient is typically used with a Likert
+      scale to assess what?
+    Options:
+    - Criterion Validity
+    - Construct Validity
+    - Test-retest Reliability
+    - Internal Consistency Reliability
+    CorrectOptionIndex: 3
+    LevelName: research tool - likert
+  - QuestionText: 'A negatively worded item in a Likert scale, such as "This software
+      is not user-friendly," is primarily used to:'
+    Options:
+    - Make the survey longer
+    - Check for respondent attention
+    - Reduce acquiescence bias
+    - Make scoring easier
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: In the statement "The library staff is helpful," used in a Likert
+      scale, what is the term for "helpful"?
+    Options:
+    - The construct
+    - The indicator
+    - The object
+    - The evaluative dimension
+    CorrectOptionIndex: 3
+    LevelName: research tool - likert
+  - QuestionText: If the distribution of responses on a Likert item is highly skewed,
+      which measure of central tendency is most appropriate?
+    Options:
+    - Mean
+    - Mode
+    - Median
+    - Range
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: 'A researcher wants to compare attitudes between two groups on
+      a 20-item Likert scale. The most appropriate statistical test would be:'
+    Options:
+    - Independent samples t-test
+    - Pearson's Correlation
+    - Chi-square test
+    - ANOVA
+    CorrectOptionIndex: 0
+    LevelName: research tool - likert
+  - QuestionText: What is the primary purpose of pilot testing a newly developed
+      Likert scale?
+    Options:
+    - To get initial results
+    - To identify ambiguous or poorly worded items
+    - To establish norms
+    - To calculate the mean
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'The statement "Please rate your satisfaction: 1(Very Dissatisfied)
+      to 5(Very Satisfied)" is an example of a:'
+    Options:
+    - Likert Scale
+    - Likert-type Item
+    - Semantic Differential
+    - Ranking Scale
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: Why might a researcher use an even-numbered (e.g., 6-point) Likert
+      scale with no neutral option?
+    Options:
+    - To simplify coding
+    - To force a directional response
+    - To reduce the number of options
+    - To make it an interval scale
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: The concept that a Likert scale should cover all aspects of the
+      construct it claims to measure relates to which type of validity?
+    Options:
+    - Face Validity
+    - Content Validity
+    - Criterion Validity
+    - Construct Validity
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'If two different Likert scales designed to measure the same construct
+      yield similar results, this provides evidence for:'
+    Options:
+    - Concurrent Validity
+    - Predictive Validity
+    - Internal Consistency
+    - Test-retest Reliability
+    CorrectOptionIndex: 0
+    LevelName: research tool - likert
+  - QuestionText: "A study finds a low Cronbach's alpha (\u03B1=0.5) for a 6-item
+      Likert scale on \"Classroom Engagement.\" What is the LEAST likely explanation?"
+    Options:
+    - The items are multidimensional
+    - The scale is too short
+    - The items are highly correlated
+    - The items are ambiguously worded
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: 'A researcher uses a 10-point Likert scale (1=Poor, 10=Excellent)
+      for customer satisfaction. A critic argues the data is still ordinal. The researcher''s
+      best counter-argument is that the 10-point scale:'
+    Options:
+    - Uses numbers, so it's interval
+    - Is treated as interval in high-impact journals
+    - Has more points, increasing its reliability
+    - Approximates a continuous variable, justifying parametric tests
+    CorrectOptionIndex: 3
+    LevelName: research tool - likert
+  - QuestionText: In a pre-test/post-test design using a Likert scale, if most respondents
+      score at the extreme high end on the pre-test, this can lead to what threat
+      to internal validity?
+    Options:
+    - Maturation
+    - Testing
+    - Regression to the mean
+    - Ceiling Effect
+    CorrectOptionIndex: 3
+    LevelName: research tool - likert
+  - QuestionText: For a Likert scale measuring "Attitude towards Technology," which
+      of the following pairs of items, when correlated, would best demonstrate the
+      scale's construct validity?
+    Options:
+    - '"I enjoy using smartphones" and "I find laptops useful"'
+    - '"I enjoy using smartphones" and "I prefer reading paper books"'
+    - '"I find laptops useful" and "My internet speed is fast"'
+    - '"I prefer reading paper books" and "Social media is a waste of time"'
+    CorrectOptionIndex: 0
+    LevelName: research tool - likert
+  - QuestionText: 'A manager uses a single 5-point Likert item ("I am happy with
+      my salary") and finds 80% "Agree" or "Strongly Agree." She concludes pay is
+      not an issue. The major flaw in this conclusion is:'
+    Options:
+    - The sample size was too small
+    - A single item is not a reliable measure of a complex attitude
+    - She used the mean instead of the median
+    - The data was ordinal, not interval
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'When analyzing data from a Likert scale, a non-parametric test
+      like the Mann-Whitney U test is chosen over a t-test primarily because it:'
+    Options:
+    - Is more powerful
+    - Does not assume a normal distribution
+    - Is easier to calculate
+    - Provides a more clear-cut p-value
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'If a researcher wants to compare the responses on a Likert item
+      ("The training was effective") across three different age groups, the most
+      appropriate statistical test is:'
+    Options:
+    - Independent t-test
+    - Paired t-test
+    - Chi-square test of independence
+    - Kruskal-Wallis H test
+    CorrectOptionIndex: 3
+    LevelName: research tool - likert
+  - QuestionText: A factor analysis is performed on a Likert scale. What is the primary
+      goal of this analysis?
+    Options:
+    - To check for reliability
+    - To establish its unidimensionality or identify sub-scales
+    - To calculate the mean and standard deviation
+    - To test for differences between groups
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'A respondent consistently selects "Strongly Agree" for every item
+      in a 50-item survey, regardless of content. This behavior is known as:'
+    Options:
+    - Central tendency bias
+    - Social desirability bias
+    - Acquiescence bias
+    - Halo effect
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: The standard deviation of responses on a Likert item is very low
+      (e.g., 0.3). What does this most likely indicate?
+    Options:
+    - High reliability
+    - A ceiling or floor effect
+    - That the item is poorly worded
+    - That the mean is a good measure of central tendency
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'In a Likert scale, an item stating "I feel confident teaching
+      science and mathematics" violates a key principle of item construction because
+      it:'
+    Options:
+    - Is too long
+    - Is a double-barreled question
+    - Uses negative wording
+    - Is leading the respondent
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'A researcher finds a significant difference between groups using
+      a Mann-Whitney U test on Likert data. To understand the direction of the difference,
+      the researcher should next examine:'
+    Options:
+    - The p-value
+    - The effect size (r)
+    - The mean ranks of the two groups
+    - The standard deviations
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: 'Adding more items to a Likert scale (e.g., from 5 to 10) will
+      most likely:'
+    Options:
+    - Decrease Cronbach's Alpha
+    - Increase Cronbach's Alpha
+    - Have no effect on validity
+    - Make the scale less reliable
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'A "Don''t Know" option is added to a Likert scale. This is most
+      beneficial when:'
+    Options:
+    - The scale has an even number of points
+    - The topic is complex and respondents may lack knowledge
+    - You want to force a choice
+    - You are measuring a simple attitude
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'A graph of Likert data showing two distinct peaks (e.g., many
+      "Disagree" and many "Agree" but few "Neutral") is described as a:'
+    Options:
+    - Normal distribution
+    - Positively skewed distribution
+    - Bimodal distribution
+    - Leptokurtic distribution
+    CorrectOptionIndex: 2
+    LevelName: research tool - likert
+  - QuestionText: 'The concept that a Likert scale score should theoretically predict
+      scores on another related measure is the basis for:'
+    Options:
+    - Content Validity
+    - Criterion Validity
+    - Face Validity
+    - Internal Consistency
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'A 5-point Likert scale is transformed by collapsing "Strongly
+      Disagree" and "Disagree" into one category and "Agree" and "Strongly Agree"
+      into another for analysis. This new variable is now:'
+    Options:
+    - Ordinal
+    - Nominal
+    - Interval
+    - Ratio
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: For a Likert scale to be considered truly interval, which assumption
+      must hold?
+    Options:
+    - The distances between all adjacent points are equal
+    - The data is normally distributed
+    - There is a true zero point
+    - The mode and median are the same
+    CorrectOptionIndex: 0
+    LevelName: research tool - likert
+  - QuestionText: A researcher calculates an inter-item correlation matrix for a
+      Likert scale. What pattern would best support the scale's internal consistency?
+    Options:
+    - All correlations are near zero
+    - Correlations between items intended to measure the same construct are moderately
+      high and positive
+    - Correlations between items and age are high
+    - Correlations are randomly positive and negative
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert
+  - QuestionText: 'In the context of Likert scales, "ipsative scoring" refers to:'
+    Options:
+    - Scoring relative to other scales
+    - Scoring that forces a choice between equally desirable options
+    - Using the median for reporting
+    - Reversing the scores of negative items
+    CorrectOptionIndex: 1
+    LevelName: research tool - likert

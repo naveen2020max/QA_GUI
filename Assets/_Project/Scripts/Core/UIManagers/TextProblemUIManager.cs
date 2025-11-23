@@ -104,6 +104,7 @@ public class TextProblemUIManager : MonoBehaviour
         questionText.text = problem.QuestionText;
         ui.DisplayOptions(problem.Options, index =>
         {
+            ui.DisableOptions();
             viewModel.SubmitAnswer(index);
             Debug.Log(index);
         });
@@ -137,7 +138,8 @@ public class TextProblemUIManager : MonoBehaviour
             ui.HighlightCorrectOption(viewModel.CurrentProblem.CorrectOptionIndex);
         }
 
-        nextQuestionButton.style.display = correct ? DisplayStyle.Flex : DisplayStyle.None;
+        nextQuestionButton.style.display = DisplayStyle.Flex;
+        //nextQuestionButton.style.display = correct ? DisplayStyle.Flex : DisplayStyle.None;
     }
 
     private void PrepareForNextQuestion()

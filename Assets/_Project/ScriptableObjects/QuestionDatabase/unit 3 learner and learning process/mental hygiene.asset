@@ -1,0 +1,459 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: mental hygiene
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The primary focus of mental hygiene is on:'
+    Options:
+    - Treating severe psychiatric disorders
+    - Preventing mental disorders and maintaining positive mental health
+    - Administering psychological tests
+    - Hospitalizing mentally ill patients
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'The term "mental hygiene" was first coined by:'
+    Options:
+    - Sigmund Freud
+    - William James
+    - Clifford Beers
+    - Dorothea Dix
+    CorrectOptionIndex: 2
+    LevelName: mental hygiene
+  - QuestionText: Which of the following is considered a key principle of mental
+      hygiene?
+    Options:
+    - Early identification of problems
+    - Waiting until symptoms become severe
+    - Focusing only on biological factors
+    - Avoiding discussion of emotions
+    CorrectOptionIndex: 0
+    LevelName: mental hygiene
+  - QuestionText: 'Mental hygiene differs from psychiatry mainly in its emphasis
+      on:'
+    Options:
+    - Medication management
+    - Prevention and promotion rather than just treatment
+    - Psychoanalytic techniques
+    - Institutional care
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'The Mental Hygiene Movement initially focused on improving conditions
+      in:'
+    Options:
+    - Schools and universities
+    - Mental hospitals and asylums
+    - Corporate offices
+    - Military bases
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: Which organization was founded by Clifford Beers that significantly
+      advanced the mental hygiene movement?
+    Options:
+    - American Psychological Association
+    - National Institute of Mental Health
+    - World Health Organization
+    - National Committee for Mental Hygiene
+    CorrectOptionIndex: 3
+    LevelName: mental hygiene
+  - QuestionText: 'The concept of "positive mental health" in mental hygiene refers
+      to:'
+    Options:
+    - Absence of mental illness
+    - Presence of positive qualities and coping abilities
+    - High intelligence quotient
+    - Successful medication compliance
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'In educational settings, mental hygiene primarily aims to:'
+    Options:
+    - Identify and remove troubled students
+    - Create environments conducive to emotional well-being
+    - Focus exclusively on academic achievement
+    - Train students to become therapists
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: Which of these is NOT typically considered a component of mental
+      hygiene practices?
+    Options:
+    - Stress management techniques
+    - Healthy interpersonal relationships
+    - Regular physical exercise
+    - Suppression of all negative emotions
+    CorrectOptionIndex: 3
+    LevelName: mental hygiene
+  - QuestionText: 'The transition from the term "mental hygiene" to "mental health"
+      occurred mainly because:'
+    Options:
+    - Hygiene was associated only with cleanliness
+    - It broadened to include positive aspects beyond just preventing illness
+    - The original movement failed completely
+    - Medical doctors demanded the change
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'A school that implements regular mental health check-ins and stress
+      management workshops is practicing mental hygiene through:'
+    Options:
+    - Tertiary prevention
+    - Reactive treatment
+    - Crisis intervention only
+    - Primary prevention
+    CorrectOptionIndex: 3
+    LevelName: mental hygiene
+  - QuestionText: 'The relationship between mental hygiene and academic achievement
+      can be best described as:'
+    Options:
+    - Unrelated aspects of student development
+    - Positively correlated, with good mental hygiene supporting learning
+    - Negatively correlated, as focus on mental health reduces academic time
+    - Only relevant for special education students
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'A teacher practicing mental hygiene principles would likely:'
+    Options:
+    - Ignore emotional issues to focus solely on academics
+    - Create a classroom environment that supports emotional safety
+    - Refer all emotional matters to the school counselor immediately
+    - Encourage competition that causes significant stress
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'The shift from institutional care to community-based mental health
+      services was strongly influenced by:'
+    Options:
+    - The mental hygiene movement's advocacy
+    - Decreased funding for hospitals
+    - Lack of medical professionals
+    - Pharmaceutical company policies
+    CorrectOptionIndex: 0
+    LevelName: mental hygiene
+  - QuestionText: 'Mental hygiene in workplace settings typically focuses on:'
+    Options:
+    - Increasing working hours for higher productivity
+    - Reducing labor costs by cutting benefits
+    - Creating supportive environments that prevent burnout
+    - Identifying and firing employees with mental health issues
+    CorrectOptionIndex: 2
+    LevelName: mental hygiene
+  - QuestionText: 'A key difference between mental hygiene and traditional psychotherapy
+      is that mental hygiene:'
+    Options:
+    - Is only for severely mentally ill individuals
+    - Emphasizes prevention and applies to everyone
+    - Requires medical certification to practice
+    - Focuses exclusively on childhood trauma
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'The concept of "emotional first aid" in mental hygiene refers
+      to:'
+    Options:
+    - Immediate psychiatric hospitalization
+    - Medication for anxiety disorders
+    - Advanced psychoanalytic techniques
+    - Basic skills to address everyday emotional challenges
+    CorrectOptionIndex: 3
+    LevelName: mental hygiene
+  - QuestionText: 'A community mental health center offering parenting classes and
+      stress management workshops is practicing:'
+    Options:
+    - Tertiary prevention
+    - Primary prevention
+    - Only crisis intervention
+    - Diagnostic assessment
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'Mental hygiene education in schools is most effective when it:'
+    Options:
+    - Is taught as a separate subject once a year
+    - Is integrated throughout the school environment and curriculum
+    - Focuses only on students with identified problems
+    - Is optional for interested students only
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'The biopsychosocial model in mental hygiene emphasizes that mental
+      health is influenced by:'
+    Options:
+    - Biological factors only
+    - Psychological factors only
+    - Interplay of biological, psychological, and social factors
+    - Social media exposure only
+    CorrectOptionIndex: 2
+    LevelName: mental hygiene
+  - QuestionText: 'A school district is deciding between implementing a comprehensive
+      mental hygiene program or adding an additional advanced placement course. The
+      strongest argument for the mental hygiene program would be that:'
+    Options:
+    - It requires less funding than the AP course
+    - It addresses fundamental prerequisites for learning that benefit all students
+    - AP courses have been proven ineffective
+    - Mental hygiene can replace academic instruction
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'Critically evaluating the mental hygiene movement''s history,
+      one could argue that its greatest impact was:'
+    Options:
+    - Eliminating all mental illness
+    - Shifting public perception and reducing stigma around mental health
+    - Developing perfect treatments for schizophrenia
+    - Making psychotherapy unnecessary
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'A company with high employee turnover implements mental hygiene
+      practices like flexible schedules and mental health days. The most likely long-term
+      outcome would be:'
+    Options:
+    - Decreased productivity and increased costs
+    - Higher rates of absenteeism
+    - Increased need for disciplinary actions
+    - Improved employee retention and performance
+    CorrectOptionIndex: 3
+    LevelName: mental hygiene
+  - QuestionText: 'Comparing the mental hygiene movement to the positive psychology
+      movement, a key similarity is their shared emphasis on:'
+    Options:
+    - Treating severe mental disorders
+    - Preventing problems and promoting well-being
+    - Using medication as primary treatment
+    - Focusing exclusively on childhood development
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'A teacher notices that implementing simple mental hygiene practices
+      (like mindfulness breaks) has reduced classroom conflicts. This observation
+      best supports the concept that:'
+    Options:
+    - Academic learning must be sacrificed for mental health
+    - Mental health practices are only needed in special education classrooms
+    - Students should manage their own mental health without support
+    - Proactive mental health supports can improve overall classroom functioning
+    CorrectOptionIndex: 3
+    LevelName: mental hygiene
+  - QuestionText: 'In a community with limited resources, a mental health advocate
+      must choose between funding a crisis hotline or school-based mental hygiene
+      education. The stronger case for the education program is that it:'
+    Options:
+    - Is less expensive to implement
+    - Addresses problems preventively before they become crises
+    - Provides immediate help to those in severe distress
+    - Requires fewer trained professionals
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'A school implementing mental hygiene principles faces criticism
+      that it''s "coddling" students. The most evidence-based response would be that:'
+    Options:
+    - Mental toughness is the only important trait for success
+    - Mental health is irrelevant to educational outcomes
+    - Students should learn without any support systems
+    - Emotional regulation skills actually enhance resilience and academic performance
+    CorrectOptionIndex: 3
+    LevelName: mental hygiene
+  - QuestionText: 'The limited success of some mental hygiene initiatives in achieving
+      widespread population-level mental health improvements suggests that:'
+    Options:
+    - Mental hygiene principles are fundamentally flawed
+    - Multiple systemic factors beyond individual practices affect mental health
+    - People are responsible for their own mental health without societal support
+    - Mental illness is inevitable regardless of prevention efforts
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'A teacher applying mental hygiene principles to curriculum design
+      would most likely:'
+    Options:
+    - Eliminate all challenging assignments to reduce stress
+    - Create assessments that cause maximum anxiety to build resilience
+    - Balance academic rigor with appropriate supports and stress management
+    - Focus exclusively on content without considering the learning process
+    CorrectOptionIndex: 2
+    LevelName: mental hygiene
+  - QuestionText: 'The concept of "psychological immunity" in mental hygiene is best
+      developed through:'
+    Options:
+    - Avoiding all stressful situations
+    - Gradual exposure to manageable challenges with support
+    - Complete elimination of negative emotions
+    - Medication before facing any stress
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'A workplace that integrates mental hygiene principles into its
+      organizational structure would typically:'
+    Options:
+    - Have higher rates of employee burnout
+    - Show improved problem-solving and innovation
+    - Focus only on individual therapy for troubled employees
+    - Eliminate all performance expectations
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'The most significant ethical consideration in school-based mental
+      hygiene programs is:'
+    Options:
+    - Cost-effectiveness of interventions
+    - Prioritizing academic achievement over emotional well-being
+    - Ensuring all students receive the same intervention regardless of need
+    - Balancing support with respect for student and family privacy
+    CorrectOptionIndex: 3
+    LevelName: mental hygiene
+  - QuestionText: 'A historical analysis of the mental hygiene movement reveals that
+      its initial focus on institutional reform was necessary but insufficient because:'
+    Options:
+    - Institutions were already providing excellent care
+    - Community-based prevention was more important for population mental health
+    - Medical treatments weren't available at that time
+    - The public wasn't interested in mental health
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'A school principal arguing for mental hygiene training for teachers
+      could most convincingly state that:'
+    Options:
+    - Teachers should function as therapists for students
+    - Only teachers in wealthy schools need such training
+    - Mental health training replaces the need for academic qualifications
+    - Teacher well-being and mental health literacy directly impact classroom climate
+      and student success
+    CorrectOptionIndex: 3
+    LevelName: mental hygiene
+  - QuestionText: 'The relationship between physical hygiene and mental hygiene is
+      that both:'
+    Options:
+    - Focus exclusively on biological processes
+    - Emphasize prevention and maintenance of well-being
+    - Require medical degrees to practice
+    - Are relevant only in clinical settings
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'A community facing economic hardship implements mental hygiene
+      programs in schools, workplaces, and community centers. The most likely outcome
+      is:'
+    Options:
+    - Worsening of mental health due to limited resources
+    - Decreased need for all social services
+    - Immediate solution to economic problems
+    - Enhanced community resilience despite challenges
+    CorrectOptionIndex: 3
+    LevelName: mental hygiene
+  - QuestionText: 'The concept of "mental health literacy" in modern mental hygiene
+      emphasizes:'
+    Options:
+    - Only professionals need to understand mental health
+    - Everyone should have basic knowledge about mental health and how to maintain
+      it
+    - Mental health information should be kept confidential
+    - Literacy is unrelated to mental health
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'A criticism of some early mental hygiene efforts was that they
+      sometimes:'
+    Options:
+    - Focused too much on community-based care
+    - Overemphasized prevention and ignored treatment
+    - Were used to justify social control and unnecessary institutionalization
+    - Required too much funding from pharmaceutical companies
+    CorrectOptionIndex: 2
+    LevelName: mental hygiene
+  - QuestionText: 'In designing a mental hygiene program for a diverse school population,
+      the most important principle would be:'
+    Options:
+    - Implementing the same approach for all students
+    - Cultural responsiveness and addressing different needs and backgrounds
+    - Focusing only on visible mental health issues
+    - Waiting until students request help
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'The transition from the term "mental hygiene" to "mental health"
+      represents a shift from:'
+    Options:
+    - Treatment to punishment
+    - Prevention to crisis management
+    - A medical model to a more holistic understanding
+    - Community focus to institutional focus
+    CorrectOptionIndex: 2
+    LevelName: mental hygiene
+  - QuestionText: 'A teacher using mental hygiene principles to address test anxiety
+      would most likely:'
+    Options:
+    - Tell students to avoid thinking about tests
+    - Provide practice under simulated conditions and teach coping strategies
+    - Eliminate all testing to remove stress
+    - Focus only on academic content without addressing anxiety
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'The limited long-term impact of some mental hygiene initiatives
+      suggests that:'
+    Options:
+    - Sustainable mental health requires ongoing integration into systems and cultures
+    - Mental hygiene principles are fundamentally ineffective
+    - One-time interventions are sufficient for lasting change
+    - Mental health is determined solely by genetics
+    CorrectOptionIndex: 0
+    LevelName: mental hygiene
+  - QuestionText: 'A company implementing mental hygiene practices notices reduced
+      healthcare costs and improved productivity. This demonstrates:'
+    Options:
+    - The high cost of mental health support
+    - The economic value of preventive mental health practices
+    - That employees were previously faking illness
+    - That mental health is separate from workplace performance
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'Comparing mental hygiene to public health approaches to physical
+      health reveals that both:'
+    Options:
+    - Focus only on treatment of existing conditions
+    - Emphasize population-level prevention and health promotion
+    - Are relevant only in hospital settings
+    - Ignore environmental factors
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene
+  - QuestionText: 'A school facing budget cuts proposes eliminating its mental hygiene
+      program. The strongest argument against this cut would be that:'
+    Options:
+    - Mental health professionals need jobs
+    - The program serves as a replacement for academic instruction
+    - Preventive mental health supports reduce later costs associated with academic
+      failure and behavioral issues
+    - Other schools are implementing similar programs
+    CorrectOptionIndex: 2
+    LevelName: mental hygiene
+  - QuestionText: 'The concept of "emotional contagion" in classroom settings supports
+      mental hygiene practices because:'
+    Options:
+    - Emotions spread among students, so positive environments benefit everyone
+    - Teachers should suppress all emotions
+    - Only negative emotions are contagious
+    - Emotional awareness decreases academic performance
+    CorrectOptionIndex: 0
+    LevelName: mental hygiene
+  - QuestionText: 'A historical limitation of the early mental hygiene movement was
+      its:'
+    Options:
+    - Overreliance on community-based care
+    - Lack of attention to biological factors
+    - Sometimes overoptimistic belief that mental illness could be completely prevented
+      through hygiene
+    - Focus on only severe mental disorders
+    CorrectOptionIndex: 2
+    LevelName: mental hygiene
+  - QuestionText: 'Modern mental hygiene differs from early approaches mainly in
+      its:'
+    Options:
+    - Greater emphasis on evidence-based practices and understanding of limitations
+    - Return to exclusive focus on institutional care
+    - Decreased interest in prevention
+    - Focus only on medication-based treatments
+    CorrectOptionIndex: 0
+    LevelName: mental hygiene
+  - QuestionText: 'A teacher applying mental hygiene principles to lesson planning
+      would typically:'
+    Options:
+    - Ignore students' emotional responses to content
+    - Consider how content and teaching methods affect student stress and engagement
+    - Eliminate all challenging content to avoid stress
+    - Focus exclusively on content coverage regardless of student experience
+    CorrectOptionIndex: 1
+    LevelName: mental hygiene

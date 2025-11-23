@@ -1,0 +1,447 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: hypothesis testing
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary goal of hypothesis testing?
+    Options:
+    - To prove the research hypothesis is true
+    - To make a decision about a population parameter based on sample data
+    - To describe sample data
+    - To calculate descriptive statistics
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'The statement that there is no effect or no difference is called
+      the:'
+    Options:
+    - Research Hypothesis
+    - Alternative Hypothesis
+    - "Null Hypothesis (H\u2080)"
+    - Directional Hypothesis
+    CorrectOptionIndex: 2
+    LevelName: hypothesis testing
+  - QuestionText: 'The statement that contradicts the null hypothesis is the:'
+    Options:
+    - Null Hypothesis
+    - "Alternative Hypothesis (H\u2081)"
+    - Statistical Hypothesis
+    - Neutral Hypothesis
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'A hypothesis that predicts the direction of the effect (e.g.,
+      greater than, less than) is a:'
+    Options:
+    - Null Hypothesis
+    - One-tailed (Directional) Hypothesis
+    - Two-tailed (Non-directional) Hypothesis
+    - Statistical Hypothesis
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'A hypothesis that only predicts a difference, but not the direction,
+      is a:'
+    Options:
+    - Null Hypothesis
+    - One-tailed Hypothesis
+    - Two-tailed (Non-directional) Hypothesis
+    - Research Hypothesis
+    CorrectOptionIndex: 2
+    LevelName: hypothesis testing
+  - QuestionText: 'The probability of obtaining a test statistic at least as extreme
+      as the one observed, assuming the null hypothesis is true, is the:'
+    Options:
+    - "Alpha Level (\u03B1)"
+    - Critical Value
+    - p-value
+    - "Beta Level (\u03B2)"
+    CorrectOptionIndex: 2
+    LevelName: hypothesis testing
+  - QuestionText: 'The pre-determined probability threshold for rejecting the null
+      hypothesis is called the:'
+    Options:
+    - p-value
+    - "Significance Level (Alpha, \u03B1)"
+    - "Beta (\u03B2)"
+    - Confidence Level
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: "If the p-value is less than or equal to the alpha level (e.g.,
+      p \u2264 .05), we:"
+    Options:
+    - Fail to reject the null hypothesis
+    - Reject the null hypothesis
+    - Accept the null hypothesis
+    - Accept the research hypothesis
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'A Type I error occurs when we:'
+    Options:
+    - Fail to reject a false null hypothesis
+    - Reject a true null hypothesis
+    - Accept a true alternative hypothesis
+    - Fail to accept a true hypothesis
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'The probability of making a Type I error is denoted by:'
+    Options:
+    - "\u03B2"
+    - "\u03B1"
+    - "1 - \u03B2"
+    - p
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'A Type II error occurs when we:'
+    Options:
+    - Reject a true null hypothesis
+    - Fail to reject a false null hypothesis
+    - Accept a true null hypothesis
+    - Reject a false null hypothesis
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'The probability of making a Type II error is denoted by:'
+    Options:
+    - "\u03B2"
+    - "\u03B1"
+    - "1 - \u03B2"
+    - p
+    CorrectOptionIndex: 0
+    LevelName: hypothesis testing
+  - QuestionText: 'The power of a statistical test is defined as:'
+    Options:
+    - The probability of a Type I error
+    - "The probability of correctly rejecting a false null hypothesis (1 - \u03B2)"
+    - The probability of accepting a true null hypothesis
+    - The significance level
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'The critical region is the range of test statistic values that:'
+    Options:
+    - Support the null hypothesis
+    - Lead to rejection of the null hypothesis
+    - Are close to the mean
+    - Have a high probability
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'A test statistic is a value computed from the sample data that
+      is used to:'
+    Options:
+    - Describe the sample
+    - Make a decision about the null hypothesis
+    - Prove the alternative hypothesis
+    - Determine the p-value directly
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: How does the choice of a one-tailed test over a two-tailed test
+      affect power?
+    Options:
+    - It decreases power.
+    - It increases power for detecting an effect in the specified direction.
+    - It has no effect on power.
+    - It eliminates Type I error.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: Why is it impossible to "prove" the null hypothesis?
+    Options:
+    - Because it is always false.
+    - "Because hypothesis testing is designed to find evidence\_against\_the null.
+      Failing to reject it only indicates insufficient evidence for an effect."
+    - Because it is a negative statement.
+    - Because the p-value is always large.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: What is the relationship between Type I and Type II error probabilities?
+    Options:
+    - They are independent.
+    - "For a fixed sample size, decreasing \u03B1 (Type I error) increases \u03B2
+      (Type II error), and vice versa."
+    - They are always equal.
+    - "Decreasing \u03B1 also decreases \u03B2."
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: "If a researcher sets a more stringent alpha level (e.g., \u03B1
+      = .01 instead of .05), what happens to the risk of a Type I error?"
+    Options:
+    - It increases.
+    - It decreases.
+    - It stays the same.
+    - It becomes zero.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'A 95% confidence interval that does not contain the value of the
+      null hypothesis (e.g., 0) is equivalent to:'
+    Options:
+    - "A non-significant result at \u03B1 = .05"
+    - "A significant result at \u03B1 = .05"
+    - "A significant result at \u03B1 = .01"
+    - A Type II error
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: "Assertion (A):\_Statistical significance does not necessarily
+      imply practical importance.\_Reason (R):\_A very small effect can be statistically
+      significant with a large sample size, even if it is meaningless in the real
+      world."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: hypothesis testing
+  - QuestionText: "A researcher tests H\u2080: \u03BC = 100 vs. H\u2081: \u03BC >
+      100. This is a:"
+    Options:
+    - Two-tailed test
+    - One-tailed test
+    - Non-directional test
+    - Null test
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: The p-value for a one-tailed test is ______ the p-value for a two-tailed
+      test using the same data, if the results are in the predicted direction.
+    Options:
+    - the same as
+    - half of
+    - twice
+    - unrelated to
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: Contrast a "Type I error" with a "Type II error."
+    Options:
+    - 'Type I: false negative; Type II: false positive'
+    - 'Type I: false positive; Type II: false negative'
+    - Both are false positives.
+    - Both are false negatives.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'If the null hypothesis is false, but we fail to reject it, we
+      have made a:'
+    Options:
+    - Type I error
+    - Type II error
+    - Correct decision
+    - Powerful decision
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'The power of a test is increased by:'
+    Options:
+    - Decreasing the sample size
+    - Increasing the sample size
+    - Increasing the alpha level
+    - Both B and C
+    CorrectOptionIndex: 3
+    LevelName: hypothesis testing
+  - QuestionText: 'A researcher concludes that a new teaching method is more effective
+      when it actually is not. This is a:'
+    Options:
+    - Type I error
+    - Type II error
+    - Correct decision
+    - Powerful decision
+    CorrectOptionIndex: 0
+    LevelName: hypothesis testing
+  - QuestionText: 'The standard normal distribution (z-distribution) is used for
+      hypothesis testing when:'
+    Options:
+    - The sample size is small
+    - The population standard deviation is unknown
+    - The population standard deviation is known and the sample size is large
+    - The data is not normal
+    CorrectOptionIndex: 2
+    LevelName: hypothesis testing
+  - QuestionText: 'The t-distribution is used instead of the z-distribution when:'
+    Options:
+    - The sample size is very large
+    - The population standard deviation is unknown and is estimated from the sample
+    - The population mean is known
+    - The data is categorical
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'Degrees of freedom (df) for a test are primarily a function of:'
+    Options:
+    - The alpha level
+    - The population size
+    - The sample size
+    - The effect size
+    CorrectOptionIndex: 2
+    LevelName: hypothesis testing
+  - QuestionText: 'In a one-sample t-test, the degrees of freedom are calculated
+      as:'
+    Options:
+    - n
+    - n - 1
+    - n - 2
+    - "(n\u2081 + n\u2082) - 2"
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'The critical value for a hypothesis test is determined by the:'
+    Options:
+    - p-value
+    - Alpha level and the sampling distribution
+    - Sample mean
+    - Effect size
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'If a result is statistically significant, it means that:'
+    Options:
+    - The effect is large and important
+    - The observed effect is unlikely to have occurred by chance alone
+    - The null hypothesis is false
+    - The research hypothesis is proven
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'The phrase "failing to reject the null hypothesis" is used instead
+      of "accepting the null hypothesis" because:'
+    Options:
+    - It is shorter.
+    - It acknowledges that the data simply does not provide strong enough evidence
+      against it, not that it is true.
+    - The null hypothesis is always false.
+    - It is a more positive statement.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: A 99% confidence interval is ______ a 95% confidence interval.
+    Options:
+    - narrower than
+    - wider than
+    - the same width as
+    - unrelated to
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'An effect size measure (e.g., Cohen''s d) is important because
+      it:'
+    Options:
+    - Determines the p-value
+    - Quantifies the magnitude of the effect, independent of sample size
+    - Determines the alpha level
+    - Is used to calculate the test statistic
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: "A researcher sets \u03B1 = .05 and obtains a p-value of .03. The
+      correct conclusion is:"
+    Options:
+    - "Accept H\u2080"
+    - "Reject H\u2080"
+    - "Fail to reject H\u2080"
+    - "Accept H\u2081"
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'The process of hypothesis testing is based on the logic of:'
+    Options:
+    - Proof by example
+    - Proof by contradiction (reductio ad absurdum)
+    - Intuition
+    - Descriptive statistics
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'A non-significant result (p > .05) means that:'
+    Options:
+    - The null hypothesis is true.
+    - There is not enough evidence to conclude that the effect is real.
+    - The alternative hypothesis is false.
+    - The sample size was too large.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: "For a two-tailed test with \u03B1 = .05, the critical region is
+      located:"
+    Options:
+    - Only in the upper tail
+    - Only in the lower tail
+    - In both the upper and lower tails (2.5% in each)
+    - In the center of the distribution
+    CorrectOptionIndex: 2
+    LevelName: hypothesis testing
+  - QuestionText: 'The risk of a Type I error is controlled directly by the researcher
+      by setting:'
+    Options:
+    - The p-value
+    - "The alpha (\u03B1) level"
+    - "The beta (\u03B2) level"
+    - The sample size
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: If a study has low statistical power, what is the risk?
+    Options:
+    - High risk of Type I error
+    - High risk of Type II error
+    - High risk of both errors
+    - No risk
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'A p-value of .001 means that:'
+    Options:
+    - The null hypothesis is false.
+    - If the null hypothesis were true, the probability of obtaining a result this
+      extreme is 0.1%.
+    - The result is practically significant.
+    - The effect size is large.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'In the context of hypothesis testing, "significance" refers to:'
+    Options:
+    - Importance
+    - Statistical unlikelihood under the null model
+    - Certainty
+    - Truth
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'The correct sequence of steps in hypothesis testing is:'
+    Options:
+    - Collect data, state hypotheses, calculate p-value, set alpha
+    - State hypotheses, set alpha, collect data, calculate test statistic and p-value,
+      make decision
+    - Set alpha, state hypotheses, make decision, collect data
+    - Calculate p-value, state hypotheses, make decision
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'A confidence interval can be used for hypothesis testing because:'
+    Options:
+    - It is easier to calculate.
+    - If the null value is not in the interval, we reject the null hypothesis.
+    - It always gives the same result as a p-value.
+    - It provides the power of the test.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'A researcher wants to be very cautious about claiming a new drug
+      works. They should set a relatively:'
+    Options:
+    - High alpha level (e.g., .10)
+    - Low alpha level (e.g., .01)
+    - High beta level
+    - Low power
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'The term "null hypothesis" is used because it typically represents:'
+    Options:
+    - The researcher's prediction
+    - A state of no change, no effect, or no difference
+    - An alternative theory
+    - A statistically significant finding
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing
+  - QuestionText: 'If you reject a null hypothesis that is actually false, you have:'
+    Options:
+    - Made a Type I error
+    - Made a Type II error
+    - Made a correct decision
+    - Increased the alpha level
+    CorrectOptionIndex: 2
+    LevelName: hypothesis testing
+  - QuestionText: 'The most important thing to remember when interpreting a statistically
+      significant result is to:'
+    Options:
+    - Ignore the p-value.
+    - Consider the practical significance and the effect size in addition to the
+      p-value.
+    - Assume the null hypothesis is false.
+    - Only report the p-value.
+    CorrectOptionIndex: 1
+    LevelName: hypothesis testing

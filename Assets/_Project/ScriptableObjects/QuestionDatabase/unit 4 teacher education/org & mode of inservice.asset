@@ -1,0 +1,444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: org & mode of inservice
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Which national-level organization is the apex body for designing
+      models for in-service teacher education in India?
+    Options:
+    - UGC
+    - NCERT
+    - CBSE
+    - NCTE
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The primary agency responsible for in-service training of elementary
+      teachers at the district level is the:'
+    Options:
+    - SCERT
+    - NUEPA
+    - NIOS
+    - DIET
+    CorrectOptionIndex: 3
+    LevelName: org & mode of inservice
+  - QuestionText: Which of the following is a face-to-face mode of in-service teacher
+      education?
+    Options:
+    - Participating in a SWAYAM MOOC
+    - Attending a national seminar on educational technology
+    - Reading a professional journal
+    - Contributing to an online forum
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The organization that conducts refresher courses for university
+      and college teachers through Academic Staff Colleges is the:'
+    Options:
+    - NCERT
+    - AICTE
+    - NCTE
+    - UGC
+    CorrectOptionIndex: 3
+    LevelName: org & mode of inservice
+  - QuestionText: What is the primary function of a Block Resource Centre (BRC)?
+    Options:
+    - To regulate university education
+    - To provide grassroots-level support and training to teachers in a block
+    - To develop national curriculum frameworks
+    - To award Ph.D. degrees in education
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: A group of teachers meeting every week to analyze student work
+      and plan lessons is an example of which mode?
+    Options:
+    - Distance Education
+    - A Professional Learning Community (PLC)
+    - An Induction Program
+    - A Refresher Course
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The state-level nodal agency for in-service teacher education
+      is the:'
+    Options:
+    - DIET
+    - CRC
+    - NCERT
+    - SCERT
+    CorrectOptionIndex: 3
+    LevelName: org & mode of inservice
+  - QuestionText: Which mode of in-service education is characterized by its flexibility
+      and use of digital platforms like SWAYAM?
+    Options:
+    - Workshop mode
+    - Distance and Online mode
+    - Seminar mode
+    - Conference mode
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The organization that focuses on training educational administrators
+      and planners is:'
+    Options:
+    - NCERT
+    - NIEPA
+    - NCTE
+    - DIET
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'A teacher systematically investigating why students are struggling
+      with fractions in her own classroom is engaged in:'
+    Options:
+    - A workshop
+    - Peer coaching
+    - A seminar
+    - Action research
+    CorrectOptionIndex: 3
+    LevelName: org & mode of inservice
+  - QuestionText: 'The most decentralized unit for organizing in-service teacher
+      education is the:'
+    Options:
+    - National level
+    - State level
+    - School level
+    - District level
+    CorrectOptionIndex: 2
+    LevelName: org & mode of inservice
+  - QuestionText: Which of the following is a key feature of the workshop mode?
+    Options:
+    - It is primarily a one-way lecture.
+    - It is highly interactive and focuses on hands-on skill development.
+    - It is always conducted online.
+    - It has no specific objectives.
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The CRC (Cluster Resource Centre) coordinator typically acts as
+      a:'
+    Options:
+    - National policy maker
+    - Mentor and resource person for teachers in a cluster of schools
+    - University professor
+    - School principal
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: Which mode is best for introducing a large number of teachers to
+      a new national curriculum framework like NEP 2020?
+    Options:
+    - Self-study
+    - Lesson study
+    - Peer mentoring
+    - Large-scale orientation programs
+    CorrectOptionIndex: 3
+    LevelName: org & mode of inservice
+  - QuestionText: 'The organization of in-service teacher education in India is best
+      described as a:'
+    Options:
+    - Centralized system with no state involvement
+    - Decentralized, multi-level structure
+    - System managed solely by private agencies
+    - Non-existent structure
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'A program designed specifically for teachers who are newly appointed
+      is called a(n):'
+    Options:
+    - Refresher course
+    - Seminar
+    - Workshop
+    - Induction program
+    CorrectOptionIndex: 3
+    LevelName: org & mode of inservice
+  - QuestionText: Which online platform, launched by the Government of India, provides
+      free MOOCs for teacher professional development?
+    Options:
+    - NPTEL
+    - SWAYAM
+    - e-PG Pathshala
+    - DIKSHA
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The primary advantage of school-based in-service education is
+      its:'
+    Options:
+    - High cost
+    - Immediate relevance to the specific school context
+    - Isolation from other schools
+    - Focus on theoretical knowledge only
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: Which of the following is a collaborative mode of in-service education?
+    Options:
+    - Reading a book alone
+    - Watching a pre-recorded webinar
+    - Participating in a lesson study with colleagues
+    - Taking an online test
+    CorrectOptionIndex: 2
+    LevelName: org & mode of inservice
+  - QuestionText: 'The role of NCERT in the organization of in-service education
+      is primarily:'
+    Options:
+    - Administrative control over state programs
+    - Development of resource materials and training of master trainers
+    - Direct training of every school teacher
+    - Funding all state-level programs
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'A ''refresher course'' is primarily aimed at:'
+    Options:
+    - Newly recruited teachers
+    - Updating and renewing the knowledge of experienced teachers
+    - Parents and community members
+    - School dropouts
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: Which mode is most suitable for a teacher who lives in a remote
+      area with limited internet access?
+    Options:
+    - Online webinars
+    - MOOCs
+    - Correspondence courses through NIOS
+    - Professional Learning Communities (PLCs)
+    CorrectOptionIndex: 2
+    LevelName: org & mode of inservice
+  - QuestionText: The DIETs are mandated to focus on the training of teachers at
+      which level?
+    Options:
+    - Secondary and Senior Secondary only
+    - Elementary level (Classes I-VIII)
+    - Higher Education only
+    - Pre-primary only
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'Observing a colleague''s class and providing constructive feedback
+      is a key component of:'
+    Options:
+    - Distance learning
+    - Peer coaching
+    - A national conference
+    - Self-directed learning
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The organization of in-service training through BRCs and CRCs
+      ensures:'
+    Options:
+    - That training is removed from the local context
+    - A complete separation of pre-service and in-service education
+    - That only national-level experts are involved
+    - Greater reach and accessibility for teachers at the grassroots
+    CorrectOptionIndex: 3
+    LevelName: org & mode of inservice
+  - QuestionText: Which of the following is a self-directed mode of professional
+      development?
+    Options:
+    - Attending a mandatory workshop
+    - Voluntarily reading research articles on a new teaching strategy
+    - Participating in a state-organized orientation
+    - Being part of a mandated PLC
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The main purpose of an ''orientation program'' is to:'
+    Options:
+    - Provide a long vacation for teachers
+    - Familiarize teachers with new policies, curricula, or textbooks
+    - Replace pre-service teacher education
+    - Evaluate teachers for promotion
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: Which national mission aims to strengthen in-service teacher training
+      through an integrated online platform?
+    Options:
+    - SSA (Sarva Shiksha Abhiyan)
+    - RMSA (Rashtriya Madhyamik Shiksha Abhiyan)
+    - NISHTHA (National Initiative for School Heads' and Teachers' Holistic Advancement)
+    - RTE (Right to Education)
+    CorrectOptionIndex: 2
+    LevelName: org & mode of inservice
+  - QuestionText: 'A key challenge in the organization of in-service education in
+      India is:'
+    Options:
+    - Lack of any structural framework
+    - Inadequate coordination between national, state, and district levels
+    - Over-reliance on school-based modes
+    - Absence of online platforms
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The mode of in-service education that involves a cycle of collaborative
+      planning, teaching, observing, and revising a lesson is known as:'
+    Options:
+    - Action Research
+    - Workshop
+    - Peer Coaching
+    - Lesson Study
+    CorrectOptionIndex: 3
+    LevelName: org & mode of inservice
+  - QuestionText: Which body is responsible for recognizing and regulating teacher
+      education programs, which indirectly influences in-service education?
+    Options:
+    - NCERT
+    - NCTE
+    - UGC
+    - AIU
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: Which mode is most effective for the rapid dissemination of a new
+      teaching technique to a large number of teachers across the country?
+    Options:
+    - One-on-one mentoring
+    - Action research projects
+    - School-based PLCs
+    - Large-scale workshops and online MOOCs
+    CorrectOptionIndex: 3
+    LevelName: org & mode of inservice
+  - QuestionText: 'The success of school-based in-service education largely depends
+      on the leadership of the:'
+    Options:
+    - District Education Officer
+    - School Principal
+    - SCERT Director
+    - NCERT Chairman
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'A ''seminar'' as a mode of in-service education typically involves:'
+    Options:
+    - Only listening to a single expert
+    - Presentation of papers and discussion on a specific theme
+    - Hands-on practice of skills
+    - Isolated individual work
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The primary goal of the multi-level organization of in-service
+      education is to:'
+    Options:
+    - Create bureaucratic hurdles
+    - Ensure a top-down, uniform approach
+    - Cascade training effectively from national to grassroots level
+    - Eliminate the need for teacher input
+    CorrectOptionIndex: 2
+    LevelName: org & mode of inservice
+  - QuestionText: Which of the following is an advantage of online modes like webinars?
+    Options:
+    - They require no internet connectivity.
+    - They allow for participation from geographically dispersed locations.
+    - They are always more effective than face-to-face interaction.
+    - They eliminate the need for any preparation.
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The "cascade model" of training, often used in Indian in-service
+      education, refers to:'
+    Options:
+    - Training a master cadre of resource persons who then train others
+    - A waterfall of information with no feedback
+    - Training only one teacher per school
+    - A model used exclusively for pre-service education
+    CorrectOptionIndex: 0
+    LevelName: org & mode of inservice
+  - QuestionText: A teacher attending a course to learn a new language would be participating
+      in which type of in-service education?
+    Options:
+    - Content upgradation
+    - Pedagogical training
+    - Orientation program
+    - Induction program
+    CorrectOptionIndex: 0
+    LevelName: org & mode of inservice
+  - QuestionText: 'The organization of in-service education at the cluster level
+      (through CRCs) helps in promoting:'
+    Options:
+    - Isolation among teachers
+    - Peer learning and sharing of local best practices
+    - Dependence on national experts only
+    - Standardized teaching without variation
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: Which mode is characterized by its focus on solving a specific,
+      localized classroom problem through a systematic process?
+    Options:
+    - Conference
+    - Distance Education
+    - Refresher Course
+    - Action Research
+    CorrectOptionIndex: 3
+    LevelName: org & mode of inservice
+  - QuestionText: The DIKSHA portal is an initiative for teacher training that primarily
+      uses which mode?
+    Options:
+    - Only face-to-face workshops
+    - A digital platform for hosting training modules and resources
+    - International student exchange
+    - Print-based correspondence
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'A limitation of the ''cascade model'' of organization is that:'
+    Options:
+    - It is too cheap and efficient
+    - It does not have a national-level component
+    - It involves teachers directly from the start
+    - The quality of training may dilute as it moves down the levels
+    CorrectOptionIndex: 3
+    LevelName: org & mode of inservice
+  - QuestionText: Which of the following is a formal mode of in-service education?
+    Options:
+    - Informal discussion in the staff room
+    - A UGC-sponsored refresher course at an Academic Staff College
+    - Independently watching a YouTube tutorial
+    - Reading a newspaper article on education
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The most significant role of a teacher in a self-directed mode
+      is that of a(n):'
+    Options:
+    - Passive recipient
+    - Autonomous and proactive learner
+    - Implementer of directives
+    - Bystander
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The organization of in-service education aims to create a:'
+    Options:
+    - Culture of dependency on experts
+    - System with no accountability
+    - Static teaching workforce
+    - Culture of continuous professional learning
+    CorrectOptionIndex: 3
+    LevelName: org & mode of inservice
+  - QuestionText: 'A ''conference'' as a mode is particularly useful for:'
+    Options:
+    - In-depth skill practice
+    - Networking and exposure to a wide range of ideas and innovations
+    - One-on-one mentoring
+    - Isolated reflection
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The effectiveness of any mode of in-service education ultimately
+      depends on:'
+    Options:
+    - The number of certificates awarded
+    - The fame of the resource person
+    - The cost of the program
+    - Its impact on improving teacher practice and student learning
+    CorrectOptionIndex: 3
+    LevelName: org & mode of inservice
+  - QuestionText: 'A blend of face-to-face and online modes is known as:'
+    Options:
+    - Single-mode delivery
+    - Blended learning
+    - Distance learning
+    - Isolated learning
+    CorrectOptionIndex: 1
+    LevelName: org & mode of inservice
+  - QuestionText: 'The primary focus of organizational efforts at the SCERT level
+      is to:'
+    Options:
+    - Ignore national frameworks
+    - Manage individual school finances
+    - Work only on pre-service education
+    - Adapt and contextualize national programs for the state
+    CorrectOptionIndex: 3
+    LevelName: org & mode of inservice

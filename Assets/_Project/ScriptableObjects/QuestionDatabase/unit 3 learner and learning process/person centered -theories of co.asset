@@ -1,0 +1,433 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: person centered -theories of co
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'Person-Centered Therapy was developed by:'
+    Options:
+    - Abraham Maslow
+    - Fritz Perls
+    - Carl Rogers
+    - Viktor Frankl
+    CorrectOptionIndex: 2
+    LevelName: person centered -theories of co
+  - QuestionText: 'The primary motivation for human behavior in Person-Centered theory
+      is the:'
+    Options:
+    - Pleasure principle
+    - Actualizing tendency
+    - Drive for superiority
+    - Will to power
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: Which of the following is NOT one of Rogers' core conditions for
+      therapeutic growth?
+    Options:
+    - Congruence
+    - Unconditional Positive Regard
+    - Empathic Understanding
+    - Directive Guidance
+    CorrectOptionIndex: 3
+    LevelName: person centered -theories of co
+  - QuestionText: 'In Person-Centered Therapy, "congruence" refers to the therapist''s:'
+    Options:
+    - Professional credentials
+    - Genuineness and authenticity
+    - Ability to interpret dreams
+    - Knowledge of psychological tests
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'The concept of "Unconditional Positive Regard" means the therapist:'
+    Options:
+    - Approves of all client behaviors
+    - Values and accepts the client without judgment
+    - Provides positive reinforcement for good behavior
+    - Always feels positive toward the client
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'According to Rogers, psychological distress occurs when there
+      is:'
+    Options:
+    - Too much unconscious conflict
+    - Cognitive distortions
+    - Lack of behavioral reinforcement
+    - Incongruence between self-concept and experience
+    CorrectOptionIndex: 3
+    LevelName: person centered -theories of co
+  - QuestionText: 'The primary technique used in Person-Centered Therapy is:'
+    Options:
+    - Dream analysis
+    - Active listening and reflection
+    - Systematic desensitization
+    - Cognitive restructuring
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'In Person-Centered Therapy, the client is viewed as:'
+    Options:
+    - A patient needing treatment
+    - The expert on their own experience
+    - A subject for analysis
+    - A collection of behaviors to be modified
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'The ultimate goal of Person-Centered Therapy is to help the client
+      become:'
+    Options:
+    - A fully functioning person
+    - Completely free of negative emotions
+    - Perfectly adjusted to society
+    - Dependent on the therapist
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: Which term describes Rogers' approach to understanding the client's
+      subjective reality?
+    Options:
+    - Phenomenological
+    - Psychoanalytic
+    - Behaviorist
+    - Cognitive
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: 'A student tells a counselor, "I''m stupid and I''ll never understand
+      math." A Person-Centered counselor''s response would be:'
+    Options:
+    - '"Let''s look at why you''re having these negative thoughts."'
+    - '"You''re feeling really discouraged about math right now."'
+    - '"You need to study more and get a tutor."'
+    - '"Your test scores show you have potential."'
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'The concept of "conditions of worth" develops when:'
+    Options:
+    - Children receive positive regard only when they meet certain expectations
+    - Therapists set appropriate boundaries
+    - Students achieve high grades
+    - Individuals reach self-actualization
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: 'In Person-Centered Therapy, the process of "organismic valuing"
+      refers to the:'
+    Options:
+    - Client's ability to pay for therapy
+    - Innate ability to know what is good for one's development
+    - Therapist's method of assessing progress
+    - Process of valuing social conformity
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: Which characteristic is NOT typical of a "fully functioning person"
+      according to Rogers?
+    Options:
+    - Openness to experience
+    - Existential living
+    - Organizational trust
+    - Rigid defense mechanisms
+    CorrectOptionIndex: 3
+    LevelName: person centered -theories of co
+  - QuestionText: 'The Person-Centered approach is particularly effective for clients
+      who:'
+    Options:
+    - Need immediate behavior modification
+    - Are seeking greater self-awareness and personal growth
+    - Require highly structured therapy
+    - Have severe cognitive impairments
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'In Person-Centered Therapy, empathic understanding involves:'
+    Options:
+    - Feeling sorry for the client
+    - Sensing the client's private world as if it were your own
+    - Agreeing with everything the client says
+    - Sharing similar personal experiences
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'The therapeutic relationship in Person-Centered Therapy is considered:'
+    Options:
+    - The most important factor in creating change
+    - Less important than technique
+    - Only relevant in the initial sessions
+    - Unnecessary for progress
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: 'A key difference between Person-Centered Therapy and Psychoanalysis
+      is that Person-Centered Therapy:'
+    Options:
+    - Focuses more on the present than the past
+    - Emphasizes unconscious conflicts
+    - Uses dream interpretation
+    - Views the therapist as an expert interpreter
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: 'In school counseling, a Person-Centered approach would emphasize:'
+    Options:
+    - Giving directive advice
+    - Using standardized tests for assessment
+    - Creating a safe, non-judgmental environment
+    - Focusing exclusively on academic performance
+    CorrectOptionIndex: 2
+    LevelName: person centered -theories of co
+  - QuestionText: 'The concept of "self-concept" in Rogers'' theory includes:'
+    Options:
+    - Only the positive aspects of oneself
+    - All the perceptions and beliefs one holds about oneself
+    - The opinions others have about us
+    - The unconscious aspects of personality
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'A teacher applying Person-Centered principles in the classroom
+      would be most likely to:'
+    Options:
+    - Create opportunities for student choice and self-directed learning
+    - Maintain strict control over all learning activities
+    - Focus exclusively on test scores
+    - Use public criticism to motivate students
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: 'The Person-Centered approach has been criticized for:'
+    Options:
+    - Being too directive and structured
+    - Lacking empirical support (though this has changed over time)
+    - Overemphasizing unconscious conflicts
+    - Focusing too much on behavioral change
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'In Person-Centered Therapy, the process of change occurs when:'
+    Options:
+    - The therapist directs the client toward solutions
+    - The client experiences the core conditions in the therapeutic relationship
+    - The client completes homework assignments
+    - The therapist interprets the client's unconscious conflicts
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'The concept of "locus of evaluation" in Person-Centered theory
+      refers to:'
+    Options:
+    - Where the client looks for standards and values
+    - The therapist's assessment methods
+    - Standardized testing procedures
+    - Behavioral measurement techniques
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: 'A Person-Centered counselor working with a culturally diverse
+      client would:'
+    Options:
+    - Apply Western values universally
+    - Seek to understand the client's unique cultural framework
+    - Use only techniques from the client's culture
+    - Avoid discussing cultural differences
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: Which statement best reflects the Person-Centered view of human
+      nature?
+    Options:
+    - Humans are basically evil and need control
+    - Humans are neutral blank slates
+    - Humans are inherently trustworthy and positive
+    - Humans are determined by unconscious forces
+    CorrectOptionIndex: 2
+    LevelName: person centered -theories of co
+  - QuestionText: 'In Person-Centered Therapy, silence is typically viewed as:'
+    Options:
+    - A waste of valuable session time
+    - An opportunity for reflection and processing
+    - A sign of resistance
+    - Something the therapist should always fill
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'The Person-Centered approach is especially valuable for helping
+      clients with:'
+    Options:
+    - Crisis intervention and immediate problem-solving
+    - Exploring identity issues and personal growth
+    - Severe behavioral disorders
+    - Cognitive rehabilitation
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'A key contribution of Person-Centered Therapy to the field of
+      counseling is its:'
+    Options:
+    - Emphasis on the therapeutic relationship
+    - Development of sophisticated assessment tools
+    - Focus on behavioral techniques
+    - Use of dream interpretation
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: 'In Person-Centered education, evaluation typically emphasizes:'
+    Options:
+    - Self-assessment and personal growth
+    - Norm-referenced testing
+    - Comparative grading
+    - Standardized measures only
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: 'A student confides, "I''m thinking about dropping out of school."
+      A Person-Centered counselor''s FIRST response would be:'
+    Options:
+    - '"That would be a terrible mistake with lifelong consequences."'
+    - '"You''re considering leaving school, and this feels like a very significant
+      decision for you."'
+    - '"Let me tell you about the benefits of staying in school."'
+    - '"I need to contact your parents immediately."'
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'The concept of "process living" in Person-Centered theory means:'
+    Options:
+    - Following a rigid daily routine
+    - Remaining open to experience and adapting flexibly
+    - Processing unconscious conflicts
+    - Completing therapeutic homework
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'A limitation of Person-Centered Therapy in school settings is
+      that it:'
+    Options:
+    - May not provide enough structure for students in crisis
+    - Is too directive for most students
+    - Overemphasizes testing and assessment
+    - Focuses too much on unconscious conflicts
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: 'The Person-Centered approach views psychological health as:'
+    Options:
+    - The absence of symptoms
+    - A continuous process of growth and development
+    - Perfect adjustment to society
+    - Complete rationality and emotional control
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'In Person-Centered Therapy, the client''s role is primarily to:'
+    Options:
+    - Follow the therapist's directions
+    - Learn specific coping skills
+    - Complete homework assignments
+    - Explore and express their own experiences
+    CorrectOptionIndex: 3
+    LevelName: person centered -theories of co
+  - QuestionText: 'The concept of "phenomenological field" refers to:'
+    Options:
+    - The therapist's theoretical orientation
+    - The client's subjective reality and perception
+    - A specific counseling technique
+    - The physical environment of therapy
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'A Person-Centered teacher would be most likely to say:'
+    Options:
+    - '"You must learn this material for the test."'
+    - '"Let''s explore what interests you about this topic."'
+    - '"This is the only correct way to solve this problem."'
+    - '"Your grade depends on beating your classmates."'
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'The historical significance of Person-Centered Therapy is that
+      it:'
+    Options:
+    - Emphasized the client's capacity for self-direction
+    - Established psychology as a purely experimental science
+    - Focused exclusively on observable behavior
+    - Emphasized biological determinants of behavior
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: 'In Person-Centered group counseling, the leader''s role is primarily
+      to:'
+    Options:
+    - Teach specific skills to group members
+    - Create a climate of trust and facilitate interaction
+    - Assign roles and tasks to each member
+    - Interpret the dynamics of the group
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'The concept of "empathic accuracy" involves:'
+    Options:
+    - Always agreeing with the client
+    - Providing sympathetic responses
+    - Sharing personal similar experiences
+    - Correctly understanding the client's subjective experience
+    CorrectOptionIndex: 3
+    LevelName: person centered -theories of co
+  - QuestionText: 'A student who is frequently bullied tells a Person-Centered counselor,
+      "I''m just a loser that everyone hates." The counselor''s most appropriate
+      response would be:'
+    Options:
+    - '"That''s not true - you have many good qualities."'
+    - '"You''re feeling completely worthless because of how these kids are treating
+      you."'
+    - '"You need to stand up for yourself and fight back."'
+    - '"Let''s analyze why you''re such a target for bullies."'
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'The Person-Centered approach is particularly relevant for addressing
+      issues of:'
+    Options:
+    - Meaning, purpose, and self-acceptance
+    - Specific phobias and compulsions
+    - Severe psychotic disorders
+    - Organic brain conditions
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: 'In Person-Centered Therapy, the process of "actualization" is:'
+    Options:
+    - A one-time achievement
+    - A continuous lifelong process
+    - Only possible with therapeutic help
+    - Dependent on social approval
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'A key strength of the Person-Centered approach is its:'
+    Options:
+    - Emphasis on human dignity and potential
+    - Highly structured techniques
+    - Focus on pathology and dysfunction
+    - Use of sophisticated assessment tools
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: 'The concept of "non-directive" in Person-Centered Therapy means:'
+    Options:
+    - The therapist provides no structure
+    - The therapist avoids leading the client
+    - The client directs the therapist
+    - There are no goals for therapy
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'In educational settings, Person-Centered principles have influenced
+      the development of:'
+    Options:
+    - Student-centered learning approaches
+    - Standardized testing programs
+    - Competitive grading systems
+    - Teacher-centered instruction
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: 'The concept of "self-structure" in Rogers'' theory refers to:'
+    Options:
+    - The organizational framework of the self-concept
+    - The physical structure of the brain
+    - Social class structure
+    - Family structure
+    CorrectOptionIndex: 0
+    LevelName: person centered -theories of co
+  - QuestionText: 'A Person-Centered counselor would view client resistance as:'
+    Options:
+    - Something to be overcome
+    - A natural protective mechanism
+    - A sign of pathology
+    - Evidence of unconscious conflict
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co
+  - QuestionText: 'The process of "reflection" in Person-Centered Therapy involves:'
+    Options:
+    - Mirroring the client's body language
+    - Restating the client's feelings and meanings
+    - Analyzing the client's childhood
+    - Interpreting unconscious material
+    CorrectOptionIndex: 1
+    LevelName: person centered -theories of co

@@ -1,10 +1,14 @@
 .option-button {
-    margin-top: 5px;
-    padding: 8px;
-    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 30px;
     border-radius: 6px;
     background-color: #3c3c3c;
     color: white;
+    height: 70px; 
+    white-space: normal;   /* enables word wrapping */
+    overflow: visible;     /* allows the label to expand vertically */
+    flex-wrap: wrap;
 }
 
 .option-button:hover {
@@ -20,4 +24,23 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+.Question {
+    font-size: 20px;
+    color: white;
+    -unity-text-align: middle-center; /* centers text */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#QuestionText {
+    font-size: 300%;
+    white-space: normal;   /* enables word wrapping */
+    overflow: visible;     /* allows the label to expand vertically */
+    flex-wrap: wrap;
+    background-color: green;
+    height: 30%;
+}
+.container{
+    background-color: black;
 }

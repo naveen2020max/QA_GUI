@@ -1,0 +1,455 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: true and quasi designs
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the defining characteristic of a True Experimental Design?
+    Options:
+    - Use of a pre-test
+    - Manipulation of the Independent Variable
+    - "Random Assignment\_of subjects to groups"
+    - Use of a control group
+    CorrectOptionIndex: 2
+    LevelName: true and quasi designs
+  - QuestionText: 'The primary goal of random assignment is to:'
+    Options:
+    - Ensure the sample is representative of the population.
+    - Eliminate systematic differences between groups at the start of the experiment.
+    - Make the experiment more complex.
+    - Guarantee that the treatment will work.
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: Which of the following is a key characteristic of a Quasi-Experimental
+      Design?
+    Options:
+    - Lack of manipulation of the IV
+    - Inability to test hypotheses
+    - No control group
+    - Use of intact groups without random assignment
+    CorrectOptionIndex: 3
+    LevelName: true and quasi designs
+  - QuestionText: 'The major threat to internal validity that Quasi-Experimental
+      designs most often fail to control is:'
+    Options:
+    - Maturation
+    - History
+    - Selection Bias
+    - Testing
+    CorrectOptionIndex: 2
+    LevelName: true and quasi designs
+  - QuestionText: 'The "Pretest-Posttest Control Group Design" is a classic example
+      of a:'
+    Options:
+    - Quasi-Experimental Design
+    - True Experimental Design
+    - Pre-Experimental Design
+    - Correlational Design
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'The "Posttest-Only Control Group Design" can be represented as:'
+    Options:
+    - O1 X O2
+    - R X O1
+    - R X O1
+    - O1 X O2
+    CorrectOptionIndex: 2
+    LevelName: true and quasi designs
+  - QuestionText: 'The "Solomon Four-Group Design" is used primarily to:'
+    Options:
+    - Reduce cost
+    - Control for the interactive effects of testing and maturation
+    - Study four variables at once
+    - Eliminate the need for a control group
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'A study where one school receives a new science curriculum and
+      a nearby school does not is typically a:'
+    Options:
+    - True Experiment
+    - Case Study
+    - Pre-Experiment
+    - Quasi-Experiment
+    CorrectOptionIndex: 3
+    LevelName: true and quasi designs
+  - QuestionText: 'The "Non-Equivalent Control Group Design" is a common type of:'
+    Options:
+    - True Experimental Design
+    - Quasi-Experimental Design
+    - Pre-Experimental Design
+    - Factorial Design
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'The main advantage of True Experimental designs over Quasi-Experimental
+      designs is their high:'
+    Options:
+    - External Validity
+    - Cost-effectiveness
+    - Internal Validity
+    - Practicality
+    CorrectOptionIndex: 2
+    LevelName: true and quasi designs
+  - QuestionText: 'A key advantage of Quasi-Experimental designs is their:'
+    Options:
+    - High internal validity
+    - High external validity and practicality in real-world settings
+    - Low cost always
+    - Ability to use no control group
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'The time series design involves:'
+    Options:
+    - One measurement before and after treatment
+    - Comparing two non-equivalent groups
+    - Random assignment to multiple groups
+    - Multiple measurements before and after treatment
+    CorrectOptionIndex: 3
+    LevelName: true and quasi designs
+  - QuestionText: 'In a True Experiment, if the control group shows improvement simply
+      because they are in a study, it might be due to:'
+    Options:
+    - The Hawthorne Effect
+    - Selection Bias
+    - The Placebo Effect
+    - Instrumentation
+    CorrectOptionIndex: 0
+    LevelName: true and quasi designs
+  - QuestionText: 'The "Counterbalancing" technique is used in designs to control
+      for:'
+    Options:
+    - Selection bias
+    - Order effects
+    - Participant attrition
+    - History
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'A "Double-Blind" procedure is used to control for:'
+    Options:
+    - Experimenter bias and Participant expectations
+    - Only selection bias
+    - Only participant bias
+    - Both experimenter and participant biases
+    CorrectOptionIndex: 3
+    LevelName: true and quasi designs
+  - QuestionText: How does random assignment differ from random selection?
+    Options:
+    - They are the same.
+    - Random selection enhances external validity; random assignment enhances internal
+      validity.
+    - Random selection is for assignment to groups.
+    - Random assignment is for sampling.
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: Why is a control group essential in a true experiment?
+    Options:
+    - To make the study more expensive.
+    - To ensure everyone gets the treatment.
+    - It provides a baseline against which to compare the treatment group, controlling
+      for the effects of time and external events.
+    - To double the sample size.
+    CorrectOptionIndex: 2
+    LevelName: true and quasi designs
+  - QuestionText: In a Quasi-Experiment, how can a researcher strengthen the claim
+      of causality despite the lack of random assignment?
+    Options:
+    - By ignoring pre-existing differences.
+    - By using a pre-test to establish group equivalence on the DV, or using a switching
+      replications design.
+    - By having a very large sample.
+    - By not having a control group.
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: What is the primary threat to the "Posttest-Only Control Group
+      Design"?
+    Options:
+    - Testing
+    - Instrumentation
+    - Maturation
+    - It assumes that random assignment successfully created equivalent groups without
+      verifying it with a pre-test.
+    CorrectOptionIndex: 3
+    LevelName: true and quasi designs
+  - QuestionText: 'The "Switching Replications" design is a strong quasi-experimental
+      design because:'
+    Options:
+    - It has no control group.
+    - Both groups eventually receive the treatment, which controls for many threats
+      and is ethically appealing.
+    - It is the cheapest design.
+    - It does not require a pre-test.
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'A medical trial where patients are randomly assigned to receive
+      either a new drug or a sugar pill is a:'
+    Options:
+    - Quasi-Experiment
+    - Pre-Experiment
+    - True Experiment
+    - Case Study
+    CorrectOptionIndex: 2
+    LevelName: true and quasi designs
+  - QuestionText: 'A study comparing the effectiveness of two teaching methods in
+      two naturally existing classrooms is a:'
+    Options:
+    - True Experiment
+    - Quasi-Experiment
+    - Pre-Experiment
+    - Correlational Study
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'The internal validity threat of "History" is best controlled by:'
+    Options:
+    - Using a pre-test
+    - Using random selection
+    - Using a large sample
+    - Using a control group
+    CorrectOptionIndex: 3
+    LevelName: true and quasi designs
+  - QuestionText: 'The internal validity threat of "Maturation" is best controlled
+      by:'
+    Options:
+    - Using a double-blind procedure
+    - Using a control group
+    - Using a post-test only
+    - Using a small sample
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'Factorial Designs are used to:'
+    Options:
+    - Study one independent variable.
+    - Study only quasi-experimental relationships.
+    - Eliminate the need for a control group.
+    - Study the effects of two or more independent variables and their interaction.
+    CorrectOptionIndex: 3
+    LevelName: true and quasi designs
+  - QuestionText: "Assertion (A):\_True experiments are the \"gold standard\" for
+      establishing causality.\_Reason (R):\_Random assignment controls for all threats
+      to internal validity."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 2
+    LevelName: true and quasi designs
+  - QuestionText: 'A researcher uses a "Time Series Design" to evaluate a new traffic
+      law by comparing accident rates for 12 months before and 12 months after the
+      law''s implementation. This is a:'
+    Options:
+    - True Experiment
+    - Quasi-Experiment
+    - Pre-Experiment
+    - Descriptive Study
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: Contrast a "True Experiment" with a "Quasi-Experiment."
+    Options:
+    - The key difference is the use of random assignment (True) vs. the use of intact
+      groups (Quasi).
+    - True experiments are always better.
+    - Quasi-experiments have higher internal validity.
+    - True experiments cannot be done in real-world settings.
+    CorrectOptionIndex: 0
+    LevelName: true and quasi designs
+  - QuestionText: 'The "Regression Discontinuity Design" is a strong quasi-experimental
+      design that assigns participants to groups based on:'
+    Options:
+    - Random chance
+    - A cutoff score on a pre-test
+    - Volunteer status
+    - The researcher's judgment
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'If participants drop out of one group in an experiment more than
+      the other, it threatens validity through:'
+    Options:
+    - History
+    - Maturation
+    - Testing
+    - Mortality/Attrition
+    CorrectOptionIndex: 3
+    LevelName: true and quasi designs
+  - QuestionText: Which of the following is the STRONGEST design for making a causal
+      claim?
+    Options:
+    - One-Group Pretest-Posttest
+    - Static Group Comparison
+    - Pretest-Posttest Control Group Design (True Experimental)
+    - One-Shot Case Study
+    CorrectOptionIndex: 2
+    LevelName: true and quasi designs
+  - QuestionText: 'A flaw in a quasi-experiment is to:'
+    Options:
+    - Use a control group.
+    - Assume the groups are equivalent without statistical evidence from a pre-test.
+    - Use a time series.
+    - Use a large sample.
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'The term "external validity" is often higher for quasi-experiments
+      because they:'
+    Options:
+    - Are conducted in real-world, naturalistic settings with existing groups.
+    - Are conducted in artificial labs.
+    - Use random assignment.
+    - Have small sample sizes.
+    CorrectOptionIndex: 0
+    LevelName: true and quasi designs
+  - QuestionText: 'The "Placebo Effect" is best controlled by:'
+    Options:
+    - Using a pre-test
+    - Using a control group that receives an inert treatment (a placebo)
+    - Using random selection
+    - Using a double-blind design
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'A "Within-Subjects" or "Repeated Measures" design is one where:'
+    Options:
+    - Each participant is in only one group.
+    - There is no control group.
+    - The same participants are in all conditions of the experiment.
+    - Groups are not equivalent.
+    CorrectOptionIndex: 2
+    LevelName: true and quasi designs
+  - QuestionText: 'The statistical analysis for a Pretest-Posttest Control Group
+      Design could be a(n):'
+    Options:
+    - Analysis of Covariance (ANCOVA)
+    - Independent t-test only
+    - Correlation
+    - Chi-square test
+    CorrectOptionIndex: 0
+    LevelName: true and quasi designs
+  - QuestionText: The concept of "ecological validity" is a strength of which type
+      of design?
+    Options:
+    - True Experimental
+    - Quasi-Experimental
+    - Both equally
+    - Neither
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'A researcher should choose a Quasi-Experimental design over a
+      True Experimental design when:'
+    Options:
+    - They want maximum internal validity.
+    - The sample size is small.
+    - Funding is unlimited.
+    - It is logistically or ethically impossible to randomly assign participants
+      to groups.
+    CorrectOptionIndex: 3
+    LevelName: true and quasi designs
+  - QuestionText: 'The "John Henry Effect" is a threat in quasi-experiments where:'
+    Options:
+    - The control group is unaware.
+    - The control group performs better because they are competing with the experimental
+      group.
+    - The treatment group drops out.
+    - The experimenter is biased.
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'The step that transforms a pre-experimental "Static Group Comparison"
+      into a quasi-experimental "Non-Equivalent Control Group Design" is:'
+    Options:
+    - Using random assignment
+    - Adding a pre-test to both groups
+    - Removing the control group
+    - Using a post-test only
+    CorrectOptionIndex: 0
+    LevelName: true and quasi designs
+  - QuestionText: 'In a factorial design, a "main effect" refers to the effect of:'
+    Options:
+    - The interaction between two IVs
+    - One independent variable, ignoring the other
+    - The dependent variable
+    - The control group
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'The threat of "instrumentation" is controlled by:'
+    Options:
+    - Random assignment
+    - Using a small sample
+    - Using a control group
+    - Using the same, reliable measurement tools for all participants in all groups
+    CorrectOptionIndex: 3
+    LevelName: true and quasi designs
+  - QuestionText: 'A "Single-Subject Design" (e.g., ABA) is a type of:'
+    Options:
+    - True Experiment
+    - Quasi-Experiment
+    - Pre-Experiment
+    - Correlational Study
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'The fundamental question that a True Experimental design CAN answer
+      definitively that a Quasi-Experimental design cannot is:'
+    Options:
+    - What is the correlation?
+    - What was the mean score?
+    - "Did the treatment\_cause\_the change, ruling out pre-existing differences?"
+    - Is the sample representative?
+    CorrectOptionIndex: 2
+    LevelName: true and quasi designs
+  - QuestionText: 'The term "confounding variable" is best controlled in a True Experiment
+      through:'
+    Options:
+    - Random Assignment
+    - Careful selection of participants
+    - Using a large sample size
+    - Conducting a literature review
+    CorrectOptionIndex: 0
+    LevelName: true and quasi designs
+  - QuestionText: The "Solomon Four-Group Design" combines which two other designs?
+    Options:
+    - One-Shot and Static Group
+    - Pretest-Posttest Control Group and Posttest-Only Control Group
+    - Time Series and Non-Equivalent Groups
+    - Factorial and Correlational
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'A key ethical consideration in True Experiments is:'
+    Options:
+    - They are always unethical.
+    - They do not require informed consent.
+    - They are too easy to conduct.
+    - The ethical imperative of random assignment, which may deny a potentially beneficial
+      treatment to the control group.
+    CorrectOptionIndex: 3
+    LevelName: true and quasi designs
+  - QuestionText: 'The recommended approach when true experimentation is not possible
+      is to:'
+    Options:
+    - Abandon the research.
+    - Use the strongest possible quasi-experimental design and acknowledge its limitations.
+    - Pretend it was a true experiment.
+    - Use a pre-experimental design.
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs
+  - QuestionText: 'In the hierarchy of evidence for intervention studies, True Experimental
+      designs (RCTs) are ranked:'
+    Options:
+    - At the bottom.
+    - Below quasi-experiments.
+    - At the top, as the most reliable for establishing causality.
+    - The same as case studies.
+    CorrectOptionIndex: 2
+    LevelName: true and quasi designs
+  - QuestionText: 'The most critical element for a researcher to report when describing
+      a Quasi-Experimental study is:'
+    Options:
+    - The color of the lab coats.
+    - The specific threats to internal validity, particularly selection bias, and
+      the steps taken to mitigate them.
+    - The exact p-values.
+    - The personal opinions of the researcher.
+    CorrectOptionIndex: 1
+    LevelName: true and quasi designs

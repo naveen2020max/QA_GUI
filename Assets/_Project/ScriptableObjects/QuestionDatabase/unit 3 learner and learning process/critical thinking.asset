@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: critical thinking
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'Critical thinking is best defined as the process of:'
+    Options:
+    - Accumulating a large amount of factual information.
+    - Actively and skillfully conceptualizing, applying, analyzing, synthesizing,
+      and evaluating information.
+    - Quickly arriving at a conclusion based on intuition.
+    - Criticizing the ideas of others.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'The intellectual standard of critical thinking that addresses
+      whether a statement is true and backed by evidence is:'
+    Options:
+    - Clarity
+    - Relevance
+    - Precision
+    - Accuracy
+    CorrectOptionIndex: 3
+    LevelName: critical thinking
+  - QuestionText: 'A statement that is worded in a way that reveals the arguer''s
+      bias or unsupported judgment is an example of a(n):'
+    Options:
+    - Inference
+    - Assumption
+    - Opinion
+    - Fact
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'The term for a mistake in reasoning or a flawed argument is a:'
+    Options:
+    - Heuristic
+    - Schema
+    - Bias
+    - Fallacy
+    CorrectOptionIndex: 3
+    LevelName: critical thinking
+  - QuestionText: Which of the following is a core skill of a critical thinker?
+    Options:
+    - Relying on gut feelings
+    - Identifying unstated assumptions
+    - Accepting authority without question
+    - Avoiding all forms of skepticism
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'The intellectual trait of being conscious of the limits of one''s
+      own knowledge is known as:'
+    Options:
+    - Intellectual arrogance
+    - Intellectual autonomy
+    - Intellectual humility
+    - Intellectual empathy
+    CorrectOptionIndex: 2
+    LevelName: critical thinking
+  - QuestionText: The statement, "We should invest in this company because all the
+      smart investors are doing it," is an example of which fallacy?
+    Options:
+    - Ad Hominem
+    - Slippery Slope
+    - Appeal to Popularity (Bandwagon)
+    - False Cause
+    CorrectOptionIndex: 2
+    LevelName: critical thinking
+  - QuestionText: 'The first step in the critical thinking process is often considered
+      to be:'
+    Options:
+    - Drawing a conclusion
+    - Identifying the problem or question
+    - Evaluating evidence
+    - Defending a position
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: Which intellectual standard asks if the reasoning addresses the
+      complexities of the issue at hand?
+    Options:
+    - Relevance
+    - Logic
+    - Breadth
+    - Depth
+    CorrectOptionIndex: 3
+    LevelName: critical thinking
+  - QuestionText: 'The disposition to be proactive in applying critical thinking
+      skills to one''s life is known as:'
+    Options:
+    - Intellectual laziness
+    - The critical spirit
+    - Confirmation bias
+    - Egocentrism
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'A teacher asks students, "What is the evidence for this claim,
+      and are there other possible explanations?" This question is primarily promoting:'
+    Options:
+    - Rote memorization
+    - Critical thinking
+    - Blind acceptance
+    - Creative writing
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: An advertisement states, "A real man drinks Brand X beer." This
+      is an example of which logical fallacy?
+    Options:
+    - Straw Man
+    - Appeal to Authority
+    - Hasty Generalization
+    - False Dilemma
+    CorrectOptionIndex: 2
+    LevelName: critical thinking
+  - QuestionText: 'The ability to understand and appreciate another person''s perspective,
+      even if you disagree, is a trait of critical thinking known as:'
+    Options:
+    - Intellectual empathy
+    - Intellectual conformity
+    - Intellectual cowardice
+    - Intellectual autonomy
+    CorrectOptionIndex: 0
+    LevelName: critical thinking
+  - QuestionText: 'A student reads a scientific study and asks, "Who funded this
+      research, and could that have influenced the results?" The student is demonstrating:'
+    Options:
+    - Confirmation bias
+    - A skeptical and critical stance
+    - Disrespect for authority
+    - Intellectual arrogance
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'The statement, "If we allow students to redo tests, next they''ll
+      be asking to choose their own grades, and soon the entire education system
+      will collapse!" is a classic example of a:'
+    Options:
+    - Slippery Slope fallacy
+    - Red Herring fallacy
+    - Appeal to Emotion
+    - Circular Reasoning
+    CorrectOptionIndex: 0
+    LevelName: critical thinking
+  - QuestionText: 'A critical thinker, when faced with a complex issue, will most
+      likely:'
+    Options:
+    - Choose the simplest solution.
+    - Consider multiple viewpoints and evidence before forming a judgment.
+    - Immediately adopt the opinion of an expert.
+    - Ignore information that contradicts their initial belief.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'The intellectual standard of Relevance requires that the information
+      presented:'
+    Options:
+    - Is emotionally powerful.
+    - Has a direct bearing on the issue at hand.
+    - Comes from a reputable source.
+    - Is statistically significant.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'Confirmation bias is a major barrier to critical thinking because
+      it leads people to:'
+    Options:
+    - Seek out and favor information that supports their existing beliefs.
+    - Critically evaluate all evidence equally.
+    - Change their minds too quickly.
+    - Trust their intuition above all else.
+    CorrectOptionIndex: 0
+    LevelName: critical thinking
+  - QuestionText: 'A politician attacks an opponent''s character instead of addressing
+      their policy proposal. This is an example of:'
+    Options:
+    - Ad Hominem fallacy
+    - False Cause fallacy
+    - Appeal to Tradition
+    - Hasty Generalization
+    CorrectOptionIndex: 0
+    LevelName: critical thinking
+  - QuestionText: 'When a critical thinker encounters a new claim, their first reaction
+      should be to:'
+    Options:
+    - Accept it if it feels right.
+    - Ask, "How do I know this is true? What is the evidence?"
+    - Share it immediately on social media.
+    - Reject it if it contradicts their current beliefs.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'A news article presents data showing that ice cream sales and
+      drowning deaths are correlated. A critical thinker would conclude that:'
+    Options:
+    - Eating ice cream causes drowning.
+    - There is a correlation, but a third variable (like hot weather) likely causes
+      both.
+    - The data must be fabricated.
+    - Drowning causes people to buy ice cream.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'A school curriculum that emphasizes project-based learning, where
+      students must research, evaluate sources, and defend their conclusions, is
+      primarily designed to foster:'
+    Options:
+    - Standardized test performance only.
+    - Rote memorization skills.
+    - Critical thinking competencies.
+    - Unquestioning acceptance of textbook knowledge.
+    CorrectOptionIndex: 2
+    LevelName: critical thinking
+  - QuestionText: 'The "false dilemma" fallacy is problematic because it:'
+    Options:
+    - Attacks a person's character.
+    - Unfairly oversimplifies an issue by presenting only two choices when more exist.
+    - Uses emotions to distract from the facts.
+    - Assumes that because one event followed another, it was caused by it.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'Comparing critical thinking to creative thinking, a key difference
+      is that critical thinking primarily involves:'
+    Options:
+    - Generating novel ideas without judgment.
+    - Making reasoned judgments about the value of information and ideas.
+    - Avoiding logical structures.
+    - Focusing solely on emotional expression.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'A teacher shows a class two commercials for the same product,
+      one using celebrity endorsement and the other using scientific data. Asking
+      students to evaluate which is more persuasive is an exercise in:'
+    Options:
+    - Media literacy and critical analysis.
+    - Memorizing advertising slogans.
+    - Developing brand loyalty.
+    - Creative storytelling.
+    CorrectOptionIndex: 0
+    LevelName: critical thinking
+  - QuestionText: The statement, "You can't trust his analysis on climate change
+      because he's not a scientist," is an example of which fallacy, if the person
+      has presented valid data and reasoning?
+    Options:
+    - Ad Hominem (Circumstantial)
+    - Slippery Slope
+    - Appeal to Tradition
+    - Red Herring
+    CorrectOptionIndex: 0
+    LevelName: critical thinking
+  - QuestionText: 'The intellectual trait of intellectual autonomy is demonstrated
+      by a person who:'
+    Options:
+    - Unquestioningly follows social trends.
+    - Thinks for themselves and does not accept beliefs without evidence.
+    - Relies solely on the opinions of experts.
+    - Is indifferent to the views of others.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'A key barrier to developing critical thinking in students is an
+      educational system that overemphasizes:'
+    Options:
+    - Questioning and inquiry.
+    - High-stakes testing of rote memorization.
+    - Collaborative problem-solving.
+    - Metacognitive reflection.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: A critical thinker evaluating a website would find which of the
+      following most credible?
+    Options:
+    - A site with many pop-up ads and anonymous authors.
+    - A site sponsored by a company trying to sell a related product.
+    - A .gov or .edu site with clearly cited, recent evidence.
+    - A site that uses strong emotional language to make its case.
+    CorrectOptionIndex: 2
+    LevelName: critical thinking
+  - QuestionText: 'The "straw man" fallacy involves:'
+    Options:
+    - Misrepresenting an opponent's position to make it easier to attack.
+    - Using a popular figure to endorse a product.
+    - Arguing that something is true because it hasn't been proven false.
+    - Repeating a claim until it is believed.
+    CorrectOptionIndex: 0
+    LevelName: critical thinking
+  - QuestionText: 'In the context of Bloom''s Taxonomy, critical thinking primarily
+      operates at the levels of:'
+    Options:
+    - Remembering and Understanding
+    - Applying and Analyzing
+    - Analyzing, Evaluating, and Creating
+    - Understanding and Applying
+    CorrectOptionIndex: 2
+    LevelName: critical thinking
+  - QuestionText: 'A doctor who considers a patient''s unique symptoms, research
+      on various medications, and potential side effects before prescribing is using:'
+    Options:
+    - Algorithmic thinking
+    - Critical thinking
+    - Emotional reasoning
+    - Availability heuristic
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'The "appeal to authority" becomes fallacious when:'
+    Options:
+    - The authority is a recognized expert in the relevant field.
+    - The authority is cited on a matter outside their field of expertise.
+    - The authority's opinion is based on evidence.
+    - The authority is widely liked and respected.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'A student who reflects on their own study habits and changes them
+      after realizing they are ineffective is demonstrating:'
+    Options:
+    - Metacognition
+    - Confirmation bias
+    - Intellectual conformity
+    - Functional fixedness
+    CorrectOptionIndex: 0
+    LevelName: critical thinking
+  - QuestionText: 'Socratic questioning in the classroom is a method used to:'
+    Options:
+    - Give students the correct answers quickly.
+    - Systematically probe the depth and logic of students' thinking.
+    - Encourage students to accept the teacher's viewpoint.
+    - Test memorization of facts.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'The fundamental purpose of teaching critical thinking is to:'
+    Options:
+    - Create a generation of cynics.
+    - Replace the need for factual knowledge.
+    - Ensure students can pass logic tests.
+    - Empower individuals to make well-reasoned judgments and decisions.
+    CorrectOptionIndex: 3
+    LevelName: critical thinking
+  - QuestionText: 'A person who can fairly present the strongest arguments for a
+      viewpoint they personally disagree with is demonstrating:'
+    Options:
+    - Intellectual hypocrisy
+    - Intellectual fair-mindedness
+    - Intellectual cowardice
+    - Confirmation bias
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'The "availability heuristic" can hinder critical thinking by causing
+      people to:'
+    Options:
+    - Overestimate the likelihood of events that are easily recalled from memory.
+    - Carefully analyze statistical data.
+    - Seek out disconfirming evidence.
+    - Rely on proven logical principles.
+    CorrectOptionIndex: 0
+    LevelName: critical thinking
+  - QuestionText: 'A critical thinker examining a political poll would consider it
+      most important to know the:'
+    Options:
+    - Political affiliation of the news channel reporting it.
+    - Sample size and how the sample was selected.
+    - Time of day the poll was conducted.
+    - Physical appearance of the pollster.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'The ability to identify the structure of an argument (its premises
+      and conclusion) is essential for:'
+    Options:
+    - Reciting information verbatim.
+    - Evaluating its logical strength.
+    - Increasing reading speed.
+    - Appealing to emotions effectively.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'A curriculum that integrates critical thinking across all subjects,
+      rather than teaching it in isolation, is considered more effective because
+      it:'
+    Options:
+    - Is easier for teachers to manage.
+    - Focuses only on traditional academic subjects.
+    - Requires fewer resources.
+    - Shows students that critical thinking is relevant to all areas of knowledge
+      and life.
+    CorrectOptionIndex: 3
+    LevelName: critical thinking
+  - QuestionText: 'The statement, "We''ve always done it this way, so it must be
+      the best way," is an example of:'
+    Options:
+    - Appeal to Tradition fallacy
+    - False Analogy
+    - Hasty Generalization
+    - Red Herring
+    CorrectOptionIndex: 0
+    LevelName: critical thinking
+  - QuestionText: 'A key difference between a claim and an argument is that an argument:'
+    Options:
+    - Is always true.
+    - Provides reasons (premises) intended to support a conclusion.
+    - Is based solely on emotion.
+    - Cannot be questioned.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'A teacher who encourages a classroom culture where it is safe
+      to question ideas and make mistakes is primarily fostering:'
+    Options:
+    - Intellectual conformity
+    - The necessary environment for critical thinking to thrive
+    - A disruptive atmosphere
+    - Unhealthy competition
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'The "post hoc, ergo propter hoc" fallacy (after this, therefore
+      because of this) confuses:'
+    Options:
+    - Correlation with causation.
+    - Clarity with accuracy.
+    - Popularity with truth.
+    - An expert with a layperson.
+    CorrectOptionIndex: 0
+    LevelName: critical thinking
+  - QuestionText: 'When evaluating a source, the CRAAP test (Currency, Relevance,
+      Authority, Accuracy, Purpose) is a tool for:'
+    Options:
+    - Writing creative stories.
+    - Critical evaluation of information.
+    - Memorizing historical dates.
+    - Solving mathematical equations.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'A critical thinker is most likely to describe their beliefs as:'
+    Options:
+    - Fixed and unchangeable.
+    - Determined by majority opinion.
+    - Based entirely on faith.
+    - Provisional and subject to revision based on new evidence.
+    CorrectOptionIndex: 3
+    LevelName: critical thinking
+  - QuestionText: 'The "egocentric thinking" barrier refers to the tendency to:'
+    Options:
+    - Consider all perspectives equally.
+    - View everything in relation to oneself, leading to biased judgments.
+    - Think deeply about ethical issues.
+    - Rely on collective wisdom.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking
+  - QuestionText: 'In a debate, pointing out that an opponent''s claim is based on
+      an unproven assumption is a:'
+    Options:
+    - Personal attack.
+    - Logical fallacy.
+    - Sign of disrespect.
+    - Valid and essential critical thinking strategy.
+    CorrectOptionIndex: 3
+    LevelName: critical thinking
+  - QuestionText: 'The ultimate goal of integrating critical thinking into education
+      is to develop:'
+    Options:
+    - Students who are good at arguing.
+    - Informed, independent, and responsible lifelong learners.
+    - Experts in formal logic only.
+    - Students who always agree with their teachers.
+    CorrectOptionIndex: 1
+    LevelName: critical thinking

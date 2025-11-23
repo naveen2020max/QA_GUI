@@ -1,0 +1,471 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: sternberg - intelligence
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'Robert Sternberg''s Triarchic Theory of Intelligence is comprised
+      of three parts: Analytical, Creative, and:'
+    Options:
+    - Emotional
+    - Practical
+    - Social
+    - Naturalist
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: In Sternberg's Triarchic Theory, the component that deals with
+      how efficiently we process information is the ______ aspect.
+    Options:
+    - Creative
+    - Practical
+    - Analytical
+    - Experiential
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: 'Sternberg later expanded his theory into the "Theory of Successful
+      Intelligence," which defines success as:'
+    Options:
+    - Achieving high scores on standardized tests.
+    - Attaining wealth and fame.
+    - Achieving one's personal goals within a sociocultural context.
+    - Mastering all academic subjects equally.
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: According to Sternberg, the ability to cope with novel situations
+      and automate thinking processes is part of the ______ aspect of his Triarchic
+      Theory.
+    Options:
+    - Analytical
+    - Practical
+    - Experiential
+    - Componential
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: 'Sternberg''s WICS model, relevant to leadership, stands for Wisdom,
+      Intelligence, and:'
+    Options:
+    - Creativity, Synthesized
+    - Character, Strength
+    - Confidence, Skill
+    - Cognition, Strategy
+    CorrectOptionIndex: 0
+    LevelName: sternberg - intelligence
+  - QuestionText: 'In the Triarchic Theory, the "Contextual" aspect is also referred
+      to as:'
+    Options:
+    - Analytical Intelligence
+    - Creative Intelligence
+    - Practical Intelligence
+    - Emotional Intelligence
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: Sternberg argued that traditional IQ tests primarily measure which
+      aspect of his triarchic theory?
+    Options:
+    - Practical
+    - Creative
+    - Analytical
+    - All three equally
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: 'The ability to "get along" in different environments, a key part
+      of practical intelligence, is also known as:'
+    Options:
+    - Academic prowess
+    - Street smarts
+    - Emotional suppression
+    - Cognitive speed
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'In his more recent work, Sternberg proposed the ACCEL model, which
+      stands for:'
+    Options:
+    - Active, Creative, Critical, Ethical, and Logical
+    - Active Concerned Citizenship and Ethical Leadership
+    - Analytical, Creative, and Contextual Educational Learning
+    - Advanced Cognitive and Creative Educational Leadership
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: Sternberg's theory is a direct challenge to which traditional view
+      of intelligence?
+    Options:
+    - That intelligence is culturally specific.
+    - That intelligence is a single, general ability (the 'g' factor).
+    - That intelligence declines with age.
+    - That intelligence is solely genetic.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: A student who can analyze a complex poem, identify its themes,
+      and critique its structure is demonstrating high ______ intelligence in Sternberg's
+      model.
+    Options:
+    - Practical
+    - Creative
+    - Analytical
+    - Naturalist
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: An entrepreneur who identifies a market need that no one else has
+      seen and invents a product to meet it is demonstrating high ______ intelligence.
+    Options:
+    - Analytical
+    - Practical
+    - Creative
+    - Interpersonal
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: A person who successfully adapts to a new job in a foreign country
+      by learning the cultural norms and customs is demonstrating high ______ intelligence.
+    Options:
+    - Analytical
+    - Creative
+    - Practical
+    - Existential
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: 'The main educational implication of Sternberg''s theory is that
+      schools should:'
+    Options:
+    - Focus exclusively on analytical skills measured by standardized tests.
+    - Value and assess analytical, creative, and practical skills.
+    - Prioritize creative thinking over all other skills.
+    - Separate students based on their practical abilities.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'According to Sternberg, a major flaw in traditional education
+      is that it:'
+    Options:
+    - Overemphasizes practical and creative skills.
+    - Focuses too much on memorization and analytical skills, neglecting creative
+      and practical ones.
+    - Is too focused on ethical development.
+    - Does not provide enough homework.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'In the Triarchic Theory, the component that involves selecting,
+      adapting to, and shaping one''s environment is the:'
+    Options:
+    - Experiential aspect
+    - Componential aspect
+    - Contextual aspect
+    - Metacognitive aspect
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: Sternberg's concept of "tacit knowledge" is most closely associated
+      with which type of intelligence?
+    Options:
+    - Analytical
+    - Creative
+    - Practical
+    - Emotional
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: A teacher who assigns a project where students must design a solution
+      to a real-world problem in their community is aiming to develop students' ______
+      intelligence.
+    Options:
+    - Analytical
+    - Creative
+    - Practical
+    - Both B and C
+    CorrectOptionIndex: 3
+    LevelName: sternberg - intelligence
+  - QuestionText: 'Sternberg argues that "successful intelligence" involves balancing
+      the three aspects to:'
+    Options:
+    - Maximize one's score on an IQ test.
+    - Adapt to, shape, and select environments to meet personal and societal goals.
+    - Become an expert in a single, narrow field.
+    - Suppress creative ideas that are too unconventional.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'The aspect of the Triarchic Theory that involves insight and the
+      ability to deal with novelty is the:'
+    Options:
+    - Componential
+    - Experiential
+    - Contextual
+    - Metacognitive
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'Critically analyzing Sternberg''s theory, a major strength is
+      that it:'
+    Options:
+    - Is simpler to measure than the 'g' factor.
+    - Is identical to Gardner's theory of multiple intelligences.
+    - Focuses exclusively on cognitive processes.
+    - Provides a broader, more comprehensive view of intelligence that includes real-world
+      skills.
+    CorrectOptionIndex: 3
+    LevelName: sternberg - intelligence
+  - QuestionText: 'A school that uses multiple forms of assessment, including traditional
+      tests, creative portfolios, and real-world problem-solving tasks, is most aligned
+      with the principles of:'
+    Options:
+    - Spearman's 'g' factor theory
+    - Sternberg's Triarchic Theory
+    - Cattell's fluid and crystallized intelligence
+    - Thurstone's primary mental abilities
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'A manager who can analyze sales data (analytical), brainstorm
+      a new marketing strategy (creative), and effectively implement it with their
+      team (practical) is demonstrating what Sternberg calls:'
+    Options:
+    - General Intelligence
+    - Crystallized Intelligence
+    - Emotional Intelligence
+    - Successful Intelligence
+    CorrectOptionIndex: 3
+    LevelName: sternberg - intelligence
+  - QuestionText: 'Comparing Sternberg''s Triarchic Theory to Gardner''s Theory of
+      Multiple Intelligences, a key difference is that Sternberg''s theory:'
+    Options:
+    - Proposes a much larger number of independent intelligences.
+    - Is organized around three fundamental categories of information processing.
+    - Denies the role of context in intelligence.
+    - Is based solely on biological evidence.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'A key criticism of Sternberg''s theory is that:'
+    Options:
+    - It is too narrow and only includes analytical skills.
+    - The distinctions between the three aspects can be blurry and difficult to measure
+      independently.
+    - It has no educational implications.
+    - It overemphasizes the role of genetics.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'In his WICS model, Sternberg argues that wisdom is necessary to
+      ensure that intelligence and creativity are:'
+    Options:
+    - Used for the common good.
+    - Used to maximize personal profit.
+    - Kept separate from each other.
+    - Measured by standardized tests.
+    CorrectOptionIndex: 0
+    LevelName: sternberg - intelligence
+  - QuestionText: A student who struggles with traditional exams but excels in hands-on
+      lab work and designing original experiments would likely be considered high
+      in ______ intelligence according to Sternberg.
+    Options:
+    - Analytical
+    - Practical and Creative
+    - Only Practical
+    - Only Creative
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'Sternberg''s concept that intelligent behavior involves "selecting"
+      a new environment, rather than just adapting to the current one, is a key differentiator
+      from theories that view intelligence as:'
+    Options:
+    - Purely reactive.
+    - Entirely genetic.
+    - Based on processing speed.
+    - Focused on memory alone.
+    CorrectOptionIndex: 0
+    LevelName: sternberg - intelligence
+  - QuestionText: 'A curriculum designed around Sternberg''s principles would likely:'
+    Options:
+    - Eliminate all standardized testing.
+    - Offer a variety of learning and assessment methods to cater to different intellectual
+      strengths.
+    - Focus only on developing practical, vocational skills.
+    - Prioritize creative arts over all other subjects.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'The concept of "tacit knowledge" in practical intelligence is
+      problematic to measure because it is:'
+    Options:
+    - Easily articulated in written form.
+    - Learned through formal instruction.
+    - Unconscious and gained through experience.
+    - The same across all cultures and contexts.
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: 'Sternberg''s theory has been particularly influential in challenging
+      the notion that college admissions should be based primarily on:'
+    Options:
+    - Athletic ability.
+    - Standardized test scores like the SAT, which he argues measure mainly analytical
+      intelligence.
+    - Musical talent.
+    - Personal interviews.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'A teacher who encourages students to question why a historical
+      event is taught and to consider its relevance to modern society is fostering
+      the development of:'
+    Options:
+    - Analytical intelligence only.
+    - Practical and analytical intelligence.
+    - Creative intelligence only.
+    - Rote memorization skills.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'The "componential" aspect of the Triarchic Theory includes metacomponents,
+      performance components, and knowledge-acquisition components. This aspect is
+      most directly involved in:'
+    Options:
+    - Adapting to a new culture.
+    - Writing a symphony.
+    - Planning, monitoring, and solving a problem.
+    - Building rapport with strangers.
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: 'A fundamental reason why Sternberg''s theory is considered "systems-oriented"
+      is that it:'
+    Options:
+    - Focuses on isolated cognitive components.
+    - Views intelligence as an interaction between the individual and the world.
+    - Is based on computer models of intelligence.
+    - Denies the role of the environment.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'Research supporting Sternberg''s theory has shown that teaching
+      students in a way that matches their triarchic profile (analytical, creative,
+      practical) can lead to:'
+    Options:
+    - Worse performance on all assessments.
+    - Improved learning outcomes compared to one-size-fits-all instruction.
+    - No difference in academic achievement.
+    - A decrease in creative thinking.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'In the context of the WICS model, "synthesized" implies that wisdom,
+      intelligence, and creativity:'
+    Options:
+    - Are three separate entities that should never interact.
+    - Work together to produce effective leadership and problem-solving.
+    - Are all that is needed for success, excluding ethical considerations.
+    - Are all measured by the same standardized test.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: A person who redefines a problem to see it in a new light is using
+      a skill central to Sternberg's ______ intelligence.
+    Options:
+    - Analytical
+    - Practical
+    - Creative
+    - Contextual
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: 'Sternberg''s theory suggests that a truly intelligent person knows
+      their strengths and weaknesses and:'
+    Options:
+    - Hides their weaknesses from others.
+    - Focuses only on their strengths.
+    - Finds ways to capitalize on strengths and compensate for weaknesses.
+    - Avoids situations that require their weak areas.
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: 'The ACCEL model reflects Sternberg''s belief that education should
+      focus on developing:'
+    Options:
+    - Passive recipients of knowledge.
+    - Technologically savvy consumers.
+    - Active, concerned, and ethical citizens.
+    - Specialists in a single discipline.
+    CorrectOptionIndex: 2
+    LevelName: sternberg - intelligence
+  - QuestionText: 'A key difference between Sternberg''s "practical intelligence"
+      and Gardner''s "interpersonal intelligence" is that practical intelligence:'
+    Options:
+    - Is solely about understanding other people.
+    - Encompasses a broader set of skills for managing real-world tasks and environments.
+    - Is not relevant to success outside of school.
+    - Is easier to measure than interpersonal intelligence.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: A student who invents a new study technique that works perfectly
+      for them is demonstrating ______ intelligence.
+    Options:
+    - Analytical
+    - Practical
+    - Creative
+    - Both B and C
+    CorrectOptionIndex: 3
+    LevelName: sternberg - intelligence
+  - QuestionText: 'Sternberg''s theory is considered more "parsimonious" than Gardner''s
+      because it:'
+    Options:
+    - Explains a wide range of intellectual phenomena with three core processes.
+    - Is more complex and has more components.
+    - Is based on a single factor.
+    - Is less applicable to educational settings.
+    CorrectOptionIndex: 0
+    LevelName: sternberg - intelligence
+  - QuestionText: 'The concept that intelligence is, in part, about "shaping" the
+      environment means that intelligent individuals:'
+    Options:
+    - Always conform to their surroundings.
+    - Change the environment to fit their strengths.
+    - Are always changed by their environment.
+    - Avoid challenging environments.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'A historical figure who developed a novel theory (creative), provided
+      rigorous evidence for it (analytical), and persuaded the scientific community
+      of its validity (practical) would be an exemplar of:'
+    Options:
+    - General intelligence
+    - Successful intelligence
+    - Crystallized intelligence
+    - Existential intelligence
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'A limitation in applying Sternberg''s theory in large-scale assessments
+      is that:'
+    Options:
+    - It is too easy to measure all three aspects with multiple-choice tests.
+    - It only applies to gifted students.
+    - The theory has no relevance for assessment.
+    - Measuring creative and practical intelligence reliably is more complex and
+      resource-intensive than measuring analytical intelligence.
+    CorrectOptionIndex: 3
+    LevelName: sternberg - intelligence
+  - QuestionText: 'Sternberg''s work suggests that life success depends on:'
+    Options:
+    - High analytical intelligence alone.
+    - A blend of analytical, creative, and practical intelligence.
+    - Luck and circumstance more than intelligence.
+    - The ability to please authority figures.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'In a diverse classroom, a teacher applying Sternberg''s theory
+      would be most likely to:'
+    Options:
+    - Value the different ways students demonstrate analytical, creative, and practical
+      intelligence.
+    - Teach only to the analytical strengths of the top students.
+    - Assume all students have the same intellectual profile.
+    - Focus on standardizing all student outputs.
+    CorrectOptionIndex: 0
+    LevelName: sternberg - intelligence
+  - QuestionText: 'The "investment theory of creativity," also proposed by Sternberg,
+      suggests that creative people:'
+    Options:
+    - Avoid novel ideas.
+    - "\"Buy low and sell high\" in the world of ideas\u2014pursuing unconventional
+      ideas that have growth potential."
+    - Only invest in sure things.
+    - Are born, not made.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence
+  - QuestionText: 'Sternberg''s theories have been influential in advocating for:'
+    Options:
+    - More restrictive college admissions criteria.
+    - A broader definition of giftedness that includes creative and practical abilities.
+    - The elimination of all creative arts from the curriculum.
+    - A return to a purely classical education.
+    CorrectOptionIndex: 1
+    LevelName: sternberg - intelligence

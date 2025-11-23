@@ -1,0 +1,442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: state level agencies
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Which state-level body is considered the nodal agency for academic
+      and training matters in school education?
+    Options:
+    - State Board of Education
+    - State Council of Educational Research and Training (SCERT)
+    - Directorate of Education
+    - State University
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: 'The primary role of the State Directorate of Education in in-service
+      teacher education is:'
+    Options:
+    - Conducting academic research
+    - Training master trainers
+    - Developing training modules
+    - Administrative implementation and providing logistical support
+    CorrectOptionIndex: 3
+    LevelName: state level agencies
+  - QuestionText: The SCERT is to the state as the _____ is to the nation.
+    Options:
+    - UGC
+    - NCERT
+    - NCTE
+    - CBSE
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: Which state-level institution is primarily responsible for adapting
+      the National Curriculum Framework (NCF) to the local context?
+    Options:
+    - The State Board of Examination
+    - The SCERT
+    - The District Institute of Education and Training (DIET)
+    - The Municipal Corporation
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: 'A key function of the SCERT is to:'
+    Options:
+    - Recruit teachers for private schools
+    - Manage the state's finances
+    - Set the syllabus for university education
+    - Plan and coordinate in-service teacher education programs across the state
+    CorrectOptionIndex: 3
+    LevelName: state level agencies
+  - QuestionText: Which body is responsible for conducting training programs for
+      paper setters and evaluators of state board examinations?
+    Options:
+    - SCERT
+    - State Board of School Education
+    - Directorate of Education
+    - CRC
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: 'The institution that provides academic and administrative guidance
+      to DIETs in a state is the:'
+    Options:
+    - NCERT
+    - SCERT
+    - CRC
+    - BRC
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: Which of the following is a primary function of the State Directorate
+      of Education?
+    Options:
+    - Developing textbooks
+    - Awarding Ph.D. degrees
+    - Conducting action research in classrooms
+    - Releasing funds for teacher training programs
+    CorrectOptionIndex: 3
+    LevelName: state level agencies
+  - QuestionText: 'A workshop for master trainers on a new state education policy
+      would most likely be organized by the:'
+    Options:
+    - Block Resource Centre (BRC)
+    - SCERT
+    - Cluster Resource Centre (CRC)
+    - Village Education Committee
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: 'The "S" in SIE stands for:'
+    Options:
+    - School
+    - State
+    - Science
+    - Social
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: Which state-level agency would be responsible for developing a
+      handbook on inclusive education practices for teachers across the state?
+    Options:
+    - The State Police Department
+    - The District Magistrate's office
+    - The State Transport Corporation
+    - The SCERT
+    CorrectOptionIndex: 3
+    LevelName: state level agencies
+  - QuestionText: 'The administrative head of school education in a state is typically
+      the:'
+    Options:
+    - Director of Education
+    - Principal of a DIET
+    - Chief Minister
+    - Governor
+    CorrectOptionIndex: 0
+    LevelName: state level agencies
+  - QuestionText: 'A teacher wishing to pursue an M.Ed. degree while in service would
+      enroll in a:'
+    Options:
+    - DIET
+    - State University's Department of Education
+    - BRC
+    - SCERT
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: The main target group for the State Board of School Education's
+      training programs are teachers of which levels?
+    Options:
+    - Pre-primary only
+    - Elementary only
+    - Secondary and Senior Secondary (Classes 9-12)
+    - University level
+    CorrectOptionIndex: 2
+    LevelName: state level agencies
+  - QuestionText: 'The SCERT''s role in research is primarily to:'
+    Options:
+    - Conduct medical research
+    - Investigate state-specific educational problems and solutions
+    - Develop new software for industries
+    - Study astronomical phenomena
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: Which institution acts as the bridge between the NCERT and the
+      district-level agencies (DIETs)?
+    Options:
+    - The Central Government
+    - The SCERT
+    - The Local School
+    - The Village Panchayat
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: 'The development of state-specific textbooks is a key function
+      of the:'
+    Options:
+    - Directorate of Education
+    - State Board
+    - SCERT
+    - National Library
+    CorrectOptionIndex: 2
+    LevelName: state level agencies
+  - QuestionText: 'A "State Institute of Science Education" focuses specifically
+      on the professional development of:'
+    Options:
+    - Language teachers
+    - Science and Mathematics teachers
+    - Social Studies teachers
+    - Physical Education teachers
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: 'The primary source of academic leadership for all elementary and
+      secondary teacher education in a state is the:'
+    Options:
+    - Chief Secretary
+    - SCERT
+    - District Collector
+    - High Court
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: Which of the following is NOT a function of the SCERT?
+    Options:
+    - Organizing cultural festivals
+    - Designing in-service teacher education curriculum
+    - Conducting educational surveys
+    - Organizing advanced training for teacher educators
+    CorrectOptionIndex: 0
+    LevelName: state level agencies
+  - QuestionText: 'The "C" in SCERT stands for:'
+    Options:
+    - Central
+    - Council
+    - College
+    - Commission
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: 'A major state-level initiative for integrated teacher training
+      launched in many states is:'
+    Options:
+    - NISHTHA
+    - NASA
+    - WHO
+    - UNICEF
+    CorrectOptionIndex: 0
+    LevelName: state level agencies
+  - QuestionText: 'The state-level body that ensures that the policies planned by
+      the SCERT are implemented on the ground is the:'
+    Options:
+    - Directorate of Education
+    - State Legal Services Authority
+    - State Election Commission
+    - State Sports Council
+    CorrectOptionIndex: 0
+    LevelName: state level agencies
+  - QuestionText: 'A teacher seeking a promotion based on in-service training qualifications
+      would have their records verified by the:'
+    Options:
+    - SCERT
+    - Directorate of Education
+    - School Principal
+    - Local Police Station
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: 'The creation of SCERTs was strongly recommended by the:'
+    Options:
+    - Indian Constitution
+    - Kothari Commission (1964-66)
+    - National Policy on Information Technology
+    - National Health Policy
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: Which state-level institution is most directly involved in the
+      academic supervision of DIETs?
+    Options:
+    - The State Board
+    - The BRC
+    - The CRC
+    - The SCERT
+    CorrectOptionIndex: 3
+    LevelName: state level agencies
+  - QuestionText: 'A program aimed at training all DIET faculty in the state on a
+      new pedagogical approach would be organized by the:'
+    Options:
+    - NCERT
+    - SCERT
+    - District Education Officer
+    - Block Development Officer
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: 'The "E" in SCERT stands for:'
+    Options:
+    - Economic
+    - Elementary
+    - Educational
+    - Environmental
+    CorrectOptionIndex: 2
+    LevelName: state level agencies
+  - QuestionText: A key difference between the SCERT and the Directorate of Education
+      is that the SCERT focuses on _____ while the Directorate focuses on _____.
+    Options:
+    - administration; academics
+    - academics; administration
+    - finance; research
+    - law; teaching
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: Which agency is responsible for the final approval of state-level
+      textbooks developed by the SCERT?
+    Options:
+    - The State Government
+    - The NCERT
+    - The District Magistrate
+    - The Village Sarpanch
+    CorrectOptionIndex: 0
+    LevelName: state level agencies
+  - QuestionText: 'The state-level structure ensures that in-service teacher education
+      is:'
+    Options:
+    - Isolated from national goals
+    - Aligned with both national frameworks and state-specific needs
+    - Identical in all states without any variation
+    - Managed solely by private entities
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: 'A "Refresher Course" for secondary school teachers is often organized
+      by:'
+    Options:
+    - SCERT or a University's Department of Education
+    - The Cluster Resource Centre (CRC)
+    - The Anganwadi worker
+    - The Town Council
+    CorrectOptionIndex: 0
+    LevelName: state level agencies
+  - QuestionText: 'The "R" in SCERT stands for:'
+    Options:
+    - Reform
+    - Research
+    - Regional
+    - Rural
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: 'A major challenge for state-level agencies is:'
+    Options:
+    - Lack of any educational policies to implement
+    - Having too few teachers to train
+    - The absence of a national-level guiding body
+    - Ensuring equity and quality in training across all districts
+    CorrectOptionIndex: 3
+    LevelName: state level agencies
+  - QuestionText: 'The ultimate goal of the SCERT''s activities is to:'
+    Options:
+    - Increase the number of government employees
+    - Enhance the quality of classroom teaching and learning in the state
+    - Promote a single political party
+    - Reduce the state's education budget
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: Which state-level body would be involved in the process of recognizing
+      teacher education institutions?
+    Options:
+    - SCERT (in an advisory capacity to NCTE)
+    - State Transport Authority
+    - State Electricity Board
+    - State Tourism Department
+    CorrectOptionIndex: 0
+    LevelName: state level agencies
+  - QuestionText: 'The academic resource person for a state-level workshop on ''Activity-Based
+      Learning'' would most likely be from the:'
+    Options:
+    - SCERT
+    - Fire Station
+    - State Bank of India
+    - Local grocery store
+    CorrectOptionIndex: 3
+    LevelName: state level agencies
+  - QuestionText: 'The development of a state-level achievement test to monitor learning
+      outcomes is a function of the:'
+    Options:
+    - SCERT
+    - State Health Department
+    - Public Works Department
+    - State Agriculture University
+    CorrectOptionIndex: 0
+    LevelName: state level agencies
+  - QuestionText: 'The relationship between the SCERT and the NCERT is best described
+      as:'
+    Options:
+    - Competitive and independent
+    - A hierarchical one where the SCERT guides the NCERT
+    - A collaborative one where the NCERT provides a framework and the SCERT adapts
+      it
+    - Non-existent
+    CorrectOptionIndex: 2
+    LevelName: state level agencies
+  - QuestionText: 'A "State Institute of Education (SIE)" typically focuses on:'
+    Options:
+    - Higher Education
+    - Elementary Education
+    - Technical Education
+    - Medical Education
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: Which state-level institution is responsible for the in-service
+      training of teacher educators?
+    Options:
+    - DIET
+    - SCERT
+    - CRC
+    - BRC
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: 'The "T" in SCERT stands for:'
+    Options:
+    - Teaching
+    - Tertiary
+    - Technology
+    - Training
+    CorrectOptionIndex: 3
+    LevelName: state level agencies
+  - QuestionText: 'A university''s Department of Education contributes to in-service
+      education primarily through:'
+    Options:
+    - Organizing primary health check-up camps
+    - Offering advanced degree programs and conducting research
+    - Managing school infrastructure
+    - Distributing free uniforms to students
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: 'The success of state-level in-service education programs is most
+      evident in the:'
+    Options:
+    - Number of meetings held in the state capital
+    - Improved academic performance and teaching practices across the state's schools
+    - Size of the SCERT building
+    - Number of cars owned by officials
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: Which body is responsible for monitoring the utilization of funds
+      allocated for teacher training by the central government?
+    Options:
+    - The State Directorate of Education
+    - The SCERT
+    - The Lok Sabha
+    - The Supreme Court
+    CorrectOptionIndex: 0
+    LevelName: state level agencies
+  - QuestionText: 'A teacher who develops an innovative teaching method may get state-level
+      recognition through the:'
+    Options:
+    - Income Tax Department
+    - State Pollution Control Board
+    - Motor Vehicles Department
+    - SCERT
+    CorrectOptionIndex: 3
+    LevelName: state level agencies
+  - QuestionText: 'The state-level planning for in-service teacher education under
+      the Samagra Shiksha scheme is coordinated by the:'
+    Options:
+    - SCERT and Directorate of Education
+    - District Collector
+    - Municipal Commissioner
+    - State Police Chief
+    CorrectOptionIndex: 0
+    LevelName: state level agencies
+  - QuestionText: 'A key role of the State Board in in-service education is to:'
+    Options:
+    - Develop pre-service teacher education curriculum
+    - Orient teachers on examination reforms and evaluation processes
+    - Construct school buildings
+    - Appoint university professors
+    CorrectOptionIndex: 1
+    LevelName: state level agencies
+  - QuestionText: 'The academic autonomy of the SCERT allows it to:'
+    Options:
+    - Ignore national educational goals
+    - Adapt programs to meet the specific linguistic and cultural needs of the state
+    - Set foreign policy for the state
+    - Print currency
+    CorrectOptionIndex: 1
+    LevelName: state level agencies

@@ -1,0 +1,487 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: meaning, nature and scope of TE
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: The National Council for Teacher Education (NCTE) was given statutory
+      status in which year, fundamentally changing the landscape of teacher education
+      in India?
+    Options:
+    - 1973
+    - 1995
+    - 1986
+    - 2005
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: A teacher educator designs a module where student-teachers are
+      required to analyze a case study of a classroom conflict from multiple sociological
+      and psychological perspectives. This activity primarily addresses which objective
+      of teacher education?
+    Options:
+    - Developing pedagogical skills
+    - Fostering memory retention
+    - Promoting reflective thinking
+    - Ensuring language proficiency
+    CorrectOptionIndex: 2
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: If a pre-service teacher education program heavily emphasizes 'School
+      Internship' and 'Action Research,' it is aligning itself most closely with
+      which nature of teacher education?
+    Options:
+    - Theory-dominated
+    - Apprenticeship-based
+    - Exclusively disciplinary
+    - Job-oriented and performance-based
+    CorrectOptionIndex: 3
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: The concept of "Teacher Education" is considered a 'triangular
+      process' as identified by the Education Commission (1964-66). Which of the
+      following is NOT a vertex of this triangle?
+    Options:
+    - Teacher
+    - Student
+    - Principal
+    - Community
+    CorrectOptionIndex: 2
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: Which of the following best describes the 'scope' of teacher education?
+    Options:
+    - It is limited to the pre-service training received in a B.Ed. college.
+    - It encompasses pre-service and in-service phases for all levels of education.
+    - It refers only to the pedagogical content knowledge for a specific subject.
+    - It is confined to the in-service training provided by the government.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: The 'Understanding Level' of teaching is best developed in teacher
+      education through which of the following methods?
+    Options:
+    - Rote memorization of definitions
+    - Observing and analyzing live classroom transactions
+    - Copying notes from a textbook
+    - Listening to one-way lectures
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: The National Curriculum Framework for Teacher Education (NCFTE),
+      2009, emphasizes "Sustainability" as a core cross-curricular issue. How can
+      a teacher education program best integrate this?
+    Options:
+    - By removing science from the curriculum.
+    - By focusing only on environmental science as a separate subject.
+    - By encouraging student-teachers to develop lesson plans that integrate ecological
+      values across subjects.
+    - By reducing the duration of the teacher education program.
+    CorrectOptionIndex: 2
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: What is the primary 'meaning' of the term 'Teacher Education'?
+    Options:
+    - It is a process solely focused on learning how to use technology in the classroom.
+    - It is a formal and informal process of preparing and professionally grooming
+      individuals for the role of a teacher.
+    - It is a system for awarding degrees to individuals.
+    - It refers only to the training of primary school teachers.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'Critically analyzing the impact of the ''Right to Education Act
+      (RTE), 2009'' on the required qualifications and training for elementary school
+      teachers falls under the scope of teacher education related to:'
+    Options:
+    - Philosophical Foundations
+    - Policy Perspectives
+    - Communication Skills
+    - Evaluation Techniques
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: Which regulatory body is responsible for maintaining norms and
+      standards for teacher education programs in India?
+    Options:
+    - UGC
+    - NCERT
+    - NCTE
+    - CBSE
+    CorrectOptionIndex: 2
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Nature'' of teacher education is often described as being
+      ''continuous''. This implies that:'
+    Options:
+    - A teacher's education ends upon receiving a B.Ed. degree.
+    - Teacher learning is a lifelong process that extends from pre-service training
+      to ongoing professional development.
+    - Classes in teacher education institutions run without any breaks.
+    - It is a one-time, initial training program.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'A key recommendation of the NCFTE 2009 was to make teacher education
+      programs more ''integrated''. This primarily means integrating:'
+    Options:
+    - Theory and practice
+    - Only arts and science
+    - Indian and foreign education systems
+    - Public and private funding
+    CorrectOptionIndex: 0
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: Which of the following is a key component of the 'knowledge base'
+      for a teacher as per modern teacher education?
+    Options:
+    - Knowledge of the stock market
+    - Foundational knowledge from disciplines like psychology and sociology
+    - Knowledge of administrative law
+    - Knowledge of automotive repair
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'Imagine a teacher education program where student-teachers are
+      asked to design a lesson plan, execute it in a real classroom, record the outcomes,
+      and then re-design it based on the feedback. This cyclical process is an example
+      of:'
+    Options:
+    - Theoretical abstraction
+    - Rote learning
+    - Disciplinary rigor
+    - Reflective practice and action research
+    CorrectOptionIndex: 3
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Vision'' of teacher education as per NCFTE-2009 is to develop:'
+    Options:
+    - Technicians who can follow a prescribed curriculum.
+    - Humane, reflective, and progressive teachers.
+    - Experts in a single academic discipline.
+    - Teachers who focus solely on completing the syllabus.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: Which commission first recommended the establishment of a national-level
+      body for teacher education, leading to the formation of the NCTE?
+    Options:
+    - Kothari Commission (1964-66)
+    - Mudaliar Commission (1952-53)
+    - National Policy on Education (1986)
+    - Radhakrishnan Commission (1948-49)
+    CorrectOptionIndex: 0
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: The 'Scope' of teacher education includes training for which of
+      the following levels?
+    Options:
+    - Only for elementary education (Classes 1-8)
+    - Only for secondary education (Classes 9-10)
+    - For pre-primary, elementary, secondary, and higher education levels.
+    - Only for special education
+    CorrectOptionIndex: 2
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: A teacher education program that includes courses on 'Philosophical
+      and Sociological Foundations of Education' is aiming to develop which aspect
+      of a teacher-trainee?
+    Options:
+    - Only their philosophical beliefs
+    - Their theoretical perspective on the role of education in society
+    - Their physical education skills
+    - Their ability to manage school finances
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Justice Verma Committee (2012)'' was constituted to review:'
+    Options:
+    - The infrastructure of schools in India.
+    - The implementation of the RTE Act.
+    - Teacher education in India.
+    - The curriculum of higher education.
+    CorrectOptionIndex: 2
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'In the context of teacher education, ''Pedagogy'' refers to:'
+    Options:
+    - The art and science of teaching children.
+    - The study of child psychology only.
+    - The management of school administration.
+    - The process of student evaluation.
+    CorrectOptionIndex: 0
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The DIETs (District Institutes of Education and Training) were
+      established primarily to act as a nodal agency for:'
+    Options:
+    - University-level research.
+    - The improvement of elementary and adult education at the district level.
+    - Training of IAS officers.
+    - Regulating private schools.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'A teacher educator critiques the traditional ''banking concept''
+      of education, where students are seen as empty vessels to be filled, and instead
+      promotes a problem-posing dialogue. This approach is rooted in the philosophy
+      of:'
+    Options:
+    - John Dewey
+    - Paulo Freire
+    - Friedrich Froebel
+    - Maria Montessori
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: The 'Understanding Level' of teaching, as defined by Morris L.
+      Bigge, is best contrasted with which other level?
+    Options:
+    - Memory Level
+    - Reflective Level
+    - Application Level
+    - Creative Level
+    CorrectOptionIndex: 0
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: "The 'Integrated B.A. B.Ed./B.Sc.\_B.Ed.' programs are an attempt
+      to:"
+    Options:
+    - Shorten the total duration of becoming a teacher.
+    - Save on infrastructure costs.
+    - Integrate disciplinary knowledge with pedagogical principles right from the
+      undergraduate stage.
+    - Replace the traditional B.Ed. program completely.
+    CorrectOptionIndex: 2
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: Which of the following is a direct implication of considering teacher
+      education as a 'professional' course?
+    Options:
+    - It requires no practical training.
+    - It is governed by a set of norms and standards laid down by a statutory body.
+    - It is the same as any academic Master's degree.
+    - It focuses only on personal development.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Reflective Level'' of teaching, which is a key goal of modern
+      teacher education, is characterized by:'
+    Options:
+    - Rote memorization of facts and formulas.
+    - Avoiding any form of classroom interaction.
+    - Strict adherence to the textbook.
+    - Interpreting, analyzing, and discovering relationships between facts and concepts.
+    CorrectOptionIndex: 3
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Continuous and Comprehensive Evaluation (CCE)'' system,
+      which was a part of teacher training, emphasizes:'
+    Options:
+    - A single final examination at the end of the year.
+    - Evaluating both scholastic and co-scholastic aspects of a student's growth
+      on a continuous basis.
+    - Evaluating only the teacher's performance.
+    - Ranking students based on a single test.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Nature'' of teacher education is considered ''interdisciplinary''
+      because it:'
+    Options:
+    - Draws knowledge from a single discipline.
+    - Isolates teaching from the social context.
+    - Draws its content and methodology from various foundational disciplines like
+      psychology, sociology, and philosophy.
+    - Focuses only on practical skills.
+    CorrectOptionIndex: 2
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'A key challenge in the current scope of teacher education in India
+      is:'
+    Options:
+    - An oversupply of high-quality teacher education institutions.
+    - The proliferation of sub-standard private Teacher Education Institutions (TEIs).
+    - The lack of any regulatory body.
+    - The absence of a curriculum framework.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: The 'Memory Level' of teaching, often criticized in traditional
+      education, is primarily associated with which psychologist's theory?
+    Options:
+    - Jean Piaget
+    - Lev Vygotsky
+    - E.L. Thorndike
+    - John Dewey
+    CorrectOptionIndex: 2
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Meaning'' of In-service Teacher Education is:'
+    Options:
+    - The initial training given before starting a teaching job.
+    - The ongoing professional development and training provided to working teachers.
+    - The education imparted to students.
+    - The training for administrative staff in schools.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'A teacher trainee is asked to compare the educational philosophies
+      of Gandhi and Tagore and present their implications for modern classroom practices.
+      This task is an example of:'
+    Options:
+    - Memory-based learning
+    - Physical education
+    - Simple comprehension
+    - Higher-order thinking (Analysis and Evaluation)
+    CorrectOptionIndex: 3
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Right of Children to Free and Compulsory Education Act (RTE),
+      2009'' mandates that a teacher at the elementary level must possess:'
+    Options:
+    - Only a high school diploma.
+    - A minimum qualification laid down by an academic authority authorized by the
+      Central Government.
+    - No specific qualification.
+    - A postgraduate degree in any subject.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: The 'Scope' of teacher education includes which of the following
+      areas of training?
+    Options:
+    - Only teaching methods
+    - Only child psychology
+    - Only classroom management
+    - Pedagogy, curriculum development, educational technology, and assessment.
+    CorrectOptionIndex: 3
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Nature'' of teacher education as a ''system'' implies that
+      it:'
+    Options:
+    - Is a random collection of unrelated courses.
+    - Consists of interrelated components (inputs, processes, outputs) that function
+      together.
+    - Is independent of the national education policy.
+    - Functions in isolation from the school system.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Knowledge Level'' in Bloom''s taxonomy, which is foundational
+      for teachers, primarily involves:'
+    Options:
+    - Creating new theories.
+    - Applying concepts to complex real-world situations.
+    - Evaluating arguments.
+    - Remembering specific facts, terms, and basic concepts.
+    CorrectOptionIndex: 3
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Understanding Level'' in the context of learning objectives
+      for student-teachers would be demonstrated by:'
+    Options:
+    - Reciting the definition of 'learning disability'.
+    - Explaining the causes and characteristics of a specific learning disability
+      in one's own words.
+    - Designing a full-fledged intervention program for a child with dyslexia.
+    - Critiquing the national policy on inclusive education.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Higher Order Thinking Skill (HOTS)'' of ''Evaluation'' in
+      teacher education can be assessed by asking a teacher-trainee to:'
+    Options:
+    - List the steps of a lesson plan.
+    - Observe a classroom session.
+    - Define the term 'motivation'.
+    - Justify the choice of a particular teaching method for a given topic and context.
+    CorrectOptionIndex: 3
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Application Level'' of learning for a teacher is best demonstrated
+      when they:'
+    Options:
+    - Memorize a list of classroom rules.
+    - Use a cooperative learning strategy they learned in their B.Ed. course to teach
+      a concept in their own classroom.
+    - Read a book on educational psychology.
+    - Listen to a lecture on multiple intelligences.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Analysis Level'' in teacher education involves:'
+    Options:
+    - Breaking down a complex educational problem into its constituent parts.
+    - Accepting all educational theories without question.
+    - Following instructions without understanding the rationale.
+    - Recalling historical dates in education.
+    CorrectOptionIndex: 0
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Synthesis Level'' or ''Creating Level'' for a teacher educator
+      would involve asking student-teachers to:'
+    Options:
+    - Copy a model lesson plan from a handbook.
+    - Design an original teaching-learning material (TLM) to explain a difficult
+      concept.
+    - Mark student attendance.
+    - Solve a multiple-choice question paper.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'A teacher education curriculum that requires student-teachers
+      to maintain a ''Reflective Journal'' is primarily targeting the development
+      of:'
+    Options:
+    - Handwriting skills.
+    - Metacognitive awareness and the habit of self-assessment.
+    - Speed in writing.
+    - Artistic ability.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Higher Order Thinking Skill'' of ''Problem Solving'' in
+      the teaching context can be developed by:'
+    Options:
+    - Avoiding classroom conflicts altogether.
+    - Punishing students for mistakes.
+    - Only teaching theoretical models of discipline.
+    - Presenting student-teachers with real-life classroom management scenarios and
+      asking them to propose viable solutions.
+    CorrectOptionIndex: 3
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: Which of the following activities for a teacher-trainee demonstrates
+      'Understanding' rather than just 'Knowledge'?
+    Options:
+    - Stating the five stages of Piaget's cognitive development theory.
+    - Comparing and contrasting the cognitive development theories of Piaget and
+      Vygotsky.
+    - Listing the names of all Indian Education Commissions.
+    - Defining the term 'curriculum'.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: A teacher education program that includes a module on "ICT in Education"
+      is addressing which component of its scope?
+    Options:
+    - Philosophical Foundations
+    - Professional Development
+    - Historical Foundations
+    - Emerging Trends and Technologies
+    CorrectOptionIndex: 3
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Meaning'' of Pre-service Teacher Education is:'
+    Options:
+    - The training provided to teachers after they retire.
+    - The orientation given to school principals.
+    - The formal training provided to individuals before they enter the teaching
+      profession (e.g., B.Ed., D.El.Ed.).
+    - The training for non-teaching staff.
+    CorrectOptionIndex: 2
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: Critically evaluating the effectiveness of a newly introduced teaching
+      method in one's own classroom and writing a report on it involves which two
+      higher-order thinking skills most directly?
+    Options:
+    - Knowledge and Comprehension
+    - Application and Analysis
+    - Analysis and Evaluation
+    - Remembering and Understanding
+    CorrectOptionIndex: 2
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Nature'' of teacher education is ''performance-based'' because
+      it:'
+    Options:
+    - Is only concerned with theoretical knowledge.
+    - Aims to develop observable and measurable teaching competencies.
+    - Focuses solely on the teacher's personal life.
+    - Ignores practical skills.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: The 'Scope' of teacher education extends to which of the following?
+    Options:
+    - Only government school teachers
+    - Only teachers at the secondary level
+    - Teachers for all stages and streams of education, including special education
+      and adult education.
+    - Only teachers in urban areas
+    CorrectOptionIndex: 2
+    LevelName: meaning, nature and scope of TE
+  - QuestionText: 'The ''Higher Order Thinking Skill'' of ''Creating'' in the context
+      of curriculum development for a teacher would involve:'
+    Options:
+    - Faithfully implementing a centrally prescribed syllabus.
+    - Developing an original, context-relevant unit plan that integrates art and
+      science to teach environmental awareness.
+    - Photocopying a lesson plan from a colleague.
+    - Reading a chapter on curriculum design.
+    CorrectOptionIndex: 1
+    LevelName: meaning, nature and scope of TE

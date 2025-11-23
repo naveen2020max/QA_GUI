@@ -1,0 +1,474 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: kurt - personality
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Kurt Koffka was a key founding figure of which school of psychology?
+    Options:
+    - Psychoanalysis
+    - Behaviorism
+    - Gestalt Psychology
+    - Functionalism
+    CorrectOptionIndex: 2
+    LevelName: kurt - personality
+  - QuestionText: 'Koffka is famously known for stating that "the whole is something
+      else than the sum of its parts," emphasizing the concept of:'
+    Options:
+    - Psycho-social Development
+    - Collective Unconscious
+    - Gestalt
+    - Operant Conditioning
+    CorrectOptionIndex: 2
+    LevelName: kurt - personality
+  - QuestionText: Which of the following books is a major work authored by Kurt Koffka?
+    Options:
+    - The Interpretation of Dreams
+    - Principles of Gestalt Psychology
+    - Beyond the Pleasure Principle
+    - Science and Human Behavior
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'Koffka made a fundamental distinction between the geographical
+      environment and the:'
+    Options:
+    - Social Environment
+    - Behavioral Environment
+    - Cognitive Environment
+    - Emotional Environment
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: "Along with Max Wertheimer and Wolfgang K\xF6hler, Koffka is considered
+      one of the three main:"
+    Options:
+    - Behaviorists
+    - Founders of Psychoanalysis
+    - Pioneers of Gestalt Psychology
+    - Developers of Factor Analysis
+    CorrectOptionIndex: 2
+    LevelName: kurt - personality
+  - QuestionText: 'Koffka''s work extended Gestalt principles from perception into
+      the domains of learning, memory, and:'
+    Options:
+    - Personality
+    - Unconscious Motivation
+    - Genetic Inheritance
+    - Spiritual Development
+    CorrectOptionIndex: 0
+    LevelName: kurt - personality
+  - QuestionText: 'The concept of the "Behavioral Environment" refers to the environment
+      as it is:'
+    Options:
+    - Objectively and physically measured.
+    - Perceived and reacted to by the individual.
+    - Defined by societal norms.
+    - Presented in a laboratory setting.
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'Koffka argued that learning is not merely a process of connecting
+      stimuli and responses, but a reorganization of the:'
+    Options:
+    - Psychic Energy
+    - Cognitive Field
+    - Id Impulses
+    - Spiritual Self
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'In Koffka''s view, the mind operates with a tendency toward simplicity,
+      regularity, and order, a principle known as:'
+    Options:
+    - The Law of Effect
+    - The Law of Exercise
+    - The Pleasure Principle
+    - "The Law of Pr\xE4gnanz"
+    CorrectOptionIndex: 3
+    LevelName: kurt - personality
+  - QuestionText: 'Koffka''s application of Gestalt principles to child development
+      emphasized that children perceive and react to:'
+    Options:
+    - Isolated sensory elements.
+    - Structured, organized wholes.
+    - Conditioned stimuli only.
+    - Archetypal images.
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'According to Koffka, if a person perceives a shadow in a dark
+      alley as a threat, their subsequent fear and running are reactions to:'
+    Options:
+    - The geographical environment.
+    - A conditioned stimulus.
+    - The collective unconscious.
+    - The behavioral environment.
+    CorrectOptionIndex: 3
+    LevelName: kurt - personality
+  - QuestionText: 'A teacher who designs lessons to help students see the overall
+      structure and relationship between concepts before delving into details is
+      applying Koffka''s principle of:'
+    Options:
+    - Learning by conditioning
+    - Perception of organized wholes
+    - Reinforcement scheduling
+    - Repression of irrelevant details
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'Koffka''s criticism of the Behaviorist "stimulus-response" model
+      was that it ignored the:'
+    Options:
+    - Role of unconscious motivation.
+    - Importance of the perceived stimulus.
+    - Impact of genetic factors.
+    - Function of the ego.
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'The statement, "A child does not respond to the physical chair
+      but to the ''chair-for-sitting''," illustrates Koffka''s concept of the:'
+    Options:
+    - Geographical environment
+    - Phenomenal field
+    - Behavioral environment
+    - Self-concept
+    CorrectOptionIndex: 2
+    LevelName: kurt - personality
+  - QuestionText: 'In Koffka''s theory, a memory is not a static copy but a trace
+      that interacts with current processes. This dynamic view challenged the:'
+    Options:
+    - Psychoanalytic theory of repression.
+    - Associationist view of memory as a storehouse.
+    - Humanistic concept of self-actualization.
+    - Trait theory of personality.
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'Koffka believed that the process of growth and development involves
+      a series of:'
+    Options:
+    - Conditioned reflexes becoming stronger.
+    - Psychosexual stages to be resolved.
+    - Differentiations and reorganizations in the perceptual field.
+    - Archetypes becoming conscious.
+    CorrectOptionIndex: 2
+    LevelName: kurt - personality
+  - QuestionText: 'A student who suddenly understands the solution to a complex math
+      problem after seeing it from a new angle has experienced what Koffka would
+      call a:'
+    Options:
+    - Reinforcement of a correct response.
+    - Reorganization of the cognitive field.
+    - Resolution of an Oedipal complex.
+    - Connection between neural bonds.
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'For Koffka, the "whole" that influences behavior is:'
+    Options:
+    - The sum of all its individual elements.
+    - A metaphysical entity beyond study.
+    - A structured unit with its own laws.
+    - Determined solely by past experiences.
+    CorrectOptionIndex: 2
+    LevelName: kurt - personality
+  - QuestionText: 'Koffka''s application of Gestalt principles to education suggested
+      that effective teaching should present material in a way that is:'
+    Options:
+    - Broken down into the smallest possible components.
+    - Structurally clear and well-organized.
+    - Paired with strong reinforcers.
+    - Focused on revealing unconscious conflicts.
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'The difference between a map (geographical environment) and a
+      traveler''s perception of the route (behavioral environment) is central to
+      understanding Koffka''s critique of:'
+    Options:
+    - Humanistic Psychology
+    - Introspectionism
+    - Simple S-R Behaviorism
+    - Existentialism
+    CorrectOptionIndex: 2
+    LevelName: kurt - personality
+  - QuestionText: 'Critically analyzing Koffka''s theory, a major contribution was
+      its role in shifting psychology''s focus from elemental analysis to:'
+    Options:
+    - The study of holistic, organized patterns in experience and behavior.
+    - The exclusive study of observable behavior.
+    - The cataloging of unconscious archetypes.
+    - The measurement of individual trait differences.
+    CorrectOptionIndex: 0
+    LevelName: kurt - personality
+  - QuestionText: 'A curriculum designer who creates interdisciplinary units, arguing
+      that students understand history better when it''s integrated with art and
+      literature of the period, is most aligned with Koffka''s emphasis on:'
+    Options:
+    - The law of exercise.
+    - The perception of structured, meaningful wholes.
+    - The importance of negative reinforcement.
+    - The stages of psychosocial development.
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'A manager who can sense growing frustration in their team during
+      a meeting and skillfully redirects the conversation to a more positive topic
+      is demonstrating a high degree of:'
+    Options:
+    - Social awareness and social facility
+    - Primal empathy and self-isolation
+    - Cognitive empathy and social withdrawal
+    - Self-presentation and low concern
+    CorrectOptionIndex: 0
+    LevelName: kurt - personality
+  - QuestionText: 'Comparing the theories of Gardner and Goleman, a key difference
+      is that Goleman''s model of social intelligence:'
+    Options:
+    - Is part of a broader framework of multiple, independent intelligences.
+    - Is more narrowly focused on the cognitive aspects of problem-solving.
+    - Integrates social and emotional processes more explicitly and is rooted in
+      neuroscience.
+    - Denies the existence of interpersonal intelligence.
+    CorrectOptionIndex: 2
+    LevelName: kurt - personality
+  - QuestionText: 'A student who is academically brilliant but consistently fails
+      to work effectively in a team, often offending peers, is likely struggling
+      with:'
+    Options:
+    - Low fluid intelligence
+    - High social intelligence
+    - Low social intelligence
+    - High logical-mathematical intelligence
+    CorrectOptionIndex: 2
+    LevelName: kurt - personality
+  - QuestionText: The concept of "emotional contagion," where one person's emotions
+      trigger similar emotions in others, is most relevant to which component of
+      social intelligence?
+    Options:
+    - Self-presentation
+    - Primal empathy
+    - Behavioral flexibility
+    - Social influence
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'In a culturally diverse classroom, a teacher with high social
+      intelligence would be most likely to:'
+    Options:
+    - Ignore cultural differences to treat everyone exactly the same.
+    - Avoid any discussions about culture to prevent conflict.
+    - Expect all students to assimilate to the dominant classroom culture.
+    - Recognize and respectfully adapt to different cultural communication styles.
+    CorrectOptionIndex: 3
+    LevelName: kurt - personality
+  - QuestionText: 'A school implements a program that uses role-playing to teach
+      students how to handle bullying, peer pressure, and friendship issues. This
+      program is directly targeting the development of:'
+    Options:
+    - Abstract reasoning skills
+    - Social intelligence competencies
+    - Crystallized knowledge
+    - Visual-spatial abilities
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'The "Machiavellian" use of social intelligence refers to using
+      these skills for:'
+    Options:
+    - Altruistic and prosocial goals.
+    - Artistic expression.
+    - Academic achievement.
+    - Personal manipulation and gain.
+    CorrectOptionIndex: 3
+    LevelName: kurt - personality
+  - QuestionText: 'A key argument for teaching social intelligence in schools is
+      that it:'
+    Options:
+    - Is more important than all academic subjects.
+    - Is a set of skills that can be learned and is linked to long-term life success.
+    - Is entirely determined by genetics and therefore cannot be changed.
+    - Is only relevant for students pursuing careers in sales.
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'A person who can tell a captivating story that holds an audience''s
+      attention is demonstrating strong skills in:'
+    Options:
+    - Social expressiveness
+    - Cognitive empathy
+    - Self-regulation
+    - Primal empathy
+    CorrectOptionIndex: 0
+    LevelName: kurt - personality
+  - QuestionText: The "Pyramid of Social Intelligence" model often places which element
+      as the foundational skill?
+    Options:
+    - Social Influence
+    - Self-Awareness
+    - Behavioral Flexibility
+    - Concern for Others
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'A historical perspective on social intelligence reveals that it
+      was initially:'
+    Options:
+    - Considered the only form of intelligence.
+    - Deemed irrelevant to survival.
+    - Perfectly measured by early IQ tests.
+    - Largely ignored in favor of academic and cognitive measures.
+    CorrectOptionIndex: 3
+    LevelName: kurt - personality
+  - QuestionText: 'A teacher who uses "I" statements and active listening to de-escalate
+      a disruptive student is modeling:'
+    Options:
+    - Low academic expectations
+    - Effective social and emotional communication
+    - Authoritarian classroom management
+    - Cognitive dissonance
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'The concept that social intelligence may have evolved as a crucial
+      survival tool for humans is supported by the:'
+    Options:
+    - Social brain hypothesis
+    - General intelligence theory
+    - Triarchic theory of intelligence
+    - Theory of multiple intelligences
+    CorrectOptionIndex: 0
+    LevelName: kurt - personality
+  - QuestionText: 'A student with high social intelligence is likely to have an advantage
+      in a job interview because they can:'
+    Options:
+    - Recite textbook definitions perfectly.
+    - Build rapport, read the interviewer's cues, and present themselves effectively.
+    - Solve complex math problems quickly.
+    - Ignore the social dynamics and focus solely on their resume.
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'Critically evaluating social intelligence, a potential downside
+      is that it can sometimes lead to:'
+    Options:
+    - Increased social isolation.
+    - Social anxiety if a person becomes overly focused on analyzing interactions.
+    - A decrease in academic performance.
+    - A complete lack of empathy.
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'In the context of inclusive education, social intelligence is
+      vital for teachers to:'
+    Options:
+    - Identify and exclude students with social difficulties.
+    - Focus only on the highest-achieving students.
+    - Streamline the curriculum for faster completion.
+    - Foster a classroom community where all students feel valued and understood.
+    CorrectOptionIndex: 3
+    LevelName: kurt - personality
+  - QuestionText: 'The ability to understand the "unwritten rules" of a social group
+      is a key aspect of:'
+    Options:
+    - Social cognition
+    - Fluid intelligence
+    - Crystallized intelligence
+    - Musical-rhythmic intelligence
+    CorrectOptionIndex: 0
+    LevelName: kurt - personality
+  - QuestionText: 'A school principal who successfully navigates conflicts between
+      staff, parents, and the school board is relying heavily on their:'
+    Options:
+    - Bodily-kinesthetic intelligence
+    - Social intelligence
+    - Existential intelligence
+    - Naturalistic intelligence
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'The "Bar-On model" of Emotional-Social Intelligence is distinct
+      because it focuses on:'
+    Options:
+    - A cross-section of emotional and social competencies that influence intelligent
+      behavior.
+    - A purely cognitive understanding of social rules.
+    - The genetic basis of intelligence.
+    - Intelligence as a single, general factor.
+    CorrectOptionIndex: 0
+    LevelName: kurt - personality
+  - QuestionText: 'A teacher''s ability to "read the room" and decide whether to
+      stick to the lesson plan or pivot to address student confusion or restlessness
+      is an example of:'
+    Options:
+    - Poor planning
+    - High social awareness and behavioral flexibility
+    - Low academic standards
+    - Rigid teaching style
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'The development of social intelligence in children is most effectively
+      fostered by:'
+    Options:
+    - Isolating them from social conflicts.
+    - Allowing all social interactions to occur without adult guidance.
+    - Focusing exclusively on individual academic work.
+    - Providing opportunities for guided social interaction and reflection.
+    CorrectOptionIndex: 3
+    LevelName: kurt - personality
+  - QuestionText: 'A key difference between sympathy and empathy in social intelligence
+      is that empathy involves:'
+    Options:
+    - Feeling pity for someone.
+    - Understanding and sharing the feelings of another.
+    - Providing a solution to a person's problem.
+    - Judging another person's emotional response.
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'The concept of "social information processing" suggests that socially
+      intelligent individuals:'
+    Options:
+    - Ignore social cues to make decisions faster.
+    - Accurately encode, interpret, and respond to social cues.
+    - Rely solely on their first impression of people.
+    - Process information more slowly in social settings.
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'A limitation of viewing social intelligence as a set of skills
+      is that it may:'
+    Options:
+    - Overemphasize the role of conscious learning and underemphasize innate temperament.
+    - Be too simple to be useful in educational contexts.
+    - Conflict with theories of multiple intelligences.
+    - Be impossible to measure in any form.
+    CorrectOptionIndex: 0
+    LevelName: kurt - personality
+  - QuestionText: 'In a digital age, "digital social intelligence" has emerged, which
+      involves:'
+    Options:
+    - Ignoring online interactions.
+    - Applying social intelligence principles to communicate effectively and appropriately
+      via digital platforms.
+    - Using technology to avoid face-to-face communication.
+    - Memorizing all social media platform rules.
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'A student who can successfully lead a group of peers towards a
+      common goal without using commands or aggression is demonstrating strong:'
+    Options:
+    - Social influence
+    - Self-oriented behavior
+    - Primal empathy
+    - Social withdrawal
+    CorrectOptionIndex: 0
+    LevelName: kurt - personality
+  - QuestionText: 'Research linking social intelligence to academic success suggests
+      that it:'
+    Options:
+    - Has no correlation whatsoever.
+    - Is a stronger predictor of success than IQ in some life domains.
+    - Is only important for elementary school students.
+    - Inhibits deep cognitive processing.
+    CorrectOptionIndex: 1
+    LevelName: kurt - personality
+  - QuestionText: 'An educational policy that prioritizes the development of social-emotional
+      learning (SEL) is implicitly recognizing the critical importance of:'
+    Options:
+    - Social intelligence and its related competencies for student development.
+    - Removing academic rigor from the curriculum.
+    - Standardized testing as the sole measure of success.
+    - Focusing exclusively on literacy and numeracy.
+    CorrectOptionIndex: 0
+    LevelName: kurt - personality

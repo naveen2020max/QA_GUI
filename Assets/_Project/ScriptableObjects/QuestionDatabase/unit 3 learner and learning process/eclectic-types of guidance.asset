@@ -1,0 +1,432 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: eclectic-types of guidance
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The eclectic approach in guidance is best defined as:'
+    Options:
+    - Strict adherence to a single theoretical orientation
+    - Selective integration of techniques from various theoretical systems
+    - Exclusive use of psychoanalytic methods
+    - Complete rejection of all established counseling theories
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'A counselor using an eclectic approach would most likely:'
+    Options:
+    - Apply the same techniques to all clients regardless of their problems
+    - Select methods based on the client's specific needs and situation
+    - Use only techniques developed within the last five years
+    - Avoid using any standardized assessment tools
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The primary advantage of the eclectic approach is its:'
+    Options:
+    - Rigid consistency in application
+    - Strong theoretical purity
+    - Simplicity and ease of mastery
+    - Flexibility and adaptability to diverse client needs
+    CorrectOptionIndex: 3
+    LevelName: eclectic-types of guidance
+  - QuestionText: Which term best describes the eclectic counselor's attitude toward
+      different counseling theories?
+    Options:
+    - Dogmatic
+    - Pragmatic
+    - Skeptical
+    - Indifferent
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'In eclectic guidance, the selection of techniques is primarily
+      based on:'
+    Options:
+    - The counselor's personal preferences
+    - What is currently most popular in the field
+    - Empirical evidence and client characteristics
+    - The theoretical school the counselor studied first
+    CorrectOptionIndex: 2
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The eclectic approach requires counselors to have:'
+    Options:
+    - Superficial knowledge of many theories
+    - Deep understanding of multiple theoretical systems
+    - Expertise in only one theoretical orientation
+    - No theoretical background
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'Technical eclecticism differs from theoretical integration in
+      that it:'
+    Options:
+    - Combines theoretical frameworks
+    - Uses techniques without accepting their theoretical origins
+    - Rejects all techniques from other approaches
+    - Creates entirely new theories
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'A key challenge of the eclectic approach is:'
+    Options:
+    - Lack of flexibility
+    - Inability to address diverse client needs
+    - Over-reliance on a single theory
+    - Potential for inconsistent or haphazard application
+    CorrectOptionIndex: 3
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The eclectic approach is particularly valuable in today''s counseling
+      practice because:'
+    Options:
+    - Clients' problems are becoming more homogeneous
+    - It addresses the complexity and diversity of client issues
+    - It simplifies counselor training requirements
+    - It requires less ongoing professional development
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: Which of the following best describes a systematic eclectic approach?
+    Options:
+    - Random selection of techniques
+    - Planned integration based on assessment and theoretical understanding
+    - Using only techniques from humanistic approaches
+    - Avoiding any technical integration
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'A school counselor using an eclectic approach with a student having
+      test anxiety might:'
+    Options:
+    - Use only cognitive techniques
+    - Avoid using any established techniques
+    - Stick exclusively to person-centered listening
+    - Combine behavioral relaxation with cognitive restructuring
+    CorrectOptionIndex: 3
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The eclectic approach is most appropriate when:'
+    Options:
+    - Working with clients from similar backgrounds only
+    - No single theory adequately addresses all aspects of a client's problem
+    - The counselor lacks training in multiple approaches
+    - The counseling agency prohibits technique integration
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: Which statement best reflects the philosophical basis of eclecticism?
+    Options:
+    - '"One theory fits all situations"'
+    - '"Different clients and problems require different approaches"'
+    - '"Techniques should never be mixed"'
+    - '"Theory is more important than practical outcomes"'
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'In eclectic counseling, the therapeutic relationship is typically:'
+    Options:
+    - Unimportant compared to technique selection
+    - The only factor that matters
+    - A foundation that can be enhanced by appropriate techniques
+    - Avoided to maintain objectivity
+    CorrectOptionIndex: 2
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The term "integrative counseling" is often used synonymously with:'
+    Options:
+    - Purely behavioral counseling
+    - Systematic eclectic approach
+    - Single-theory adherence
+    - Anti-theoretical stance
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'An eclectic counselor working with a culturally diverse client
+      population would:'
+    Options:
+    - Apply Western techniques universally
+    - Select approaches that respect and incorporate cultural factors
+    - Use only techniques from the client's culture
+    - Avoid considering cultural differences
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The eclectic approach emphasizes:'
+    Options:
+    - Theoretical purity above all else
+    - Rejection of empirical research
+    - Adherence to traditional methods
+    - What works for the particular client
+    CorrectOptionIndex: 3
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'A potential ethical concern in eclectic practice is:'
+    Options:
+    - Using only evidence-based techniques
+    - Applying techniques without adequate training
+    - Sticking to one theoretical orientation
+    - Being too consistent with clients
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The eclectic approach in school settings is particularly useful
+      because:'
+    Options:
+    - Students' problems are always simple and straightforward
+    - It allows addressing academic, personal, and social issues flexibly
+    - Schools typically mandate single-theory approaches
+    - It requires less preparation time
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: Which factor is most important in determining technique selection
+      in eclectic counseling?
+    Options:
+    - The counselor's comfort level
+    - Colleague recommendations
+    - What was most recently learned
+    - Client needs and characteristics
+    CorrectOptionIndex: 3
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'A student presents with both career indecision and social anxiety.
+      An eclectic counselor would most likely:'
+    Options:
+    - Treat these as completely separate issues
+    - Use trait-factor approach for career and cognitive-behavioral techniques for
+      anxiety
+    - Apply only psychoanalytic techniques to both issues
+    - Refer the student to multiple specialists
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'When evaluating the effectiveness of eclectic practice, the most
+      important criterion is:'
+    Options:
+    - Theoretical consistency
+    - Client progress and outcomes
+    - Adherence to traditional methods
+    - Counselor satisfaction
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The main difference between technical eclecticism and syncretism
+      is that:'
+    Options:
+    - Technical eclecticism is systematic while syncretism is haphazard
+    - Syncretism requires more training
+    - Technical eclecticism uses only behavioral techniques
+    - Syncretism is more theoretically grounded
+    CorrectOptionIndex: 0
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'In developing an eclectic approach, counselors should base their
+      practice on:'
+    Options:
+    - Personal intuition alone
+    - Research evidence and clinical experience
+    - Popular trends in counseling
+    - Client preferences exclusively
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'An eclectic counselor might combine person-centered listening
+      with behavioral techniques to:'
+    Options:
+    - Create theoretical confusion
+    - Build rapport while promoting specific behavior changes
+    - Simplify the counseling process
+    - Avoid dealing with emotions
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The trend toward eclecticism in modern counseling practice reflects:'
+    Options:
+    - Growing recognition of the complexity of human problems
+    - Decreasing quality of counselor training
+    - Simplification of counseling techniques
+    - Movement away from evidence-based practice
+    CorrectOptionIndex: 0
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'A systematic eclectic counselor would typically:'
+    Options:
+    - Use random techniques without rationale
+    - Follow a clear conceptual framework for technique selection
+    - Apply the same sequence of techniques to all clients
+    - Avoid assessing client characteristics
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The eclectic approach is particularly valuable when working with:'
+    Options:
+    - Clients who have single, straightforward problems
+    - Complex cases involving multiple issues
+    - Clients from only one cultural background
+    - Problems that fit neatly into one theoretical category
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'In school guidance, an eclectic approach allows counselors to:'
+    Options:
+    - Use the same methods for all students regardless of needs
+    - Focus exclusively on academic issues
+    - Avoid learning new techniques
+    - Tailor their approach to individual student characteristics
+    CorrectOptionIndex: 3
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The most successful eclectic counselors are typically those who:'
+    Options:
+    - Have superficial knowledge of many approaches
+    - Maintain strong theoretical foundations in multiple systems
+    - Avoid ongoing professional development
+    - Stick to techniques they learned during initial training
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: A counselor using Lazarus's Multimodal Therapy (a form of technical
+      eclecticism) would assess clients across how many modalities?
+    Options:
+    - 3
+    - 5
+    - 7
+    - 10
+    CorrectOptionIndex: 2
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'When integrating techniques from different theories, eclectic
+      counselors must be particularly mindful of:'
+    Options:
+    - Theoretical contradictions and client confusion
+    - Using only the most complex techniques
+    - Avoiding all behavioral methods
+    - Sticking to one cultural perspective
+    CorrectOptionIndex: 0
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The eclectic approach in career counseling might involve:'
+    Options:
+    - Using only standardized tests
+    - Combining assessment, values clarification, and decision-making strategies
+    - Focusing exclusively on labor market information
+    - Avoiding any personality assessment
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'A key difference between eclectic and pluralistic approaches is
+      that pluralism:'
+    Options:
+    - Emphasizes theoretical integration more strongly
+    - Focuses on using only behavioral techniques
+    - Rejects the idea of multiple approaches
+    - Is identical to single-theory practice
+    CorrectOptionIndex: 0
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'In multicultural counseling, the eclectic approach allows counselors
+      to:'
+    Options:
+    - Impose Western techniques universally
+    - Select culturally appropriate interventions
+    - Avoid learning about cultural differences
+    - Use only traditional healing methods
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The most significant challenge in training eclectic counselors
+      is:'
+    Options:
+    - The extensive knowledge base required
+    - The simplicity of the approach
+    - Lack of available training materials
+    - Resistance from clients
+    CorrectOptionIndex: 0
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'An eclectic counselor might use psychodynamic concepts to understand
+      childhood influences while using cognitive-behavioral techniques to address
+      current problems. This demonstrates:'
+    Options:
+    - Theoretical confusion
+    - Systematic integration based on client needs
+    - Lack of theoretical understanding
+    - Inconsistent practice
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'Research on eclecticism in counseling suggests that:'
+    Options:
+    - Single-theory approaches are consistently superior
+    - Many effective counselors describe themselves as eclectic
+    - Eclecticism is declining in popularity
+    - Eclectic counselors have poorer outcomes
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'In brief counseling situations, eclectic counselors might:'
+    Options:
+    - Use only long-term approaches
+    - Apply the same methods as in long-term counseling
+    - Avoid any technical integration
+    - Select focused, time-efficient techniques
+    CorrectOptionIndex: 3
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The future of eclecticism in counseling will likely involve:'
+    Options:
+    - Movement toward greater theoretical purity
+    - Increased emphasis on evidence-based integration
+    - Abandonment of technical diversity
+    - Focus on only humanistic approaches
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'A school counselor using eclectic approach with a bullied student
+      might combine:'
+    Options:
+    - Only psychoanalytic interpretation
+    - Person-centered support, social skills training, and system-level intervention
+    - Exclusive focus on the victim's behavior
+    - Avoidance of any emotional support
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The main criticism of unsystematic eclecticism is that it can
+      become:'
+    Options:
+    - Too rigid and inflexible
+    - Too focused on client needs
+    - Overly theoretical
+    - A haphazard collection of techniques
+    CorrectOptionIndex: 3
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'In developing a personal eclectic approach, counselors should
+      engage in:'
+    Options:
+    - Ongoing self-reflection and professional development
+    - Strict adherence to their initial training
+    - Avoidance of new techniques
+    - Exclusive use of traditional methods
+    CorrectOptionIndex: 0
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The eclectic approach is particularly suitable for addressing:'
+    Options:
+    - Single, isolated symptoms
+    - Complex, multifaceted problems
+    - Only mild adjustment issues
+    - Problems that fit one theoretical model
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'When using eclectic methods, counselors must ensure:'
+    Options:
+    - Theoretical purity above all else
+    - Coherence and rationale for technique selection
+    - Using only recently developed techniques
+    - Avoiding any assessment of outcomes
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'In group counseling, an eclectic approach might involve:'
+    Options:
+    - Using only psychodynamic techniques
+    - Applying the same methods to all groups
+    - Avoiding any theoretical framework
+    - Combining process-oriented and structured exercises
+    CorrectOptionIndex: 3
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'The most important factor in successful eclectic practice is:'
+    Options:
+    - The counselor's theoretical preferences
+    - Client characteristics and needs
+    - Agency policies
+    - Current professional trends
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'Eclectic counselors typically view different counseling theories
+      as:'
+    Options:
+    - Competing truths
+    - Complementary tools
+    - Completely irrelevant
+    - Identical in application
+    CorrectOptionIndex: 1
+    LevelName: eclectic-types of guidance
+  - QuestionText: 'In crisis intervention, eclectic counselors might:'
+    Options:
+    - Use only long-term approaches
+    - Apply the same methods as in non-crisis situations
+    - Avoid any technical integration
+    - Combine immediate support with practical problem-solving
+    CorrectOptionIndex: 3
+    LevelName: eclectic-types of guidance

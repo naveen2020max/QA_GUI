@@ -1,0 +1,449 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: national level
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Which national organization is the apex body for developing the
+      National Curriculum Framework (NCF)?
+    Options:
+    - NCTE
+    - UGC
+    - NCERT
+    - CBSE
+    CorrectOptionIndex: 2
+    LevelName: national level
+  - QuestionText: 'The statutory body responsible for maintaining standards in teacher
+      education and granting recognition to teacher education institutions is the:'
+    Options:
+    - NCERT
+    - NCTE
+    - NIEPA
+    - CBSE
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: Which national agency is primarily focused on the training of educational
+      planners, administrators, and school principals?
+    Options:
+    - NCERT
+    - NIOS
+    - NCTE
+    - NIEPA/NUEPA
+    CorrectOptionIndex: 3
+    LevelName: national level
+  - QuestionText: 'The ''NISHTHA'' program, a large-scale integrated teacher training
+      initiative, is launched by the:'
+    Options:
+    - National Council for Teacher Education (NCTE)
+    - Ministry of Education, Government of India
+    - University Grants Commission (UGC)
+    - Central Board of Secondary Education (CBSE)
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: Which institution organizes Refresher Courses and Orientation Programs
+      for college and university teachers through its Academic Staff Colleges?
+    Options:
+    - NCERT
+    - AICTE
+    - NCTE
+    - UGC
+    CorrectOptionIndex: 3
+    LevelName: national level
+  - QuestionText: 'The National Curriculum Framework for Teacher Education (NCFTE)
+      is developed by the:'
+    Options:
+    - NCTE
+    - NCERT
+    - UGC
+    - Ministry of Education
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'A teacher from a CBSE-affiliated school would most likely attend
+      subject-specific training organized by the:'
+    Options:
+    - State SCERT
+    - Block Resource Centre
+    - District DIET
+    - Central Board of Secondary Education (CBSE)
+    CorrectOptionIndex: 3
+    LevelName: national level
+  - QuestionText: 'The primary role of the NCERT in in-service teacher education
+      is:'
+    Options:
+    - Administrative control over state governments
+    - Research, development of training models, and capacity building of master trainers
+    - Directly training every school teacher in India
+    - Granting recognition to schools
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: Which national institution provides open and distance learning
+      opportunities for in-service teachers to obtain qualifications like D.El.Ed.?
+    Options:
+    - NIOS
+    - NCERT
+    - UGC
+    - IGNOU
+    CorrectOptionIndex: 0
+    LevelName: national level
+  - QuestionText: The "PSS Central Institute of Vocational Education" is a constituent
+      of which national body?
+    Options:
+    - NCTE
+    - NCERT
+    - UGC
+    - NIOS
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: Which body's regulations ensure that an in-service diploma program
+      for teachers meets minimum quality standards?
+    Options:
+    - CBSE
+    - NCTE
+    - NIEPA
+    - ICSE
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The national-level framework that guides the entire vision and
+      content of teacher education in India is the:'
+    Options:
+    - National Education Policy (NEP)
+    - National Curriculum Framework (NCF)
+    - National Curriculum Framework for Teacher Education (NCFTE)
+    - Right to Education Act (RTE)
+    CorrectOptionIndex: 2
+    LevelName: national level
+  - QuestionText: 'The training of faculty from State Councils of Educational Research
+      and Training (SCERTs) is primarily the responsibility of the:'
+    Options:
+    - DIETs
+    - NCERT
+    - State Government
+    - Municipal Corporations
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: Which of the following is a key function of the Ministry of Education
+      in in-service teacher education?
+    Options:
+    - Developing detailed lesson plans for all subjects
+    - Formulating national policy and launching flagship training schemes
+    - Conducting classroom-level action research
+    - Appointing teachers in state-government schools
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The ''C'' in the acronym CBSE stands for:'
+    Options:
+    - Central
+    - Council
+    - College
+    - Commission
+    CorrectOptionIndex: 0
+    LevelName: national level
+  - QuestionText: 'A workshop on "Leadership in School Education" for headteachers
+      from across the country would most likely be organized by:'
+    Options:
+    - NCERT
+    - NIEPA
+    - NCTE
+    - NIOS
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The development of the National Curriculum Framework (NCF) is
+      a landmark function of the NCERT that influences in-service education because
+      it:'
+    Options:
+    - Sets the syllabus for university exams
+    - Designs school uniforms
+    - Determines teacher salaries
+    - Provides the philosophical and pedagogical basis for what and how teachers
+      should teach
+    CorrectOptionIndex: 3
+    LevelName: national level
+  - QuestionText: Which national body is specifically mandated for the quality assurance
+      of higher education teachers' professional development?
+    Options:
+    - NCTE
+    - UGC
+    - AICTE
+    - MCI
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The ''E'' in the acronym NIEPA stands for:'
+    Options:
+    - Economic
+    - Educational
+    - Elementary
+    - Environmental
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The primary target group for the training programs of the University
+      Grants Commission (UGC) is:'
+    Options:
+    - Elementary school teachers
+    - Secondary school teachers
+    - College and university teachers
+    - School principals
+    CorrectOptionIndex: 2
+    LevelName: national level
+  - QuestionText: 'A national-level workshop on implementing the recommendations
+      of NEP 2020 in teacher education would be organized by the:'
+    Options:
+    - NCERT in collaboration with the Ministry of Education
+    - State Directorate of Education
+    - District Education Officer
+    - Block Resource Centre
+    CorrectOptionIndex: 0
+    LevelName: national level
+  - QuestionText: 'The ''S'' in the acronym PSSCIVE stands for:'
+    Options:
+    - Science
+    - Social
+    - Sunderlal
+    - Secondary
+    CorrectOptionIndex: 2
+    LevelName: national level
+  - QuestionText: Which national institution provides a platform for online teacher
+      training courses like the "Curriculum and School Leadership"?
+    Options:
+    - NIOS
+    - CBSE
+    - NCERT
+    - NCTE
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The National Institute of Open Schooling (NIOS) is crucial for
+      in-service education as it:'
+    Options:
+    - Replaces all face-to-face training
+    - Provides accessible professional development opportunities for teachers in
+      remote areas
+    - Focuses only on student examinations
+    - Trains teachers for foreign countries
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The ''A'' in the acronym NIEPA stands for:'
+    Options:
+    - Administration
+    - Association
+    - Academy
+    - Authority
+    CorrectOptionIndex: 0
+    LevelName: national level
+  - QuestionText: 'A key function of the NCTE is to:'
+    Options:
+    - Publish textbooks for all classes
+    - Lay down norms and standards for teacher education programs
+    - Conduct board examinations for Class 10 and 12
+    - Manage the finances of universities
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The national-level body that advises the central and state governments
+      on policies and programs for qualitative improvement in school education is
+      the:'
+    Options:
+    - UGC
+    - NCERT
+    - CBSE
+    - AICTE
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The ''R'' in the acronym NCERT stands for:'
+    Options:
+    - Reform
+    - Rural
+    - Regional
+    - Research
+    CorrectOptionIndex: 3
+    LevelName: national level
+  - QuestionText: 'The "Capacity Building Programs" (CBPs) are a key in-service initiative
+      of the:'
+    Options:
+    - NCERT
+    - CBSE
+    - NCTE
+    - NIOS
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The ultimate goal of all national-level agencies in in-service
+      teacher education is to:'
+    Options:
+    - Increase the number of government employees
+    - Standardize teaching methods across India
+    - Improve the overall quality of education by enhancing teacher competence
+    - Reduce the cost of education
+    CorrectOptionIndex: 2
+    LevelName: national level
+  - QuestionText: Which national body would be involved in the development of a model
+      ICT curriculum for teachers?
+    Options:
+    - NCERT
+    - Ministry of Electronics and Information Technology
+    - ISRO
+    - Department of Science and Technology
+    CorrectOptionIndex: 0
+    LevelName: national level
+  - QuestionText: 'The ''T'' in the acronym NCTE stands for:'
+    Options:
+    - Teaching
+    - Training
+    - Technology
+    - Tertiary
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'A college lecturer attending a Refresher Course in "Environmental
+      Science" is participating in a program mandated by the:'
+    Options:
+    - NCERT
+    - AICTE
+    - NCTE
+    - UGC
+    CorrectOptionIndex: 3
+    LevelName: national level
+  - QuestionText: 'The national-level framework that influences the design of all
+      in-service teacher education programs is the:'
+    Options:
+    - National Policy on Education (NPE)
+    - National Curriculum Framework for Teacher Education (NCFTE)
+    - Five-Year Plan
+    - National Skill Development Mission
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The "I" in the acronym NIOS stands for:'
+    Options:
+    - Indian
+    - International
+    - Institute
+    - Integrated
+    CorrectOptionIndex: 2
+    LevelName: national level
+  - QuestionText: Which national agency is responsible for the "Sarva Shiksha Abhiyan"
+      (SSA) and "Samagra Shiksha" schemes, which have a significant in-service training
+      component?
+    Options:
+    - NCERT
+    - Ministry of Education
+    - NCTE
+    - NIEPA
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'A key contribution of NCERT to in-service education is the development
+      of:'
+    Options:
+    - Teacher recruitment policies for states
+    - Innovative teaching-learning materials and modules
+    - School building designs
+    - Teacher salary structures
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The ''P'' in the acronym PSSCIVE stands for:'
+    Options:
+    - Primary
+    - Professional
+    - Public
+    - Pandit
+    CorrectOptionIndex: 3
+    LevelName: national level
+  - QuestionText: 'The national-level structure for in-service teacher education
+      ensures:'
+    Options:
+    - Complete autonomy for each school
+    - A common vision and standard of quality across the country
+    - That training is only theoretical
+    - The elimination of state-level agencies
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: Which national body focuses exclusively on the professional development
+      of teachers and heads of vocational streams?
+    Options:
+    - NCTE
+    - PSSCIVE
+    - UGC
+    - AICTE
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The "National Mission on Teachers and Teaching" is an initiative
+      of the:'
+    Options:
+    - Ministry of Education
+    - Ministry of Health
+    - Ministry of Defence
+    - Ministry of Agriculture
+    CorrectOptionIndex: 0
+    LevelName: national level
+  - QuestionText: 'The ''O'' in the acronym NIOS stands for:'
+    Options:
+    - Organization
+    - Open
+    - Official
+    - Operational
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'A major challenge for national-level agencies is:'
+    Options:
+    - Lack of any policies to implement
+    - Ensuring the effective trickle-down of training and resources to the grassroots
+      level
+    - The absence of a regulatory framework
+    - Having no state-level partners
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The relationship between NCERT and SCERT is best described as:'
+    Options:
+    - A competitive one
+    - A hierarchical one where SCERT directs NCERT
+    - A collaborative one where NCERT provides the framework and SCERT adapts it
+    - Non-existent
+    CorrectOptionIndex: 2
+    LevelName: national level
+  - QuestionText: 'The ''V'' in the acronym PSSCIVE stands for:'
+    Options:
+    - Value
+    - Virtual
+    - Village
+    - Vocational
+    CorrectOptionIndex: 3
+    LevelName: national level
+  - QuestionText: Which national body's guidelines ensure that an in-service certificate
+      course for elementary teachers has a minimum duration and credit structure?
+    Options:
+    - CBSE
+    - NCTE
+    - NCERT
+    - UGC
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The "Centres of Excellence" for teacher training are established
+      by the:'
+    Options:
+    - NIOS
+    - CBSE
+    - State Governments
+    - Municipalities
+    CorrectOptionIndex: 1
+    LevelName: national level
+  - QuestionText: 'The development of the "Learning Outcomes" document for each class
+      and subject was initiated by the:'
+    Options:
+    - NCTE
+    - NIOS
+    - UGC
+    - NCERT
+    CorrectOptionIndex: 3
+    LevelName: national level
+  - QuestionText: 'The comprehensive approach of national-level agencies ensures
+      that in-service teacher education is viewed as a:'
+    Options:
+    - One-time requirement for promotion
+    - Systematic and continuous component of a teacher's career
+    - Responsibility solely of the teacher
+    - Luxury for a few selected teachers
+    CorrectOptionIndex: 1
+    LevelName: national level

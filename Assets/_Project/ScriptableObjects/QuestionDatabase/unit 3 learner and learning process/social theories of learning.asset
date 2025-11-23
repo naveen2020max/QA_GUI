@@ -1,0 +1,457 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: social theories of learning
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The core concept of Albert Bandura''s Social Learning Theory is
+      that people learn through:'
+    Options:
+    - Direct reinforcement and punishment only
+    - Observing others and imitating their behavior
+    - Unconscious psychological conflicts
+    - A series of cognitive stages
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: The concept of the "Zone of Proximal Development" was proposed
+      by which social learning theorist?
+    Options:
+    - Albert Bandura
+    - Julian Rotter
+    - Lev Vygotsky
+    - John Dewey
+    CorrectOptionIndex: 2
+    LevelName: social theories of learning
+  - QuestionText: 'In Bandura''s famous "Bobo doll" experiment, children were demonstrated
+      to learn:'
+    Options:
+    - Cognitive maps
+    - Aggressive behaviors through observation
+    - Classical conditioning
+    - Conservation of mass
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'The process by which a model''s behavior is observed and then
+      replicated by an observer is called:'
+    Options:
+    - Conditioning
+    - Modeling
+    - Scaffolding
+    - Assimilation
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'According to Vygotsky, "MKO" stands for:'
+    Options:
+    - Multiple Knowledge Outcomes
+    - Meta-Knowledge Observer
+    - Moral Knowledge Organization
+    - More Knowledgeable Other
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: 'The four key processes in Bandura''s observational learning model
+      are Attention, Retention, Reproduction, and:'
+    Options:
+    - Reinforcement
+    - Motivation
+    - Organization
+    - Equilibration
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'Julian Rotter''s Social Learning Theory emphasizes the importance
+      of:'
+    Options:
+    - Unconscious motives
+    - Locus of control
+    - Cognitive development stages
+    - Psycho-social crises
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'The concept of "reciprocal determinism" in Bandura''s theory refers
+      to the interaction between:'
+    Options:
+    - Parents and teachers
+    - Concrete and abstract thinking
+    - Id, ego, and superego
+    - Behavior, personal factors, and the environment
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: '"Scaffolding" in Vygotsky''s theory refers to:'
+    Options:
+    - The biological structure of the brain
+    - Temporary support provided by a more knowledgeable person
+    - Permanent cognitive structures
+    - The process of peer competition
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'The first step in Bandura''s observational learning process is:'
+    Options:
+    - Motivation
+    - Reproduction
+    - Retention
+    - Attention
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: 'A student who believes their success depends on their own effort
+      rather than luck has:'
+    Options:
+    - An external locus of control
+    - An internal locus of control
+    - High self-efficacy
+    - Low self-esteem
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'A teacher who demonstrates how to solve a math problem step-by-step
+      while thinking aloud is providing:'
+    Options:
+    - Negative reinforcement
+    - A model for observational learning
+    - Classical conditioning
+    - Fixed-ratio reinforcement
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'According to Vygotsky, the "Zone of Proximal Development" is:'
+    Options:
+    - What a learner can do independently
+    - The area of the brain responsible for social learning
+    - The final stage of cognitive development
+    - The gap between current and potential ability with guidance
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: 'A child who imitates a superhero''s actions after watching a movie
+      is demonstrating:'
+    Options:
+    - Classical conditioning
+    - Observational learning
+    - Operant conditioning
+    - Insight learning
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'In a classroom, a "More Knowledgeable Other" could be:'
+    Options:
+    - Only the teacher
+    - The teacher, a peer, or even a computer program
+    - Only an adult family member
+    - Only someone older
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'A student is more likely to imitate a model''s behavior if the
+      model is:'
+    Options:
+    - Punished for the behavior
+    - Not skilled at the behavior
+    - Very different from themselves
+    - Similar to themselves and rewarded for the behavior
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: 'The concept of "self-efficacy" in Bandura''s theory refers to:'
+    Options:
+    - One's belief in their capability to succeed in specific situations
+    - General intelligence
+    - Locus of control
+    - Emotional intelligence
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'A key difference between Vygotsky and Piaget is that Vygotsky
+      emphasized:'
+    Options:
+    - Individual discovery
+    - Social interaction and cultural tools
+    - Biological maturation
+    - Universal fixed stages
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: '"Vicarious reinforcement" occurs when:'
+    Options:
+    - A person is directly rewarded for their behavior
+    - Reinforcement occurs randomly
+    - A person punishes themselves
+    - A person observes someone else being reinforced for a behavior
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: 'In social learning theory, "retention" involves:'
+    Options:
+    - Paying attention to the model
+    - Remembering what the model did
+    - Physically reproducing the behavior
+    - Having a reason to imitate
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'Critically analyzing Bandura''s theory, a major strength is that
+      it:'
+    Options:
+    - Explains all learning through direct experience
+    - Bridges the gap between behaviorist and cognitive learning theories
+    - Focuses only on biological factors
+    - Ignores the role of motivation
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'A teacher pairs struggling students with more capable peers for
+      a science project. This strategy is most directly based on the work of:'
+    Options:
+    - B.F. Skinner
+    - Ivan Pavlov
+    - Jean Piaget
+    - Lev Vygotsky
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: 'A school implements an anti-bullying program that shows students
+      positive examples of peer intervention. This approach is based on the principle
+      of:'
+    Options:
+    - Classical conditioning
+    - Observational learning
+    - Operant conditioning
+    - Insight learning
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'According to Bandura''s concept of reciprocal determinism, a student''s
+      poor academic performance (behavior) might be influenced by their low self-efficacy
+      (personal factor) and:'
+    Options:
+    - Their genetic inheritance only
+    - An unsupportive classroom environment (environment)
+    - Their performance on standardized tests only
+    - The teacher's personality only
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'A teacher who gradually reduces support as students become more
+      competent at a task is using:'
+    Options:
+    - Fading of scaffolding
+    - Negative reinforcement
+    - Classical conditioning
+    - Fixed-ratio scheduling
+    CorrectOptionIndex: 0
+    LevelName: social theories of learning
+  - QuestionText: The phenomenon where children are more likely to imitate media
+      violence when it is performed by attractive, successful characters demonstrates
+      the importance of which factor in observational learning?
+    Options:
+    - Retention
+    - Attention to model characteristics
+    - Motor reproduction
+    - Spontaneous recovery
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'Comparing social learning theory to traditional behaviorism, a
+      key advantage is that social learning theory:'
+    Options:
+    - Denies the role of cognitive processes
+    - Can explain learning without direct reinforcement
+    - Focuses only on observable behavior
+    - Rejects the importance of the environment
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'A student with high self-efficacy in mathematics is most likely
+      to:'
+    Options:
+    - Avoid challenging math problems
+    - Depend entirely on the teacher for solutions
+    - Attribute failure to lack of ability
+    - Persist longer when facing difficult problems
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: 'In Vygotsky''s theory, cultural tools like language and mathematical
+      systems are important because they:'
+    Options:
+    - Are biologically determined
+    - Mediate and shape thinking
+    - Are irrelevant to cognitive development
+    - Develop independently of social interaction
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'A teacher who wants to use social learning theory to improve classroom
+      behavior should:'
+    Options:
+    - Ignore both positive and negative behaviors
+    - Model and reinforce desired behaviors
+    - Use punishment as the primary strategy
+    - Focus only on individual work
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'The concept of "collective efficacy" refers to:'
+    Options:
+    - An individual's belief in their personal capabilities
+    - School-wide test scores
+    - The teacher's confidence in their teaching ability
+    - A group's shared belief in their capability to achieve goals
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: 'A key educational implication of Vygotsky''s theory is that assessment
+      should focus on:'
+    Options:
+    - Only what the student can do independently
+    - Both independent performance and potential development with assistance
+    - Comparison to age-based norms only
+    - Genetic potential for learning
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'A company that uses mentorship programs where new employees shadow
+      experienced ones is applying the principle of:'
+    Options:
+    - Classical conditioning
+    - Observational learning
+    - Operant conditioning
+    - Insight learning
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'According to social learning theory, the most effective models
+      for children are typically:'
+    Options:
+    - Abstract concepts
+    - Fictional animals
+    - Punished characters
+    - Competent, powerful, and nurturing figures
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: 'The concept of "internalization" in Vygotsky''s theory refers
+      to the process where:'
+    Options:
+    - Social activities become internal mental processes
+    - Genetic traits express themselves
+    - Information is forgotten
+    - Skills deteriorate over time
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'A teacher notices that when one student is praised for creative
+      thinking, other students begin attempting more creative approaches. This demonstrates:'
+    Options:
+    - Classical conditioning
+    - Vicarious reinforcement
+    - Negative punishment
+    - Spontaneous recovery
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'A limitation of social learning theory is that it:'
+    Options:
+    - Overemphasizes biological factors
+    - Denies the influence of the environment
+    - Ignores the role of observation
+    - May not adequately address developmental changes in learning capacity
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: 'In a diverse classroom, a teacher using Vygotsky''s approach would
+      be especially aware of:'
+    Options:
+    - Universal, culture-free learning processes
+    - Cultural differences in tools, practices, and social interaction patterns
+    - Genetic determinants of intelligence
+    - Standardized testing norms
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'Bandura expanded his Social Learning Theory to Social Cognitive
+      Theory to emphasize:'
+    Options:
+    - The decreasing importance of cognitive factors
+    - The greater role of cognitive processes in learning
+    - The irrelevance of self-regulation
+    - That learning is purely behavioral
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: '"Cognitive apprenticeship" is an educational approach that combines
+      elements from both:'
+    Options:
+    - Classical and operant conditioning
+    - Humanistic and behaviorist theories
+    - Piaget's and Freud's theories
+    - Vygotsky's and Bandura's theories
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: 'A student who observes a peer being reprimanded for talking in
+      class and then reduces their own talking is demonstrating:'
+    Options:
+    - Vicarious punishment
+    - Direct reinforcement
+    - Classical conditioning
+    - Insight learning
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'According to Bandura, the development of self-regulation occurs
+      through:'
+    Options:
+    - Maturation alone
+    - Observing models and setting personal standards
+    - Classical conditioning
+    - Random chance
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'A key difference between Vygotsky''s ZPD and Piaget''s developmental
+      stages is that the ZPD emphasizes:'
+    Options:
+    - Fixed, universal sequences
+    - Individual discovery without assistance
+    - Biological maturation limits
+    - Learning potential through social interaction
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: 'In social learning theory, "self-reinforcement" occurs when individuals:'
+    Options:
+    - Wait for external rewards
+    - Reward themselves for meeting personal standards
+    - Ignore their own performance
+    - Only respond to punishment
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'A teacher using "cooperative learning" strategies where students
+      work in mixed-ability groups is applying principles most consistent with:'
+    Options:
+    - Behavioral psychology
+    - Social constructivism
+    - Psychoanalytic theory
+    - Humanistic psychology
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'The concept of "reciprocal teaching" (where teacher and students
+      take turns leading discussions) is directly based on:'
+    Options:
+    - Piaget's cognitive stages
+    - Maslow's hierarchy of needs
+    - Pavlov's conditioning research
+    - Vygotsky's scaffolding concept
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: 'A community that values apprenticeship learning, where skills
+      are learned through guided participation, reflects the principles of:'
+    Options:
+    - Behaviorism
+    - Social learning theories
+    - Nativist theories
+    - Psychoanalysis
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'Research on self-efficacy suggests that the most effective way
+      to enhance it is through:'
+    Options:
+    - Avoiding challenging tasks
+    - Mastery experiences (succeeding at challenging tasks)
+    - Observing failures
+    - Genetic inheritance
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning
+  - QuestionText: 'A comprehensive understanding of social learning in education
+      requires consideration of:'
+    Options:
+    - Only observable behaviors
+    - Only biological maturation
+    - Only cognitive development stages
+    - The interaction of personal, behavioral, and environmental factors
+    CorrectOptionIndex: 3
+    LevelName: social theories of learning
+  - QuestionText: 'The lasting impact of social learning theories on education is
+      their emphasis on:'
+    Options:
+    - Isolated individual learning
+    - Learning as a social, interactive process
+    - Predetermined biological timelines
+    - The irrelevance of culture
+    CorrectOptionIndex: 1
+    LevelName: social theories of learning

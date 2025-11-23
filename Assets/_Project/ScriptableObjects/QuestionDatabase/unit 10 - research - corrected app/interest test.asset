@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: interest test
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary purpose of an interest test?
+    Options:
+    - To measure a person's intelligence
+    - To diagnose personality disorders
+    - To assess an individual's preferences for specific activities, topics, and
+      environments
+    - To determine academic achievement
+    CorrectOptionIndex: 2
+    LevelName: interest test
+  - QuestionText: 'Interest tests are most commonly used in the field of:'
+    Options:
+    - Clinical Psychology
+    - Educational and Vocational Guidance
+    - Neuropsychology
+    - Forensic Psychology
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'The Strong Interest Inventory (SII) is a widely used interest
+      test that compares an individual''s interests to those of:'
+    Options:
+    - A random sample of people
+    - People who are satisfied and successful in various occupations
+    - University professors
+    - Fictional characters
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: "The Kuder Preference Record is an interest test that uses a\_forced-choice\_format,
+      which means the test-taker must:"
+    Options:
+    - Rate their interest on a scale
+    - Choose the one activity they like most (or least) from a group of three
+    - Write long answers
+    - Answer "yes" or "no"
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'John Holland''s Theory of vocational personalities is also known
+      as the:'
+    Options:
+    - Big Five Theory
+    - RIASEC Model
+    - Two-Factor Theory
+    - Psychodynamic Theory
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'In Holland''s RIASEC model, a person with "Investigative" interests
+      would most enjoy a career as a:'
+    Options:
+    - Accountant
+    - Biologist
+    - Sculptor
+    - Counselor
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'According to Holland''s theory, career satisfaction is highest
+      when there is congruence between:'
+    Options:
+    - Income and education level
+    - An individual's personality type and their work environment
+    - Age and job title
+    - Test scores and grades
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'The Self-Directed Search (SDS) is a career guidance tool based
+      directly on the work of:'
+    Options:
+    - Edward Strong
+    - Frederic Kuder
+    - John Holland
+    - Anne Roe
+    CorrectOptionIndex: 2
+    LevelName: interest test
+  - QuestionText: "A key difference between an\_interest\_and an\_aptitude\_is that
+      an interest reflects _____, while an aptitude reflects _____."
+    Options:
+    - skill; knowledge
+    - preference; potential ability
+    - intelligence; personality
+    - achievement; motivation
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: Which of the following is a major criticism of some interest inventories?
+    Options:
+    - They are too short.
+    - They may reinforce gender stereotypes by suggesting traditional "male" or "female"
+      careers.
+    - They measure intelligence.
+    - They are only for adults.
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'The concept of "measured interests" refers to interests that are:'
+    Options:
+    - Observed by a psychologist
+    - Assessed through a standardized inventory or test
+    - Stated in an interview
+    - Inferred from behavior
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: '"Expressed interests" are those that an individual:'
+    Options:
+    - Denies having
+    - Verbally states or declares
+    - Demonstrates through skill
+    - Is unaware of
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'A "vocational interest" is specifically related to:'
+    Options:
+    - Hobbies and leisure
+    - The world of work and careers
+    - Academic subjects only
+    - Personal relationships
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'The primary goal of a forced-choice format in interest tests is
+      to reduce:'
+    Options:
+    - The cost of the test
+    - The influence of social desirability and the tendency to give socially acceptable
+      answers
+    - The time needed to take the test
+    - The number of questions
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'In career counseling, interest tests are most useful for:'
+    Options:
+    - Guaranteeing job placement
+    - Generating career options and stimulating self-exploration
+    - Determining a client's salary
+    - Diagnosing learning disabilities
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: How does an interest test differ from a personality test?
+    Options:
+    - There is no difference.
+    - Interest tests measure preferences for activities; personality tests measure
+      characteristic patterns of thinking, feeling, and behaving.
+    - Interest tests are more valid.
+    - Personality tests are only for careers.
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: Why is it important for a counselor to interpret interest test
+      results in the context of other information (e.g., aptitude, values)?
+    Options:
+    - To make the session longer.
+    - Because interests alone do not determine suitability; a person must also have
+      the ability and find the work meaningful.
+    - Because the tests are always wrong.
+    - To discourage the client.
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'According to Anne Roe''s theory, occupational choice is influenced
+      primarily by:'
+    Options:
+    - Chance
+    - Early childhood experiences and relationships with parents
+    - The economy
+    - The RIASEC code
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'A person with "Realistic" (R) Holland interests would most likely
+      enjoy:'
+    Options:
+    - Writing poetry
+    - Repairing a car engine
+    - Analyzing data
+    - Teaching a class
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'The "Social" (S) theme in Holland''s typology is characterized
+      by an interest in:'
+    Options:
+    - Creating art
+    - Helping, teaching, and serving others
+    - Starting a business
+    - Working with numbers
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'If a person''s top three Holland codes are S-I-A, the most compatible
+      work environment would be one that is:'
+    Options:
+    - Structured and organized
+    - People-oriented, analytical, and creative
+    - Competitive and goal-oriented
+    - Solitary and technical
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: "Assertion (A):\_Interest inventories are excellent predictors
+      of job satisfaction.\_Reason (R):\_People are more likely to enjoy and persist
+      in work that aligns with their intrinsic interests."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: interest test
+  - QuestionText: The "General Occupational Themes" on the Strong Interest Inventory
+      are based on which theoretical model?
+    Options:
+    - Roe's Theory
+    - Holland's RIASEC Theory
+    - Super's Life-Span Theory
+    - Kuder's System
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: Contrast an "interest" with a "skill."
+    Options:
+    - They are the same.
+    - An interest is a preference; a skill is a developed ability.
+    - An interest is innate; a skill is learned.
+    - A skill is more important than an interest.
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'A key ethical consideration in administering interest tests is
+      to:'
+    Options:
+    - Use the most expensive test.
+    - Ensure the client understands that results are suggestive, not prescriptive.
+    - Guarantee a job based on the results.
+    - Only test adults.
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'A student who enjoys debating, leading groups, and selling products
+      would likely score high on the Holland theme of:'
+    Options:
+    - Investigative (I)
+    - Enterprising (E)
+    - Conventional (C)
+    - Realistic (R)
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'The "Basic Interest Scales" on the Strong Interest Inventory provide
+      more specific information about interests within the broader:'
+    Options:
+    - Personality types
+    - General Occupational Themes (RIASEC)
+    - Aptitude areas
+    - Academic subjects
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'The concept of "congruence" in Holland''s theory is most important
+      for predicting:'
+    Options:
+    - Job income
+    - Job satisfaction and stability
+    - Intelligence level
+    - Family background
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'A major strength of interest inventories is that they:'
+    Options:
+    - Are perfectly objective.
+    - Provide a structured way to explore a wide range of career options.
+    - Measure motivation directly.
+    - Cannot be faked.
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'A potential weakness of interest inventories is that they rely
+      on:'
+    Options:
+    - Physiological measures
+    - The self-awareness and honesty of the test-taker
+    - Teacher recommendations
+    - Parental input
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'For a high school student who is undecided about a college major,
+      an interest test would be most helpful for:'
+    Options:
+    - Determining their final career
+    - Identifying fields of study that align with their preferences
+    - Increasing their IQ
+    - Choosing their friends
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'The "Personal Style Scales" on the Strong Interest Inventory assess
+      preferences related to:'
+    Options:
+    - Work, learning, leadership, and risk-taking
+    - Specific job skills
+    - Academic achievement
+    - Family relationships
+    CorrectOptionIndex: 0
+    LevelName: interest test
+  - QuestionText: 'Donald Super''s life-span theory suggests that vocational interests:'
+    Options:
+    - Are fixed in childhood
+    - Develop and change throughout a person's life
+    - Are solely determined by genetics
+    - Are the same as aptitudes
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'If a person''s interests are very different from their current
+      job, a career counselor might first:'
+    Options:
+    - Tell them to quit immediately.
+    - Explore the reasons for the discrepancy and the person's level of dissatisfaction.
+    - Ignore the test results.
+    - Administer an intelligence test.
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'The term "vocational identity" is closely related to having:'
+    Options:
+    - A high-paying job
+    - A clear and stable picture of one's interests, talents, and goals
+    - Many different hobbies
+    - A college degree
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'A test that measures both interests and self-estimated skills
+      is the:'
+    Options:
+    - WAIS
+    - Campbell Interest and Skill Survey (CISS)
+    - MMPI
+    - Rorschach
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'When interpreting an interest profile, a high score indicates:'
+    Options:
+    - High intelligence
+    - A strong liking for the activities associated with that scale
+    - Guaranteed success in that field
+    - A high level of skill
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: The "Like," "Indifferent," and "Dislike" response format is characteristic
+      of which interest inventory?
+    Options:
+    - Strong Interest Inventory
+    - Kuder Occupational Interest Survey
+    - Self-Directed Search
+    - Myers-Briggs Type Indicator
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'A counselor using an interest test should have competence in:'
+    Options:
+    - Only statistics
+    - The administration, interpretation, and limitations of the specific test
+    - Only the theory behind the test
+    - Diagnosing mental illness
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'Research on the stability of interests shows that they are generally:'
+    Options:
+    - Unstable after age 10
+    - Relatively stable by late adolescence and adulthood
+    - Completely random
+    - Only stable for men
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'The concept of "differentiation" in Holland''s theory refers to
+      how:'
+    Options:
+    - Similar a person is to others
+    - Clearly defined a person's profile is (the degree of spread between their highest
+      and lowest scores)
+    - intelligent a person is
+    - many interests a person has
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'An interest test would be LEAST useful for:'
+    Options:
+    - A high school student choosing electives
+    - Diagnosing a specific learning disability
+    - A college graduate considering a career change
+    - A mid-career professional feeling unfulfilled
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'The best way to confirm the results of an interest inventory is
+      to:'
+    Options:
+    - Take the same test again immediately.
+    - Gain actual experience in the fields of interest (e.g., internship, job shadowing).
+    - Ask a parent to confirm.
+    - Rely solely on the test report.
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'In the context of interest measurement, "eclectic" interests refer
+      to a profile that is:'
+    Options:
+    - Highly differentiated
+    - Flat, with many similar scores and no clear peaks
+    - Only in artistic areas
+    - Focused on one theme
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'A key difference between the Strong Interest Inventory and the
+      Kuder is that the Strong is more focused on:'
+    Options:
+    - Forced-choice triads
+    - Matching interests to specific occupations
+    - Measuring only recreational interests
+    - A theoretical model of needs
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'For an interest test to be useful in career counseling, it must
+      have good:'
+    Options:
+    - Reliability and Validity
+    - Colorful graphics
+    - A high price tag
+    - A simple name
+    CorrectOptionIndex: 0
+    LevelName: interest test
+  - QuestionText: 'The term "career maturity" refers to an individual''s:'
+    Options:
+    - Age
+    - Readiness to make informed and appropriate career decisions
+    - Level of education
+    - Income level
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'When a client''s expressed interests conflict with their measured
+      interests, a counselor should:'
+    Options:
+    - Dismiss the expressed interests.
+    - Explore the reasons for the discrepancy in a supportive manner.
+    - Only trust the test.
+    - End the session.
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'The most important outcome of taking an interest test should be:'
+    Options:
+    - A printed report
+    - Increased self-awareness and a narrowed, more focused set of options to explore
+    - A guaranteed job
+    - A high score
+    CorrectOptionIndex: 1
+    LevelName: interest test
+  - QuestionText: 'The ultimate decision in career choice should be made by:'
+    Options:
+    - The career counselor
+    - The interest test
+    - The individual, using the test results as one source of information
+    - The individual's parents
+    CorrectOptionIndex: 2
+    LevelName: interest test

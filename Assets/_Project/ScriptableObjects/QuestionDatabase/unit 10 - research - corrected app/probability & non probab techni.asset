@@ -1,0 +1,457 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: probability & non probab techni
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the defining characteristic of probability sampling?
+    Options:
+    - Researcher's judgment
+    - Easy access to samples
+    - Known, non-zero chance of selection for all
+    - Used only for small populations
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: Which of the following is a defining feature of non-probability
+      sampling?
+    Options:
+    - Random selection
+    - Unknown probability of selection
+    - High cost
+    - Guaranteed representativeness
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'The ability to generalize findings from a sample to its population
+      is most strongly associated with:'
+    Options:
+    - Non-probability sampling
+    - Purposive sampling
+    - Convenience sampling
+    - Probability sampling
+    CorrectOptionIndex: 3
+    LevelName: probability & non probab techni
+  - QuestionText: Which technique is a form of probability sampling?
+    Options:
+    - Quota Sampling
+    - Simple Random Sampling
+    - Snowball Sampling
+    - Purposive Sampling
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: Which technique is a form of non-probability sampling?
+    Options:
+    - Systematic Sampling
+    - Stratified Sampling
+    - Cluster Sampling
+    - Convenience Sampling
+    CorrectOptionIndex: 3
+    LevelName: probability & non probab techni
+  - QuestionText: In which sampling method does the researcher use their expert judgment
+      to select particularly informative cases?
+    Options:
+    - Simple Random Sampling
+    - Purposive Sampling
+    - Systematic Sampling
+    - Cluster Sampling
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'The non-probability method where the sample is chosen to reflect
+      the proportions of subgroups in the population is:'
+    Options:
+    - Stratified Sampling
+    - Cluster Sampling
+    - Quota Sampling
+    - Snowball Sampling
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: 'Selecting every kth member from a sampling frame after a random
+      start is:'
+    Options:
+    - Simple Random Sampling
+    - Systematic Sampling
+    - Stratified Sampling
+    - Cluster Sampling
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'The technique of dividing the population into homogeneous subgroups
+      and then taking a random sample from each is a probability method called:'
+    Options:
+    - Cluster Sampling
+    - Purposive Sampling
+    - Multistage Sampling
+    - Stratified Sampling
+    CorrectOptionIndex: 3
+    LevelName: probability & non probab techni
+  - QuestionText: 'A method where initially selected participants help recruit further
+      participants from their acquaintances is called:'
+    Options:
+    - Quota Sampling
+    - Snowball Sampling
+    - Convenience Sampling
+    - Purposive Sampling
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'The primary advantage of non-probability sampling is its:'
+    Options:
+    - Statistical generalizability
+    - High level of precision
+    - Practicality, speed, and low cost
+    - Elimination of all bias
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: 'The major disadvantage of non-probability sampling is its susceptibility
+      to:'
+    Options:
+    - High cost
+    - Sampling bias, limiting generalizability
+    - Complex calculations
+    - Requiring a large sample size
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: Which probability sampling method is most efficient for a large,
+      geographically dispersed population?
+    Options:
+    - Simple Random Sampling
+    - Purposive Sampling
+    - Cluster Sampling
+    - Quota Sampling
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: 'If a researcher stands in a mall and surveys shoppers who walk
+      by, they are using:'
+    Options:
+    - Simple Random Sampling
+    - Purposive Sampling
+    - Systematic Sampling
+    - Convenience Sampling
+    CorrectOptionIndex: 3
+    LevelName: probability & non probab techni
+  - QuestionText: The term "sampling error" is most relevant to which type of sampling?
+    Options:
+    - Non-probability Sampling
+    - Probability Sampling
+    - Both equally
+    - Neither
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: How does probability sampling control for selection bias?
+    Options:
+    - Through the use of random selection
+    - By using the researcher's expertise
+    - By selecting only willing participants
+    - By making the sample very large
+    CorrectOptionIndex: 0
+    LevelName: probability & non probab techni
+  - QuestionText: Why is a sampling frame critical for probability sampling but not
+      always for non-probability?
+    Options:
+    - It is not important for any sampling.
+    - Probability sampling requires a complete list for random selection; non-probability
+      can proceed without one.
+    - It is only used for data analysis.
+    - It increases the sample size.
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'A study aiming to statistically represent the views of all citizens
+      in a country must use:'
+    Options:
+    - Convenience Sampling
+    - Purposive Sampling
+    - Probability Sampling
+    - Snowball Sampling
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: 'A qualitative study exploring the lived experiences of tsunami
+      survivors would most appropriately use:'
+    Options:
+    - Stratified Random Sampling
+    - Purposive Sampling
+    - Systematic Sampling
+    - Cluster Sampling
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'The non-probability method that is most similar in goal to stratified
+      random sampling is:'
+    Options:
+    - Snowball Sampling
+    - Convenience Sampling
+    - Quota Sampling
+    - Purposive Sampling
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: In multistage sampling, what is true about the techniques used?
+    Options:
+    - Only non-probability methods are used.
+    - It typically combines different probability sampling methods at various stages.
+    - It is the same as simple random sampling.
+    - It cannot use cluster sampling.
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: The potential for "periodicity" is a specific weakness of which
+      probability method?
+    Options:
+    - Simple Random Sampling
+    - Stratified Sampling
+    - Systematic Sampling
+    - Cluster Sampling
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: 'A major source of bias in convenience sampling is:'
+    Options:
+    - The high cost
+    - Volunteer bias, where participants self-select
+    - The need for a complex frame
+    - The long time required
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'The "law of large numbers" provides theoretical support for the
+      accuracy of estimates from:'
+    Options:
+    - Purposive Samples
+    - Snowball Samples
+    - Quota Samples
+    - Probability Samples
+    CorrectOptionIndex: 3
+    LevelName: probability & non probab techni
+  - QuestionText: 'If a researcher wants to ensure representation of small, important
+      subgroups (e.g., a rare disease population), the best probability method is:'
+    Options:
+    - Simple Random Sampling
+    - Stratified Sampling
+    - Convenience Sampling
+    - Snowball Sampling
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: "Assertion (A):\_Non-probability samples are not inherently \"bad.\"\_Reason
+      (R):\_They are perfectly suited for exploratory research, qualitative inquiry,
+      and generating hypotheses."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: probability & non probab techni
+  - QuestionText: 'A national health survey first randomly selects counties, then
+      cities within counties, then households within cities. This is:'
+    Options:
+    - Simple Random Sampling
+    - Stratified Sampling
+    - Multistage Sampling
+    - Purposive Sampling
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: Contrast the selection process within strata in Stratified Sampling
+      versus Quota Sampling.
+    Options:
+    - It is identical.
+    - 'Stratified: Random selection. Quota: Non-random, often convenience.'
+    - 'Stratified: Convenience. Quota: Random.'
+    - There is no selection within strata.
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'A study on "Corporate Fraud" where a researcher interviews convicted
+      executives identified through legal records is using:'
+    Options:
+    - Simple Random Sampling
+    - Snowball Sampling
+    - Purposive Sampling
+    - Cluster Sampling
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: 'The "design effect" in cluster sampling refers to the:'
+    Options:
+    - Increased efficiency of the sample
+    - Need for a larger sample size to achieve the same precision as a Simple Random
+      Sample
+    - Beautiful presentation of data
+    - Reduction in sampling error
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'A magazine mails a survey to 500 subscribers whose names were
+      picked by a computer from its full list of 50,000. This is:'
+    Options:
+    - Systematic Sampling
+    - Quota Sampling
+    - Convenience Sampling
+    - Simple Random Sampling
+    CorrectOptionIndex: 3
+    LevelName: probability & non probab techni
+  - QuestionText: 'The same magazine then stands in its lobby and surveys the first
+      100 employees who enter. This is:'
+    Options:
+    - Purposive Sampling
+    - Simple Random Sampling
+    - Convenience Sampling
+    - Stratified Sampling
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: 'A key ethical advantage of snowball sampling is that it:'
+    Options:
+    - Is the cheapest method
+    - Can build trust and provide access to vulnerable or hidden populations
+    - Eliminates all bias
+    - Guarantees anonymity
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'The concept of "representativeness" in probability sampling is
+      achieved through:'
+    Options:
+    - The researcher's intuition
+    - The size of the sample alone
+    - The mechanism of random selection
+    - The cost of the study
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: In which scenario would non-probability sampling be the MOST appropriate
+      choice?
+    Options:
+    - To determine the national unemployment rate
+    - To conduct a pre-election poll
+    - To estimate the average height of adult males
+    - To explore the psychological trauma of war veterans in depth
+    CorrectOptionIndex: 3
+    LevelName: probability & non probab techni
+  - QuestionText: A "self-selection" bias is most commonly associated with which
+      non-probability method?
+    Options:
+    - Purposive Sampling
+    - Quota Sampling
+    - Convenience Sampling
+    - Snowball Sampling
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: 'If a researcher uses stratified sampling but uses convenience
+      sampling within each stratum, the overall method is classified as:'
+    Options:
+    - Probability Sampling
+    - Non-Probability Sampling
+    - Mixed-Method Sampling
+    - Census
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'The term "sampling fraction" (n/N) is meaningful and calculable
+      in:'
+    Options:
+    - All non-probability samples
+    - Only snowball samples
+    - Only convenience samples
+    - Only probability samples
+    CorrectOptionIndex: 3
+    LevelName: probability & non probab techni
+  - QuestionText: Purposive sampling is to qualitative research as ______ sampling
+      is to quantitative research.
+    Options:
+    - Snowball
+    - Convenience
+    - Probability
+    - Quota
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: 'A major practical constraint that often leads researchers to use
+      non-probability sampling is:'
+    Options:
+    - The desire for high precision
+    - Limited time, money, and resources
+    - The need for a large sample
+    - Legal requirements
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'The "Hawthorne Effect" is a type of non-sampling error that:'
+    Options:
+    - Is eliminated by probability sampling
+    - Is unique to cluster sampling
+    - Is a result of a poor sampling frame
+    - Can occur in any study where participants know they are being observed
+    CorrectOptionIndex: 3
+    LevelName: probability & non probab techni
+  - QuestionText: 'To study the diffusion of innovation in a village, a researcher
+      starts with a few known innovators and then asks them who they shared the idea
+      with. This is:'
+    Options:
+    - Quota Sampling
+    - Snowball Sampling
+    - Purposive Sampling
+    - Systematic Sampling
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'The statistical principle that allows us to calculate a confidence
+      interval for a population mean is based on:'
+    Options:
+    - The researcher's experience
+    - The number of clusters
+    - The size of the non-probability sample
+    - The properties of the normal distribution and probability sampling
+    CorrectOptionIndex: 3
+    LevelName: probability & non probab techni
+  - QuestionText: 'Dimensional sampling is a variant of:'
+    Options:
+    - Simple Random Sampling
+    - Quota Sampling
+    - Purposive Sampling
+    - Systematic Sampling
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: 'The probability sampling method that is most vulnerable to bias
+      if the sampling frame is not randomly ordered is:'
+    Options:
+    - Simple Random Sampling
+    - Stratified Sampling
+    - Cluster Sampling
+    - Systematic Sampling
+    CorrectOptionIndex: 3
+    LevelName: probability & non probab techni
+  - QuestionText: 'The concept of "theoretical saturation" in qualitative research
+      is often achieved through:'
+    Options:
+    - A very large probability sample
+    - Purposive sampling until no new information is obtained
+    - A fixed quota
+    - A single case study
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'A "panel study" that surveys the same households over time initially
+      requires:'
+    Options:
+    - A convenience sample
+    - A snowball sample
+    - A probability sample
+    - A purposive sample
+    CorrectOptionIndex: 2
+    LevelName: probability & non probab techni
+  - QuestionText: 'The critical factor that determines whether findings can be generalized
+      statistically is the:'
+    Options:
+    - Sample size
+    - Sampling technique (Probability vs. Non-probability)
+    - Number of variables
+    - Researcher's reputation
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni
+  - QuestionText: 'In non-probability sampling, the logic of generalization is based
+      on:'
+    Options:
+    - Statistical theory
+    - The law of large numbers
+    - Random chance
+    - Analytical generalization or transferability
+    CorrectOptionIndex: 3
+    LevelName: probability & non probab techni
+  - QuestionText: 'The most important question a researcher must ask when choosing
+      a sampling technique is:'
+    Options:
+    - Which one is fastest?
+    - What is the primary goal of my research? (e.g., generalization vs. exploration)
+    - Which one requires the smallest sample?
+    - Which one has the fanciest name?
+    CorrectOptionIndex: 1
+    LevelName: probability & non probab techni

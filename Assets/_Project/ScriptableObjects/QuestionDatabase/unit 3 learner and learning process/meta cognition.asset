@@ -1,0 +1,468 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: meta cognition
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The term "metacognition" was first introduced and developed by
+      psychologist:'
+    Options:
+    - Lev Vygotsky
+    - John Flavell
+    - Jean Piaget
+    - David Ausubel
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'Metacognition is most accurately defined as:'
+    Options:
+    - The ability to memorize large amounts of information.
+    - Thinking about one's own thinking processes.
+    - The speed of cognitive processing.
+    - Knowledge acquired through direct experience.
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: Which of the following best describes "metacognitive knowledge"?
+    Options:
+    - The ability to perform a skill quickly.
+    - Knowledge of specific academic content.
+    - Innate intelligence as measured by IQ tests.
+    - What individuals know about their own cognitive processes.
+    CorrectOptionIndex: 3
+    LevelName: meta cognition
+  - QuestionText: 'The component of metacognition that involves planning, monitoring,
+      and evaluating one''s learning is known as:'
+    Options:
+    - Metacognitive awareness
+    - Metacognitive regulation
+    - Cognitive strategy
+    - Self-efficacy
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'According to Flavell, the three categories of metacognitive knowledge
+      are knowledge of person variables, task variables, and:'
+    Options:
+    - Environmental variables
+    - Social variables
+    - Strategy variables
+    - Genetic variables
+    CorrectOptionIndex: 2
+    LevelName: meta cognition
+  - QuestionText: 'A student who knows that they learn better in a quiet environment
+      than a noisy one possesses knowledge of:'
+    Options:
+    - Person variables
+    - Task variables
+    - Strategy variables
+    - Environmental variables
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'The feeling of knowing (FOK) and the tip-of-the-tongue phenomenon
+      are examples of:'
+    Options:
+    - Metacognitive experiences
+    - Cognitive biases
+    - Fixed mindset
+    - Procedural knowledge
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'The ability to accurately judge how well one has learned something
+      and how well one will perform on a future test is known as:'
+    Options:
+    - Self-esteem
+    - Metacomprehension
+    - Cognitive load
+    - Transfer of learning
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: '"I need to read this chapter twice because it is very complex."
+      This statement reflects knowledge of:'
+    Options:
+    - Person variables only
+    - Task and strategy variables
+    - Environmental variables only
+    - Person and environmental variables
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: Which theorist's concept of the "Zone of Proximal Development"
+      is closely linked to the development of metacognitive skills?
+    Options:
+    - B.F. Skinner
+    - Howard Gardner
+    - Lev Vygotsky
+    - Benjamin Bloom
+    CorrectOptionIndex: 2
+    LevelName: meta cognition
+  - QuestionText: 'A student who sets goals for a study session, chooses specific
+      strategies, and allocates their time effectively is primarily engaged in:'
+    Options:
+    - Metacognitive planning
+    - Cognitive automation
+    - Rote memorization
+    - Divergent thinking
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'During an exam, a student realizes they don''t understand a question
+      and decides to skip it and return later. This is an example of:'
+    Options:
+    - Metacognitive monitoring and control
+    - Cognitive failure
+    - Procrastination
+    - Functional fixedness
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'After completing a math problem, a student checks their work to
+      ensure the answer makes sense. This demonstrates:'
+    Options:
+    - Mental set
+    - Cognitive acceleration
+    - Confirmation bias
+    - Metacognitive evaluation
+    CorrectOptionIndex: 3
+    LevelName: meta cognition
+  - QuestionText: 'The primary difference between cognition and metacognition is
+      that metacognition involves:'
+    Options:
+    - The actual process of thinking.
+    - Executive control over the thinking process.
+    - The acquisition of new knowledge.
+    - Unconscious mental processing.
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'A student who incorrectly believes they have fully mastered the
+      material for an exam is experiencing:'
+    Options:
+    - High self-efficacy
+    - Accurate metacomprehension
+    - Illusion of knowing
+    - Cognitive overload
+    CorrectOptionIndex: 2
+    LevelName: meta cognition
+  - QuestionText: '"This history textbook is harder to understand than my novel,
+      so I will need to use different reading strategies." This statement shows an
+      understanding of:'
+    Options:
+    - Person variables
+    - Task variables
+    - Strategy variables
+    - Both B and C
+    CorrectOptionIndex: 3
+    LevelName: meta cognition
+  - QuestionText: 'A teacher who asks students, "How did you arrive at that answer?"
+      is attempting to promote:'
+    Options:
+    - Metacognitive awareness
+    - Speed of processing
+    - Competitive learning
+    - Convergent thinking
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'According to Zimmerman''s model, the final phase of self-regulated
+      learning is:'
+    Options:
+    - Forethought
+    - Performance
+    - Self-reflection
+    - Modeling
+    CorrectOptionIndex: 2
+    LevelName: meta cognition
+  - QuestionText: 'A learner who can effectively select, combine, and coordinate
+      cognitive strategies is demonstrating:'
+    Options:
+    - Metacognitive knowledge
+    - Metacognitive skill
+    - Cognitive style
+    - Emotional intelligence
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'The concept that learners can improve their metacognitive skills
+      through explicit instruction and practice supports the view that metacognition
+      is:'
+    Options:
+    - Entirely innate and fixed
+    - A domain-specific ability
+    - A developable capacity
+    - Unrelated to academic achievement
+    CorrectOptionIndex: 2
+    LevelName: meta cognition
+  - QuestionText: 'Critically analyzing educational practices, a system that focuses
+      solely on content delivery without encouraging self-reflection fails to develop
+      students'':'
+    Options:
+    - Crystallized intelligence
+    - Metacognitive abilities
+    - Short-term memory capacity
+    - Psychomotor skills
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'A teacher implements "think-aloud" protocols where students verbalize
+      their thought process while solving a problem. This strategy is most directly
+      aimed at developing:'
+    Options:
+    - Public speaking skills
+    - Metacognitive monitoring
+    - Group cohesion
+    - Vocabulary acquisition
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'Research shows that students with poor metacognitive skills often
+      overestimate their abilities. This "double curse" of incompetence suggests
+      that:'
+    Options:
+    - Less knowledgeable students lack the awareness to recognize their deficits.
+    - Intelligence is the sole predictor of academic success.
+    - Standardized tests are perfectly accurate.
+    - Effort is irrelevant to learning.
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'Comparing novice and expert learners, a key difference is that
+      experts:'
+    Options:
+    - Rely more on rote memorization.
+    - Possess greater metacognitive awareness and self-regulation.
+    - Have faster neural transmission speeds.
+    - Avoid using learning strategies.
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'A student who adjusts their study strategy after performing poorly
+      on an exam is demonstrating the metacognitive process of:'
+    Options:
+    - Planning
+    - Monitoring
+    - Evaluation and adaptation
+    - Task analysis
+    CorrectOptionIndex: 2
+    LevelName: meta cognition
+  - QuestionText: 'The "testing effect" (enhanced learning through retrieval practice)
+      is powerful partly because it provides learners with:'
+    Options:
+    - Metacognitive feedback on what they know and don't know
+    - A way to avoid deep processing
+    - Guaranteed success on future exams
+    - A substitute for studying
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'A teacher who requires students to submit a "learning log" detailing
+      their study challenges and strategy adjustments is primarily assessing:'
+    Options:
+    - Content knowledge
+    - Metacognitive regulation
+    - Creative writing skills
+    - Class participation
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'A major barrier to developing metacognition in classrooms is that:'
+    Options:
+    - It is too easy to teach.
+    - The curriculum is often too crowded, focusing on content coverage over process.
+    - Students are naturally highly metacognitive.
+    - It requires no special effort from teachers.
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'Flavell''s concept of "metacognitive experiences" is most likely
+      to occur during:'
+    Options:
+    - Deep, uninterrupted sleep.
+    - Highly automated and familiar tasks.
+    - Novel, complex, or personally important cognitive enterprises.
+    - The first few years of life.
+    CorrectOptionIndex: 2
+    LevelName: meta cognition
+  - QuestionText: 'A student with a growth mindset is more likely to engage in metacognitive
+      regulation because they:'
+    Options:
+    - Believe their abilities are fixed.
+    - View challenges as opportunities to learn and improve.
+    - Attribute failure to a lack of innate intelligence.
+    - Avoid seeking feedback.
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'In problem-solving, metacognition helps individuals to:'
+    Options:
+    - Immediately choose the first solution that comes to mind.
+    - Persist with an ineffective strategy due to overconfidence.
+    - Recognize when they are stuck and need to try a different approach.
+    - Focus solely on the final answer.
+    CorrectOptionIndex: 2
+    LevelName: meta cognition
+  - QuestionText: 'A key reason why metacognition is a strong predictor of academic
+      success is that it enables students to:'
+    Options:
+    - Depend entirely on the teacher for direction.
+    - Become efficient, self-directed learners.
+    - Memorize information more quickly.
+    - Avoid all forms of assessment.
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'The concept of "distributed practice" (spacing out study sessions)
+      is more effective than massed practice partly because it:'
+    Options:
+    - Requires less metacognitive planning.
+    - Takes less total time.
+    - Is more popular among students.
+    - Provides more opportunities for metacognitive monitoring of forgetting and
+      relearning.
+    CorrectOptionIndex: 3
+    LevelName: meta cognition
+  - QuestionText: 'A teacher designing a lesson to foster metacognition would be
+      most likely to:'
+    Options:
+    - Lecture for the entire class period without pauses.
+    - Incorporate prompts for reflection and self-assessment.
+    - Provide all answers immediately to save time.
+    - Discourage students from asking questions.
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'The relationship between metacognition and critical thinking is
+      that metacognition:'
+    Options:
+    - Is unrelated to critical thinking.
+    - Provides the executive management for critical thinking processes.
+    - Inhibits the ability to think critically.
+    - Is the same as critical thinking.
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'A student who can accurately predict their score on an upcoming
+      exam demonstrates well-developed:'
+    Options:
+    - Metacognitive knowledge and monitoring
+    - Emotional intelligence
+    - Crystallized intelligence
+    - Social skills
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'An educational program that successfully develops students'' metacognitive
+      abilities would most likely result in:'
+    Options:
+    - Increased dependence on the teacher.
+    - Greater transfer of learning to new situations.
+    - Decreased use of learning strategies.
+    - A fixed mindset about intelligence.
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'The "Dunning-Kruger effect" in psychology is a real-world example
+      of:'
+    Options:
+    - Accurate self-assessment.
+    - A failure of metacognitive insight.
+    - High emotional intelligence.
+    - Expert performance.
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'When a learner asks themselves, "Does this make sense? Should
+      I reread the previous paragraph?" they are engaging in:'
+    Options:
+    - Comprehension monitoring
+    - Speed reading
+    - Skimming
+    - Bottom-up processing
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'A fundamental difference between metacognition and self-efficacy
+      is that self-efficacy refers to one''s belief in their capability, while metacognition
+      refers to:'
+    Options:
+    - The knowledge and control of the cognitive processes used to achieve that capability.
+    - The actual outcome of a performance.
+    - Genetic predispositions for learning.
+    - Personality traits.
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'A teacher who models their own thinking process by working through
+      a problem on the board and verbalizing their decisions is providing a(n):'
+    Options:
+    - Metacognitive scaffold
+    - Summative assessment
+    - Example of rote learning
+    - Non-example of expert thinking
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'For metacognitive skills to develop effectively, the learning
+      environment must be:'
+    Options:
+    - Highly competitive and stressful.
+    - Supportive and allow for mistakes and reflection.
+    - Focused solely on individual work.
+    - Free of all challenges.
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'A student using a concept map to organize ideas before writing
+      an essay is employing a tool for:'
+    Options:
+    - Enhancing metacognitive planning and knowledge organization
+    - Improving handwriting
+    - Reducing cognitive load entirely
+    - Avoiding the writing process
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'The ability to transfer a learning strategy from a science class
+      to a history class requires:'
+    Options:
+    - Metacognitive knowledge about the utility of the strategy across domains.
+    - Identical content in both subjects.
+    - The same teacher for both classes.
+    - A photographic memory.
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'A key finding from metacognition research is that:'
+    Options:
+    - Most students naturally develop sophisticated metacognitive skills without
+      instruction.
+    - Metacognitive training can improve academic performance across diverse subjects.
+    - Metacognition is irrelevant for online learning.
+    - Intelligence is the only factor that influences learning.
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'In Zimmerman''s cyclical model of self-regulated learning, the
+      "performance phase" involves:'
+    Options:
+    - Goal setting and strategic planning.
+    - Self-observation and strategy implementation.
+    - Self-judgment and attribution.
+    - Outcome reflection.
+    CorrectOptionIndex: 1
+    LevelName: meta cognition
+  - QuestionText: 'A student who attributes a poor exam score to their use of an
+      ineffective study strategy rather than to a lack of intelligence is demonstrating:'
+    Options:
+    - A metacognitive attribution that fosters a growth mindset
+    - External locus of control
+    - Defensive pessimism
+    - Learned helplessness
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'The most significant challenge in assessing metacognition is that
+      it is:'
+    Options:
+    - Unrelated to behavior.
+    - Easily measured by multiple-choice tests.
+    - The same for every individual.
+    - An unobservable, internal process.
+    CorrectOptionIndex: 3
+    LevelName: meta cognition
+  - QuestionText: 'A curriculum that integrates "learning how to learn" as a core
+      component is fundamentally centered on the development of:'
+    Options:
+    - Metacognitive competencies
+    - Factual recall
+    - Athletic ability
+    - Artistic talent
+    CorrectOptionIndex: 0
+    LevelName: meta cognition
+  - QuestionText: 'The ultimate goal of fostering metacognition in education is to
+      create:'
+    Options:
+    - Students who can only succeed in structured environments.
+    - Lifelong learners who can manage their own learning.
+    - Experts in a single, narrow field.
+    - Individuals who rely solely on external validation.
+    CorrectOptionIndex: 1
+    LevelName: meta cognition

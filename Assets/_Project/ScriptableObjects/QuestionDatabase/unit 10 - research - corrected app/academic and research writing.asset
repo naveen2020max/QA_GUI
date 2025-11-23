@@ -1,0 +1,456 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: academic and research writing
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary purpose of academic writing?
+    Options:
+    - To entertain the reader
+    - To persuade, inform, and argue based on evidence and logic
+    - To express personal feelings
+    - To tell a story
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: Which of the following is a key characteristic of formal academic
+      style?
+    Options:
+    - Use of slang and colloquialisms
+    - Use of personal pronouns (I, we)
+    - Objective and impersonal tone
+    - Contractions (can't, won't)
+    CorrectOptionIndex: 2
+    LevelName: academic and research writing
+  - QuestionText: 'A clear, specific, and arguable statement that forms the backbone
+      of an academic paper is called the:'
+    Options:
+    - Hypothesis
+    - Thesis statement
+    - Topic sentence
+    - Abstract
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'The practice of using someone else''s words or ideas without proper
+      acknowledgment is known as:'
+    Options:
+    - Paraphrasing
+    - Summarizing
+    - Citation
+    - Plagiarism
+    CorrectOptionIndex: 3
+    LevelName: academic and research writing
+  - QuestionText: Which citation style is commonly used in education and the social
+      sciences?
+    Options:
+    - Chicago Manual of Style
+    - APA (American Psychological Association)
+    - MLA (Modern Language Association)
+    - IEEE
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'A brief restatement of a source''s main ideas in your own words
+      is called a:'
+    Options:
+    - Quotation
+    - Paraphrase
+    - Summary
+    - Plagiarism
+    CorrectOptionIndex: 2
+    LevelName: academic and research writing
+  - QuestionText: 'Using the exact words from a source, enclosed in quotation marks,
+      is called:'
+    Options:
+    - Summarizing
+    - Paraphrasing
+    - Synthesizing
+    - Quoting
+    CorrectOptionIndex: 3
+    LevelName: academic and research writing
+  - QuestionText: 'The section of a research paper that provides a context and rationale
+      for the study is the:'
+    Options:
+    - Methodology
+    - Introduction
+    - Literature Review
+    - Results
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'The section that details how the research was conducted is the:'
+    Options:
+    - Abstract
+    - Introduction
+    - Methodology
+    - Discussion
+    CorrectOptionIndex: 2
+    LevelName: academic and research writing
+  - QuestionText: 'The term for the specialized language used by a specific professional
+      group is:'
+    Options:
+    - Slang
+    - Jargon
+    - Colloquialism
+    - Redundancy
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'A statement that can be verified or proven true or false is a:'
+    Options:
+    - Opinion
+    - Belief
+    - Argument
+    - Fact
+    CorrectOptionIndex: 3
+    LevelName: academic and research writing
+  - QuestionText: 'The logical progression of ideas and arguments in a piece of writing
+      is known as:'
+    Options:
+    - Coherence
+    - Plagiarism
+    - Formality
+    - Hedging
+    CorrectOptionIndex: 0
+    LevelName: academic and research writing
+  - QuestionText: 'The process of critically evaluating and selecting sources for
+      a research paper is part of:'
+    Options:
+    - Data collection
+    - Literature review
+    - Proofreading
+    - Formatting
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: Which of the following is a technique to avoid plagiarism?
+    Options:
+    - Copying and pasting from websites
+    - Buying a paper online
+    - Changing a few words in a sentence
+    - Using quotation marks and citing the source for direct quotes
+    CorrectOptionIndex: 3
+    LevelName: academic and research writing
+  - QuestionText: 'The final step in the academic writing process is typically:'
+    Options:
+    - Drafting
+    - Revising
+    - Proofreading and editing
+    - Brainstorming
+    CorrectOptionIndex: 2
+    LevelName: academic and research writing
+  - QuestionText: How does a thesis statement differ from a hypothesis?
+    Options:
+    - They are the same thing.
+    - A thesis is the main argument of a paper; a hypothesis is a testable prediction
+      in research.
+    - A hypothesis is for essays; a thesis is for reports.
+    - A thesis is found in the methodology.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: Why is it important to avoid emotional language in academic writing?
+    Options:
+    - To make the writing boring.
+    - To save space.
+    - Because emotions are not real.
+    - To maintain an objective and credible tone, allowing evidence to persuade the
+      reader.
+    CorrectOptionIndex: 3
+    LevelName: academic and research writing
+  - QuestionText: What is the purpose of "hedging" in academic writing (e.g., using
+      "may," "suggest," "possibly")?
+    Options:
+    - To show uncertainty and lack of knowledge.
+    - To make claims with appropriate caution and precision, acknowledging limitations.
+    - To confuse the reader.
+    - To meet word count.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: How does a literature review contribute to a research paper?
+    Options:
+    - It fills space between chapters.
+    - It presents the raw data.
+    - It establishes the context, identifies a gap, and shows how the new research
+      contributes to the field.
+    - It summarizes the researcher's opinions.
+    CorrectOptionIndex: 2
+    LevelName: academic and research writing
+  - QuestionText: Why is the use of the first-person pronoun ("I") often limited
+      in certain types of academic writing?
+    Options:
+    - It is grammatically incorrect.
+    - To maintain an objective and formal tone, focusing on the evidence rather than
+      the researcher.
+    - It is too informal.
+    - Both B and C.
+    CorrectOptionIndex: 3
+    LevelName: academic and research writing
+  - QuestionText: 'A topic sentence typically appears:'
+    Options:
+    - In the bibliography.
+    - At the beginning of a paragraph, stating its main idea.
+    - Only in the conclusion.
+    - In the abstract.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'The term "synthesis" in research writing refers to:'
+    Options:
+    - Copying multiple sources.
+    - Writing a summary.
+    - Listing sources in a bibliography.
+    - Combining ideas from multiple sources to create a new, original perspective
+      or argument.
+    CorrectOptionIndex: 3
+    LevelName: academic and research writing
+  - QuestionText: 'An "annotated bibliography" includes:'
+    Options:
+    - Just a list of sources.
+    - A list of sources with a summary and/or evaluation of each source.
+    - The thesis statement.
+    - The research data.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'The primary audience for academic writing is usually:'
+    Options:
+    - The general public
+    - Journalists
+    - Family and friends
+    - Specialists and scholars in the field
+    CorrectOptionIndex: 3
+    LevelName: academic and research writing
+  - QuestionText: 'A "peer-reviewed" journal article is one that:'
+    Options:
+    - Is written by a famous person.
+    - Has been evaluated by experts in the same field before publication.
+    - Is published online.
+    - Is longer than a book.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: "Assertion (A):\_Academic writing requires precise and unambiguous
+      language.\_Reason (R):\_Clarity is essential to ensure the reader accurately
+      understands the argument and evidence."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: academic and research writing
+  - QuestionText: 'A writer states, "The results seem to indicate a possible correlation."
+      This is an example of:'
+    Options:
+    - A strong claim.
+    - Hedging.
+    - Plagiarism.
+    - A thesis statement.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: Contrast a "primary source" with a "secondary source."
+    Options:
+    - A primary source is more important.
+    - A secondary source is always a book.
+    - A primary source is a first-hand account; a secondary source analyzes or interprets
+      primary sources.
+    - They are the same.
+    CorrectOptionIndex: 2
+    LevelName: academic and research writing
+  - QuestionText: Which of the following is the STRONGEST thesis statement?
+    Options:
+    - '"This paper will talk about social media."'
+    - '"Social media is bad for society."'
+    - '"This essay will explore the positive and negative effects of social media."'
+    - '"While social media enhances global connectivity, its algorithmic curation
+      of content poses a significant threat to democratic discourse by facilitating
+      the spread of misinformation and creating echo chambers."'
+    CorrectOptionIndex: 3
+    LevelName: academic and research writing
+  - QuestionText: 'A flaw in academic writing is indicated by:'
+    Options:
+    - A clear and logical structure.
+    - A thesis statement that is not supported by the evidence in the body of the
+      paper.
+    - Proper citation of sources.
+    - The use of topic sentences.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'The "IMRaD" structure is a model for organizing:'
+    Options:
+    - A novel.
+    - A personal essay.
+    - A research paper (Introduction, Methods, Results, and Discussion).
+    - A business letter.
+    CorrectOptionIndex: 2
+    LevelName: academic and research writing
+  - QuestionText: 'The purpose of the "Abstract" is to:'
+    Options:
+    - Provide a detailed methodology.
+    - Serve as a comprehensive summary of the entire paper, allowing readers to quickly
+      grasp its essence.
+    - List all the references.
+    - Thank the funders.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'In-text citations are used to:'
+    Options:
+    - Increase the word count.
+    - Make the paper look more impressive.
+    - Replace the need for a reference list.
+    - Identify the source of a specific idea, quote, or finding within the body of
+      the text.
+    CorrectOptionIndex: 3
+    LevelName: academic and research writing
+  - QuestionText: 'The term "academic voice" refers to:'
+    Options:
+    - The volume at which one reads.
+    - A formal, objective, and authoritative tone used in scholarly writing.
+    - A specific accent.
+    - The title of the paper.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'A "research gap" is:'
+    Options:
+    - An error in the methodology.
+    - A typo in the reference list.
+    - A missing page in a book.
+    - An area in the existing literature that has not been sufficiently explored,
+      which the new research aims to address.
+    CorrectOptionIndex: 3
+    LevelName: academic and research writing
+  - QuestionText: Which of the following demonstrates effective paraphrasing?
+    Options:
+    - 'Original: "The experiment yielded unequivocal results." Paraphrase: "The experiment
+      yielded unequivocal results."'
+    - 'Original: "The experiment yielded unequivocal results." Paraphrase: "The test
+      gave clear results."'
+    - 'Original: "The experiment yielded unequivocal results." Paraphrase: "The findings
+      of the study were clear and unambiguous."'
+    - 'Original: "The experiment yielded unequivocal results." Paraphrase: (No citation)'
+    CorrectOptionIndex: 2
+    LevelName: academic and research writing
+  - QuestionText: 'The discussion section of a research paper should:'
+    Options:
+    - Simply repeat the results.
+    - Interpret the results, discuss their implications, and relate them back to
+      the research question and literature.
+    - Introduce new data.
+    - List the research instruments.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'A "systematic review" is a type of literature review that:'
+    Options:
+    - Is based on the author's opinions.
+    - Is always published as a book.
+    - Includes only one source.
+    - Uses explicit, systematic methods to minimize bias in the gathering and synthesis
+      of research on a specific topic.
+    CorrectOptionIndex: 3
+    LevelName: academic and research writing
+  - QuestionText: 'The concept of "audience awareness" in writing means:'
+    Options:
+    - Knowing who will grade the paper.
+    - Tailoring the writing's style, tone, and level of explanation to the knowledge
+      and needs of the reader.
+    - Writing for a global audience.
+    - Using simple words only.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'Using "et al." in a citation signifies:'
+    Options:
+    - And others.
+    - For example.
+    - And so on.
+    - In the same place.
+    CorrectOptionIndex: 0
+    LevelName: academic and research writing
+  - QuestionText: 'A "conflict of interest" statement in a research paper is important
+      for:'
+    Options:
+    - Making the paper longer.
+    - Maintaining transparency and credibility by disclosing any potential biases.
+    - Listing the authors' hobbies.
+    - Thanking the participants.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'The term "meta-analysis" refers to:'
+    Options:
+    - A study about metaphysics.
+    - The introduction of a paper.
+    - A statistical technique for combining the findings from multiple independent
+      studies.
+    - A very large analysis.
+    CorrectOptionIndex: 2
+    LevelName: academic and research writing
+  - QuestionText: 'A "predatory journal" is characterized by:'
+    Options:
+    - Rigorous peer review.
+    - Lack of transparency, low-quality peer review, and primary motivation of collecting
+      publication fees.
+    - High impact factor.
+    - Being open-access.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'The primary purpose of "proofreading" is to:'
+    Options:
+    - Check the argument's logic.
+    - Change the thesis statement.
+    - Rewrite entire paragraphs.
+    - Identify and correct surface errors in spelling, grammar, and punctuation.
+    CorrectOptionIndex: 3
+    LevelName: academic and research writing
+  - QuestionText: 'Using a thesaurus effectively involves:'
+    Options:
+    - Replacing every word with a complex synonym.
+    - Finding the word that most precisely conveys the intended meaning in context.
+    - Making the paper sound smarter.
+    - Avoiding simple words.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'An "impact factor" of a journal is a measure of:'
+    Options:
+    - Its physical weight.
+    - How fast it publishes papers.
+    - The average number of citations its articles receive, indicating its influence.
+    - Its subscription cost.
+    CorrectOptionIndex: 2
+    LevelName: academic and research writing
+  - QuestionText: '"Academic integrity" encompasses:'
+    Options:
+    - Only avoiding plagiarism.
+    - A commitment to honesty, trust, fairness, respect, and responsibility in all
+      scholarly work.
+    - Getting good grades.
+    - Publishing many papers.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'A "call for papers" is an announcement by:'
+    Options:
+    - A conference or journal inviting researchers to submit manuscripts on a specific
+      topic.
+    - A university library.
+    - A student looking for help.
+    - A funding agency.
+    CorrectOptionIndex: 0
+    LevelName: academic and research writing
+  - QuestionText: 'The "scholarly conversation" metaphor implies that research writing
+      is:'
+    Options:
+    - A monologue.
+    - A dynamic exchange of ideas where new work responds to and builds upon previous
+      work.
+    - A private diary.
+    - A debate to win.
+    CorrectOptionIndex: 1
+    LevelName: academic and research writing
+  - QuestionText: 'The most important goal of academic and research writing is to:'
+    Options:
+    - Achieve a high word count.
+    - Impress one's professor.
+    - Use complex vocabulary.
+    - Contribute new knowledge or a new perspective to a field of study in a clear,
+      credible, and ethical manner.
+    CorrectOptionIndex: 3
+    LevelName: academic and research writing

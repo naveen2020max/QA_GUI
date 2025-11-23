@@ -1,0 +1,427 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: reality-theories of counselling
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'Reality Therapy was developed primarily by:'
+    Options:
+    - Albert Ellis
+    - William Glasser
+    - Carl Rogers
+    - Fritz Perls
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The core concept of Reality Therapy is that all behavior is:'
+    Options:
+    - Determined by unconscious forces
+    - Chosen to satisfy basic needs
+    - Shaped by environmental reinforcement
+    - A result of cognitive distortions
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: 'According to Choice Theory, the source of most psychological problems
+      is:'
+    Options:
+    - Unresolved childhood conflicts
+    - Irrational thinking patterns
+    - Being in unhealthy, unsatisfying relationships
+    - Chemical imbalances in the brain
+    CorrectOptionIndex: 2
+    LevelName: reality-theories of counselling
+  - QuestionText: Which of the following is NOT one of the five basic human needs
+      in Reality Therapy?
+    Options:
+    - Survival
+    - Love and belonging
+    - Power and achievement
+    - Financial security
+    CorrectOptionIndex: 3
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The WDEP system in Reality Therapy stands for:'
+    Options:
+    - Wishes, Dreams, Expectations, Plans
+    - Wants, Direction, Evaluation, Planning
+    - Wants, Doing, Evaluation, Plans
+    - Willingness, Determination, Effort, Persistence
+    CorrectOptionIndex: 2
+    LevelName: reality-theories of counselling
+  - QuestionText: 'In Reality Therapy, the primary focus is on:'
+    Options:
+    - Past experiences and childhood
+    - Present behavior and choices
+    - Future goals and aspirations
+    - Unconscious motivations
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The role of the Reality therapist is best described as a:'
+    Options:
+    - Non-directive listener
+    - Teacher and mentor
+    - Dream interpreter
+    - Blank screen for projection
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: 'Reality Therapy emphasizes that individuals are responsible for:'
+    Options:
+    - Their own choices and behaviors
+    - Other people's happiness
+    - Their unconscious impulses
+    - Genetic predispositions
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: Which basic need includes feelings of self-worth and recognition?
+    Options:
+    - Survival
+    - Love and belonging
+    - Power and achievement
+    - Freedom
+    CorrectOptionIndex: 2
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The "Quality World" in Choice Theory refers to:'
+    Options:
+    - The ideal society we wish to live in
+    - Our personal picture album of what we want most
+    - A world without psychological problems
+    - The therapist's view of quality living
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: 'A student who skips class and then fails a test would be encouraged
+      in Reality Therapy to:'
+    Options:
+    - Explore childhood reasons for avoidance
+    - Examine how this behavior helped or hindered meeting their needs
+    - Analyze cognitive distortions about school
+    - Focus on feelings of anxiety about school
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: Which question is most characteristic of the Reality Therapy approach?
+    Options:
+    - '"What is your earliest memory of this feeling?"'
+    - '"Is what you are doing getting you what you want?"'
+    - '"What automatic thoughts come to mind?"'
+    - '"How does that make you feel?"'
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The "Total Behavior" concept in Choice Theory includes:'
+    Options:
+    - Acting, thinking, feeling, and physiology
+    - Conscious and unconscious behavior
+    - Voluntary and involuntary actions
+    - Social and antisocial behavior
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'In Reality Therapy, "punishment" is viewed as:'
+    Options:
+    - An essential part of behavior change
+    - Generally ineffective for lasting change
+    - The best way to establish boundaries
+    - Necessary for social control
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: Which basic need involves independence and autonomy?
+    Options:
+    - Survival
+    - Love and belonging
+    - Power
+    - Freedom
+    CorrectOptionIndex: 3
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The primary goal of Reality Therapy is to help clients:'
+    Options:
+    - Gain insight into past conflicts
+    - Make better choices to meet their needs effectively
+    - Eliminate all negative emotions
+    - Develop perfect relationships
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: 'In schools, Reality Therapy is implemented through:'
+    Options:
+    - Quality Schools and Lead Management
+    - Standardized testing programs
+    - Psychoeducational groups
+    - Behavioral modification charts
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'A key difference between Reality Therapy and psychoanalysis is
+      that Reality Therapy:'
+    Options:
+    - Focuses on the present rather than the past
+    - Emphasizes unconscious motivations
+    - Uses dream analysis
+    - Explores childhood trauma in depth
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The "E" in the WDEP system involves:'
+    Options:
+    - Helping clients evaluate their current behavior
+    - Exploring emotional states
+    - Examining early childhood experiences
+    - Establishing therapeutic goals
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'According to Glasser, the most important human need is:'
+    Options:
+    - Survival
+    - Love and belonging
+    - Power
+    - Freedom
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: 'A teacher using Reality Therapy with a disruptive student would:'
+    Options:
+    - Focus on what the student is doing and its consequences
+    - Explore the student's family dynamics
+    - Analyze the student's cognitive distortions
+    - Interpret the unconscious meaning of the behavior
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The concept of "external control psychology" refers to:'
+    Options:
+    - The therapist controlling the session
+    - Trying to control others' behavior
+    - Environmental determinism
+    - Government control of individuals
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: 'In Reality Therapy, the counseling environment should emphasize:'
+    Options:
+    - Transference analysis
+    - Warmth, trust, and involvement
+    - Systematic desensitization
+    - Cognitive restructuring
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: Which statement best reflects the Reality Therapy view of mental
+      illness?
+    Options:
+    - '"Mental illness is a myth created by psychiatry"'
+    - '"All mental illness has biological causes"'
+    - '"Mental illness results from unsatisfying relationships"'
+    - '"Mental illness requires medication treatment"'
+    CorrectOptionIndex: 2
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The "P" in WDEP involves helping clients develop:'
+    Options:
+    - Positive thinking patterns
+    - Practical, specific plans for change
+    - Psychoanalytic understanding
+    - Philosophical perspectives
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: 'A student says, "My teacher makes me angry." A Reality therapist
+      would help them reframe this as:'
+    Options:
+    - '"The teacher is a difficult person"'
+    - '"I choose to feel angry about my teacher''s behavior"'
+    - '"You have anger issues from childhood"'
+    - '"The teacher has personality problems"'
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: 'Quality Schools based on Choice Theory emphasize:'
+    Options:
+    - Competitive grading and ranking
+    - Coercion and punishment
+    - Useful work and self-evaluation
+    - Standardized curriculum only
+    CorrectOptionIndex: 2
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The "Seven Deadly Habits" in relationships include:'
+    Options:
+    - Criticizing, blaming, complaining, nagging, threatening, punishing, bribing
+    - Eating, sleeping, working, playing, loving, thinking, feeling
+    - Analyzing, interpreting, reflecting, questioning, guiding, supporting, challenging
+    - Planning, organizing, implementing, evaluating, modifying, terminating, following
+      up
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'In Reality Therapy, symptoms are viewed as:'
+    Options:
+    - Choices to deal with unsatisfied needs
+    - Signs of unconscious conflict
+    - Results of cognitive errors
+    - Biological malfunctions
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The "Ten Axioms" of Choice Theory explain:'
+    Options:
+    - Mathematical principles of behavior
+    - Basic principles of how we choose behavior
+    - Philosophical foundations of reality
+    - Psychological assessment methods
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: 'A school counselor using Reality Therapy with a underachieving
+      student would focus on:'
+    Options:
+    - How the student's choices affect their academic success
+    - The student's early educational experiences
+    - Cognitive distortions about learning ability
+    - Unconscious resistance to success
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The "Comparing Place" in Choice Theory is where we:'
+    Options:
+    - Compare ourselves to others
+    - Compare what we want with what we have
+    - Compare different therapy approaches
+    - Compare past and present behaviors
+    CorrectOptionIndex: 1
+    LevelName: reality-theories of counselling
+  - QuestionText: 'Reality Therapy is particularly effective in:'
+    Options:
+    - Correctional and school settings
+    - Psychoanalytic institutes
+    - Dream analysis
+    - Cognitive laboratories
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The "Seven Caring Habits" include:'
+    Options:
+    - Testing, measuring, evaluating, grading, ranking, promoting, retaining
+    - Analyzing, interpreting, diagnosing, treating, medicating, hospitalizing, discharging
+    - Supporting, encouraging, listening, accepting, trusting, respecting, negotiating
+      differences
+    - Planning, implementing, monitoring, evaluating, modifying, terminating, following
+      up
+    CorrectOptionIndex: 2
+    LevelName: reality-theories of counselling
+  - QuestionText: 'A key strength of Reality Therapy is its:'
+    Options:
+    - Focus on personal responsibility and practical change
+    - Depth of unconscious exploration
+    - Complexity of theoretical constructs
+    - Emphasis on pharmacological treatment
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'In Reality Therapy, the concept of "success identity" refers to:'
+    Options:
+    - Social popularity and approval
+    - Achieving fame and fortune
+    - Perfect academic performance
+    - Seeing oneself as capable of meeting needs effectively
+    CorrectOptionIndex: 3
+    LevelName: reality-theories of counselling
+  - QuestionText: 'A teacher applying Choice Theory in the classroom would:'
+    Options:
+    - Create a need-satisfying environment
+    - Use extensive punishment for misbehavior
+    - Focus only on academic content
+    - Avoid all emotional expression
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The "W" in WDEP involves exploring the client''s:'
+    Options:
+    - Willingness to change
+    - Worst experiences
+    - Work history
+    - Wants and desires
+    CorrectOptionIndex: 3
+    LevelName: reality-theories of counselling
+  - QuestionText: 'Reality Therapy has been criticized for:'
+    Options:
+    - Overemphasizing personal responsibility
+    - Being too focused on the past
+    - Ignoring behavioral aspects
+    - Rejecting the therapeutic relationship
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'According to Choice Theory, the only person''s behavior we can
+      control is:'
+    Options:
+    - Our own
+    - Our children's
+    - Our students'
+    - Our employees'
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'A student who complains about unfair treatment would be encouraged
+      in Reality Therapy to:'
+    Options:
+    - Focus on what they can control - their own response
+    - File a formal complaint
+    - Analyze why people are unfair
+    - Explore childhood experiences of unfairness
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The concept of "lead management" in schools emphasizes:'
+    Options:
+    - Coercion and control
+    - Punishment and rewards
+    - Involvement and guidance
+    - Authority and dominance
+    CorrectOptionIndex: 2
+    LevelName: reality-theories of counselling
+  - QuestionText: 'In Reality Therapy, plans should be:'
+    Options:
+    - Simple, specific, and achievable
+    - Complex and challenging
+    - Focused on others' behavior
+    - Dependent on external factors
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The basic need for "fun" includes:'
+    Options:
+    - Constant entertainment
+    - Only recreational activities
+    - Avoiding all work
+    - Laughter, learning, and pleasure
+    CorrectOptionIndex: 3
+    LevelName: reality-theories of counselling
+  - QuestionText: 'A school implementing Quality School concepts would likely have:'
+    Options:
+    - Student involvement in decision-making
+    - Strict, teacher-centered instruction only
+    - Competitive grading systems
+    - Extensive standardized testing
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The "D" in WDEP refers to examining what the client is:'
+    Options:
+    - Currently doing and directing
+    - Dreaming about
+    - Developing mentally
+    - Deciding philosophically
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'Reality Therapy is particularly suitable for:'
+    Options:
+    - Cognitive restructuring only
+    - Deep analysis of unconscious conflicts
+    - Exploring existential anxiety
+    - Clients who need to take more responsibility
+    CorrectOptionIndex: 3
+    LevelName: reality-theories of counselling
+  - QuestionText: 'According to Glasser, psychological symptoms are:'
+    Options:
+    - Creative adaptations to unmet needs
+    - Signs of mental illness requiring medication
+    - Always biologically determined
+    - Results of cognitive errors only
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'A key contribution of Reality Therapy to education is its:'
+    Options:
+    - Emphasis on student responsibility and choice
+    - Focus on standardized testing
+    - Use of competitive motivation
+    - Dependence on external rewards
+    CorrectOptionIndex: 0
+    LevelName: reality-theories of counselling
+  - QuestionText: 'The ultimate goal of Reality Therapy is to help clients develop:'
+    Options:
+    - Dependence on the therapist
+    - Complete insight into their past
+    - Perfect mental health
+    - A success identity and effective life management
+    CorrectOptionIndex: 3
+    LevelName: reality-theories of counselling

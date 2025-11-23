@@ -1,0 +1,445 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: teaching as profession
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Which of the following is a foundational discipline that forms
+      the systematic body of knowledge for teaching?
+    Options:
+    - Astrology
+    - Educational Psychology
+    - Culinary Arts
+    - Automotive Engineering
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'The mandatory pre-service qualification for a secondary school
+      teacher in India is typically a:'
+    Options:
+    - B.Tech.
+    - B.Ed.
+    - MBBS
+    - LL.B.
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'The primary motive of the teaching profession is:'
+    Options:
+    - Financial profit
+    - Social service and student development
+    - Political influence
+    - Administrative power
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: Which statutory body in India is responsible for regulating teacher
+      education programs?
+    Options:
+    - NCERT
+    - UGC
+    - NCTE
+    - CBSE
+    CorrectOptionIndex: 2
+    LevelName: teaching as profession
+  - QuestionText: 'A key aspect of professional autonomy for a teacher is the freedom
+      to:'
+    Options:
+    - Set their own salary
+    - Choose appropriate teaching methods for their classroom
+    - Change the national curriculum
+    - Decide school holidays
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'The term "semi-profession" is sometimes used for teaching because
+      of its:'
+    Options:
+    - High social status
+    - Extensive and exclusive autonomy
+    - Limited autonomy and variable entry standards
+    - Focus on theoretical knowledge only
+    CorrectOptionIndex: 2
+    LevelName: teaching as profession
+  - QuestionText: 'A code of professional ethics for teachers is essential because
+      it:'
+    Options:
+    - Guarantees a high salary
+    - Provides guidelines for ethical conduct and prioritizes student welfare
+    - Restricts the number of teachers
+    - Is only a formality
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'Engaging in regular workshops and courses to update one''s skills
+      is an example of:'
+    Options:
+    - A waste of time
+    - Continuous professional development
+    - Lack of initial training
+    - Administrative burden
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: Which of the following is a professional organization for teachers?
+    Options:
+    - The local grocery store association
+    - The State Council of Educational Research and Training (SCERT)
+    - The school's parent-teacher association
+    - The district sports club
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'A major challenge to the professional status of teaching is:'
+    Options:
+    - Its strong theoretical foundation
+    - The existence of a code of ethics
+    - The requirement for formal qualifications
+    - The perception of it being a low-status vocation in some contexts
+    CorrectOptionIndex: 3
+    LevelName: teaching as profession
+  - QuestionText: 'The National Education Policy (NEP) 2020 aims to strengthen teaching
+      as a profession by:'
+    Options:
+    - Eliminating the need for teacher training
+    - Promoting continuous professional development and merit-based tenure
+    - Reducing teacher autonomy
+    - Focusing only on student assessments
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: Which of the following best describes the "service motive" in teaching?
+    Options:
+    - Working only for a high income
+    - A commitment to the holistic development of students and society
+    - Serving the school administration without question
+    - Focusing solely on completing the syllabus
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'The autonomy of a teacher is often constrained by:'
+    Options:
+    - Their own lack of knowledge
+    - The weather
+    - Student preferences
+    - Prescribed curricula and administrative hierarchies
+    CorrectOptionIndex: 3
+    LevelName: teaching as profession
+  - QuestionText: 'A teacher who uses research findings to improve their classroom
+      practice is:'
+    Options:
+    - Engaging in unnecessary work
+    - Applying the systematic knowledge base of the profession
+    - Showing off
+    - Ignoring traditional methods
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'The role of the NCERT in the teaching profession is primarily:'
+    Options:
+    - To recruit teachers
+    - To pay teacher salaries
+    - To develop curriculum frameworks and resource materials
+    - To regulate universities
+    CorrectOptionIndex: 2
+    LevelName: teaching as profession
+  - QuestionText: 'Professionalism in teaching requires teachers to be accountable
+      to:'
+    Options:
+    - Themselves only
+    - Their students, parents, and the community
+    - The school principal only
+    - No one
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: Which of the following is an example of unprofessional conduct
+      for a teacher?
+    Options:
+    - Preparing lesson plans
+    - Discriminating among students based on personal bias
+    - Attending staff meetings
+    - Evaluating student work
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'The concept of teaching as a "lifelong learning" profession implies
+      that:'
+    Options:
+    - Learning stops after getting a degree
+    - Teachers must continuously update their knowledge and skills
+    - Teachers should only learn from textbooks
+    - Experience is the only teacher
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'A key difference between teaching and a traditional trade is that
+      teaching:'
+    Options:
+    - Requires no formal training
+    - Has no code of conduct
+    - Involves selling a product
+    - Is based on a theoretical body of knowledge
+    CorrectOptionIndex: 3
+    LevelName: teaching as profession
+  - QuestionText: 'The professionalization of teaching is important because it:'
+    Options:
+    - Makes the job easier
+    - Enhances the quality of education and student outcomes
+    - Guarantees shorter working hours
+    - Is a trend followed worldwide
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'Teachers'' unions contribute to the profession by:'
+    Options:
+    - Enforcing government policies without question
+    - Advocating for teachers' rights and working conditions
+    - Setting the school curriculum
+    - Conducting student examinations
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'A teacher who reflects on a lesson that did not go well and plans
+      to improve it is demonstrating:'
+    Options:
+    - Incompetence
+    - Blame on students
+    - A lack of preparation
+    - Reflective practice, a hallmark of professionalism
+    CorrectOptionIndex: 3
+    LevelName: teaching as profession
+  - QuestionText: 'The social responsibility of a teacher includes:'
+    Options:
+    - Ignoring societal issues
+    - Shaping responsible and informed future citizens
+    - Focusing only on academic content
+    - Maintaining isolation from the community
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: Which factor is crucial for teaching to be recognized as a full-fledged
+      profession?
+    Options:
+    - Uniformly high and rigorous standards for entry and practice
+    - Eliminating all forms of teacher training
+    - Reducing teacher salaries
+    - Increasing class sizes
+    CorrectOptionIndex: 0
+    LevelName: teaching as profession
+  - QuestionText: 'A teacher maintaining student confidentiality is an example of
+      adhering to a:'
+    Options:
+    - School rule
+    - Code of professional ethics
+    - Parent's request
+    - Personal preference
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'The argument that teaching has a "systematic body of knowledge"
+      is supported by the existence of:'
+    Options:
+    - Teacher's diaries
+    - Theories of learning, child development, and pedagogy
+    - School timetables
+    - Student report cards
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'In-service teacher education is necessary to:'
+    Options:
+    - Replace pre-service education
+    - Combat professional obsolescence and keep skills updated
+    - Punish teachers for poor performance
+    - Provide teachers with a break from teaching
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'A professional teacher is expected to collaborate with colleagues
+      to:'
+    Options:
+    - Create a monopoly on knowledge
+    - Share best practices and improve school-wide learning
+    - Isolate themselves
+    - Compete for the best students
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'The concept of "pedagogical content knowledge" (PCK) is unique
+      to the teaching profession because it:'
+    Options:
+    - Is only about subject matter
+    - Is only about teaching methods
+    - Blends content knowledge with knowledge of how to teach that content
+    - Is irrelevant to classroom teaching
+    CorrectOptionIndex: 2
+    LevelName: teaching as profession
+  - QuestionText: Which of the following undermines the professional status of teaching?
+    Options:
+    - The requirement for a B.Ed. degree
+    - The availability of teaching jobs for untrained individuals in some sectors
+    - The existence of the NCTE
+    - The practice of reflective teaching
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'A teacher''s professional judgment is most evident in their ability
+      to:'
+    Options:
+    - Follow the textbook word-for-word
+    - Adapt instruction to meet the diverse needs of learners
+    - Implement all administrative orders without thought
+    - Avoid trying new teaching strategies
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'The National Curriculum Framework for Teacher Education (NCFTE)
+      provides a:'
+    Options:
+    - Syllabus for school students
+    - Vision and guiding principles for teacher education programs
+    - List of government schools
+    - Timetable for board examinations
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'A true professional in teaching prioritizes:'
+    Options:
+    - Their own convenience
+    - Impressing the school management
+    - Covering the syllabus quickly
+    - The learning and well-being of their students
+    CorrectOptionIndex: 3
+    LevelName: teaching as profession
+  - QuestionText: 'The professional development of a teacher is a:'
+    Options:
+    - One-time event after pre-service training
+    - Continuous process throughout their career
+    - Responsibility solely of the government
+    - Matter of personal choice with no impact on quality
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: Which of the following is a characteristic of a profession that
+      teaching fully embodies?
+    Options:
+    - Monopoly on services
+    - High social status universally
+    - Service motive
+    - Complete freedom from public accountability
+    CorrectOptionIndex: 2
+    LevelName: teaching as profession
+  - QuestionText: 'A teacher who uses action research to solve a classroom problem
+      is:'
+    Options:
+    - Adding to their workload unnecessarily
+    - Contributing to the knowledge base of the profession
+    - Violating student privacy
+    - Ignoring established solutions
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'The professional identity of a teacher is shaped by:'
+    Options:
+    - Their salary alone
+    - Their qualifications, ethical conduct, and commitment to student learning
+    - The number of students they teach
+    - The location of the school
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'A challenge in achieving full professional autonomy for teachers
+      is:'
+    Options:
+    - Their extensive training
+    - Standardized testing and prescribed learning outcomes
+    - Their membership in professional bodies
+    - The code of ethics for teachers
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'The phrase "teaching is a noble profession" emphasizes its:'
+    Options:
+    - High economic returns
+    - Political power
+    - Ease and comfort
+    - Ethical and service-oriented nature
+    CorrectOptionIndex: 3
+    LevelName: teaching as profession
+  - QuestionText: 'For teaching to be recognized as a profession comparable to medicine,
+      it needs:'
+    Options:
+    - Less rigorous training
+    - Greater public trust in its specialized knowledge and judgment
+    - More government control
+    - To focus less on student well-being
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'A professional learning community (PLC) in a school helps in strengthening
+      teaching as a profession by:'
+    Options:
+    - Promoting isolation
+    - Fostering collaborative learning among teachers
+    - Encouraging competition
+    - Reducing the need for planning
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: The Diploma in Elementary Education (D.El.Ed.) is a professional
+      qualification for teachers at which level?
+    Options:
+    - Secondary
+    - Higher Education
+    - Elementary
+    - Pre-primary
+    CorrectOptionIndex: 2
+    LevelName: teaching as profession
+  - QuestionText: 'A teacher''s professionalism is judged by their:'
+    Options:
+    - Personal life
+    - Competence, conduct, and commitment in their professional role
+    - Popularity among students
+    - Ability to avoid conflicts
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'The right to ongoing professional development is a key aspect
+      of:'
+    Options:
+    - Teacher exploitation
+    - Professionalizing teaching
+    - Increasing teacher workload
+    - A government scheme
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: Which of the following is a threat to teacher professionalism?
+    Options:
+    - Reflective practice
+    - Political interference in curriculum and appointments
+    - Adherence to a code of conduct
+    - Engagement with research
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'The ultimate goal of recognizing teaching as a profession is to:'
+    Options:
+    - Form teachers' unions
+    - Attract more people to the field
+    - Ensure quality education for all children
+    - Standardize teacher salaries
+    CorrectOptionIndex: 2
+    LevelName: teaching as profession
+  - QuestionText: 'A teacher who is punctual, meets deadlines, and is well-prepared
+      is demonstrating:'
+    Options:
+    - Basic job requirements
+    - Professional work ethic
+    - A desire for promotion
+    - Fear of authority
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'The knowledge base for teaching is unique because it must integrate
+      knowledge of the subject with knowledge of:'
+    Options:
+    - The stock market
+    - The learner and the learning process
+    - Current political affairs
+    - Agricultural techniques
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession
+  - QuestionText: 'A sign of a mature profession is that its members:'
+    Options:
+    - Blindly follow traditions
+    - Are immune to public criticism
+    - Work in complete isolation
+    - Engage in critical self-regulation and development of standards
+    CorrectOptionIndex: 3
+    LevelName: teaching as profession
+  - QuestionText: 'The journey of a teacher as a professional is best described as:'
+    Options:
+    - Static and unchanging
+    - A dynamic process of growth, learning, and adaptation
+    - A path to administrative power
+    - A series of routine tasks
+    CorrectOptionIndex: 1
+    LevelName: teaching as profession

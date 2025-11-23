@@ -1,0 +1,470 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: educational- guidance
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary objective of educational guidance at the secondary
+      school level?
+    Options:
+    - To secure a job for the student
+    - To facilitate the student's choice of appropriate courses and future educational
+      plans
+    - To provide therapeutic counseling for emotional issues
+    - To focus exclusively on improving academic grades
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'A student who is highly intelligent but consistently underperforms
+      in exams likely needs assistance primarily in the realm of:'
+    Options:
+    - Vocational Guidance
+    - Educational Guidance (addressing study habits, exam anxiety)
+    - Personal Guidance
+    - Recreational Guidance
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'The "Follow-up Service" in educational guidance is primarily used
+      to:'
+    Options:
+    - Punish students who do not perform well
+    - Evaluate the effectiveness of the guidance provided and the student's progress
+    - Provide financial aid to alumni
+    - Check on the personal lives of former students
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: Which of the following is a key "tool" used specifically in educational
+      guidance to understand a student's academic potential?
+    Options:
+    - Aptitude Test
+    - Interest Inventory
+    - Projective Technique
+    - Sociogram
+    CorrectOptionIndex: 0
+    LevelName: educational- guidance
+  - QuestionText: Educational guidance is considered a ______ process, as it is needed
+      at every stage of the educational journey.
+    Options:
+    - Terminal
+    - Continuous
+    - Optional
+    - Redundant
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'The main purpose of the "Orientation Service" for new students
+      in a college is to:'
+    Options:
+    - Help them adjust to the new academic and social environment
+    - Immediately place them in a job
+    - Diagnose severe learning disabilities
+    - Replace the role of their parents
+    CorrectOptionIndex: 0
+    LevelName: educational- guidance
+  - QuestionText: A student who is a first-generation learner faces unique challenges.
+      Which type of guidance is most critical in helping them navigate the academic
+      system?
+    Options:
+    - Vocational Guidance
+    - Educational Guidance
+    - Personal Guidance
+    - All of the above are equally critical
+    CorrectOptionIndex: 3
+    LevelName: educational- guidance
+  - QuestionText: 'Critically analyzing a school''s policy of forcing all science-stream
+      students to take engineering entrance coaching, a guidance expert would argue
+      that it violates the principle of:'
+    Options:
+    - Continuity in guidance
+    - Individual differences in educational guidance
+    - Cooperation in guidance
+    - Confidentiality
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: If a teacher collects and provides students with information about
+      various universities, scholarships, and eligibility criteria, they are performing
+      the core function of which service?
+    Options:
+    - Counselling Service
+    - Placement Service
+    - Information Service
+    - Research Service
+    CorrectOptionIndex: 2
+    LevelName: educational- guidance
+  - QuestionText: 'The concept of "Remedial Teaching" falls most directly under the
+      purview of:'
+    Options:
+    - Personal Guidance
+    - Educational Guidance
+    - Vocational Guidance
+    - Social Guidance
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: Which of the following best describes the nature of educational
+      guidance?
+    Options:
+    - It is a clinical process for treating mental illness.
+    - It is a proactive, developmental process to maximize a student's academic potential.
+    - It is only for students with learning disabilities.
+    - It is synonymous with disciplinary action.
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: A student is proficient in biology but dislikes dissection and
+      faints at the sight of blood. Pushing this student toward a medical career
+      would be a failure of which guidance principle?
+    Options:
+    - Principle of Cooperation
+    - Principle of Holistic Development
+    - Principle of Evaluation
+    - Principle of Individual Differences
+    CorrectOptionIndex: 3
+    LevelName: educational- guidance
+  - QuestionText: The "Cumulative Record Card" is primarily associated with which
+      service of guidance?
+    Options:
+    - The Placement Service
+    - The Inventory Service (compiling cumulative student data)
+    - The Research Service
+    - The Orientation Service
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: Which type of guidance is primarily concerned with helping an individual
+      choose a career, prepare for it, and progress in it?
+    Options:
+    - Educational Guidance
+    - Vocational Guidance
+    - Personal Guidance
+    - Social Guidance
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'A school counselor helps a student deal with intense feelings
+      of loneliness and social anxiety. This intervention is an example of:'
+    Options:
+    - Educational Guidance
+    - Vocational Guidance
+    - Personal Guidance
+    - Recreational Guidance
+    CorrectOptionIndex: 2
+    LevelName: educational- guidance
+  - QuestionText: 'At the primary school level, educational guidance focuses heavily
+      on:'
+    Options:
+    - Specialized career choices
+    - The development of basic academic skills and a positive attitude toward school
+    - Intensive psychotherapy
+    - Financial planning for college
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'A teacher designs a "Learning Styles Inventory" to understand
+      if students are visual, auditory, or kinesthetic learners. Using this data
+      to tailor teaching methods is an application of:'
+    Options:
+    - Personal Guidance
+    - Educational Guidance
+    - Vocational Guidance
+    - Social Guidance
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'The statement "Guidance is for all" underscores the principle
+      of:'
+    Options:
+    - Elitism
+    - Remediation
+    - Specialization
+    - Universality
+    CorrectOptionIndex: 3
+    LevelName: educational- guidance
+  - QuestionText: 'In the context of educational guidance, "peer tutoring" is an
+      effective strategy that aligns with the principle of:'
+    Options:
+    - Isolation
+    - Cooperation
+    - Confidentiality
+    - Paternalism
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: Which of the following is the ultimate aim of educational guidance?
+    Options:
+    - To ensure every student becomes a topper.
+    - To make students completely dependent on their teachers.
+    - To enable students to become self-directed, confident, and effective learners.
+    - To reduce the workload of the school administration.
+    CorrectOptionIndex: 2
+    LevelName: educational- guidance
+  - QuestionText: 'A student achieves top marks in commerce but has a deep-seated
+      passion and talent for graphic design. Family pressure is forcing them into
+      Chartered Accountancy. The most ethical and effective approach for an educational
+      guidance counselor would be to:'
+    Options:
+    - Support the family's decision as they know best.
+    - Ignore the student's passion and focus on commerce.
+    - Facilitate a dialogue between the student and parents, presenting aptitude
+      and interest data, to help the student make an informed, autonomous decision.
+    - Immediately refer the student to a mental health professional.
+    CorrectOptionIndex: 2
+    LevelName: educational- guidance
+  - QuestionText: 'Evaluating two schools: School A has a dedicated guidance cell
+      that conducts regular career workshops and one-on-one planning sessions. School
+      B focuses solely on academic instruction. A long-term outcome likely to be
+      observed in School A over School B is:'
+    Options:
+    - Higher levels of student anxiety and confusion about future paths.
+    - A lower student-teacher ratio.
+    - Better-informed student choices and higher satisfaction with their selected
+      streams/careers.
+    - A more rigid and inflexible curriculum.
+    CorrectOptionIndex: 2
+    LevelName: educational- guidance
+  - QuestionText: A teacher uses a sociogram to identify isolated students in the
+      classroom and then designs group activities to foster inclusion. This action
+      integrates which type of guidance into teaching?
+    Options:
+    - Vocational Guidance
+    - Personal and Social Guidance
+    - Educational Guidance
+    - Health Guidance
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'In the context of inclusive education, the role of educational
+      guidance for a student with dyslexia would primarily involve:'
+    Options:
+    - Suggesting they drop out of academic pursuits.
+    - Providing remedial support, recommending assistive technologies, and advocating
+      for appropriate accommodations.
+    - Focusing only on their non-academic talents.
+    - Treating them exactly the same as every other student without any modifications.
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'A school''s guidance program is criticized for being "reactive,"
+      only helping students after they fail. To make it "proactive," the counselor
+      should prioritize:'
+    Options:
+    - Waiting for more students to fail.
+    - Focusing only on college placement for final-year students.
+    - Increasing the number of disciplinary actions.
+    - Implementing developmental programs on study skills, time management, and goal-setting
+      for all students.
+    CorrectOptionIndex: 3
+    LevelName: educational- guidance
+  - QuestionText: 'The "Group Guidance" technique is LEAST effective for:'
+    Options:
+    - Disseminating information about career options to a large class.
+    - Conducting orientation for new students.
+    - Addressing deep-seated, personal psychological trauma of an individual student.
+    - Teaching study skills through workshops.
+    CorrectOptionIndex: 2
+    LevelName: educational- guidance
+  - QuestionText: 'A student confides in a guidance teacher about being bullied.
+      The teacher''s immediate ethical responsibility is to:'
+    Options:
+    - Promise absolute confidentiality and do nothing.
+    - Ensure the student's safety and well-being, which may involve breaking confidentiality.
+    - Advise the student to fight back.
+    - Ignore it as a normal part of school life.
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: If a counsellor uses techniques like active listening, unconditional
+      positive regard, and genuineness, they are practicing which approach?
+    Options:
+    - Directive Approach
+    - Person-Centered Approach
+    - Behavioral Approach
+    - Psychoanalytic Approach
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'The "Eclectic Approach" in guidance and counseling refers to:'
+    Options:
+    - Sticking rigidly to one theory.
+    - A approach that is only used in vocational guidance.
+    - Focusing solely on electrical impulses in the brain.
+    - Selecting and integrating useful techniques from various theories.
+    CorrectOptionIndex: 3
+    LevelName: educational- guidance
+  - QuestionText: 'A teacher notices a bright student''s grades are slipping and
+      they appear distracted. The teacher''s best first step is to:'
+    Options:
+    - Immediately call the parents and report the student.
+    - Provide a safe space for a conversation to understand any underlying issues.
+    - Punish the student for not paying attention.
+    - Ignore the situation, assuming it will resolve itself.
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'The primary purpose of "rapport building" in the initial stage
+      of counseling is to:'
+    Options:
+    - Become friends with the client.
+    - Establish a foundation of trust and a working alliance.
+    - Extract personal information quickly.
+    - Decide on the fees for the session.
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: A guidance program that helps students develop effective communication
+      and conflict-resolution skills is primarily addressing which area?
+    Options:
+    - Educational Development
+    - Cognitive Development
+    - Vocational Development
+    - Personal-Social Development
+    CorrectOptionIndex: 3
+    LevelName: educational- guidance
+  - QuestionText: 'The "Directive" approach to counseling is characterized by:'
+    Options:
+    - The counsellor being non-judgmental and reflective.
+    - The counsellor taking a leading role by advising and prescribing solutions.
+    - The client directing the session entirely.
+    - A focus on the client's unconscious mind.
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: Which of the following is NOT a typical function of a school guidance
+      counsellor?
+    Options:
+    - Administering psychological tests.
+    - Teaching regular academic subjects as a primary duty.
+    - Providing crisis intervention.
+    - Consulting with teachers and parents.
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'A student says, "I''m so stupid; I always fail at math." A counsellor
+      using a Cognitive-Behavioral approach would most likely:'
+    Options:
+    - Explore the client's childhood experiences with math.
+    - Agree with the student's self-assessment.
+    - Provide unconditional positive regard to make them feel better.
+    - Help the client identify and challenge this irrational self-statement.
+    CorrectOptionIndex: 3
+    LevelName: educational- guidance
+  - QuestionText: 'The need for guidance in modern education has increased primarily
+      due to:'
+    Options:
+    - Decrease in the number of students.
+    - Reduction in curriculum complexity.
+    - Expansion of educational and career opportunities and complex social challenges.
+    - The lack of qualified teachers.
+    CorrectOptionIndex: 2
+    LevelName: educational- guidance
+  - QuestionText: 'A teacher acting as a "guidance-minded teacher" would:'
+    Options:
+    - Focus solely on completing the syllabus on time.
+    - Be sensitive to the individual differences and holistic needs of students.
+    - Refer every minor student issue to the counsellor.
+    - Treat all students identically without exception.
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'In a culturally diverse classroom, a guidance counsellor must
+      be especially mindful of:'
+    Options:
+    - Imposing their own cultural values on the client.
+    - Using standardized tests without considering cultural context.
+    - The client's cultural background and its influence on their worldview.
+    - All of the above.
+    CorrectOptionIndex: 3
+    LevelName: educational- guidance
+  - QuestionText: 'A school''s failure to have a structured guidance program can
+      lead to:'
+    Options:
+    - Increased student dropout rates and maladjustment.
+    - Improved academic results as teachers focus only on teaching.
+    - Reduced workload for the school administration.
+    - More disciplined students.
+    CorrectOptionIndex: 0
+    LevelName: educational- guidance
+  - QuestionText: 'The term "catharsis" in the counselling process refers to:'
+    Options:
+    - The final solution to a problem.
+    - The emotional release experienced by the client when sharing pent-up feelings.
+    - The counsellor's interpretation of a dream.
+    - The cognitive restructuring of a thought.
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: Which service is specifically designed to help students transition
+      from one educational level to another (e.g., from school to college)?
+    Options:
+    - Counselling Service
+    - Placement Service
+    - Orientation Service
+    - Research Service
+    CorrectOptionIndex: 2
+    LevelName: educational- guidance
+  - QuestionText: 'A class is dealing with the sudden death of a classmate. The most
+      appropriate role for the guidance counsellor here is:'
+    Options:
+    - To continue with the scheduled guidance curriculum.
+    - To provide crisis counselling and grief support to the affected students.
+    - To advise the school to suspend classes for a month.
+    - To avoid the situation to prevent emotional attachment.
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'The concept of "Individual Differences" as a principle of guidance
+      necessitates that:'
+    Options:
+    - All students should be treated exactly the same for fairness.
+    - Guidance programs must be flexible to cater to the unique needs of each student.
+    - Only gifted students should receive special guidance.
+    - It is not practical to consider in a large classroom.
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'In the context of ethical practice, "dual relationship" for a
+      counsellor is problematic because it:'
+    Options:
+    - Increases the counsellor's social network.
+    - Saves time and resources.
+    - Is a required part of building rapport.
+    - Can impair objectivity, create conflicts of interest, and exploit the client.
+    CorrectOptionIndex: 3
+    LevelName: educational- guidance
+  - QuestionText: 'A guidance program that is "developmental" in nature is primarily
+      concerned with:'
+    Options:
+    - Fixing severe psychological disorders.
+    - Identifying and nurturing the potential of all students at different stages
+      of growth.
+    - Providing financial guidance.
+    - Punishing students with behavioral issues.
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: 'A student excels in mathematics but is under immense family pressure
+      to pursue medical science. The ethical dilemma for the counsellor involves
+      balancing:'
+    Options:
+    - The principle of confidentiality vs. the need to inform the parents.
+    - The student's self-awareness and autonomy vs. familial expectations and cultural
+      norms.
+    - The school's reputation vs. the student's happiness.
+    - The cost of engineering versus medical education.
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance
+  - QuestionText: "Evaluating the effectiveness of a school's career guidance program,
+      which metric would be the\_least\_directly useful?"
+    Options:
+    - Student satisfaction surveys.
+    - The number of students placed in high-salary jobs.
+    - The reduction in the number of students changing their stream after Class XII.
+    - The number of career-related seminars conducted.
+    CorrectOptionIndex: 3
+    LevelName: educational- guidance
+  - QuestionText: A counsellor who believes that a client's potential for growth
+      is determined by their past experiences and unconscious motives is most likely
+      adhering to which theoretical orientation?
+    Options:
+    - Person-Centered Therapy
+    - Behavioral Therapy
+    - Psychoanalytic Therapy
+    - Cognitive-Behavioral Therapy
+    CorrectOptionIndex: 2
+    LevelName: educational- guidance
+  - QuestionText: The "trait-and-factor" theory of counselling, pioneered by Frank
+      Parsons, is most applicable to which modern guidance service?
+    Options:
+    - Personal Counselling for anxiety
+    - Career Counselling and aptitude matching
+    - Group Therapy for addiction
+    - Crisis Intervention for trauma
+    CorrectOptionIndex: 1
+    LevelName: educational- guidance

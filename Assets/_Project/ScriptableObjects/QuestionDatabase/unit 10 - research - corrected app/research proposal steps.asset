@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: research proposal steps
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary purpose of a research proposal?
+    Options:
+    - To present the final research findings
+    - To convince a committee that the research is worthwhile, feasible, and well-planned
+    - To summarize the literature
+    - To secure a job
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: Which of the following is typically the FIRST step in developing
+      a research proposal?
+    Options:
+    - Data Collection
+    - Selecting a sample
+    - Writing the abstract
+    - Identifying and defining the research problem
+    CorrectOptionIndex: 3
+    LevelName: research proposal steps
+  - QuestionText: 'The section that provides a concise summary of the entire proposal
+      is the:'
+    Options:
+    - Introduction
+    - Literature Review
+    - Abstract
+    - Methodology
+    CorrectOptionIndex: 2
+    LevelName: research proposal steps
+  - QuestionText: 'The main function of the "Introduction" chapter in a proposal
+      is to:'
+    Options:
+    - Present detailed data analysis
+    - Provide the background, context, and statement of the problem
+    - List the references
+    - Describe the sampling technique
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: 'A thorough "Review of Literature" is conducted primarily to:'
+    Options:
+    - Copy the work of others
+    - Prove the researcher has read many books
+    - Fill pages
+    - Demonstrate knowledge of the field, identify gaps, and justify the current
+      study
+    CorrectOptionIndex: 3
+    LevelName: research proposal steps
+  - QuestionText: 'The core of the research proposal is found in the:'
+    Options:
+    - Acknowledgements
+    - Curriculum Vitae
+    - Methodology section
+    - Appendix
+    CorrectOptionIndex: 2
+    LevelName: research proposal steps
+  - QuestionText: 'The "Statement of the Problem" should be:'
+    Options:
+    - Vague and broad
+    - Clear, precise, and researchable
+    - A philosophical question
+    - A list of questions for the committee
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: 'Research questions are developed from the:'
+    Options:
+    - Methodology
+    - Timeframe
+    - Budget
+    - Statement of the problem and literature review
+    CorrectOptionIndex: 3
+    LevelName: research proposal steps
+  - QuestionText: 'A hypothesis is a:'
+    Options:
+    - Proven fact
+    - Tentative, testable prediction about the relationship between variables
+    - A summary of literature
+    - A type of research question
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: 'The section that describes what the study intends to achieve is
+      the:'
+    Options:
+    - Limitations
+    - References
+    - Objectives
+    - Data Analysis Plan
+    CorrectOptionIndex: 2
+    LevelName: research proposal steps
+  - QuestionText: 'Defining the key concepts of the study in measurable terms is
+      known as:'
+    Options:
+    - Hypothesizing
+    - Operational definition
+    - Literature reviewing
+    - Sampling
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: 'The population and sampling technique are detailed in the:'
+    Options:
+    - Introduction
+    - Abstract
+    - Literature Review
+    - Methodology
+    CorrectOptionIndex: 3
+    LevelName: research proposal steps
+  - QuestionText: 'The tools and procedures for collecting data are described in
+      the:'
+    Options:
+    - Data Analysis section
+    - Instruments and Data Collection section
+    - Ethical Considerations
+    - Bibliography
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: 'The plan for how the collected data will be analyzed is outlined
+      in the:'
+    Options:
+    - Data Analysis section
+    - Introduction
+    - Statement of Problem
+    - Timeline
+    CorrectOptionIndex: 0
+    LevelName: research proposal steps
+  - QuestionText: 'A section on "Ethical Considerations" typically includes assurances
+      about:'
+    Options:
+    - The cost of the research
+    - Informed consent, confidentiality, and anonymity of participants
+    - The researcher's qualifications
+    - The number of pages
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: Why is a "Timeline" or "Work Plan" important in a research proposal?
+    Options:
+    - To make the proposal look longer
+    - To list all the holidays
+    - To demonstrate a realistic plan for completing the project within a specific
+      period
+    - To fill the appendix
+    CorrectOptionIndex: 2
+    LevelName: research proposal steps
+  - QuestionText: 'The "Budget" section of a proposal:'
+    Options:
+    - Is always optional
+    - Details the estimated costs and justifications for resources needed
+    - Is only for large projects
+    - Lists the researcher's personal expenses
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: 'The "Significance of the Study" section argues for the research''s
+      potential contribution to:'
+    Options:
+    - Theory, practice, and/or policy
+    - The researcher's career only
+    - The university's reputation
+    - The length of the library
+    CorrectOptionIndex: 0
+    LevelName: research proposal steps
+  - QuestionText: '"Limitations and Delimitations" refer to:'
+    Options:
+    - The strengths of the study
+    - Potential weaknesses and the boundaries set by the researcher
+    - The data analysis plan
+    - The references
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: 'A preliminary list of sources is presented in the:'
+    Options:
+    - Methodology
+    - Chapter 1
+    - Abstract
+    - References or Bibliography
+    CorrectOptionIndex: 3
+    LevelName: research proposal steps
+  - QuestionText: How does a well-defined "Statement of the Problem" guide the rest
+      of the proposal?
+    Options:
+    - It is unrelated to other sections.
+    - It acts as the foundation; the objectives, methodology, and analysis all flow
+      from it.
+    - It only affects the literature review.
+    - It determines the budget.
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: What is the relationship between the "Literature Review" and the
+      "Methodology" section?
+    Options:
+    - They are identical.
+    - The methodology dictates what literature to review.
+    - The literature review helps justify the chosen methodology by showing what
+      methods have been used effectively in similar studies.
+    - There is no relationship.
+    CorrectOptionIndex: 2
+    LevelName: research proposal steps
+  - QuestionText: Why must research objectives be "SMART"?
+    Options:
+    - To sound intelligent
+    - To ensure they are Specific, Measurable, Achievable, Relevant, and Time-bound,
+      providing clear direction.
+    - To comply with a trend
+    - To make them complex
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: How does detailing the "Data Analysis Plan" in the proposal strengthen
+      it?
+    Options:
+    - It makes the proposal longer.
+    - It replaces the need for results.
+    - It is only for statistical reviews.
+    - It demonstrates that the researcher has thought about how to derive meaning
+      from the data to answer the research questions.
+    CorrectOptionIndex: 3
+    LevelName: research proposal steps
+  - QuestionText: What is the purpose of including "Ethical Considerations" in a
+      proposal?
+    Options:
+    - It is a mere formality.
+    - To proactively address potential ethical issues and ensure the protection of
+      participants, which is a prerequisite for approval.
+    - To delay the research.
+    - To list all possible risks without solutions.
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: In the "Significance" section, how should a researcher argue for
+      the study's value?
+    Options:
+    - By using emotional appeals.
+    - By claiming it is the first study ever.
+    - By clearly stating its potential contributions to knowledge, policy, and practice.
+    - By criticizing all previous research.
+    CorrectOptionIndex: 2
+    LevelName: research proposal steps
+  - QuestionText: How do "Limitations" differ from "Delimitations"?
+    Options:
+    - They are the same.
+    - Limitations are potential weaknesses beyond the researcher's control, while
+      delimitations are conscious boundaries set by the researcher.
+    - Limitations are strengths.
+    - Delimitations are errors.
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: Why is a "Timeline" considered a crucial component of project management
+      in research?
+    Options:
+    - It is not important.
+    - It fixes the data collection date.
+    - It is only for the funding agency.
+    - It helps in planning, monitoring progress, and ensuring the project remains
+      on track to meet its objectives.
+    CorrectOptionIndex: 3
+    LevelName: research proposal steps
+  - QuestionText: What is the role of "Operational Definitions" in ensuring clarity?
+    Options:
+    - To confuse the reader.
+    - To ensure that key variables are defined in measurable terms, allowing for
+      replication and reducing ambiguity.
+    - To make the proposal technical.
+    - To list dictionary meanings.
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: How does a well-structured proposal benefit the researcher?
+    Options:
+    - It guarantees funding.
+    - It eliminates the need for a supervisor.
+    - It serves as a detailed blueprint, guiding the researcher through each step
+      of the actual study.
+    - It is only for the committee's benefit.
+    CorrectOptionIndex: 2
+    LevelName: research proposal steps
+  - QuestionText: 'A proposal states: "This study will use a quasi-experimental design
+      to compare pre-test and post-test scores." This statement belongs in the:'
+    Options:
+    - Literature Review
+    - Methodology (Research Design)
+    - Significance of the Study
+    - References
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: "Assertion (A):\_The abstract of a research proposal must be written
+      last.\_Reason (R):\_It is a summary of the entire proposal, including the problem,
+      methods, and expected outcomes."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: research proposal steps
+  - QuestionText: 'A proposal includes a statement: "Access to the participant company
+      may be denied, which could limit the sample size." This is an example of a:'
+    Options:
+    - Delimitation
+    - Objective
+    - Hypothesis
+    - Limitation
+    CorrectOptionIndex: 3
+    LevelName: research proposal steps
+  - QuestionText: Contrast the "Theoretical Framework" with the "Conceptual Framework."
+    Options:
+    - They are identical.
+    - 'Theoretical: based on an existing theory. Conceptual: the researcher''s own
+      model of how variables interact.'
+    - Theoretical is for qualitative studies, Conceptual for quantitative.
+    - Conceptual is always better.
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: 'A proposal states the study will "explore the lived experiences
+      of first-generation college students." The most appropriate methodology section
+      will detail a plan for:'
+    Options:
+    - A large-scale survey
+    - A controlled laboratory experiment
+    - In-depth interviews and thematic analysis
+    - Quasi-experimental design
+    CorrectOptionIndex: 2
+    LevelName: research proposal steps
+  - QuestionText: Which of the following is the STRONGEST "Statement of the Problem"?
+    Options:
+    - '"Lots of students have problems."'
+    - '"There is a gap in the literature about science teaching."'
+    - '"This study will investigate student performance."'
+    - '"Despite the widespread adoption of active learning, a discrepancy exists
+      between its theoretical benefits and its impact on the conceptual understanding
+      of thermodynamics among high school students, as identified in the studies
+      by X (2020) and Y (2022)."'
+    CorrectOptionIndex: 3
+    LevelName: research proposal steps
+  - QuestionText: 'The "Definitions of Terms" section in a proposal is included to:'
+    Options:
+    - Show off vocabulary
+    - Ensure all readers have a common understanding of key concepts as they are
+      used in the study.
+    - Make the proposal meet a page count
+    - List every possible term
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: 'A proposal that does not include a clear "Data Analysis Plan"
+      is most likely to be criticized for:'
+    Options:
+    - Being too short
+    - An poor abstract
+    - Having too many objectives
+    - A lack of rigor and foresight, raising doubts about the researcher's ability
+      to complete the study.
+    CorrectOptionIndex: 3
+    LevelName: research proposal steps
+  - QuestionText: 'The "Pilot Study" is often mentioned in a proposal to:'
+    Options:
+    - Replace the main study
+    - Describe a small-scale trial run to test and refine the research instruments
+      and procedures.
+    - Increase the budget
+    - Hide methodological flaws
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: 'When presenting the "Budget," the most important principle is:'
+    Options:
+    - To ask for as much money as possible.
+    - To use round numbers.
+    - To hide certain costs.
+    - To provide a detailed and realistic justification for each item.
+    CorrectOptionIndex: 3
+    LevelName: research proposal steps
+  - QuestionText: 'The primary audience for a research proposal is:'
+    Options:
+    - The general public
+    - The research participants
+    - The thesis committee or funding agency
+    - The journal editor
+    CorrectOptionIndex: 2
+    LevelName: research proposal steps
+  - QuestionText: 'A key difference between a research proposal and a research report
+      is that the proposal:'
+    Options:
+    - Contains the results
+    - "Describes what the researcher\_intends\_to do"
+    - Is written after the study
+    - Analyzes collected data
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: 'The "Theoretical Framework" section connects the study to:'
+    Options:
+    - The budget
+    - The appendix
+    - The researcher's personal beliefs
+    - A broader system of concepts and theories, providing a foundation for interpreting
+      results.
+    CorrectOptionIndex: 3
+    LevelName: research proposal steps
+  - QuestionText: 'Including a "Dissemination Plan" (e.g., conferences, publications)
+      in a proposal shows:'
+    Options:
+    - The researcher is boastful
+    - A commitment to sharing knowledge and contributing to the field beyond the
+      thesis.
+    - A lack of focus
+    - That the study is complete
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: 'A flaw in a proposal is often indicated by:'
+    Options:
+    - A clear timeline
+    - Alignment between the problem, questions, and methods
+    - A mismatch between the research questions and the methodology
+    - A comprehensive literature review
+    CorrectOptionIndex: 2
+    LevelName: research proposal steps
+  - QuestionText: 'The "References" section should be:'
+    Options:
+    - Formatted in a single style
+    - A random list of sources
+    - Comprised mostly of websites
+    - Written in multiple formatting styles
+    CorrectOptionIndex: 0
+    LevelName: research proposal steps
+  - QuestionText: 'The "Introduction" chapter should culminate in the:'
+    Options:
+    - Data analysis plan
+    - Statement of the problem and the research questions
+    - Full literature review
+    - Detailed methodology
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: A Gantt chart is a visual tool often used in the ______ section
+      of a proposal.
+    Options:
+    - Methodology
+    - Ethical Considerations
+    - Budget
+    - Timeline/Schedule
+    CorrectOptionIndex: 3
+    LevelName: research proposal steps
+  - QuestionText: 'The term "delimitation" can be best defined as:'
+    Options:
+    - An unavoidable weakness
+    - A scope-setting choice made by the researcher (e.g., focusing on one age group
+      or one location)
+    - A statistical error
+    - A type of hypothesis
+    CorrectOptionIndex: 1
+    LevelName: research proposal steps
+  - QuestionText: 'The most critical element that ties all sections of a research
+      proposal together is the:'
+    Options:
+    - Researcher's biography
+    - Font size
+    - Number of pages
+    - Research problem or question
+    CorrectOptionIndex: 3
+    LevelName: research proposal steps

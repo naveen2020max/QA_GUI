@@ -12,4 +12,431 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
   m_Name: TextQuestionLoader
   m_EditorClassIdentifier: 
-  defaultQuestions: []
+  defaultQuestions:
+  - QuestionText: What is the most accurate definition of 'development' in an educational
+      context?
+    Options:
+    - An increase in physical size and weight.
+    - A quantitative change that can be measured.
+    - A progressive series of orderly, coherent changes leading towards the goal
+      of maturity.
+    - The development of only intellectual capabilities.
+    CorrectOptionIndex: 2
+  - QuestionText: 'The principle of development that states ''development proceeds
+      from the center of the body outward'' is known as:'
+    Options:
+    - Cephalocaudal
+    - Integration
+    - Proximodistal
+    - Interrelation
+    CorrectOptionIndex: 2
+  - QuestionText: Which of the following is primarily a characteristic of 'growth'?
+    Options:
+    - It is a qualitative in nature.
+    - It is a life-long process.
+    - It can be measured quantitatively.
+    - It implies improvement in functioning.
+    CorrectOptionIndex: 2
+  - QuestionText: 'The term ''cephalocaudal'' refers to development proceeding from:'
+    Options:
+    - General to specific responses
+    - Head to toe
+    - Inner to outer
+    - Specific to general responses
+    CorrectOptionIndex: 1
+  - QuestionText: Which principle suggests that different aspects of development
+      are interdependent?
+    Options:
+    - Principle of Individual Differences
+    - Principle of Interrelation
+    - Principle of Uniformity of Pattern
+    - Principle of Integration
+    CorrectOptionIndex: 1
+  - QuestionText: Growth is primarily concerned with which of the following changes?
+    Options:
+    - Emotional
+    - Social
+    - Physical
+    - Moral
+    CorrectOptionIndex: 2
+  - QuestionText: 'The concept that development is a continuous process implies that:'
+    Options:
+    - It occurs in distinct stages.
+    - It is a gradual and ongoing process from conception to death.
+    - It stops after adolescence.
+    - It is unpredictable.
+    CorrectOptionIndex: 1
+  - QuestionText: Which principle of development highlights that all individuals
+      are unique?
+    Options:
+    - Principle of Generality to Specificity
+    - Principle of Individual Differences
+    - Principle of Proximodistal Sequence
+    - Principle of Interaction
+    CorrectOptionIndex: 1
+  - QuestionText: 'Development proceeds from simple to complex. A child first learns
+      to:'
+    Options:
+    - Write a sentence before scribbling.
+    - Speak words before babbling.
+    - Scribble before drawing a circle.
+    - Run before crawling.
+    CorrectOptionIndex: 2
+  - QuestionText: Which of the following is NOT a domain of development?
+    Options:
+    - Cognitive
+    - Affective
+    - Psychomotor
+    - Hereditary
+    CorrectOptionIndex: 3
+  - QuestionText: 'If a teacher notices that a child can hold her head up before
+      she can sit steadily, this observation best illustrates the:'
+    Options:
+    - Proximodistal principle
+    - Principle of integration
+    - Cephalocaudal principle
+    - Principle of individual difference
+    CorrectOptionIndex: 2
+  - QuestionText: 'A student understands that a tall, narrow glass can hold the same
+      amount of water as a short, wide glass. According to Piaget, this demonstrates
+      the attainment of:'
+    Options:
+    - Object Permanence
+    - Conservation
+    - Egocentrism
+    - Reversibility
+    CorrectOptionIndex: 1
+  - QuestionText: 'The principle of ''interrelation'' is best demonstrated when:'
+    Options:
+    - A child's physical health affects his social interactions and academic performance.
+    - All children in a class learn to walk at the exact same age.
+    - A child's growth in height occurs in spurts.
+    - A child develops their fine motor skills before their gross motor skills.
+    CorrectOptionIndex: 0
+  - QuestionText: Why is the principle of 'individual differences' crucial for a
+      teacher?
+    Options:
+    - It justifies streaming students into rigid ability groups.
+    - It emphasizes the need for a uniform, one-size-fits-all teaching method.
+    - It highlights the importance of catering to the varying needs, paces, and styles
+      of learners.
+    - It proves that intelligence is solely determined by heredity.
+    CorrectOptionIndex: 2
+  - QuestionText: 'A child who can stack blocks but cannot yet tie shoelaces is demonstrating
+      the principle of development from:'
+    Options:
+    - Head to toe
+    - General to specific
+    - Inner to outer (Proximodistal)
+    - Specific to general
+    CorrectOptionIndex: 2
+  - QuestionText: How does the principle of 'integration' manifest in cognitive development?
+    Options:
+    - A child learns separate words and later combines them to form complex sentences.
+    - A child's growth rate slows down during adolescence.
+    - A child prefers to play alone rather than with peers.
+    - A child's height and weight increase simultaneously.
+    CorrectOptionIndex: 0
+  - QuestionText: 'Vygotsky''s concept of the Zone of Proximal Development (ZPD)
+      primarily emphasizes that development is influenced by:'
+    Options:
+    - Only inherited genetic traits.
+    - Social interaction and guidance from more knowledgeable others.
+    - A fixed and unchangeable sequence of stages.
+    - The physical maturation of the brain alone.
+    CorrectOptionIndex: 1
+  - QuestionText: 'If development is a product of both heredity and environment,
+      this concept is known as:'
+    Options:
+    - The nature-nurture controversy
+    - The interactionist perspective
+    - The maturationist view
+    - The normative approach
+    CorrectOptionIndex: 1
+  - QuestionText: 'A teacher who designs activities that involve grouping objects
+      by color and then by shape is applying the principle of development from:'
+    Options:
+    - Simple to complex
+    - Complex to simple
+    - General to specific
+    - Specific to general
+    CorrectOptionIndex: 0
+  - QuestionText: 'Understanding that development is predictable helps an educator
+      to:'
+    Options:
+    - Compare and rank students against each other.
+    - Anticipate the general sequence of behaviors and plan learning experiences
+      accordingly.
+    - Ignore the unique needs of individual students.
+    - Focus solely on intellectual development.
+    CorrectOptionIndex: 1
+  - QuestionText: In a classroom, a child is excellent at memorizing facts but struggles
+      to apply them to solve real-world problems. According to the principles of
+      development, which domain requires more focused pedagogical intervention?
+    Options:
+    - Cognitive domain, specifically the higher-order thinking skills.
+    - Affective domain, specifically the receiving phenomena.
+    - Psychomotor domain, specifically the perceptual abilities.
+    - Physical domain, specifically the gross motor skills.
+    CorrectOptionIndex: 0
+  - QuestionText: 'Critically analyze: "A child''s development is a spontaneous process
+      and does not require guidance or stimulation from the environment." This statement
+      is flawed because:'
+    Options:
+    - Development is entirely governed by heredity.
+    - While maturation is important, environmental stimulation, opportunities, and
+      learning are crucial for realizing one's potential.
+    - Development stops after the age of 5.
+    - Guidance disrupts the natural pace of development.
+    CorrectOptionIndex: 1
+  - QuestionText: 'Two children of the same age are in the same class. One can write
+      a short paragraph legibly, while the other struggles to hold a pencil properly.
+      As an educator, your first step should be to:'
+    Options:
+    - Assume the second child is less intelligent.
+    - Compare the two children publicly to motivate the slower one.
+    - Investigate individual factors like previous fine motor skill practice, developmental
+      readiness, and possible need for support.
+    - Hold the second child back a grade.
+    CorrectOptionIndex: 2
+  - QuestionText: If the proximodistal trend were to be reversed, which of the following
+      would we observe in infants?
+    Options:
+    - They would be able to control their fingers precisely before being able to
+      wave their arms.
+    - They would be able to walk before they could crawl.
+    - They would be able to sit up before they could hold their head steady.
+    - They would develop complex emotions before basic reflexes.
+    CorrectOptionIndex: 0
+  - QuestionText: A teacher designs a lesson where students first observe a plant
+      (receiving), then develop a attitude of care towards it (valuing), and finally
+      commit to watering it regularly (characterization). This lesson plan is structured
+      based on the taxonomy of which domain?
+    Options:
+    - Cognitive Domain (Bloom)
+    - Affective Domain (Krathwohl)
+    - Psychomotor Domain (Simpson)
+    - Linguistic Domain
+    CorrectOptionIndex: 1
+  - QuestionText: 'According to the principle of interaction, a child''s genetic
+      predisposition for music (nature) will:'
+    Options:
+    - Automatically make them a great musician regardless of practice.
+    - Be completely overridden by a lack of musical environment.
+    - Interact with their exposure to music lessons and instruments (nurture) to
+      influence their actual musical ability.
+    - Have no significant impact on their development.
+    CorrectOptionIndex: 2
+  - QuestionText: 'Scenario: A 6-year-old can solve a jigsaw puzzle quickly but gets
+      very frustrated and gives up when a math problem is slightly challenging. This
+      disparity best illustrates the:'
+    Options:
+    - Uniformity of development across all domains.
+    - Principle of integration at work.
+    - Asynchronous nature of development, where different domains develop at different
+      rates.
+    - Failure of the cephalocaudal principle.
+    CorrectOptionIndex: 2
+  - QuestionText: 'Evaluating the statement: "Development ends at adolescence." A
+      more accurate perspective, based on modern lifespan psychology, is that:'
+    Options:
+    - Development plateaus after adolescence.
+    - Significant development only occurs in childhood.
+    - Development is a lifelong process, with changes and adaptations occurring in
+      all phases of life.
+    - Physical development ends, but cognitive development continues.
+    CorrectOptionIndex: 2
+  - QuestionText: A curriculum that moves from teaching whole-body movements (like
+      jumping) to precise finger movements (like writing) is aligned with which developmental
+      principle?
+    Options:
+    - Cephalocaudal
+    - General to Specific
+    - Proximodistal
+    - Integration
+    CorrectOptionIndex: 1
+  - QuestionText: 'If a theory emphasizes ''critical periods'' in development, it
+      implies that:'
+    Options:
+    - Development is evenly spread throughout life.
+    - There are specific windows of time where certain developments must occur, or
+      it becomes very difficult to achieve later.
+    - All children develop skills at the same pace.
+    - Environmental factors have a constant effect regardless of age.
+    CorrectOptionIndex: 1
+  - QuestionText: 'A child from a linguistically deprived environment may have a
+      smaller vocabulary. This scenario is a direct example of how the environment
+      influences development, supporting the view of:'
+    Options:
+    - Predeterminism (only heredity matters).
+    - The tabula rasa (blank slate) theory.
+    - The interactionist perspective.
+    - The maturationist theory.
+    CorrectOptionIndex: 2
+  - QuestionText: 'Synthesizing the principles of ''individual differences'' and
+      ''uniformity of pattern'', a teacher should understand that:'
+    Options:
+    - All children will follow the same sequence (e.g., sit, crawl, walk) but the
+      timing and pace will vary.
+    - Every child will have a completely unique and unpredictable sequence of development.
+    - It is impossible to plan a curriculum for an entire class.
+    - The pattern of development is uniform only for physical growth.
+    CorrectOptionIndex: 0
+  - QuestionText: In the context of language development, a child first coos, then
+      babbles, then says words, and finally forms sentences. This progression is
+      a classic example of which principle?
+    Options:
+    - Development is continuous.
+    - Development proceeds from simple to complex and general to specific.
+    - Development is influenced by heredity alone.
+    - Development is predictable but not sequential.
+    CorrectOptionIndex: 1
+  - QuestionText: 'Hypothesize: What would be the most significant impact on a child''s
+      social development if the principle of ''interrelation'' with the cognitive
+      domain were hindered?'
+    Options:
+    - The child would be physically stronger.
+    - The child's ability to understand social cues, empathize, and solve social
+      problems would be impaired.
+    - The child would develop language skills faster.
+    - The child's motor skills would be exceptional.
+    CorrectOptionIndex: 1
+  - QuestionText: A teacher uses scaffolding by providing hints and prompts during
+      a problem-solving activity. This strategy is most directly supporting which
+      principle of development?
+    Options:
+    - Development is a personal process.
+    - Development is the result of interaction between the individual and their social
+      environment.
+    - Development proceeds at different rates.
+    - Development is predictable.
+    CorrectOptionIndex: 1
+  - QuestionText: Contrast 'growth' and 'development' by identifying which scenario
+      describes only growth.
+    Options:
+    - A toddler learning to share toys.
+    - An infant gaining two pounds in a month.
+    - A teenager developing a sense of identity.
+    - A child learning to reason hypothetically.
+    CorrectOptionIndex: 1
+  - QuestionText: 'The concept of "differentiation" in development can be best described
+      as:'
+    Options:
+    - The process where global, generalized behaviors become more specific and refined.
+    - The principle that development stops after a certain age.
+    - The merging of simple skills into complex ones.
+    - The impact of genes on physical stature.
+    CorrectOptionIndex: 0
+  - QuestionText: 'If a child''s emotional development is stunted due to a lack of
+      a secure attachment, it is likely to affect their classroom performance. This
+      is an application of the principle of:'
+    Options:
+    - Proximodistal development
+    - Interrelation among domains
+    - Cephalocaudal development
+    - Uniformity of pattern
+    CorrectOptionIndex: 1
+  - QuestionText: 'Creating a diagnostic assessment to identify a student''s ZPD
+      involves:'
+    Options:
+    - Testing only what the student can do independently.
+    - Testing only what the student cannot do even with help.
+    - Identifying tasks the student cannot do alone but can do with guidance.
+    - Comparing the student's scores to national averages.
+    CorrectOptionIndex: 2
+  - QuestionText: A school policy that mandates recess and physical education is
+      implicitly acknowledging which principle of development?
+    Options:
+    - Development is sequential.
+    - Physical activity is interrelated with cognitive and social development.
+    - Development proceeds from head to toe.
+    - All children have the same energy levels.
+    CorrectOptionIndex: 1
+  - QuestionText: 'In a debate on curriculum design, a colleague argues for focusing
+      only on intellectual skills in early childhood. Using principles of development,
+      your counter-argument would emphasize:'
+    Options:
+    - Ignoring intellectual skills until later.
+    - The necessity of a holistic approach that nurtures physical, social, emotional,
+      and cognitive domains simultaneously due to their interrelation.
+    - Focusing solely on emotional development.
+    - That curriculum should be based solely on heredity.
+    CorrectOptionIndex: 1
+  - QuestionText: 'A child who was malnourished in early childhood may be shorter
+      than their genetic potential. This exemplifies:'
+    Options:
+    - How environment can limit the expression of hereditary traits.
+    - The dominance of the nature over nurture.
+    - The cephalocaudal principle.
+    - The principle of integration.
+    CorrectOptionIndex: 0
+  - QuestionText: 'Predicting the outcome: If the principle of ''proximodistal''
+      development did not hold true, what would be a likely consequence for an infant''s
+      motor skill acquisition?'
+    Options:
+    - They would walk before they could roll over.
+    - They would be able to make precise pincer grasps before being able to swipe
+      at objects with their whole arm.
+    - Their head control would be the last skill to develop.
+    - Their social smile would develop later.
+    CorrectOptionIndex: 1
+  - QuestionText: 'Erikson''s theory of psychosocial development is considered a
+      ''lifespan'' theory because it:'
+    Options:
+    - Focuses only on the first five years of life.
+    - Proposes distinct stages of development from infancy to old age.
+    - Is solely concerned with cognitive stages.
+    - Denies the role of social factors.
+    CorrectOptionIndex: 1
+  - QuestionText: 'When a teacher breaks down a complex skill like essay writing
+      into smaller sub-skills (thesis statement, paragraphs, conclusion) and teaches
+      them sequentially, they are applying the principle of:'
+    Options:
+    - Development from simple to complex.
+    - Development from general to specific.
+    - The independence of different domains.
+    - Development being solely biological.
+    CorrectOptionIndex: 0
+  - QuestionText: 'Analyze the following: A 10-year-old has the reading ability of
+      a 15-year-old but the emotional regulation of a 7-year-old. This is an example
+      of:'
+    Options:
+    - A violation of the principle of uniformity.
+    - Asynchronous development.
+    - A typical developmental pattern.
+    - The effect of poor teaching.
+    CorrectOptionIndex: 1
+  - QuestionText: The "Pygmalion effect" or self-fulfilling prophecy in a classroom,
+      where teacher expectations influence student performance, is most closely related
+      to which aspect of development?
+    Options:
+    - The unchangeable genetic potential of the child.
+    - The social-environmental influence on a child's cognitive and academic development.
+    - The cephalocaudal principle of physical growth.
+    - The proximodistal sequence of motor development.
+    CorrectOptionIndex: 1
+  - QuestionText: 'A child learns the schema for "dog" from their pet. When they
+      see a cow for the first time and call it a "dog," Piaget would say the child
+      is using the process of:'
+    Options:
+    - Accommodation
+    - Assimilation
+    - Conservation
+    - Equilibration
+    CorrectOptionIndex: 1
+  - QuestionText: Designing a lesson for adolescents that involves debating ethical
+      dilemmas primarily targets development in which domain?
+    Options:
+    - Psychomotor
+    - Cognitive (specifically formal operational thought)
+    - Physical (specifically gross motor skills)
+    - Affective (specifically receiving phenomena)
+    CorrectOptionIndex: 1
+  - QuestionText: If a principle of development states that "loss and growth exist
+      together," it is most likely referring to which stage of the lifespan?
+    Options:
+    - Infancy
+    - Early Childhood
+    - Adulthood and Aging
+    - Prenatal stage only
+    CorrectOptionIndex: 2

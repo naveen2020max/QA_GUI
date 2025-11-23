@@ -1,0 +1,456 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: social cognition
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'Social cognition is primarily defined as the study of how people:'
+    Options:
+    - Behave in large social gatherings
+    - Process, store, and apply information about other people and social situations
+    - Develop political ideologies
+    - Form religious beliefs
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'The mental structures people use to organize their knowledge about
+      the social world are called:'
+    Options:
+    - Heuristics
+    - Prototypes
+    - Schemas
+    - Algorithms
+    CorrectOptionIndex: 2
+    LevelName: social cognition
+  - QuestionText: 'The "Theory of Mind" refers to the ability to:'
+    Options:
+    - Understand complex philosophical theories
+    - "Attribute mental states\u2014beliefs, intents, desires\u2014to oneself and
+      others"
+    - Control large groups of people
+    - Memorize social rules
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: Who proposed the Social Learning Theory that emphasizes observational
+      learning and modeling?
+    Options:
+    - Jean Piaget
+    - Albert Bandura
+    - Lev Vygotsky
+    - Lawrence Kohlberg
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'The tendency to overestimate the extent to which others share
+      our beliefs and behaviors is known as:'
+    Options:
+    - Confirmation bias
+    - False consensus effect
+    - Fundamental attribution error
+    - Self-serving bias
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'The process of interpreting information about other people is
+      called:'
+    Options:
+    - Social perception
+    - Social facilitation
+    - Social loafing
+    - Socialization
+    CorrectOptionIndex: 0
+    LevelName: social cognition
+  - QuestionText: Which concept refers to mental shortcuts in social information
+      processing?
+    Options:
+    - Schemas
+    - Scripts
+    - Heuristics
+    - Prototypes
+    CorrectOptionIndex: 2
+    LevelName: social cognition
+  - QuestionText: 'The fundamental attribution error involves:'
+    Options:
+    - Overestimating situational influences on others' behavior
+    - Overestimating personal dispositions while underestimating situational influences
+    - Attributing success to luck and failure to personal factors
+    - Assuming others' behavior matches their true attitudes
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'The concept of "scripts" in social cognition refers to:'
+    Options:
+    - Written dialogue for social interactions
+    - Knowledge about event sequences in familiar situations
+    - Genetic programming for social behavior
+    - Cognitive maps of social hierarchies
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'Social cognitive development in children was extensively studied
+      by:'
+    Options:
+    - B.F. Skinner
+    - Robert Selman
+    - Ivan Pavlov
+    - Sigmund Freud
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'A person who believes "all politicians are corrupt" and notices
+      only examples that support this belief is demonstrating:'
+    Options:
+    - Confirmation bias
+    - Availability heuristic
+    - Representative heuristic
+    - Anchoring effect
+    CorrectOptionIndex: 0
+    LevelName: social cognition
+  - QuestionText: 'When we judge the likelihood of an event based on how easily we
+      can recall similar events, we are using the:'
+    Options:
+    - Representativeness heuristic
+    - Availability heuristic
+    - Anchoring heuristic
+    - Simulation heuristic
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'A child who understands that their friend might feel sad even
+      if they themselves are happy demonstrates development of:'
+    Options:
+    - Social referencing
+    - Theory of mind
+    - Egocentrism
+    - Social facilitation
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'The self-serving bias is demonstrated when someone:'
+    Options:
+    - Attributes their success to external factors
+    - Attributes all outcomes to luck
+    - Always blames themselves for failures
+    - Attributes their success to internal factors and failures to external factors
+    CorrectOptionIndex: 3
+    LevelName: social cognition
+  - QuestionText: 'According to social cognition perspective, stereotypes function
+      as:'
+    Options:
+    - Accurate reflections of reality
+    - Cognitive schemas that help process social information quickly
+    - Biologically determined categories
+    - Completely irrational beliefs
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'A student who attributes their poor exam performance to an unfair
+      test rather than lack of study is demonstrating:'
+    Options:
+    - Fundamental attribution error
+    - Self-serving bias
+    - False consensus effect
+    - Confirmation bias
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'The process of making inferences about the causes of people''s
+      behavior is called:'
+    Options:
+    - Social perception
+    - Social comparison
+    - Impression formation
+    - Attribution
+    CorrectOptionIndex: 3
+    LevelName: social cognition
+  - QuestionText: 'In Kelley''s Covariation Model, consistency information refers
+      to:'
+    Options:
+    - Whether the person always behaves this way in this situation
+    - Whether other people behave similarly in this situation
+    - Whether the person behaves similarly in different situations
+    - The distinctiveness of the behavior across situations
+    CorrectOptionIndex: 0
+    LevelName: social cognition
+  - QuestionText: 'A person who expects their new coworker to be unfriendly and then
+      interprets neutral behavior as hostile is demonstrating how schemas influence:'
+    Options:
+    - Social perception
+    - Social facilitation
+    - Group dynamics
+    - Conformity
+    CorrectOptionIndex: 0
+    LevelName: social cognition
+  - QuestionText: 'The "priming" effect in social cognition occurs when:'
+    Options:
+    - Groups make riskier decisions than individuals
+    - People compete to be first in social hierarchies
+    - Early childhood experiences determine adult personality
+    - Recent exposure to a concept increases its accessibility
+    CorrectOptionIndex: 3
+    LevelName: social cognition
+  - QuestionText: 'Critically analyzing social cognition research, a major limitation
+      is that people often:'
+    Options:
+    - Process social information too slowly and carefully
+    - Use cognitive shortcuts that can lead to systematic errors
+    - Are completely rational in social judgments
+    - Avoid using schemas entirely
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'A teacher who wants to reduce stereotype threat in their classroom
+      should primarily focus on:'
+    Options:
+    - Reinforcing stereotypes to make students comfortable
+    - Creating an environment that doesn't activate negative stereotypes
+    - Ignoring all individual differences
+    - Emphasizing competition between social groups
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'The relationship between social cognition and cultural context
+      demonstrates that:'
+    Options:
+    - Social cognitive processes are identical across all cultures
+    - Social cognition is irrelevant in collectivist cultures
+    - Biology completely determines social cognition
+    - Cultural frameworks shape how people process social information
+    CorrectOptionIndex: 3
+    LevelName: social cognition
+  - QuestionText: 'Comparing social cognition to computer information processing,
+      a key similarity is that both involve:'
+    Options:
+    - Identical hardware systems
+    - Information input, processing, storage, and output
+    - Emotional processing as primary
+    - Complete objectivity in processing
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'A manager who wants to improve workplace decision-making should
+      be aware that group discussions may lead to:'
+    Options:
+    - More diverse perspectives only
+    - Polarization and strengthened initial tendencies
+    - Complete consensus automatically
+    - Elimination of all cognitive biases
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'The development of social cognition in children follows a pattern
+      from:'
+    Options:
+    - Complex social understanding to simple interpretations
+    - External attributions to exclusively internal attributions
+    - Complete social awareness to social confusion
+    - Egocentric perspectives to understanding multiple viewpoints
+    CorrectOptionIndex: 3
+    LevelName: social cognition
+  - QuestionText: 'A key difference between social cognition and general cognition
+      is that social cognition specifically deals with:'
+    Options:
+    - Information about people and social relationships
+    - Mathematical problem-solving
+    - Linguistic structures only
+    - Non-human information processing
+    CorrectOptionIndex: 0
+    LevelName: social cognition
+  - QuestionText: 'In educational settings, understanding social cognition helps
+      teachers recognize that students:'
+    Options:
+    - Are completely objective in their social judgments
+    - Bring pre-existing schemas that affect learning and interactions
+    - Don't form impressions of their teachers
+    - Process academic and social information completely separately
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'The "actor-observer bias" in attribution refers to the tendency
+      to:'
+    Options:
+    - Attribute others' behavior to dispositions and our own to situations
+    - Attribute all behavior to situational factors
+    - Attribute all behavior to dispositional factors
+    - Always make accurate attributions
+    CorrectOptionIndex: 0
+    LevelName: social cognition
+  - QuestionText: 'A school implementing a program to reduce prejudice would be most
+      successful by targeting:'
+    Options:
+    - Only explicit behaviors
+    - The underlying social cognitive processes like categorization and attribution
+    - Only genetic factors
+    - Physical characteristics
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'Modern social cognition research increasingly integrates findings
+      from:'
+    Options:
+    - Astrology
+    - Neuroscience and cognitive psychology
+    - Only philosophical approaches
+    - Exclusive focus on behaviorism
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'A person with high social cognitive competence would likely excel
+      in careers requiring:'
+    Options:
+    - Minimal human interaction
+    - Complete social isolation
+    - Only technical skills
+    - Understanding and managing social relationships
+    CorrectOptionIndex: 3
+    LevelName: social cognition
+  - QuestionText: 'The concept of "metacognition" in social contexts refers to:'
+    Options:
+    - Thinking about one's own social thinking processes
+    - Memorizing social rules
+    - Automatic social responses
+    - Genetic social predispositions
+    CorrectOptionIndex: 0
+    LevelName: social cognition
+  - QuestionText: Cultural differences in social cognition are evident in how Western
+      cultures tend to make ______ attributions while Eastern cultures make more
+      ______ attributions.
+    Options:
+    - Situational; dispositional
+    - Dispositional; situational
+    - Accurate; inaccurate
+    - Complex; simple
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'A teacher who understands social cognition would recognize that
+      classroom "first impressions" are important because:'
+    Options:
+    - They are always accurate
+    - Initial schemas influence subsequent interpretations
+    - Students don't form impressions of teachers
+    - First impressions are easily changed
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'The relationship between emotion and social cognition can be described
+      as:'
+    Options:
+    - Completely separate systems
+    - Social cognition has no relationship with emotion
+    - Emotions always distort social cognition
+    - Bidirectional - emotions influence social judgments and vice versa
+    CorrectOptionIndex: 3
+    LevelName: social cognition
+  - QuestionText: 'In developmental psychology, research on autism spectrum disorders
+      has contributed significantly to understanding:'
+    Options:
+    - Mathematical abilities
+    - Theory of mind development
+    - Physical coordination
+    - Musical talent
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'A key application of social cognition in clinical psychology is
+      understanding how:'
+    Options:
+    - Social perceptions contribute to psychological disorders
+    - Biology completely determines psychological health
+    - Social factors are irrelevant to mental health
+    - Only medication affects social thinking
+    CorrectOptionIndex: 0
+    LevelName: social cognition
+  - QuestionText: 'The concept of "automatic versus controlled processing" in social
+      cognition helps explain why:'
+    Options:
+    - All social judgments are deliberate and careful
+    - People can make quick social judgments that may be biased
+    - Social thinking is always accurate
+    - People never make errors in social judgments
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'A school counselor using social cognitive principles would help
+      students with social difficulties by focusing on:'
+    Options:
+    - Only their academic performance
+    - Completely avoiding social situations
+    - Only their physical appearance
+    - Their interpretation of social cues and social problem-solving skills
+    CorrectOptionIndex: 3
+    LevelName: social cognition
+  - QuestionText: 'The "correspondence bias" is another term for:'
+    Options:
+    - Self-serving bias
+    - Fundamental attribution error
+    - False consensus effect
+    - Confirmation bias
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'Modern research in social cognition emphasizes that people are:'
+    Options:
+    - Completely rational processors of social information
+    - '"Cognitive misers" who use mental shortcuts'
+    - Always aware of their cognitive processes
+    - Immune to social influences on thinking
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'The development of social cognitive neuroscience has allowed researchers
+      to:'
+    Options:
+    - Study the brain bases of social thought processes
+    - Ignore biological factors completely
+    - Focus only on behavioral observations
+    - Eliminate the need for psychological theories
+    CorrectOptionIndex: 0
+    LevelName: social cognition
+  - QuestionText: 'A key educational implication of social cognition research is
+      that teachers should:'
+    Options:
+    - Ignore students' pre-existing beliefs
+    - Be aware of how students' schemas affect learning
+    - Only focus on curriculum content
+    - Avoid all social interactions in classroom
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'The concept of "social cognitive efficiency" refers to how:'
+    Options:
+    - Quickly people can process social information
+    - Socially competent people are
+    - Many friends a person has
+    - Much people enjoy social gatherings
+    CorrectOptionIndex: 0
+    LevelName: social cognition
+  - QuestionText: 'Cross-cultural research in social cognition has demonstrated that:'
+    Options:
+    - All social cognitive processes are universal
+    - Cultural context shapes social perception and attribution
+    - Biology completely overrides cultural influences
+    - Social cognition is identical across all societies
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'A person with strong social cognitive skills would likely be good
+      at:'
+    Options:
+    - Understanding others' perspectives and adapting to social situations
+    - Only solitary activities
+    - Memorizing facts without context
+    - Avoiding all social interactions
+    CorrectOptionIndex: 0
+    LevelName: social cognition
+  - QuestionText: 'The study of social cognition has been particularly important
+      for understanding:'
+    Options:
+    - Prejudice and intergroup relations
+    - Only individual psychology
+    - Non-social cognitive processes
+    - Genetic determinism
+    CorrectOptionIndex: 0
+    LevelName: social cognition
+  - QuestionText: 'In organizational psychology, understanding social cognition helps
+      explain:'
+    Options:
+    - Only individual performance
+    - Workplace relationships, leadership perceptions, and group dynamics
+    - Only technical skills
+    - Completely rational organizational behavior
+    CorrectOptionIndex: 1
+    LevelName: social cognition
+  - QuestionText: 'The future of social cognition research likely involves greater
+      integration with:'
+    Options:
+    - Only traditional psychological approaches
+    - Neuroscience, cultural psychology, and technology studies
+    - Exclusive focus on laboratory experiments
+    - Elimination of social factors
+    CorrectOptionIndex: 1
+    LevelName: social cognition

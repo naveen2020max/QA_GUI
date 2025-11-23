@@ -1,0 +1,473 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: cognitive development
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'According to Piaget, the correct sequential order of the cognitive
+      stages is:'
+    Options:
+    - Preoperational, Sensorimotor, Concrete Operational, Formal Operational
+    - Sensorimotor, Preoperational, Concrete Operational, Formal Operational
+    - Formal Operational, Concrete Operational, Preoperational, Sensorimotor
+    - Sensorimotor, Concrete Operational, Preoperational, Formal Operational
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'The key achievement of the Sensorimotor stage, according to Piaget,
+      is the development of:'
+    Options:
+    - Object Permanence
+    - Conservation
+    - Abstract Thought
+    - Egocentrism
+    CorrectOptionIndex: 0
+    LevelName: cognitive development
+  - QuestionText: In which of Piaget's stages does a child primarily learn about
+      the world through sensory experiences and motor actions?
+    Options:
+    - Preoperational
+    - Concrete Operational
+    - Sensorimotor
+    - Formal Operational
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'The cognitive ability to understand that quantity remains the
+      same despite changes in shape is known as:'
+    Options:
+    - Centration
+    - Reversibility
+    - Conservation
+    - Seriation
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'Vygotsky''s concept of the "Zone of Proximal Development" (ZPD)
+      refers to:'
+    Options:
+    - The skills a child can perform independently.
+    - The difference between what a learner can do alone and what they can do with
+      guidance.
+    - The final stage of cognitive development.
+    - The biological limits of a child's intelligence.
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'According to Piaget, the Preoperational stage is characterized
+      by:'
+    Options:
+    - Logical manipulation of abstract concepts.
+    - The ability to perform mental operations on tangible objects.
+    - Egocentric thought and the inability to conserve.
+    - The coordination of sensory input and motor responses.
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'The term "Equilibration" in Piaget''s theory refers to the:'
+    Options:
+    - Balance between assimilation and accommodation.
+    - Inability to see from another's perspective.
+    - Process of rewarding correct behavior.
+    - Development of language skills.
+    CorrectOptionIndex: 0
+    LevelName: cognitive development
+  - QuestionText: 'A child in the Concrete Operational stage can successfully solve
+      problems involving:'
+    Options:
+    - Hypothetical-deductive reasoning
+    - Transitivity
+    - Symbolic play
+    - Object permanence
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: Who proposed the concept of "Scaffolding" as a teaching strategy
+      based on Vygotsky's ideas?
+    Options:
+    - Jerome Bruner
+    - Benjamin Bloom
+    - Howard Gardner
+    - John Dewey
+    CorrectOptionIndex: 0
+    LevelName: cognitive development
+  - QuestionText: 'The tendency of a preoperational child to focus on only one aspect
+      of a situation while ignoring others is called:'
+    Options:
+    - Animism
+    - Centration
+    - Reversibility
+    - Seriation
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'A child who looks for a toy after seeing it hidden under a blanket
+      has demonstrated the acquisition of:'
+    Options:
+    - Conservation
+    - Object Permanence
+    - Egocentrism
+    - Abstract Thinking
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'A teacher provides a struggling student with hints and prompts
+      to solve a math problem. This practice is best described as:'
+    Options:
+    - Assimilation
+    - Scaffolding
+    - Centration
+    - Conservation
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'A 4-year-old child covers her eyes and says, "You can''t see me!"
+      This belief is a classic example of:'
+    Options:
+    - Animism
+    - Conservation
+    - Egocentrism
+    - Reversibility
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'If a child understands that if A is greater than B, and B is greater
+      than C, then A is greater than C, they are demonstrating:'
+    Options:
+    - Transitivity
+    - Centration
+    - Assimilation
+    - Object Permanence
+    CorrectOptionIndex: 0
+    LevelName: cognitive development
+  - QuestionText: A child who believes that the sun is alive because it moves across
+      the sky is demonstrating which preoperational characteristic?
+    Options:
+    - Animism
+    - Artificialism
+    - Seriation
+    - Reversibility
+    CorrectOptionIndex: 0
+    LevelName: cognitive development
+  - QuestionText: 'According to Vygotsky, private speech (talking to oneself) is:'
+    Options:
+    - A sign of social immaturity that should be discouraged.
+    - An important tool for self-regulation and guiding one's own behavior.
+    - A characteristic of the sensorimotor stage.
+    - Evidence of a cognitive deficit.
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'A student in the Formal Operational stage is most likely to succeed
+      in a task that requires:'
+    Options:
+    - Sorting objects by size and color.
+    - Thinking about idealistic concepts of justice and fairness.
+    - Finding a hidden object.
+    - Engaging in pretend play.
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'The process of modifying an existing schema to fit new information
+      is called:'
+    Options:
+    - Assimilation
+    - Accommodation
+    - Equilibration
+    - Organization
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'A teacher who designs a lesson where students must physically
+      manipulate blocks to understand fractions is catering to students who are likely
+      in the:'
+    Options:
+    - Sensorimotor Stage
+    - Preoperational Stage
+    - Concrete Operational Stage
+    - Formal Operational Stage
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'A child who calls every four-legged animal "doggie" is using the
+      process of:'
+    Options:
+    - Accommodation
+    - Equilibration
+    - Assimilation
+    - Centration
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'Critically analyzing Piaget''s theory, a major criticism is that
+      he:'
+    Options:
+    - Overemphasized the role of social interaction in learning.
+    - Underestimated the cognitive abilities of young children.
+    - Focused too much on cultural influences.
+    - Provided too much detail on the formal operational stage.
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'A 7-year-old child can solve a conservation of number task but
+      fails a conservation of liquid task. This discrepancy is best explained by
+      the concept of:'
+    Options:
+    - Scaffolding
+    - "Horizontal D\xE9calage"
+    - "Vertical D\xE9calage"
+    - Centration
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'A teacher asks students to propose and test hypotheses for a science
+      fair project. This task is most appropriate for students who have reached:'
+    Options:
+    - The Preoperational Stage
+    - The Concrete Operational Stage
+    - The Formal Operational Stage
+    - The Sensorimotor Stage
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: According to Vygotsky, which of the following is an example of
+      a "cultural tool" that mediates learning?
+    Options:
+    - Object Permanence
+    - A mental schema
+    - Language
+    - Egocentrism
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'A student who can successfully use a map to navigate their school
+      is demonstrating an ability that Piaget would attribute to the:'
+    Options:
+    - Sensorimotor stage, due to the use of senses.
+    - Preoperational stage, due to the use of symbols.
+    - Concrete Operational stage, due to logical thought about concrete objects (the
+      map).
+    - Formal Operational stage, due to abstract reasoning.
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'If a child in the Preoperational stage is shown two identical
+      rows of coins and then one row is spread out, the child will likely think:'
+    Options:
+    - The spread-out row has more coins.
+    - The number of coins is the same.
+    - The non-spread-out row has more coins.
+    - The coins have changed their identity.
+    CorrectOptionIndex: 0
+    LevelName: cognitive development
+  - QuestionText: 'Comparing Piaget and Vygotsky, a key difference is that Vygotsky
+      saw development as:'
+    Options:
+    - A universal and biologically-driven sequence of stages.
+    - Largely independent of social context.
+    - A socially-mediated process that varies across cultures.
+    - Driven by the process of equilibration alone.
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'A teacher uses a "think-pair-share" activity. From a Vygotskian
+      perspective, the primary cognitive benefit of the "pair" segment is that it:'
+    Options:
+    - Allows for assimilation of new facts.
+    - Provides social interaction and language that can scaffold learning.
+    - Encourages egocentric speech.
+    - Reinforces the habit of centration.
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: A high school student is grappling with existential questions about
+      their purpose in life. This type of abstract, ideological thinking is a hallmark
+      of which stage?
+    Options:
+    - Sensorimotor
+    - Preoperational
+    - Concrete Operational
+    - Formal Operational
+    CorrectOptionIndex: 3
+    LevelName: cognitive development
+  - QuestionText: 'A child who has developed "reversibility" can mentally:'
+    Options:
+    - Believe that inanimate objects are alive.
+    - Focus on multiple attributes of a problem at once.
+    - Undo an action and return to the starting point.
+    - Use symbols to represent objects.
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'Jerome Bruner''s concept of the "Spiral Curriculum" suggests that
+      curriculum should:'
+    Options:
+    - Be taught in a strict, linear sequence without repetition.
+    - Introduce key concepts repeatedly at increasing levels of complexity.
+    - Focus only on concrete experiences until high school.
+    - Avoid social and cultural topics.
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'A child who is able to arrange a set of sticks from shortest to
+      longest is demonstrating the ability of:'
+    Options:
+    - Seriation
+    - Transitivity
+    - Animism
+    - Centration
+    CorrectOptionIndex: 0
+    LevelName: cognitive development
+  - QuestionText: 'Evaluating the statement: "All adolescents reach the formal operational
+      stage." A more accurate view, based on research, is that:'
+    Options:
+    - It is a universal and inevitable stage for all.
+    - It is dependent solely on genetic factors.
+    - Many adults may not consistently use formal operational thought, and it is
+      influenced by experience and schooling.
+    - It is achieved by all individuals by age 12.
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'According to Piaget, the driving force behind cognitive development
+      is:'
+    Options:
+    - Social interaction with more knowledgeable others.
+    - The child's active construction of knowledge through interaction with the environment.
+    - Reinforcement from teachers and parents.
+    - The maturation of the language centers of the brain.
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'A teacher notices that her students can understand the concept
+      of "fairness" in a classroom game but cannot apply it to a broader societal
+      context. Her students are most likely in the:'
+    Options:
+    - Sensorimotor Stage
+    - Preoperational Stage
+    - Concrete Operational Stage
+    - Formal Operational Stage
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: The "Three-Mountain Task" was used by Piaget to demonstrate which
+      characteristic of the Preoperational stage?
+    Options:
+    - Conservation
+    - Egocentrism
+    - Animism
+    - Reversibility
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'A student who uses the formula "FOIL" (First, Outside, Inside,
+      Last) to multiply binomials is effectively using a(n):'
+    Options:
+    - Algorithm
+    - Heuristic
+    - Schema
+    - Instance of centration
+    CorrectOptionIndex: 0
+    LevelName: cognitive development
+  - QuestionText: 'A key educational implication of Vygotsky''s theory is the importance
+      of:'
+    Options:
+    - Allowing children to discover everything on their own.
+    - Using standardized tests to measure innate ability.
+    - Creating learning environments rich in social interaction and collaborative
+      tasks.
+    - Focusing instruction solely on the child's current level of independent performance.
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: A child in the Concrete Operational stage would have the most difficulty
+      with which of the following tasks?
+    Options:
+    - Classifying plants based on physical characteristics.
+    - Solving a verbal analogy (e.g., "Hot is to cold as fast is to ____?").
+    - Understanding that 4 x 6 is the same as 6 x 4.
+    - Predicting the outcome of a complex political election based on abstract principles.
+    CorrectOptionIndex: 3
+    LevelName: cognitive development
+  - QuestionText: 'The process by which a child incorporates a new experience into
+      an existing schema is called:'
+    Options:
+    - Accommodation
+    - Equilibration
+    - Organization
+    - Assimilation
+    CorrectOptionIndex: 3
+    LevelName: cognitive development
+  - QuestionText: 'A teacher designs a lesson where students must role-play a historical
+      event. This activity is most directly promoting cognitive development by:'
+    Options:
+    - Encouraging assimilation.
+    - Providing scaffolding for abstract concepts through concrete, social experience.
+    - Reinforcing egocentrism.
+    - Focusing on sensorimotor exploration.
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'According to Piaget, the transition from one cognitive stage to
+      another occurs through the process of:'
+    Options:
+    - Social transmission
+    - Equilibration
+    - Classical conditioning
+    - Rote memorization
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'A parent gives a toddler a "shape sorter" toy. The child tries
+      to put a square block in a round hole. After failing, the child tries a different
+      hole until successful. This process best illustrates:'
+    Options:
+    - Accommodation, as the child modifies their action schema.
+    - Animism, as the child believes the toy is alive.
+    - Centration, as the child focuses only on one shape.
+    - Formal operational thought.
+    CorrectOptionIndex: 0
+    LevelName: cognitive development
+  - QuestionText: 'A key difference between the Preoperational and Concrete Operational
+      stages is the development of:'
+    Options:
+    - Object Permanence
+    - Deferred Imitation
+    - Logical, reversible thought
+    - Hypothetical-Deductive Reasoning
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'A curriculum that emphasizes hands-on experiments, manipulatives,
+      and field trips is most appropriate for children in the:'
+    Options:
+    - Sensorimotor and Preoperational stages
+    - Preoperational and Concrete Operational stages
+    - Concrete Operational stage
+    - Formal Operational stage
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'Vygotsky argued that language and thought:'
+    Options:
+    - Develop independently and merge later.
+    - Are unrelated processes.
+    - Are identical from birth.
+    - Originate separately but become intertwined, with language serving as a primary
+      tool for thought.
+    CorrectOptionIndex: 3
+    LevelName: cognitive development
+  - QuestionText: 'A student who can critique a scientific theory by identifying
+      its underlying assumptions and potential flaws is demonstrating thinking characteristic
+      of the:'
+    Options:
+    - Preoperational Stage
+    - Concrete Operational Stage
+    - Formal Operational Stage
+    - Sensorimotor Stage
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'The concept of "Neo-Piagetian" theories suggests that:'
+    Options:
+    - Piaget's stages are entirely incorrect.
+    - Cognitive development is best explained by behaviorist principles.
+    - They integrate Piaget's concepts with information-processing ideas, such as
+      attention and memory.
+    - Development does not occur in stages.
+    CorrectOptionIndex: 2
+    LevelName: cognitive development
+  - QuestionText: 'A teacher who groups students for a project, ensuring that each
+      group has a "more knowledgeable peer," is directly applying the principles
+      of:'
+    Options:
+    - Piaget's Concrete Operational Stage
+    - Vygotsky's Zone of Proximal Development
+    - Bruner's Discovery Learning
+    - Kohlberg's Theory of Moral Development
+    CorrectOptionIndex: 1
+    LevelName: cognitive development
+  - QuestionText: 'A child who believes that "rules are made by authorities and cannot
+      be changed" is likely demonstrating a cognitive perspective aligned with the:'
+    Options:
+    - Formal Operational Stage
+    - Concrete Operational Stage
+    - Preoperational Stage
+    - Sensorimotor Stage
+    CorrectOptionIndex: 1
+    LevelName: cognitive development

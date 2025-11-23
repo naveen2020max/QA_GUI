@@ -1,0 +1,431 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: humanistic-theories of counsell
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The humanistic approach in psychology is often called the "third
+      force" because it emerged as an alternative to:'
+    Options:
+    - Behaviorism and Psychoanalysis
+    - Cognitive and Biological psychology
+    - Structuralism and Functionalism
+    - Gestalt and Existential psychology
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: Who is considered the primary founder of person-centered therapy?
+    Options:
+    - Abraham Maslow
+    - Carl Rogers
+    - Fritz Perls
+    - Viktor Frankl
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The central goal of humanistic therapy is to help the client:'
+    Options:
+    - Eliminate all negative emotions
+    - Achieve self-actualization and become a fully functioning person
+    - Change their maladaptive behaviors
+    - Uncover repressed childhood memories
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'According to Carl Rogers, the three core conditions necessary
+      for therapeutic growth are:'
+    Options:
+    - Congruence, Unconditional Positive Regard, and Empathic Understanding
+    - Dream analysis, Free association, and Transference
+    - Reinforcement, Punishment, and Shaping
+    - Diagnosis, Prescription, and Follow-up
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'Abraham Maslow is best known for his contribution to humanistic
+      psychology through:'
+    Options:
+    - The hierarchy of needs
+    - The concept of cognitive schemas
+    - The theory of operant conditioning
+    - The stages of psychosexual development
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'In person-centered therapy, "congruence" refers to the therapist''s:'
+    Options:
+    - Professional qualifications
+    - Genuineness and authenticity
+    - Ability to give advice
+    - Knowledge of psychological tests
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The humanistic approach views human beings as fundamentally:'
+    Options:
+    - Determined by unconscious forces
+    - Shaped entirely by environmental reinforcements
+    - Possessing an innate tendency toward growth and fulfillment
+    - Passive recipients of external stimuli
+    CorrectOptionIndex: 2
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'A key concept in Rogers'' theory is the "organismic valuing process,"
+      which is the:'
+    Options:
+    - Client's ability to pay for therapy
+    - Innate ability to know what is good for one's development
+    - Therapist's method of assessing client progress
+    - Process of valuing social conformity
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: Which of the following is a key characteristic of a "fully functioning
+      person" according to Rogers?
+    Options:
+    - Being open to experience
+    - Having no negative emotions
+    - Always pleasing others
+    - Avoiding all risks
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The humanistic approach emphasizes the importance of:'
+    Options:
+    - Statistical norms and averages
+    - The subjective experience of the individual
+    - Objective behavioral observations
+    - Standardized testing procedures
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'A teacher applying humanistic principles in the classroom would
+      be most likely to:'
+    Options:
+    - Create a safe, non-judgmental environment where students feel free to express
+      themselves
+    - Use a strict system of rewards and punishments
+    - Focus exclusively on academic test scores
+    - Compare students' performance publicly
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'In Maslow''s hierarchy of needs, the highest level is:'
+    Options:
+    - Safety needs
+    - Esteem needs
+    - Self-actualization
+    - Belongingness and love needs
+    CorrectOptionIndex: 2
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The concept of "unconditional positive regard" means the therapist:'
+    Options:
+    - Approves of all client behaviors
+    - Values and accepts the client without judgment
+    - Provides positive reinforcement for good behavior
+    - Always feels positive toward the client
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: Humanistic psychology is most closely associated with which philosophical
+      tradition?
+    Options:
+    - Existentialism and phenomenology
+    - Logical positivism
+    - Structuralism
+    - Determinism
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'A student tells a school counselor, "I''m terrible at math and
+      I''ll never succeed." A humanistic counselor''s response would most likely
+      be:'
+    Options:
+    - '"Let''s analyze why you''re having these negative thoughts."'
+    - '"You''re feeling really discouraged about math right now."'
+    - '"You need to study more and get a tutor."'
+    - '"Your test scores show you have potential in math."'
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The humanistic approach is particularly effective for clients
+      who:'
+    Options:
+    - Need immediate behavior modification
+    - Are seeking greater self-awareness and personal growth
+    - Require structured, directive therapy
+    - Have severe cognitive impairments
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'According to Rogers, psychological distress occurs when there
+      is:'
+    Options:
+    - Too much unconscious conflict
+    - Insufficient cognitive development
+    - Lack of behavioral reinforcement
+    - Incongruence between the self-concept and actual experience
+    CorrectOptionIndex: 3
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'In humanistic therapy, the client is viewed as:'
+    Options:
+    - A patient needing treatment
+    - The expert on their own experience
+    - A subject for analysis
+    - A collection of behaviors to be modified
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: Which technique is most characteristic of humanistic therapy?
+    Options:
+    - Active listening and reflection of feelings
+    - Dream analysis
+    - Systematic desensitization
+    - Cognitive restructuring
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The ultimate goal of humanistic education is to:'
+    Options:
+    - Ensure all students achieve the same academic standards
+    - Facilitate the development of self-actualized, creative individuals
+    - Prepare students for specific vocational roles
+    - Maintain strict discipline and order in the classroom
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'A student is struggling with identity issues and feelings of inadequacy.
+      A humanistic counselor would primarily focus on:'
+    Options:
+    - Providing interpretations of the student's dreams
+    - Creating a supportive relationship where the student can explore these feelings
+      freely
+    - Implementing a behavior modification plan
+    - Administering personality tests to diagnose the problem
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The concept of "peak experiences" is most associated with:'
+    Options:
+    - B.F. Skinner
+    - Sigmund Freud
+    - Aaron Beck
+    - Abraham Maslow
+    CorrectOptionIndex: 3
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'In a school setting, a humanistic approach to discipline would
+      emphasize:'
+    Options:
+    - Understanding the student's perspective and helping them take responsibility
+    - Applying consistent punishment for all infractions
+    - Using public shaming as a deterrent
+    - Ignoring minor behavioral issues
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The humanistic approach has been criticized for:'
+    Options:
+    - Being too focused on observable behavior
+    - Lacking empirical validation and being too vague
+    - Overemphasizing unconscious conflicts
+    - Being too structured and directive
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'According to Rogers, "conditions of worth" develop when:'
+    Options:
+    - Children receive positive regard only when they meet certain expectations
+    - Therapists set appropriate boundaries in therapy
+    - Students achieve high grades in school
+    - Individuals reach self-actualization
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'A teacher using humanistic principles would view student mistakes
+      as:'
+    Options:
+    - Opportunities for learning and growth
+    - Failures that must be punished
+    - Indicators of low intelligence
+    - Problems to be ignored
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The humanistic approach is particularly valuable in multicultural
+      counseling because it:'
+    Options:
+    - Provides specific techniques for each cultural group
+    - Emphasizes understanding each client's unique subjective experience
+    - Imposes Western values of self-actualization
+    - Focuses exclusively on behavioral change
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'In person-centered therapy, the process of "actualizing tendency"
+      refers to the:'
+    Options:
+    - Client's desire to please the therapist
+    - Innate drive to maintain and enhance the organism
+    - Therapist's need to help the client
+    - Process of adapting to social norms
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'A humanistic classroom is characterized by:'
+    Options:
+    - Student-centered learning and democratic processes
+    - Teacher-centered instruction
+    - Strict adherence to curriculum standards
+    - Competitive learning environment
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The concept of "self-concept" in Rogers'' theory includes:'
+    Options:
+    - Only the positive aspects of oneself
+    - All the perceptions and beliefs one holds about oneself
+    - The opinions others have about us
+    - The unconscious aspects of personality
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'A school counselor using humanistic approaches would place greatest
+      importance on:'
+    Options:
+    - Standardized test results
+    - The quality of the therapeutic relationship
+    - Diagnostic labels
+    - Behavioral observations
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'Humanistic psychology emphasizes the study of:'
+    Options:
+    - Healthy, creative individuals
+    - Psychopathological conditions
+    - Animal behavior
+    - Cognitive processes only
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'According to Maslow, "metaneeds" are associated with:'
+    Options:
+    - Basic survival requirements
+    - The needs of self-actualizing people
+    - Childhood developmental stages
+    - Social conformity pressures
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'In humanistic therapy, the process of change is primarily:'
+    Options:
+    - Directed by the therapist
+    - A natural unfolding facilitated by the therapeutic conditions
+    - Achieved through behavioral techniques
+    - Dependent on medication
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'A key contribution of humanistic psychology to education is its
+      emphasis on:'
+    Options:
+    - The affective dimension of learning
+    - Standardized testing
+    - Competitive achievement
+    - Rote memorization
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The humanistic approach views psychological health as:'
+    Options:
+    - The absence of symptoms
+    - A continuous process of growth and development
+    - Perfect adjustment to society
+    - Complete rationality and emotional control
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'In person-centered therapy, the client''s role is primarily to:'
+    Options:
+    - Follow the therapist's directions
+    - Explore and express their own experiences
+    - Complete homework assignments
+    - Learn specific coping skills
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The humanistic approach has been most influential in the development
+      of:'
+    Options:
+    - Contemporary counseling ethics and the therapeutic relationship
+    - Behavioral modification techniques
+    - Psychoanalytic dream interpretation
+    - Cognitive assessment tools
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'A teacher applying Maslow''s hierarchy in the classroom would
+      first ensure that students'':'
+    Options:
+    - Self-actualization needs are met
+    - Basic physiological and safety needs are satisfied
+    - Esteem needs are addressed
+    - Cognitive needs are stimulated
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The concept of "phenomenological field" refers to:'
+    Options:
+    - The therapist's theoretical orientation
+    - The client's subjective reality and perception of the world
+    - A specific counseling technique
+    - The physical environment of therapy
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'Humanistic psychology is particularly relevant for addressing
+      issues of:'
+    Options:
+    - Meaning, purpose, and identity
+    - Specific phobias and compulsions
+    - Severe psychotic disorders
+    - Organic brain conditions
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'In humanistic education, evaluation typically emphasizes:'
+    Options:
+    - Self-assessment and personal growth
+    - Norm-referenced testing
+    - Comparative grading
+    - Standardized measures only
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The humanistic approach differs from psychoanalysis in its:'
+    Options:
+    - Attention to early childhood experiences
+    - Emphasis on unconscious processes
+    - Use of dream interpretation
+    - Focus on the present rather than the past
+    CorrectOptionIndex: 3
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'A key strength of the humanistic approach is its:'
+    Options:
+    - Emphasis on human potential and dignity
+    - Strong empirical research base
+    - Highly structured techniques
+    - Focus on pathology and dysfunction
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'In person-centered therapy, "empathic understanding" means:'
+    Options:
+    - Feeling sorry for the client
+    - Accurately perceiving the client's internal frame of reference
+    - Agreeing with everything the client says
+    - Sharing similar personal experiences
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The humanistic approach is especially valuable for helping clients
+      with:'
+    Options:
+    - Crisis intervention and immediate problem-solving
+    - Exploring existential concerns and personal growth
+    - Severe behavioral disorders
+    - Cognitive rehabilitation
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'A humanistic teacher would be most likely to say:'
+    Options:
+    - '"You must learn this material for the test."'
+    - '"Your grade depends on beating your classmates."'
+    - '"This is the only correct way to solve this problem."'
+    - '"Let''s explore what interests you about this topic."'
+    CorrectOptionIndex: 3
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'The concept of "self-actualization" refers to:'
+    Options:
+    - The process of realizing one's full potential
+    - Achieving social status and wealth
+    - Conforming to societal expectations
+    - Repressing unacceptable impulses
+    CorrectOptionIndex: 0
+    LevelName: humanistic-theories of counsell
+  - QuestionText: 'In humanistic therapy, silence is typically viewed as:'
+    Options:
+    - A waste of valuable session time
+    - An opportunity for reflection and processing
+    - A sign of resistance
+    - Something the therapist should always fill
+    CorrectOptionIndex: 1
+    LevelName: humanistic-theories of counsell

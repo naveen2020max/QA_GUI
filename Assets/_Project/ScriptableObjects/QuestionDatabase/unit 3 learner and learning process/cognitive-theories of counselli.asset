@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: cognitive-theories of counselli
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The cognitive approach to counselling is primarily concerned with:'
+    Options:
+    - Unconscious conflicts and childhood experiences
+    - The influence of thoughts and beliefs on emotions and behavior
+    - The therapeutic relationship and conditions for growth
+    - Environmental reinforcements and punishments
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: Who is considered the founder of Cognitive Therapy?
+    Options:
+    - Albert Ellis
+    - Aaron Beck
+    - Carl Rogers
+    - Fritz Perls
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The ABC Model in Rational Emotive Behavior Therapy (REBT) stands
+      for:'
+    Options:
+    - Action, Belief, Consequence
+    - Antecedent, Behavior, Consequence
+    - Analysis, Behavior, Change
+    - Activating event, Belief, Emotional Consequence
+    CorrectOptionIndex: 3
+    LevelName: cognitive-theories of counselli
+  - QuestionText: '"I must be perfectly competent in everything I do to be worthwhile."
+      This is an example of what Albert Ellis called:'
+    Options:
+    - An automatic thought
+    - A core belief
+    - An irrational belief
+    - A conditional assumption
+    CorrectOptionIndex: 2
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'In Cognitive Therapy, the negative thoughts that spontaneously
+      pop into a person''s mind are called:'
+    Options:
+    - Core beliefs
+    - Cognitive distortions
+    - Automatic thoughts
+    - Schemas
+    CorrectOptionIndex: 2
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The cognitive technique of helping clients identify, evaluate,
+      and change their dysfunctional thoughts is known as:'
+    Options:
+    - Systematic desensitization
+    - Cognitive restructuring
+    - Free association
+    - Empty chair technique
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: Which of the following is a key characteristic of the cognitive
+      approach?
+    Options:
+    - It is non-directive and client-centered
+    - It is collaborative and psychoeducational
+    - It focuses exclusively on dream analysis
+    - It emphasizes the empty chair technique
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: '"All-or-nothing thinking," "overgeneralization," and "catastrophizing"
+      are examples of:'
+    Options:
+    - Defense mechanisms
+    - Behavioral reinforcements
+    - Conditions of worth
+    - Cognitive distortions
+    CorrectOptionIndex: 3
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The cognitive approach is particularly effective for treating:'
+    Options:
+    - Depression and anxiety disorders
+    - Personality disorders exclusively
+    - Psychotic disorders only
+    - All mental health conditions equally
+    CorrectOptionIndex: 0
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'In Cognitive Behavioral Therapy (CBT), homework assignments are
+      used to:'
+    Options:
+    - Keep clients busy between sessions
+    - Help clients practice new skills and test their beliefs in real-life situations
+    - Replace therapy sessions
+    - Focus solely on emotional expression
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: A student who thinks, "I failed one test, so I will fail everything
+      and never get into college," is demonstrating which cognitive distortion?
+    Options:
+    - Catastrophizing
+    - Mind reading
+    - Emotional reasoning
+    - Personalization
+    CorrectOptionIndex: 0
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The cognitive approach differs from psychoanalysis in that it:'
+    Options:
+    - Focuses more on the present than the distant past
+    - Emphasizes unconscious conflicts
+    - Uses free association as its primary technique
+    - Is non-directive in nature
+    CorrectOptionIndex: 0
+    LevelName: cognitive-theories of counselli
+  - QuestionText: A cognitive counselor helping a client with social anxiety might
+      use which technique to test the client's fear of negative evaluation?
+    Options:
+    - Dream analysis
+    - A behavioral experiment
+    - Reflection of feelings
+    - Interpretation of transference
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The concept of "schemas" in cognitive therapy refers to:'
+    Options:
+    - Behavioral reinforcement schedules
+    - Deeply held core beliefs that filter our perception of experiences
+    - Unconscious defense mechanisms
+    - Stages of psychosexual development
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: Which technique involves asking questions like "What's the evidence
+      for that thought?" or "What's a more balanced way to look at this?"
+    Options:
+    - Socratic questioning
+    - Systematic desensitization
+    - Motivational interviewing
+    - Paradoxical intention
+    CorrectOptionIndex: 0
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'A client believes, "If I''m not loved by everyone, then I''m unlovable."
+      A cognitive therapist would identify this as:'
+    Options:
+    - A realistic assessment
+    - Dichotomous thinking
+    - A healthy coping strategy
+    - An example of empathy
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The cognitive approach is considered "time-limited" because it:'
+    Options:
+    - Rushes clients through therapy
+    - Focuses on specific goals and is structured to be relatively brief
+    - Only addresses surface-level issues
+    - Avoids building a therapeutic relationship
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'In REBT, the therapist''s role is often:'
+    Options:
+    - A non-directive listener
+    - A blank screen for projection
+    - A dream interpreter
+    - A teacher and disputer of irrational beliefs
+    CorrectOptionIndex: 3
+    LevelName: cognitive-theories of counselli
+  - QuestionText: Which cognitive technique involves having clients record their
+      negative thoughts, emotions, and more adaptive responses?
+    Options:
+    - Thought record
+    - Free association journal
+    - Dream diary
+    - Emotional catharsis log
+    CorrectOptionIndex: 0
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The cognitive model proposes that psychological distress is primarily
+      caused by:'
+    Options:
+    - Unresolved childhood conflicts
+    - Faulty information processing and irrational thinking
+    - Lack of unconditional positive regard
+    - Environmental contingencies alone
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'A student consistently thinks, "No one wants to talk to me because
+      I''m boring," despite evidence of positive social interactions. A cognitive
+      counselor would help them examine this belief through:'
+    Options:
+    - Exploring their childhood relationships with siblings
+    - Conducting a behavioral experiment where they initiate conversations
+    - Analyzing their dreams about social rejection
+    - Providing unconditional positive regard
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'When comparing Ellis''s REBT with Beck''s Cognitive Therapy, a
+      key difference is that REBT:'
+    Options:
+    - Is more passive and non-directive
+    - Does not use behavioral techniques
+    - Focuses exclusively on automatic thoughts rather than core beliefs
+    - Is more confrontational and philosophical about challenging irrational beliefs
+    CorrectOptionIndex: 3
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'A teacher using cognitive principles in the classroom might help
+      an anxious student by:'
+    Options:
+    - Ignoring the student's anxiety to avoid reinforcement
+    - Teaching them to identify and challenge thoughts like "I'm going to fail this
+      presentation"
+    - Focusing only on the student's behavioral compliance
+    - Exploring the student's early childhood school experiences
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The cognitive approach has been criticized for:'
+    Options:
+    - Focusing too much on unconscious processes
+    - Potentially overlooking the therapeutic relationship and emotional experiencing
+    - Being too long-term and expensive
+    - Rejecting all empirical research
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'In cognitive therapy for depression, the "cognitive triad" refers
+      to negative views of:'
+    Options:
+    - Past, present, and future
+    - Thoughts, feelings, and behaviors
+    - Parents, peers, and teachers
+    - Self, world, and future
+    CorrectOptionIndex: 3
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'A client says, "My friend didn''t smile at me, so she must be
+      angry with me." A cognitive therapist would identify this as:'
+    Options:
+    - Mind reading
+    - Magnification
+    - Mental filter
+    - Should statements
+    CorrectOptionIndex: 0
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The cognitive approach is particularly well-suited for school
+      settings because it:'
+    Options:
+    - Requires many years of treatment
+    - Is highly abstract and philosophical
+    - Teaches practical skills that students can use in academic and social situations
+    - Focuses exclusively on family dynamics
+    CorrectOptionIndex: 2
+    LevelName: cognitive-theories of counselli
+  - QuestionText: Which technique involves having a client imagine the worst possible
+      outcome of a feared situation and then develop a coping plan?
+    Options:
+    - Catastrophizing exercise
+    - Coping modeling
+    - Cognitive rehearsal
+    - Worry exposure
+    CorrectOptionIndex: 0
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The concept of "conditional assumptions" in cognitive therapy
+      refers to:'
+    Options:
+    - '"If-then" beliefs that guide behavior (e.g., "If I make a mistake, then people
+      will reject me")'
+    - Unconditional positive regard from the therapist
+    - Conditions necessary for effective therapy
+    - Behavioral contingencies in the environment
+    CorrectOptionIndex: 0
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'A cognitive counselor working with a perfectionistic student would
+      help them:'
+    Options:
+    - Embrace their high standards without question
+    - Develop more flexible and realistic standards and self-talk
+    - Explore the childhood origins of their perfectionism
+    - Focus solely on their emotional experience of failure
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The cognitive approach integrates well with behavioral techniques
+      because:'
+    Options:
+    - They both ignore the role of thinking
+    - Behavior change can test and modify maladaptive thoughts
+    - They both focus exclusively on childhood experiences
+    - They both reject empirical validation
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: A student who thinks, "I got a B on this paper, which means I'm
+      a total failure as a student," is demonstrating which cognitive distortion?
+    Options:
+    - Overgeneralization
+    - Disqualifying the positive
+    - Emotional reasoning
+    - Magnification
+    CorrectOptionIndex: 0
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'In cognitive therapy, the process of helping clients develop new,
+      more adaptive ways of thinking is called:'
+    Options:
+    - Cognitive reframing
+    - Behavioral activation
+    - Emotional catharsis
+    - Transference analysis
+    CorrectOptionIndex: 0
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The cognitive approach is considered "evidence-based" because:'
+    Options:
+    - It relies solely on client self-report without verification
+    - Its effectiveness has been demonstrated through numerous research studies
+    - It rejects all scientific investigation
+    - It is based on ancient philosophical traditions only
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'A teacher using cognitive principles might help students with
+      test anxiety by:'
+    Options:
+    - Telling them to simply "stop worrying"
+    - Teaching them to recognize and challenge catastrophic thoughts about failing
+    - Focusing only on punishment for anxious behavior
+    - Having them free associate about their fears
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The concept of "decentering" in cognitive therapy refers to:'
+    Options:
+    - Moving therapy sessions to a different location
+    - Balancing behavioral and cognitive techniques
+    - Reducing the importance of the therapeutic relationship
+    - The ability to see one's thoughts as mental events rather than absolute truths
+    CorrectOptionIndex: 3
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'A limitation of the cognitive approach is that it may:'
+    Options:
+    - Overemphasize the role of emotions in psychological distress
+    - Be too complex for some clients with limited abstract reasoning ability
+    - Ignore the role of thinking in behavior change
+    - Focus too much on childhood experiences
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'In REBT, the process of actively challenging and debating irrational
+      beliefs is called:'
+    Options:
+    - Cognitive restructuring
+    - Disputation
+    - Reflection
+    - Reinforcement
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'A cognitive counselor helping a client with social anxiety might
+      assign homework to:'
+    Options:
+    - Avoid all social situations to reduce anxiety
+    - Focus only on their physical sensations of anxiety
+    - Write about their childhood social experiences
+    - Start conversations with three people and record the actual outcomes
+    CorrectOptionIndex: 3
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The cognitive approach views emotions as:'
+    Options:
+    - Irrelevant to the therapeutic process
+    - Caused directly by events without cognitive mediation
+    - Influenced by our interpretations of events
+    - Only important in psychodynamic therapy
+    CorrectOptionIndex: 2
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'A student who believes "I must get an A on every assignment or
+      I''m worthless" would benefit from learning about:'
+    Options:
+    - The principle of extinction
+    - The concept of unconditional self-acceptance
+    - Defense mechanisms
+    - Free association
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The cognitive approach is particularly effective for helping students
+      with:'
+    Options:
+    - Academic procrastination and perfectionism
+    - Severe psychotic symptoms
+    - Organic brain disorders
+    - All learning disabilities equally
+    CorrectOptionIndex: 0
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'In cognitive therapy, "guided discovery" involves:'
+    Options:
+    - The therapist telling the client what to think
+    - Helping clients discover for themselves the inaccuracies in their thinking
+    - Interpreting the client's dreams for them
+    - Directing the client's behavior without explanation
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'A teacher using cognitive principles in classroom management might:'
+    Options:
+    - Help students identify and change thoughts that lead to disruptive behavior
+    - Use punishment exclusively for behavior management
+    - Ignore students' thinking processes entirely
+    - Focus only on emotional expression without cognitive analysis
+    CorrectOptionIndex: 0
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The cognitive approach has been successfully integrated with mindfulness
+      practices in:'
+    Options:
+    - Mindfulness-Based Cognitive Therapy (MBCT)
+    - Psychoanalytic dream work
+    - Person-centered therapy
+    - Behavioral activation therapy
+    CorrectOptionIndex: 0
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'A student thinks, "If I speak up in class, I''ll say something
+      stupid and everyone will laugh at me." A cognitive counselor would identify
+      this as an example of:'
+    Options:
+    - Personalization
+    - Mental filter
+    - Labeling
+    - Fortune telling
+    CorrectOptionIndex: 3
+    LevelName: cognitive-theories of counselli
+  - QuestionText: The cognitive approach emphasizes that changing __________ is key
+      to lasting emotional and behavioral change.
+    Options:
+    - Other people's behavior
+    - Childhood experiences
+    - Core beliefs and thinking patterns
+    - Environmental contingencies only
+    CorrectOptionIndex: 2
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'In school counseling, cognitive techniques can be effectively
+      used in:'
+    Options:
+    - Individual, group, and classroom settings
+    - Individual sessions only
+    - Administrative meetings only
+    - Parent conferences exclusively
+    CorrectOptionIndex: 0
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'A key strength of the cognitive approach is its:'
+    Options:
+    - Focus on deep unconscious analysis
+    - Practical, skills-based nature that empowers clients
+    - Rejection of all behavioral techniques
+    - Emphasis on lengthy treatment processes
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli
+  - QuestionText: 'The cognitive approach views the client as:'
+    Options:
+    - A passive recipient of treatment
+    - An active collaborator in the change process
+    - Unable to understand their own thinking
+    - Completely determined by their environment
+    CorrectOptionIndex: 1
+    LevelName: cognitive-theories of counselli

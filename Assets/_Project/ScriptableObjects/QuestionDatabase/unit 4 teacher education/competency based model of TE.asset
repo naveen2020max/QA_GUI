@@ -1,0 +1,434 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: competency based model of TE
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary focus of Competency-Based Teacher Education
+      (CBTE)?
+    Options:
+    - The amount of time spent in coursework
+    - The philosophical beliefs of the teacher
+    - The demonstration of pre-specified, measurable competencies
+    - The theoretical knowledge of educational psychology
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'In a CBTE program, a teacher''s progress is determined by:'
+    Options:
+    - Their ranking compared to peers
+    - Their performance on a single final examination
+    - The number of credit hours completed
+    - Their demonstrated mastery of each competency
+    CorrectOptionIndex: 3
+    LevelName: competency based model of TE
+  - QuestionText: Which of the following is a key characteristic of CBTE?
+    Options:
+    - Norm-referenced evaluation
+    - Fixed time frame for all students
+    - Criterion-referenced assessment
+    - Emphasis on theoretical learning only
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'The assessment in CBTE is best described as:'
+    Options:
+    - Subjective and holistic
+    - Based on peer comparison
+    - Objective and performance-based
+    - Focused solely on written tests
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'A major advantage of the CBTE model is its emphasis on:'
+    Options:
+    - Teacher autonomy and creativity
+    - Accountability and measurable outcomes
+    - Abstract theoretical knowledge
+    - Unstructured learning experiences
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: 'The statement "The teacher will be able to frame at least three
+      different types of questions (factual, conceptual, analytical) in a 10-minute
+      micro-teaching session" is an example of a:'
+    Options:
+    - Teaching philosophy
+    - Lesson plan objective
+    - Course description
+    - Competency statement
+    CorrectOptionIndex: 3
+    LevelName: competency based model of TE
+  - QuestionText: 'A significant criticism of the CBTE model is that it may lead
+      to:'
+    Options:
+    - A lack of clear standards
+    - The fragmentation of teaching into isolated skills
+    - Overemphasis on theoretical understanding
+    - Insufficient focus on practical skills
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: 'The curriculum in a CBTE program is typically organized into:'
+    Options:
+    - Traditional semester-long courses
+    - Large, interdisciplinary projects
+    - Self-paced learning modules
+    - Socratic dialogue sessions
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: Which model of teacher education is CBTE most closely related to?
+    Options:
+    - The Humanistic Model
+    - The Behaviouristic Model
+    - The Constructivist Model
+    - The Romantic Model
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: 'In CBTE, the primary role of the teacher educator is that of a:'
+    Options:
+    - Philosopher and guide
+    - Disciplinarian and authority
+    - Co-learner and collaborator
+    - Facilitator and assessor
+    CorrectOptionIndex: 3
+    LevelName: competency based model of TE
+  - QuestionText: 'The concept of "mastery learning" in CBTE implies that:'
+    Options:
+    - All students will achieve the same rank.
+    - A student progresses only after demonstrating proficiency in a competency.
+    - Learning is a naturally unfolding process.
+    - The fastest students are the most competent.
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: Which of the following is the most appropriate assessment method
+      for a CBTE program?
+    Options:
+    - A final essay on educational theory
+    - A standardized multiple-choice test
+    - An observation checklist of teaching skills during an internship
+    - A subjective evaluation of teacher personality
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'The development of a CBTE program begins with:'
+    Options:
+    - Selecting textbooks
+    - Identifying essential teaching competencies
+    - Designing lecture schedules
+    - Planning field trips
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: 'A key difference between CBTE and traditional models is CBTE''s
+      focus on:'
+    Options:
+    - Inputs (time, courses)
+    - Outputs (demonstrable skills)
+    - Philosophical foundations
+    - Historical perspectives
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: Which of the following is a potential "higher-order" competency
+      that is difficult to assess in a pure CBTE framework?
+    Options:
+    - Writing a lesson plan
+    - Using audio-visual equipment
+    - Fostering a democratic classroom environment
+    - Managing classroom transitions
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'The CBTE model gained significant prominence during the:'
+    Options:
+    - 19th Century
+    - 1920s
+    - 2000s
+    - 1970s
+    CorrectOptionIndex: 3
+    LevelName: competency based model of TE
+  - QuestionText: 'If a teacher candidate can re-take an assessment until they achieve
+      mastery, this reflects the CBTE principle of:'
+    Options:
+    - Individualized pacing
+    - Norm-referencing
+    - Time-bound learning
+    - Competitive evaluation
+    CorrectOptionIndex: 0
+    LevelName: competency based model of TE
+  - QuestionText: 'A "competency" in CBTE typically includes:'
+    Options:
+    - Only knowledge components
+    - Only skill components
+    - Knowledge, skills, and attitudes
+    - Only attitudinal components
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'The demerit of CBTE known as "reductionism" refers to its tendency
+      to:'
+    Options:
+    - Increase the cost of teacher education
+    - Reduce complex teaching to a list of simple skills
+    - Lengthen the duration of teacher training
+    - Overcomplicate the assessment process
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: Which regulatory body in India has incorporated competency-based
+      approaches into its teacher education frameworks?
+    Options:
+    - UGC
+    - NCERT
+    - NCTE
+    - AICTE
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'A teacher education program that uses a detailed "skills checklist"
+      for final certification is most influenced by the:'
+    Options:
+    - Constructivist model
+    - CBTE model
+    - Humanistic model
+    - Apprenticeship model
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: 'The philosophical foundation of CBTE is most aligned with:'
+    Options:
+    - Existentialism
+    - Idealism
+    - Pragmatism and Empiricism
+    - Perennialism
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'In a CBTE framework, feedback to teacher candidates is typically:'
+    Options:
+    - Vague and general
+    - Delayed until the end of the program
+    - Based on personal opinion
+    - Immediate and specific to the competency
+    CorrectOptionIndex: 3
+    LevelName: competency based model of TE
+  - QuestionText: Which of the following is an example of a psychomotor competency
+      for a teacher?
+    Options:
+    - Understanding child development
+    - Believing in inclusive education
+    - Skillfully using the chalkboard for diagramming
+    - Appreciating poetry
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'A major challenge in implementing CBTE is:'
+    Options:
+    - The lack of any clear standards
+    - Defining and assessing complex, integrative competencies
+    - Its complete reliance on theoretical exams
+    - Its opposition to practical training
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: 'The term "criterion-referenced" in CBTE means that assessment
+      is based on:'
+    Options:
+    - How a candidate performs relative to others
+    - A fixed percentage of students who must fail
+    - A pre-established standard of performance
+    - The subjective judgment of the evaluator
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'Micro-teaching is a strategy often used in CBTE because it:'
+    Options:
+    - Allows for the practice and assessment of specific teaching skills in isolation
+    - Is a lengthy and comprehensive teaching exercise
+    - Focuses solely on the teacher's content knowledge
+    - Avoids the need for any feedback
+    CorrectOptionIndex: 0
+    LevelName: competency based model of TE
+  - QuestionText: CBTE can be seen as a response to the demand for greater _____
+      in teacher education.
+    Options:
+    - Flexibility
+    - Theoretical rigor
+    - Public accountability
+    - Philosophical depth
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: Which of the following is a potential affective (attitudinal) competency?
+    Options:
+    - States the principles of inclusive education.
+    - Demonstrates sensitivity towards students from diverse cultural backgrounds.
+    - Designs a unit test with reliability.
+    - Uses a video projector correctly.
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: 'A teaching portfolio in a CBTE program is used to:'
+    Options:
+    - Replace all other forms of assessment
+    - Showcase only the candidate's best work
+    - Provide evidence of achievement across multiple competencies
+    - Serve as a personal diary
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'The CBTE model is most effective for ensuring that graduating
+      teachers possess:'
+    Options:
+    - A unique and personal teaching style
+    - A deep understanding of educational philosophy
+    - A standardized set of basic teaching skills
+    - A resistance to standardized curricula
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'A critique of CBTE from a constructivist perspective is that it:'
+    Options:
+    - Is too student-centered
+    - Undervalues the process of knowledge construction by the teacher
+    - Lacks clear objectives
+    - Is too focused on higher-order thinking
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: 'The phrase "personalized instruction" in CBTE refers to:'
+    Options:
+    - Every candidate receiving the same instruction
+    - Tailoring learning resources to help individuals achieve competencies
+    - Allowing candidates to choose their own competencies
+    - Eliminating the need for instructors
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: Which of the following is a cognitive competency?
+    Options:
+    - Explains the causes of the Indian independence movement.
+    - Maintains eye contact with students.
+    - Shows patience when a student struggles.
+    - Organizes the physical layout of the classroom.
+    CorrectOptionIndex: 0
+    LevelName: competency based model of TE
+  - QuestionText: 'The ultimate goal of CBTE is to produce teachers who are:'
+    Options:
+    - Identical in their teaching methods
+    - Effective performers of essential teaching tasks
+    - Primarily theorists and researchers
+    - Free to ignore standardized curricula
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: 'In a CBTE program, a candidate who fails a competency assessment
+      is typically required to:'
+    Options:
+    - Drop out of the program
+    - Repeat the entire academic year
+    - Receive remedial help and reattempt the assessment
+    - Accept a lower grade and move on
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'The development of a "competency map" is a crucial step in designing
+      a CBTE program. This map outlines:'
+    Options:
+    - The geographical location of practice teaching schools
+    - The relationships and sequences between different competencies
+    - The career paths for graduates
+    - The budget for the program
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: 'A potential negative consequence of CBTE is that it may encourage
+      "teaching to the test," where the test is:'
+    Options:
+    - The final university examination
+    - The competency checklist
+    - The student satisfaction survey
+    - The principal's evaluation
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: Which teaching strategy is least aligned with the principles of
+      CBTE?
+    Options:
+    - Simulation exercises
+    - Programmed learning modules
+    - Open-ended, student-directed inquiry projects
+    - Micro-teaching sessions with feedback
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'The CBTE model views teacher expertise as primarily consisting
+      of:'
+    Options:
+    - Intuitive understanding
+    - A repertoire of mastered competencies
+    - Innate talent
+    - Philosophical conviction
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: 'When assessing a competency like "classroom management," a CBTE
+      assessor would look for:'
+    Options:
+    - The teacher's personal belief about discipline
+    - Observable evidence of strategies to maintain a productive learning environment
+    - The teacher's score on a personality test
+    - Student scores on a standardized test
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: 'The emphasis on "demonstration" in CBTE requires assessment to
+      be:'
+    Options:
+    - Based solely on written statements
+    - Subjective and narrative
+    - Postponed until the end of the program
+    - Conducted through authentic or simulated performance
+    CorrectOptionIndex: 3
+    LevelName: competency based model of TE
+  - QuestionText: 'A key difference between a "competency" and a "learning objective"
+      is that a competency is:'
+    Options:
+    - More general and abstract
+    - Focused specifically on the learner's demonstrable capability
+    - Only concerned with knowledge
+    - Not used for assessment purposes
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: 'The legacy of CBTE is evident in contemporary trends such as:'
+    Options:
+    - Unstructured homeschooling
+    - Standardized teaching standards and performance assessments (like edTPA)
+    - The complete elimination of teacher certification
+    - Sole reliance on apprentice-style training
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: A teacher education program that claims to be "outcomes-based"
+      is most similar to a _____ program.
+    Options:
+    - CBTE
+    - Traditional liberal arts
+    - Philosophically-oriented
+    - Subject-centered
+    CorrectOptionIndex: 0
+    LevelName: competency based model of TE
+  - QuestionText: 'The term "performance-based" in PBTE (Performance-Based Teacher
+      Education) highlights that assessment is based on:'
+    Options:
+    - The candidate's potential
+    - The candidate's actual performance
+    - The candidate's intentions
+    - The candidate's theoretical knowledge
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE
+  - QuestionText: 'A major contribution of the CBTE movement was to shift the question
+      in teacher education from "What was taught?" to:'
+    Options:
+    - '"Who taught it?"'
+    - '"How long did it take?"'
+    - '"What was learned and can be demonstrated?"'
+    - '"What is the teacher''s philosophy?"'
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: 'In a CBTE system, the transcript of a graduating teacher would
+      primarily list:'
+    Options:
+    - Courses taken and grades received
+    - Hours of field experience completed
+    - Competencies mastered and the level of performance
+    - Subjective comments from instructors
+    CorrectOptionIndex: 2
+    LevelName: competency based model of TE
+  - QuestionText: Which of the following is a social competency for a teacher?
+    Options:
+    - Recites a poem with expression.
+    - Collaborates effectively with colleagues and parents.
+    - Solves a quadratic equation.
+    - Defines the term 'learning disability'.
+    CorrectOptionIndex: 1
+    LevelName: competency based model of TE

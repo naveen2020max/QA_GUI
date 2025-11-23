@@ -1,0 +1,448 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: rational-theories oc counsellin
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'Rational Emotive Behavior Therapy (REBT) was developed by:'
+    Options:
+    - Aaron Beck
+    - Albert Ellis
+    - Carl Rogers
+    - William Glasser
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'The central premise of REBT is that emotional disturbances are
+      primarily caused by:'
+    Options:
+    - Unconscious conflicts
+    - Chemical imbalances in the brain
+    - A lack of unconditional positive regard
+    - Irrational beliefs about activating events
+    CorrectOptionIndex: 3
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'The ABC model in REBT stands for:'
+    Options:
+    - Antecedent, Behavior, Consequence
+    - Activating event, Belief, Emotional/Behavioral Consequence
+    - Assessment, Belief, Change
+    - Action, Behavior, Cognition
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'According to Ellis, the core of most psychological problems is:'
+    Options:
+    - The activating event itself
+    - The absolutistic and dogmatic "musts," "shoulds," and "oughts"
+    - The emotional consequence
+    - The lack of social interest
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: Which of the following is NOT one of the three core "musts" identified
+      by Ellis that lead to irrational thinking?
+    Options:
+    - '"I must do well and win approval."'
+    - '"Others must treat me fairly and kindly."'
+    - '"The world must give me happiness."'
+    - '"I must understand my unconscious motivations."'
+    CorrectOptionIndex: 3
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'In REBT, the process of vigorously debating and challenging a
+      client''s irrational beliefs is called:'
+    Options:
+    - Cognitive restructuring
+    - Disputation
+    - Systematic desensitization
+    - Reflection
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'The ultimate goal of REBT is to help clients replace their irrational
+      beliefs with:'
+    Options:
+    - More rational, flexible, and non-dogmatic preferences
+    - A complete absence of negative emotions
+    - Perfectly logical and emotionless thinking
+    - A dependence on the therapist's guidance
+    CorrectOptionIndex: 0
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A student thinks, "I must get an A on this exam. It would be awful
+      if I didn''t, and I would be a complete failure." This statement exemplifies:'
+    Options:
+    - Conditional self-acceptance
+    - Awfulizing and self-downing
+    - Low frustration tolerance
+    - All of the above
+    CorrectOptionIndex: 3
+    LevelName: rational-theories oc counsellin
+  - QuestionText: Which technique in REBT involves having the client imagine the
+      worst-case scenario of their fear and then realize they could still cope with
+      it?
+    Options:
+    - Shame-attacking exercises
+    - Rational-emotive imagery
+    - Catastrophizing
+    - Aversive conditioning
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'Ellis considered REBT to be a form of:'
+    Options:
+    - Psychodynamic therapy
+    - Cognitive-behavioral therapy
+    - Humanistic-existential therapy
+    - Pure behaviorism
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A teacher using REBT principles with a perfectionist student would
+      help them challenge the belief that:'
+    Options:
+    - '"It is preferable to do well."'
+    - '"I can tolerate frustration."'
+    - '"Sometimes failure is a learning opportunity."'
+    - '"I must be perfect to be a worthwhile person."'
+    CorrectOptionIndex: 3
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'The concept of "Low Frustration Tolerance" (LFT) is characterized
+      by beliefs such as:'
+    Options:
+    - '"This situation is challenging, but I can handle it."'
+    - '"The world must be fair and I can''t stand it when it''s not!"'
+    - '"I am a good person even when I make mistakes."'
+    - '"I can learn from difficult experiences."'
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'In the ABC model, the ''C'' (Consequence) refers to:'
+    Options:
+    - Only the behavioral response
+    - Only the emotional response
+    - Both the emotional and behavioral responses
+    - The activating event itself
+    CorrectOptionIndex: 2
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A key difference between Ellis''s REBT and Beck''s Cognitive Therapy
+      is that REBT is:'
+    Options:
+    - More passive and non-directive
+    - More philosophical, confrontational, and focuses on "musts"
+    - Less concerned with behavioral techniques
+    - More focused on the therapeutic relationship
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A student who is rejected by a friend and thinks, "This is terrible!
+      I can''t stand being alone! No one will ever like me!" is demonstrating:'
+    Options:
+    - Awfulizing, Low Frustration Tolerance, and Overgeneralization
+    - Realistic and adaptive thinking
+    - Healthy emotional processing
+    - Mindfulness and acceptance
+    CorrectOptionIndex: 0
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'The ''D'' and ''E'' in the extended ABCDE model stand for:'
+    Options:
+    - Diagnosis and Evaluation
+    - Disputation and New Effect
+    - Dream Analysis and Empathy
+    - Directive and Empathic
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'According to REBT, unhealthy negative emotions (like depression
+      and rage) are primarily caused by:'
+    Options:
+    - Activating events
+    - Irrational beliefs
+    - The therapist's style
+    - Genetic predispositions
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A technique where clients are encouraged to act in a "shameful"
+      way in public to challenge their irrational fears of disapproval is called:'
+    Options:
+    - Aversive therapy
+    - Shame-attacking exercises
+    - Flooding
+    - Systematic desensitization
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'The role of the REBT therapist is best described as that of a(n):'
+    Options:
+    - Blank slate
+    - Unconditional supporter
+    - Teacher, coach, and persuader
+    - Dream interpreter
+    CorrectOptionIndex: 2
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'The philosophical foundation of REBT is most closely aligned with:'
+    Options:
+    - Stoicism (e.g., "People are disturbed not by things, but by the views they
+      take of them.")
+    - Existentialism
+    - Structuralism
+    - Determinism
+    CorrectOptionIndex: 0
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A student believes, "It''s absolutely necessary that I be popular,
+      and it''s horrible if I''m not." An REBT counselor would help them develop
+      a more rational belief such as:'
+    Options:
+    - '"It''s not important to have friends."'
+    - '"I am a total loser if I''m not popular."'
+    - "\"I would\_prefer\_to be popular, but it's not a dire necessity. I can still
+      accept myself.\""
+    - '"Everyone must like me."'
+    CorrectOptionIndex: 2
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'Critically analyzing REBT, a potential limitation in a school
+      setting is that its confrontational style:'
+    Options:
+    - May not be suitable for all students, particularly younger or more sensitive
+      ones
+    - Is not evidence-based
+    - Is too passive for adolescents
+    - Focuses too much on the past
+    CorrectOptionIndex: 0
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'The concept of "Unconditional Self-Acceptance" (USA) in REBT involves:'
+    Options:
+    - Rating one's behaviors but not one's global self
+    - Believing one is a wonderful person only when successful
+    - Avoiding all self-evaluation
+    - Seeking constant external validation
+    CorrectOptionIndex: 0
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A teacher using REBT with a student who has intense test anxiety
+      would focus on disputing the student''s belief that:'
+    Options:
+    - '"Exams are challenging."'
+    - '"I must not feel anxious."'
+    - "\"It would be\_awful\_to fail, and I\_couldn't stand it.\""
+    - '"I need to prepare for the test."'
+    CorrectOptionIndex: 2
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'Compared to Person-Centered Therapy, REBT is significantly more:'
+    Options:
+    - Non-directive
+    - Directive and didactic
+    - Focused on the unconscious
+    - Ambiguous in its goals
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'The "E" in the ABCDE model (New Effect) refers to:'
+    Options:
+    - The new, more functional emotional and behavioral consequences
+    - The end of therapy
+    - The environmental context
+    - The empathic response of the therapist
+    CorrectOptionIndex: 0
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'Ellis argued that to achieve psychological health, individuals
+      must work toward:'
+    Options:
+    - The complete elimination of negative emotions
+    - High frustration tolerance and unconditional self-acceptance
+    - Perfect relationships with everyone
+    - Understanding their childhood traumas
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A student who procrastinates might hold the irrational belief:'
+    Options:
+    - '"This task is difficult, so I''ll start with a small part."'
+    - '"I should do this now because it''s important."'
+    - "\"This assignment is too hard, and I\_shouldn't\_have to do things that are
+      hard!\""
+    - '"I can ask for help if I need it."'
+    CorrectOptionIndex: 2
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'REBT is considered "behavioral" because it:'
+    Options:
+    - Ignores behavior completely
+    - Uses behavioral techniques and emphasizes acting against irrational beliefs
+    - Focuses only on animal learning
+    - Is identical to radical behaviorism
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A core philosophical idea in REBT is that humans have a secondary,
+      innate tendency to:'
+    Options:
+    - Think rationally and actualize themselves
+    - Suppress all unconscious material
+    - Remain emotionally neutral
+    - Think irrationally and disturb themselves
+    CorrectOptionIndex: 3
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A school counselor using REBT with a bullied student would help
+      them dispute the idea that:'
+    Options:
+    - '"The bullying is wrong and should be reported."'
+    - '"Because they bully me, I am a worthless person."'
+    - '"I feel hurt and angry when I am bullied."'
+    - '"I can seek support from trusted adults."'
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'The term "awfulizing" refers to:'
+    Options:
+    - Viewing a negative event as highly undesirable
+    - A technique used in systematic desensitization
+    - Having a realistic assessment of risk
+    - Catastrophizing and believing a situation is 100% bad than it should be
+    CorrectOptionIndex: 3
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'In REBT, homework assignments are crucial because they:'
+    Options:
+    - Keep the client busy between sessions
+    - Allow the client to practice identifying and disputing irrational beliefs in
+      real life
+    - Are used to test the client's intelligence
+    - Replace the need for therapy sessions
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A parent using REBT principles would respond to a child''s failure
+      by saying:'
+    Options:
+    - '"You are a failure and a bad kid."'
+    - '"This outcome is terrible and unbearable!"'
+    - '"You failed this time. Let''s look at what we can learn from it. You are still
+      a worthwhile person."'
+    - Nothing, to avoid reinforcing the failure.
+    CorrectOptionIndex: 2
+    LevelName: rational-theories oc counsellin
+  - QuestionText: Ellis originally trained in and practiced which form of therapy
+      before developing REBT?
+    Options:
+    - Person-Centered Therapy
+    - Psychoanalysis
+    - Behavior Therapy
+    - Gestalt Therapy
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'The concept of "Unconditional Other-Acceptance" (UOA) in REBT
+      involves:'
+    Options:
+    - Approving of all others' behaviors
+    - Refusing to rate others' global worth, even when their behavior is objectionable
+    - Believing others must always treat you well
+    - Seeking constant approval from others
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A strength of REBT in educational settings is its emphasis on:'
+    Options:
+    - Long-term, open-ended exploration
+    - Focusing solely on emotional expression
+    - Avoiding any direct confrontation
+    - Teaching students to take responsibility for their own emotional responses
+    CorrectOptionIndex: 3
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A student thinks, "My teacher didn''t call on me. She must hate
+      me." An REBT practitioner would identify the core irrational process here as:'
+    Options:
+    - Mind reading and personalization
+    - Realistic assessment
+    - High frustration tolerance
+    - Unconditional self-acceptance
+    CorrectOptionIndex: 0
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'The main goal of Disputation (D) in the ABCDE model is to:'
+    Options:
+    - Agree with the client's irrational beliefs
+    - Help the client see the logical, empirical, and pragmatic flaws in their irrational
+      beliefs
+    - Analyze the client's dreams
+    - Provide unconditional support
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'REBT makes a distinction between healthy and unhealthy negative
+      emotions. For example, the healthy alternative to anxiety is:'
+    Options:
+    - Apathy
+    - Shame
+    - Euphoria
+    - Concern
+    CorrectOptionIndex: 3
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A teacher who feels intense rage when a student disrupts the class
+      might be holding the irrational belief:'
+    Options:
+    - '"I don''t like this disruption."'
+    - "\"This student\_should not\_behave this way, and they are a\_rotten person\_for
+      doing so!\""
+    - '"I will implement the classroom consequences."'
+    - '"The student is probably having a bad day."'
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'REBT is considered a pioneering form of Cognitive-Behavioral Therapy
+      because it:'
+    Options:
+    - Was the first to explicitly integrate thinking and behavior as core to emotional
+      change
+    - Rejected the role of cognition entirely
+    - Focused only on behavioral activation
+    - Was developed after Beck's Cognitive Therapy
+    CorrectOptionIndex: 0
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A student with social anxiety might be assigned the homework of
+      intentionally saying something slightly foolish in a group to learn that the
+      consequences are not "awful." This is an example of:'
+    Options:
+    - A shame-attacking exercise
+    - Aversive conditioning
+    - Free association
+    - Transference analysis
+    CorrectOptionIndex: 0
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'The ultimate purpose of REBT''s forceful and persistent style
+      is to:'
+    Options:
+    - Humiliate the client into changing
+    - Help clients deeply internalize a new, rational philosophy of life
+    - Make the therapist feel powerful
+    - Quickly suppress symptoms without long-term change
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A limitation of REBT is that it may:'
+    Options:
+    - Be too superficially focused on symptoms
+    - Underemphasize the therapeutic alliance for some clients
+    - Be too long-term and expensive
+    - Ignore the role of cognition completely
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'In REBT, "Self-Downing" refers to:'
+    Options:
+    - Giving oneself positive affirmations
+    - The process of disputing irrational beliefs
+    - A technique for building self-esteem
+    - Rating one's entire self or essence as bad or worthless based on specific behaviors
+    CorrectOptionIndex: 3
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'A school counselor using an eclectic approach might use REBT techniques
+      specifically to:'
+    Options:
+    - Explore a student's early childhood memories in depth
+    - Quickly challenge and change a student's debilitating performance anxiety before
+      an exam
+    - Provide non-directive support for a grieving student
+    - Interpret a student's dreams
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'Ellis believed that profound philosophical change requires:'
+    Options:
+    - Insight alone
+    - Repeated cognitive, emotive, and behavioral practice
+    - A single powerful interpretation
+    - Medication
+    CorrectOptionIndex: 1
+    LevelName: rational-theories oc counsellin
+  - QuestionText: 'The "B" in the ABC model (Belief) can be:'
+    Options:
+    - Only irrational
+    - Only rational
+    - Either rational or irrational
+    - Neither rational nor irrational
+    CorrectOptionIndex: 2
+    LevelName: rational-theories oc counsellin

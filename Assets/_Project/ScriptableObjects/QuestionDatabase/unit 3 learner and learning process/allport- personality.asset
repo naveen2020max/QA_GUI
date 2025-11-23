@@ -1,0 +1,472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: allport- personality
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Gordon Allport is best known as a pioneer of which approach to
+      personality?
+    Options:
+    - Psychoanalytic
+    - Behaviorist
+    - Humanistic
+    - Trait
+    CorrectOptionIndex: 3
+    LevelName: allport- personality
+  - QuestionText: 'According to Allport, the underlying structures within a person
+      that make different situations functionally equivalent are called:'
+    Options:
+    - Archetypes
+    - Traits
+    - Habits
+    - Conditions of Worth
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'Allport''s term for the self or the essence of an individual''s
+      personality is:'
+    Options:
+    - The Ego
+    - The Proprium
+    - The Ideal Self
+    - The Phenomenal Field
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: Which of the following is the highest level of trait in Allport's
+      hierarchy, representing a pervasive characteristic that dominates a person's
+      life?
+    Options:
+    - Central Trait
+    - Secondary Trait
+    - Cardinal Trait
+    - Common Trait
+    CorrectOptionIndex: 2
+    LevelName: allport- personality
+  - QuestionText: Allport made a key distinction between traits that are unique to
+      the individual and those that are shared by many people, calling them ______
+      and ______ traits.
+    Options:
+    - Cardinal / Secondary
+    - Personal / Common
+    - Central / Peripheral
+    - Individual / Collective
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'The concept that adult motives are not tied to the childhood experiences
+      in which they originally appeared is known as:'
+    Options:
+    - Functional Autonomy
+    - Propriate Striving
+    - Psychosocial Moratorium
+    - Organismic Valuing
+    CorrectOptionIndex: 0
+    LevelName: allport- personality
+  - QuestionText: 'In Allport''s view, a psychologically healthy individual is characterized
+      by:'
+    Options:
+    - Freedom from trauma
+    - A dominant superego
+    - Proactive, future-oriented behavior
+    - Complete congruence between self and experience
+    CorrectOptionIndex: 2
+    LevelName: allport- personality
+  - QuestionText: Allport was highly critical of which two approaches to psychology
+      for their overly deterministic views?
+    Options:
+    - Humanistic and Cognitive
+    - Psychoanalysis and Behaviorism
+    - Trait and Type Theories
+    - Social Learning and Existentialism
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'The type of traits that are the building blocks of personality
+      and guide behavior in many situations are called:'
+    Options:
+    - Cardinal Traits
+    - Secondary Traits
+    - Central Traits
+    - Common Traits
+    CorrectOptionIndex: 2
+    LevelName: allport- personality
+  - QuestionText: 'Allport''s approach to personality is often described as:'
+    Options:
+    - Nomothetic
+    - Idiographic
+    - Deterministic
+    - Reductionist
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: A teacher describes a student as "generally honest, hardworking,
+      and friendly, but has a specific fear of public speaking." The fear of public
+      speaking is best classified as which kind of trait in Allport's system?
+    Options:
+    - A Cardinal Trait
+    - A Central Trait
+    - A Secondary Trait
+    - A Common Trait
+    CorrectOptionIndex: 2
+    LevelName: allport- personality
+  - QuestionText: 'The concept of "Functional Autonomy" is best illustrated by a
+      person who:'
+    Options:
+    - Continues to enjoy painting even though it no longer brings the parental praise
+      it once did.
+    - Represses childhood memories of failure.
+    - Conforms strictly to social norms to avoid punishment.
+    - Develops a cardinal trait of greed in adulthood.
+    CorrectOptionIndex: 0
+    LevelName: allport- personality
+  - QuestionText: A researcher studying "anxiety" as a dimension on which all people
+      can be measured is taking a(n) ______ approach, which Allport contrasted with
+      his own.
+    Options:
+    - Idiographic
+    - Nomothetic
+    - Propriate
+    - Phenomenological
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'According to Allport, "Propriate Striving" refers to the tendency
+      to:'
+    Options:
+    - Seek to reduce physiological drives.
+    - Strive for goals that are central to one's self-image and future.
+    - Regress to childhood patterns under stress.
+    - Behave in ways that are functionally autonomous.
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'If a person''s entire life is dominated by a quest for power,
+      such that it influences almost everything they do, Allport would call this
+      a:'
+    Options:
+    - Central Trait
+    - Secondary Disposition
+    - Cardinal Trait
+    - Personal Disposition
+    CorrectOptionIndex: 2
+    LevelName: allport- personality
+  - QuestionText: 'Allport''s emphasis on the "uniqueness" of each individual means
+      that he would be most interested in a:'
+    Options:
+    - Case study of a single person.
+    - Large-scale personality inventory normed on thousands.
+    - Study comparing average trait scores between cultures.
+    - Theory of universal personality structures.
+    CorrectOptionIndex: 0
+    LevelName: allport- personality
+  - QuestionText: 'The "Proprium" encompasses all of the following EXCEPT:'
+    Options:
+    - The bodily self
+    - The unconscious mind
+    - Self-identity
+    - Self-esteem
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'A teacher who believes that students are not just products of
+      their past reinforcements or childhood conflicts, but are active, purposeful
+      beings, aligns most closely with Allport''s concept of:'
+    Options:
+    - Functional Autonomy
+    - The Proprium
+    - Proactive Behavior
+    - Personal Dispositions
+    CorrectOptionIndex: 2
+    LevelName: allport- personality
+  - QuestionText: 'In contrast to Freud, Allport believed that a mature personality
+      is:'
+    Options:
+    - Governed by the ego.
+    - Driven by conscious motives and extended forward in time.
+    - Determined by the resolution of the Oedipus complex.
+    - A product of successfully navigating psychosexual stages.
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: Allport's view that personality is a dynamic, growing system is
+      most aligned with which broader psychological perspective?
+    Options:
+    - Behaviorism
+    - Structuralism
+    - Psychoanalysis
+    - Humanistic Psychology
+    CorrectOptionIndex: 3
+    LevelName: allport- personality
+  - QuestionText: 'Critically analyzing Allport''s theory, a major strength is that
+      it:'
+    Options:
+    - Provided a simple, easily testable model of personality structure.
+    - Brought the study of the healthy, mature personality into focus.
+    - Explained the universal origins of personality in childhood.
+    - Focused exclusively on observable behavior.
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: An educator designing an "Individualized Education Program" (IEP)
+      that focuses on a student's unique strengths, goals, and personal characteristics
+      is implicitly applying which aspect of Allport's theory?
+    Options:
+    - The nomothetic approach
+    - The concept of common traits
+    - The idiographic approach
+    - The theory of functional autonomy
+    CorrectOptionIndex: 2
+    LevelName: allport- personality
+  - QuestionText: 'Comparing Allport to Carl Rogers, a key similarity is their shared
+      emphasis on:'
+    Options:
+    - The importance of unconscious processes.
+    - The proactive, forward-moving nature of humans.
+    - The need for statistical analysis of traits.
+    - The determinism of past experiences.
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'A student initially takes a music class to fulfill a requirement
+      (extrinsic motivation) but later develops a deep, lifelong passion for music
+      for its own sake (intrinsic motivation). This shift is a classic example of:'
+    Options:
+    - Propriate Striving
+    - The development of a cardinal trait
+    - Functional Autonomy
+    - The emergence of the proprium
+    CorrectOptionIndex: 2
+    LevelName: allport- personality
+  - QuestionText: 'Allport''s criticism of psychoanalysis was primarily that it:'
+    Options:
+    - Was not scientific enough.
+    - Overemphasized the uniqueness of the individual.
+    - '"Drowned itself in the unconscious" and neglected the conscious, healthy adult.'
+    - Ignored the role of genetics in personality.
+    CorrectOptionIndex: 2
+    LevelName: allport- personality
+  - QuestionText: 'The concept of "personal dispositions" is most valuable to a teacher
+      because it encourages them to:'
+    Options:
+    - Categorize all students into specific personality types.
+    - See each student as a complex and unique configuration of traits.
+    - Focus only on a student's most problematic secondary traits.
+    - Assume that all students share the same core motives.
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'If a person''s behavior is highly consistent across different
+      situations, Allport would attribute this primarily to the influence of:'
+    Options:
+    - The situation itself
+    - Operant conditioning
+    - Unconscious conflicts
+    - Their personal dispositions
+    CorrectOptionIndex: 3
+    LevelName: allport- personality
+  - QuestionText: 'A school counselor using an idiographic approach would be most
+      likely to:'
+    Options:
+    - Administer a standardized personality test to all students.
+    - Create a detailed, personalized profile for a student using interviews and
+      personal history.
+    - Compare a student's anxiety score to national averages.
+    - Implement a token economy for the entire class.
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'The dimension of "Openness to Experience" in the Big Five model
+      can be seen as a modern, nomothetic version of Allport''s concept of:'
+    Options:
+    - A common trait
+    - A cardinal trait
+    - The proprium
+    - Functional autonomy
+    CorrectOptionIndex: 0
+    LevelName: allport- personality
+  - QuestionText: 'Allport believed that for a person to be considered "mature,"
+      they must possess a(n):'
+    Options:
+    - Unified philosophy of life
+    - Dominant cardinal trait
+    - Extensive set of secondary dispositions
+    - Ability to remain in a state of incongruence
+    CorrectOptionIndex: 0
+    LevelName: allport- personality
+  - QuestionText: 'A teacher who encourages students to set long-term personal and
+      academic goals is fostering what Allport called:'
+    Options:
+    - Functional Autonomy
+    - Propriate Striving
+    - The Proprium
+    - Reactive Behavior
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'A key difference between Allport''s "traits" and Skinner''s "responses"
+      is that traits are considered:'
+    Options:
+    - More observable and measurable.
+    - Internal causal structures that influence behavior.
+    - Solely determined by environmental reinforcement.
+    - Temporary states rather than enduring predispositions.
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'The development of the "Proprium" is a process that:'
+    Options:
+    - Is complete by age 5.
+    - Occurs primarily in adolescence.
+    - Continues throughout the lifespan.
+    - Is determined by genetic factors alone.
+    CorrectOptionIndex: 2
+    LevelName: allport- personality
+  - QuestionText: 'Allport''s theory is particularly relevant to education because
+      it:'
+    Options:
+    - Provides specific techniques for classroom management.
+    - Emphasizes the importance of understanding the whole, unique student.
+    - Focuses on diagnosing and treating learning pathologies.
+    - Assumes all students are motivated by the same rewards.
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'The concept that "a person''s present motives are independent
+      of their past" (Functional Autonomy) challenges the core assumption of:'
+    Options:
+    - Humanistic Psychology
+    - Cognitive Psychology
+    - Trait Theory
+    - Freudian Psychoanalysis
+    CorrectOptionIndex: 3
+    LevelName: allport- personality
+  - QuestionText: 'A student who is described as "conscientious" in the classroom,
+      on the sports field, and in their part-time job is demonstrating the pervasive
+      influence of a:'
+    Options:
+    - Secondary Trait
+    - Central Trait
+    - Cardinal Trait
+    - Common Trait
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'Allport''s emphasis on "conscious motivation" means he would be
+      most interested in studying:'
+    Options:
+    - Dream analysis
+    - Free association
+    - A person's stated life goals and values
+    - Projective tests like the Rorschach
+    CorrectOptionIndex: 2
+    LevelName: allport- personality
+  - QuestionText: 'In the context of the "nature-nurture" debate, Allport''s position
+      is best described as:'
+    Options:
+    - Strongly nativist (nature)
+    - Strongly environmentalist (nurture)
+    - An interactionist, acknowledging both
+    - Rejecting the relevance of the debate
+    CorrectOptionIndex: 2
+    LevelName: allport- personality
+  - QuestionText: 'A teacher who wants to apply Allport''s ideas should focus on:'
+    Options:
+    - Identifying the one cardinal trait for each student.
+    - Reinforcing only behaviors that are functionally autonomous.
+    - Helping students develop a coherent sense of self and purpose.
+    - Breaking down personality into its smallest habitual responses.
+    CorrectOptionIndex: 2
+    LevelName: allport- personality
+  - QuestionText: 'The lasting influence of Allport''s work is most evident in:'
+    Options:
+    - The continued dominance of psychoanalysis.
+    - The development of modern trait psychology and personality assessment.
+    - The focus on animal models in learning theory.
+    - The decline of the humanistic perspective.
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'According to Allport, the key criterion for identifying a "true"
+      trait is its:'
+    Options:
+    - Universality across all cultures.
+    - Ability to be measured in a laboratory.
+    - Ability to render many stimuli functionally equivalent and guide consistent
+      responses.
+    - Origin in a specific childhood event.
+    CorrectOptionIndex: 2
+    LevelName: allport- personality
+  - QuestionText: 'The concept of "religious sentiment" as a mature, unifying philosophy
+      of life in Allport''s theory illustrates the functioning of the:'
+    Options:
+    - Proprium
+    - Id
+    - Collective Unconscious
+    - Ego
+    CorrectOptionIndex: 0
+    LevelName: allport- personality
+  - QuestionText: 'A person who has developed a strong sense of self-identity and
+      self-esteem has successfully developed their:'
+    Options:
+    - Cardinal Traits
+    - Proprium
+    - Functional Autonomies
+    - Secondary Dispositions
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'Allport''s view that personality is "psychophysical" emphasizes
+      that:'
+    Options:
+    - Mind and body are a unified system.
+    - Personality is entirely mental.
+    - Physical traits determine psychological ones.
+    - Biology is irrelevant to personality.
+    CorrectOptionIndex: 0
+    LevelName: allport- personality
+  - QuestionText: "A school that values educating the \"whole child\"\u2014including
+      their character, values, and sense of self\u2014echoes Allport's focus on:"
+    Options:
+    - Nomothetic research
+    - The mature, integrated personality
+    - Reactive behavior
+    - The collective unconscious
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'The main reason Allport preferred the term "personal dispositions"
+      over "traits" was to emphasize:'
+    Options:
+    - Their genetic basis.
+    - Their measurement on a continuum.
+    - Their stability over time.
+    - Their uniqueness to the individual.
+    CorrectOptionIndex: 3
+    LevelName: allport- personality
+  - QuestionText: 'A student who overcomes a difficult childhood to become a motivated,
+      goal-oriented learner exemplifies Allport''s belief in:'
+    Options:
+    - The determinism of early experience.
+    - The proactive nature of human personality.
+    - The power of the pleasure principle.
+    - The supremacy of common traits.
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'In contrast to Cattell''s factor-analytic approach, Allport''s
+      methodology relied more heavily on:'
+    Options:
+    - The lexical hypothesis
+    - Large-scale surveys
+    - Laboratory experiments
+    - Clinical interviews and personal documents
+    CorrectOptionIndex: 3
+    LevelName: allport- personality
+  - QuestionText: 'The educational practice of "student-led conferences," where students
+      present their own work and goals, aligns with Allport''s emphasis on:'
+    Options:
+    - Functional autonomy
+    - The development of the proprium and self-awareness
+    - The influence of central traits
+    - Reactive behavior modification
+    CorrectOptionIndex: 1
+    LevelName: allport- personality
+  - QuestionText: 'Allport''s greatest contribution to personality psychology was
+      arguably:'
+    Options:
+    - Creating a definitive list of universal traits.
+    - Establishing personality as a legitimate and unique field of study focused
+      on the individual.
+    - Proving that personality is entirely determined by learning.
+    - Integrating psychoanalysis and behaviorism.
+    CorrectOptionIndex: 1
+    LevelName: allport- personality

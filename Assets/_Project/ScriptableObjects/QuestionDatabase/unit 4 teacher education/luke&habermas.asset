@@ -1,0 +1,446 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: luke&habermas
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: "According to J\xFCrgen Habermas, which fundamental human interest
+      is associated with technical knowledge and empirical-analytical sciences?"
+    Options:
+    - Practical Interest
+    - Emancipatory Interest
+    - Technical Interest
+    - Interpretive Interest
+    CorrectOptionIndex: 2
+    LevelName: luke&habermas
+  - QuestionText: 'Allan Luke''s work is most centrally concerned with the relationship
+      between literacy education and:'
+    Options:
+    - Cognitive psychology
+    - Power and social inequality
+    - Phonetic awareness
+    - Standardized testing
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'Habermas''s "practical interest" is oriented toward:'
+    Options:
+    - Prediction and control of the environment
+    - Mutual understanding and hermeneutic interpretation
+    - Liberation from oppressive social structures
+    - Technical efficiency in teaching
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'Critical literacy, as advocated by Allan Luke, primarily aims
+      to:'
+    Options:
+    - Improve students' reading speed and comprehension
+    - Teach students to decode texts without questioning them
+    - Enable students to analyze how texts construct and maintain power relations
+    - Focus exclusively on classical literature
+    CorrectOptionIndex: 2
+    LevelName: luke&habermas
+  - QuestionText: 'Habermas''s "emancipatory interest" seeks knowledge that leads
+      to:'
+    Options:
+    - Greater technical control over nature
+    - Deeper understanding of historical traditions
+    - More efficient classroom management
+    - Freedom from domination and self-determination
+    CorrectOptionIndex: 3
+    LevelName: luke&habermas
+  - QuestionText: 'According to Luke, a "technocratic" model of teacher education
+      focuses primarily on developing:'
+    Options:
+    - Critical consciousness
+    - Political activism
+    - Technical skills and competencies
+    - Cultural sensitivity
+    CorrectOptionIndex: 2
+    LevelName: luke&habermas
+  - QuestionText: 'Habermas''s theory of "knowledge-constitutive interests" suggests
+      that all knowledge is:'
+    Options:
+    - Value-neutral and objective
+    - Socially constructed and interest-bound
+    - Based solely on sensory experience
+    - Independent of human purposes
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'Luke argues that the "Four Resources Model" of literacy includes
+      all EXCEPT:'
+    Options:
+    - Code-breaker
+    - Text-participant
+    - Text-user
+    - Text-memorizer
+    CorrectOptionIndex: 3
+    LevelName: luke&habermas
+  - QuestionText: From a Habermasian perspective, a teacher education program focused
+      solely on test scores and measurable outcomes is serving which knowledge interest?
+    Options:
+    - Emancipatory
+    - Practical
+    - Technical
+    - Interpretive
+    CorrectOptionIndex: 2
+    LevelName: luke&habermas
+  - QuestionText: 'Allan Luke''s concept of "digital literacies" emphasizes:'
+    Options:
+    - Learning to use computers without critical analysis
+    - The technical skills of coding and programming
+    - Critical engagement with how digital texts shape identity and society
+    - Avoiding traditional print literacy
+    CorrectOptionIndex: 2
+    LevelName: luke&habermas
+  - QuestionText: 'A teacher education program that emphasizes Habermas''s "practical
+      interest" would likely focus on developing teachers'' capacity for:'
+    Options:
+    - Standardized test preparation
+    - Dialogic communication and interpretive understanding
+    - Behavioral management techniques
+    - Political organizing
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'Luke''s critique of traditional literacy education argues that
+      it often:'
+    Options:
+    - Overemphasizes critical thinking
+    - Neglects phonics instruction
+    - Focuses too much on social justice
+    - Fails to address issues of power and ideology in texts
+    CorrectOptionIndex: 3
+    LevelName: luke&habermas
+  - QuestionText: 'Habermas''s "ideal speech situation" requires the absence of:'
+    Options:
+    - Disagreement
+    - Systematic distortion of communication
+    - Technical terminology
+    - Cultural differences
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'According to Luke, effective literacy teachers need knowledge
+      of:'
+    Options:
+    - Only phonics and grammar
+    - The sociocultural and political contexts of literacy practices
+    - Literary classics exclusively
+    - Computer programming
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: From a Habermasian perspective, action research in teacher education
+      primarily serves which knowledge interest?
+    Options:
+    - Technical
+    - Practical
+    - Emancipatory
+    - Regulatory
+    CorrectOptionIndex: 2
+    LevelName: luke&habermas
+  - QuestionText: 'Luke''s work in critical policy analysis examines how educational
+      policies often:'
+    Options:
+    - Promote social equality effectively
+    - Serve dominant economic and political interests
+    - Are developed through democratic consensus
+    - Focus exclusively on academic achievement
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'Habermas''s concept of the "lifeworld" being "colonized" by the
+      "system" refers to:'
+    Options:
+    - The invasion of personal life by technological systems
+    - The domination of communicative action by instrumental rationality
+    - The spread of literacy throughout society
+    - The biological colonization of ecosystems
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'A teacher using Luke''s critical literacy approach would encourage
+      students to:'
+    Options:
+    - Memorize textbook content accurately
+    - Avoid controversial topics in the classroom
+    - Focus solely on literal comprehension
+    - Question whose interests are served by particular texts
+    CorrectOptionIndex: 3
+    LevelName: luke&habermas
+  - QuestionText: 'Habermas''s theory suggests that teacher knowledge should include
+      understanding of how to foster:'
+    Options:
+    - Unquestioning acceptance of authority
+    - Critical self-reflection and democratic discourse
+    - Technical efficiency in learning
+    - Traditional cultural values
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'Luke argues that curriculum should be understood as:'
+    Options:
+    - A neutral document for organizing content
+    - Primarily a teacher's guide
+    - A fixed sequence of learning objectives
+    - A culturally and politically contested space
+    CorrectOptionIndex: 3
+    LevelName: luke&habermas
+  - QuestionText: 'A teacher education program informed by Habermas''s emancipatory
+      interest would prioritize:'
+    Options:
+    - Standardized teaching methods
+    - Developing teachers' capacity for critical reflection on social structures
+    - Technical classroom management skills
+    - Content knowledge exclusively
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'Luke''s "Four Resources Model" positions literacy as:'
+    Options:
+    - A simple decoding process
+    - A sociocultural practice involving multiple roles
+    - Primarily about literary appreciation
+    - A technical skill separate from culture
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: From a Habermasian perspective, the current emphasis on "evidence-based
+      practice" in education primarily reflects which knowledge interest?
+    Options:
+    - Emancipatory
+    - Practical
+    - Technical
+    - Aesthetic
+    CorrectOptionIndex: 2
+    LevelName: luke&habermas
+  - QuestionText: 'Luke''s work on globalization and education emphasizes the need
+      for teachers to understand:'
+    Options:
+    - Only local educational contexts
+    - How global economic forces shape local educational practices
+    - Standardized international curricula
+    - The elimination of cultural differences
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'Habermas''s theory of communicative action emphasizes the importance
+      of:'
+    Options:
+    - Strategic action for success
+    - Individual competitive achievement
+    - Technical control of educational outcomes
+    - Reaching understanding through dialogue
+    CorrectOptionIndex: 3
+    LevelName: luke&habermas
+  - QuestionText: 'A critical literacy classroom, following Luke''s approach, would
+      likely engage students in:'
+    Options:
+    - Rote memorization of texts
+    - Analyzing how texts position readers and construct reality
+    - Avoiding all political content
+    - Focusing only on personal responses to literature
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'Habermas''s knowledge-constitutive interests theory suggests that
+      teacher education has been dominated by:'
+    Options:
+    - Emancipatory interests
+    - Practical and technical interests equally
+    - Technical interests at the expense of others
+    - Aesthetic interests
+    CorrectOptionIndex: 2
+    LevelName: luke&habermas
+  - QuestionText: 'Luke argues that multicultural education often fails when it:'
+    Options:
+    - Includes too many perspectives
+    - Becomes a superficial celebration of diversity without addressing power relations
+    - Focuses on structural inequality
+    - Emphasizes critical literacy
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: From a Habermasian perspective, a curriculum focused on developing
+      students' moral reasoning would serve which knowledge interest?
+    Options:
+    - Technical
+    - Instrumental
+    - Emancipatory
+    - Practical
+    CorrectOptionIndex: 3
+    LevelName: luke&habermas
+  - QuestionText: 'Luke''s concept of "literacy as social practice" suggests that
+      reading and writing are always:'
+    Options:
+    - Individual psychological processes
+    - Embedded in cultural and power relations
+    - Separate from social contexts
+    - Universal skills with fixed meanings
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'A teacher education program truly integrating Habermas''s three
+      knowledge interests would balance focus on:'
+    Options:
+    - Skills, understanding, and liberation
+    - Content, pedagogy, and assessment
+    - Theory, practice, and research
+    - Individual, community, and global perspectives
+    CorrectOptionIndex: 0
+    LevelName: luke&habermas
+  - QuestionText: 'Luke''s critique of educational reform movements suggests they
+      often:'
+    Options:
+    - Adequately address issues of power
+    - Reinforce existing inequalities through new means
+    - Successfully achieve educational equity
+    - Focus too much on critical theory
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'Habermas''s work provides a foundation for understanding teacher
+      research as:'
+    Options:
+    - Only quantitative measurement
+    - A means for technical control of learning
+    - A process of critical self-reflection and social transformation
+    - Unrelated to classroom practice
+    CorrectOptionIndex: 2
+    LevelName: luke&habermas
+  - QuestionText: 'According to Luke, effective teacher development requires:'
+    Options:
+    - Isolated technical training
+    - Engagement with the political dimensions of teaching
+    - Avoidance of controversial topics
+    - Focus only on classroom management
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'Habermas''s theory suggests that the current emphasis on standardized
+      testing in teacher education reflects:'
+    Options:
+    - An emancipatory interest
+    - Balanced attention to all knowledge interests
+    - A practical interest in understanding
+    - The colonization of education by system imperatives
+    CorrectOptionIndex: 3
+    LevelName: luke&habermas
+  - QuestionText: 'Luke''s work on indigenous education emphasizes the importance
+      of:'
+    Options:
+    - Assimilating indigenous students into mainstream culture
+    - Recognizing epistemological diversity and challenging colonial knowledge systems
+    - Teaching only Western knowledge systems
+    - Avoiding cultural content in curriculum
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'A Habermasian approach to teacher professional development would
+      prioritize:'
+    Options:
+    - One-way transmission of expert knowledge
+    - Standardized performance metrics
+    - Individual competitive improvement
+    - Dialogic communities of practice
+    CorrectOptionIndex: 3
+    LevelName: luke&habermas
+  - QuestionText: 'Luke argues that the knowledge base for teaching must include
+      understanding of how:'
+    Options:
+    - To implement curriculum without questioning it
+    - Knowledge is produced, distributed, and legitimated in society
+    - To avoid political issues in the classroom
+    - To focus exclusively on academic content
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'From a Habermasian perspective, the most valid form of educational
+      knowledge is that which:'
+    Options:
+    - Has the strongest empirical evidence
+    - Produces the highest test scores
+    - Is determined by educational authorities
+    - Emerges from free and equal dialogue among stakeholders
+    CorrectOptionIndex: 3
+    LevelName: luke&habermas
+  - QuestionText: 'Luke''s concept of "redesign" in multiliteracies refers to:'
+    Options:
+    - Making minor adjustments to existing texts
+    - The transformative potential of recreating texts for new purposes
+    - The technical aspects of text design
+    - Standardizing text formats
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'A teacher education curriculum informed by both Luke and Habermas
+      would likely emphasize:'
+    Options:
+    - Technical skills divorced from social context
+    - Isolation of education from social concerns
+    - Unquestioning implementation of official curriculum
+    - Critical engagement with knowledge and power relations
+    CorrectOptionIndex: 3
+    LevelName: luke&habermas
+  - QuestionText: 'Habermas''s theory helps explain why teacher education often emphasizes
+      technical knowledge because:'
+    Options:
+    - It is the most important knowledge form
+    - It serves system needs for measurable outcomes
+    - Teachers prefer technical knowledge
+    - It is the easiest to teach
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'Luke''s work suggests that literacy education reform requires:'
+    Options:
+    - Better phonics programs
+    - Eliminating critical perspectives
+    - More standardized testing
+    - Addressing broader social and political structures
+    CorrectOptionIndex: 3
+    LevelName: luke&habermas
+  - QuestionText: 'From a Habermasian perspective, the knowledge base for teaching
+      should enable teachers to:'
+    Options:
+    - Efficiently implement prescribed methods
+    - Facilitate democratic classroom discourse
+    - Control student behavior effectively
+    - Maximize test scores reliably
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'Luke''s analysis of textbook publishing shows how:'
+    Options:
+    - Texts are neutral carriers of information
+    - Commercial interests shape educational knowledge
+    - Teachers have complete control over text selection
+    - Texts reflect student interests accurately
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'A teacher applying Habermas''s principles would prioritize classroom
+      activities that:'
+    Options:
+    - Maximize individual competition
+    - Develop technical skills efficiently
+    - Foster mutual understanding and critical reflection
+    - Prepare students for standardized tests
+    CorrectOptionIndex: 2
+    LevelName: luke&habermas
+  - QuestionText: 'Luke argues that the current crisis in education is fundamentally
+      a crisis of:'
+    Options:
+    - Teacher quality
+    - Funding
+    - Educational legitimacy and public trust
+    - Technological integration
+    CorrectOptionIndex: 2
+    LevelName: luke&habermas
+  - QuestionText: 'Habermas''s theory provides a framework for understanding how
+      teacher knowledge can serve:'
+    Options:
+    - Only individual advancement
+    - Both system maintenance and social transformation
+    - Only technical control
+    - Political indoctrination
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas
+  - QuestionText: 'Luke''s work on Asian education systems challenges Western assumptions
+      by showing:'
+    Options:
+    - The superiority of Asian educational models
+    - The complexity and specificity of different educational traditions
+    - The need to adopt Asian methods universally
+    - The irrelevance of cultural context to education
+    CorrectOptionIndex: 1
+    LevelName: luke&habermas

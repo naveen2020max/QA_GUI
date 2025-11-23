@@ -1,0 +1,469 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: sources of selecting RP
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the most common initial source of a research problem?
+    Options:
+    - Personal experience
+    - Theory
+    - Past research
+    - University curriculum
+    CorrectOptionIndex: 0
+    LevelName: sources of selecting RP
+  - QuestionText: Which source involves identifying contradictions or inconsistencies
+      in existing literature?
+    Options:
+    - Theory
+    - Past Research
+    - Consultation with experts
+    - A personal hunch
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: The statement, "An analysis of the impact of flipped classroom
+      models on critical thinking in high school physics," most likely originated
+      from which source?
+    Options:
+    - Theory
+    - Replication
+    - Past Research
+    - Social profiling
+    CorrectOptionIndex: 2
+    LevelName: sources of selecting RP
+  - QuestionText: Which source provides a conceptual framework for formulating a
+      research problem?
+    Options:
+    - Theory
+    - Personal experience
+    - Intuition
+    - Media reports
+    CorrectOptionIndex: 0
+    LevelName: sources of selecting RP
+  - QuestionText: Seeking advice from a supervisor or a subject expert to refine
+      a research idea is an example of which source?
+    Options:
+    - Past Research
+    - Consultation
+    - Theory
+    - Personal experience
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: A researcher gets an idea from a documentary on climate change.
+      This is an example of which source?
+    Options:
+    - Mass media
+    - Theory
+    - Past Research
+    - Intuition
+    CorrectOptionIndex: 0
+    LevelName: sources of selecting RP
+  - QuestionText: Which source is considered internal to the researcher?
+    Options:
+    - Professional literature
+    - Personal experience
+    - Seminars and conferences
+    - Government reports
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: Which source is considered external to the researcher?
+    Options:
+    - Curiosity
+    - Personal experience
+    - Intuition
+    - Past Research
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: 'The source ''Intuition'' refers to:'
+    Options:
+    - A systematic review of literature.
+    - A deep instinct or gut feeling about a phenomenon.
+    - A formal consultation process.
+    - A statistical analysis.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: Which of these is NOT typically a formal source for selecting a
+      research problem?
+    Options:
+    - Replication of a previous study
+    - Published theses
+    - Professional conferences
+    - Daydreaming
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: Identifying a problem by repeating a previous study in a different
+      context utilizes which source?
+    Options:
+    - Theory
+    - Past Research (Replication)
+    - Personal experience
+    - Consultation
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: Which source often helps in identifying 'practical' problems that
+      need immediate solutions?
+    Options:
+    - Abstract philosophy
+    - Theory
+    - Intuition
+    - Field exposure and professional experience
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: 'A researcher reads a published paper and thinks of a way to extend
+      the work. This idea comes from:'
+    Options:
+    - Theory
+    - Past Research
+    - Consultation
+    - Mass media
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: Which source is most likely to generate a problem related to social
+      utility?
+    Options:
+    - Personal hobbies
+    - Laboratory experiments
+    - Ancient texts
+    - Contemporary social issues
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: 'The FINAL selection of a research problem should be based on:'
+    Options:
+    - Whim
+    - A systematic evaluation of its feasibility and significance
+    - The first idea that comes to mind
+    - Popular opinion
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: How does 'Past Research' primarily function as a source?
+    Options:
+    - It provides ready-made answers.
+    - It replaces the need for a literature review.
+    - It identifies gaps, suggests new questions, and avoids duplication.
+    - It guarantees funding.
+    CorrectOptionIndex: 2
+    LevelName: sources of selecting RP
+  - QuestionText: Why is 'Personal Experience' a powerful source for a practitioner
+      (like a teacher)?
+    Options:
+    - It is the easiest source to document.
+    - It ensures the problem is rooted in a real, contextual need.
+    - It requires no literature review.
+    - It always leads to theoretical breakthroughs.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: 'If a researcher uses Vygotsky''s theory of social constructivism
+      to investigate peer learning, the research problem is sourced from:'
+    Options:
+    - Replication
+    - Consultation
+    - Theory
+    - Intuition
+    CorrectOptionIndex: 2
+    LevelName: sources of selecting RP
+  - QuestionText: 'The statement "A problem is half-solved if it is properly stated"
+      emphasizes the importance of:'
+    Options:
+    - Selecting a source
+    - Defining and refining the problem
+    - Choosing a random topic
+    - Consulting many people
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: How does consultation with experts help in problem selection?
+    Options:
+    - It provides a finalized research problem.
+    - It eliminates the need for other sources.
+    - It is a mere formality.
+    - It helps in assessing the novelty, feasibility, and significance of a tentative
+      problem.
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: Why might a problem sourced solely from 'Mass Media' be risky?
+    Options:
+    - It is always too easy.
+    - It may be sensationalized, lack depth, or not be suitable for academic research.
+    - It is never relevant.
+    - It is always too complex.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: "What is the key difference between a source (like experience)
+      and a\_well-defined\_research problem?"
+    Options:
+    - There is no difference.
+    - A problem is always theoretical.
+    - A source is always external.
+    - A source provides an idea, while a problem is a clear, specific, and researchable
+      question derived from that idea.
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: 'A researcher in physical education notices students struggle with
+      a specific skill. Turning this observation into a research problem requires:'
+    Options:
+    - Immediately starting the experiment.
+    - Systematic refinement into a focused question about factors affecting the skill.
+    - Ignoring it as a common issue.
+    - Asking the students for the answer.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: How can 'Theory' lead to a research problem?
+    Options:
+    - By being accepted as absolute truth.
+    - By replacing the need for data.
+    - By providing all the answers.
+    - By suggesting relationships between variables that can be empirically tested.
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: 'Replication as a source is important because it:'
+    Options:
+    - Is the easiest type of research.
+    - Helps verify the validity and generalizability of previous findings.
+    - Guarantees publication.
+    - Requires no ethical approval.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: Why is it advised to consider multiple sources for problem selection?
+    Options:
+    - To confuse the researcher.
+    - To meet word count requirements.
+    - To develop a well-rounded, significant, and feasible problem that is rooted
+      in both personal interest and scholarly context.
+    - Because one source is never enough.
+    CorrectOptionIndex: 2
+    LevelName: sources of selecting RP
+  - QuestionText: 'A problem statement derived from ''Past Research'' should ideally:'
+    Options:
+    - Copy the abstract of another paper.
+    - Clearly state the gap, conflict, or unanswered question from the literature
+      that the new study will address.
+    - Be as broad as possible.
+    - Avoid mentioning other studies.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: 'The source ''Contemporary Social Issues'' is most relevant for
+      research aimed at:'
+    Options:
+    - "Purely theoretical\u8D21\u732E"
+    - Personal gratification.
+    - Replicating ancient studies.
+    - Immediate application and policy formulation.
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: 'If two sources (e.g., Personal Experience and Theory) suggest
+      conflicting problems, a researcher should:'
+    Options:
+    - Choose the easiest one.
+    - Prioritize the problem that is more researchable, significant, and aligned
+      with resources and expertise.
+    - Abandon both ideas.
+    - Flip a coin.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: 'The process of moving from a source to a selected problem is primarily:'
+    Options:
+    - Linear and straightforward.
+    - A random process.
+    - Iterative, involving continuous refinement and evaluation.
+    - The responsibility of the funding agency.
+    CorrectOptionIndex: 2
+    LevelName: sources of selecting RP
+  - QuestionText: 'A physics teacher observes that girls participate less in lab
+      activities. She consults literature finding conflicting theories on gender
+      and science engagement. Her final research problem integrates both her experience
+      and the literature. This demonstrates:'
+    Options:
+    - The superiority of personal experience over theory.
+    - The powerful synergy of using multiple sources to create a nuanced and justified
+      research problem.
+    - That consultation is unnecessary.
+    - That replication is the only valid source.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: "Assertion (A):\_A research problem sourced solely from intuition
+      is invalid.\_Reason (R):\_Intuition is subjective and cannot be systematically
+      evaluated."
+    Options:
+    - Both A and R are true, and R is the correct explanation of A.
+    - Both A and R are true, but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: A researcher wants to study "The effect of mindfulness on anxiety
+      in competitive exam aspirants." Rank the sources that likely contributed to
+      this problem from MOST to LEAST influential.
+    Options:
+    - Personal Hobby, Theory, Social Issue
+    - Theory, Past Research, Contemporary Social Issue
+    - Contemporary Social Issue, Personal Hobby, Intuition
+    - Past Research, Consultation, Replication
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: A research problem is highly original but requires equipment beyond
+      the researcher's reach. The flaw in problem selection most likely occurred
+      in evaluating which criterion?
+    Options:
+    - Novelty
+    - Objectivity
+    - Significance
+    - Feasibility
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: A study finds a popular teaching method ineffective. A critic argues,
+      "The researcher, having had a bad personal experience with the method, was
+      biased from the start." This critique attacks the problem's link to which source?
+    Options:
+    - Theory
+    - Past Research
+    - Personal Experience
+    - Consultation
+    CorrectOptionIndex: 2
+    LevelName: sources of selecting RP
+  - QuestionText: Contrast the likely nature of a problem sourced primarily from
+      'Theory' versus one from 'Contemporary Social Issues'.
+    Options:
+    - 'Theory: Applied and immediate. Social Issues: Abstract and philosophical.'
+    - 'Theory: Abstract and general. Social Issues: Applied and context-specific.'
+    - 'Theory: Always qualitative. Social Issues: Always quantitative.'
+    - There is no difference.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: A researcher identifies a gap in literature but the topic holds
+      no personal interest for them. What is the major risk in selecting this problem?
+    Options:
+    - It will definitely be feasible.
+    - It will be too easy to solve.
+    - It will be too significant.
+    - Lack of motivation may lead to poor commitment and quality of work.
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: 'After identifying a potential problem from past research, the
+      MOST critical next step is to:'
+    Options:
+    - Immediately collect data.
+    - Conduct a thorough literature review to fully understand the gap and contextualize
+      the problem.
+    - Consult the first available expert.
+    - Write the final report.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: Which proposed research problem, derived from 'Past Research',
+      demonstrates the HIGHEST level of critical thinking?
+    Options:
+    - '"To repeat X''s study exactly."'
+    - '"To describe the history of inquiry learning."'
+    - '"To prove that X''s study was wrong."'
+    - '"While X and Y found conflicting results on inquiry-based learning, their
+      studies lacked control for prior knowledge. This study will investigate the
+      role of prior knowledge in the effectiveness of inquiry learning."'
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: 'A government report highlights poor STEM learning outcomes. A
+      researcher uses this to study "Scaffolding techniques for teaching quantum
+      concepts." This shows how a broad source is:'
+    Options:
+    - Used directly without change.
+    - Refined and narrowed into a specific, researchable problem within a domain.
+    - Irrelevant for academic research.
+    - Only useful for policy makers.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: 'Evaluating a problem''s "significance" involves assessing its
+      potential contribution to:'
+    Options:
+    - Theory, practice, and/or policy.
+    - The researcher's grade.
+    - The length of the thesis.
+    - The cost of the research.
+    CorrectOptionIndex: 0
+    LevelName: sources of selecting RP
+  - QuestionText: 'A problem is considered ''researchable'' if it:'
+    Options:
+    - Is a philosophical question about values.
+    - Can be investigated through the collection and analysis of data.
+    - Has a yes/no answer.
+    - Is approved by everyone.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: The statement "The problem should be phrased in a way that it implies
+      possibilities for empirical testing" relates to which characteristic?
+    Options:
+    - Clarity
+    - Precision
+    - Researchability
+    - Objectivity
+    CorrectOptionIndex: 2
+    LevelName: sources of selecting RP
+  - QuestionText: 'A researcher has a strong intuition about a relationship between
+      two variables. To transform this into a credible research problem, they must:'
+    Options:
+    - Treat the intuition as fact.
+    - Ground it in theory or past research to build a rational justification.
+    - Immediately publish their idea.
+    - Ignore all other sources.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: Which scenario best illustrates the ethical dimension of problem
+      selection?
+    Options:
+    - Choosing the cheapest problem.
+    - Replicating a famous study.
+    - Selecting the problem that is most popular.
+    - A researcher avoids a problem that could cause psychological harm to vulnerable
+      participants, even if it is scientifically significant.
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: 'The acronym "FINER" (Feasible, Interesting, Novel, Ethical, Relevant)
+      is a framework for:'
+    Options:
+    - Data analysis.
+    - Evaluating and selecting a research problem.
+    - Writing a literature review.
+    - Choosing statistical tests.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: 'A problem that asks "What is the essence of a good science education?"
+      is likely poor because it lacks:'
+    Options:
+    - Interest
+    - An expert to consult
+    - Novelty
+    - Clarity and researchability (it is too philosophical and vague).
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: 'The process of problem selection is most accurately described
+      as:'
+    Options:
+    - A simple choice from a list.
+    - A strategic decision that lays the foundation for the entire research project.
+    - A task for the research supervisor alone.
+    - The easiest part of research.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP
+  - QuestionText: 'A researcher critiques their own selected problem by asking, "Who
+      will benefit from this knowledge?" This question evaluates the problem''s:'
+    Options:
+    - Feasibility
+    - Objectivity
+    - Novelty
+    - Significance and Relevance
+    CorrectOptionIndex: 3
+    LevelName: sources of selecting RP
+  - QuestionText: 'The most effective strategy to generate a strong research problem
+      is to:'
+    Options:
+    - Isolate oneself from all external influences.
+    - Engage in a continuous cycle of reading, observing, discussing, and reflecting.
+    - Wait for a dream to provide the answer.
+    - Only read textbooks.
+    CorrectOptionIndex: 1
+    LevelName: sources of selecting RP

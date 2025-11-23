@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/Scripts/UI%20Toolkit/USS/CommonSS.uss?fileID=7433441132597879392&amp;guid=f553cfa90b29fb3459006233b09e079c&amp;type=3#CommonSS" />
+    <ui:VisualElement name="LevelSelectRoot" class="container">
+        <ui:Label text="Select Level" class="title" />
+        <ui:ScrollView name="LevelList" class="scroll-container" />
+        <ui:Button name="BackButton" text="Back" class="common-button" />
+    </ui:VisualElement>
+</ui:UXML>

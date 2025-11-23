@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: inferential analysis
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The primary purpose of inferential statistics is to:'
+    Options:
+    - Describe the characteristics of a sample
+    - Make predictions or generalizations about a population from a sample
+    - Summarize data using mean and standard deviation
+    - Organize and present data in tables and graphs
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'A numerical characteristic of a population is called a:'
+    Options:
+    - Statistic
+    - Parameter
+    - Sample
+    - Estimate
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'The distribution of all possible values of a statistic from all
+      possible samples of the same size is called a:'
+    Options:
+    - Population Distribution
+    - Sample Distribution
+    - Sampling Distribution
+    - Normal Distribution
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: 'The standard deviation of a sampling distribution is known as
+      the:'
+    Options:
+    - Standard Error
+    - Standard Deviation
+    - Variance
+    - Mean Deviation
+    CorrectOptionIndex: 0
+    LevelName: inferential analysis
+  - QuestionText: 'The Central Limit Theorem states that the sampling distribution
+      of the mean approaches a normal distribution as the sample size increases,
+      regardless of the population''s shape, provided:'
+    Options:
+    - The population is normal
+    - The sample size is small
+    - The sample size is sufficiently large
+    - The population mean is known
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: 'A range of values within which a population parameter is estimated
+      to lie is called a:'
+    Options:
+    - Point Estimate
+    - Confidence Interval
+    - Test Statistic
+    - Significance Level
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'The probability of rejecting a true null hypothesis is known as:'
+    Options:
+    - "Type I Error (\u03B1)"
+    - "Type II Error (\u03B2)"
+    - Power
+    - P-value
+    CorrectOptionIndex: 0
+    LevelName: inferential analysis
+  - QuestionText: 'The probability of failing to reject a false null hypothesis is
+      known as:'
+    Options:
+    - "Type I Error (\u03B1)"
+    - "Type II Error (\u03B2)"
+    - Power
+    - P-value
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'The power of a statistical test is defined as:'
+    Options:
+    - The probability of a Type I error
+    - The probability of a Type II error
+    - "1 - \u03B1"
+    - "1 - \u03B2"
+    CorrectOptionIndex: 3
+    LevelName: inferential analysis
+  - QuestionText: 'A p-value is the probability of obtaining a test statistic:'
+    Options:
+    - Exactly equal to the observed value
+    - "As extreme as, or more extreme than, the observed value, assuming H\u2080
+      is true"
+    - "As extreme as, or more extreme than, the observed value, assuming H\u2080
+      is false"
+    - That proves the null hypothesis
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: "If a result is statistically significant at the \u03B1 = 0.05
+      level, it means:"
+    Options:
+    - The null hypothesis is false
+    - The alternative hypothesis is true
+    - The probability of the null hypothesis being true is less than 5%
+    - The observed result would be unlikely (p < 0.05) if the null hypothesis were
+      true
+    CorrectOptionIndex: 3
+    LevelName: inferential analysis
+  - QuestionText: 'A t-test is typically used instead of a z-test when:'
+    Options:
+    - The sample size is very large
+    - The population standard deviation is known
+    - The population standard deviation is unknown
+    - The data is categorical
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: 'The appropriate statistical test to compare the means of two independent
+      groups is the:'
+    Options:
+    - Paired t-test
+    - Independent samples t-test
+    - One-sample t-test
+    - ANOVA
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'Analysis of Variance (ANOVA) is used to test:'
+    Options:
+    - Differences between two population means
+    - Differences between two population variances
+    - Differences among three or more population means
+    - The relationship between two variables
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: 'The non-parametric alternative to the independent samples t-test
+      is the:'
+    Options:
+    - Wilcoxon Signed-Rank Test
+    - Kruskal-Wallis Test
+    - Mann-Whitney U Test
+    - Chi-square test
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: If a 95% confidence interval for the difference between two means
+      includes zero, what does this imply?
+    Options:
+    - There is a statistically significant difference between the means
+    - There is no statistically significant difference between the means
+    - The null hypothesis has been proven
+    - The effect size is large
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'The degree to which a sample statistic represents its corresponding
+      population parameter is referred to as:'
+    Options:
+    - Reliability
+    - Validity
+    - Sampling Error
+    - Generalizability
+    CorrectOptionIndex: 3
+    LevelName: inferential analysis
+  - QuestionText: 'The main reason for using a random sample is to:'
+    Options:
+    - Make the study easier to conduct
+    - Minimize sampling bias and ensure the sample is representative
+    - Guarantee that the sample is exactly like the population
+    - Reduce the need for statistical tests
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: "In hypothesis testing, the null hypothesis (H\u2080) typically
+      represents:"
+    Options:
+    - The research hypothesis
+    - The hypothesis of no effect or no difference
+    - The hypothesis the researcher wants to prove
+    - A statement of inequality
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'The F-ratio in a one-way ANOVA is a ratio of:'
+    Options:
+    - Between-groups variance to within-groups variance
+    - Within-groups variance to between-groups variance
+    - Total variance to error variance
+    - Sample variance to population variance
+    CorrectOptionIndex: 0
+    LevelName: inferential analysis
+  - QuestionText: A researcher conducts a one-sample t-test and obtains a p-value
+      of 0.02. This means that if the null hypothesis is true, the probability of
+      obtaining a test statistic as extreme as the one observed is 2%. A student
+      concludes, "There is a 2% probability that the null hypothesis is true." Why
+      is this conclusion incorrect?
+    Options:
+    - "The p-value is calculated assuming H\u2080 is true; it is not the probability
+      that H\u2080 is true."
+    - The p-value should be greater than 0.05 to be significant.
+    - The t-test was the wrong test to use.
+    - The sample size was too small.
+    CorrectOptionIndex: 0
+    LevelName: inferential analysis
+  - QuestionText: A study with low statistical power is more susceptible to which
+      type of error?
+    Options:
+    - Type I Error
+    - Type II Error
+    - Sampling Error
+    - Measurement Error
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: A 99% confidence interval will be ______ a 95% confidence interval.
+    Options:
+    - Narrower than
+    - Wider than
+    - The same width as
+    - Unrelated to
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'If you perform multiple statistical tests on the same data set
+      without adjusting the significance level, you increase the overall risk of:'
+    Options:
+    - Type II Error
+    - Type I Error
+    - Reducing power
+    - All of the above
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'The Pearson correlation coefficient (r) measures:'
+    Options:
+    - A cause-and-effect relationship
+    - The strength and direction of a linear relationship
+    - The difference between two means
+    - The proportion of variance explained
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'A researcher finds a correlation of r = 0.15 between two variables
+      with a p-value of 0.001. The best interpretation is:'
+    Options:
+    - The relationship is strong and significant.
+    - The relationship is weak but statistically significant.
+    - The relationship is strong but not significant.
+    - The relationship is weak and not significant.
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: "The coefficient of determination (R\xB2) in regression analysis
+      represents:"
+    Options:
+    - The slope of the regression line
+    - The correlation between X and Y
+    - The proportion of variance in Y explained by X
+    - The standard error of the estimate
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: 'In a simple linear regression, a t-test is used to test if the
+      slope is significantly different from zero. If the p-value for this test is
+      high (p > 0.05), it suggests:'
+    Options:
+    - X is a significant predictor of Y
+    - The regression model is useful
+    - There is no significant linear relationship between X and Y
+    - "The R\xB2 value is high"
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: 'The non-parametric alternative to the one-way ANOVA is the:'
+    Options:
+    - Mann-Whitney U test
+    - Wilcoxon Signed-Rank test
+    - Kruskal-Wallis test
+    - Friedman test
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: 'A Chi-square test of independence is used to determine if there
+      is a significant association between:'
+    Options:
+    - Two means
+    - Two medians
+    - Two categorical variables
+    - Two continuous variables
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: "A researcher conducts a study with \u03B1=0.05 and power=0.80.
+      What is the probability of a Type II error?"
+    Options:
+    - 0.05
+    - 0.2
+    - 0.8
+    - 0.95
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'An effect size measure (like Cohen''s d) is considered crucial
+      to report along with a p-value because it:'
+    Options:
+    - Determines statistical significance
+    - Provides a measure of the magnitude of the effect, which is independent of
+      sample size
+    - Is required to calculate the p-value
+    - Proves the null hypothesis is false
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: A 95% CI for a population mean is calculated from a sample as (45,
+      55). Which of the following statements is correct?
+    Options:
+    - There is a 95% probability the population mean is between 45 and 55.
+    - 95% of the sample data falls between 45 and 55.
+    - 95% of such intervals, constructed from repeated sampling, would contain the
+      population mean.
+    - The population mean is definitely between 45 and 55.
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: 'In a paired t-test, the null hypothesis is that the mean difference
+      between the paired observations is:'
+    Options:
+    - Greater than zero
+    - Less than zero
+    - Equal to zero
+    - Not equal to zero
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: 'If the assumptions of a parametric test (like normality) are violated,
+      the consequence is that:'
+    Options:
+    - The p-value and confidence intervals may be inaccurate.
+    - The test cannot be performed.
+    - The effect size will be zero.
+    - The null hypothesis is automatically true.
+    CorrectOptionIndex: 0
+    LevelName: inferential analysis
+  - QuestionText: "A researcher wants to know if a new teaching method is more effective
+      than the traditional one. The most appropriate alternative hypothesis (H\u2081)
+      is:"
+    Options:
+    - "\u03BC_new = \u03BC_traditional"
+    - "\u03BC_new \u2260 \u03BC_traditional"
+    - "\u03BC_new < \u03BC_traditional"
+    - "\u03BC_new > \u03BC_traditional"
+    CorrectOptionIndex: 3
+    LevelName: inferential analysis
+  - QuestionText: 'The standard error of the mean will decrease when:'
+    Options:
+    - The sample size decreases
+    - The population standard deviation increases
+    - The sample size increases
+    - The confidence level increases
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: "In the context of hypothesis testing, \"failing to reject H\u2080\"
+      is not the same as \"accepting H\u2080\" because:"
+    Options:
+    - "It implies H\u2080 is probably true."
+    - "It may simply mean there is insufficient evidence against H\u2080."
+    - The p-value was greater than alpha.
+    - The test was two-tailed.
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'A post-hoc test (like Tukey''s HSD) is conducted after a significant
+      ANOVA result to:'
+    Options:
+    - Determine if the overall ANOVA model is significant
+    - Identify which specific group means are significantly different from each other
+    - Test the assumption of homogeneity of variances
+    - Calculate the effect size
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'The concept of "degrees of freedom" in a statistical test generally
+      refers to:'
+    Options:
+    - The sample size
+    - The number of values free to vary in a calculation
+    - The level of significance
+    - The power of the test
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: A study finds a statistically significant result (p < 0.01) with
+      a very large sample size (n=10,000), but the effect size (Cohen's d) is 0.02.
+      What is the most accurate interpretation?
+    Options:
+    - The finding is highly significant and practically very important.
+    - The finding is statistically significant but likely of little practical importance.
+    - The null hypothesis should be accepted.
+    - The p-value is invalid.
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'In a regression analysis, an outlier can have a large influence
+      on the results. A measure specifically designed to assess an observation''s
+      influence on the entire regression model is:'
+    Options:
+    - The residual
+    - The correlation coefficient
+    - Cook's Distance
+    - "The R\xB2 value"
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: "A researcher conducts 20 independent tests at \u03B1=0.05. If
+      all null hypotheses are true, what is the approximate probability of making
+      at least one Type I error?"
+    Options:
+    - 0.05
+    - 0.36
+    - 0.64
+    - 0.95
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: 'The assumption of "homoscedasticity" in linear regression means
+      that:'
+    Options:
+    - The residuals are normally distributed
+    - The variance of the residuals is constant across all levels of the independent
+      variable
+    - The relationship between X and Y is linear
+    - There are no influential outliers
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'A Bayesian statistician and a Frequentist statistician would most
+      strongly disagree on the interpretation of:'
+    Options:
+    - The sample mean
+    - A p-value
+    - A confidence interval
+    - The role of prior knowledge
+    CorrectOptionIndex: 3
+    LevelName: inferential analysis
+  - QuestionText: 'If a test is "robust" to violations of its assumptions, it means
+      that:'
+    Options:
+    - The assumptions are unnecessary
+    - The test will always give the correct p-value
+    - The p-value is relatively accurate even if assumptions are not perfectly met
+    - The test can only be used with non-normal data
+    CorrectOptionIndex: 2
+    LevelName: inferential analysis
+  - QuestionText: 'A researcher wants to compare the pre-test and post-test scores
+      of the same group of students. The most appropriate test is a:'
+    Options:
+    - Independent samples t-test
+    - Paired samples t-test
+    - One-way ANOVA
+    - Chi-square test
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'The main purpose of using a Bonferroni correction is to:'
+    Options:
+    - Increase the power of a test
+    - Control the family-wise Type I error rate
+    - Control the Type II error rate
+    - Simplify the calculations
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'In a meta-analysis, a "forest plot" is primarily used to:'
+    Options:
+    - Show the distribution of individual study data
+    - Visually display the effect sizes and confidence intervals of multiple studies
+    - Test for publication bias
+    - Check for heterogeneity
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis
+  - QuestionText: 'The null hypothesis for a Chi-square goodness-of-fit test is that:'
+    Options:
+    - The two variables are independent
+    - The sample data fits the claimed distribution
+    - The population means are equal
+    - The variances are homogeneous
+    CorrectOptionIndex: 1
+    LevelName: inferential analysis

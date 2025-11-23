@@ -1,0 +1,430 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: preliminary consideration
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the FIRST and most crucial step in planning an in-service
+      teacher education program?
+    Options:
+    - Booking the venue
+    - Conducting a needs assessment
+    - Preparing the budget
+    - Inviting the chief guest
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'The ''P'' in the SMART criteria for setting objectives stands
+      for:'
+    Options:
+    - Practical
+    - Purposeful
+    - Specific
+    - (SMART is an acronym for Specific, Measurable, Achievable, Relevant, Time-bound)
+    CorrectOptionIndex: 2
+    LevelName: preliminary consideration
+  - QuestionText: Which of the following is a key consideration regarding the 'duration'
+      of an INSET program?
+    Options:
+    - The favorite color of the participants
+    - The complexity of the topic and the depth of training required
+    - The political party in power
+    - The weather forecast
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'The primary purpose of a ''needs assessment'' is to:'
+    Options:
+    - Justify the program's budget
+    - Identify the gap between current and desired teacher competencies
+    - Select the most expensive resource person
+    - Determine the color of the certificates
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: Which of the following is a 'human resource' crucial for an INSET
+      program?
+    Options:
+    - The classroom chairs
+    - The lunch menu
+    - The program budget
+    - A skilled and knowledgeable resource person
+    CorrectOptionIndex: 3
+    LevelName: preliminary consideration
+  - QuestionText: 'A ''contingency fund'' in a budget is primarily meant for:'
+    Options:
+    - Increasing the honorarium of the resource person
+    - Unforeseen or emergency expenses
+    - Printing extra certificates
+    - Organizing a cultural event
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'The ''M'' in the SMART criteria stands for:'
+    Options:
+    - Manageable
+    - Measurable
+    - Motivational
+    - Mandatory
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'When planning the timing of an INSET program, it is best to avoid:'
+    Options:
+    - Weekdays
+    - Any month with an 'r' in it
+    - Morning sessions
+    - School examination periods
+    CorrectOptionIndex: 3
+    LevelName: preliminary consideration
+  - QuestionText: Which of the following is a 'physical resource'?
+    Options:
+    - The facilitator's expertise
+    - A digital projector and screen
+    - The coordinator's communication skills
+    - The participants' enthusiasm
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'The main purpose of creating a detailed budget is to:'
+    Options:
+    - Impress the funding agency
+    - Ensure financial feasibility and prevent mid-program shortages
+    - Make the program look expensive
+    - Comply with a legal formality
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'An objective stating "Teachers will learn about cooperative learning"
+      is considered:'
+    Options:
+    - SMART
+    - Specific but not measurable
+    - Vague and not SMART
+    - Relevant but not time-bound
+    CorrectOptionIndex: 2
+    LevelName: preliminary consideration
+  - QuestionText: 'A key factor in determining the ''duration'' of a workshop on
+      "Advanced ICT Skills" would be:'
+    Options:
+    - The number of participants
+    - The time required for hands-on practice
+    - The cost of the venue
+    - The facilitator's travel schedule
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: Which of the following is a potential 'source of funding' for a
+      government school teacher's INSET program?
+    Options:
+    - Participant fees
+    - The Samagra Shiksha scheme
+    - A local business sponsorship
+    - All of the above
+    CorrectOptionIndex: 3
+    LevelName: preliminary consideration
+  - QuestionText: 'The ''A'' in the SMART criteria stands for:'
+    Options:
+    - Ambitious
+    - Achievable
+    - Actionable
+    - Accountable
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'A needs assessment can be conducted through:'
+    Options:
+    - Classroom observation and student data analysis
+    - Guessing what teachers might need
+    - Copying the agenda from another program
+    - Consulting an astrologer
+    CorrectOptionIndex: 0
+    LevelName: preliminary consideration
+  - QuestionText: 'The ''R'' in the SMART criteria stands for:'
+    Options:
+    - Rigorous
+    - Relevant
+    - Reliable
+    - Rapid
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: Which item would typically be the LARGEST head in an INSET program
+      budget?
+    Options:
+    - Stationery
+    - Honorarium for resource persons and travel
+    - Certificates
+    - Tea and snacks
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: A program aimed at 'orienting' teachers to a new policy would likely
+      be _____ than a program aimed at 'mastering' a new teaching skill.
+    Options:
+    - longer in duration
+    - less relevant
+    - more expensive
+    - shorter in duration
+    CorrectOptionIndex: 3
+    LevelName: preliminary consideration
+  - QuestionText: 'The ''T'' in the SMART criteria stands for:'
+    Options:
+    - Thorough
+    - Time-bound
+    - Targeted
+    - Technical
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'Choosing a resource person who is familiar with the local context
+      and challenges of the teachers addresses the consideration of:'
+    Options:
+    - Budget
+    - Duration
+    - Relevance of Human Resources
+    - Venue decoration
+    CorrectOptionIndex: 2
+    LevelName: preliminary consideration
+  - QuestionText: 'If the purpose of a program is to improve student performance
+      in mathematics, the needs assessment should focus on:'
+    Options:
+    - Teachers' English language skills
+    - Identifying specific mathematical concepts students struggle with
+    - The sports facilities in the school
+    - The history of the school
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'A "phased" or "modular" approach to INSET, where training is spread
+      over several sessions, helps to address the challenge of:'
+    Options:
+    - High cost
+    - Teacher absence from school for long periods
+    - Finding a good venue
+    - Printing materials
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: Which of the following is a 'human resource' consideration?
+    Options:
+    - Availability of a hall with a projector
+    - The qualifications and experience of the facilitator
+    - The cost of lunch for 50 participants
+    - The distance of the venue from the school
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'A budget is considered ''realistic'' when it:'
+    Options:
+    - Is as low as possible
+    - Is approved by the principal
+    - Includes only the honorarium
+    - Accurately estimates costs and aligns with available funds
+    CorrectOptionIndex: 3
+    LevelName: preliminary consideration
+  - QuestionText: The statement "80% of participants will demonstrate the correct
+      use of the microscope in a lab session" is an example of a _____ objective.
+    Options:
+    - Vague
+    - Measurable
+    - Irrelevant
+    - Theoretical
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'Scheduling a program during summer vacations primarily addresses
+      the consideration of:'
+    Options:
+    - Budget
+    - Resource availability
+    - Teacher availability
+    - Purpose
+    CorrectOptionIndex: 2
+    LevelName: preliminary consideration
+  - QuestionText: Which of the following is a 'physical resource'?
+    Options:
+    - The coordinator's planning skills
+    - A library with relevant reference books
+    - The budget document
+    - The needs assessment report
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'The purpose of a program is directly derived from the:'
+    Options:
+    - Budget
+    - Findings of the needs assessment
+    - Preferences of the resource person
+    - Color scheme of the venue
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'A ''contingency fund'' is usually calculated as a percentage of
+      the total budget, typically around:'
+    Options:
+    - 1-2%
+    - 0.5
+    - 10-15%
+    - 90-100%
+    CorrectOptionIndex: 2
+    LevelName: preliminary consideration
+  - QuestionText: 'An objective that is ''Achievable'' is one that is:'
+    Options:
+    - Very easy for everyone
+    - Realistic and within the capacity of the participants given the resources and
+      time
+    - The same for all programs
+    - Always based on technology
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'The consideration of ''duration'' is closely linked to:'
+    Options:
+    - The number of pages in the handout
+    - The brand of the tea served
+    - The facilitator's airfare
+    - The cognitive load and the time needed for mastery
+    CorrectOptionIndex: 3
+    LevelName: preliminary consideration
+  - QuestionText: Which of these is a financial consideration?
+    Options:
+    - Seating arrangement (theater vs. group style)
+    - Securing funding from a government scheme
+    - The educational philosophy of the resource person
+    - The language of instruction
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'A needs assessment helps to ensure that the program is:'
+    Options:
+    - Lengthy
+    - Expensive
+    - Relevant and addresses actual problems
+    - Fun and entertaining
+    CorrectOptionIndex: 2
+    LevelName: preliminary consideration
+  - QuestionText: 'The ''Time-bound'' aspect of an objective refers to:'
+    Options:
+    - The time the program starts each day
+    - The deadline by which the objective should be achieved
+    - The duration of each session
+    - The facilitator's time management skills
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'A key advantage of using an ''internal master trainer'' as a resource
+      person is:'
+    Options:
+    - Higher honorarium costs
+    - Reducing the need for a venue
+    - Always being more knowledgeable than an external expert
+    - Better understanding of the local context and challenges
+    CorrectOptionIndex: 3
+    LevelName: preliminary consideration
+  - QuestionText: Which of the following is a 'budget' item?
+    Options:
+    - The learning objectives
+    - Travel allowance for participants
+    - The session plan
+    - The evaluation form
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'A program designed based on a ''perceived'' need rather than an
+      ''assessed'' need runs the risk of being:'
+    Options:
+    - Perfectly tailored
+    - Irrelevant and ineffective
+    - Over-budget
+    - Too short
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'The consideration of ''resources'' directly impacts the:'
+    Options:
+    - Political climate
+    - School's annual holiday list
+    - Date of the next national election
+    - Quality and delivery of the program
+    CorrectOptionIndex: 3
+    LevelName: preliminary consideration
+  - QuestionText: 'A ''SMART'' objective provides a clear benchmark for:'
+    Options:
+    - Selecting the lunch menu
+    - Evaluating the program's success
+    - Choosing the color of the badges
+    - Deciding the number of breaks
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'If the budget is limited, a planner might consider:'
+    Options:
+    - Canceling the program
+    - Using a school hall instead of a paid venue and leveraging internal resource
+      persons
+    - Reducing the program duration arbitrarily without considering objectives
+    - Charging the teachers a high fee
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'The ''purpose'' of a program should answer the question:'
+    Options:
+    - '"Who is the chief guest?"'
+    - '"What food will be served?"'
+    - '"How much will it cost?"'
+    - '"What change do we want to see in teachers and their practice?"'
+    CorrectOptionIndex: 3
+    LevelName: preliminary consideration
+  - QuestionText: A program on "Complex Problem-Solving in Mathematics" would require
+      a _____ duration compared to a program on "Introduction to a New Textbook".
+    Options:
+    - shorter
+    - longer
+    - similar
+    - less expensive
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: Which of these is a 'resource' consideration for a program on "Digital
+      Literacy"?
+    Options:
+    - The philosophical views of John Dewey
+    - The history of education in India
+    - Availability of functional computers and internet connection
+    - The theory of multiple intelligences
+    CorrectOptionIndex: 2
+    LevelName: preliminary consideration
+  - QuestionText: 'A budget acts as a:'
+    Options:
+    - Philosophical statement
+    - Financial plan and control tool
+    - Substitute for a needs assessment
+    - Session timetable
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'The most effective INSET programs are those where the purpose,
+      duration, resources, and budget are:'
+    Options:
+    - Independently decided
+    - Determined after the program is over
+    - Kept secret from the participants
+    - Aligned and mutually supportive
+    CorrectOptionIndex: 3
+    LevelName: preliminary consideration
+  - QuestionText: 'A ''needs assessment'' helps in prioritizing:'
+    Options:
+    - The most popular topic among teachers
+    - The most critical areas requiring professional development
+    - The cheapest resource person available
+    - The most convenient time for the planner
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'The decision on whether to conduct a 1-day workshop or a 5-day
+      residential program is primarily a consideration of:'
+    Options:
+    - Purpose and Duration
+    - Resources and Budget
+    - Both a and b
+    - Neither a nor b
+    CorrectOptionIndex: 2
+    LevelName: preliminary consideration
+  - QuestionText: 'A ''Relevant'' objective is one that:'
+    Options:
+    - Is interesting to the planner
+    - Addresses the identified needs and is connected to teachers' work
+    - Is the latest trend in education
+    - Can be achieved very quickly
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration
+  - QuestionText: 'Underestimating the budget can lead to:'
+    Options:
+    - A surplus of funds
+    - Program cancellation or compromise on quality
+    - Increased participant satisfaction
+    - A more focused program
+    CorrectOptionIndex: 1
+    LevelName: preliminary consideration

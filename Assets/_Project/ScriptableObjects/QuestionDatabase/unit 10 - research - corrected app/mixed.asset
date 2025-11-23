@@ -1,0 +1,471 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: mixed
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the core definition of mixed methods research?
+    Options:
+    - Using multiple statistical tests
+    - The integration of quantitative and qualitative approaches in a single study
+    - Using only qualitative data
+    - Using two different quantitative surveys
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'The primary philosophical foundation for mixed methods research
+      is:'
+    Options:
+    - Only Positivism
+    - Only Constructivism
+    - Pragmatism
+    - Only Transformative
+    CorrectOptionIndex: 2
+    LevelName: mixed
+  - QuestionText: 'The purpose of using a mixed methods design is to:'
+    Options:
+    - Prove one method is better than the other
+    - Draw on the strengths of both quantitative and qualitative methods to provide
+      a more complete understanding
+    - Make the study more complicated
+    - Only to satisfy a committee
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'In a mixed methods study, "QUAN" and "QUAL" notation represents:'
+    Options:
+    - The quality of the research
+    - The priority or weight given to the quantitative and qualitative strands
+    - The number of questions
+    - The order of the chapters
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'A design where quantitative data is collected and analyzed first,
+      followed by qualitative data, is a:'
+    Options:
+    - Convergent Design
+    - Explanatory Sequential Design
+    - Exploratory Sequential Design
+    - Embedded Design
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'A design where qualitative data is collected and analyzed first,
+      followed by quantitative data, is a(n):'
+    Options:
+    - Convergent Design
+    - Explanatory Sequential Design
+    - Exploratory Sequential Design
+    - Multiphase Design
+    CorrectOptionIndex: 2
+    LevelName: mixed
+  - QuestionText: 'In a design where quantitative and qualitative data are collected
+      concurrently and then merged, it is a:'
+    Options:
+    - Convergent Parallel Design
+    - Explanatory Sequential Design
+    - Exploratory Sequential Design
+    - Transformative Design
+    CorrectOptionIndex: 0
+    LevelName: mixed
+  - QuestionText: 'The phase in a mixed methods study where the quantitative and
+      qualitative strands are connected is called:'
+    Options:
+    - Data Collection
+    - The Point of Interface
+    - Data Analysis
+    - Literature Review
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'The process of combining the quantitative and qualitative data
+      is referred to as:'
+    Options:
+    - Separation
+    - Integration or Mixing
+    - Triangulation
+    - Validation
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: Which of the following is a key challenge in mixed methods research?
+    Options:
+    - It is always cheaper than single-method studies.
+    - The researcher needs expertise in both quantitative and qualitative methods.
+    - It requires a smaller sample size.
+    - It is less time-consuming.
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: "The notation \"quan \u2192 QUAL\" indicates a(n):"
+    Options:
+    - Convergent Design
+    - Explanatory Sequential Design
+    - Exploratory Sequential Design
+    - Embedded Design
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'The purpose of an explanatory sequential design is typically to:'
+    Options:
+    - Generalize findings to a population
+    - Use qualitative data to explain or elaborate on initial quantitative results
+    - Develop a new instrument
+    - Test a theory
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'The purpose of an exploratory sequential design is typically to:'
+    Options:
+    - Test a hypothesis
+    - Use qualitative findings to develop or inform a quantitative phase (e.g., building
+      a survey)
+    - Compare two groups
+    - Describe a phenomenon
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'In a convergent design, a key step is to:'
+    Options:
+    - Ignore one dataset
+    - Compare or merge the results from the quantitative and qualitative analyses
+      to see if they converge or diverge
+    - Only publish the quantitative results
+    - Collect data at different times
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'A "mixed methods research question" should:'
+    Options:
+    - Only address the quantitative strand
+    - Only address the qualitative strand
+    - Explicitly state what is to be learned from both the quantitative and qualitative
+      strands
+    - Be avoided
+    CorrectOptionIndex: 2
+    LevelName: mixed
+  - QuestionText: How does pragmatism as a philosophy support mixed methods research?
+    Options:
+    - It insists on a single reality.
+    - It rejects the either/or choice of methods and focuses on what works to answer
+      the research question.
+    - It values only objective data.
+    - It is the same as positivism.
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: Why is the "point of interface" a critical step in a sequential
+      design?
+    Options:
+    - It is the cheapest part.
+    - It is where the results of the first phase directly inform the data collection
+      of the second phase.
+    - It is always done at the end.
+    - It requires no planning.
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: What is a key advantage of using a convergent design?
+    Options:
+    - It is very fast to execute.
+    - It provides complementary data on the same topic, offering a more comprehensive
+      view.
+    - It requires no integration.
+    - It eliminates the need for analysis.
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'In an embedded design, one data set plays a role to the other.
+      This is common in:'
+    Options:
+    - Experimental trials where qualitative data helps explain the mechanism behind
+      the quantitative outcomes
+    - Purely descriptive studies
+    - Studies with no research questions
+    - Studies that only use surveys
+    CorrectOptionIndex: 0
+    LevelName: mixed
+  - QuestionText: 'The term "triangulation" in mixed methods refers to:'
+    Options:
+    - Using a triangular sample.
+    - Using different methods to cross-validate and confirm findings by seeing if
+      they converge.
+    - Using three methods.
+    - Drawing triangles on graphs.
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'A researcher conducts a survey on teacher stress (QUAN) and then
+      follows up with interviews of high-stress and low-stress teachers (QUAL) to
+      understand why. This is a:'
+    Options:
+    - Convergent Design
+    - Explanatory Sequential Design
+    - Exploratory Sequential Design
+    - Embedded Design
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'A researcher holds focus groups with students (QUAL) to understand
+      their learning challenges, then uses the themes to create a campus-wide survey
+      (QUAN). This is a:'
+    Options:
+    - Convergent Design
+    - Explanatory Sequential Design
+    - Exploratory Sequential Design
+    - Embedded Design
+    CorrectOptionIndex: 2
+    LevelName: mixed
+  - QuestionText: "Assertion (A):\_Mixed methods research requires a clear rationale
+      for mixing.\_Reason (R):\_Without a clear purpose, the study becomes two separate
+      projects stuck together."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: mixed
+  - QuestionText: Contrast the timing of data collection in a sequential design versus
+      a convergent design.
+    Options:
+    - 'Sequential: concurrent; Convergent: sequential.'
+    - 'Sequential: one after the other; Convergent: at the same time.'
+    - They have the same timing.
+    - Sequential is faster.
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: Which of the following is a strength of mixed methods research?
+    Options:
+    - It is always the easiest approach.
+    - It can provide insights that might be missed by using only one method.
+    - It requires less expertise.
+    - It simplifies data analysis.
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'A potential weakness of mixed methods research is:'
+    Options:
+    - Its simplicity
+    - The significant resources (time, cost, expertise) required
+    - Its inability to address complex problems
+    - Its reliance on a single worldview
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'The term "integration" in mixed methods can occur during:'
+    Options:
+    - Data collection only
+    - Interpretation only
+    - 'Any stage of the research process: design, data collection, analysis, or interpretation'
+    - The literature review only
+    CorrectOptionIndex: 2
+    LevelName: mixed
+  - QuestionText: 'A study where a quantitative survey and qualitative interviews
+      are conducted simultaneously and the results are compared side-by-side is a:'
+    Options:
+    - Convergent Parallel Design
+    - Explanatory Sequential Design
+    - Exploratory Sequential Design
+    - Case Study Design
+    CorrectOptionIndex: 0
+    LevelName: mixed
+  - QuestionText: 'The "validity" of mixed methods research is often referred to
+      as:'
+    Options:
+    - Internal Validity
+    - External Validity
+    - Inference Quality or Legitimation
+    - Construct Validity
+    CorrectOptionIndex: 2
+    LevelName: mixed
+  - QuestionText: 'A "transformative" mixed methods design is characterized by its
+      focus on:'
+    Options:
+    - Social justice and political change, giving voice to marginalized communities
+    - Only statistical power
+    - Laboratory control
+    - Philosophical purity
+    CorrectOptionIndex: 0
+    LevelName: mixed
+  - QuestionText: Which sampling strategy is often used in the second, sequential
+      phase of a mixed methods study?
+    Options:
+    - Random Sampling
+    - Purposive Sampling based on the results of the first phase
+    - Convenience Sampling
+    - Total Population Sampling
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'The section of a mixed methods proposal that is unique and must
+      justify the approach is the:'
+    Options:
+    - Literature Review
+    - Mixed Methods Design section
+    - References
+    - Budget
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'In an embedded experimental design, the qualitative data primarily
+      serves to:'
+    Options:
+    - Replace the quantitative data
+    - Provide supporting, explanatory data about the participants' experiences within
+      the trial
+    - Be the primary outcome
+    - Prove the hypothesis wrong
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'The concept of "complementarity" in mixing means:'
+    Options:
+    - Using methods that are the same.
+    - Using methods that have non-overlapping strengths to get a more complete picture.
+    - Replacing one method with another.
+    - Proving one method is better.
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'A "multiphase design" typically occurs:'
+    Options:
+    - In a single, short study
+    - Over a longer period, often as part of a program of research, with connected
+      mixed methods studies
+    - Only in laboratories
+    - Without any qualitative data
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: Which of the following is a data analysis strategy specific to
+      mixed methods?
+    Options:
+    - Thematic Analysis only
+    - 'Following a thread: analyzing one type of data for a theme, then using the
+      other data to elaborate on it'
+    - t-tests only
+    - Correlation analysis only
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'The notation "QUAL + QUAN" indicates a:'
+    Options:
+    - Sequential Design
+    - Convergent Design
+    - Exploratory Design
+    - Single Method Design
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'A key skill for a mixed methods researcher is:'
+    Options:
+    - Expertise in only one methodology
+    - Methodological flexibility and a willingness to adapt
+    - Rigid adherence to a single plan
+    - Ignoring contradictions between datasets
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'When quantitative and qualitative results conflict in a convergent
+      design, the researcher should:'
+    Options:
+    - Discard the qualitative data.
+    - Interpret the discrepancy as a finding itself, and seek to understand the reason
+      for the divergence.
+    - Only report the quantitative data.
+    - Assume the statistics are always right.
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'The purpose of a "joint display" in mixed methods analysis is
+      to:'
+    Options:
+    - Keep the data separate.
+    - Visually represent the integration of the two datasets to draw new insights.
+    - Hide the qualitative data.
+    - Make the report longer.
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'In a mixed methods study, the "theoretical drive" can be:'
+    Options:
+    - Only inductive
+    - Only deductive
+    - Either inductive (QUAL lead) or deductive (QUAN lead), determined by the primary
+      strand
+    - Always abductive
+    CorrectOptionIndex: 2
+    LevelName: mixed
+  - QuestionText: Which design is best suited for a study aiming to both generalize
+      findings and explain the mechanisms behind them?
+    Options:
+    - Purely Qualitative Design
+    - An Embedded Experimental Design (QUAN primary, qual embedded)
+    - Purely Quantitative Design
+    - A Convergent Design
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'The term "meta-inference" refers to the:'
+    Options:
+    - Statistical inference from the quantitative data
+    - Overall conclusion or interpretation that is developed by integrating the inferences
+      from both the quantitative and qualitative strands
+    - Inference from the literature review
+    - Initial hypothesis
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'A "conversion" mixed methods analysis involves:'
+    Options:
+    - Keeping data types separate
+    - Transforming one type of data into the other (e.g., qualitizing quantitative
+      data or quantitizing qualitative data)
+    - Converting the file format
+    - Changing the research question
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'The development of a new scale based on in-depth interviews and
+      a literature review is an example of a:'
+    Options:
+    - Convergent Design
+    - Explanatory Sequential Design
+    - Exploratory Sequential Design
+    - Embedded Design
+    CorrectOptionIndex: 2
+    LevelName: mixed
+  - QuestionText: 'A major ethical consideration in mixed methods is:'
+    Options:
+    - The potential for increased participant burden due to longer involvement or
+      multiple data collection tasks
+    - The lack of need for informed consent
+    - That it is always unethical
+    - That it requires deception
+    CorrectOptionIndex: 0
+    LevelName: mixed
+  - QuestionText: 'The "dialectic" perspective in mixed methods emphasizes:'
+    Options:
+    - Keeping paradigms purely separate
+    - The creative tension and dialogue between different methodological perspectives
+      to generate new knowledge
+    - Using only one method
+    - Avoiding interpretation
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: Which design is most appropriate when a researcher wants to use
+      qualitative data to identify types of a phenomenon and then see how prevalent
+      each type is in a population?
+    Options:
+    - Convergent
+    - Explanatory
+    - Exploratory Sequential
+    - Embedded
+    CorrectOptionIndex: 2
+    LevelName: mixed
+  - QuestionText: 'The term "worldview" in mixed methods is often used interchangeably
+      with:'
+    Options:
+    - Data analysis
+    - Paradigm
+    - Sample size
+    - Hypothesis
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'The most critical factor in choosing a mixed methods design is:'
+    Options:
+    - What is most popular
+    - The research question and overall purpose of the study
+    - The cost
+    - The software available
+    CorrectOptionIndex: 1
+    LevelName: mixed
+  - QuestionText: 'A successful mixed methods study is ultimately judged by:'
+    Options:
+    - The complexity of its design
+    - The extent to which the integration provides a deeper, more nuanced understanding
+      than a single-method study could have.
+    - The length of the final report
+    - The number of p-values
+    CorrectOptionIndex: 1
+    LevelName: mixed

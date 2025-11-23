@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: cognitive- learning
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The cognitive learning theorist who proposed the concepts of "assimilation"
+      and "accommodation" is:'
+    Options:
+    - Lev Vygotsky
+    - David Ausubel
+    - Jerome Bruner
+    - Jean Piaget
+    CorrectOptionIndex: 3
+    LevelName: cognitive- learning
+  - QuestionText: 'In cognitive psychology, mental frameworks for organizing and
+      interpreting information are called:'
+    Options:
+    - Heuristics
+    - Algorithms
+    - Schemas
+    - Prototypes
+    CorrectOptionIndex: 2
+    LevelName: cognitive- learning
+  - QuestionText: 'The "Zone of Proximal Development" is a key concept in the theory
+      of:'
+    Options:
+    - Albert Bandura
+    - Jean Piaget
+    - Lev Vygotsky
+    - Robert Gagne
+    CorrectOptionIndex: 2
+    LevelName: cognitive- learning
+  - QuestionText: Who proposed the "Stages of Cognitive Development" involving sensorimotor,
+      preoperational, concrete operational, and formal operational stages?
+    Options:
+    - Erik Erikson
+    - Lawrence Kohlberg
+    - Jean Piaget
+    - Abraham Maslow
+    CorrectOptionIndex: 2
+    LevelName: cognitive- learning
+  - QuestionText: 'The concept of "Discovery Learning" is most strongly associated
+      with:'
+    Options:
+    - B.F. Skinner
+    - Jerome Bruner
+    - David Ausubel
+    - John Dewey
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'The information processing model of memory includes sensory register,
+      short-term memory, and:'
+    Options:
+    - Working Memory
+    - Episodic Memory
+    - Long-term Memory
+    - Procedural Memory
+    CorrectOptionIndex: 2
+    LevelName: cognitive- learning
+  - QuestionText: 'The process of modifying a schema to fit new information is known
+      as:'
+    Options:
+    - Assimilation
+    - Accommodation
+    - Organization
+    - Equilibration
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: '"Metacognition" refers to:'
+    Options:
+    - The initial acquisition of knowledge
+    - Thinking about one's own thinking processes
+    - The social context of learning
+    - Behavioral reinforcement
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'The theorist who emphasized the importance of "meaningful verbal
+      learning" and "advance organizers" is:'
+    Options:
+    - Jerome Bruner
+    - David Ausubel
+    - Lev Vygotsky
+    - Jean Piaget
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'In Piaget''s theory, the process of achieving a balance between
+      existing schemas and new information is called:'
+    Options:
+    - Assimilation
+    - Accommodation
+    - Equilibration
+    - Conservation
+    CorrectOptionIndex: 2
+    LevelName: cognitive- learning
+  - QuestionText: 'A child who has developed "object permanence" understands that:'
+    Options:
+    - Objects remain the same even when their appearance changes.
+    - Objects continue to exist even when they cannot be seen.
+    - The amount of liquid is conserved when poured into a different container.
+    - Other people have perspectives different from their own.
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'According to Vygotsky, "scaffolding" refers to:'
+    Options:
+    - The biological constraints on learning.
+    - The support provided by a more knowledgeable person to bridge the gap between
+      current and potential ability.
+    - The internal cognitive structures that guide thinking.
+    - The process of discovering concepts independently.
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'A teacher who presents a concept map at the beginning of a lesson
+      to provide a structural framework is using an:'
+    Options:
+    - Advance Organizer
+    - Episodic Marker
+    - Algorithmic Guide
+    - Sensory Register
+    CorrectOptionIndex: 0
+    LevelName: cognitive- learning
+  - QuestionText: 'In Bruner''s theory, the stage where a child understands the world
+      through motor actions is the:'
+    Options:
+    - Symbolic Stage
+    - Iconic Stage
+    - Enactive Stage
+    - Abstract Stage
+    CorrectOptionIndex: 2
+    LevelName: cognitive- learning
+  - QuestionText: A student who can think hypothetically and reason about abstract
+      concepts is likely in Piaget's ______ stage.
+    Options:
+    - Concrete Operational
+    - Formal Operational
+    - Preoperational
+    - Sensorimotor
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'The primary difference between Piaget''s and Vygotsky''s theories
+      is that Vygotsky placed greater emphasis on:'
+    Options:
+    - Biological maturation
+    - Social and cultural influences
+    - Universal stages of development
+    - Individual discovery
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: '"Metacognitive monitoring" is demonstrated when a student:'
+    Options:
+    - Memorizes facts for a test.
+    - Asks themselves, "Do I understand this material well enough to teach it to
+      someone else?"
+    - Works on a problem without any plan.
+    - Relies solely on the teacher for direction.
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'According to the Information Processing Model, the component that
+      holds information for a brief period (seconds) is:'
+    Options:
+    - Long-term Memory
+    - Episodic Buffer
+    - Sensory Register
+    - Working Memory
+    CorrectOptionIndex: 3
+    LevelName: cognitive- learning
+  - QuestionText: 'A child who believes that the sun and moon follow them is demonstrating
+      the preoperational characteristic of:'
+    Options:
+    - Animism
+    - Egocentrism
+    - Centration
+    - Irreversibility
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'The "Spiral Curriculum" proposed by Bruner suggests that curriculum
+      should:'
+    Options:
+    - Be taught in a strict linear sequence.
+    - Introduce key concepts repeatedly at increasing levels of complexity.
+    - Focus only on concrete experiences.
+    - Avoid revisiting previous topics.
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'Critically analyzing Piaget''s theory, a major criticism is that
+      he:'
+    Options:
+    - Overemphasized social factors.
+    - Focused too much on formal operational thinking in adults.
+    - Ignored biological maturation.
+    - Underestimated the cognitive abilities of young children.
+    CorrectOptionIndex: 3
+    LevelName: cognitive- learning
+  - QuestionText: 'A teacher designs a project where students must work in groups
+      to solve a complex problem. This approach is most aligned with the principles
+      of:'
+    Options:
+    - B.F. Skinner
+    - Lev Vygotsky
+    - Jean Piaget
+    - John B. Watson
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'A student who uses the acronym "HOMES" to remember the Great Lakes
+      (Huron, Ontario, Michigan, Erie, Superior) is using a:'
+    Options:
+    - Metacognitive strategy
+    - Mnemonic device
+    - Schema assimilation
+    - Discovery learning technique
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: Comparing Ausubel's and Bruner's theories, a key difference is
+      that Ausubel emphasized ______, while Bruner emphasized ______.
+    Options:
+    - Social learning; individual learning
+    - Behavioral conditioning; cognitive structuring
+    - Concrete operations; formal operations
+    - Reception learning; discovery learning
+    CorrectOptionIndex: 3
+    LevelName: cognitive- learning
+  - QuestionText: 'A teacher who encourages students to reflect on which study strategies
+      worked best for them after an exam is promoting:'
+    Options:
+    - Rote memorization
+    - Metacognition
+    - Classical conditioning
+    - Positive reinforcement
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'The concept of "private speech" (talking to oneself) in Vygotsky''s
+      theory is viewed as:'
+    Options:
+    - A sign of cognitive immaturity
+    - An important tool for self-regulation and guiding one's own behavior
+    - A behavior that should be discouraged
+    - Evidence of egocentric thought
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'A math teacher presents a problem that students cannot solve with
+      their current methods, creating a state of cognitive conflict. This strategy
+      is designed to promote:'
+    Options:
+    - Equilibration
+    - Extinction
+    - Generalization
+    - Discrimination
+    CorrectOptionIndex: 0
+    LevelName: cognitive- learning
+  - QuestionText: 'The "dual-coding theory" suggests that memory is enhanced when
+      information is stored:'
+    Options:
+    - In a single, unified system
+    - Only in verbal form
+    - Both verbally and visually
+    - Through motor actions only
+    CorrectOptionIndex: 2
+    LevelName: cognitive- learning
+  - QuestionText: 'A key educational implication of the information processing model
+      is that teachers should:'
+    Options:
+    - Present information quickly to overload the senses.
+    - Help students make connections between new information and existing knowledge
+      in long-term memory.
+    - Focus solely on rote repetition.
+    - Avoid using visual aids to prevent confusion.
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: A student in the concrete operational stage would have the most
+      difficulty with which of the following tasks?
+    Options:
+    - Sorting objects by size and color
+    - Reversing a mental operation
+    - Understanding the concept of conservation
+    - Solving a hypothetical-deductive reasoning problem
+    CorrectOptionIndex: 3
+    LevelName: cognitive- learning
+  - QuestionText: 'The "worked-example effect" in cognitive load theory suggests
+      that learning is enhanced when:'
+    Options:
+    - Students discover all solutions independently.
+    - Students study completed examples before solving problems themselves.
+    - Teachers provide minimal guidance.
+    - Problems are made as difficult as possible.
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'A teacher who believes in Bruner''s constructivist theory would
+      be most likely to say:'
+    Options:
+    - '"I will transmit knowledge directly to students."'
+    - '"Students must be active participants in constructing their own understanding."'
+    - '"Learning is a passive process of absorbing information."'
+    - '"Rewards and punishments are the most effective tools for learning."'
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'The phenomenon where prior knowledge hinders the learning of new,
+      conflicting information is known as:'
+    Options:
+    - Positive transfer
+    - Negative transfer
+    - Proactive interference
+    - Retroactive interference
+    CorrectOptionIndex: 2
+    LevelName: cognitive- learning
+  - QuestionText: 'According to cognitive theorists, the primary purpose of feedback
+      is to:'
+    Options:
+    - Reinforce correct behavior
+    - Provide information to correct mental models and improve understanding
+    - Punish incorrect responses
+    - Compare students to one another
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'A curriculum that is designed to be "developmentally appropriate"
+      is most directly influenced by the work of:'
+    Options:
+    - B.F. Skinner
+    - John Watson
+    - Ivan Pavlov
+    - Jean Piaget
+    CorrectOptionIndex: 3
+    LevelName: cognitive- learning
+  - QuestionText: 'The concept of "situated learning" emphasizes that learning is:'
+    Options:
+    - An isolated, individual activity
+    - Inherently tied to the context and culture in which it occurs
+    - Primarily based on biological maturation
+    - Best achieved through programmed instruction
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'A teacher uses a simulation where students take on roles of historical
+      figures. This strategy is most effective for promoting:'
+    Options:
+    - Rote memorization of dates
+    - Meaningful understanding and contextual learning
+    - Extinction of unwanted behaviors
+    - Stimulus-response associations
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'The "levels of processing" theory suggests that memory retention
+      is primarily determined by:'
+    Options:
+    - The length of time information is rehearsed
+    - The sense modality (visual, auditory) used
+    - The depth and meaningfulness of processing
+    - The primacy of the information
+    CorrectOptionIndex: 2
+    LevelName: cognitive- learning
+  - QuestionText: A key difference between cognitive and behavioral theories is that
+      cognitive theories focus on ______, while behavioral theories focus on ______.
+    Options:
+    - Internal mental processes; observable behavior
+    - Observable behavior; unconscious motives
+    - Social influences; biological factors
+    - Biological maturation; environmental influences
+    CorrectOptionIndex: 0
+    LevelName: cognitive- learning
+  - QuestionText: '"Cognitive apprenticeship" is a teaching method that involves:'
+    Options:
+    - Independent study without guidance
+    - Making thinking processes visible and coaching students through complex tasks
+    - Lecturing for extended periods
+    - Using only negative reinforcement
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'The "encoding specificity principle" suggests that memory is best
+      when:'
+    Options:
+    - Information is studied in multiple locations
+    - The context of retrieval matches the context of encoding
+    - Information is repeated exactly the same way each time
+    - Learning occurs just before sleep
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'A teacher who encourages students to generate their own examples
+      of a concept is helping them to:'
+    Options:
+    - Engage in surface-level processing
+    - Increase extrinsic motivation
+    - Develop functional fixedness
+    - Create more elaborate semantic networks
+    CorrectOptionIndex: 3
+    LevelName: cognitive- learning
+  - QuestionText: 'The "serial position effect" explains why we best remember:'
+    Options:
+    - The middle items in a list
+    - Items that are repeated
+    - The first and last items in a list
+    - The most emotionally charged items
+    CorrectOptionIndex: 2
+    LevelName: cognitive- learning
+  - QuestionText: 'A constructivist classroom would typically feature:'
+    Options:
+    - Teacher-centered instruction
+    - Standardized curricula for all students
+    - Active learning and collaborative projects
+    - Emphasis on competitive grading
+    CorrectOptionIndex: 2
+    LevelName: cognitive- learning
+  - QuestionText: 'The concept of "transfer-appropriate processing" suggests that
+      memory performance will be best when:'
+    Options:
+    - The cognitive processes used during learning match those required during retrieval
+    - Learning occurs in a single, prolonged session
+    - Information is presented in auditory form only
+    - Students are under high stress during encoding
+    CorrectOptionIndex: 0
+    LevelName: cognitive- learning
+  - QuestionText: 'A history teacher who helps students see connections between current
+      events and historical patterns is promoting:'
+    Options:
+    - Mental set
+    - Meaningful learning and transfer
+    - Functional fixedness
+    - Rote memorization
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: The "testing effect" (enhanced long-term retention through retrieval
+      practice) provides support for which cognitive principle?
+    Options:
+    - Learning is passive
+    - Retrieval is a powerful learning event, not just an assessment of learning
+    - All testing should be eliminated
+    - Memory is fixed and unchangeable
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'According to cognitive load theory, effective instruction should
+      aim to:'
+    Options:
+    - Maximize intrinsic load
+    - Focus only on extraneous load
+    - Eliminate germane load entirely
+    - Manage total cognitive load to avoid overload
+    CorrectOptionIndex: 3
+    LevelName: cognitive- learning
+  - QuestionText: 'A key contribution of cognitive theories to education is their
+      emphasis on:'
+    Options:
+    - The learner as a passive recipient of information
+    - How students process, store, and retrieve information
+    - The exclusive importance of environmental factors
+    - Unconscious motivations for learning
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning
+  - QuestionText: 'The ultimate goal of applying cognitive learning theories in education
+      is to create:'
+    Options:
+    - Students who can only memorize facts
+    - Independent, self-regulated learners who can think critically
+    - Learners dependent on teacher direction
+    - Experts in test-taking strategies only
+    CorrectOptionIndex: 1
+    LevelName: cognitive- learning

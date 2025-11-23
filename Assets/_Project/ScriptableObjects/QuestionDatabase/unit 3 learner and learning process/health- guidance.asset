@@ -1,0 +1,469 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: health- guidance
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The primary objective of health guidance in schools is to:'
+    Options:
+    - Train students to become medical doctors.
+    - Help individuals attain and maintain optimal physical, mental, and emotional
+      well-being.
+    - Focus exclusively on competitive sports.
+    - Replace the role of parents in healthcare.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'A school program that teaches students about the importance of
+      a balanced diet and regular physical exercise is an example of:'
+    Options:
+    - Curative guidance
+    - Preventive health guidance
+    - Vocational guidance
+    - Remedial teaching
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: Which of the following is a key "principle" of effective health
+      guidance?
+    Options:
+    - It should be provided only after a serious health problem occurs.
+    - It is the sole responsibility of the school doctor.
+    - It should focus only on physical health.
+    - It must be based on scientific and accurate information.
+    CorrectOptionIndex: 3
+    LevelName: health- guidance
+  - QuestionText: 'The World Health Organization (WHO) defines health as a state
+      of complete:'
+    Options:
+    - Physical well-being
+    - Physical, mental, and social well-being
+    - Absence of disease
+    - Fitness and strength
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'A student is frequently absent due to minor illnesses and seems
+      lethargic in class. The teacher''s first step in providing health guidance
+      should be to:'
+    Options:
+    - Ignore it, as it is not an academic issue.
+    - Punish the student for missing school.
+    - Contact the parents to discuss the student's health habits and possible referral
+      to a school health official.
+    - Immediately diagnose the student with a serious condition.
+    CorrectOptionIndex: 2
+    LevelName: health- guidance
+  - QuestionText: 'The "Health Knowledge Test" is used in health guidance to:'
+    Options:
+    - Diagnose specific diseases.
+    - Measure a student's understanding of health principles and practices.
+    - Assess a student's physical strength.
+    - Determine a student's career aptitude in medicine.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: Which aspect of health is primarily concerned with an individual's
+      ability to manage stress, build relationships, and realize their potential?
+    Options:
+    - Physical Health
+    - Mental Health
+    - Social Health
+    - Emotional Health
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'The term "Health Inventory" in a school setting refers to:'
+    Options:
+    - A list of medical equipment in the school clinic.
+    - A list of healthy foods available in the canteen.
+    - An inventory of the school's financial assets.
+    - A systematic record of students' health history, screenings, and immunizations.
+    CorrectOptionIndex: 3
+    LevelName: health- guidance
+  - QuestionText: 'A school counselor helps a student develop coping strategies to
+      deal with exam anxiety. This intervention falls under the domain of:'
+    Options:
+    - Vocational Health Guidance
+    - Mental Health Guidance
+    - Physical Health Guidance
+    - Nutritional Guidance
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'The "Follow-up Service" in health guidance is crucial for:'
+    Options:
+    - Ensuring students take prescribed medication and monitoring the progress of
+      a health intervention.
+    - Checking on the personal lives of students.
+    - Providing financial aid for medical bills.
+    - Replacing the role of a physician.
+    CorrectOptionIndex: 0
+    LevelName: health- guidance
+  - QuestionText: 'A student shows symptoms of an eating disorder. The most appropriate
+      action for a teacher is to:'
+    Options:
+    - Comment on their weight in class to motivate them.
+    - Ignore it as a personal choice.
+    - Provide empathetic, confidential support and refer the student to a healthcare
+      professional.
+    - Share the information with other students as a cautionary tale.
+    CorrectOptionIndex: 2
+    LevelName: health- guidance
+  - QuestionText: 'A school initiative that includes sessions on "Cyber Wellness"
+      and "Managing Screen Time" is addressing a modern aspect of:'
+    Options:
+    - Physical health only
+    - Mental and social health
+    - Vocational health
+    - Nutritional health
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'The concept of "Holistic Health" in guidance emphasizes:'
+    Options:
+    - Treating only the physical symptoms of an illness.
+    - The interrelationship between physical, mental, emotional, and social well-being.
+    - Using only alternative medicine.
+    - Focusing solely on spiritual health.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: Which of the following is a core component of a school's "Preventive
+      Health Service"?
+    Options:
+    - Performing complex surgeries
+    - Prescribing medication for chronic illnesses
+    - Providing long-term psychotherapy
+    - Conducting regular health check-ups and immunization drives.
+    CorrectOptionIndex: 3
+    LevelName: health- guidance
+  - QuestionText: 'A teacher uses a "Sociodrama" to act out a scenario where a student
+      is pressured to smoke. This technique in health guidance is used to:'
+    Options:
+    - Teach complex biological processes.
+    - Develop resistance skills and practice making healthy choices in a safe environment.
+    - Diagnose respiratory illnesses.
+    - Promote smoking as a social activity.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'The primary responsibility for implementing health guidance in
+      a school lies with:'
+    Options:
+    - The principal alone
+    - A collaborative team including teachers, counselors, parents, and health professionals.
+    - The students themselves
+    - External government agencies only
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'A student with asthma needs an inhaler during physical education
+      class. The health guidance policy should ensure:'
+    Options:
+    - The student is excluded from all physical activities.
+    - The student is forced to participate without any accommodations.
+    - The condition is kept secret to avoid embarrassment.
+    - The teacher is aware of the condition and the student has access to their inhaler.
+    CorrectOptionIndex: 3
+    LevelName: health- guidance
+  - QuestionText: 'The "First-Aid Service" in a school is a component of:'
+    Options:
+    - Long-term health counseling
+    - Emergency and curative health care
+    - Vocational guidance
+    - Academic guidance
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'Health guidance is considered a continuous process because:'
+    Options:
+    - Health needs and challenges change throughout an individual's life.
+    - It is only needed during childhood.
+    - It is a one-time instruction at the beginning of the school year.
+    - Diseases are continuous.
+    CorrectOptionIndex: 0
+    LevelName: health- guidance
+  - QuestionText: 'A program that teaches adolescents about the physical and emotional
+      changes during puberty is an essential part of:'
+    Options:
+    - Vocational Health Guidance
+    - Sex Education and Health Guidance
+    - Nutritional Guidance
+    - Safety Education
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'A school notices a rising trend of obesity among students. To
+      address this effectively, the health guidance program should move beyond just
+      providing information and focus on:'
+    Options:
+    - Shaming overweight students in assembly.
+    - Collaborating with the canteen to provide healthier food options and integrating
+      fun physical activities into the daily routine.
+    - Banning all junk food without alternative options.
+    - Weighing students publicly every week.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'Evaluating two anti-drug campaigns: Campaign A uses fear-based
+      messaging with graphic images. Campaign B uses peer-led discussions focusing
+      on building life skills and resistance to peer pressure. Research in health
+      guidance suggests Campaign B is more effective because it:'
+    Options:
+    - Is less expensive to produce.
+    - Relies on authority figures to deliver the message.
+    - Uses more advanced technology.
+    - Empowers students with skills and is developmentally more appropriate.
+    CorrectOptionIndex: 3
+    LevelName: health- guidance
+  - QuestionText: 'A student is frequently bullied about their physical appearance,
+      leading to social withdrawal and declining grades. This situation best illustrates:'
+    Options:
+    - The clear separation between social and physical health.
+    - The interrelationship between social health (bullying), mental health (withdrawal),
+      and academic performance.
+    - A purely academic problem.
+    - An issue that can be solved by vocational guidance.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'In the context of a pandemic, the role of health guidance in schools
+      expands to include:'
+    Options:
+    - Ignoring safety protocols to maintain normalcy.
+    - Teaching and reinforcing hygiene practices, managing health-related anxiety,
+      and ensuring a safe school environment.
+    - Focusing only on the curriculum to compensate for lost time.
+    - Discouraging vaccination drives.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: A counselor uses a "Stress Diary" to help a student identify triggers
+      and their physical/emotional responses. This technique is part of which step
+      in health guidance?
+    Options:
+    - Diagnosis and Awareness
+    - Surgical Intervention
+    - Vocational Planning
+    - Immunization
+    CorrectOptionIndex: 0
+    LevelName: health- guidance
+  - QuestionText: 'The ethical principle of "confidentiality" in health guidance
+      is crucial, but it must be breached if:'
+    Options:
+    - A student tells a minor secret.
+    - There is a clear and imminent danger to the student or others (e.g., suicidal
+      ideation).
+    - The teacher is curious about a student's condition.
+    - The parents are generally interested.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'A school''s health guidance program that includes yoga and mindfulness
+      sessions is primarily aiming to promote:'
+    Options:
+    - Physical strength and flexibility only.
+    - Mental and emotional regulation and reduce stress.
+    - Competitive sports performance.
+    - Religious practices.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'A student from a low-income family has vision problems but cannot
+      afford glasses. An effective health guidance program would have a mechanism
+      to:'
+    Options:
+    - Ignore the issue as it is a family matter.
+    - Punish the parents for negligence.
+    - Tell the student to sit closer to the board.
+    - Provide information and facilitate access to community health resources or
+      assistance programs.
+    CorrectOptionIndex: 3
+    LevelName: health- guidance
+  - QuestionText: 'The "Eclectic Approach" in health guidance means the counselor:'
+    Options:
+    - Uses only one specific method.
+    - Selects techniques from various approaches (e.g., cognitive, behavioral, informational)
+      based on the health issue.
+    - Deals only with electrical health equipment.
+    - Refers all cases to a doctor.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'A teacher incorporates lessons on "Digital Eye Strain" and "Ergonomics"
+      into the computer science curriculum. This is an example of:'
+    Options:
+    - Isolating health guidance from other subjects.
+    - Integrating health guidance across the curriculum.
+    - Vocational guidance for IT professionals.
+    - An unnecessary addition to the syllabus.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'The concept of "Health Literacy" refers to a person''s ability
+      to:'
+    Options:
+    - Read medical textbooks.
+    - Perform first-aid surgery.
+    - Diagnose their own illnesses.
+    - Obtain, process, and understand basic health information to make appropriate
+      health decisions.
+    CorrectOptionIndex: 3
+    LevelName: health- guidance
+  - QuestionText: 'A "Crisis Intervention" team in a school dealing with a traumatic
+      event (e.g., a natural disaster) is providing:'
+    Options:
+    - Long-term academic support
+    - Immediate mental health guidance and psychological first aid
+    - Vocational counseling
+    - Physical rehabilitation
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'The principle of "Individual Differences" in health guidance acknowledges
+      that:'
+    Options:
+    - All students have the same health needs.
+    - Health advice must be tailored to a student's specific condition, abilities,
+      and background.
+    - Only genetically superior students deserve health guidance.
+    - Health is a one-size-fits-all concept.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'A school''s "Health Council" comprising students, teachers, and
+      parents is an effective way to ensure:'
+    Options:
+    - That health guidance remains a top-down administrative function.
+    - That health programs are implemented without feedback.
+    - That only medical professionals have a say.
+    - Cooperation and shared responsibility for the school's health environment.
+    CorrectOptionIndex: 3
+    LevelName: health- guidance
+  - QuestionText: 'A student recovering from a major illness needs to reintegrate
+      into school. The health guidance program should include:'
+    Options:
+    - Ignoring the past illness completely.
+    - A reintegration plan that may include academic adjustments and emotional support.
+    - Forcing the student to catch up on all missed work immediately.
+    - Isolating the student from peers to prevent relapse.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'The "Audiometric Test" conducted in schools is a screening tool
+      for:'
+    Options:
+    - Visual acuity
+    - Hearing ability
+    - Lung capacity
+    - Blood pressure
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'A guidance program that focuses on helping students develop healthy
+      communication skills and resist peer pressure to engage in risky behaviors
+      is fostering:'
+    Options:
+    - Academic excellence
+    - Artistic talent
+    - Vocational skills
+    - Personal and social health
+    CorrectOptionIndex: 3
+    LevelName: health- guidance
+  - QuestionText: 'In the context of health guidance, "modeling" refers to:'
+    Options:
+    - Building plastic models of human organs.
+    - The process where teachers and staff demonstrate healthy behaviors for students
+      to emulate.
+    - A fashion show for students.
+    - A type of medical treatment.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'The ultimate aim of school health guidance is to:'
+    Options:
+    - Create a generation of doctors.
+    - Empower students to take responsibility for their own health and well-being.
+    - Ensure 100% attendance in school.
+    - Compete with other schools in health quizzes.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'A teacher suspects a student is being neglected at home, evidenced
+      by poor hygiene and constant hunger. The teacher''s ethical duty is to:'
+    Options:
+    - Ignore it to avoid involvement.
+    - Provide the student with food secretly without reporting.
+    - Publicly admonish the parents.
+    - Follow the school's protocol for reporting suspected child neglect or abuse.
+    CorrectOptionIndex: 3
+    LevelName: health- guidance
+  - QuestionText: 'A student with diabetes needs to monitor their blood sugar levels
+      during school hours. An effective health guidance policy ensures:'
+    Options:
+    - The student is hidden from view to avoid stigma.
+    - The student has a designated, safe space to manage their condition and staff
+      are trained to recognize emergencies.
+    - The student is not allowed to participate in any school events.
+    - The condition is kept confidential from all school staff.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'The "Hygiene Education" component of health guidance includes
+      teaching about:'
+    Options:
+    - Personal cleanliness, oral hygiene, and public sanitation.
+    - Advanced surgical techniques.
+    - Stock market investments.
+    - Literary criticism.
+    CorrectOptionIndex: 0
+    LevelName: health- guidance
+  - QuestionText: A school that has a clear policy against smoking on campus and
+      provides cessation support is addressing health at which level?
+    Options:
+    - Only the individual level
+    - The organizational and environmental level
+    - Only the national level
+    - The extraterrestrial level
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'The "Role Play" technique in health guidance is particularly effective
+      for:'
+    Options:
+    - Teaching complex medical terminology.
+    - Measuring physical fitness.
+    - Diagnosing physical ailments.
+    - Practicing how to say "no" to unhealthy offers and developing empathy.
+    CorrectOptionIndex: 3
+    LevelName: health- guidance
+  - QuestionText: 'A counselor helps a student with obesity set small, achievable
+      goals for diet and exercise rather than focusing on rapid weight loss. This
+      approach aligns with the principle of:'
+    Options:
+    - Instant gratification
+    - Realistic and sustainable behavior change
+    - Punishment for poor habits
+    - Genetic determinism
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'The "Cumulative Health Record" of a student is important because
+      it:'
+    Options:
+    - Is used to compare students' health status.
+    - Provides a continuous history that can track growth patterns and identify recurring
+      issues.
+    - Is shared with other students for awareness.
+    - Replaces the need for a family doctor.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance
+  - QuestionText: 'In a culturally diverse classroom, effective health guidance must
+      consider:'
+    Options:
+    - Imposing a single, universal diet plan.
+    - Promoting only Western medicine.
+    - Ignoring cultural differences for the sake of equality.
+    - Cultural beliefs and practices related to food, illness, and treatment.
+    CorrectOptionIndex: 3
+    LevelName: health- guidance
+  - QuestionText: 'A school''s failure to provide a comprehensive health guidance
+      program can contribute to:'
+    Options:
+    - An increase in preventable health issues and a decline in student well-being.
+    - Improved academic focus by eliminating distractions.
+    - Higher scores in mathematics.
+    - A reduction in the school's operational cost.
+    CorrectOptionIndex: 0
+    LevelName: health- guidance
+  - QuestionText: 'A "guidance-minded" physical education teacher would focus on:'
+    Options:
+    - Identifying and training only the most athletic students for competition.
+    - Promoting lifelong fitness, sportsmanship, and the health benefits of activity
+      for all students.
+    - Eliminating games that involve physical contact.
+    - Using the class time for academic tutoring.
+    CorrectOptionIndex: 1
+    LevelName: health- guidance

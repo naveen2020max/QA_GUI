@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: research ethics
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary goal of research ethics?
+    Options:
+    - To make research more complicated
+    - To ensure the protection of participants' rights and welfare, and the integrity
+      of the research
+    - To speed up the publication process
+    - To guarantee positive results
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'The principle of "Informed Consent" requires that participants:'
+    Options:
+    - Are forced to participate
+    - Do not know they are in a study
+    - Are paid a large sum of money
+    - Are provided with all relevant information and voluntarily agree to participate
+    CorrectOptionIndex: 3
+    LevelName: research ethics
+  - QuestionText: Which ethical principle emphasizes minimizing potential harm and
+      maximizing benefits to participants?
+    Options:
+    - Justice
+    - Respect for Persons
+    - Beneficence
+    - Fidelity
+    CorrectOptionIndex: 2
+    LevelName: research ethics
+  - QuestionText: 'The principle of "Justice" in research ethics primarily concerns
+      the:'
+    Options:
+    - Speed of the research
+    - Fair selection of participants and distribution of benefits and burdens
+    - Researcher's salary
+    - Number of publications
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'Deception in research is:'
+    Options:
+    - Always acceptable
+    - Only for psychological studies
+    - Never allowed under any circumstances
+    - Sometimes permissible but must be justified, and participants must be debriefed
+      afterward
+    CorrectOptionIndex: 3
+    LevelName: research ethics
+  - QuestionText: 'The process of explaining the true purpose of a study to participants
+      after their involvement, especially if deception was used, is called:'
+    Options:
+    - Consent
+    - Debriefing
+    - Deception
+    - Confidentiality
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'Protecting the identity and personal information of participants
+      is known as:'
+    Options:
+    - Consent
+    - Debriefing
+    - Confidentiality
+    - Anonymity
+    CorrectOptionIndex: 2
+    LevelName: research ethics
+  - QuestionText: 'When even the researcher cannot link data to a specific participant,
+      it is called:'
+    Options:
+    - Confidentiality
+    - Anonymity
+    - Debriefing
+    - Justice
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: The Tuskegee Syphilis Study is a classic example of a violation
+      of which ethical principle?
+    Options:
+    - Beneficence
+    - Scientific Integrity
+    - Fidelity
+    - Justice and Respect for Persons
+    CorrectOptionIndex: 3
+    LevelName: research ethics
+  - QuestionText: 'The Belmont Report is a foundational document that outlines three
+      basic ethical principles for research involving human subjects. These are:'
+    Options:
+    - Honesty, Integrity, Objectivity
+    - Respect for Persons, Beneficence, Justice
+    - Confidentiality, Anonymity, Consent
+    - Validity, Reliability, Generalizability
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'An Institutional Review Board (IRB) or Ethics Committee is responsible
+      for:'
+    Options:
+    - Funding research projects
+    - Analyzing research data
+    - Writing research papers
+    - Reviewing research proposals to ensure they are ethically sound
+    CorrectOptionIndex: 3
+    LevelName: research ethics
+  - QuestionText: 'Research involving "vulnerable populations" (e.g., children, prisoners)
+      requires:'
+    Options:
+    - Less ethical scrutiny
+    - Extra protections and careful review by the IRB
+    - No consent
+    - Mandatory participation
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'Plagiarism is defined as:'
+    Options:
+    - Citing sources too much
+    - Collaborating with others
+    - Using others' ideas, words, or work without giving proper credit
+    - Publishing negative results
+    CorrectOptionIndex: 2
+    LevelName: research ethics
+  - QuestionText: 'Fabrication of research data involves:'
+    Options:
+    - Analyzing data incorrectly
+    - Making up data or results and recording or reporting them
+    - Losing data
+    - Using outdated data
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'Falsification of research involves:'
+    Options:
+    - Manipulating research materials, equipment, or processes to distort results
+    - Publishing in a low-impact journal
+    - Having a small sample size
+    - Using qualitative methods
+    CorrectOptionIndex: 0
+    LevelName: research ethics
+  - QuestionText: 'The term "Conflict of Interest" in research refers to a situation
+      where:'
+    Options:
+    - The researcher has no interests
+    - A researcher's personal or financial interests could compromise the objectivity
+      or integrity of the research
+    - The research is too interesting
+    - Participants have conflicting opinions
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: Why is it ethically important to report non-significant or negative
+      results?
+    Options:
+    - To make the literature review longer
+    - To criticize other researchers
+    - Because journals require it
+    - To prevent publication bias and provide a complete picture of the research
+      landscape
+    CorrectOptionIndex: 3
+    LevelName: research ethics
+  - QuestionText: 'Data manipulation that involves omitting or altering data points
+      to get a desired result is a form of:'
+    Options:
+    - Good research practice
+    - Falsification, which is scientific misconduct
+    - Valid statistical analysis
+    - Data cleaning
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'The practice of "p-hacking" (data dredging) is unethical because
+      it:'
+    Options:
+    - Saves time
+    - Always leads to valid conclusions
+    - Is too expensive
+    - Involves trying many analyses until a statistically significant result is found,
+      inflating the Type I error rate
+    CorrectOptionIndex: 3
+    LevelName: research ethics
+  - QuestionText: '"Salami Slicing" in publication refers to:'
+    Options:
+    - Cutting up research materials
+    - Unethfully publishing the least publishable unit of research from a single
+      study in multiple papers
+    - A valid way to increase productivity
+    - A data analysis technique
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: "Assertion (A):\_Ethical review is necessary even for low-risk
+      research.\_Reason (R):\_All research involving human participants has the potential
+      for ethical violation and requires oversight to protect them."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: research ethics
+  - QuestionText: Contrast "Confidentiality" and "Anonymity."
+    Options:
+    - They are the same.
+    - 'Confidentiality: the researcher knows but protects the identity. Anonymity:
+      the researcher does not know the identity at all.'
+    - Anonymity is for animals, confidentiality for humans.
+    - Confidentiality is only for medical records.
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'A researcher uses a participant''s direct quotation in a publication
+      without ensuring the participant cannot be identified. This is a potential
+      breach of:'
+    Options:
+    - Informed Consent
+    - Justice
+    - Confidentiality
+    - Beneficence
+    CorrectOptionIndex: 2
+    LevelName: research ethics
+  - QuestionText: 'Obtaining consent from a parent or guardian for a child to participate
+      in research is an application of the principle of:'
+    Options:
+    - Justice
+    - Respect for Persons (specifically for vulnerable populations)
+    - Beneficence
+    - Fidelity
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'The concept of "Scientific Integrity" encompasses:'
+    Options:
+    - Only data analysis
+    - Obtaining large grants
+    - Getting published in top journals
+    - Honesty, rigor, transparency, and accountability in all aspects of research
+    CorrectOptionIndex: 3
+    LevelName: research ethics
+  - QuestionText: Which of the following is an ethical obligation of a researcher
+      towards their colleagues?
+    Options:
+    - To hide their methods
+    - To give appropriate credit through authorship and citation
+    - To always agree with them
+    - To share raw data without any agreement
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'The unethical assignment of participants to a control group that
+      is denied a beneficial treatment is a violation of:'
+    Options:
+    - Confidentiality
+    - Respect for Persons only
+    - Beneficence and Justice
+    - Fidelity
+    CorrectOptionIndex: 2
+    LevelName: research ethics
+  - QuestionText: When is it ethically permissible to waive the requirement for documented
+      informed consent?
+    Options:
+    - When the research is very important
+    - Only under very specific conditions approved by an IRB, such as minimal risk
+      and where consent is impractical
+    - When the researcher is in a hurry
+    - When participants are uneducated
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'The primary purpose of an "Ethics Committee" or "IRB" is to function
+      as a:'
+    Options:
+    - Funding agency
+    - Peer-review journal
+    - Independent body that safeguards the rights, safety, and well-being of research
+      participants
+    - Statistical consultant
+    CorrectOptionIndex: 2
+    LevelName: research ethics
+  - QuestionText: '"Self-plagiarism" refers to:'
+    Options:
+    - Stealing from oneself, which is impossible
+    - Reusing one's own previously published work without acknowledgment, misleading
+      readers into thinking it is new
+    - Citing one's own work
+    - Publishing the same paper in two languages
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'A researcher feels pressure from their supervisor to produce significant
+      results. This is an example of a(n):'
+    Options:
+    - Ethical research environment
+    - Conflict of interest
+    - Normal part of academic life
+    - Situation that could lead to misconduct due to undue influence
+    CorrectOptionIndex: 3
+    LevelName: research ethics
+  - QuestionText: 'The ethical principle of "Fidelity" refers to:'
+    Options:
+    - Financial responsibility
+    - '** faithfulness and fairness in relationships, keeping promises, and establishing
+      trust**'
+    - Data accuracy
+    - Laboratory safety
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'Using someone else''s ideas from a conversation without permission
+      or credit is a form of:'
+    Options:
+    - Plagiarism
+    - Valid collaboration
+    - Paraphrasing
+    - Networking
+    CorrectOptionIndex: 0
+    LevelName: research ethics
+  - QuestionText: 'The "Common Rule" in the United States refers to:'
+    Options:
+    - A statistical rule
+    - The federal policy for the protection of human subjects
+    - A rule about data sharing
+    - A publishing guideline
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'Ethical research conduct requires that data be:'
+    Options:
+    - Retained for a reasonable period to allow for verification and replication
+    - Destroyed immediately
+    - Shared with everyone online
+    - Kept only by the principal investigator
+    CorrectOptionIndex: 0
+    LevelName: research ethics
+  - QuestionText: '"Ghost authorship" is unethical because it:'
+    Options:
+    - Involves writing about ghosts
+    - Hides the contributions of someone who made a significant contribution to the
+      research/writing
+    - Uses too many authors
+    - Is a type of plagiarism
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'A key ethical consideration in online research is:'
+    Options:
+    - The speed of the internet
+    - Having a fast computer
+    - Using the latest software
+    - Obtaining informed consent when participants may not be fully aware they are
+      in a study
+    CorrectOptionIndex: 3
+    LevelName: research ethics
+  - QuestionText: 'The principle of "Respect for Persons" incorporates two key ethical
+      convictions:'
+    Options:
+    - Justice and fairness
+    - Individuals should be treated as autonomous agents, and persons with diminished
+      autonomy are entitled to protection
+    - Beneficence and non-maleficence
+    - Confidentiality and anonymity
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'Offering excessive payment to participants is ethically problematic
+      because it may constitute:'
+    Options:
+    - A good incentive
+    - A fair wage
+    - Undue inducement, which can compromise voluntary participation
+    - A way to ensure justice
+    CorrectOptionIndex: 2
+    LevelName: research ethics
+  - QuestionText: 'The ethical responsibility to report suspected research misconduct
+      lies with:'
+    Options:
+    - No one
+    - All members of the research community
+    - Only journal editors
+    - Only the institution's president
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'A researcher uses a pre-existing dataset without permission. This
+      violates the ethical standard of:'
+    Options:
+    - Data analysis
+    - Informed consent
+    - Respecting intellectual property and obtaining necessary permissions
+    - Justice
+    CorrectOptionIndex: 2
+    LevelName: research ethics
+  - QuestionText: 'The concept of "Minimal Risk" in research means that:'
+    Options:
+    - There is no risk
+    - The probability and magnitude of harm are not greater than those encountered
+      in daily life
+    - The risk is minimal for the researcher
+    - Only physical risk is considered
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'Ethical peer review requires that reviewers:'
+    Options:
+    - Maintain confidentiality of the manuscript and not use the ideas for their
+      own advantage
+    - Quickly reject the paper
+    - Contact the author directly
+    - Share the manuscript with colleagues
+    CorrectOptionIndex: 0
+    LevelName: research ethics
+  - QuestionText: 'A researcher changes their hypothesis after results are known
+      (HARKing) and presents it as if it was a priori. This is:'
+    Options:
+    - A good strategy
+    - Questionable research practice that undermines the hypothetico-deductive method
+    - Required for publication
+    - A form of data analysis
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'The "Precautionary Principle" in research ethics suggests that:'
+    Options:
+    - Research should never be done
+    - Only certain risks matter
+    - All risks are acceptable
+    - If an action has a suspected risk of causing harm, the burden of proof that
+      it is not harmful falls on those taking the action
+    CorrectOptionIndex: 3
+    LevelName: research ethics
+  - QuestionText: 'Ethical treatment of animal subjects requires adherence to the
+      "3 Rs," which are:'
+    Options:
+    - Read, Write, Arithmetic
+    - Replacement, Reduction, Refinement
+    - Respect, Responsibility, Rigor
+    - Review, Report, Retain
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'A student uses a paper written by a friend from a previous year
+      and submits it as their own work. This is:'
+    Options:
+    - Collaboration
+    - Peer review
+    - Plagiarism and academic dishonesty
+    - Recycling
+    CorrectOptionIndex: 2
+    LevelName: research ethics
+  - QuestionText: 'The primary reason for ethical training in research is to:'
+    Options:
+    - Delay research projects
+    - Develop a researcher's moral compass and ability to navigate ethical dilemmas
+    - Satisfy administrative requirements
+    - Learn about historical cases only
+    CorrectOptionIndex: 1
+    LevelName: research ethics
+  - QuestionText: 'An "Ethical Dilemma" in research occurs when:'
+    Options:
+    - The data is clear
+    - The sample size is large
+    - The IRB approves a study
+    - Two or more ethical principles conflict, and there is no obvious right choice
+    CorrectOptionIndex: 3
+    LevelName: research ethics
+  - QuestionText: 'The most fundamental principle underlying all research ethics
+      is:'
+    Options:
+    - Productivity
+    - Respect for the dignity and rights of all individuals involved in or affected
+      by the research
+    - Speed of publication
+    - Cost-effectiveness
+    CorrectOptionIndex: 1
+    LevelName: research ethics

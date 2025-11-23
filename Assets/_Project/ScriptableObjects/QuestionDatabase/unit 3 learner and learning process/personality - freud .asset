@@ -1,0 +1,460 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: 'personality - freud '
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: "The literal meaning of the term \"personality\" is derived from
+      the Latin word\_persona, which referred to:"
+    Options:
+    - The inner self
+    - A theatrical mask
+    - A soul or spirit
+    - A character in a story
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'According to Freud, the component of personality that operates
+      on the "reality principle" is the:'
+    Options:
+    - Id
+    - Ego
+    - Superego
+    - Libido
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'The primary driving force of the Id, according to Freudian theory,
+      is the:'
+    Options:
+    - Morality principle
+    - Reality principle
+    - Pleasure principle
+    - Nirvana principle
+    CorrectOptionIndex: 2
+    LevelName: 'personality - freud '
+  - QuestionText: Freud's theory of personality is primarily rooted in which perspective?
+    Options:
+    - Humanistic
+    - Behaviorist
+    - Psychodynamic
+    - Trait
+    CorrectOptionIndex: 2
+    LevelName: 'personality - freud '
+  - QuestionText: 'In Freud''s structural model, the part of personality that acts
+      as the moral guardian or conscience is the:'
+    Options:
+    - Ego Ideal
+    - Ego
+    - Id
+    - Superego
+    CorrectOptionIndex: 3
+    LevelName: 'personality - freud '
+  - QuestionText: 'The psychic energy that fuels all psychological activity is called:'
+    Options:
+    - Thanatos
+    - Libido
+    - Catharsis
+    - Fixation
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'The correct sequence of Freud''s psychosexual stages is:'
+    Options:
+    - Oral, Genital, Latency, Phallic, Anal
+    - Oral, Anal, Phallic, Latency, Genital
+    - Anal, Oral, Phallic, Genital, Latency
+    - Phallic, Latency, Oral, Anal, Genital
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'Freud''s concept of "Thanatos" represents the:'
+    Options:
+    - Life instinct
+    - Psychic energy
+    - Death instinct
+    - Reality principle
+    CorrectOptionIndex: 2
+    LevelName: 'personality - freud '
+  - QuestionText: The Oedipus Complex is a critical conflict during which psychosexual
+      stage?
+    Options:
+    - Oral Stage
+    - Anal Stage
+    - Phallic Stage
+    - Genital Stage
+    CorrectOptionIndex: 2
+    LevelName: 'personality - freud '
+  - QuestionText: 'A defense mechanism that involves reverting to behaviors characteristic
+      of an earlier stage of development is called:'
+    Options:
+    - Projection
+    - Rationalization
+    - Displacement
+    - Regression
+    CorrectOptionIndex: 3
+    LevelName: 'personality - freud '
+  - QuestionText: A student who is angry with their professor but goes home and yells
+      at their roommate is demonstrating which Freudian defense mechanism?
+    Options:
+    - Reaction Formation
+    - Displacement
+    - Sublimation
+    - Projection
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'If a person''s ego were unable to balance the demands of the id
+      and the superego, Freud would suggest that the person may develop:'
+    Options:
+    - Peak experiences
+    - Conditions of worth
+    - Anxiety and neurotic behaviors
+    - A fully self-actualized personality
+    CorrectOptionIndex: 2
+    LevelName: 'personality - freud '
+  - QuestionText: A person who develops an excessive need for orderliness and control
+      might, according to Freud, have experienced a fixation at which stage?
+    Options:
+    - Oral Stage
+    - Anal Stage
+    - Phallic Stage
+    - Genital Stage
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'The concept of "sublimation" is considered a mature defense mechanism
+      because it:'
+    Options:
+    - Distorts reality completely.
+    - Allows the id to express its desires directly.
+    - Pushes conflicts deep into the unconscious.
+    - Channels unacceptable impulses into socially acceptable activities.
+    CorrectOptionIndex: 3
+    LevelName: 'personality - freud '
+  - QuestionText: 'A man who has unconscious feelings of hostility toward his father
+      but who instead experiences those feelings as his father being hostile toward
+      him is using:'
+    Options:
+    - Displacement
+    - Projection
+    - Regression
+    - Rationalization
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'According to Freud, the purpose of dream analysis is to:'
+    Options:
+    - Predict the future.
+    - Understand the manifest content and uncover the latent content.
+    - Strengthen the reality principle.
+    - Measure libidinal energy.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: A child who resolves the Oedipus Complex by identifying with the
+      same-sex parent is primarily strengthening which part of their personality?
+    Options:
+    - The Id
+    - The Ego
+    - The Superego
+    - The Libido
+    CorrectOptionIndex: 2
+    LevelName: 'personality - freud '
+  - QuestionText: 'The "reality principle" is best described as:'
+    Options:
+    - The immediate gratification of desires.
+    - The delay of gratification until an appropriate outlet is found.
+    - The adherence to moral strictures.
+    - The internalization of societal rules.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'Freud believed that personality development is largely determined
+      by:'
+    Options:
+    - The events of the first five years of life.
+    - The hormonal changes of adolescence.
+    - The social influences of adulthood.
+    - The genetic makeup inherited at birth.
+    CorrectOptionIndex: 0
+    LevelName: 'personality - freud '
+  - QuestionText: 'A person who consistently volunteers at a shelter to cope with
+      their own unconscious aggressive impulses is demonstrating:'
+    Options:
+    - Reaction Formation
+    - Sublimation
+    - Denial
+    - Fixation
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'Critically analyzing Freud''s theory, a major criticism from a
+      scientific standpoint is that it:'
+    Options:
+    - Is too optimistic about human nature.
+    - Lacks falsifiability and is difficult to test empirically.
+    - Overemphasizes conscious motivations.
+    - Ignores the role of early childhood experiences.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: A teacher who is overly strict and punitive might, from a Freudian
+      perspective, be fostering the development of a particularly strong ______ in
+      their students.
+    Options:
+    - Id
+    - Ego
+    - Superego
+    - Libido
+    CorrectOptionIndex: 2
+    LevelName: 'personality - freud '
+  - QuestionText: 'If Freud''s concept of "penis envy" were reinterpreted from a
+      modern, socio-cultural perspective, it might be seen as a metaphor for:'
+    Options:
+    - Biological determinism.
+    - Women's desire for the social power and privilege accorded to men.
+    - The inherent superiority of men.
+    - The fixation at the phallic stage.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'A student who fails an exam and claims, "The professor writes
+      terrible questions; it''s not my fault," is likely using the defense mechanism
+      of:'
+    Options:
+    - Regression
+    - Projection
+    - Sublimation
+    - Rationalization
+    CorrectOptionIndex: 3
+    LevelName: 'personality - freud '
+  - QuestionText: 'Comparing Freud''s Id to a modern understanding of the brain,
+      the Id''s functions are most closely associated with the:'
+    Options:
+    - Prefrontal cortex, responsible for planning and decision-making.
+    - Limbic system, responsible for emotions and impulses.
+    - Cerebellum, responsible for motor control.
+    - Corpus callosum, responsible for connecting hemispheres.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'A fundamental difference between the Ego and the Superego is that
+      the Ego:'
+    Options:
+    - Is entirely unconscious.
+    - Seeks to gratify impulses morally.
+    - Mediates between internal desires and external reality.
+    - Is the source of psychic energy.
+    CorrectOptionIndex: 2
+    LevelName: 'personality - freud '
+  - QuestionText: 'The psychoanalytic technique of "free association" is designed
+      to:'
+    Options:
+    - Provide a structured learning environment.
+    - Bypass the ego's defenses and access unconscious material.
+    - Strengthen the superego's control.
+    - Measure conditioned responses.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'A person with an "oral receptive" personality is likely to be
+      characterized as:'
+    Options:
+    - Stingy and orderly.
+    - Dependent and trusting.
+    - Vain and ambitious.
+    - Productive and mature.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'From an educational perspective, a major limitation of strictly
+      applying Freud''s theory in the classroom is that it:'
+    Options:
+    - Overemphasizes the role of reinforcement.
+    - Focuses only on observable behaviors.
+    - Provides too many specific strategies for classroom management.
+    - Is overly deterministic and pays little attention to current conscious processes
+      and learning.
+    CorrectOptionIndex: 3
+    LevelName: 'personality - freud '
+  - QuestionText: 'The concept of "fixation" implies that unresolved conflicts lead
+      to:'
+    Options:
+    - The cessation of personality development.
+    - The continued influence of early stage characteristics in adult personality.
+    - A stronger libido in later stages.
+    - The complete repression of the id.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: A politician who campaigns for "family values" while having secret
+      extramarital affairs might be demonstrating which defense mechanism?
+    Options:
+    - Sublimation
+    - Reaction Formation
+    - Displacement
+    - Denial
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'Freud''s emphasis on sexual instincts as the primary driver of
+      behavior was controversial in his time and is often criticized today for:'
+    Options:
+    - Ignoring the role of the unconscious mind.
+    - Overemphasizing free will.
+    - Focusing too much on cognitive processes.
+    - Being reductionist and neglecting other motivations like competence and belonging.
+    CorrectOptionIndex: 3
+    LevelName: 'personality - freud '
+  - QuestionText: 'In the context of Freudian theory, a "parapraxis" (Freudian slip)
+      occurs when:'
+    Options:
+    - The superego successfully suppresses the id.
+    - The ego rationally decides on a course of action.
+    - An unconscious thought or feeling breaks through in a speech or action error.
+    - A person achieves self-actualization.
+    CorrectOptionIndex: 2
+    LevelName: 'personality - freud '
+  - QuestionText: 'The primary goal of psychoanalytic therapy is to:'
+    Options:
+    - Modify maladaptive behaviors through conditioning.
+    - Bring unconscious conflicts into conscious awareness to achieve insight.
+    - Change irrational beliefs through logical disputation.
+    - Create a supportive environment for self-actualization.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'A key difference between the manifest content and the latent content
+      of a dream is that latent content is:'
+    Options:
+    - The actual storyline of the dream.
+    - The symbolic, hidden meaning of the dream.
+    - The part of the dream that is easily remembered.
+    - The censored version of the dream thoughts.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'A teacher who understands Freudian theory would interpret a child''s
+      habitual chewing on pencils and other objects as a possible sign of:'
+    Options:
+    - An anal fixation.
+    - A phallic fixation.
+    - An oral fixation.
+    - A genital fixation.
+    CorrectOptionIndex: 2
+    LevelName: 'personality - freud '
+  - QuestionText: 'The structural model of personality (Id, Ego, Superego) is primarily
+      a:'
+    Options:
+    - Topographical model of the mind.
+    - Developmental stage model.
+    - Theory of moral reasoning.
+    - Description of personality types.
+    CorrectOptionIndex: 0
+    LevelName: 'personality - freud '
+  - QuestionText: 'Neo-Freudians like Erik Erikson differed from Freud primarily
+      by:'
+    Options:
+    - Placing less emphasis on social and cultural factors.
+    - Focusing only on the first six years of life.
+    - Emphasizing psychosocial development across the entire lifespan.
+    - Rejecting the concept of the unconscious entirely.
+    CorrectOptionIndex: 2
+    LevelName: 'personality - freud '
+  - QuestionText: 'A student who experiences test anxiety might, from a Freudian
+      view, be struggling with an unconscious conflict between:'
+    Options:
+    - The id's desire to play and the superego's demand for academic success.
+    - The ego's reality principle and the superego's morality principle.
+    - The id's aggressive impulses and the ego's defense mechanisms.
+    - The libido and thanatos.
+    CorrectOptionIndex: 0
+    LevelName: 'personality - freud '
+  - QuestionText: 'Freud''s theory has been criticized for its:'
+    Options:
+    - Over-reliance on empirical evidence from laboratory experiments.
+    - Male-centered view of development and its portrayal of women.
+    - Emphasis on free will and conscious decision-making.
+    - Lack of any concepts related to conflict or anxiety.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'The process by which the ego pushes anxiety-provoking material
+      out of conscious awareness is called:'
+    Options:
+    - Projection
+    - Rationalization
+    - Regression
+    - Repression
+    CorrectOptionIndex: 3
+    LevelName: 'personality - freud '
+  - QuestionText: 'A person who is excessively neat, punctual, and stubborn might
+      be characterized by Freud as having an "anal-retentive" personality, resulting
+      from:'
+    Options:
+    - Overindulgence during the oral stage.
+    - Overly strict and early toilet training.
+    - Unresolved Oedipal conflicts.
+    - Fixation at the genital stage.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'In Freud''s view, a healthy personality is one where:'
+    Options:
+    - The id dominates the ego and superego.
+    - The superego completely suppresses the id.
+    - The ego successfully balances the demands of the id, superego, and reality.
+    - There is no conflict between the three structures.
+    CorrectOptionIndex: 2
+    LevelName: 'personality - freud '
+  - QuestionText: 'The Electra Complex is the female counterpart to the Oedipus Complex.
+      A key difference, according to Freud, is that it is resolved through:'
+    Options:
+    - Identification with the father.
+    - The desire for a penis, which is substituted by the desire for a baby.
+    - Castration anxiety.
+    - The development of the latency period.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'The concept of "libido" in Freudian theory is best understood
+      as:'
+    Options:
+    - A general life force energy that can be invested in activities and people.
+    - A specific urge for sexual intercourse.
+    - The energy of the death instinct.
+    - The power of the superego.
+    CorrectOptionIndex: 0
+    LevelName: 'personality - freud '
+  - QuestionText: 'A fundamental assumption of Freud''s psychodynamic theory is that:'
+    Options:
+    - Behavior is shaped by its consequences.
+    - Human behavior is motivated by unconscious mental processes.
+    - Personality is composed of stable traits.
+    - People are inherently good and strive for growth.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'From an educational standpoint, Freud''s greatest contribution
+      was likely:'
+    Options:
+    - Providing specific lesson plans for different age groups.
+    - Highlighting the importance of early experiences and emotional factors on learning.
+    - Denying the role of biology in personality.
+    - Creating standardized tests for personality assessment.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'A person who refuses to acknowledge a painful reality, such as
+      a terminal medical diagnosis, is using the defense mechanism of:'
+    Options:
+    - Denial
+    - Displacement
+    - Intellectualization
+    - Sublimation
+    CorrectOptionIndex: 0
+    LevelName: 'personality - freud '
+  - QuestionText: 'The latency stage is characterized by:'
+    Options:
+    - The dominance of the pleasure principle.
+    - The relative dormancy of sexual feelings and a focus on social and intellectual
+      skills.
+    - The emergence of the Oedipus complex.
+    - The consolidation of the superego.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '
+  - QuestionText: 'A core reason why Freud''s theory remains influential despite
+      its criticisms is that it:'
+    Options:
+    - Has been proven entirely correct by modern neuroscience.
+    - Introduced the powerful idea of the unconscious mind and internal conflict.
+    - Is simple and easy to test in a laboratory setting.
+    - Focuses exclusively on observable behavior.
+    CorrectOptionIndex: 1
+    LevelName: 'personality - freud '

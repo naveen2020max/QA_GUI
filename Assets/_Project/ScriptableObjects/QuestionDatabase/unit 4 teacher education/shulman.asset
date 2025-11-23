@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: shulman
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Lee Shulman first introduced the concept of "Pedagogical Content
+      Knowledge" (PCK) in which year?
+    Options:
+    - 1975
+    - 1986
+    - 1995
+    - 2001
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: According to Shulman, what is the core concept that distinguishes
+      a content expert from a teacher?
+    Options:
+    - General pedagogical knowledge
+    - Knowledge of learners
+    - Pedagogical Content Knowledge (PCK)
+    - Curriculum knowledge
+    CorrectOptionIndex: 2
+    LevelName: shulman
+  - QuestionText: 'Shulman criticized teacher education programs for focusing too
+      much on:'
+    Options:
+    - Content knowledge only
+    - Pedagogy without content
+    - The dichotomy between content and pedagogy
+    - Student psychology
+    CorrectOptionIndex: 2
+    LevelName: shulman
+  - QuestionText: 'In Shulman''s framework, knowledge of educational contexts would
+      include understanding of:'
+    Options:
+    - Only classroom management
+    - School cultures and community contexts
+    - Only national policies
+    - International education systems only
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: 'Shulman''s concept of "teacher knowledge as wisdom of practice"
+      emphasizes:'
+    Options:
+    - Theoretical knowledge only
+    - Practical experience and reflection
+    - Standardized test scores
+    - Years of teaching experience
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: 'The "missing paradigm" that Shulman identified in teacher assessment
+      was:'
+    Options:
+    - Assessment of teacher personality
+    - Analysis of classroom decoration skills
+    - Measurement of teaching speed
+    - Evaluation of content knowledge for teaching
+    CorrectOptionIndex: 3
+    LevelName: shulman
+  - QuestionText: According to Shulman, what does Pedagogical Content Knowledge (PCK)
+      specifically include?
+    Options:
+    - Knowledge of educational theories only
+    - The blending of content and pedagogy for effective teaching
+    - Student evaluation techniques only
+    - Classroom management strategies
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: 'Shulman emphasized that teachers need to transform subject matter
+      knowledge for teaching through:'
+    Options:
+    - Memorization
+    - Standardization
+    - Simplification only
+    - Representation and adaptation
+    CorrectOptionIndex: 3
+    LevelName: shulman
+  - QuestionText: In Shulman's view, what is the significance of "content knowledge"
+      in teaching?
+    Options:
+    - It is irrelevant to teaching effectiveness
+    - It is the foundation upon which PCK is built
+    - It is more important than all other knowledge types
+    - It can be completely replaced by general pedagogy
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: Shulman's research was particularly influential in developing which
+      teacher assessment method?
+    Options:
+    - Standardized testing
+    - Attendance records
+    - Multiple-choice exams
+    - Teaching portfolios
+    CorrectOptionIndex: 3
+    LevelName: shulman
+  - QuestionText: If a mathematics teacher uses analogies and examples to explain
+      algebraic concepts effectively, which aspect of Shulman's knowledge base are
+      they demonstrating?
+    Options:
+    - Content knowledge only
+    - Pedagogical Content Knowledge
+    - General pedagogical knowledge
+    - Knowledge of educational ends
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: How does Shulman's concept of PCK resolve the traditional conflict
+      between content experts and education specialists?
+    Options:
+    - By eliminating the need for content knowledge
+    - By prioritizing pedagogy over content
+    - By creating a new category that integrates both domains
+    - By focusing only on student psychology
+    CorrectOptionIndex: 2
+    LevelName: shulman
+  - QuestionText: 'A teacher understands why certain science concepts are difficult
+      for students and develops specific strategies to address these difficulties.
+      This demonstrates:'
+    Options:
+    - Only subject matter expertise
+    - Pedagogical Content Knowledge in action
+    - General teaching skills
+    - Administrative capability
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: According to Shulman, why is it insufficient for a teacher to only
+      have strong content knowledge?
+    Options:
+    - Because students don't need content knowledge
+    - Because teaching requires transforming content for learner understanding
+    - Because content knowledge is easy to acquire
+    - Because pedagogy is more important than content
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: 'Shulman''s framework suggests that teacher education programs
+      should focus on developing:'
+    Options:
+    - Either content knowledge or pedagogical skills
+    - Primarily theoretical knowledge
+    - Only classroom management techniques
+    - An integrated understanding of multiple knowledge domains
+    CorrectOptionIndex: 3
+    LevelName: shulman
+  - QuestionText: How does Shulman's concept of "knowledge growth in teaching" differ
+      from traditional views of teacher development?
+    Options:
+    - It emphasizes continuous learning across multiple knowledge domains
+    - It focuses only on gaining years of experience
+    - It prioritizes content knowledge acquisition only
+    - It suggests teaching skill is innate and cannot be developed
+    CorrectOptionIndex: 0
+    LevelName: shulman
+  - QuestionText: 'A history teacher uses primary sources, simulations, and debates
+      to teach historical thinking skills rather than just facts. This approach reflects:'
+    Options:
+    - Only content knowledge
+    - PCK in history education
+    - General pedagogy without content understanding
+    - Administrative efficiency
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: What is the relationship between content knowledge and pedagogical
+      content knowledge in Shulman's framework?
+    Options:
+    - They are identical concepts
+    - Content knowledge is irrelevant to PCK
+    - PCK builds upon content knowledge but transforms it for teaching
+    - PCK replaces the need for content knowledge
+    CorrectOptionIndex: 2
+    LevelName: shulman
+  - QuestionText: 'Shulman argued that teacher assessment should focus on:'
+    Options:
+    - Only paper qualifications
+    - The ability to articulate reasons for pedagogical choices
+    - Years of experience only
+    - Student test scores exclusively
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: 'The concept of "signature pedagogies" introduced by Shulman refers
+      to:'
+    Options:
+    - Teaching methods unique to specific disciplines
+    - Teachers' personal styles
+    - Universal teaching strategies
+    - Administrative procedures
+    CorrectOptionIndex: 0
+    LevelName: shulman
+  - QuestionText: 'A teacher educator designs a program where science teachers learn
+      both advanced physics and how to teach physics concepts to diverse learners.
+      This program aligns with Shulman''s emphasis on:'
+    Options:
+    - Separating content and pedagogy
+    - Developing integrated teacher knowledge
+    - Focusing only on content mastery
+    - Prioritizing general teaching methods
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: How does Shulman's concept of PCK challenge the traditional view
+      that "those who can, do; those who can't, teach"?
+    Options:
+    - By showing that teaching requires unique professional knowledge
+    - By agreeing that teaching requires less knowledge than other professions
+    - By suggesting that content knowledge is unimportant
+    - By emphasizing that anyone can teach with minimal training
+    CorrectOptionIndex: 0
+    LevelName: shulman
+  - QuestionText: In Shulman's framework, what would be the best evidence of a teacher's
+      PCK?
+    Options:
+    - Their own test scores in the subject
+    - Their ability to explain concepts in multiple ways appropriate to different
+      learners
+    - Their years of teaching experience
+    - Their popularity among students
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: A curriculum designer uses Shulman's framework to develop teacher
+      education courses. What approach would they most likely take?
+    Options:
+    - Courses separated into "content" and "methods" with no integration
+    - Courses based solely on practical classroom experience
+    - Courses focusing only on theoretical aspects of education
+    - Integrated courses that connect content learning with pedagogical applications
+    CorrectOptionIndex: 3
+    LevelName: shulman
+  - QuestionText: 'Shulman''s research originated from studies of:'
+    Options:
+    - Elementary reading teachers
+    - Medical education
+    - Secondary science and mathematics teachers
+    - University professors
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: How does Shulman's concept of "content knowledge" differ from what
+      a subject matter expert might possess?
+    Options:
+    - It is identical to what subject matter experts have
+    - It focuses only on facts and information
+    - It is less important than pedagogical knowledge
+    - It includes understanding how knowledge in the field is structured and developed
+    CorrectOptionIndex: 3
+    LevelName: shulman
+  - QuestionText: A teacher considers students' common misconceptions about a topic
+      when planning lessons. This demonstrates which aspect of Shulman's knowledge
+      base?
+    Options:
+    - General pedagogical knowledge
+    - Knowledge of learners and their characteristics
+    - Content knowledge only
+    - Curriculum knowledge
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: 'Shulman argued that teacher education should help teachers develop:'
+    Options:
+    - A fixed set of teaching techniques
+    - Primarily administrative skills
+    - Only content expertise
+    - The capacity to make reasoned pedagogical judgments
+    CorrectOptionIndex: 3
+    LevelName: shulman
+  - QuestionText: 'The concept of "pedagogical content knowledge" has been most influential
+      in reforming:'
+    Options:
+    - School building design
+    - Teacher certification and development programs
+    - Student uniform policies
+    - School transportation systems
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: According to Shulman, what is the relationship between theory and
+      practice in teacher knowledge?
+    Options:
+    - They should be kept separate
+    - Theory is more important than practice
+    - They should be integrated through reflection
+    - Practice should inform theory exclusively
+    CorrectOptionIndex: 2
+    LevelName: shulman
+  - QuestionText: 'A physics teacher uses specific analogies, demonstrations, and
+      representations that are particularly effective for teaching physics concepts.
+      This illustrates:'
+    Options:
+    - General teaching skills that work for all subjects
+    - Discipline-specific Pedagogical Content Knowledge
+    - Only content knowledge
+    - Classroom management techniques
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: How does Shulman's framework address the problem of teachers teaching
+      out-of-field?
+    Options:
+    - It suggests that good teachers can teach any subject
+    - It recommends reducing content requirements for teachers
+    - It emphasizes that pedagogy is more important than content
+    - It highlights the importance of subject-specific teaching knowledge
+    CorrectOptionIndex: 3
+    LevelName: shulman
+  - QuestionText: 'Shulman''s concept of teacher knowledge includes ethical dimensions.
+      This suggests that teachers need:'
+    Options:
+    - Only technical teaching skills
+    - Understanding of moral aspects of teaching
+    - Knowledge of law only
+    - Political affiliations
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: 'A teacher education program based on Shulman''s framework would
+      likely include:'
+    Options:
+    - Separate content and methods courses with no coordination
+    - Focus only on practical teaching tips
+    - Opportunities to analyze subject matter for teaching purposes
+    - Emphasis only on theoretical educational psychology
+    CorrectOptionIndex: 2
+    LevelName: shulman
+  - QuestionText: 'Shulman''s work has been particularly influential in the development
+      of:'
+    Options:
+    - Standardized student tests
+    - Teacher professional standards and assessments
+    - School architecture
+    - Textbook publishing
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: How does Shulman's concept of PCK contribute to the professionalization
+      of teaching?
+    Options:
+    - By identifying unique knowledge that defines teaching as a profession
+    - By suggesting that anyone can teach with minimal training
+    - By emphasizing that teaching requires no special knowledge
+    - By focusing only on personal qualities of teachers
+    CorrectOptionIndex: 0
+    LevelName: shulman
+  - QuestionText: 'A mathematics teacher knows multiple ways to represent fractions
+      and understands which representations work best for different learning needs.
+      This demonstrates:'
+    Options:
+    - Only mathematical ability
+    - Pedagogical Content Knowledge in mathematics
+    - General teaching enthusiasm
+    - Administrative efficiency
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: 'Shulman''s research method involved detailed case studies of teaching.
+      This methodology reflects his belief that:'
+    Options:
+    - Teaching knowledge is too complex for simple measurement
+    - Only quantitative methods are valid
+    - Teaching cannot be studied systematically
+    - Teacher knowledge is identical across subjects
+    CorrectOptionIndex: 0
+    LevelName: shulman
+  - QuestionText: 'The concept of "community of practice" in teacher education aligns
+      with Shulman''s emphasis on:'
+    Options:
+    - Isolated teacher development
+    - Collaborative knowledge sharing among teachers
+    - Individual competition among teachers
+    - Standardized teaching methods
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: A teacher educator uses Shulman's framework to mentor new teachers.
+      What would be their primary focus?
+    Options:
+    - Helping teachers integrate content knowledge with pedagogical reasoning
+    - Ensuring teachers follow prescribed lesson plans
+    - Focusing only on classroom management
+    - Emphasizing content coverage above all else
+    CorrectOptionIndex: 0
+    LevelName: shulman
+  - QuestionText: 'Shulman''s work has been criticized for:'
+    Options:
+    - Underemphasizing the social and cultural contexts of teaching
+    - Overemphasizing the importance of content knowledge
+    - Being too practical and not theoretical enough
+    - Focusing only on elementary education
+    CorrectOptionIndex: 0
+    LevelName: shulman
+  - QuestionText: A science teacher designs experiments that specifically address
+      common student misconceptions. This demonstrates which aspect of Shulman's
+      knowledge base?
+    Options:
+    - Content knowledge
+    - Pedagogical Content Knowledge
+    - General pedagogical knowledge
+    - Knowledge of educational contexts
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: How does Shulman's concept of teacher knowledge inform the debate
+      about alternative teacher certification?
+    Options:
+    - It suggests that content experts can easily become good teachers
+    - It highlights the need for developing pedagogical content knowledge
+    - It supports the idea that anyone with content knowledge can teach
+    - It emphasizes that teaching requires only general pedagogical skills
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: 'Shulman''s framework suggests that effective teacher learning
+      occurs through:'
+    Options:
+    - Isolated study of theory or practice
+    - Content specialization without pedagogical study
+    - Mastery of teaching techniques only
+    - Integration of different knowledge types through reflection
+    CorrectOptionIndex: 3
+    LevelName: shulman
+  - QuestionText: 'A language teacher understands the developmental stages of writing
+      ability and designs appropriate scaffolding for different grade levels. This
+      illustrates:'
+    Options:
+    - Only knowledge of writing content
+    - PCK in language arts
+    - General teaching ability
+    - Administrative skill
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: 'Shulman''s concept of "teaching as a clinical profession" suggests
+      that teacher education should include:'
+    Options:
+    - Only theoretical coursework
+    - Supervised practice with expert guidance
+    - Learning through trial and error only
+    - Focus only on content mastery
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: How has Shulman's work influenced teacher certification tests like
+      edTPA?
+    Options:
+    - By emphasizing assessment of integrated teaching knowledge
+    - By focusing only on content knowledge
+    - By eliminating the need for performance assessment
+    - By prioritizing theoretical knowledge over practice
+    CorrectOptionIndex: 0
+    LevelName: shulman
+  - QuestionText: 'A teacher considers the historical development of a scientific
+      concept when planning how to teach it. This demonstrates Shulman''s emphasis
+      on:'
+    Options:
+    - Knowledge of educational ends
+    - Understanding the structure of the discipline
+    - Only current scientific knowledge
+    - General pedagogical techniques
+    CorrectOptionIndex: 1
+    LevelName: shulman
+  - QuestionText: 'Shulman''s framework has been extended by later researchers to
+      include:'
+    Options:
+    - Technological Pedagogical Content Knowledge (TPACK)
+    - Only content knowledge assessments
+    - Elimination of pedagogical knowledge
+    - Focus only on student test scores
+    CorrectOptionIndex: 0
+    LevelName: shulman

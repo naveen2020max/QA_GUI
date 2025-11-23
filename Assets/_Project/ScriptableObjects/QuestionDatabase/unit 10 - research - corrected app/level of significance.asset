@@ -1,0 +1,461 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: level of significance
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: "What does the Level of Significance (\u03B1) represent in hypothesis
+      testing?"
+    Options:
+    - The threshold probability for rejecting the null hypothesis
+    - The probability of the null hypothesis being true
+    - The probability of the alternative hypothesis being true
+    - The power of the statistical test
+    CorrectOptionIndex: 0
+    LevelName: level of significance
+  - QuestionText: 'The most commonly used Level of Significance in social science
+      research is:'
+    Options:
+    - 0.01
+    - 0.05
+    - 0.1
+    - 1
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: "If a researcher sets \u03B1 = 0.01, what is the risk they are
+      willing to take of rejecting a true null hypothesis?"
+    Options:
+    - 0.1% chance
+    - 5% chance
+    - 1% chance
+    - 10% chance
+    CorrectOptionIndex: 2
+    LevelName: level of significance
+  - QuestionText: "A Level of Significance of \u03B1 = 0.05 implies that the critical
+      region:"
+    Options:
+    - Contains 5% of the area under the sampling distribution
+    - Contains 5% of the area under the sampling distribution
+    - Contains 95% of the area under the sampling distribution
+    - Contains 99% of the area under the sampling distribution
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: "Choosing a more stringent Level of Significance (e.g., \u03B1
+      = 0.01 instead of 0.05) makes it:"
+    Options:
+    - Easier to reject the null hypothesis
+    - Increases the test's power
+    - Has no effect on rejecting the null hypothesis
+    - Harder to reject the null hypothesis
+    CorrectOptionIndex: 3
+    LevelName: level of significance
+  - QuestionText: The Level of Significance is directly related to the probability
+      of which type of error?
+    Options:
+    - "Type II Error (\u03B2)"
+    - "Type I Error (\u03B1)"
+    - Sampling Error
+    - Measurement Error
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: 'If a researcher wants to be very confident about rejecting the
+      null hypothesis and avoid false positives, they should set a:'
+    Options:
+    - High alpha level (e.g., 0.10)
+    - Low power
+    - High beta level
+    - Low alpha level (e.g., 0.01)
+    CorrectOptionIndex: 3
+    LevelName: level of significance
+  - QuestionText: 'The statement "p < .05" means that:'
+    Options:
+    - The null hypothesis is false
+    - The probability of obtaining the observed result, if the null is true, is less
+      than 5%
+    - The result is practically significant
+    - The effect size is large
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: "In a two-tailed test with \u03B1 = 0.05, the rejection region
+      is split equally, placing how much in each tail?"
+    Options:
+    - 0.1
+    - 0.05
+    - 0.025
+    - 0.01
+    CorrectOptionIndex: 2
+    LevelName: level of significance
+  - QuestionText: "For a one-tailed test with \u03B1 = 0.05, the entire rejection
+      region is located in:"
+    Options:
+    - Both tails of the distribution
+    - One tail of the distribution
+    - The center of the distribution
+    - It depends on the p-value
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: 'The confidence level for a hypothesis test is calculated as:'
+    Options:
+    - "\u03B1"
+    - "\u03B2"
+    - "1 - \u03B2"
+    - "1 - \u03B1"
+    CorrectOptionIndex: 3
+    LevelName: level of significance
+  - QuestionText: "If a researcher sets \u03B1 = 0.10 instead of 0.05, what happens
+      to the probability of a Type I error?"
+    Options:
+    - It decreases
+    - It increases
+    - It stays the same
+    - It becomes zero
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: 'A Level of Significance of 0.001 is typically used in fields that
+      require:'
+    Options:
+    - Exploratory analysis
+    - Large effect sizes
+    - Quick decisions
+    - Extreme certainty, such as clinical trials or particle physics
+    CorrectOptionIndex: 3
+    LevelName: level of significance
+  - QuestionText: 'The critical value of a test statistic is determined by:'
+    Options:
+    - The p-value
+    - The sample mean
+    - "The Level of Significance (\u03B1) and the sampling distribution"
+    - The effect size
+    CorrectOptionIndex: 2
+    LevelName: level of significance
+  - QuestionText: "Assertion (A):\_The Level of Significance must be chosen before
+      data is collected.\_Reason (R):\_Choosing \u03B1 after seeing the data (p-hacking)
+      inflates the Type I error rate."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: level of significance
+  - QuestionText: How does reducing the Level of Significance (e.g., from 0.05 to
+      0.01) affect the critical value for a z-test?
+    Options:
+    - The critical value decreases
+    - The critical value increases (becomes more extreme)
+    - The critical value stays the same
+    - The critical value becomes zero
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: "A p-value of 0.03 and a Level of Significance of \u03B1 = 0.05
+      leads to the decision to:"
+    Options:
+    - "Fail to reject H\u2080"
+    - "Accept H\u2081"
+    - "Accept H\u2080"
+    - "Reject H\u2080"
+    CorrectOptionIndex: 3
+    LevelName: level of significance
+  - QuestionText: "A p-value of 0.07 and a Level of Significance of \u03B1 = 0.05
+      leads to the decision to:"
+    Options:
+    - "Reject H\u2080"
+    - "Fail to reject H\u2080"
+    - "Accept H\u2080"
+    - "Accept H\u2081"
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: 'The phrase "statistically significant at the .05 level" means
+      that:'
+    Options:
+    - The effect is large
+    - The null hypothesis is true
+    - The p-value is less than or equal to 0.05
+    - A Type II error has been avoided
+    CorrectOptionIndex: 2
+    LevelName: level of significance
+  - QuestionText: Why is it problematic to set the Level of Significance after viewing
+      the data?
+    Options:
+    - It is more efficient
+    - It allows a researcher to manipulate the conclusion, making it easier to find
+      "significant" results by chance
+    - It decreases the p-value
+    - It increases the power
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: 'If a researcher conducts multiple statistical tests, the overall
+      Level of Significance for the family of tests becomes inflated. This is known
+      as the:'
+    Options:
+    - Power problem
+    - Sampling error
+    - Effect size issue
+    - Problem of multiple comparisons
+    CorrectOptionIndex: 3
+    LevelName: level of significance
+  - QuestionText: 'A Bonferroni correction is used to:'
+    Options:
+    - Increase statistical power
+    - Adjust the Level of Significance downward when conducting multiple tests
+    - Calculate the p-value
+    - Estimate the effect size
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: "Contrast a Level of Significance of \u03B1 = 0.05 with \u03B1
+      = 0.10."
+    Options:
+    - "\u03B1=0.10 is more conservative"
+    - "\u03B1=0.10 has a lower risk of both errors"
+    - "\u03B1=0.10 has a higher risk of Type I error but a lower risk of Type II
+      error compared to \u03B1=0.05"
+    - "\u03B1=0.05 has a higher risk of Type II error"
+    CorrectOptionIndex: 2
+    LevelName: level of significance
+  - QuestionText: 'The choice of Level of Significance should be influenced by:'
+    Options:
+    - The researcher's convenience
+    - The consequences of a Type I error in the specific research context
+    - The sample size only
+    - The p-value from a pilot study
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: "In a one-tailed test with \u03B1 = .05, the critical value is
+      ______ the critical value for a two-tailed test with the same \u03B1."
+    Options:
+    - the same as
+    - unrelated to
+    - more extreme than
+    - less extreme than
+    CorrectOptionIndex: 3
+    LevelName: level of significance
+  - QuestionText: 'If a result is significant at the 0.01 level, it is automatically
+      significant at the:'
+    Options:
+    - 0.10 level
+    - 0.05 level
+    - 0.001 level
+    - None of the above
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: 'A researcher reports "p < .001." This means that if the null hypothesis
+      were true, the probability of getting a result this extreme is:'
+    Options:
+    - Greater than 1 in 10
+    - Greater than 1 in 100
+    - Less than 1 in 1000
+    - Less than 1 in 100
+    CorrectOptionIndex: 2
+    LevelName: level of significance
+  - QuestionText: The Level of Significance is a probability statement about the
+      ______, assuming the ______ is true.
+    Options:
+    - sample; alternative hypothesis
+    - data; null hypothesis
+    - population; research hypothesis
+    - parameter; sample
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: "Setting \u03B1 = 0.05 means that in the long run, if the null
+      hypothesis is true, we will incorrectly reject it:"
+    Options:
+    - 5% of the time
+    - 95% of the time
+    - 5% of the time
+    - 100% of the time
+    CorrectOptionIndex: 2
+    LevelName: level of significance
+  - QuestionText: Which of the following is NOT a conventional Level of Significance?
+    Options:
+    - 0.1
+    - 0.05
+    - 0.01
+    - 0.5
+    CorrectOptionIndex: 3
+    LevelName: level of significance
+  - QuestionText: 'A flaw in interpreting the Level of Significance is to believe
+      that a p < .05 means:'
+    Options:
+    - The effect size is large
+    - The probability that the null hypothesis is true is less than 5%
+    - The result is important
+    - The alternative hypothesis is true
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: "The relationship between \u03B1 and the confidence interval is
+      that a (1-\u03B1)% confidence interval that does not contain the null value
+      is equivalent to:"
+    Options:
+    - A Type II error
+    - A large effect size
+    - A non-significant result
+    - "A significant result at the \u03B1 level"
+    CorrectOptionIndex: 3
+    LevelName: level of significance
+  - QuestionText: 'If a researcher wants to maximize the chance of finding an effect
+      (even if it might not be real), they would set a:'
+    Options:
+    - Low alpha level
+    - High alpha level (e.g., 0.10)
+    - Low power
+    - High beta level
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: 'The term "marginally significant" is sometimes used for p-values:'
+    Options:
+    - Between 0.05 and 0.10
+    - Less than 0.001
+    - Greater than 0.10
+    - Exactly 0.05
+    CorrectOptionIndex: 0
+    LevelName: level of significance
+  - QuestionText: "In a world where the null hypothesis is always true, if we conduct
+      100 studies with \u03B1 = 0.05, we would expect to (falsely) reject the null
+      hypothesis in about how many studies?"
+    Options:
+    - 0
+    - 1
+    - 5
+    - 95
+    CorrectOptionIndex: 2
+    LevelName: level of significance
+  - QuestionText: 'The American Psychological Association (APA) publication manual
+      generally recommends reporting exact p-values rather than just stating p <
+      .05 because:'
+    Options:
+    - It takes up more space
+    - It provides more information about the strength of the evidence against the
+      null
+    - It is easier to calculate
+    - It guarantees significance
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: "A researcher sets \u03B1 = .01. For their results to be significant,
+      the p-value must be:"
+    Options:
+    - Greater than .01
+    - Greater than .05
+    - Less than .05
+    - Less than or equal to .01
+    CorrectOptionIndex: 3
+    LevelName: level of significance
+  - QuestionText: 'The Level of Significance is also known as the:'
+    Options:
+    - Beta level
+    - P-value
+    - Size of the test
+    - Power of the test
+    CorrectOptionIndex: 2
+    LevelName: level of significance
+  - QuestionText: 'Choosing a Level of Significance is a trade-off between:'
+    Options:
+    - Cost and time
+    - The risks of Type I and Type II errors
+    - The sample mean and population mean
+    - Descriptive and inferential stats
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: "A result that is statistically significant at \u03B1 = .05 but
+      not at \u03B1 = .01 has a p-value:"
+    Options:
+    - Between .01 and .05
+    - p > .10
+    - p < .01
+    - p = .05
+    CorrectOptionIndex: 0
+    LevelName: level of significance
+  - QuestionText: 'The concept of the Level of Significance was most prominently
+      developed by:'
+    Options:
+    - Carl Gauss
+    - Ronald Fisher
+    - Karl Pearson
+    - William Gosset
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: "If a study has low power, using a strict Level of Significance
+      (e.g., \u03B1=0.01) makes it:"
+    Options:
+    - Very unlikely to find an effect, even if one exists
+    - Very likely to find an effect
+    - Unaffected in its ability to find an effect
+    - Guaranteed to make a Type I error
+    CorrectOptionIndex: 0
+    LevelName: level of significance
+  - QuestionText: 'In a two-tailed test, the Level of Significance is:'
+    Options:
+    - The area in one tail
+    - The combined area in both tails
+    - The area in the center
+    - The area under the entire curve
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: 'A p-value is calculated to be 0.20. This result is:'
+    Options:
+    - "Significant at \u03B1=.05"
+    - "Significant at \u03B1=.01"
+    - "Not significant at \u03B1=.05"
+    - Highly significant
+    CorrectOptionIndex: 2
+    LevelName: level of significance
+  - QuestionText: 'The phrase "fail to reject the null hypothesis" is used when:'
+    Options:
+    - "p > \u03B1"
+    - "p > \u03B1"
+    - "p \u2264 \u03B1"
+    - The effect size is large
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: "A researcher who sets \u03B1 = 0.05 is willing to accept a ___%
+      chance of concluding that an effect exists when it actually does not."
+    Options:
+    - 0.01
+    - 0.95
+    - 0.1
+    - 0.05
+    CorrectOptionIndex: 3
+    LevelName: level of significance
+  - QuestionText: 'When a result is significant at a very low alpha level (e.g.,
+      p < .001), it suggests that:'
+    Options:
+    - The effect is practically important
+    - The evidence against the null hypothesis is very strong
+    - The sample size was small
+    - A Type II error has occurred
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: 'The Level of Significance should be chosen based on:'
+    Options:
+    - The desired p-value
+    - The sample size alone
+    - The research context and the consequences of error
+    - The convenience of the researcher
+    CorrectOptionIndex: 2
+    LevelName: level of significance
+  - QuestionText: 'If a confidence interval does not include the null hypothesis
+      value, it is equivalent to:'
+    Options:
+    - A Type I error
+    - A statistically significant result
+    - A Type II error
+    - A non-significant result
+    CorrectOptionIndex: 1
+    LevelName: level of significance
+  - QuestionText: 'The most important principle in selecting a Level of Significance
+      is to:'
+    Options:
+    - Always use 0.05
+    - Let the software determine it
+    - Choose it after seeing the data to maximize findings
+    - Choose it a priori (before data collection) and justify the choice
+    CorrectOptionIndex: 3
+    LevelName: level of significance

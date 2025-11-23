@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: social relationships and goals
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'Socialization is best defined as the:'
+    Options:
+    - Process of making friends in a new environment
+    - Lifelong process of inheriting and disseminating norms, customs, and ideologies
+    - Biological development of social instincts
+    - Method of resolving interpersonal conflicts
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: Which of the following is a primary agent of socialization?
+    Options:
+    - Mass media
+    - Family
+    - Workplace
+    - Peer group
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'The concept of "social identity" was extensively studied by:'
+    Options:
+    - B.F. Skinner
+    - Ivan Pavlov
+    - Jean Piaget
+    - Henri Tajfel
+    CorrectOptionIndex: 3
+    LevelName: social relationships and goals
+  - QuestionText: Which term refers to the unwritten, unofficial, and often unintended
+      lessons learned in school?
+    Options:
+    - Formal curriculum
+    - Core curriculum
+    - Hidden curriculum
+    - Extracurricular curriculum
+    CorrectOptionIndex: 2
+    LevelName: social relationships and goals
+  - QuestionText: 'The process where individuals learn the norms and values of a
+      group in anticipation of joining that group is called:'
+    Options:
+    - Resocialization
+    - Anticipatory socialization
+    - Reverse socialization
+    - Developmental socialization
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: Which theorist proposed the "ecological systems theory" emphasizing
+      multiple environmental influences on socialization?
+    Options:
+    - Erik Erikson
+    - Urie Bronfenbrenner
+    - Lawrence Kohlberg
+    - Albert Bandura
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'The primary goal of socialization from a functionalist perspective
+      is to:'
+    Options:
+    - Create social conflict
+    - Eliminate cultural traditions
+    - Promote individual rebellion
+    - Maintain social order and stability
+    CorrectOptionIndex: 3
+    LevelName: social relationships and goals
+  - QuestionText: 'In Erikson''s psychosocial theory, the stage where peers become
+      crucial for developing a sense of self is:'
+    Options:
+    - Trust vs. Mistrust
+    - Initiative vs. Guilt
+    - Industry vs. Inferiority
+    - Identity vs. Role Confusion
+    CorrectOptionIndex: 3
+    LevelName: social relationships and goals
+  - QuestionText: Which type of socialization occurs when a person learns new norms
+      and values to fit into a new social role?
+    Options:
+    - Primary socialization
+    - Secondary socialization
+    - Tertiary socialization
+    - Quaternary socialization
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'The process by which children socialize their parents, particularly
+      in areas like technology, is called:'
+    Options:
+    - Reverse socialization
+    - Anticipatory socialization
+    - Resocialization
+    - Developmental socialization
+    CorrectOptionIndex: 0
+    LevelName: social relationships and goals
+  - QuestionText: 'A child who learns classroom rules about raising hands and taking
+      turns is experiencing:'
+    Options:
+    - Primary socialization
+    - Hidden curriculum
+    - Reverse socialization
+    - Anticipatory socialization
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: Which situation best illustrates "resocialization"?
+    Options:
+    - A child learning to read
+    - A new employee learning company policies
+    - A military recruit undergoing basic training
+    - A teenager learning to drive
+    CorrectOptionIndex: 2
+    LevelName: social relationships and goals
+  - QuestionText: 'The main difference between primary and secondary socialization
+      is that primary socialization:'
+    Options:
+    - Occurs in childhood and establishes basic values
+    - Happens only in educational institutions
+    - Is less important than secondary socialization
+    - Occurs only through mass media
+    CorrectOptionIndex: 0
+    LevelName: social relationships and goals
+  - QuestionText: 'A student who joins a science club because they want to become
+      a scientist is demonstrating:'
+    Options:
+    - Resocialization
+    - Anticipatory socialization
+    - Reverse socialization
+    - Primary socialization
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'Peer groups become particularly influential during adolescence
+      because they provide:'
+    Options:
+    - Financial security
+    - Permanent career choices
+    - Basic biological needs
+    - A sense of identity and belonging outside the family
+    CorrectOptionIndex: 3
+    LevelName: social relationships and goals
+  - QuestionText: 'From a conflict theory perspective, socialization serves to:'
+    Options:
+    - Promote social equality
+    - Reproduce existing social inequalities
+    - Eliminate all social hierarchies
+    - Create completely autonomous individuals
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'A teacher who unconsciously encourages boys to be assertive and
+      girls to be nurturing is contributing to:'
+    Options:
+    - Gender socialization
+    - Cognitive development
+    - Biological determinism
+    - Reverse socialization
+    CorrectOptionIndex: 0
+    LevelName: social relationships and goals
+  - QuestionText: 'The "looking-glass self" concept suggests that our self-concept
+      develops through:'
+    Options:
+    - Genetic inheritance
+    - How we believe others perceive us
+    - Independent self-reflection
+    - Biological maturation
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'In Bronfenbrenner''s ecological model, the mesosystem refers to:'
+    Options:
+    - Cultural values and laws
+    - Historical context
+    - The immediate environment
+    - Connections between microsystems
+    CorrectOptionIndex: 3
+    LevelName: social relationships and goals
+  - QuestionText: 'A workplace that requires employees to adopt specific professional
+      behaviors is facilitating:'
+    Options:
+    - Primary socialization
+    - Occupational socialization
+    - Reverse socialization
+    - Anticipatory socialization
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'Critically analyzing socialization processes, a major limitation
+      is that they can:'
+    Options:
+    - Promote social change too rapidly
+    - Perpetuate stereotypes and limit individual potential
+    - Eliminate all cultural traditions
+    - Create completely independent thinkers
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'A school that wants to promote inclusive socialization should
+      prioritize:'
+    Options:
+    - Strict tracking based on ability
+    - Eliminating all social activities
+    - Homogeneous grouping
+    - Diverse interactions and multicultural education
+    CorrectOptionIndex: 3
+    LevelName: social relationships and goals
+  - QuestionText: 'The increasing role of digital media in socialization has led
+      to:'
+    Options:
+    - Decreased peer influence
+    - New forms of social relationship formation
+    - Elimination of traditional socialization agents
+    - Complete isolation of individuals
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: Comparing functionalist and conflict perspectives on socialization,
+      a key difference is that functionalists emphasize ______ while conflict theorists
+      emphasize ______.
+    Options:
+    - Social stability; social reproduction of inequality
+    - Individual agency; biological determinism
+    - Social change; maintaining status quo
+    - Genetic factors; environmental factors
+    CorrectOptionIndex: 0
+    LevelName: social relationships and goals
+  - QuestionText: 'A child who successfully navigates different behavioral expectations
+      at home, school, and with friends demonstrates:'
+    Options:
+    - Cultural resistance
+    - Socialization failure
+    - Identity confusion
+    - Social cognitive flexibility
+    CorrectOptionIndex: 3
+    LevelName: social relationships and goals
+  - QuestionText: 'In rapidly changing societies, the goals of socialization must
+      balance:'
+    Options:
+    - Cultural preservation and individual adaptation
+    - Complete tradition and total innovation
+    - Family control and peer dominance
+    - School authority and student rebellion
+    CorrectOptionIndex: 0
+    LevelName: social relationships and goals
+  - QuestionText: 'The concept of "total institutions" illustrates how socialization
+      can be:'
+    Options:
+    - Completely voluntary
+    - Systematically controlled and transformed
+    - Limited to childhood only
+    - Irrelevant to identity formation
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'A teacher who understands socialization processes would recognize
+      that student conflicts often arise from:'
+    Options:
+    - Different socialization experiences and expectations
+    - Genetic personality flaws
+    - Random chance
+    - Inevitable developmental stages
+    CorrectOptionIndex: 0
+    LevelName: social relationships and goals
+  - QuestionText: 'The relationship between socialization and culture can be described
+      as:'
+    Options:
+    - Culture is transmitted through socialization
+    - Socialization eliminates cultural differences
+    - They are completely unrelated
+    - Socialization works against cultural norms
+    CorrectOptionIndex: 0
+    LevelName: social relationships and goals
+  - QuestionText: 'In multicultural societies, successful socialization requires
+      developing:'
+    Options:
+    - Cultural hegemony
+    - Cultural competence and bicultural identity
+    - Complete cultural assimilation
+    - Cultural isolation
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'A key challenge in modern socialization is helping individuals
+      manage:'
+    Options:
+    - Too few social connections
+    - Identical social expectations everywhere
+    - Complete social isolation
+    - Multiple, sometimes conflicting social roles
+    CorrectOptionIndex: 3
+    LevelName: social relationships and goals
+  - QuestionText: 'Research on homeschooled children''s socialization suggests that:'
+    Options:
+    - They are always socially deficient
+    - Their socialization outcomes depend on the breadth of social experiences provided
+    - They have identical socialization to school-going children
+    - Socialization is irrelevant in homeschooling
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'The concept of "social capital" in relationships refers to:'
+    Options:
+    - Financial resources in social networks
+    - Benefits from social connections and networks
+    - Physical assets in communities
+    - Individual personality traits
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: A school implementing a "buddy system" for new students is addressing
+      which socialization goal?
+    Options:
+    - Social integration
+    - Academic achievement only
+    - Cultural elimination
+    - Individual competition
+    CorrectOptionIndex: 0
+    LevelName: social relationships and goals
+  - QuestionText: 'The digital age has transformed socialization by creating:'
+    Options:
+    - Fewer social relationships
+    - New forms of virtual communities and relationships
+    - Identical socialization patterns to pre-digital era
+    - Complete elimination of face-to-face interaction
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'From a developmental perspective, successful socialization throughout
+      life requires:'
+    Options:
+    - Rigid adherence to childhood learning
+    - Continuous adaptation to new social roles
+    - Resistance to all social influence
+    - Dependence on primary socialization only
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'A community program that brings together elderly and youth participants
+      addresses socialization goals by:'
+    Options:
+    - Promoting intergenerational understanding
+    - Reinforcing age segregation
+    - Eliminating traditional knowledge
+    - Focusing only on youth development
+    CorrectOptionIndex: 0
+    LevelName: social relationships and goals
+  - QuestionText: 'The relationship between socialization and mental health suggests
+      that:'
+    Options:
+    - Socialization always promotes mental health
+    - Poor socialization experiences can contribute to psychological difficulties
+    - They are completely unrelated
+    - Mental health prevents socialization
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'In organizational contexts, effective socialization contributes
+      to:'
+    Options:
+    - Higher employee turnover
+    - Elimination of workplace relationships
+    - Complete individual autonomy
+    - Better organizational commitment and performance
+    CorrectOptionIndex: 3
+    LevelName: social relationships and goals
+  - QuestionText: 'A teacher concerned about students'' social relationship development
+      should focus on:'
+    Options:
+    - Academic achievement only
+    - Creating opportunities for positive peer interactions
+    - Eliminating all social activities
+    - Encouraging social isolation
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'The concept of "role strain" in social relationships occurs when:'
+    Options:
+    - There are too few social roles
+    - There is difficulty meeting expectations of a single role
+    - Roles are completely clear and unambiguous
+    - Individuals have no social roles
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'Cross-cultural research on socialization reveals that:'
+    Options:
+    - Socialization practices are identical worldwide
+    - Socialization is unnecessary in some cultures
+    - Biology completely determines socialization
+    - Cultural values shape socialization goals and methods
+    CorrectOptionIndex: 3
+    LevelName: social relationships and goals
+  - QuestionText: 'A key difference between friendship and acquaintance relationships
+      is the level of:'
+    Options:
+    - Emotional intimacy and commitment
+    - Physical proximity
+    - Financial exchange
+    - Legal obligation
+    CorrectOptionIndex: 0
+    LevelName: social relationships and goals
+  - QuestionText: 'The development of "social empathy" through socialization enables
+      individuals to:'
+    Options:
+    - Understand and share the feelings of diverse others
+    - Manipulate social situations
+    - Avoid all emotional connections
+    - Focus only on personal needs
+    CorrectOptionIndex: 0
+    LevelName: social relationships and goals
+  - QuestionText: 'In educational settings, peer relationships serve the socialization
+      function of:'
+    Options:
+    - Providing practice with equality and reciprocity
+    - Reinforcing teacher authority only
+    - Eliminating family influence
+    - Creating permanent social hierarchies
+    CorrectOptionIndex: 0
+    LevelName: social relationships and goals
+  - QuestionText: 'The concept of "digital citizenship" represents a modern socialization
+      goal focusing on:'
+    Options:
+    - Traditional values only
+    - Responsible and ethical behavior in digital environments
+    - Eliminating technology use
+    - Isolating individuals from global connections
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'A comprehensive approach to socialization in schools would address:'
+    Options:
+    - Only academic learning
+    - Cognitive, social, emotional, and moral development
+    - Only behavioral control
+    - Eliminating individual differences
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'The relationship between socialization and social change suggests
+      that:'
+    Options:
+    - Socialization always resists social change
+    - Socialization eliminates the need for social change
+    - They are completely opposed processes
+    - Socialization can both maintain traditions and facilitate change
+    CorrectOptionIndex: 3
+    LevelName: social relationships and goals
+  - QuestionText: 'A community with strong "social cohesion" typically shows:'
+    Options:
+    - High levels of conflict and distrust
+    - Strong social bonds and mutual support
+    - Complete individual isolation
+    - Elimination of social norms
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals
+  - QuestionText: 'The ultimate goal of understanding social relationships and socialization
+      in education is to:'
+    Options:
+    - Control student behavior completely
+    - Support the development of competent, connected, and ethical individuals
+    - Create identical personalities
+    - Eliminate all cultural influences
+    CorrectOptionIndex: 1
+    LevelName: social relationships and goals

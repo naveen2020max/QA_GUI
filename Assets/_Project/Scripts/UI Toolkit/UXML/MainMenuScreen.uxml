@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/Scripts/UI%20Toolkit/USS/CommonSS.uss?fileID=7433441132597879392&amp;guid=f553cfa90b29fb3459006233b09e079c&amp;type=3#CommonSS" />
+    <ui:VisualElement name="MainMenuRoot" class="container">
+        <ui:Label text="Quiz App" class="title" />
+        <ui:Button name="StartButton" text="Start Quiz" class="common-button" />
+        <ui:Button name="QuitButton" text="Quit" class="common-button" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: behaviouristic model of TE
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The Behaviouristic model of teacher education is primarily derived
+      from the psychological principles of:'
+    Options:
+    - Jean Piaget and Lev Vygotsky
+    - Carl Rogers and Abraham Maslow
+    - B.F. Skinner and John B. Watson
+    - John Dewey and Paulo Freire
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'In the Behaviouristic model, the primary role of the teacher is
+      that of a:'
+    Options:
+    - Facilitator
+    - Reflective practitioner
+    - Co-learner
+    - Technician or manager of behaviour
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic model of TE
+  - QuestionText: Which of the following is a core concept of the Behaviouristic
+      approach?
+    Options:
+    - Scaffolding
+    - Zone of Proximal Development
+    - Reinforcement
+    - Schema
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: Competency-Based Teacher Education (CBTE) is a direct application
+      of which model?
+    Options:
+    - Constructivist
+    - Humanistic
+    - Socialistic
+    - Behaviouristic
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'The practice of breaking down a complex teaching skill into smaller,
+      observable components for practice is known as:'
+    Options:
+    - Macro-teaching
+    - Simulation
+    - Micro-teaching
+    - Peer teaching
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'According to the Behaviouristic model, learning is demonstrated
+      through:'
+    Options:
+    - Internal cognitive restructuring
+    - Observable and measurable changes in behaviour
+    - Development of personal meaning
+    - Social negotiation
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: Which of the following is a key strategy used in Behaviouristic
+      teacher education?
+    Options:
+    - Journaling
+    - Action research
+    - Programmed Instruction
+    - Collaborative projects
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'A teacher educator who focuses on training student-teachers to
+      use specific reinforcement techniques is adhering to the:'
+    Options:
+    - Humanistic model
+    - Behaviouristic model
+    - Constructivist model
+    - Critical model
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'The primary goal of Mastery Learning, a concept aligned with Behaviourism,
+      is to ensure:'
+    Options:
+    - All students compete for the highest grade
+    - All students achieve a pre-specified level of competence
+    - Students discover knowledge on their own
+    - Students develop critical thinking skills
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'A major criticism of the Behaviouristic model is that it:'
+    Options:
+    - Is too student-centered
+    - Neglects internal cognitive processes and creativity
+    - Lacks structure and clear objectives
+    - Is too expensive to implement
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: Which of the following best describes a behavioural objective?
+    Options:
+    - '"The student will appreciate poetry."'
+    - '"The student will understand the concept of gravity."'
+    - '"The student will list three characteristics of a sonnet."'
+    - '"The student will explore different painting techniques."'
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'The theoretical foundation of the Behaviouristic model views the
+      learner as a:'
+    Options:
+    - Active constructor of knowledge
+    - Passive respondent to environmental stimuli
+    - Social being who learns through interaction
+    - Self-actualizing individual
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'In a Behaviouristic framework, assessment primarily focuses on:'
+    Options:
+    - Portfolio evaluation
+    - Subjective interpretation
+    - Measuring performance against pre-determined criteria
+    - Peer and self-assessment
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'The concept of "shaping" in Behaviourism refers to:'
+    Options:
+    - Building cognitive structures
+    - Reinforcing successive approximations of a desired behaviour
+    - Facilitating social development
+    - Developing moral reasoning
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: A teacher training program that requires trainees to demonstrate
+      150 specific teaching skills is based on which model?
+    Options:
+    - Constructivist
+    - Gestalt
+    - Humanistic
+    - Behaviouristic
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic model of TE
+  - QuestionText: Which educational philosopher's concept of a "scientific" approach
+      to education aligns with Behaviourism?
+    Options:
+    - John Dewey
+    - E.L. Thorndike
+    - Paulo Freire
+    - Maxine Greene
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: The Behaviouristic model is most effective for teaching which of
+      the following?
+    Options:
+    - Philosophical debates
+    - Creative writing
+    - Mathematical computations and factual recall
+    - Social justice issues
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'The process of gradually reducing prompts or cues to get a desired
+      behaviour is called:'
+    Options:
+    - Generalization
+    - Fading
+    - Chaining
+    - Extinction
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'A key merit of the Behaviouristic model in teacher education is
+      its emphasis on:'
+    Options:
+    - Teacher autonomy
+    - Transformative social change
+    - Holistic child development
+    - Accountability and measurable outcomes
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'The phrase "Black Box" in Behaviourism refers to:'
+    Options:
+    - A teaching aid
+    - The unobservable internal mental processes
+    - A model of direct instruction
+    - A classroom management technique
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'If a teacher education program uses simulations primarily to practice
+      and perfect specific classroom management techniques, it is using simulations
+      in a manner aligned with the:'
+    Options:
+    - Humanistic model
+    - Constructivist model
+    - Behaviouristic model
+    - Critical model
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: Which of the following is NOT a component of a well-written behavioural
+      objective?
+    Options:
+    - Condition
+    - Performance
+    - Criteria
+    - Rationale
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'The Behaviouristic model''s view of knowledge is that it is:'
+    Options:
+    - Socially constructed
+    - Personally discovered
+    - A fixed body of information to be transmitted
+    - Fluid and ever-changing
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'A teacher who uses a token economy system in their classroom is
+      applying principles of:'
+    Options:
+    - Cognitive psychology
+    - Humanistic psychology
+    - Behavioural psychology
+    - Gestalt psychology
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'The demerit of the Behaviouristic model known as "de-skilling"
+      teachers implies that it:'
+    Options:
+    - Makes teachers more skilled
+    - Reduces teachers to following scripts, limiting their professional judgment
+    - Focuses too much on higher-order skills
+    - Requires too much training
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: Which of the following is a primary reinforcement?
+    Options:
+    - A gold star
+    - Praise from the teacher
+    - Food
+    - A good grade
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: The sequence of "Stimulus -> Response -> Reinforcement" is central
+      to which type of conditioning?
+    Options:
+    - Classical Conditioning
+    - Operant Conditioning
+    - Social Learning Theory
+    - Cognitive Dissonance
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'A teacher educator who provides immediate feedback after a micro-teaching
+      session on a student''s questioning technique is emphasizing the Behaviouristic
+      principle of:'
+    Options:
+    - Contiguity
+    - Immediate Reinforcement
+    - Spontaneous Recovery
+    - Insight
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: The Behaviouristic model is LEAST concerned with which aspect of
+      a teacher's development?
+    Options:
+    - Their skill in writing precise lesson objectives
+    - Their ability to manage classroom behaviour
+    - Their personal philosophy of education
+    - Their competence in using specific teaching strategies
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: '"Given a list of 20 elements, the student will be able to correctly
+      spell at least 18." This objective is an example of a(n):'
+    Options:
+    - Affective objective
+    - Experiential objective
+    - Behavioural objective
+    - Constructivist objective
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'A program that trains teachers to use a specific, scripted reading
+      curriculum is most aligned with the:'
+    Options:
+    - Constructivist model
+    - Behaviouristic model
+    - Critical model
+    - Romantic model
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: Which of the following theorists is associated with the development
+      of Mastery Learning?
+    Options:
+    - Benjamin Bloom
+    - Jerome Bruner
+    - Carl Rogers
+    - Nel Noddings
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'The concept of "extinction" in Behaviourism involves:'
+    Options:
+    - Forgetting a behaviour over time
+    - Withholding reinforcement for a previously reinforced behaviour
+    - Punishing an undesirable behaviour
+    - Strengthening a behaviour through reward
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'A teacher training program that focuses heavily on developing
+      competencies in "board work," "voice modulation," and "use of teaching aids"
+      reflects a:'
+    Options:
+    - Holistic approach
+    - Behaviouristic approach
+    - Humanistic approach
+    - Inquiry-based approach
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'The philosophical stance of Behaviourism is most aligned with:'
+    Options:
+    - Idealism
+    - Existentialism
+    - Empiricism
+    - Pragmatism
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'A significant limitation of using only behavioural objectives
+      is that they are difficult to write for learning in the:'
+    Options:
+    - Psychomotor domain
+    - Cognitive domain (lower level)
+    - Affective domain (values, attitudes)
+    - All of the above
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'In a Behaviouristic classroom, the curriculum is typically:'
+    Options:
+    - Emergent and based on student interest
+    - Pre-determined and sequentially organized
+    - Negotiated between teacher and students
+    - Focused on solving real-world problems
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'The practice of "chaining" involves:'
+    Options:
+    - Linking together a series of simple behaviours to form a complex sequence
+    - Restraining a student who is misbehaving
+    - Connecting new information to prior knowledge
+    - Creating a supportive learning community
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'A teacher educator who believes that effective teaching is a set
+      of trainable skills subscribes to the:'
+    Options:
+    - Constructivist model
+    - Behaviouristic model
+    - Critical model
+    - Spiritual model
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: Which of the following is an example of negative reinforcement?
+    Options:
+    - Giving a student detention for talking in class
+    - Criticizing a student's incorrect answer
+    - Ignoring a student's call-out
+    - Removing homework because the class was quiet
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'The Behaviouristic model had its greatest influence on teacher
+      education during the:'
+    Options:
+    - 1920s
+    - 1960s and 1970s
+    - 1990s
+    - 2010s
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'A key assumption of the Behaviouristic model is that:'
+    Options:
+    - Learning is an active process of meaning-making
+    - Teaching is an art, not a science
+    - Students are naturally motivated to learn
+    - The environment is the primary determinant of behaviour
+    CorrectOptionIndex: 3
+    LevelName: behaviouristic model of TE
+  - QuestionText: Which instructional model, based on Behaviourism, involves a structured,
+      fast-paced, and teacher-led approach?
+    Options:
+    - Montessori Method
+    - Direct Instruction
+    - Project-Based Learning
+    - Socratic Seminar
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'The term "operant" in Operant Conditioning refers to:'
+    Options:
+    - A behaviour that operates on the environment to produce consequences
+    - The initial stimulus that elicits a response
+    - The mental process of organizing information
+    - A type of classical conditioning
+    CorrectOptionIndex: 0
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'A critique of the Behaviouristic model from a constructivist perspective
+      is that it:'
+    Options:
+    - Is too vague and unstructured
+    - Fails to acknowledge the learner as an active agent
+    - Places too much emphasis on social interaction
+    - Is too focused on internal mental processes
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'In Behaviouristic terms, a "schedule of reinforcement" refers
+      to:'
+    Options:
+    - The timetable for the curriculum
+    - The pattern of how often a behaviour is reinforced
+    - The sequence of lessons in a unit
+    - The teacher's daily schedule
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE
+  - QuestionText: A teacher training program that uses a "skills checklist" for final
+      evaluation is most influenced by which model?
+    Options:
+    - Humanistic
+    - Constructivist
+    - Behaviouristic
+    - Critical
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: 'The ultimate goal of the Behaviouristic model in education is
+      to:'
+    Options:
+    - Foster self-actualization
+    - Promote social change
+    - Produce predictable and controllable behaviour
+    - Develop critical consciousness
+    CorrectOptionIndex: 2
+    LevelName: behaviouristic model of TE
+  - QuestionText: Which of the following is a secondary (conditioned) reinforcer?
+    Options:
+    - Water
+    - A smiley face sticker
+    - Sleep
+    - Food
+    CorrectOptionIndex: 1
+    LevelName: behaviouristic model of TE

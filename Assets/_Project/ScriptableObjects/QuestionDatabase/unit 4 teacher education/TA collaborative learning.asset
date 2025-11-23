@@ -1,0 +1,464 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: TA collaborative learning
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: Which learning theory provides the primary foundation for collaborative
+      learning?
+    Options:
+    - Behaviorism
+    - Social Constructivism
+    - Cognitivism
+    - Connectivism
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'In collaborative learning, the term "positive interdependence"
+      refers to:'
+    Options:
+    - Students working independently on the same task
+    - The belief that one's success is linked to others' success
+    - Competition among group members
+    - Individual accountability being eliminated
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'A professor teaching "Philosophical Foundations of Education"
+      divides students into groups to analyze different educational philosophies
+      and present their findings. This approach primarily demonstrates:'
+    Options:
+    - Expository learning
+    - Collaborative learning
+    - Programmed instruction
+    - Mastery learning
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: Which of the following is NOT a essential element of formal collaborative
+      learning?
+    Options:
+    - Positive interdependence
+    - Individual accountability
+    - Promotive interaction
+    - Independent work without communication
+    CorrectOptionIndex: 3
+    LevelName: TA collaborative learning
+  - QuestionText: 'The Jigsaw technique in collaborative learning was developed by:'
+    Options:
+    - Elliot Aronson
+    - Lev Vygotsky
+    - John Dewey
+    - David Johnson
+    CorrectOptionIndex: 0
+    LevelName: TA collaborative learning
+  - QuestionText: When implementing collaborative learning in "Sociological Foundations
+      of Education," what is the primary role of the teacher?
+    Options:
+    - Sole information provider
+    - Facilitator and guide
+    - Passive observer
+    - Disciplinarian
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: Which of the following best describes "individual accountability"
+      in collaborative learning?
+    Options:
+    - The group receives one grade for all members
+    - Each member is responsible for their learning and contribution
+    - The brightest student does all the work
+    - No one is held responsible for the outcome
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'The Zone of Proximal Development theory by Vygotsky is particularly
+      relevant to collaborative learning because it emphasizes:'
+    Options:
+    - Independent problem-solving ability
+    - What learners can achieve with guidance from peers
+    - Fixed intelligence levels
+    - Individual competition
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'In collaborative learning, "group processing" refers to:'
+    Options:
+    - Reflecting on how well the group is functioning
+    - Individual members working separately
+    - The teacher directing all activities
+    - Competitive evaluation among groups
+    CorrectOptionIndex: 0
+    LevelName: TA collaborative learning
+  - QuestionText: Which cooperative learning structure involves students becoming
+      "experts" on different aspects of a topic and then teaching their peers?
+    Options:
+    - Think-Pair-Share
+    - Jigsaw
+    - Round Robin
+    - Numbered Heads Together
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: A teacher educator notices that in collaborative groups for "Psychological
+      Foundations," some students dominate while others remain passive. What strategy
+      would best address this issue?
+    Options:
+    - Assigning specific roles to each group member
+    - Allowing natural leaders to emerge
+    - Eliminating group work entirely
+    - Having only individual assignments
+    CorrectOptionIndex: 0
+    LevelName: TA collaborative learning
+  - QuestionText: 'Compared to competitive learning approaches, collaborative learning
+      in foundation courses is more effective for developing:'
+    Options:
+    - Individual ranking systems
+    - Social skills and higher-order thinking
+    - Standardized test performance only
+    - Independent work habits exclusively
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: When designing collaborative activities for "Historical Foundations
+      of Education," what factor is most crucial for ensuring equal participation?
+    Options:
+    - Clear structure and defined roles
+    - Allowing students to self-select groups
+    - Having no time limits
+    - Using only verbal tasks
+    CorrectOptionIndex: 0
+    LevelName: TA collaborative learning
+  - QuestionText: 'The "Think-Pair-Share" technique is particularly effective in
+      foundation courses because it:'
+    Options:
+    - Allows only high-achieving students to participate
+    - Gives all students time to process and articulate ideas
+    - Requires no teacher preparation
+    - Eliminates the need for individual thinking
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'A key challenge in implementing collaborative learning for large
+      teacher education classes is:'
+    Options:
+    - Ensuring individual accountability in large groups
+    - The method works only for small classes
+    - Students prefer lecture methods
+    - It requires less teacher preparation
+    CorrectOptionIndex: 0
+    LevelName: TA collaborative learning
+  - QuestionText: In collaborative learning, what is the primary purpose of "face-to-face
+      promotive interaction"?
+    Options:
+    - To create social friendships
+    - To help each other learn through explanation and support
+    - To compete for teacher attention
+    - To complete work more quickly
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: When assessing collaborative learning in "Contemporary Indian Education,"
+      what approach would be most fair and effective?
+    Options:
+    - Giving the same grade to all group members regardless of contribution
+    - Combining group scores with individual assessment
+    - Basing grades only on the final product
+    - Evaluating only the group leader's work
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'The "Numbered Heads Together" strategy is designed to ensure:'
+    Options:
+    - Only one student per group needs to understand the material
+    - Equal participation and accountability from all members
+    - Competition between group members
+    - Independent work without collaboration
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: A professor wants to use collaborative learning for teaching complex
+      concepts in "Educational Sociology." What preliminary step is most important?
+    Options:
+    - Ensuring students have necessary background knowledge
+    - Letting students choose their own groups randomly
+    - Providing no instructions to encourage creativity
+    - Having students work completely independently first
+    CorrectOptionIndex: 0
+    LevelName: TA collaborative learning
+  - QuestionText: Collaborative learning aligns with which educational philosophy's
+      emphasis on social interaction and community?
+    Options:
+    - Essentialism
+    - Perennialism
+    - Progressivism
+    - Behaviorism
+    CorrectOptionIndex: 2
+    LevelName: TA collaborative learning
+  - QuestionText: In a collaborative learning activity on "Philosophical Foundations,"
+      one group consistently produces superficial work. What intervention would be
+      most appropriate?
+    Options:
+    - Providing more structured guidelines and checkpoints
+    - Allowing them to continue without intervention
+    - Assigning individual work instead
+    - Reducing the complexity of the task significantly
+    CorrectOptionIndex: 0
+    LevelName: TA collaborative learning
+  - QuestionText: 'The "Structured Academic Controversy" technique in collaborative
+      learning is particularly valuable for foundation courses because it:'
+    Options:
+    - Avoids all disagreement among students
+    - Teaches students to engage with multiple perspectives
+    - Ensures everyone agrees on one answer
+    - Eliminates the need for research
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: When forming groups for collaborative learning in "Psychological
+      Foundations," what grouping strategy is supported by research?
+    Options:
+    - Homogeneous grouping by ability
+    - Heterogeneous grouping with diversity in skills and backgrounds
+    - Random grouping without consideration of student characteristics
+    - Self-selected friendship groups only
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'A key benefit of collaborative learning for pre-service teachers
+      is that it:'
+    Options:
+    - Models the teaching strategies they can use in their own classrooms
+    - Requires less cognitive effort than individual work
+    - Eliminates the need for teacher expertise
+    - Always produces faster results than other methods
+    CorrectOptionIndex: 0
+    LevelName: TA collaborative learning
+  - QuestionText: 'In collaborative learning, "social skills" that need explicit
+      teaching include:'
+    Options:
+    - Only academic content knowledge
+    - Leadership, communication, and conflict resolution
+    - Individual research skills only
+    - Test-taking strategies
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'The "Group Investigation" model developed by Sharan and Sharan
+      emphasizes:'
+    Options:
+    - Teacher-directed learning only
+    - Students planning their own learning investigations
+    - Individual competitive projects
+    - Passive reception of information
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: When implementing collaborative learning in foundation courses,
+      what is the most common student resistance?
+    Options:
+    - Concerns about free-riding by some group members
+    - Preference for listening to lectures
+    - Lack of interest in social interaction
+    - Desire for more homework
+    CorrectOptionIndex: 0
+    LevelName: TA collaborative learning
+  - QuestionText: 'The "Round Robin" brainstorming technique ensures:'
+    Options:
+    - Only the most vocal students participate
+    - Equal opportunity for all group members to contribute ideas
+    - The teacher controls all responses
+    - Ideas are evaluated as they are shared
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'Collaborative learning is particularly effective for foundation
+      courses because it:'
+    Options:
+    - Allows for diverse perspectives on complex educational concepts
+    - Requires minimal teacher preparation time
+    - Works only for simple, factual information
+    - Eliminates the need for individual study
+    CorrectOptionIndex: 0
+    LevelName: TA collaborative learning
+  - QuestionText: A professor notices that collaborative groups in "Historical Foundations"
+      are discussing topics unrelated to the assignment. What strategy would best
+      address this?
+    Options:
+    - Implementing regular check-ins and progress monitoring
+    - Eliminating collaborative work entirely
+    - Allowing off-topic discussions to continue
+    - Punishing the entire class
+    CorrectOptionIndex: 0
+    LevelName: TA collaborative learning
+  - QuestionText: 'The "Learning Together" model developed by Johnson and Johnson
+      emphasizes:'
+    Options:
+    - Competition between individuals
+    - Five essential elements for effective collaboration
+    - Independent learning without interaction
+    - Teacher-centered instruction
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: In collaborative learning, what is the primary benefit of "peer
+      teaching"?
+    Options:
+    - It reduces the teacher's workload significantly
+    - Both the explainer and listener deepen their understanding
+    - It ensures only correct information is shared
+    - It eliminates the need for teacher expertise
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: When assessing collaborative learning, what method best captures
+      the process and product?
+    Options:
+    - Final exam only
+    - Teacher observation without criteria
+    - Peer evaluation only
+    - Rubrics that evaluate both individual and group performance
+    CorrectOptionIndex: 3
+    LevelName: TA collaborative learning
+  - QuestionText: 'The "Three-Step Interview" technique in collaborative learning
+      is particularly effective for:'
+    Options:
+    - Ensuring only one perspective is considered
+    - Building interpersonal relationships and exploring content
+    - Completing assignments quickly
+    - Avoiding controversial topics
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'Collaborative learning in foundation courses helps develop "21st
+      century skills" including:'
+    Options:
+    - Only content knowledge
+    - Passive listening skills
+    - Individual competition and ranking
+    - Critical thinking, communication, and collaboration
+    CorrectOptionIndex: 3
+    LevelName: TA collaborative learning
+  - QuestionText: A professor wants to implement collaborative learning in a diverse
+      classroom with varying language proficiencies. What adaptation would be most
+      effective?
+    Options:
+    - Using homogeneous grouping by language ability
+    - Providing sentence starters and visual supports
+    - Eliminating group work for these students
+    - Having only native speakers present
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'The "Pairs Check" strategy is designed to:'
+    Options:
+    - Encourage competition between partners
+    - Provide immediate feedback and support
+    - Reduce the amount of work completed
+    - Eliminate the need for teacher assessment
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'Research on collaborative learning shows it is particularly effective
+      for:'
+    Options:
+    - High-achieving students only
+    - Students from collectivist cultures only
+    - Diverse student populations across achievement levels
+    - Elementary students only
+    CorrectOptionIndex: 2
+    LevelName: TA collaborative learning
+  - QuestionText: When conflict arises in collaborative groups studying "Contemporary
+      Educational Issues," what approach is most constructive?
+    Options:
+    - Ignoring the conflict hoping it resolves itself
+    - Teaching conflict resolution strategies
+    - Immediately reassigning students to new groups
+    - Punishing students involved in conflicts
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'The "Gallery Walk" technique in collaborative learning allows
+      students to:'
+    Options:
+    - Work in isolation without interaction
+    - Avoid presenting their work to others
+    - Compete for the best individual product
+    - View and provide feedback on multiple groups' work
+    CorrectOptionIndex: 3
+    LevelName: TA collaborative learning
+  - QuestionText: In collaborative learning, what is the primary advantage of "heterogeneous
+      grouping"?
+    Options:
+    - It ensures all students have similar ability levels
+    - It provides diverse perspectives and peer scaffolding
+    - It makes grouping decisions easier for teachers
+    - It reduces the need for differentiated instruction
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: A professor using collaborative learning for "Sociological Foundations"
+      notices some students are socially excluded. What proactive strategy would
+      prevent this?
+    Options:
+    - Creating groups randomly each time
+    - Ignoring social dynamics as irrelevant to learning
+    - Allowing students to form exclusive friendship groups
+    - Establishing group norms about inclusion
+    CorrectOptionIndex: 3
+    LevelName: TA collaborative learning
+  - QuestionText: 'The "Send a Problem" technique is particularly useful for:'
+    Options:
+    - Avoiding problem-solving activities
+    - Generating multiple solutions to complex problems
+    - Ensuring only one student does the work
+    - Completing assignments without discussion
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'Collaborative learning requires careful planning of physical space
+      to facilitate:'
+    Options:
+    - Individual isolated work
+    - Teacher-centered instruction
+    - Easy communication and interaction
+    - Competitive environments
+    CorrectOptionIndex: 2
+    LevelName: TA collaborative learning
+  - QuestionText: When implementing collaborative learning in foundation courses,
+      what timing consideration is most important?
+    Options:
+    - Providing sufficient time for groups to form, storm, norm, and perform
+    - Rushing through activities to cover more content
+    - Using the same time allocation for all activities
+    - Allowing unlimited time with no deadlines
+    CorrectOptionIndex: 0
+    LevelName: TA collaborative learning
+  - QuestionText: 'The "Team Pair Solo" approach helps students by:'
+    Options:
+    - Starting with individual work only
+    - Progressing from group support to independent work
+    - Eliminating the need for individual accountability
+    - Focusing only on social skills development
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'A key difference between collaborative learning and traditional
+      group work is that collaborative learning:'
+    Options:
+    - Has structured interdependence and individual accountability
+    - Allows some students to do all the work
+    - Requires no planning or structure
+    - Focuses only on the final product
+    CorrectOptionIndex: 0
+    LevelName: TA collaborative learning
+  - QuestionText: 'In foundation courses, collaborative learning helps bridge theory
+      and practice by:'
+    Options:
+    - Keeping theory abstract and separate from application
+    - Allowing students to discuss how theories apply to real educational contexts
+    - Focusing only on theoretical concepts
+    - Eliminating the need for practical application
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning
+  - QuestionText: 'The "Fishbowl" technique in collaborative learning is particularly
+      effective for:'
+    Options:
+    - Demonstrating group processes and modeling discussions
+    - Keeping all discussions private
+    - Ensuring only teacher-selected students participate
+    - Avoiding peer observation and feedback
+    CorrectOptionIndex: 0
+    LevelName: TA collaborative learning
+  - QuestionText: When evaluating the effectiveness of collaborative learning in
+      foundation courses, what evidence would be most meaningful?
+    Options:
+    - Student satisfaction surveys only
+    - Improvements in both academic achievement and social skills
+    - Reduction in teacher workload
+    - Speed of content coverage
+    CorrectOptionIndex: 1
+    LevelName: TA collaborative learning

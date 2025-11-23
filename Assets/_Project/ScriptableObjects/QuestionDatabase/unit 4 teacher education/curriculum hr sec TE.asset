@@ -1,0 +1,462 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: curriculum hr sec TE
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: According to NCFTE-2009, what is the primary vision for higher
+      secondary teacher education?
+    Options:
+    - To produce teachers focused solely on completing the syllabus
+    - To develop subject specialists with research orientation and reflective capabilities
+    - To train teachers exclusively for administrative roles
+    - To focus only on examination preparation techniques
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The curriculum structure for higher secondary teacher education
+      emphasizes developing teachers who can:'
+    Options:
+    - Work only with homogeneous student groups
+    - Avoid dealing with diverse learning needs
+    - Focus solely on textbook content delivery
+    - Facilitate critical thinking and independent learning among students
+    CorrectOptionIndex: 3
+    LevelName: curriculum hr sec TE
+  - QuestionText: How does the 'Engagement with the Field' component in higher secondary
+      teacher education differ from elementary level?
+    Options:
+    - It is completely eliminated
+    - It focuses more on advanced subject-specific pedagogical research
+    - It involves only classroom observation
+    - It is shorter in duration
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Vision'' of higher secondary teacher education particularly
+      emphasizes preparing teachers for:'
+    Options:
+    - Foundational literacy and numeracy
+    - Pre-primary education
+    - Only administrative responsibilities
+    - The specific cognitive and developmental needs of young adults
+    CorrectOptionIndex: 3
+    LevelName: curriculum hr sec TE
+  - QuestionText: Which of the following is a key component of the curriculum structure
+      for higher secondary teacher education?
+    Options:
+    - Basic child psychology only
+    - Advanced pedagogical content knowledge in specialized subjects
+    - Only classroom management techniques
+    - Exclusive focus on co-curricular activities
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Internship'' in higher secondary teacher education program
+      typically includes:'
+    Options:
+    - Only elementary level teaching
+    - Only community service
+    - Only administrative work
+    - Teaching senior secondary classes and conducting action research
+    CorrectOptionIndex: 3
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Perspectives in Education'' component for higher secondary
+      teachers includes deeper engagement with:'
+    Options:
+    - Only psychological perspectives
+    - Philosophical, sociological, and political economy perspectives of education
+    - Only management studies
+    - Only technological aspects
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: What is the primary focus of 'Curriculum and Pedagogic Studies'
+      at higher secondary level?
+    Options:
+    - General teaching methods applicable to all subjects
+    - Specialized pedagogy for advanced subject teaching
+    - Only content knowledge enhancement
+    - Only examination techniques
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Vision'' of higher secondary teacher education as per curriculum
+      documents emphasizes developing teachers as:'
+    Options:
+    - Passive implementers of prescribed curriculum
+    - Only classroom managers
+    - Critical scholars and curriculum developers in their subjects
+    - Isolated subject experts
+    CorrectOptionIndex: 2
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Assessment and Evaluation'' component for higher secondary
+      teachers focuses on:'
+    Options:
+    - Only traditional examination methods
+    - Developing capabilities for designing sophisticated assessment tools
+    - Only continuous comprehensive evaluation
+    - Eliminating all forms of assessment
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Research Perspective'' in higher secondary teacher education
+      curriculum aims to develop:'
+    Options:
+    - Only theoretical research knowledge
+    - Only library research skills
+    - Only statistical analysis skills
+    - The ability to conduct subject-specific educational research
+    CorrectOptionIndex: 3
+    LevelName: curriculum hr sec TE
+  - QuestionText: How does the structure of higher secondary teacher education address
+      the need for 'subject specialization'?
+    Options:
+    - By eliminating pedagogical components
+    - Through deep engagement with subject-specific pedagogical content knowledge
+    - By focusing only on general education principles
+    - By reducing practical components
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''ICT Integration'' in higher secondary teacher education
+      emphasizes:'
+    Options:
+    - Basic computer literacy
+    - Only programming skills
+    - Using technology for advanced subject teaching and research
+    - Eliminating traditional teaching methods
+    CorrectOptionIndex: 2
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''School Internship'' for higher secondary teacher education
+      typically requires engagement with:'
+    Options:
+    - Only primary classes
+    - Classes XI-XII and involvement in academic counseling
+    - Only administrative duties
+    - Only co-curricular activities
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Vision'' of higher secondary teacher education particularly
+      emphasizes preparing teachers who can:'
+    Options:
+    - Work only with average students
+    - Focus only on completing syllabus
+    - Mentor students in specialized subject areas and research projects
+    - Avoid dealing with critical thinking skills
+    CorrectOptionIndex: 2
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Curriculum Studies'' component for higher secondary teachers
+      focuses on:'
+    Options:
+    - Only national curriculum frameworks
+    - Critical analysis of subject-specific curriculum frameworks
+    - Only state-level curricula
+    - Only historical curriculum documents
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Pedagogical Content Knowledge'' for higher secondary teachers
+      requires:'
+    Options:
+    - Only advanced content knowledge
+    - Only classroom management techniques
+    - Only general teaching methods
+    - Integration of specialized content knowledge with pedagogical strategies
+    CorrectOptionIndex: 3
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Understanding the Learner'' component at higher secondary
+      level focuses on:'
+    Options:
+    - Only child development aspects
+    - Adolescent psychology and young adult learning characteristics
+    - Only physical development
+    - Only social development
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Action Research'' component in higher secondary teacher
+      education emphasizes:'
+    Options:
+    - Only theoretical research
+    - Only statistical analysis
+    - Subject-specific classroom-based research
+    - Only library research
+    CorrectOptionIndex: 2
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Vision'' of higher secondary teacher education expects teachers
+      to be:'
+    Options:
+    - Only content deliverers
+    - Facilitators of critical inquiry and independent learning
+    - Only examination evaluators
+    - Isolated professionals
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Professional Development'' component for higher secondary
+      teachers includes:'
+    Options:
+    - One-time training only
+    - Continuous engagement with subject-specific professional communities
+    - Only initial teacher training
+    - Only administrative training
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Assessment Literacy'' for higher secondary teachers involves:'
+    Options:
+    - Only paper-pencil test construction
+    - Only summative assessment
+    - Only continuous evaluation
+    - Designing diverse assessment tools for complex learning outcomes
+    CorrectOptionIndex: 3
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Curriculum and Pedagogic Studies'' for higher secondary
+      teachers typically requires:'
+    Options:
+    - Pedagogy of one school subject only
+    - Deep engagement with one or two specialized teaching subjects
+    - Pedagogy of all school subjects
+    - Only general education courses
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Vision'' of higher secondary teacher education emphasizes
+      developing teachers'' capacity for:'
+    Options:
+    - Blind implementation of prescribed methods
+    - Critical curriculum interpretation and adaptation
+    - Only content mastery
+    - Only classroom management
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''School Experience Program'' for higher secondary teacher
+      education includes:'
+    Options:
+    - Only classroom observation
+    - Only administrative work
+    - Engagement with senior secondary academic processes and counseling
+    - Only community service
+    CorrectOptionIndex: 2
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Subject Knowledge Enhancement'' component for higher secondary
+      teachers focuses on:'
+    Options:
+    - Basic subject concepts only
+    - Advanced subject knowledge and emerging trends
+    - Only pedagogical aspects
+    - Only examination content
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Educational Technology'' component for higher secondary
+      teachers emphasizes:'
+    Options:
+    - Basic computer operations
+    - Only software programming
+    - Only hardware maintenance
+    - Technology integration for advanced subject teaching
+    CorrectOptionIndex: 3
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Vision'' of higher secondary teacher education particularly
+      values teachers as:'
+    Options:
+    - Isolated technicians
+    - Intellectual leaders and subject mentors
+    - Only syllabus completers
+    - Only discipline maintainers
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Research Methodology'' component in higher secondary teacher
+      education aims to develop:'
+    Options:
+    - Only theoretical understanding
+    - Only statistical skills
+    - Capabilities for educational research in specialized subjects
+    - Only library research skills
+    CorrectOptionIndex: 2
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Internship Evaluation'' for higher secondary teacher education
+      focuses on:'
+    Options:
+    - Only teaching skills
+    - Comprehensive professional capabilities including subject expertise
+    - Only theoretical knowledge
+    - Only communication skills
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Curriculum Development'' component for higher secondary
+      teachers emphasizes:'
+    Options:
+    - Only implementation of prescribed curriculum
+    - Only state-level curricula
+    - Only national curriculum frameworks
+    - Critical understanding and development of subject curricula
+    CorrectOptionIndex: 3
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Vision'' of higher secondary teacher education expects teachers
+      to foster:'
+    Options:
+    - Rote learning and memorization
+    - Critical thinking and research orientation among students
+    - Only examination skills
+    - Only co-curricular achievements
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Subject-Specific Pedagogy'' for higher secondary teachers
+      requires:'
+    Options:
+    - Only content knowledge
+    - Only general teaching methods
+    - Integration of advanced content with specialized teaching strategies
+    - Only classroom management
+    CorrectOptionIndex: 2
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Professional Ethics'' component for higher secondary teachers
+      includes:'
+    Options:
+    - Only general ethical principles
+    - Ethical dimensions of subject teaching and academic leadership
+    - Only administrative ethics
+    - Only personal morality
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Academic Counseling'' component in higher secondary teacher
+      education prepares teachers for:'
+    Options:
+    - Only classroom teaching
+    - Guiding students in subject choices and career planning
+    - Only administrative counseling
+    - Only personal counseling
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Vision'' of higher secondary teacher education emphasizes
+      developing teachers who can:'
+    Options:
+    - Work in isolation from academic communities
+    - Avoid professional development
+    - Focus only on classroom teaching
+    - Contribute to subject-specific academic discourse
+    CorrectOptionIndex: 3
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Assessment Design'' for higher secondary teachers focuses
+      on:'
+    Options:
+    - Only recall-based questions
+    - Developing higher-order thinking assessment tools
+    - Only objective-type questions
+    - Only practical examinations
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Curriculum Transaction'' for higher secondary teachers emphasizes:'
+    Options:
+    - Only lecture method
+    - Innovative strategies for complex concept teaching
+    - Only textbook reading
+    - Only group activities
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Research Project'' component in higher secondary teacher
+      education typically involves:'
+    Options:
+    - Only theoretical review
+    - Only statistical analysis
+    - Subject-specific educational research
+    - Only library work
+    CorrectOptionIndex: 2
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Vision'' of higher secondary teacher education values teachers
+      as:'
+    Options:
+    - Passive implementers
+    - Active curriculum developers and critical practitioners
+    - Only syllabus completers
+    - Only examination evaluators
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Professional Communication'' for higher secondary teachers
+      includes:'
+    Options:
+    - Only basic communication skills
+    - Only administrative communication
+    - Only classroom instructions
+    - Advanced academic communication in specialized subjects
+    CorrectOptionIndex: 3
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Learning Resources Development'' for higher secondary teachers
+      focuses on:'
+    Options:
+    - Only textbook usage
+    - Creating advanced subject-specific learning materials
+    - Only chalkboard use
+    - Only ready-made materials
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Vision'' of higher secondary teacher education emphasizes
+      preparing teachers for:'
+    Options:
+    - Only current classroom needs
+    - Only administrative requirements
+    - Only examination patterns
+    - Future academic challenges and changing knowledge paradigms
+    CorrectOptionIndex: 3
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Subject Integration'' component for higher secondary teachers
+      addresses:'
+    Options:
+    - Strict subject boundaries
+    - Interdisciplinary connections and applications
+    - Only single subject focus
+    - Only theoretical aspects
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Academic Leadership'' component in higher secondary teacher
+      education prepares teachers for:'
+    Options:
+    - Only classroom teaching
+    - Leading subject departments and academic initiatives
+    - Only administrative leadership
+    - Only personal development
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Vision'' of higher secondary teacher education particularly
+      emphasizes:'
+    Options:
+    - Standardized teaching approaches
+    - Only traditional methods
+    - Innovation and creativity in subject teaching
+    - Only examination preparation
+    CorrectOptionIndex: 2
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Evaluation Techniques'' for higher secondary teachers include:'
+    Options:
+    - Only written examinations
+    - Multiple methods for assessing complex learning
+    - Only practical tests
+    - Only viva voce
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Professional Development'' for higher secondary teachers
+      emphasizes:'
+    Options:
+    - One-time training
+    - Only initial qualification
+    - Continuous engagement with subject academic communities
+    - Only administrative training
+    CorrectOptionIndex: 2
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Curriculum Innovation'' component for higher secondary teachers
+      focuses on:'
+    Options:
+    - Only prescribed curriculum implementation
+    - Developing innovative approaches to subject teaching
+    - Only traditional methods
+    - Only textbook content
+    CorrectOptionIndex: 1
+    LevelName: curriculum hr sec TE
+  - QuestionText: 'The ''Vision'' of higher secondary teacher education ultimately
+      aims to develop teachers who can:'
+    Options:
+    - Maintain status quo in education
+    - Work in isolation from educational developments
+    - Focus only on examination results
+    - Transform higher secondary education through academic excellence
+    CorrectOptionIndex: 3
+    LevelName: curriculum hr sec TE

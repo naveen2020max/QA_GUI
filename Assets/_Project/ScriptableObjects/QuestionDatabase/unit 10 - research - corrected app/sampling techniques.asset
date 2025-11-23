@@ -1,0 +1,458 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: sampling techniques
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the main purpose of sampling in research?
+    Options:
+    - To study every member of a population
+    - To select a representative subset of a population for study
+    - To reduce the cost of data analysis
+    - To make the research more complicated
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: 'The entire group of individuals that a researcher is interested
+      in studying is called the:'
+    Options:
+    - Sample
+    - Sampling frame
+    - Population
+    - Sampling unit
+    CorrectOptionIndex: 2
+    LevelName: sampling techniques
+  - QuestionText: 'A list of all the elements in a population from which the sample
+      is drawn is called the:'
+    Options:
+    - Sample
+    - Sampling frame
+    - Sampling technique
+    - Census
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: 'The individual members or units selected from the population for
+      a study constitute the:'
+    Options:
+    - Sampling frame
+    - Population
+    - Sample
+    - Cluster
+    CorrectOptionIndex: 2
+    LevelName: sampling techniques
+  - QuestionText: What is the primary characteristic of a probability sampling technique?
+    Options:
+    - It is the cheapest method.
+    - Every element in the population has a known, non-zero chance of being selected.
+    - It is used only for small populations.
+    - The researcher uses their judgment to select samples.
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: Which of the following is a probability sampling technique?
+    Options:
+    - Simple Random Sampling
+    - Purposive Sampling
+    - Quota Sampling
+    - Convenience Sampling
+    CorrectOptionIndex: 0
+    LevelName: sampling techniques
+  - QuestionText: In which sampling technique does every possible sample of a given
+      size have the same chance of being selected?
+    Options:
+    - Systematic Sampling
+    - Stratified Sampling
+    - Simple Random Sampling
+    - Cluster Sampling
+    CorrectOptionIndex: 2
+    LevelName: sampling techniques
+  - QuestionText: 'The sampling technique where a starting point is selected randomly,
+      and then every kth element is chosen from the sampling frame is:'
+    Options:
+    - Simple Random Sampling
+    - Stratified Sampling
+    - Cluster Sampling
+    - Systematic Sampling
+    CorrectOptionIndex: 3
+    LevelName: sampling techniques
+  - QuestionText: 'The technique of dividing the population into homogeneous subgroups
+      and then drawing a sample from each subgroup is called:'
+    Options:
+    - Cluster Sampling
+    - Stratified Sampling
+    - Simple Random Sampling
+    - Purposive Sampling
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: 'When the population is divided into heterogeneous groups (often
+      geographically), and a random sample of these groups is selected for study,
+      it is called:'
+    Options:
+    - Stratified Sampling
+    - Systematic Sampling
+    - Cluster Sampling
+    - Snowball Sampling
+    CorrectOptionIndex: 2
+    LevelName: sampling techniques
+  - QuestionText: Which of the following is a non-probability sampling technique?
+    Options:
+    - Simple Random Sampling
+    - Systematic Sampling
+    - Stratified Sampling
+    - Purposive Sampling
+    CorrectOptionIndex: 3
+    LevelName: sampling techniques
+  - QuestionText: 'Selecting individuals who are easiest to reach is known as:'
+    Options:
+    - Quota Sampling
+    - Convenience Sampling
+    - Snowball Sampling
+    - Purposive Sampling
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: 'A technique where the researcher ensures that the sample reflects
+      certain characteristics of the population in the same proportion is:'
+    Options:
+    - Convenience Sampling
+    - Purposive Sampling
+    - Snowball Sampling
+    - Quota Sampling
+    CorrectOptionIndex: 3
+    LevelName: sampling techniques
+  - QuestionText: 'The non-probability technique used for hard-to-reach populations
+      where existing subjects recruit future subjects is:'
+    Options:
+    - Purposive Sampling
+    - Quota Sampling
+    - Snowball Sampling
+    - Convenience Sampling
+    CorrectOptionIndex: 2
+    LevelName: sampling techniques
+  - QuestionText: 'The difference between a sample statistic and the population parameter
+      it represents is called:'
+    Options:
+    - Sampling error
+    - Non-sampling error
+    - Measurement error
+    - Bias
+    CorrectOptionIndex: 0
+    LevelName: sampling techniques
+  - QuestionText: Why is simple random sampling considered a "fair" method?
+    Options:
+    - It is the fastest method.
+    - It eliminates all types of errors.
+    - It gives every member of the population an equal opportunity to be selected,
+      minimizing selection bias.
+    - It always produces a perfectly representative sample.
+    CorrectOptionIndex: 2
+    LevelName: sampling techniques
+  - QuestionText: How does stratified sampling improve upon simple random sampling?
+    Options:
+    - It is always cheaper.
+    - It guarantees a more representative sample across key subgroups (strata) and
+      can reduce sampling error.
+    - It requires no sampling frame.
+    - It is easier to implement.
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: In what situation is cluster sampling particularly advantageous?
+    Options:
+    - When the population is very small.
+    - When there is no sampling frame available.
+    - When every stratum must be perfectly represented.
+    - When the population is large and geographically dispersed, as it reduces cost
+      and fieldwork complexity.
+    CorrectOptionIndex: 3
+    LevelName: sampling techniques
+  - QuestionText: What is the key weakness of convenience sampling?
+    Options:
+    - It is too expensive.
+    - The sample is unlikely to be representative of the population, leading to severe
+      bias in results.
+    - It is difficult to execute.
+    - It requires a complex sampling frame.
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: Why is a sampling frame critical for probability sampling?
+    Options:
+    - It is not necessary.
+    - It reduces the sample size.
+    - It helps in data analysis.
+    - It provides the complete list from which a random selection can be made, ensuring
+      the basis for probability selection.
+    CorrectOptionIndex: 3
+    LevelName: sampling techniques
+  - QuestionText: 'If a researcher wants to study the career aspirations of students
+      in a university and selects students from each faculty (Science, Arts, Commerce)
+      proportional to their size in the university, this is:'
+    Options:
+    - Cluster Sampling
+    - Simple Random Sampling
+    - Stratified Proportional Sampling
+    - Convenience Sampling
+    CorrectOptionIndex: 2
+    LevelName: sampling techniques
+  - QuestionText: 'A researcher stands in a shopping mall and selects shoppers who
+      look friendly to complete a survey. This is an example of:'
+    Options:
+    - Purposive Sampling
+    - Quota Sampling
+    - Snowball Sampling
+    - Convenience Sampling
+    CorrectOptionIndex: 3
+    LevelName: sampling techniques
+  - QuestionText: 'The term "sampling bias" refers to:'
+    Options:
+    - The natural variation in samples.
+    - A systematic error where the sample is not representative of the population,
+      leading to flawed conclusions.
+    - The cost of sampling.
+    - The size of the sample.
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: What is the primary goal of purposive (judgmental) sampling?
+    Options:
+    - To achieve statistical representativeness.
+    - To make the sample as large as possible.
+    - To save money.
+    - To select participants based on the researcher's knowledge that they will provide
+      rich, relevant information.
+    CorrectOptionIndex: 3
+    LevelName: sampling techniques
+  - QuestionText: 'The standard error is a measure of:'
+    Options:
+    - Non-sampling error
+    - Population size
+    - Sampling variability
+    - Data entry mistakes
+    CorrectOptionIndex: 2
+    LevelName: sampling techniques
+  - QuestionText: 'A larger sample size generally leads to a:'
+    Options:
+    - Larger sampling error
+    - Smaller sampling error
+    - Higher non-sampling error
+    - More biased sample
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: In multi-stage sampling, what happens?
+    Options:
+    - The population is divided into strata.
+    - Every element is selected multiple times.
+    - Only one sampling method is used.
+    - Sampling is carried out in successive stages, using different methods (e.g.,
+      first cluster, then random).
+    CorrectOptionIndex: 3
+    LevelName: sampling techniques
+  - QuestionText: 'The Hawthorne effect is an example of a:'
+    Options:
+    - Sampling error
+    - Non-sampling error
+    - Statistical calculation
+    - Sampling technique
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: 'If a sample statistic consistently overestimates a population
+      parameter, the sample is said to be:'
+    Options:
+    - Accurate
+    - Precise
+    - Biased
+    - Representative
+    CorrectOptionIndex: 2
+    LevelName: sampling techniques
+  - QuestionText: 'The principle that allows researchers to make conclusions about
+      a population based on a sample is:'
+    Options:
+    - Generalization
+    - The law of large numbers
+    - Sampling bias
+    - Operationalization
+    CorrectOptionIndex: 0
+    LevelName: sampling techniques
+  - QuestionText: A researcher wants to study the prevalence of a rare disease. Which
+      probability sampling technique would be most efficient?
+    Options:
+    - Simple Random Sampling
+    - Stratified Sampling
+    - Cluster Sampling
+    - Systematic Sampling
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: "Assertion (A):\_Probability sampling methods are preferred in
+      quantitative research.\_Reason (R):\_They allow for statistical generalization
+      and the estimation of sampling error."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: sampling techniques
+  - QuestionText: 'A study on "Online Shopping Habits of Adults in a Country" uses
+      the electoral roll as its sampling frame. A major threat to the validity of
+      this study is:'
+    Options:
+    - Sampling Error
+    - Coverage Error (a type of non-sampling error)
+    - Measurement Error
+    - The Hawthorne Effect
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: Contrast Stratified Sampling and Cluster Sampling.
+    Options:
+    - Both divide the population into groups.
+    - There is no difference.
+    - Stratified is non-probability, Cluster is probability.
+    - 'Stratified: groups are homogeneous, sample from all groups. Cluster: groups
+      are heterogeneous, sample from a few groups.'
+    CorrectOptionIndex: 3
+    LevelName: sampling techniques
+  - QuestionText: 'A magazine sends a survey to 1,000 randomly selected subscribers
+      from its full list of 100,000 subscribers. This is an example of:'
+    Options:
+    - Cluster Sampling
+    - Simple Random Sampling
+    - Purposive Sampling
+    - Quota Sampling
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: Which of the following is the WEAKEST sampling method for producing
+      generalizable results in a large-scale survey?
+    Options:
+    - Systematic Sampling
+    - Simple Random Sampling
+    - Convenience Sampling
+    - Stratified Sampling
+    CorrectOptionIndex: 2
+    LevelName: sampling techniques
+  - QuestionText: 'In a study on "Homelessness in a City," a researcher starts with
+      a few known homeless individuals and asks them to identify others. This is:'
+    Options:
+    - Quota Sampling
+    - Purposive Sampling
+    - Convenience Sampling
+    - Snowball Sampling
+    CorrectOptionIndex: 3
+    LevelName: sampling techniques
+  - QuestionText: 'The concept of "representativeness" in sampling means the sample:'
+    Options:
+    - Is very large.
+    - Has the same distribution of key characteristics as the population.
+    - Was selected using a complex method.
+    - Includes only willing participants.
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: 'If a researcher uses stratified sampling but selects individuals
+      within each stratum using convenience sampling, the overall method is considered:'
+    Options:
+    - A probability sample
+    - A census
+    - A non-probability sample
+    - A random sample
+    CorrectOptionIndex: 2
+    LevelName: sampling techniques
+  - QuestionText: 'The primary reason for using probability sampling is to:'
+    Options:
+    - Make the research quicker.
+    - Enable the use of inferential statistics and to generalize findings with a
+      known margin of error.
+    - Ensure the sample is perfectly accurate.
+    - Avoid having to get informed consent.
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: A "self-selected" sample, such as in an online poll, is most susceptible
+      to which type of bias?
+    Options:
+    - Sampling Bias
+    - Recall Bias
+    - Measurement Bias
+    - Volunteer Bias (a type of sampling bias)
+    CorrectOptionIndex: 3
+    LevelName: sampling techniques
+  - QuestionText: 'In cluster sampling, the "intra-cluster correlation" typically
+      leads to:'
+    Options:
+    - Reduced sampling error
+    - Increased sampling error (design effect)
+    - More precise estimates
+    - A smaller required sample size
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: 'The term "sampling fraction" refers to:'
+    Options:
+    - The ratio of the sample size to the population size.
+    - The error in sampling.
+    - The cost per sample unit.
+    - The number of strata used.
+    CorrectOptionIndex: 0
+    LevelName: sampling techniques
+  - QuestionText: Purposive sampling is most appropriate for which type of research?
+    Options:
+    - A national census
+    - A large-scale survey estimating public opinion
+    - A qualitative case study of expert teachers
+    - A study requiring generalizable results
+    CorrectOptionIndex: 2
+    LevelName: sampling techniques
+  - QuestionText: 'Quota sampling is often confused with stratified sampling. The
+      key operational difference is:'
+    Options:
+    - The goal of both is the same.
+    - In stratified, selection within strata is random; in quota, it is non-random
+      and often convenient.
+    - Quota sampling uses probability methods.
+    - Stratified sampling is only for small populations.
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: A sampling technique that involves selecting every nth person from
+      a list is called ______, but if the first person is chosen randomly, it becomes
+      ______.
+    Options:
+    - Systematic, Random
+    - Simple Random, Systematic
+    - Convenience, Systematic
+    - Systematic, Probability
+    CorrectOptionIndex: 3
+    LevelName: sampling techniques
+  - QuestionText: 'The "law of large numbers" in sampling suggests that:'
+    Options:
+    - A large sample is always representative.
+    - As a sample size increases, the sample mean gets closer to the population mean.
+    - Sampling error cannot be eliminated.
+    - Small samples are useless.
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: When a sampling frame is not available, which of the following
+      is the most feasible probability sampling method?
+    Options:
+    - Simple Random Sampling
+    - Systematic Sampling
+    - Cluster Sampling
+    - Stratified Sampling
+    CorrectOptionIndex: 2
+    LevelName: sampling techniques
+  - QuestionText: 'The major advantage of non-probability sampling is its:'
+    Options:
+    - Representativeness
+    - Practicality and low cost
+    - Low sampling error
+    - Ability to generalize findings
+    CorrectOptionIndex: 1
+    LevelName: sampling techniques
+  - QuestionText: 'The most critical factor in determining the sample size for a
+      probability sample is:'
+    Options:
+    - The cost of the study
+    - The time available
+    - The number of researchers
+    - The desired level of precision (margin of error) and confidence
+    CorrectOptionIndex: 3
+    LevelName: sampling techniques

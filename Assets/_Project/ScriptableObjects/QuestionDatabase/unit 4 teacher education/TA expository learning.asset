@@ -1,0 +1,465 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: TA expository learning
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary characteristic of the expository learning approach?
+    Options:
+    - Learner-centered discovery
+    - Teacher-centered information transmission
+    - Collaborative problem-solving
+    - Self-directed exploration
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: In expository learning, the sequence of content presentation typically
+      follows which pattern?
+    Options:
+    - Random exploration based on student interest
+    - Reverse chronological order
+    - Circular pattern without clear beginning or end
+    - Logical and structured progression from simple to complex
+    CorrectOptionIndex: 3
+    LevelName: TA expository learning
+  - QuestionText: 'A professor begins a foundation course in "Philosophical Perspectives
+      of Education" by delivering a comprehensive lecture on different schools of
+      philosophy. This approach is most aligned with:'
+    Options:
+    - Heuristic method
+    - Expository learning
+    - Project method
+    - Cooperative learning
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: The theoretical foundation of expository learning is most strongly
+      rooted in which psychological perspective?
+    Options:
+    - Constructivism
+    - Gestalt psychology
+    - Humanism
+    - Behaviorism
+    CorrectOptionIndex: 3
+    LevelName: TA expository learning
+  - QuestionText: Which of the following is a key advantage of using expository learning
+      in foundation courses?
+    Options:
+    - It promotes independent discovery
+    - It efficiently covers large content areas in limited time
+    - It develops critical thinking skills primarily
+    - It requires minimal teacher preparation
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: When using expository learning for teaching "Sociological Foundations
+      of Education," what should be the primary consideration for effective implementation?
+    Options:
+    - Ensuring complete student autonomy
+    - Avoiding any teacher explanation
+    - Systematic organization of content with clear explanations
+    - Focusing only on current events
+    CorrectOptionIndex: 2
+    LevelName: TA expository learning
+  - QuestionText: 'The main limitation of expository learning in foundation courses
+      is that it:'
+    Options:
+    - Takes too much time to cover syllabus
+    - May lead to passive reception without deep understanding
+    - Requires highly specialized teachers
+    - Is too expensive to implement
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: 'In expository learning, the role of the student is primarily that
+      of a:'
+    Options:
+    - Active constructor of knowledge
+    - Independent researcher
+    - Collaborative partner
+    - Passive recipient of information
+    CorrectOptionIndex: 3
+    LevelName: TA expository learning
+  - QuestionText: Which teaching aid is most commonly associated with expository
+      learning in large foundation classes?
+    Options:
+    - Laboratory equipment
+    - Field trip guides
+    - Lecture presentations and visual aids
+    - Simulation games
+    CorrectOptionIndex: 2
+    LevelName: TA expository learning
+  - QuestionText: 'The effectiveness of expository learning can be enhanced by incorporating:'
+    Options:
+    - Longer lecture durations
+    - Periodic questioning and examples
+    - Complete silence during delivery
+    - Avoiding any student interaction
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: A teacher educator is using expository approach to explain "Psychological
+      Theories of Learning" to B.Ed. students. What would be the most appropriate
+      follow-up activity to ensure understanding?
+    Options:
+    - Asking students to write a reflective journal
+    - Organizing a debate on learning theories
+    - Having students design their own learning theories
+    - Conducting a structured quiz with immediate feedback
+    CorrectOptionIndex: 3
+    LevelName: TA expository learning
+  - QuestionText: 'Compared to heuristic methods, expository learning is more suitable
+      for foundation courses when:'
+    Options:
+    - Students have prior expertise in the subject
+    - The content is entirely new and complex
+    - The goal is to develop research skills
+    - Time is not a constraint
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: 'The "set induction" phase in expository learning serves to:'
+    Options:
+    - Summarize the content
+    - Evaluate learning outcomes
+    - Gain students' attention and create readiness
+    - Assign homework tasks
+    CorrectOptionIndex: 2
+    LevelName: TA expository learning
+  - QuestionText: In teaching "Historical Foundations of Education" through expository
+      approach, which content organization would be most effective?
+    Options:
+    - Thematic organization based on student suggestions
+    - Chronological presentation of educational developments
+    - Random selection of historical events
+    - Reverse chronological order
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: The expository approach aligns with which model of communication?
+    Options:
+    - Transactional model
+    - Linear transmission model
+    - Circular model
+    - Interactive model
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: When using expository learning for "Contemporary Indian Education,"
+      which factor is most crucial for maintaining student engagement?
+    Options:
+    - The teacher's subject expertise and presentation skills
+    - The number of students in the class
+    - The time of day the class is scheduled
+    - The color of the classroom walls
+    CorrectOptionIndex: 0
+    LevelName: TA expository learning
+  - QuestionText: 'The primary assessment method compatible with pure expository
+      learning is:'
+    Options:
+    - Portfolio assessment
+    - Standardized objective tests
+    - Peer assessment
+    - Self-assessment
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: A professor wants to modify the expository approach to make it
+      more effective for teaching "Educational Sociology." Which strategy would be
+      most appropriate?
+    Options:
+    - Incorporating case studies and real-life examples during the lecture
+    - Eliminating all examples to save time
+    - Speaking faster to cover more content
+    - Avoiding any visual aids
+    CorrectOptionIndex: 0
+    LevelName: TA expository learning
+  - QuestionText: The expository approach is least effective for teaching which aspect
+      of foundation courses?
+    Options:
+    - Basic concepts and principles
+    - Historical timelines and facts
+    - Complex problem-solving skills
+    - Terminology and definitions
+    CorrectOptionIndex: 2
+    LevelName: TA expository learning
+  - QuestionText: 'In expository learning, the pace of instruction is typically determined
+      by:'
+    Options:
+    - The slowest learner in the class
+    - The teacher's predetermined plan
+    - Students' collective interest
+    - Random factors
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: 'A teacher educator critiques the exclusive use of expository learning
+      in foundation courses, arguing that it contradicts the principles of:'
+    Options:
+    - Behaviorist psychology
+    - Teacher-centered approaches
+    - Traditional education
+    - Constructivist learning theory
+    CorrectOptionIndex: 3
+    LevelName: TA expository learning
+  - QuestionText: When planning a lecture on "Philosophical Foundations" using expository
+      approach, what should be the primary consideration for content selection?
+    Options:
+    - Including every minor detail from the textbook
+    - Selecting core concepts that form the foundation for further learning
+    - Choosing content based on what is easiest to deliver
+    - Focusing only on contemporary philosophers
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: 'The effectiveness of expository learning in large teacher education
+      classes can be compromised by:'
+    Options:
+    - The diversity of students' learning styles and prior knowledge
+    - The teacher's extensive preparation
+    - Using multimedia presentations
+    - Having fixed seating arrangements
+    CorrectOptionIndex: 0
+    LevelName: TA expository learning
+  - QuestionText: A professor uses expository method to teach "Psychological Foundations
+      of Education" but notices students are passive. What modification would best
+      address this issue?
+    Options:
+    - Increasing lecture speed
+    - Adding think-pair-share activities at intervals
+    - Speaking louder
+    - Eliminating all questions
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: 'The expository approach is particularly justified in foundation
+      courses when:'
+    Options:
+    - Students have extensive prior knowledge of the topic
+    - Time available is unlimited
+    - Developing critical thinking is the main objective
+    - The goal is to introduce fundamental concepts and frameworks
+    CorrectOptionIndex: 3
+    LevelName: TA expository learning
+  - QuestionText: In teaching "Sociological Perspectives in Education" through expository
+      method, which visual aid would be most effective?
+    Options:
+    - Complex statistical tables
+    - Conceptual maps showing relationships between theories
+    - Blank sheets for student notes
+    - Abstract art pieces
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: 'The primary cognitive process engaged in expository learning is:'
+    Options:
+    - Evaluation
+    - Synthesis
+    - Reception and retention
+    - Creation
+    CorrectOptionIndex: 2
+    LevelName: TA expository learning
+  - QuestionText: A teacher educator wants to evaluate the effectiveness of expository
+      learning in a foundation course. Which evidence would be most relevant?
+    Options:
+    - Students' ability to reproduce information in examinations
+    - Students' creative projects on the topic
+    - Peer teaching sessions conducted by students
+    - Student-led discussions
+    CorrectOptionIndex: 0
+    LevelName: TA expository learning
+  - QuestionText: The expository approach is most compatible with which educational
+      philosophy?
+    Options:
+    - Progressivism
+    - Essentialism
+    - Reconstructionism
+    - Existentialism
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: When using expository learning for "Historical Foundations," which
+      teaching strategy would enhance long-term retention?
+    Options:
+    - Providing organized summaries at the end of each topic
+    - Skipping review sessions to save time
+    - Using technical jargon extensively
+    - Avoiding any repetition
+    CorrectOptionIndex: 0
+    LevelName: TA expository learning
+  - QuestionText: 'A professor argues that expository learning is essential for foundation
+      courses because it:'
+    Options:
+    - Allows students to construct their own knowledge
+    - Ensures systematic coverage of essential content
+    - Develops collaborative learning skills
+    - Reduces teacher preparation time
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: 'The main difference between expository learning and discovery
+      learning lies in:'
+    Options:
+    - The role of the teacher and student in knowledge transmission
+    - The physical arrangement of the classroom
+    - The duration of the class period
+    - The type of textbook used
+    CorrectOptionIndex: 0
+    LevelName: TA expository learning
+  - QuestionText: 'In expository learning, student motivation is primarily maintained
+      through:'
+    Options:
+    - Self-paced learning
+    - External rewards and grades
+    - Collaborative projects
+    - Intrinsic interest in the subject
+    CorrectOptionIndex: 3
+    LevelName: TA expository learning
+  - QuestionText: 'A teacher educator planning to use expository approach for "Contemporary
+      Educational Issues" should prioritize:'
+    Options:
+    - Current research and updated information
+    - Historical perspectives only
+    - Students' personal opinions
+    - International comparisons exclusively
+    CorrectOptionIndex: 0
+    LevelName: TA expository learning
+  - QuestionText: The expository method is least effective for addressing which learning
+      objective in foundation courses?
+    Options:
+    - Remembering key concepts
+    - Understanding theoretical frameworks
+    - Applying knowledge to novel situations
+    - Identifying main ideas
+    CorrectOptionIndex: 2
+    LevelName: TA expository learning
+  - QuestionText: 'When using expository learning, the teacher''s expertise is crucial
+      because:'
+    Options:
+    - Students cannot access information elsewhere
+    - The teacher is the primary source of accurate information
+    - Textbooks are not available
+    - Library resources are limited
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: 'A professor using expository approach for "Psychological Foundations"
+      notices that students from diverse backgrounds are struggling. The most appropriate
+      response would be to:'
+    Options:
+    - Continue at the same pace for consistency
+    - Incorporate examples from different cultural contexts
+    - Blame students for not paying attention
+    - Eliminate difficult concepts
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: 'The expository approach is particularly suitable for foundation
+      courses because it:'
+    Options:
+    - Allows for customization based on individual student needs
+    - Provides a common knowledge base for all students
+    - Develops research skills from the beginning
+    - Focuses on process rather than content
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: In teaching "Philosophical Foundations" through expository method,
+      which delivery style would be most effective?
+    Options:
+    - Monotonous reading from notes
+    - Informal conversation style
+    - Rapid-fire delivery without pauses
+    - Enthusiastic explanation with varying tone and pace
+    CorrectOptionIndex: 3
+    LevelName: TA expository learning
+  - QuestionText: 'The primary criticism of expository learning from a constructivist
+      perspective is that it:'
+    Options:
+    - Is too time-consuming
+    - Does not acknowledge students' prior knowledge and experiences
+    - Requires too much teacher preparation
+    - Is too expensive to implement
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: 'A teacher educator designing a foundation course using expository
+      approach should ensure that:'
+    Options:
+    - Content is broken into manageable segments with clear transitions
+    - All content is delivered in one continuous session
+    - Students determine the sequence of topics
+    - No summaries are provided
+    CorrectOptionIndex: 0
+    LevelName: TA expository learning
+  - QuestionText: The expository method is most effective for which type of learning
+      content in foundation courses?
+    Options:
+    - Skills requiring hands-on practice
+    - Open-ended problems with multiple solutions
+    - Well-structured and hierarchical knowledge
+    - Values and attitude development
+    CorrectOptionIndex: 2
+    LevelName: TA expository learning
+  - QuestionText: When using expository learning for "Sociological Foundations,"
+      which student characteristic would most significantly affect learning outcomes?
+    Options:
+    - Listening comprehension skills
+    - Physical fitness level
+    - Artistic ability
+    - Athletic performance
+    CorrectOptionIndex: 0
+    LevelName: TA expository learning
+  - QuestionText: A professor wants to combine expository learning with interactive
+      elements for teaching "Historical Foundations." Which strategy would be most
+      appropriate?
+    Options:
+    - Using guided notes with periodic discussion questions
+    - Eliminating all student questions during lecture
+    - Having students teach the entire content
+    - Avoiding any visual aids
+    CorrectOptionIndex: 0
+    LevelName: TA expository learning
+  - QuestionText: The expository approach aligns with which type of curriculum design?
+    Options:
+    - Learner-centered design
+    - Subject-centered design
+    - Problem-centered design
+    - Experience-centered design
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: 'In foundation courses, expository learning is particularly valuable
+      for:'
+    Options:
+    - Introducing technical terminology and conceptual frameworks
+    - Developing creative thinking skills
+    - Fostering collaborative learning
+    - Promoting self-directed learning
+    CorrectOptionIndex: 0
+    LevelName: TA expository learning
+  - QuestionText: 'A teacher educator using expository method for "Contemporary Educational
+      Issues" should be particularly concerned about:'
+    Options:
+    - Ensuring information is current and accurate
+    - The color of classroom walls
+    - Students' fashion choices
+    - The weather outside
+    CorrectOptionIndex: 0
+    LevelName: TA expository learning
+  - QuestionText: The expository approach is least compatible with which educational
+      goal?
+    Options:
+    - Knowledge transmission
+    - Development of autonomous learning skills
+    - Content coverage
+    - Standardized testing preparation
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning
+  - QuestionText: 'When using expository learning, the most important factor for
+      student success is:'
+    Options:
+    - The ability to take effective notes
+    - Previous personal experience with the topic
+    - Physical attendance without mental engagement
+    - Friendship with the teacher
+    CorrectOptionIndex: 0
+    LevelName: TA expository learning
+  - QuestionText: 'A professor defending the use of expository learning in foundation
+      courses would argue that it:'
+    Options:
+    - Is the only valid teaching method
+    - Provides efficient foundation for advanced study
+    - Requires minimal teacher expertise
+    - Eliminates the need for student preparation
+    CorrectOptionIndex: 1
+    LevelName: TA expository learning

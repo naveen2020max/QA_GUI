@@ -1,0 +1,464 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: factors - int & ext validity
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is Internal Validity in experimental research?
+    Options:
+    - The extent to which results can be generalized to other populations
+    - The degree to which the observed effect was caused by the independent variable
+      and not other factors
+    - The consistency of the measurement tool
+    - The truthfulness of the hypothesis
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: What is External Validity?
+    Options:
+    - The accuracy of the conclusions about the cause-effect relationship
+    - The extent to which the results of a study can be generalized to other situations,
+      populations, and times
+    - The control over extraneous variables
+    - The statistical significance of the findings
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: Which of the following is a threat to INTERNAL validity?
+    Options:
+    - Selection bias
+    - Interaction of selection and treatment
+    - Multiple-treatment interference
+    - All of the above
+    CorrectOptionIndex: 3
+    LevelName: factors - int & ext validity
+  - QuestionText: 'The threat of "History" refers to:'
+    Options:
+    - The age of the participants
+    - External events that occur during the experiment that could affect the results
+    - The natural progression of time
+    - A flaw in the research design
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: '"Maturation" as a threat to internal validity involves:'
+    Options:
+    - Changes in the measurement instrument
+    - Biological or psychological changes within participants over time (e.g., growing
+      tired, older, wiser)
+    - Participants dropping out of the study
+    - The influence of a pre-test
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'The "Testing" threat occurs when:'
+    Options:
+    - The experiment is too difficult
+    - Taking a pre-test influences scores on the post-test (practice or fatigue effects)
+    - The researcher tests the wrong hypothesis
+    - The treatment is ineffective
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: '"Instrumentation" becomes a threat when:'
+    Options:
+    - A new instrument is used
+    - There is a change in the calibration of the measuring instrument or in the
+      observers' standards
+    - The instrument is reliable
+    - The same instrument is used twice
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: '"Statistical Regression" is a threat when:'
+    Options:
+    - Data analysis is incorrect
+    - Participants are selected based on extreme scores, and their scores naturally
+      move toward the average on retesting
+    - The sample size is too small
+    - The mean is calculated
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'The "Selection" threat is primarily a problem in designs:'
+    Options:
+    - With random assignment
+    - Without random assignment, where groups are not equivalent at the start
+    - With a large sample size
+    - That use a pre-test
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: '"Mortality" or "Attrition" threatens validity when:'
+    Options:
+    - All participants finish the study
+    - Participants drop out of the study differentially from the experimental and
+      control groups
+    - The sample is too young
+    - The study is short
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: Which of the following is a threat to EXTERNAL validity?
+    Options:
+    - History
+    - Maturation
+    - Reactive effects of testing (pre-test sensitization)
+    - Instrumentation
+    CorrectOptionIndex: 2
+    LevelName: factors - int & ext validity
+  - QuestionText: 'The "Interaction of Selection and Treatment" threat means:'
+    Options:
+    - The treatment was effective for everyone
+    - The findings may only generalize to the specific type of participants selected
+      for the study
+    - Participants were randomly selected
+    - The treatment and control groups were identical
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: '"Reactive Effects of Experimental Arrangements" refers to the
+      problem that:'
+    Options:
+    - The lab equipment was faulty
+    - The artificial setting of the experiment itself influences the results (lack
+      of ecological validity)
+    - The participants were reactive
+    - The data was inaccurate
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: '"Multiple-Treatment Interference" is a threat when:'
+    Options:
+    - Only one treatment is used
+    - The same participants receive multiple treatments, and the effects of one carry
+      over to the next
+    - The treatment is strong
+    - There is a control group
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'A trade-off often exists between:'
+    Options:
+    - Cost and time
+    - Internal and External Validity
+    - Theory and practice
+    - The researcher and participants
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: How does "Random Assignment" primarily address threats to validity?
+    Options:
+    - It guarantees generalizability.
+    - It controls for Selection bias by creating equivalent groups, thus protecting
+      Internal Validity.
+    - It eliminates the need for a control group.
+    - It makes the experiment faster.
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: Why is a "Control Group" crucial for controlling History and Maturation
+      threats?
+    Options:
+    - It makes the study more expensive.
+    - Any external event (history) or internal change (maturation) will affect both
+      groups equally; its effect is thus canceled out when comparing them.
+    - It ensures the treatment group gets attention.
+    - It provides a second sample.
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: How can the "Testing" threat be controlled?
+    Options:
+    - By using a difficult test
+    - By using a "Posttest-Only Control Group Design" that eliminates the pre-test
+    - By testing everyone twice
+    - By using a small sample
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'The "Hawthorne Effect" is a specific type of threat to:'
+    Options:
+    - Internal Validity
+    - Both Internal and External Validity
+    - Only External Validity
+    - Neither
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: Using a "Double-Blind Procedure" helps control which threat?
+    Options:
+    - Selection
+    - Experimenter Bias and Participant Expectancy Effects
+    - Statistical Regression
+    - Mortality
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'A study on a new math curriculum finds improved scores, but a
+      major math competition was held during the study. This illustrates the threat
+      of:'
+    Options:
+    - Maturation
+    - History
+    - Testing
+    - Instrumentation
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'In a long-term study on cognitive training, participants naturally
+      become more practiced at the tasks. This improved performance could be mistakenly
+      attributed to the training due to:'
+    Options:
+    - History
+    - Maturation
+    - Testing
+    - Selection
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'A researcher uses a pre-test that is very similar to the post-test.
+      Participants perform better on the post-test simply because they remember the
+      questions. This is a threat of:'
+    Options:
+    - Instrumentation
+    - Testing
+    - Mortality
+    - Regression
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'If a rater in a study becomes more lenient in their scoring from
+      the pre-test to the post-test, the threat is:'
+    Options:
+    - Testing
+    - Instrumentation
+    - Maturation
+    - History
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'A school selects the lowest-performing students for a remedial
+      program. Even without the program, their scores would likely improve on a retest
+      due to:'
+    Options:
+    - Selection
+    - Statistical Regression
+    - Mortality
+    - Diffusion
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: "Assertion (A):\_Internal validity is a prerequisite for external
+      validity.\_Reason (R):\_If a study lacks internal validity (we don't know if
+      the IV caused the DV), there is nothing valid to generalize."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: factors - int & ext validity
+  - QuestionText: 'A study finds a new drug is effective for a sample of young, healthy
+      males. The concern that it may not work for elderly females is a threat to
+      external validity called:'
+    Options:
+    - Reactive Arrangements
+    - Interaction of Selection and Treatment
+    - Multiple-Treatment Interference
+    - Testing
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: Contrast the threats of "History" and "Maturation."
+    Options:
+    - History is internal, Maturation is external.
+    - History is an external event; Maturation is an internal process within participants.
+    - They are the same.
+    - History is controlled by random assignment.
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'A lab study on memory uses a highly artificial word-list task.
+      The findings may not apply to real-world studying due to:'
+    Options:
+    - Testing Threat
+    - Reactive Effects of Experimental Arrangements (Low Ecological Validity)
+    - Selection Threat
+    - Mortality
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'In a single-subject design where a patient receives Treatment
+      A, then B, then A again, the effect of B might be influenced by A. This is:'
+    Options:
+    - Instrumentation
+    - Multiple-Treatment Interference
+    - Selection
+    - History
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: Which of the following is the BEST method for increasing external
+      validity?
+    Options:
+    - Using a very small, homogenous sample
+    - Using random selection from a well-defined population and conducting the study
+      in a realistic setting
+    - Conducting the study in a highly controlled lab
+    - Using a single group pre-test post-test design
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'A flaw in a study is to have high internal validity but ignore
+      external validity. This means the study:'
+    Options:
+    - Is worthless.
+    - Can confidently claim a causal effect but we don't know if it applies to other
+      people or settings.
+    - Has no causal claim but is highly generalizable.
+    - Is both invalid and not generalizable.
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'The term "Ecological Validity" is a specific type of:'
+    Options:
+    - Internal Validity
+    - External Validity
+    - Construct Validity
+    - Statistical Validity
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'The "Placebo Effect" is a threat to internal validity that is
+      best classified under:'
+    Options:
+    - Selection
+    - Participant Bias or Expectancy Effects
+    - Maturation
+    - Regression
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'A researcher replicates a lab study in a school classroom to see
+      if the same effect holds. The researcher is checking for:'
+    Options:
+    - Internal Validity
+    - External Validity
+    - Construct Validity
+    - Content Validity
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: Using a "Solomon Four-Group Design" helps to control for which
+      specific threat?
+    Options:
+    - Selection
+    - The interactive effect of Testing and the Treatment
+    - Mortality
+    - History
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'The "John Henry Effect" (compensatory rivalry by the control group)
+      is a threat to:'
+    Options:
+    - External Validity only
+    - Internal Validity
+    - Both Internal and External Validity
+    - Neither
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'If the treatment group shares information with the control group,
+      diluting the difference between them, it is a threat called:'
+    Options:
+    - Compensatory Equalization
+    - Diffusion or Imitation of Treatments
+    - Resentful Demoralization
+    - Local History
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'A "Time Series Design" with multiple pre- and post-tests helps
+      to control for:'
+    Options:
+    - Selection
+    - History and Maturation
+    - Testing
+    - Instrumentation
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: The concept that findings from a study conducted in one culture
+      may not apply to another culture relates to which threat?
+    Options:
+    - Temporal Validity
+    - Population Validity (a type of External Validity)
+    - Internal Validity
+    - Measurement Validity
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'A key difference between "Subject Effects" (like the Hawthorne
+      Effect) and "Experimenter Effects" is:'
+    Options:
+    - They are the same.
+    - Subject Effects originate from participants; Experimenter Effects originate
+      from the researcher.
+    - Only Subject Effects threaten validity.
+    - Only Experimenter Effects can be controlled.
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: The threat of "Local History" is specific to which type of design?
+    Options:
+    - True Experiments
+    - Quasi-Experiments where groups are in different locations
+    - Correlational Studies
+    - Pre-Experiments
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'Using "Counterbalancing" in a within-subjects design controls
+      for:'
+    Options:
+    - Selection Bias
+    - Order Effects (a type of multiple-treatment interference)
+    - Statistical Regression
+    - Mortality
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'The most fundamental threat to internal validity that random assignment
+      directly addresses is:'
+    Options:
+    - History
+    - Selection Bias
+    - Testing
+    - Maturation
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'A study with high internal validity but conducted on a very unique
+      and narrow population has low:'
+    Options:
+    - Population Validity (External)
+    - Internal Validity
+    - Construct Validity
+    - Statistical Conclusion Validity
+    CorrectOptionIndex: 0
+    LevelName: factors - int & ext validity
+  - QuestionText: 'The "Reactivity" threat is most associated with participants:'
+    Options:
+    - Dropping out
+    - Changing their behavior because they know they are being studied
+    - Being randomly assigned
+    - Having extreme scores
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'A researcher increases the realism of a study''s setting to improve
+      its:'
+    Options:
+    - Internal Validity
+    - Ecological Validity (External)
+    - Statistical Power
+    - Measurement Reliability
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'The "Screw-you Effect" (Resentful Demoralization) occurs when:'
+    Options:
+    - The treatment group tries harder.
+    - The control group performs poorly because they are demoralized about not receiving
+      the treatment.
+    - The experimenter makes a mistake.
+    - The instruments break.
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'The term "Temporal Validity" refers to the generalizability of
+      findings across:'
+    Options:
+    - Different settings
+    - Different time periods
+    - Different measurement tools
+    - Different researchers
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity
+  - QuestionText: 'The single most important first step a researcher can take to
+      protect the overall validity of an experiment is to:'
+    Options:
+    - Use a large sample.
+    - Employ a strong research design (e.g., a true experiment with a control group)
+      from the outset.
+    - Find a significant p-value.
+    - Write a good abstract.
+    CorrectOptionIndex: 1
+    LevelName: factors - int & ext validity

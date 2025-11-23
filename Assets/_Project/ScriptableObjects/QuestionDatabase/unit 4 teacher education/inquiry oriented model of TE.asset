@@ -1,0 +1,442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: inquiry oriented model of TE
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the central role of a teacher in the Inquiry-Oriented model?
+    Options:
+    - A technician implementing prescribed methods
+    - A reflective practitioner and inquirer
+    - A primary source of all knowledge
+    - A neutral transmitter of curriculum
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The primary goal of the Inquiry-Oriented model is to develop teachers
+      who are:'
+    Options:
+    - Identical in their teaching approaches
+    - Lifelong learners and problem-solvers
+    - Experts in a single subject area
+    - Efficient managers of classroom behavior
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: Which of the following is the core methodology associated with
+      the Inquiry-Oriented model?
+    Options:
+    - Programmed Instruction
+    - Micro-teaching
+    - Action Research
+    - Direct Instruction
+    CorrectOptionIndex: 2
+    LevelName: inquiry oriented model of TE
+  - QuestionText: The Inquiry-Oriented model is most strongly influenced by the work
+      of which scholar?
+    Options:
+    - B.F. Skinner
+    - John Dewey
+    - E.L. Thorndike
+    - Benjamin Bloom
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The first step in the inquiry cycle typically involves:'
+    Options:
+    - Analyzing data
+    - Implementing a new strategy
+    - Identifying a problem or question of practice
+    - Writing a research report
+    CorrectOptionIndex: 2
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'A key characteristic of this model is that it views knowledge
+      for teaching as:'
+    Options:
+    - Fixed and universal
+    - Contextually constructed through investigation
+    - Solely derived from academic experts
+    - Best acquired through lecture-based courses
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: Which of the following questions best exemplifies an inquiry-oriented
+      approach?
+    Options:
+    - How can I best cover Chapter 5 by Friday?
+    - What is the most effective scripted reading program?
+    - Why are my students unable to transfer their math skills to real-world problems?
+    - What is the definition of a noun?
+    CorrectOptionIndex: 2
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The Inquiry-Oriented model primarily aims to bridge the gap between:'
+    Options:
+    - Parents and teachers
+    - Theory and practice
+    - Primary and secondary education
+    - Public and private schools
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'A major challenge in implementing the Inquiry-Oriented model is
+      that it is:'
+    Options:
+    - Too quick and easy
+    - Based on outdated theories
+    - Focused only on low-level skills
+    - Highly time-consuming and requires sustained support
+    CorrectOptionIndex: 3
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'In an inquiry-oriented program, assessment of teacher candidates
+      would likely focus on their:'
+    Options:
+    - Speed in completing a lesson
+    - Ability to conduct and present a classroom-based inquiry project
+    - Score on a standardized content knowledge test
+    - Adherence to a specific teaching method
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The philosophical foundation of the Inquiry-Oriented model is
+      most aligned with:'
+    Options:
+    - Behaviorism
+    - Essentialism
+    - Constructivism
+    - Perennialism
+    CorrectOptionIndex: 2
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The term "teacher as researcher" implies that the teacher:'
+    Options:
+    - Should abandon teaching to become a university professor.
+    - Systematically studies their own practice to generate knowledge.
+    - Only uses research produced by others.
+    - Is not responsible for student learning.
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: Which strategy is most aligned with fostering an inquiry-oriented
+      approach in teacher education?
+    Options:
+    - Skills checklists
+    - Competitive grading
+    - Standardized lesson plans
+    - Maintaining a reflective journal
+    CorrectOptionIndex: 3
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'A key merit of this model is that it:'
+    Options:
+    - Provides a one-size-fits-all solution to teaching problems.
+    - Empowers teachers and increases their professional autonomy.
+    - Ensures all teachers use identical methods.
+    - Minimizes the need for teacher planning.
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The inquiry cycle of "Plan, Act, Observe, Reflect" is central
+      to:'
+    Options:
+    - Competency-Based Teacher Education
+    - The Behaviouristic Model
+    - Action Research
+    - Mastery Learning
+    CorrectOptionIndex: 2
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'In an inquiry-oriented classroom, a teacher would view student
+      mistakes as:'
+    Options:
+    - Failures to be penalized
+    - Data points for understanding thinking
+    - Signs of student laziness
+    - Irrelevant to the teaching process
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'Professional Learning Communities (PLCs) support the Inquiry-Oriented
+      model by providing:'
+    Options:
+    - A structure for individual competition
+    - A forum for collaborative inquiry and shared reflection
+    - A way to standardize teacher evaluation
+    - A replacement for university courses
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'A teacher investigating "How does the use of graphic organizers
+      impact my students'' essay writing?" is engaging in:'
+    Options:
+    - Summative assessment
+    - Aesthetic appreciation
+    - Practitioner inquiry
+    - Norm-referenced evaluation
+    CorrectOptionIndex: 2
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The Inquiry-Oriented model is a direct critique of models that
+      view teaching as a(n):'
+    Options:
+    - Art form
+    - Technical, delivery-based profession
+    - Ethical endeavor
+    - Political act
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: Which of the following is a necessary skill for a teacher in an
+      inquiry-oriented program?
+    Options:
+    - Rote memorization
+    - Avoiding questions
+    - Blind adherence to curriculum
+    - Critical reflection and data analysis
+    CorrectOptionIndex: 3
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The primary source of knowledge in the Inquiry-Oriented model
+      is the teacher''s own:'
+    Options:
+    - Intuition
+    - Systematic investigation of practice
+    - Textbook
+    - Principal's directives
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'A potential drawback of this model is that it may lead to:'
+    Options:
+    - An over-reliance on external experts
+    - Rigid teaching styles
+    - Too much emphasis on standardized testing
+    - A lack of immediate, clear-cut answers to classroom problems
+    CorrectOptionIndex: 3
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The concept of "reflection-on-action" refers to:'
+    Options:
+    - Thinking while teaching
+    - Thinking after teaching has occurred
+    - Planning before teaching
+    - Ignoring past experiences
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: An inquiry-oriented teacher education program would likely use
+      which final project?
+    Options:
+    - A comprehensive written exam on theory
+    - A portfolio documenting a complete cycle of classroom inquiry
+    - A micro-teaching session on a random topic
+    - A multiple-choice test on teaching methods
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: "Donald Sch\xF6n's concept of the \"reflective practitioner\" is
+      a cornerstone of which model?"
+    Options:
+    - Behaviouristic
+    - Apprenticeship
+    - Competency-Based
+    - Inquiry-Oriented
+    CorrectOptionIndex: 3
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'When an inquiry-oriented teacher shares their findings with colleagues,
+      it contributes to:'
+    Options:
+    - Individual teacher ranking
+    - The collective knowledge of the teaching community
+    - Student grade inflation
+    - Administrative workload
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: Which of the following is an example of data a teacher might collect
+      for an inquiry?
+    Options:
+    - A list of competencies from a handbook
+    - Samples of student work, observational notes, and student survey responses
+    - The teacher's college transcripts
+    - The school's mission statement
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The Inquiry-Oriented model is least compatible with an educational
+      system that emphasizes:'
+    Options:
+    - Teacher professionalism
+    - Professional development
+    - Collaborative planning
+    - Standardized testing as the sole measure of success
+    CorrectOptionIndex: 3
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'A teacher educator promoting an inquiry orientation would ask
+      student-teachers questions like:'
+    Options:
+    - '"Did you follow the lesson plan exactly?"'
+    - '"What evidence do you have that your students achieved the learning objective?"'
+    - '"How quickly did you finish the lesson?"'
+    - '"Was your classroom perfectly quiet?"'
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The ultimate beneficiary of a teacher''s inquiry is the:'
+    Options:
+    - School principal
+    - Teacher educator
+    - Student
+    - Teacher themselves
+    CorrectOptionIndex: 2
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The inquiry process is best described as:'
+    Options:
+    - Linear and predictable
+    - Cyclical and iterative
+    - A one-time event
+    - A fixed set of steps
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: A key difference between the Inquiry-Oriented model and the Competency-Based
+      model is that the former emphasizes _____ while the latter emphasizes _____.
+    Options:
+    - skills; knowledge
+    - process; demonstrated outcomes
+    - theory; practice
+    - content; pedagogy
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: '"Critical reflection" in this model involves examining:'
+    Options:
+    - Only one's successful lessons
+    - The textbook's answers
+    - Only the students' failures
+    - One's own assumptions and the socio-political context of schooling
+    CorrectOptionIndex: 3
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'A teacher who systematically trials different questioning techniques
+      to improve student participation is engaging in:'
+    Options:
+    - Unprofessional experimentation
+    - Action research
+    - Summative evaluation
+    - Norm-referenced assessment
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The Inquiry-Oriented model prepares teachers to be:'
+    Options:
+    - Dependent on external consultants
+    - Adaptive to diverse and changing classroom contexts
+    - Resistant to new ideas
+    - Focused only on their own teaching
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: Which of the following is a "habit of mind" cultivated by this
+      model?
+    Options:
+    - Compliance
+    - Conformity
+    - Memorization
+    - Questioning
+    CorrectOptionIndex: 3
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'A school culture that supports inquiry-oriented teaching would
+      be characterized by:'
+    Options:
+    - Fear of making mistakes
+    - Trust, collaboration, and shared responsibility for learning
+    - Strict adherence to a single teaching methodology
+    - Isolation of teachers in their classrooms
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The "O" in the "Plan, Act, Observe, Reflect" cycle refers to:'
+    Options:
+    - Obstructing the process
+    - Officially reporting results
+    - Systematically observing the effects of action
+    - Offering opinions
+    CorrectOptionIndex: 2
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'A teacher using an inquiry-oriented approach would view the curriculum
+      as a:'
+    Options:
+    - Fixed document to be covered
+    - Framework for exploration and investigation
+    - List of topics to be memorized
+    - Barrier to student creativity
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The Inquiry-Oriented model is particularly relevant in the 21st
+      century because it helps teachers:'
+    Options:
+    - Avoid using technology
+    - Implement standardized curricula
+    - Teach only basic skills
+    - Navigate complex, information-rich environments
+    CorrectOptionIndex: 3
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'A "wondering" in practitioner inquiry is another term for a:'
+    Options:
+    - Final conclusion
+    - Research question or problem of practice
+    - Student's incorrect answer
+    - Lesson objective
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: Which of the following is a limitation of the Inquiry-Oriented
+      model?
+    Options:
+    - It is too focused on practical skills.
+    - It ignores the role of reflection.
+    - It produces teachers who are all the same.
+    - It requires significant resources and institutional support.
+    CorrectOptionIndex: 3
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'The model''s focus on context means that knowledge generated through
+      inquiry is:'
+    Options:
+    - Universally applicable
+    - Specific to that teacher's classroom and situation
+    - Irrelevant to other teachers
+    - Only theoretical
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'A teacher educator modeling an inquiry-oriented approach would:'
+    Options:
+    - Lecture exclusively on research methods.
+    - Avoid discussing classroom problems.
+    - Provide a single correct way to teach every lesson.
+    - Share their own inquiries into their teaching practice with student-teachers.
+    CorrectOptionIndex: 3
+    LevelName: inquiry oriented model of TE
+  - QuestionText: "The concept of \"praxis\" \u2013 the integration of reflection
+      and action \u2013 is central to which model?"
+    Options:
+    - Behaviouristic
+    - Inquiry-Oriented
+    - Competency-Based
+    - Humanistic
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: 'In an inquiry-oriented program, a teaching portfolio would likely
+      contain:'
+    Options:
+    - Only letters of recommendation
+    - Only perfect lesson plans
+    - Artifacts that show the process and results of the teacher's inquiry
+    - Only standardized test scores of their students
+    CorrectOptionIndex: 2
+    LevelName: inquiry oriented model of TE
+  - QuestionText: The Inquiry-Oriented model fundamentally shifts the teachers' role
+      from knowledge transmitter to knowledge _____.
+    Options:
+    - avoider
+    - generator
+    - memorizer
+    - receiver
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE
+  - QuestionText: A teacher who critically examines whether their assessment practices
+      are fair to all student groups is engaging in which level of reflection?
+    Options:
+    - Technical
+    - Practical
+    - Critical
+    - Superficial
+    CorrectOptionIndex: 2
+    LevelName: inquiry oriented model of TE
+  - QuestionText: Which of the following best describes the relationship between
+      the Inquiry-Oriented model and professional development?
+    Options:
+    - Professional development is unnecessary in this model.
+    - Inquiry is a form of continuous professional development.
+    - Professional development is only for novice teachers in this model.
+    - The model relies solely on one-time workshops.
+    CorrectOptionIndex: 1
+    LevelName: inquiry oriented model of TE

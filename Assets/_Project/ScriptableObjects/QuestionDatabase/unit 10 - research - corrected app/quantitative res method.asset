@@ -1,0 +1,440 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: quantitative res method
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary goal of quantitative research?
+    Options:
+    - To explore subjective experiences
+    - To understand cultural phenomena
+    - To quantify data and generalize results from a sample to a population
+    - To develop new theories
+    CorrectOptionIndex: 2
+    LevelName: quantitative res method
+  - QuestionText: Which of the following is a key characteristic of quantitative
+      research?
+    Options:
+    - Use of structured and predefined research design
+    - Emergent and flexible design
+    - Small, purposive samples
+    - Rich, narrative data
+    CorrectOptionIndex: 0
+    LevelName: quantitative res method
+  - QuestionText: 'A tentative, testable prediction about the relationship between
+      two or more variables is called a:'
+    Options:
+    - Research Question
+    - Theory
+    - Hypothesis
+    - Assumption
+    CorrectOptionIndex: 2
+    LevelName: quantitative res method
+  - QuestionText: 'The variable that is manipulated or controlled by the researcher
+      is the:'
+    Options:
+    - Dependent Variable
+    - Confounding Variable
+    - Independent Variable
+    - Control Variable
+    CorrectOptionIndex: 2
+    LevelName: quantitative res method
+  - QuestionText: 'The variable that is observed and measured for changes is the:'
+    Options:
+    - Dependent Variable
+    - Independent Variable
+    - Extraneous Variable
+    - Moderating Variable
+    CorrectOptionIndex: 0
+    LevelName: quantitative res method
+  - QuestionText: Which of the following is a type of quantitative research design?
+    Options:
+    - Phenomenology
+    - Ethnography
+    - Experimental
+    - Case Study
+    CorrectOptionIndex: 2
+    LevelName: quantitative res method
+  - QuestionText: 'A research design that seeks to determine the relationship between
+      two variables is called:'
+    Options:
+    - Experimental
+    - Correlational
+    - Descriptive
+    - Historical
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A study that describes the characteristics of a population or
+      phenomenon is a:'
+    Options:
+    - Descriptive Survey
+    - True Experiment
+    - Quasi-Experiment
+    - Ex-post-facto
+    CorrectOptionIndex: 0
+    LevelName: quantitative res method
+  - QuestionText: 'The "gold standard" for establishing cause-and-effect relationships
+      is the:'
+    Options:
+    - Correlational Design
+    - True Experimental Design
+    - Causal-Comparative Design
+    - Descriptive Design
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A design that compares groups that are already formed, without
+      random assignment, is a:'
+    Options:
+    - True Experiment
+    - Quasi-Experiment
+    - Pre-Experiment
+    - Phenomenology
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'The extent to which a study''s findings can be generalized to
+      other contexts is its:'
+    Options:
+    - Internal Validity
+    - External Validity
+    - Construct Validity
+    - Reliability
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'The extent to which a study establishes a causal relationship
+      is its:'
+    Options:
+    - Internal Validity
+    - External Validity
+    - Statistical Validity
+    - Content Validity
+    CorrectOptionIndex: 0
+    LevelName: quantitative res method
+  - QuestionText: Which of the following is a method of data collection in quantitative
+      research?
+    Options:
+    - In-depth interviews
+    - Participant observation
+    - Structured questionnaires
+    - Focus groups
+    CorrectOptionIndex: 2
+    LevelName: quantitative res method
+  - QuestionText: 'A scale where responses are ranked in a specific order but the
+      intervals between ranks are not equal is a(n):'
+    Options:
+    - Nominal Scale
+    - Ordinal Scale
+    - Interval Scale
+    - Ratio Scale
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A scale that has a true zero point is a(n):'
+    Options:
+    - Nominal Scale
+    - Ordinal Scale
+    - Interval Scale
+    - Ratio Scale
+    CorrectOptionIndex: 3
+    LevelName: quantitative res method
+  - QuestionText: 'The consistency or stability of a measurement tool is its:'
+    Options:
+    - Validity
+    - Reliability
+    - Objectivity
+    - Generalizability
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'The accuracy of a measurement tool in measuring what it intends
+      to measure is its:'
+    Options:
+    - Validity
+    - Reliability
+    - Replicability
+    - Falsifiability
+    CorrectOptionIndex: 0
+    LevelName: quantitative res method
+  - QuestionText: Which statistical measure is used to describe the central tendency
+      of a dataset?
+    Options:
+    - Range
+    - Standard Deviation
+    - Mean
+    - Variance
+    CorrectOptionIndex: 2
+    LevelName: quantitative res method
+  - QuestionText: 'A statistical test used to compare the means of two independent
+      groups is the:'
+    Options:
+    - Independent samples t-test
+    - Paired-samples t-test
+    - ANOVA
+    - Chi-square test
+    CorrectOptionIndex: 0
+    LevelName: quantitative res method
+  - QuestionText: 'A statistical test used to compare the means of three or more
+      groups is:'
+    Options:
+    - t-test
+    - Analysis of Variance (ANOVA)
+    - Correlation
+    - Regression
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A number between -1 and +1 that indicates the strength and direction
+      of a linear relationship between two variables is a:'
+    Options:
+    - Mean
+    - Standard Deviation
+    - Correlation Coefficient
+    - p-value
+    CorrectOptionIndex: 2
+    LevelName: quantitative res method
+  - QuestionText: 'A p-value less than 0.05 typically indicates that the results
+      are:'
+    Options:
+    - Definitely due to chance
+    - Statistically significant (unlikely due to chance)
+    - Practically significant
+    - Externally valid
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: How does a quantitative researcher typically approach the literature
+      review?
+    Options:
+    - It is conducted after data collection.
+    - It is used to build a theoretical framework and identify gaps to be tested.
+    - It is optional.
+    - It is purely descriptive.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: Why is a large sample size often sought in quantitative research?
+    Options:
+    - To make the study more expensive
+    - To increase the power of statistical tests and the generalizability of results
+    - To ensure everyone gets the treatment
+    - To simplify data analysis
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: What is the role of operational definitions in quantitative research?
+    Options:
+    - To make the research sound complex
+    - To define variables in measurable terms, ensuring clarity and replicability
+    - To state the research problem
+    - To list the hypotheses
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: "Assertion (A):\_Quantitative research is deductive in nature.\_Reason
+      (R):\_It tests hypotheses derived from existing theory."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 0
+    LevelName: quantitative res method
+  - QuestionText: 'A researcher measures the height and weight of 100 students to
+      see if they are related. This is a:'
+    Options:
+    - Experimental Study
+    - Correlational Study
+    - Phenomenological Study
+    - Case Study
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: Contrast the purpose of quantitative research with qualitative
+      research.
+    Options:
+    - Quantitative explores meaning; qualitative tests theories.
+    - Quantitative tests hypotheses; qualitative explores and understands phenomena.
+    - They have the same purpose.
+    - Quantitative is subjective; qualitative is objective.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A study where one group receives a new drug and another receives
+      a placebo, with participants randomly assigned, is a:'
+    Options:
+    - Correlational Design
+    - True Experimental Design
+    - Quasi-Experimental Design
+    - Descriptive Design
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: Which of the following is a weakness of quantitative research?
+    Options:
+    - It may fail to capture the context and depth of human experience.
+    - Its results are not generalizable.
+    - It lacks objectivity.
+    - It is too flexible.
+    CorrectOptionIndex: 0
+    LevelName: quantitative res method
+  - QuestionText: Which of the following is the STRONGEST advantage of quantitative
+      research?
+    Options:
+    - Its ability to explore complex emotions.
+    - Its ability to produce precise, measurable, and generalizable data.
+    - Its low cost.
+    - Its rapid data collection.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A flaw in a quantitative study is to have a:'
+    Options:
+    - Large, random sample
+    - A statistically significant result that has no practical importance
+    - A clear operational definition
+    - A valid measurement tool
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'The concept of "replicability" is important in quantitative research
+      because it:'
+    Options:
+    - Makes the study unique.
+    - Allows other researchers to repeat the study to verify the findings.
+    - Is required for qualitative studies.
+    - Increases the sample size.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A "cross-sectional" survey design collects data:'
+    Options:
+    - From the same sample at multiple time points.
+    - From a sample at a single point in time.
+    - Only through experiments.
+    - Only from a single case.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A "longitudinal" survey design collects data:'
+    Options:
+    - From the same sample over a period of time.
+    - From a sample at a single point in time.
+    - Only from different populations.
+    - Only through observation.
+    CorrectOptionIndex: 0
+    LevelName: quantitative res method
+  - QuestionText: 'The statistical concept of "variance" refers to the:'
+    Options:
+    - Middle score in a dataset.
+    - Degree of spread or dispersion in a set of scores.
+    - Strength of a relationship.
+    - Average score.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'Inferential statistics are used to:'
+    Options:
+    - Describe the basic features of the data.
+    - Make inferences about a population based on a sample.
+    - Calculate the mean and median.
+    - Create graphs and charts.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A "null hypothesis" typically states that:'
+    Options:
+    - There is a relationship between variables.
+    - There is no significant relationship or difference between variables.
+    - The research hypothesis is correct.
+    - The results are significant.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A Type I error occurs when a researcher:'
+    Options:
+    - Fails to reject a false null hypothesis.
+    - Rejects a true null hypothesis (false positive).
+    - Uses the wrong statistical test.
+    - Has a small sample size.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A Likert scale (e.g., Strongly Agree to Strongly Disagree) is
+      an example of a(n):'
+    Options:
+    - Nominal Scale
+    - Ordinal Scale
+    - Interval Scale
+    - Ratio Scale
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'The purpose of a "pilot study" in quantitative research is to:'
+    Options:
+    - Test and refine the research instruments and procedures.
+    - Analyze the final data.
+    - Replace the main study.
+    - Write the final report.
+    CorrectOptionIndex: 0
+    LevelName: quantitative res method
+  - QuestionText: 'The term "population" in quantitative research refers to:'
+    Options:
+    - The sample of the study.
+    - The entire group of individuals that the researcher is interested in.
+    - The control group.
+    - The people who live in a country.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: '"Stratified random sampling" is a technique that ensures:'
+    Options:
+    - Everyone has an equal chance of being selected.
+    - Representation of key subgroups (strata) in the sample.
+    - The sample is easy to obtain.
+    - The sample is very small.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A "meta-analysis" is a quantitative technique that:'
+    Options:
+    - Collects primary data.
+    - Statistically combines the results of multiple studies on a topic.
+    - Is a type of qualitative synthesis.
+    - Describes a single case in depth.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'The "standard deviation" is a measure of:'
+    Options:
+    - Central Tendency
+    - Variability or Dispersion
+    - Relationship
+    - Probability
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A "confidence interval" provides:'
+    Options:
+    - A single estimate of the population mean.
+    - A range of values within which the population parameter is likely to fall.
+    - The p-value for a test.
+    - The correlation between two variables.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A research finding that is "statistically significant" means that:'
+    Options:
+    - The finding is large and important.
+    - The finding is unlikely to have occurred by chance alone.
+    - The finding is guaranteed to be true.
+    - The finding can be generalized to any population.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'A "closed-ended question" in a survey is one that:'
+    Options:
+    - Allows for any response.
+    - Provides fixed response options for the respondent.
+    - Is always negative.
+    - Is open to interpretation.
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'The philosophical foundation of quantitative research is:'
+    Options:
+    - Constructivism
+    - Positivism/Post-positivism
+    - Interpretivism
+    - Critical theory
+    CorrectOptionIndex: 1
+    LevelName: quantitative res method
+  - QuestionText: 'The final step in the quantitative research process is typically:'
+    Options:
+    - Data Collection
+    - Data Analysis
+    - Reporting and Presenting Findings
+    - Hypothesis Formulation
+    CorrectOptionIndex: 2
+    LevelName: quantitative res method

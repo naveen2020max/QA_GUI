@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: ethics
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: 'The primary ethical commitment of a teacher is towards the:'
+    Options:
+    - School Principal
+    - Parents
+    - Students' well-being and development
+    - Syllabus completion
+    CorrectOptionIndex: 2
+    LevelName: ethics
+  - QuestionText: 'A teacher should treat all students:'
+    Options:
+    - Based on their parents' social status
+    - With fairness and impartiality
+    - Favoring the high achievers
+    - Ignoring the slow learners
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: Which of the following is a breach of student confidentiality?
+    Options:
+    - Discussing a student's family problems with another teacher without a professional
+      reason.
+    - Informing the principal about a student's health emergency.
+    - Sharing academic progress with parents during a PTA meeting.
+    - Reporting a case of suspected abuse to the authorities.
+    CorrectOptionIndex: 0
+    LevelName: ethics
+  - QuestionText: 'The ethical relationship between a teacher and parents should
+      be:'
+    Options:
+    - Adversarial
+    - Cooperative and respectful
+    - Indifferent
+    - Secretive
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'A key ethical responsibility towards colleagues is to:'
+    Options:
+    - Publicly criticize their teaching methods.
+    - Collaborate and support them professionally.
+    - Compete with them for recognition.
+    - Isolate oneself from them.
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'Professional ethics require a teacher to be accountable to:'
+    Options:
+    - Themselves only
+    - The school management only
+    - Multiple stakeholders including students, parents, and society
+    - The government only
+    CorrectOptionIndex: 2
+    LevelName: ethics
+  - QuestionText: 'A teacher using school funds for personal expenses is violating
+      ethics related to:'
+    Options:
+    - Collegiality
+    - Accountability and integrity
+    - Student confidentiality
+    - Impartiality
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'The ethical principle of ''upholding the dignity of the profession''
+      means a teacher should:'
+    Options:
+    - Always demand a higher salary.
+    - Avoid any behavior that brings disrepute to teaching.
+    - Only focus on their own students.
+    - Ignore the mistakes of colleagues.
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'A teacher who regularly attends workshops to learn new teaching
+      strategies is fulfilling the ethical duty of:'
+    Options:
+    - Impartiality
+    - Confidentiality
+    - Continuous professional development
+    - Loyalty to the management
+    CorrectOptionIndex: 2
+    LevelName: ethics
+  - QuestionText: 'If a teacher observes a colleague behaving unethically, the professional
+      approach is to:'
+    Options:
+    - Ignore it completely.
+    - Gossip about it with other teachers.
+    - Report it to the appropriate authority within the institution.
+    - Confront them publicly.
+    CorrectOptionIndex: 2
+    LevelName: ethics
+  - QuestionText: 'A teacher showing favoritism towards students from a particular
+      religion is violating the ethic of:'
+    Options:
+    - Confidentiality
+    - Non-discrimination and impartiality
+    - Collegiality
+    - Accountability
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'The ethical responsibility of a teacher towards society includes:'
+    Options:
+    - Promoting communal harmony and democratic values.
+    - Focusing only on academic syllabus.
+    - Isolating students from social issues.
+    - Imposing personal political views on students.
+    CorrectOptionIndex: 0
+    LevelName: ethics
+  - QuestionText: A teacher should maintain a _____ relationship with students.
+    Options:
+    - Personal and friendly
+    - Professional and respectful
+    - Indifferent and distant
+    - Authoritarian and strict
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'Using a student''s personal information for a purpose not related
+      to their education is a violation of:'
+    Options:
+    - The right to education
+    - Professional confidentiality
+    - Collegiality
+    - Social responsibility
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'An ethical teacher''s response to a student''s failure should
+      be to:'
+    Options:
+    - Blame the student's lack of intelligence.
+    - Provide support and identify ways to help them improve.
+    - Compare them with a topper in the class.
+    - Ignore the situation.
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: Which of the following demonstrates a teacher's personal integrity?
+    Options:
+    - Taking credit for a colleague's innovative teaching idea.
+    - Being honest and truthful in all professional dealings.
+    - Manipulating student grades for personal favor.
+    - Using school resources for a private tuition business.
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'The primary purpose of a code of professional ethics for teachers
+      is to:'
+    Options:
+    - Restrict teachers' freedom.
+    - Increase teacher workload.
+    - Serve as a legal document for punishment.
+    - Provide a framework for responsible and ethical conduct.
+    CorrectOptionIndex: 3
+    LevelName: ethics
+  - QuestionText: 'A teacher who ridicules a student for giving a wrong answer is
+      violating the ethic of:'
+    Options:
+    - Accountability
+    - Respect for the student's dignity
+    - Confidentiality
+    - Loyalty
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'Ethics in relation to the profession require a teacher to:'
+    Options:
+    - Work in isolation.
+    - Uphold its dignity and contribute to its positive image.
+    - Criticize the profession publicly.
+    - Avoid any professional development.
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'A teacher accepting expensive gifts from parents in exchange for
+      favors is involved in:'
+    Options:
+    - Collegiality
+    - Professional development
+    - An unethical practice that compromises impartiality
+    - Building a good relationship
+    CorrectOptionIndex: 2
+    LevelName: ethics
+  - QuestionText: An ethical teacher should _____ the rules and regulations of the
+      institution.
+    Options:
+    - Ignore
+    - Adhere to
+    - Publicly criticize
+    - Selectively follow
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'When a teacher makes a mistake in class, the ethical action is
+      to:'
+    Options:
+    - Ignore it and hope no one notices.
+    - Blame a student for the confusion.
+    - Acknowledge and correct the mistake.
+    - Defend it stubbornly.
+    CorrectOptionIndex: 2
+    LevelName: ethics
+  - QuestionText: 'A teacher''s role in fostering an inclusive classroom is an ethical
+      duty related to:'
+    Options:
+    - Fairness and non-discrimination
+    - Confidentiality
+    - Loyalty to management
+    - Personal integrity
+    CorrectOptionIndex: 0
+    LevelName: ethics
+  - QuestionText: 'Sharing a student''s assessment grades with the entire class for
+      comparison is:'
+    Options:
+    - A good motivational strategy.
+    - An ethical practice of transparency.
+    - A violation of confidentiality and dignity.
+    - A way to promote healthy competition.
+    CorrectOptionIndex: 2
+    LevelName: ethics
+  - QuestionText: The ethical principle of 'do no harm' implies that a teacher must
+      ensure the _____ safety of students.
+    Options:
+    - Only physical
+    - Physical and emotional
+    - Only academic
+    - Only during school hours
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'A teacher using their position to promote their private tuition
+      business is a conflict of interest and is:'
+    Options:
+    - Encouraged for extra income.
+    - An ethical way to help weak students.
+    - Considered unethical.
+    - A personal matter.
+    CorrectOptionIndex: 2
+    LevelName: ethics
+  - QuestionText: 'Professional ethics require that a teacher''s interaction with
+      the opposite gender of students should be:'
+    Options:
+    - Avoided
+    - Highly professional and appropriate
+    - Informal and friendly
+    - Indifferent
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: An ethical teacher respects the _____ of colleagues.
+    Options:
+    - Personal wealth
+    - Diversity of opinions and expertise
+    - Family background
+    - Social connections
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'The responsibility to be a role model for students in terms of
+      character and values falls under the ethic of:'
+    Options:
+    - Personal Integrity
+    - Collegiality
+    - Accountability
+    - Confidentiality
+    CorrectOptionIndex: 0
+    LevelName: ethics
+  - QuestionText: 'A teacher who plagiarizes teaching materials or lesson plans from
+      the internet without credit is violating ethics related to:'
+    Options:
+    - Intellectual honesty
+    - Student safety
+    - Parental communication
+    - Institutional loyalty
+    CorrectOptionIndex: 0
+    LevelName: ethics
+  - QuestionText: 'The ethical way to handle a disagreement with a school policy
+      is to:'
+    Options:
+    - Protest violently.
+    - Discuss it through proper channels and respect the final decision.
+    - Incite students and parents against the management.
+    - Secretly sabotage the policy.
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: A teacher should _____ the cultural and social background of students
+      and their families.
+    Options:
+    - Mock
+    - Ignore
+    - Respect
+    - Change
+    CorrectOptionIndex: 2
+    LevelName: ethics
+  - QuestionText: 'Falsifying student attendance or assessment records is a serious
+      breach of:'
+    Options:
+    - Professional integrity and honesty
+    - Collegiality
+    - Confidentiality
+    - Continuous learning
+    CorrectOptionIndex: 0
+    LevelName: ethics
+  - QuestionText: 'An ethical teacher encourages students to:'
+    Options:
+    - Blindly follow authority.
+    - Think critically and form their own opinions.
+    - Focus only on textbooks.
+    - Avoid asking questions.
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'The concept of ''loco parentis'' in teaching implies that a teacher:'
+    Options:
+    - Is a legal parent.
+    - Acts in place of a parent with a duty of care during school hours.
+    - Should discipline students harshly.
+    - Can make all decisions for the child.
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'A teacher who is consistently unprepared for class is failing
+      in their ethical duty of:'
+    Options:
+    - Collegiality
+    - Professional competence and commitment
+    - Confidentiality
+    - Social responsibility
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'When a student confides in a teacher about a personal crisis,
+      the teacher should:'
+    Options:
+    - Share it as gossip in the staffroom.
+    - Ignore it as it is a personal matter.
+    - Immediately inform all other teachers.
+    - Respect the confidence and provide guidance or refer to a counselor.
+    CorrectOptionIndex: 3
+    LevelName: ethics
+  - QuestionText: 'An ethical teacher takes responsibility for:'
+    Options:
+    - Only the academic success of students.
+    - The holistic development and learning outcomes of students.
+    - The actions of their colleagues.
+    - The school's financial management.
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'Using corporal punishment on students is:'
+    Options:
+    - An effective disciplinary tool.
+    - Legally and ethically unacceptable.
+    - A teacher's personal choice.
+    - Recommended for maintaining order.
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'A teacher''s public behavior on social media should be:'
+    Options:
+    - Unrestricted and personal.
+    - Focused on criticizing the school.
+    - Hidden from students and parents.
+    - Consistent with the dignity of the profession.
+    CorrectOptionIndex: 3
+    LevelName: ethics
+  - QuestionText: 'The ethical principle of ''justice'' in teaching requires:'
+    Options:
+    - Giving everyone the same treatment.
+    - Giving everyone what they need to be successful (equity).
+    - Punishing all rule-breakers equally.
+    - Favoring the most talented students.
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'A teacher who refuses to teach a subject or topic they are assigned
+      is violating ethics related to:'
+    Options:
+    - Confidentiality
+    - Professional commitment and duty
+    - Collegiality
+    - Self-integrity
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: An ethical teacher promotes _____ in the classroom.
+    Options:
+    - Fear and competition
+    - Rote memorization
+    - Blind obedience
+    - A safe and supportive learning environment
+    CorrectOptionIndex: 3
+    LevelName: ethics
+  - QuestionText: 'Accepting a teaching position while knowing one is not qualified
+      for it is:'
+    Options:
+    - Ambitious
+    - Unethical and a disservice to students
+    - A common practice
+    - The management's fault
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'The fundamental purpose of professional ethics is to:'
+    Options:
+    - Control teachers.
+    - Protect the rights and welfare of students.
+    - Make teaching more difficult.
+    - Serve the government's agenda.
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'A teacher who uses sarcasm to belittle a student is violating
+      the ethic of:'
+    Options:
+    - Accountability
+    - Social responsibility
+    - Confidentiality
+    - Respect and dignity
+    CorrectOptionIndex: 3
+    LevelName: ethics
+  - QuestionText: An ethical teacher should _____ their personal problems from affecting
+      their professional demeanor.
+    Options:
+    - Let
+    - Prevent
+    - Use
+    - Ignore
+    CorrectOptionIndex: 1
+    LevelName: ethics
+  - QuestionText: 'When collaborating on a project, an ethical teacher:'
+    Options:
+    - Takes all the credit.
+    - Blames colleagues for failures.
+    - Works alone to avoid sharing credit.
+    - Acknowledges the contributions of colleagues.
+    CorrectOptionIndex: 3
+    LevelName: ethics
+  - QuestionText: 'A teacher''s ethical responsibility towards the curriculum is
+      to:'
+    Options:
+    - Follow it blindly.
+    - Transact it faithfully while adapting to student needs.
+    - Change it according to personal beliefs.
+    - Ignore it and teach what they want.
+    CorrectOptionIndex: 1
+    LevelName: ethics

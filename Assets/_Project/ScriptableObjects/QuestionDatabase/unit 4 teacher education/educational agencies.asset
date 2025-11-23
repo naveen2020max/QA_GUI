@@ -1,0 +1,431 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: educational agencies
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: The primary goal of the Sarva Shiksha Abhiyan (SSA) is the universalization
+      of which level of education?
+    Options:
+    - Secondary Education
+    - Higher Education
+    - Elementary Education
+    - Pre-primary Education
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: Which body is responsible for developing the National Curriculum
+      Framework (NCF)?
+    Options:
+    - NCTE
+    - UGC
+    - NCERT
+    - SCERT
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: 'The Rashtriya Madhyamik Shiksha Abhiyan (RMSA) focuses on the
+      universalization of:'
+    Options:
+    - Elementary Education
+    - Secondary Education
+    - Technical Education
+    - Adult Education
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: Which is a statutory body with the power to grant recognition to
+      teacher education institutions?
+    Options:
+    - NCERT
+    - SCERT
+    - NCTE
+    - SSA
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: 'The state-level body that adapts the National Curriculum Framework
+      to the local context is the:'
+    Options:
+    - NCERT
+    - SCERT
+    - UGC
+    - CBSE
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: 'The University Grants Commission (UGC) is primarily concerned
+      with the standards of:'
+    Options:
+    - School Education
+    - University Education
+    - Teacher Education
+    - Vocational Education
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: 'The ''S'' in both SSA and SCERT stands for:'
+    Options:
+    - School
+    - Secondary
+    - Sarva / State
+    - Science
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: Which agency's main function is to regulate and maintain standards
+      in teacher education?
+    Options:
+    - NCERT
+    - RMSA
+    - UGC
+    - NCTE
+    CorrectOptionIndex: 3
+    LevelName: educational agencies
+  - QuestionText: 'Refresher Courses for college and university teachers are organized
+      by the:'
+    Options:
+    - NCERT
+    - UGC through its Academic Staff Colleges
+    - NCTE
+    - SCERT
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: 'The ''R'' in both NCERT and SCERT stands for:'
+    Options:
+    - Reform
+    - Research
+    - Rural
+    - Regional
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: Which scheme was launched to achieve the goal of Universal Elementary
+      Education?
+    Options:
+    - RMSA
+    - SSA
+    - UGC
+    - NCTE
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: 'The development of national model textbooks (like NCERT textbooks)
+      is the responsibility of the:'
+    Options:
+    - SCERT
+    - NCTE
+    - NCERT
+    - State Governments
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: 'The ''E'' in both NCERT and SCERT stands for:'
+    Options:
+    - Economic
+    - Educational
+    - Elementary
+    - Environmental
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: Which body would be responsible for recognizing a new B.Ed. college?
+    Options:
+    - UGC
+    - NCERT
+    - NCTE
+    - SSA
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: 'The primary focus of RMSA is on students in classes:'
+    Options:
+    - I to V
+    - I to VIII
+    - IX to XII
+    - VI to VIII
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: 'The ''T'' in both NCERT and SCERT stands for:'
+    Options:
+    - Teaching
+    - Training
+    - Technology
+    - Tertiary
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: Which organization is the apex body at the national level for school
+      education?
+    Options:
+    - NCTE
+    - UGC
+    - NCERT
+    - SSA
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: 'The ''C'' in both SCERT and NCERT stands for:'
+    Options:
+    - Central / Council
+    - College
+    - Curriculum
+    - Commission
+    CorrectOptionIndex: 0
+    LevelName: educational agencies
+  - QuestionText: 'A teacher in a state government school would receive in-service
+      training primarily organized by the:'
+    Options:
+    - NCERT
+    - UGC
+    - SCERT
+    - NCTE
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: 'The ''A'' in SSA stands for:'
+    Options:
+    - Association
+    - Abhiyan
+    - Academy
+    - Authority
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: Which body lays down the norms and standards for a D.El.Ed. program?
+    Options:
+    - UGC
+    - NCERT
+    - NCTE
+    - SSA
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: 'The ''M'' in RMSA stands for:'
+    Options:
+    - Madhyamik
+    - Middle
+    - Management
+    - Mission
+    CorrectOptionIndex: 0
+    LevelName: educational agencies
+  - QuestionText: 'A college professor''s professional development is primarily the
+      concern of the:'
+    Options:
+    - NCERT
+    - NCTE
+    - UGC
+    - SCERT
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: 'The ''N'' in both NCERT and NCTE stands for:'
+    Options:
+    - New
+    - National
+    - Northern
+    - Noble
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: Which program has a major component for building new secondary
+      schools?
+    Options:
+    - SSA
+    - RMSA
+    - UGC
+    - NCTE
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: 'The agency responsible for conducting large-scale national achievement
+      surveys is the:'
+    Options:
+    - NCTE
+    - UGC
+    - NCERT
+    - SCERT
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: 'The ''G'' in UGC stands for:'
+    Options:
+    - Government
+    - Grants
+    - General
+    - Global
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: 'A state''s textbook bureau typically works under the guidance
+      of the:'
+    Options:
+    - NCERT
+    - NCTE
+    - SCERT
+    - UGC
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: 'The ''U'' in UGC stands for:'
+    Options:
+    - Union
+    - University
+    - United
+    - Urban
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: Which of the following is a scheme rather than an institution or
+      council?
+    Options:
+    - SCERT
+    - NCERT
+    - SSA
+    - NCTE
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: 'The "National Curriculum Framework for Teacher Education (NCFTE)"
+      is developed by the:'
+    Options:
+    - NCTE
+    - NCERT
+    - UGC
+    - Ministry of Education
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: 'The ''C'' in NCTE stands for:'
+    Options:
+    - Central
+    - Council
+    - College
+    - Commission
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: Which body provides financial assistance to universities?
+    Options:
+    - NCERT
+    - NCTE
+    - UGC
+    - SSA
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: 'The ''R'' in RMSA stands for:'
+    Options:
+    - Rashtriya
+    - Rural
+    - Research
+    - Regional
+    CorrectOptionIndex: 0
+    LevelName: educational agencies
+  - QuestionText: 'A key function of the SCERT is to:'
+    Options:
+    - Grant funds to universities
+    - Regulate engineering colleges
+    - Train teacher educators and master trainers for the state
+    - Conduct board examinations
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: Which body is primarily responsible for improving the quality of
+      secondary education?
+    Options:
+    - SSA
+    - RMSA
+    - UGC
+    - NCTE
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: 'The ''E'' in NCTE stands for:'
+    Options:
+    - Education
+    - Elementary
+    - Excellence
+    - Economic
+    CorrectOptionIndex: 0
+    LevelName: educational agencies
+  - QuestionText: 'The "Right of Children to Free and Compulsory Education Act (RTE),
+      2009" is closely linked to the objectives of:'
+    Options:
+    - RMSA
+    - SSA
+    - UGC
+    - NCTE
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: Which body is responsible for maintaining the standards of B.Ed.
+      and M.Ed. programs?
+    Options:
+    - UGC
+    - NCTE
+    - NCERT
+    - AICTE
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: 'The ''S'' in RMSA stands for:'
+    Options:
+    - Shiksha
+    - Secondary
+    - School
+    - Scheme
+    CorrectOptionIndex: 0
+    LevelName: educational agencies
+  - QuestionText: 'A national-level workshop for SCERT faculty would be organized
+      by the:'
+    Options:
+    - UGC
+    - NCERT
+    - NCTE
+    - State Government
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: 'The ''A'' in RMSA stands for:'
+    Options:
+    - Abhiyan
+    - Association
+    - Academy
+    - Authority
+    CorrectOptionIndex: 0
+    LevelName: educational agencies
+  - QuestionText: Which body ensures that a teacher education program has the required
+      infrastructure and faculty?
+    Options:
+    - NCERT
+    - NCTE
+    - UGC
+    - SSA
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: 'The ''C'' in UGC stands for:'
+    Options:
+    - Council
+    - Commission
+    - Committee
+    - Corporation
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: 'The "Pandit Sunderlal Sharma Central Institute of Vocational Education"
+      is a constituent of:'
+    Options:
+    - NCTE
+    - NCERT
+    - UGC
+    - MSDE
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: Which of the following is a regulatory body?
+    Options:
+    - NCERT and SCERT
+    - NCTE and UGC
+    - SSA and RMSA
+    - DIET and BRC
+    CorrectOptionIndex: 1
+    LevelName: educational agencies
+  - QuestionText: 'The ''N'' in SSA stands for:'
+    Options:
+    - National
+    - New
+    - Not applicable (It's 'Sarva')
+    - Northern
+    CorrectOptionIndex: 2
+    LevelName: educational agencies
+  - QuestionText: 'The "National Institute of Open Schooling" functions under the:'
+    Options:
+    - Ministry of Education
+    - NCERT
+    - UGC
+    - NCTE
+    CorrectOptionIndex: 0
+    LevelName: educational agencies
+  - QuestionText: 'The primary function that distinguishes NCTE from NCERT is its:'
+    Options:
+    - Research focus
+    - Statutory power to regulate teacher education
+    - Development of curriculum frameworks
+    - Operation of schools
+    CorrectOptionIndex: 1
+    LevelName: educational agencies

@@ -1,0 +1,447 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: type II error
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is a Type II error?
+    Options:
+    - Rejecting a true null hypothesis
+    - Failing to reject a false null hypothesis
+    - Accepting a true alternative hypothesis
+    - Proving the null hypothesis
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'The probability of committing a Type II error is denoted by:'
+    Options:
+    - "\u03B1 (Alpha)"
+    - "\u03B2 (Beta)"
+    - "1 - \u03B1"
+    - p-value
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'A Type II error is also known as a:'
+    Options:
+    - False positive
+    - True negative
+    - False negative
+    - True positive
+    CorrectOptionIndex: 2
+    LevelName: type II error
+  - QuestionText: If the power of a statistical test is 0.80, what is the probability
+      of a Type II error?
+    Options:
+    - 0.8
+    - 0.2
+    - 0.05
+    - 0.95
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: "Which of the following factors does NOT decrease the probability
+      of a Type II error (\u03B2)?"
+    Options:
+    - Increasing sample size
+    - Increasing effect size
+    - "Using a more stringent \u03B1 level (e.g., 0.01)"
+    - Using a one-tailed test when appropriate
+    CorrectOptionIndex: 2
+    LevelName: type II error
+  - QuestionText: 'A researcher concludes that a new teaching method is not effective
+      when it actually is. This is an example of a:'
+    Options:
+    - Type I error
+    - Type II error
+    - Correct decision
+    - Sampling error
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'The power of a test is the probability of:'
+    Options:
+    - "Rejecting a true H\u2080"
+    - "Failing to reject a false H\u2080"
+    - "Correctly rejecting a false H\u2080"
+    - "Correctly failing to reject a true H\u2080"
+    CorrectOptionIndex: 2
+    LevelName: type II error
+  - QuestionText: 'If a test has high power, it has a:'
+    Options:
+    - "High \u03B1 level"
+    - "Low \u03B2 level"
+    - "High \u03B2 level"
+    - Low effect size
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'In a legal analogy, a Type II error is equivalent to:'
+    Options:
+    - Convicting an innocent person
+    - Freeing a guilty person
+    - A correct conviction
+    - A correct acquittal
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: "For a fixed sample size, the relationship between Type I error
+      (\u03B1) and Type II error (\u03B2) is generally:"
+    Options:
+    - "Positive (as \u03B1 increases, \u03B2 increases)"
+    - "Negative (as \u03B1 increases, \u03B2 decreases)"
+    - There is no relationship
+    - They are always equal
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: A study with a very small sample size is most prone to which type
+      of error?
+    Options:
+    - Type I error
+    - Type II error
+    - Both equally
+    - Neither
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'The concept of Type II error is most directly related to:'
+    Options:
+    - Confidence level
+    - Statistical power
+    - P-value
+    - Significance level
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'If the true effect size is large, the probability of a Type II
+      error is:'
+    Options:
+    - High
+    - Low
+    - Unaffected
+    - Always 0.05
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: "A researcher fails to reject H\u2080. If H\u2080 is false, what
+      type of error has possibly been committed?"
+    Options:
+    - Type I error
+    - Type II error
+    - No error
+    - Measurement error
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: Which statistical concept helps researchers determine the sample
+      size needed to achieve adequate power and control Type II error?
+    Options:
+    - Confidence intervals
+    - Power analysis
+    - P-values
+    - Effect sizes
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: "If \u03B2 = 0.15, what is the power of the test?"
+    Options:
+    - 0.15
+    - 0.85
+    - 0.05
+    - 0.95
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'A medical test fails to detect a disease in a sick patient. This
+      is analogous to a:'
+    Options:
+    - Type I error
+    - Type II error
+    - Correct rejection
+    - Specificity
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: Which of the following would increase statistical power?
+    Options:
+    - Decreasing sample size
+    - Decreasing effect size
+    - "Using a more lenient \u03B1 level"
+    - Increasing measurement error
+    CorrectOptionIndex: 2
+    LevelName: type II error
+  - QuestionText: 'The null hypothesis distribution and alternative hypothesis distribution
+      overlap less when:'
+    Options:
+    - Effect size is small
+    - Sample size is small
+    - Effect size is large
+    - Variance is high
+    CorrectOptionIndex: 2
+    LevelName: type II error
+  - QuestionText: 'A researcher wants to minimize the risk of Type II error. They
+      should:'
+    Options:
+    - "Use a very small \u03B1 (e.g., 0.001)"
+    - Increase the sample size
+    - Decrease the effect size
+    - Use a two-tailed test
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: "In a power analysis, what does \"1-\u03B2 = 0.80\" mean?"
+    Options:
+    - There's an 80% chance of Type I error
+    - There's an 80% chance of correctly detecting a real effect
+    - There's a 20% chance of Type II error
+    - Both B and C
+    CorrectOptionIndex: 3
+    LevelName: type II error
+  - QuestionText: 'If a study has low power, a non-significant result (p > .05) is:'
+    Options:
+    - "Strong evidence that H\u2080 is true"
+    - "Weak evidence regarding the truth of H\u2080"
+    - "Proof that H\u2081 is false"
+    - Definitely a Type II error
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'The relationship between effect size and sample size in power
+      analysis is that for a fixed power:'
+    Options:
+    - Larger effect sizes require larger samples
+    - Smaller effect sizes require smaller samples
+    - Larger effect sizes require smaller samples
+    - There is no relationship
+    CorrectOptionIndex: 2
+    LevelName: type II error
+  - QuestionText: 'A confidence interval that is very wide suggests:'
+    Options:
+    - High precision and low Type II error
+    - Low precision and potential for high Type II error
+    - Definite Type I error
+    - High power
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: Which error is directly controlled by the researcher through the
+      significance level?
+    Options:
+    - Type I error
+    - Type II error
+    - Both Type I and Type II
+    - Neither
+    CorrectOptionIndex: 0
+    LevelName: type II error
+  - QuestionText: 'In a before-after study, if the actual change is substantial but
+      the test fails to detect it, this is likely due to:'
+    Options:
+    - High power
+    - Low power
+    - "Low \u03B1 level"
+    - Small variance
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'The probability of Type II error increases when:'
+    Options:
+    - Population variance decreases
+    - Sample size increases
+    - Effect size increases
+    - Population variance increases
+    CorrectOptionIndex: 3
+    LevelName: type II error
+  - QuestionText: "For a given \u03B1 level, what is the relationship between sample
+      size and \u03B2?"
+    Options:
+    - Positive relationship
+    - Negative relationship
+    - No relationship
+    - Curvilinear relationship
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'A meta-analysis is particularly valuable for addressing problems
+      of:'
+    Options:
+    - Type I errors in individual studies
+    - Type II errors in individual studies
+    - Both Type I and Type II errors
+    - Neither type of error
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'If a researcher reports a non-significant result but the study
+      had very low power, a knowledgeable reader should:'
+    Options:
+    - "Conclude that H\u2080 is true"
+    - "Conclude that H\u2081 is false"
+    - Interpret the result as inconclusive
+    - Trust the researcher's conclusion
+    CorrectOptionIndex: 2
+    LevelName: type II error
+  - QuestionText: 'In the context of hypothesis testing, "sensitivity" is another
+      term for:'
+    Options:
+    - Specificity
+    - Power
+    - Alpha
+    - Beta
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: Which of the following would be the best strategy to reduce both
+      Type I and Type II errors?
+    Options:
+    - "Decrease \u03B1 only"
+    - "Increase \u03B1 only"
+    - Increase sample size
+    - Decrease effect size
+    CorrectOptionIndex: 2
+    LevelName: type II error
+  - QuestionText: 'A researcher finds p = 0.07 with a power of 0.30. The most appropriate
+      conclusion is:'
+    Options:
+    - "Strong evidence for H\u2080"
+    - "Strong evidence for H\u2081"
+    - The study is inconclusive
+    - A Type I error occurred
+    CorrectOptionIndex: 2
+    LevelName: type II error
+  - QuestionText: 'The "file drawer problem" in publication bias primarily affects
+      the literature by:'
+    Options:
+    - Inflating Type I error rates
+    - Inflating Type II error rates
+    - Reducing effect sizes
+    - Increasing power
+    CorrectOptionIndex: 0
+    LevelName: type II error
+  - QuestionText: "If the true population mean is different from the hypothesized
+      value, but your test fails to reject H\u2080, you have:"
+    Options:
+    - Made a Type I error
+    - Made a Type II error
+    - Made a correct decision
+    - "Proven H\u2080 is true"
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: "Which graphical representation is most useful for understanding
+      the relationship between \u03B1, \u03B2, and effect size?"
+    Options:
+    - Scatter plot
+    - Bar chart
+    - Histogram
+    - Power curve
+    CorrectOptionIndex: 3
+    LevelName: type II error
+  - QuestionText: A researcher plans a study with power = 0.60. This means there's
+      a ___% chance of making a Type II error.
+    Options:
+    - 0.4
+    - 0.6
+    - 0.05
+    - 0.95
+    CorrectOptionIndex: 0
+    LevelName: type II error
+  - QuestionText: "In a two-tailed test compared to a one-tailed test (with the same
+      \u03B1 and sample size):"
+    Options:
+    - Power is higher for two-tailed tests
+    - Power is higher for one-tailed tests
+    - Power is the same
+    - "\u03B2 is lower for two-tailed tests"
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'The consequences of a Type II error are most serious when:'
+    Options:
+    - Testing a new fertilizer for plants
+    - Screening for a contagious disease
+    - Testing a new brand of pencil
+    - Comparing two similar teaching methods
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'If a study has high power and yields a non-significant result,
+      this provides:'
+    Options:
+    - "Strong evidence for H\u2080"
+    - "Strong evidence for H\u2081"
+    - "Weak evidence for H\u2080"
+    - "Weak evidence for H\u2081"
+    CorrectOptionIndex: 0
+    LevelName: type II error
+  - QuestionText: What is the relationship between statistical power and the width
+      of a confidence interval?
+    Options:
+    - Higher power is associated with wider intervals
+    - Higher power is associated with narrower intervals
+    - There is no relationship
+    - It depends on the effect size
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'A researcher conducts a power analysis before data collection
+      to ensure:'
+    Options:
+    - "That \u03B1 is set appropriately"
+    - That the sample size is adequate to detect meaningful effects
+    - That the p-value will be significant
+    - That Type I error is minimized
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: "When H\u2080 is false, the probability of correctly rejecting
+      it is:"
+    Options:
+    - "\u03B1"
+    - "\u03B2"
+    - "1 - \u03B1"
+    - "1 - \u03B2"
+    CorrectOptionIndex: 3
+    LevelName: type II error
+  - QuestionText: Which of the following is NOT a component in power analysis?
+    Options:
+    - Effect size
+    - "Significance level (\u03B1)"
+    - Sample size
+    - P-value
+    CorrectOptionIndex: 3
+    LevelName: type II error
+  - QuestionText: 'In a replication crisis, many failures to replicate may be due
+      to:'
+    Options:
+    - Type I errors in original studies
+    - Type II errors in replication studies
+    - Both A and B
+    - Neither A nor B
+    CorrectOptionIndex: 2
+    LevelName: type II error
+  - QuestionText: "If you increase \u03B1 from 0.01 to 0.05, what happens to power?"
+    Options:
+    - Power decreases
+    - Power increases
+    - Power stays the same
+    - Cannot be determined
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'A test statistic falls in the critical region when:'
+    Options:
+    - "H\u2080 is true"
+    - "H\u2080 is false"
+    - We make a Type II error
+    - "We correctly retain H\u2080"
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'The probability distribution that is relevant for calculating
+      power is the:'
+    Options:
+    - Null distribution
+    - "Sampling distribution under H\u2081"
+    - Normal distribution
+    - t-distribution
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'A researcher wants to detect even very small effects. They need
+      to:'
+    Options:
+    - "Use a very small \u03B1"
+    - Use a very large sample
+    - Use a one-tailed test
+    - Decrease power
+    CorrectOptionIndex: 1
+    LevelName: type II error
+  - QuestionText: 'In the context of effect sizes, Cohen''s conventions help researchers:'
+    Options:
+    - "Set \u03B1 levels"
+    - Estimate required sample sizes for power analysis
+    - Calculate p-values
+    - Determine confidence intervals
+    CorrectOptionIndex: 1
+    LevelName: type II error

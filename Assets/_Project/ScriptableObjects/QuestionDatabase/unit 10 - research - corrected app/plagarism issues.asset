@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: plagarism issues
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the most accurate definition of plagiarism?
+    Options:
+    - Using someone else's computer without permission
+    - The act of presenting another's work or ideas as one's own without proper acknowledgment
+    - Collaborating with a colleague on a research project
+    - Paraphrasing one's own previous work
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: Which of the following is NOT a common form of plagiarism?
+    Options:
+    - Verbatim copying without quotation marks
+    - Paraphrasing without citation
+    - Submitting one's own previously published work as new
+    - Correctly citing and quoting a source
+    CorrectOptionIndex: 3
+    LevelName: plagarism issues
+  - QuestionText: 'The term "self-plagiarism" refers to:'
+    Options:
+    - Stealing from a famous author
+    - Reusing one's own previously published work without disclosure or citation
+    - Citing one's own work excessively
+    - Writing a literature review
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'The primary ethical principle violated by plagiarism is:'
+    Options:
+    - Justice
+    - Beneficence
+    - Academic Honesty / Integrity
+    - Confidentiality
+    CorrectOptionIndex: 2
+    LevelName: plagarism issues
+  - QuestionText: Which of these acts constitutes plagiarism?
+    Options:
+    - Copying a sentence, changing a few words, and not citing the source
+    - Using an idea from a lecture and citing the professor
+    - Quoting a passage with proper quotation marks and a citation
+    - Using common knowledge
+    CorrectOptionIndex: 0
+    LevelName: plagarism issues
+  - QuestionText: '"Mosaic Plagiarism" (or Patchwriting) involves:'
+    Options:
+    - Copying from multiple sources and combining the passages without citation
+    - Stealing physical artwork
+    - Citing sources incorrectly
+    - Using a thesaurus to change every word
+    CorrectOptionIndex: 0
+    LevelName: plagarism issues
+  - QuestionText: 'The concept of "Common Knowledge" in plagiarism refers to facts
+      that:'
+    Options:
+    - Are known only to experts in the field
+    - Can be found in at least five sources
+    - Are widely known and can be found in numerous general reference sources
+    - Do not need to be understood
+    CorrectOptionIndex: 2
+    LevelName: plagarism issues
+  - QuestionText: What is the primary purpose of a citation style (e.g., APA, MLA)?
+    Options:
+    - To make the paper look more impressive
+    - To provide a standardized format for giving credit to sources
+    - To increase the word count of a paper
+    - To confuse students
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: Which software is commonly used by universities to detect plagiarism?
+    Options:
+    - Microsoft Word
+    - SPSS
+    - Turnitin
+    - Zotero
+    CorrectOptionIndex: 2
+    LevelName: plagarism issues
+  - QuestionText: 'Paraphrasing correctly requires:'
+    Options:
+    - Changing a few words and keeping the same sentence structure
+    - Copying the exact sentence and adding a citation
+    - Restating the idea in your own words and style, followed by a citation
+    - Memorizing the original text
+    CorrectOptionIndex: 2
+    LevelName: plagarism issues
+  - QuestionText: 'Submitting a paper purchased from an online "paper mill" is an
+      example of:'
+    Options:
+    - Collaboration
+    - Ghostwriting, which is a severe form of plagiarism
+    - Fair Use
+    - Open access publishing
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'The "Public Domain" refers to works:'
+    Options:
+    - That are available online
+    - That are no longer protected by copyright law
+    - That are published in a journal
+    - That are classified
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'Intellectual property rights are protected by:'
+    Options:
+    - Patent law
+    - Copyright law
+    - Trademark law
+    - All of the above
+    CorrectOptionIndex: 3
+    LevelName: plagarism issues
+  - QuestionText: 'Accidental plagiarism can occur due to:'
+    Options:
+    - A lack of intent to deceive
+    - Poor note-taking or citation skills
+    - Both A and B
+    - Neither A nor B
+    CorrectOptionIndex: 2
+    LevelName: plagarism issues
+  - QuestionText: 'The best way to avoid plagiarism is to:'
+    Options:
+    - Never read other people's work
+    - Develop good research, note-taking, and citation habits
+    - Only use sources that are over 100 years old
+    - Write everything from memory
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: Why is it important to cite even paraphrased material?
+    Options:
+    - To show you have read widely
+    - To give credit for the original idea, not just the words
+    - To fill up the reference page
+    - Because the instructor requires it
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: The main difference between plagiarism and copyright infringement
+      is that plagiarism is primarily a ______ issue, while copyright infringement
+      is a ______ issue.
+    Options:
+    - Legal, Ethical
+    - Ethical, Legal
+    - Technical, Ethical
+    - Financial, Legal
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'In a group project, if one member plagiarizes, the ethical responsibility:'
+    Options:
+    - Lies only with that member
+    - Is shared by all members of the group
+    - Lies only with the group leader
+    - Is nullified because it's a group project
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: '"Citation Amnesia" refers to:'
+    Options:
+    - Forgetting to include a source in the reference list
+    - Unintentionally forgetting where an idea came from
+    - Memorizing citations
+    - Using too many citations
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'The "Fair Use" doctrine in copyright law:'
+    Options:
+    - Allows unlimited use of copyrighted material
+    - Permits limited use of copyrighted material without permission for purposes
+      like criticism and scholarship
+    - Means you don't have to cite the source
+    - Applies only to commercial use
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'A student finds a paragraph online, uses a paraphrasing tool to
+      rewrite it, and does not provide a citation. This is:'
+    Options:
+    - Acceptable because the words are changed
+    - Plagiarism because the original idea is not credited
+    - Fair Use
+    - Common knowledge
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: Why is self-plagiarism considered unethical in academic publishing?
+    Options:
+    - It violates copyright law automatically.
+    - It wastes the reader's time.
+    - It misrepresents the work as new and original, potentially defrauding the publisher
+      and reader.
+    - It is always illegal.
+    CorrectOptionIndex: 2
+    LevelName: plagarism issues
+  - QuestionText: 'A researcher uses a methodology described in a previous study.
+      The correct ethical practice is to:'
+    Options:
+    - Use it without citation as methods are not copyrightable.
+    - Cite the source where the methodology was described.
+    - Change the name of the methodology.
+    - Claim it as their own innovation.
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'The most severe consequence of plagiarism for a professional academic
+      is likely to be:'
+    Options:
+    - A small fine
+    - A warning from their department
+    - Loss of reputation, retraction of papers, and termination of employment
+    - Nothing, if it's a first offense
+    CorrectOptionIndex: 2
+    LevelName: plagarism issues
+  - QuestionText: 'The best strategy for integrating a source into your paper is
+      to:'
+    Options:
+    - Copy and paste a relevant paragraph.
+    - Quote, paraphrase, or summarize the source while providing proper citation.
+    - Avoid using any direct quotes.
+    - Use only sources you disagree with.
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: If you are unsure whether a piece of information is common knowledge,
+      what should you do?
+    Options:
+    - Assume it is and don't cite it.
+    - Always cite the source to be safe.
+    - Ask a classmate.
+    - Use it but change the words.
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: '"Salami Slicing" in publication is a form of self-plagiarism that
+      involves:'
+    Options:
+    - Publishing the same research in multiple journals
+    - Dividing the results of a single study into multiple least-publishable units
+    - Citing irrelevant sources
+    - Using unethical research methods
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: What is the key ethical issue with "guest authorship" or "gift
+      authorship"?
+    Options:
+    - The author did not pay to publish.
+    - It grants authorship to individuals who made no significant contribution to
+      the work, diluting credit and accountability.
+    - It makes the paper longer.
+    - It is a form of copyright infringement.
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'A student submits the same paper for two different courses without
+      the instructors'' permission. This is an example of:'
+    Options:
+    - Efficient work
+    - Duplicate submission / self-plagiarism
+    - Fair Use
+    - Collaboration
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'The role of an institutional ethics committee regarding plagiarism
+      is primarily to:'
+    Options:
+    - Punish students
+    - Uphold academic integrity standards and handle cases of misconduct
+    - Promote research
+    - Secure funding
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'A professor publishes a paper that heavily incorporates text from
+      a grant proposal written by a research assistant, without acknowledgment. This
+      is a case of:'
+    Options:
+    - Fair Use
+    - Power harassment
+    - Plagiarism and exploitation of a subordinate
+    - Acceptable collaboration
+    CorrectOptionIndex: 2
+    LevelName: plagarism issues
+  - QuestionText: 'A researcher translates a paper from another language and publishes
+      it in an English journal under their own name. This is:'
+    Options:
+    - A useful service to the community
+    - Plagiarism, as the intellectual content is not original
+    - Copyright infringement only
+    - Permissible if the original author cannot be found
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'The concept of "academic integrity" is broader than just avoiding
+      plagiarism. It also includes:'
+    Options:
+    - Getting good grades
+    - Honesty in exams, data reporting, and collaborations
+    - Publishing as much as possible
+    - Criticizing other researchers
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: What is the primary reason why universities take plagiarism so
+      seriously?
+    Options:
+    - To protect their reputation
+    - To uphold the value of the degree and maintain trust in the academic enterprise
+    - To generate revenue from plagiarism software
+    - To make an example of students
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'In the digital age, the ease of copying and pasting has:'
+    Options:
+    - Made plagiarism obsolete
+    - Made plagiarism easier to commit but also easier to detect
+    - Made citation unnecessary
+    - Eliminated the need for academic integrity
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'A writer uses an image from the internet in a presentation without
+      checking its license or providing attribution. This is:'
+    Options:
+    - Acceptable for educational use
+    - Plagiarism of visual content
+    - Only a problem if the image is copyrighted
+    - Fair Use
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'The best time to start managing citations and references is:'
+    Options:
+    - After the first draft is complete
+    - During the writing process
+    - During the research and note-taking phase
+    - Just before submission
+    CorrectOptionIndex: 2
+    LevelName: plagarism issues
+  - QuestionText: '"I didn''t have enough time to write the paper" is:'
+    Options:
+    - A valid excuse for plagiarism
+    - Not a valid excuse for plagiarism
+    - Acceptable for a first offense
+    - A reason for getting an extension
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'A published paper is found to contain plagiarized material. The
+      journal''s most appropriate action is to:'
+    Options:
+    - Ignore it if the author is famous
+    - Publish an apology from the author
+    - Retract the paper and issue a notice of retraction
+    - Ban the author for life automatically
+    CorrectOptionIndex: 2
+    LevelName: plagarism issues
+  - QuestionText: 'The responsibility for learning about and avoiding plagiarism
+      ultimately lies with the:'
+    Options:
+    - University librarian
+    - Course instructor
+    - Individual student or researcher
+    - Software developer
+    CorrectOptionIndex: 2
+    LevelName: plagarism issues
+  - QuestionText: 'A researcher reads a seminal book, internalizes its main argument,
+      and then writes a paper presenting a similar framework as their own novel theoretical
+      contribution, without citation. This is a subtle form of plagiarism that steals:'
+    Options:
+    - The specific words
+    - The core ideas and intellectual structure
+    - Common knowledge
+    - Public domain information
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'A reviewer for a journal rejects a paper and then later submits
+      a very similar paper under their own name. This is an example of plagiarism
+      combined with:'
+    Options:
+    - A conflict of interest
+    - A breach of peer review confidentiality
+    - Both A and B
+    - Standard academic practice
+    CorrectOptionIndex: 2
+    LevelName: plagarism issues
+  - QuestionText: 'In a thesis, if a student reuses portions of their own published
+      papers, the ethical practice is to:'
+    Options:
+    - Do it without any mention, as it's their own work.
+    - Clearly acknowledge the reuse and cite the original publications, often requiring
+      permission from the copyright holder (the journal).
+    - Change the words slightly.
+    - Only do it for the literature review.
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'The rise of AI text generators (like ChatGPT) complicates plagiarism
+      because:'
+    Options:
+    - It makes plagiarism impossible to detect.
+    - The output is not copyrightable, so it can't be plagiarized.
+    - It creates text with no human author, raising questions about the originality
+      of work that passes it off as one's own.
+    - It automatically includes citations.
+    CorrectOptionIndex: 2
+    LevelName: plagarism issues
+  - QuestionText: 'A culture that prioritizes publication quantity over quality can:'
+    Options:
+    - Encourage plagiarism and other questionable practices.
+    - Improve research standards.
+    - Have no effect on ethics.
+    - Reduce the need for peer review.
+    CorrectOptionIndex: 0
+    LevelName: plagarism issues
+  - QuestionText: What is the fundamental difference between "attribution" (citation)
+      and "permission"?
+    Options:
+    - Attribution is for books, permission is for articles.
+    - Attribution is an ethical requirement to avoid plagiarism, while permission
+      is a legal requirement for using copyrighted work beyond Fair Use.
+    - There is no difference.
+    - Permission is only needed for commercial use.
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'The most effective long-term solution to reduce plagiarism is
+      to:'
+    Options:
+    - Invest in better detection software.
+    - Foster an academic culture that values and teaches integrity, critical thinking,
+      and writing skills.
+    - Implement harsher punishments.
+    - Ban the use of the internet for research.
+    CorrectOptionIndex: 1
+    LevelName: plagarism issues
+  - QuestionText: 'A student collaborates with a friend on an assignment that is
+      supposed to be individual work. This is a form of:'
+    Options:
+    - Collusion, which is a type of plagiarism
+    - Acceptable peer review
+    - Good study habits
+    - Fair Use
+    CorrectOptionIndex: 0
+    LevelName: plagarism issues
+  - QuestionText: 'When paraphrasing a complex technical definition, the best approach
+      is to:'
+    Options:
+    - Copy it verbatim with quotes and a citation.
+    - Try to paraphrase it and cite the source.
+    - Use it without citation as it's a definition.
+    - Avoid using it altogether.
+    CorrectOptionIndex: 0
+    LevelName: plagarism issues
+  - QuestionText: 'The ultimate victim of widespread plagiarism in academia is:'
+    Options:
+    - The original author whose work was stolen
+    - The plagiarist
+    - The credibility and progress of knowledge itself
+    - The journal publisher
+    CorrectOptionIndex: 2
+    LevelName: plagarism issues

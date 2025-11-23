@@ -1,0 +1,463 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: pre experimental
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the defining characteristic of pre-experimental designs?
+    Options:
+    - They have a high degree of internal validity.
+    - They lack a control group and/or random assignment.
+    - They use complex statistical analysis.
+    - They are conducted in laboratory settings only.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'Pre-experimental designs are primarily used for:'
+    Options:
+    - Establishing cause-and-effect relationships conclusively.
+    - Exploratory research and pilot studies to get a preliminary feel for the data.
+    - Large-scale, funded research projects.
+    - Testing well-established theories.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'The "One-Shot Case Study" design can be represented as:'
+    Options:
+    - O1 X O2
+    - X O
+    - O1 O2
+    - R X O
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'The major threat to internal validity in the "One-Shot Case Study"
+      design is:'
+    Options:
+    - Maturation
+    - The complete lack of a baseline for comparison; we don't know the pre-treatment
+      state.
+    - Testing
+    - Selection
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'The "One-Group Pretest-Posttest Design" is represented as:'
+    Options:
+    - X O
+    - O1 X O2
+    - O1 O2
+    - R X O
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: In the One-Group Pretest-Posttest design, a change from O1 to O2
+      can be attributed to which of the following threats to internal validity?
+    Options:
+    - History, Maturation, Testing, Instrumentation, etc.
+    - Only the treatment (X).
+    - Random assignment.
+    - The control group.
+    CorrectOptionIndex: 0
+    LevelName: pre experimental
+  - QuestionText: 'The "Static Group Comparison" design involves:'
+    Options:
+    - One group measured once.
+    - One group measured before and after a treatment.
+    - Two groups, one with treatment and one without, but no random assignment.
+    - Two randomly assigned groups.
+    CorrectOptionIndex: 2
+    LevelName: pre experimental
+  - QuestionText: 'The key weakness of the "Static Group Comparison" design is:'
+    Options:
+    - Lack of a pre-test
+    - Selection bias, because the groups may not be equivalent at the start.
+    - The cost is too high.
+    - It has too many groups.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'The main advantage of pre-experimental designs is their:'
+    Options:
+    - High internal validity
+    - Practicality, ease, and convenience to conduct in real-world settings.
+    - Ability to control all variables
+    - Complex design
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'Pre-experimental designs are also known as:'
+    Options:
+    - True experimental designs
+    - Quasi-experimental designs
+    - Weak experimental designs
+    - Factorial designs
+    CorrectOptionIndex: 2
+    LevelName: pre experimental
+  - QuestionText: In which design is it impossible to determine if the group improved
+      because there is no baseline measure?
+    Options:
+    - One-Group Pretest-Posttest
+    - Static Group Comparison
+    - One-Shot Case Study
+    - Solomon Four-Group
+    CorrectOptionIndex: 2
+    LevelName: pre experimental
+  - QuestionText: The threat of "maturation" is most relevant to which pre-experimental
+      design?
+    Options:
+    - One-Shot Case Study
+    - One-Group Pretest-Posttest
+    - Static Group Comparison
+    - All of the above
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'If subjects become tired or bored between O1 and O2, it threatens
+      validity in the One-Group Pretest-Posttest design. This is called:'
+    Options:
+    - History
+    - Maturation
+    - Testing
+    - Mortality
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'The threat of "history" refers to:'
+    Options:
+    - Events external to the experiment that occur between the pre-test and post-test.
+    - The natural aging process of subjects.
+    - The effect of taking a test on the scores of a second testing.
+    - Changes in the measurement instrument.
+    CorrectOptionIndex: 0
+    LevelName: pre experimental
+  - QuestionText: 'The most significant limitation of all pre-experimental designs
+      is their:'
+    Options:
+    - High cost
+    - Low internal validity
+    - Inability to be conducted in a school
+    - Requirement for specialized equipment
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: Why is the "One-Shot Case Study" considered the weakest of all
+      pre-experimental designs?
+    Options:
+    - It has two groups.
+    - It provides no basis for comparison, neither with a pre-test nor a control
+      group.
+    - It is too expensive.
+    - It uses random assignment.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: How does the "One-Group Pretest-Posttest" design improve upon the
+      "One-Shot Case Study"?
+    Options:
+    - By adding a control group.
+    - By providing a baseline (pre-test) against which to compare the post-test results.
+    - By using random assignment.
+    - By eliminating the history threat.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: Despite having a pre-test, why is the "One-Group Pretest-Posttest"
+      design still weak?
+    Options:
+    - It is too long.
+    - Because any change from O1 to O2 could be due to the treatment OR to other
+      factors like history, maturation, or testing.
+    - It lacks a post-test.
+    - It has too many participants.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'In the "Static Group Comparison," the difference between the post-tests
+      of the two groups could be due to:'
+    Options:
+    - The treatment only.
+    - Pre-existing differences between the groups (selection bias) rather than the
+      treatment.
+    - Random assignment.
+    - The fact that both groups took a pre-test.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'A teacher uses a new teaching method and then gives a test. This
+      is an example of a:'
+    Options:
+    - One-Group Pretest-Posttest Design
+    - Static Group Comparison Design
+    - One-Shot Case Study Design
+    - True Experiment
+    CorrectOptionIndex: 2
+    LevelName: pre experimental
+  - QuestionText: 'A teacher gives a pre-test, uses a new teaching method, and then
+      gives a post-test. This is a:'
+    Options:
+    - One-Shot Case Study Design
+    - One-Group Pretest-Posttest Design
+    - Static Group Comparison Design
+    - Quasi-Experiment
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'A researcher compares the final exam scores of students who chose
+      to attend extra tutoring sessions with those who did not. This is a:'
+    Options:
+    - One-Shot Case Study
+    - One-Group Pretest-Posttest
+    - Static Group Comparison
+    - True Experiment
+    CorrectOptionIndex: 2
+    LevelName: pre experimental
+  - QuestionText: What is the primary threat to validity in the "Static Group Comparison"
+      design?
+    Options:
+    - Testing
+    - Maturation
+    - Selection
+    - History
+    CorrectOptionIndex: 2
+    LevelName: pre experimental
+  - QuestionText: 'The term "internal validity" refers to:'
+    Options:
+    - The ability to generalize findings to other settings.
+    - The extent to which we can be confident that the independent variable caused
+      the dependent variable.
+    - The consistency of the measurement.
+    - The truthfulness of the literature review.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: Which of the following is a correct representation of the Static
+      Group Comparison design?
+    Options:
+    - O1 X O2
+    - X O1 --- O2
+    - O1 O2
+    - R X O
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: "Assertion (A):\_Pre-experimental designs are a valid method for
+      establishing cause-and-effect.\_Reason (R):\_They systematically control for
+      all major threats to internal validity."
+    Options:
+    - Both A and R are true and R is the correct explanation of A.
+    - Both A and R are true but R is NOT the correct explanation of A.
+    - A is true but R is false.
+    - A is false but R is true.
+    CorrectOptionIndex: 3
+    LevelName: pre experimental
+  - QuestionText: 'A company shows an inspirational video to employees and then measures
+      their motivation. They find high motivation and conclude the video worked.
+      The flaw in this conclusion, from a design perspective, is that it uses a:'
+    Options:
+    - One-Group Pretest-Posttest Design
+    - Static Group Comparison Design
+    - One-Shot Case Study Design
+    - True Experimental Design
+    CorrectOptionIndex: 2
+    LevelName: pre experimental
+  - QuestionText: Contrast a "One-Group Pretest-Posttest" design with a "True Experimental"
+      design (like Pretest-Posttest Control Group Design).
+    Options:
+    - They are identical.
+    - The true experimental design adds random assignment to a control group, which
+      controls for internal validity threats.
+    - The pre-experimental design is more complex.
+    - The true experimental design has no pre-test.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'If participants in a One-Group Pretest-Posttest study drop out
+      before the post-test, it threatens validity through:'
+    Options:
+    - Mortality/Attrition
+    - History
+    - Testing
+    - Regression
+    CorrectOptionIndex: 0
+    LevelName: pre experimental
+  - QuestionText: 'The "Hawthorne Effect" is a potential threat in pre-experimental
+      designs because:'
+    Options:
+    - The control group might be jealous.
+    - Participants may change their behavior simply because they know they are in
+      an experiment, not because of the treatment.
+    - The researcher might be biased.
+    - The instruments are faulty.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: Which of the following is the STRONGEST pre-experimental design?
+    Options:
+    - One-Shot Case Study
+    - One-Group Pretest-Posttest
+    - Static Group Comparison
+    - They are all equally weak.
+    CorrectOptionIndex: 2
+    LevelName: pre experimental
+  - QuestionText: 'A flaw in interpreting results from a One-Group Pretest-Posttest
+      design is to:'
+    Options:
+    - Attribute any change solely to the treatment without considering rival explanations.
+    - Use a control group.
+    - Use random assignment.
+    - Conduct a pilot study.
+    CorrectOptionIndex: 0
+    LevelName: pre experimental
+  - QuestionText: 'The term "external validity" refers to generalizability. Pre-experimental
+      designs:'
+    Options:
+    - Have high external validity.
+    - Often have good external validity to the specific setting where they are conducted
+      because they are so naturalistic.
+    - Have no external validity.
+    - Are only generalizable to labs.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: The "Placebo Effect" is a concern in which pre-experimental design?
+    Options:
+    - One-Shot Case Study
+    - One-Group Pretest-Posttest
+    - Static Group Comparison
+    - All of the above
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'Pre-experimental designs are most appropriate when:'
+    Options:
+    - A definitive causal conclusion is required.
+    - The research is exploratory, and the goal is to identify promising variables
+      for future, more rigorous study.
+    - Funding is unlimited.
+    - The population is very large.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'The statistical analysis for a One-Group Pretest-Posttest design
+      often involves a:'
+    Options:
+    - Independent samples t-test
+    - Paired-samples t-test (or dependent t-test)
+    - One-way ANOVA
+    - Correlation
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'In a Static Group Comparison, the appropriate statistical test
+      would be a(n):'
+    Options:
+    - Paired-samples t-test
+    - Independent samples t-test
+    - Chi-square test
+    - Pearson's r
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'The concept of "ecological validity" is often high in pre-experimental
+      designs because they:'
+    Options:
+    - Are conducted in artificial labs.
+    - Are often conducted in natural, real-world environments.
+    - Use highly controlled procedures.
+    - Have many groups.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'A researcher should clearly state the use of a pre-experimental
+      design in the "Limitations" section to:'
+    Options:
+    - Hide the weakness of the study.
+    - Acknowledge the low internal validity and caution readers against making strong
+      causal inferences.
+    - Make the report longer.
+    - Prove their statistical skills.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'The step that can be added to a pre-experimental design to strengthen
+      it slightly is:'
+    Options:
+    - Random Assignment
+    - Adding a carefully selected comparison group
+    - Removing the pre-test
+    - Ignoring threats to validity
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'The threat of "instrumentation" is relevant when:'
+    Options:
+    - The measuring tool changes between the pre-test and post-test.
+    - Participants mature.
+    - An external event occurs.
+    - Participants drop out.
+    CorrectOptionIndex: 0
+    LevelName: pre experimental
+  - QuestionText: 'The "One-Group Pretest-Posttest" design is also sometimes called
+      a:'
+    Options:
+    - Static Group Comparison
+    - Before-After Design
+    - Cross-Sectional Design
+    - Longitudinal Design
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'The fundamental question that a pre-experimental design cannot
+      answer definitively is:'
+    Options:
+    - What is the mean score?
+    - Did the treatment cause the change?
+    - How many participants were there?
+    - What was the research question?
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'If a pre-test influences the scores on the post-test (e.g., through
+      practice), this is the threat of:'
+    Options:
+    - History
+    - Testing
+    - Maturation
+    - Regression
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'The term "confounding variable" is best described as a variable
+      that:'
+    Options:
+    - Is the main independent variable.
+    - Is the dependent variable.
+    - Varies systematically with the independent variable and could be the true cause
+      of the effect.
+    - Is kept constant.
+    CorrectOptionIndex: 2
+    LevelName: pre experimental
+  - QuestionText: 'The logical structure of pre-experimental designs is often:'
+    Options:
+    - Post hoc, ergo propter hoc (after this, therefore because of this).
+    - Correlational.
+    - Deductive.
+    - Inductive.
+    CorrectOptionIndex: 0
+    LevelName: pre experimental
+  - QuestionText: 'A key ethical advantage of some pre-experimental designs is that
+      they:'
+    Options:
+    - Always require deception.
+    - Can be used when it is unethical to withhold a treatment from a control group.
+    - Guarantee beneficial results for participants.
+    - Are the most rigorous.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'The recommended next step after conducting a study with a pre-experimental
+      design is usually to:'
+    Options:
+    - Publish the results as conclusive evidence.
+    - Conduct a true experiment or a strong quasi-experiment to verify the findings.
+    - Abandon the research area.
+    - Change the hypothesis.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'In the hierarchy of evidence for intervention studies, pre-experimental
+      designs are ranked:'
+    Options:
+    - At the top, as the most reliable.
+    - At the bottom, as the least reliable.
+    - In the middle.
+    - The same as randomized controlled trials.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental
+  - QuestionText: 'The most critical takeaway for a researcher using a pre-experimental
+      design is to:'
+    Options:
+    - Overstate their conclusions.
+    - Interpret the results with extreme caution and avoid definitive causal statements.
+    - Ignore all limitations.
+    - Focus only on the statistical significance.
+    CorrectOptionIndex: 1
+    LevelName: pre experimental

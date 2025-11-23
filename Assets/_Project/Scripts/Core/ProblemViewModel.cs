@@ -141,7 +141,8 @@ public class ProblemViewModel<TProblem, TSolution, TResult, TMaster> : IDisposab
             var type = provider.GetResultType();
             OnResultSubmited?.Invoke(type);
 
-            if (type == ResultType.Correct || type == ResultType.LastQuestionCorrect)
+            if (type == ResultType.Correct || type == ResultType.LastQuestionCorrect
+                || type == ResultType.Incorrect)
             {
                 PauseTimer();
                 if (IsLevelComplete)

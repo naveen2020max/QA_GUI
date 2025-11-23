@@ -1,0 +1,455 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7c947f0ccabb24dbf991df8e9f6d4f, type: 3}
+  m_Name: item analysis
+  m_EditorClassIdentifier: 
+  defaultQuestions:
+  - QuestionText: What is the primary purpose of item analysis in test construction?
+    Options:
+    - To select the test administrator
+    - To judge the quality of individual test items
+    - To determine the pass percentage
+    - To set the time limit for the test
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: Which of the following is a key component of item analysis?
+    Options:
+    - Item Difficulty and Item Discrimination
+    - Test Retest Reliability
+    - Face Validity
+    - Inter-Rater Reliability
+    CorrectOptionIndex: 0
+    LevelName: item analysis
+  - QuestionText: 'The Item Difficulty index (p-value) is calculated as:'
+    Options:
+    - (H + L) / N
+    - (H - L) / N
+    - (H + L) / T
+    - (H - L) / T
+    CorrectOptionIndex: 0
+    LevelName: item analysis
+  - QuestionText: 'An item difficulty index (p) of 0.0 indicates that the item is:'
+    Options:
+    - Too easy
+    - Too difficult
+    - Optimal difficulty
+    - Ambiguous
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: 'An item difficulty index (p) of 1.0 indicates that the item is:'
+    Options:
+    - Too easy
+    - Too difficult
+    - Optimal difficulty
+    - A good discriminator
+    CorrectOptionIndex: 0
+    LevelName: item analysis
+  - QuestionText: 'The ideal range for the item difficulty index (p) for a multiple-choice
+      question is typically considered to be:'
+    Options:
+    - 0.00 to 0.20
+    - 0.20 to 0.40
+    - 0.30 to 0.70
+    - 0.80 to 1.00
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: 'The Item Discrimination index indicates how well an item:'
+    Options:
+    - Is written in clear language
+    - Differentiates between high and low achievers
+    - Is related to the syllabus
+    - Is difficult for students
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: How is the item discrimination index (D) calculated?
+    Options:
+    - (H - L) / N
+    - (H + L) / N
+    - (H - L) / (N/2)
+    - (H + L) / T
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: 'A positive discrimination index (e.g., D=+0.40) indicates that:'
+    Options:
+    - More low scorers answered correctly
+    - The item was too easy
+    - More high scorers answered correctly
+    - The item was too difficult
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: 'A negative discrimination index indicates that:'
+    Options:
+    - The item is too easy
+    - The item is too difficult
+    - More low scorers answered correctly than high scorers
+    - The item has optimal difficulty
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: What is the ideal value for a good item discrimination index (D)?
+    Options:
+    - As close to 0 as possible
+    - As high as possible (close to +1)
+    - As low as possible (close to -1)
+    - Exactly 0.5
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: Which statistical technique is commonly used to calculate item-total
+      correlation?
+    Options:
+    - ANOVA
+    - t-test
+    - Point-Biserial Correlation
+    - Pearson Correlation
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: 'The purpose of analyzing distractors in a multiple-choice question
+      is to:'
+    Options:
+    - Make the test longer
+    - Identify non-functional distractors
+    - Increase the difficulty level
+    - Reduce the number of options
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: 'If a distractor in a multiple-choice question is selected by no
+      examinees, it is called:'
+    Options:
+    - A key
+    - A functional distractor
+    - A non-functional distractor
+    - A biased option
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: Item analysis is most directly related to which quality of a test?
+    Options:
+    - Objectivity
+    - Reliability
+    - Validity
+    - Usability
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: If an item has a difficulty index (p) of 0.90, what does it imply?
+    Options:
+    - It is an excellent item
+    - It is very difficult
+    - It is very easy and likely has low discrimination
+    - It has maximum discrimination
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: 'An item with a discrimination index (D) of 0.00 most likely means:'
+    Options:
+    - Only the high group got it right
+    - Only the low group got it right
+    - Both groups performed equally on the item
+    - The item was not attempted
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: Why is an item with a very high difficulty index (e.g., p = 0.95)
+      often considered undesirable?
+    Options:
+    - It is too long
+    - It reduces the test's reliability by not contributing to variance
+    - It is always ambiguous
+    - It is too expensive to score
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: 'A point-biserial correlation of +0.35 for an item suggests that:'
+    Options:
+    - The item is negatively discriminating
+    - The item has no relationship with the total score
+    - Students with high total scores tend to get the item right
+    - The item is too difficult
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: 'If a distractor is selected more frequently by the high-scoring
+      group than the low-scoring group, the problem could be that the distractor
+      is:'
+    Options:
+    - Too easy
+    - Too difficult
+    - Ambiguous or miskeyed
+    - Non-functional
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: 'The process of item analysis ultimately helps in:'
+    Options:
+    - Shortening the test administration time
+    - Creating a norm table
+    - Building a bank of quality test items
+    - Increasing the number of examinees
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: How does eliminating an item with a negative discrimination index
+      affect test reliability?
+    Options:
+    - Decreases reliability
+    - Has no effect on reliability
+    - Increases reliability
+    - Makes reliability zero
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: For an item with a p-value of 0.50, what is the maximum possible
+      discrimination index (D)?
+    Options:
+    - 0
+    - 0.5
+    - 1
+    - 2
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: What does a high positive item-total correlation indicate?
+    Options:
+    - The item is measuring something different from the rest of the test
+    - The item is consistent with what the test as a whole is measuring
+    - The item is too easy
+    - The item should be removed
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: 'If an item has a low difficulty (p=0.15) and a low discrimination
+      (D=0.05), the best course of action is to:'
+    Options:
+    - Retain the item as it is
+    - Discard the item
+    - Review and revise the item
+    - Make it a bonus question
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: 'The relationship between item difficulty and item discrimination
+      is such that:'
+    Options:
+    - They are independent of each other
+    - Maximum discrimination is possible only at p=0.50
+    - Items with p=1.0 have the highest discrimination
+    - Easy items always have high discrimination
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: 'In the context of item analysis, "H" and "L" refer to:'
+    Options:
+    - The highest and lowest possible scores
+    - The number of high and low scorers who answered correctly
+    - The height and length of the test
+    - The hard and easy items
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: A test developer finds that all items have high p-values (>0.80).
+      What is the most likely consequence for the test's score distribution?
+    Options:
+    - It will be normally distributed
+    - It will be negatively skewed
+    - It will be positively skewed
+    - It will be bimodal
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: What is the implication if the point-biserial correlation for the
+      correct option is negative?
+    Options:
+    - The item is very easy
+    - The item is valid
+    - High scorers on the test are less likely to answer the item correctly
+    - The distractor analysis is faulty
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: 'Item analysis data is most useful for the teacher for:'
+    Options:
+    - Grading on a curve
+    - Providing feedback for improving instruction and assessment
+    - Ranking the students
+    - Reporting to parents
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: A multiple-choice item has a p-value of 0.40 and a discrimination
+      index of 0.45. One distractor is chosen by 50% of the low group and 5% of the
+      high group. What is the best interpretation?
+    Options:
+    - The item is too easy and should be discarded.
+    - The item is of good quality; the distractor is functioning well.
+    - The item is miskeyed; the distractor might be the correct answer.
+    - The item is too difficult and has low discrimination.
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: An item has a very high difficulty (p=0.10) but a strong positive
+      discrimination (D=0.40). What is the most appropriate decision?
+    Options:
+    - Discard the item immediately.
+    - Retain the item if it measures a crucial, advanced concept.
+    - Make the item easier to increase the p-value.
+    - Use it only for bonus points.
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: If the item-total correlation for an item is high and positive,
+      but its discrimination index (D) is low, what is a possible explanation?
+    Options:
+    - The groups (H and L) were not distinct enough.
+    - The item is miskeyed.
+    - The point-biserial calculation is wrong.
+    - The test has low reliability.
+    CorrectOptionIndex: 0
+    LevelName: item analysis
+  - QuestionText: A test is found to have low reliability. Item analysis reveals
+      that over half of the items have discrimination indices near zero. What is
+      the primary cause of the low test reliability?
+    Options:
+    - The test was too long.
+    - The scoring was subjective.
+    - The items are not consistently measuring the same underlying construct.
+    - The instructions were unclear.
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: After revising a test based on item analysis, the reliability coefficient
+      increased. This demonstrates the improvement of which type of validity?
+    Options:
+    - Content Validity
+    - Construct Validity
+    - Criterion Validity
+    - Face Validity
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: In a norm-referenced test, an item with a p-value of 0.98 is retained.
+      What is the most plausible justification?
+    Options:
+    - It has high discrimination power.
+    - It is a crucial foundational item that all students are expected to know.
+    - It is the first item in the test.
+    - It reduces test anxiety.
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: Two items have identical high discrimination indices (D=0.50).
+      Item X has a p-value of 0.45, and Item Y has a p-value of 0.85. Which item
+      contributes more to the test's reliability and why?
+    Options:
+    - Item X, because it has optimal difficulty for maximum variance.
+    - Item Y, because it is easier and boosts morale.
+    - Both contribute equally as they have the same discrimination.
+    - Cannot be determined from the given information.
+    CorrectOptionIndex: 0
+    LevelName: item analysis
+  - QuestionText: An item analysis shows that a distractor has a higher point-biserial
+      correlation than the correct key. What is the most definitive conclusion?
+    Options:
+    - The item is too easy.
+    - The item is too difficult.
+    - The answer key is likely incorrect (miskeyed).
+    - The discrimination index will be negative.
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: A teacher wants to create a test that effectively ranks students.
+      Based on item analysis principles, what should be the ideal profile of the
+      items?
+    Options:
+    - Mostly easy items (p > 0.80)
+    - Mostly difficult items (p < 0.20)
+    - A mix of items with p-values around 0.50 and high discrimination
+    - Items with low discrimination to avoid frustration
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: How does increasing the number of options in a multiple-choice
+      item from 4 to 5 typically affect the item's difficulty index (p) and the chance
+      score?
+    Options:
+    - p increases, chance score increases
+    - p decreases, chance score decreases
+    - p increases, chance score decreases
+    - p decreases, chance score increases
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: If an item has a very low p-value (0.10) and a near-zero discrimination
+      index, which diagnostic action should come first?
+    Options:
+    - Check for miskeying.
+    - Increase the time limit.
+    - Discard the item without review.
+    - Use it for a practice test.
+    CorrectOptionIndex: 0
+    LevelName: item analysis
+  - QuestionText: A test has high reliability. Item analysis for one item shows a
+      near-zero item-total correlation. What does this imply about the item?
+    Options:
+    - It is a high-quality item.
+    - It is measuring a different construct from the rest of the test.
+    - It is too easy.
+    - It is too difficult.
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: For a mastery test (criterion-referenced), which combination of
+      p-value and D-index is most desirable for a core competency item?
+    Options:
+    - p > 0.90, D > 0.40
+    - p > 0.90, D ~ 0.00
+    - p ~ 0.50, D > 0.40
+    - p < 0.30, D > 0.40
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: The distribution of scores from a test is leptokurtic (peaked).
+      What does item analysis likely reveal about the majority of the items?
+    Options:
+    - p-values are widely spread from 0.0 to 1.0
+    - p-values are clustered around 0.5
+    - p-values are clustered at the extremes (very high or very low)
+    - Discrimination indices are negative
+    CorrectOptionIndex: 2
+    LevelName: item analysis
+  - QuestionText: "When comparing the discrimination power of a difficult item (p=0.25)
+      and an easy item (p=0.75), which one has a higher\_potential\_for discrimination
+      and why?"
+    Options:
+    - The difficult item, because it challenges students.
+    - The easy item, because it boosts scores.
+    - Both have equal potential.
+    - The difficult item, because it can better separate the top group from the middle.
+    CorrectOptionIndex: 3
+    LevelName: item analysis
+  - QuestionText: After instruction, a teacher re-administers a test. An item's p-value
+      changed from 0.30 to 0.80. What is the best interpretation of this change?
+    Options:
+    - The item was faulty in the first administration.
+    - The instruction was effective on the content measured by that item.
+    - The item discrimination has decreased.
+    - The test reliability has been compromised.
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: If all distractors in a multiple-choice item have a negative point-biserial
+      correlation, what does this indicate?
+    Options:
+    - The item is poorly constructed.
+    - The item is an excellent discriminator.
+    - The item is too easy.
+    - The answer key is correct.
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: 'The primary ethical consideration when using item analysis is
+      to:'
+    Options:
+    - Ensure the test is long enough.
+    - Protect the confidentiality of individual student responses.
+    - Use only items with high p-values.
+    - Report only the final scores, not item statistics.
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: In the context of computer adaptive testing (CAT), how is item
+      analysis fundamental?
+    Options:
+    - It determines the font size of the questions.
+    - It establishes the initial item parameters (difficulty, discrimination) for
+      the item bank.
+    - It sets the time limit for each item.
+    - It replaces the need for a test blueprint.
+    CorrectOptionIndex: 1
+    LevelName: item analysis
+  - QuestionText: A researcher wants to shorten a test without sacrificing reliability.
+      Using item analysis results, which items should be removed?
+    Options:
+    - Items with the highest p-values.
+    - Items with the lowest discrimination indices.
+    - The items in the middle of the test.
+    - A random selection of items.
+    CorrectOptionIndex: 1
+    LevelName: item analysis
